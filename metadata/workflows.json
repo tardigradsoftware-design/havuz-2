@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:01:36+00:00",
+  "generated_at": "2026-09-16T01:05:33+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "records": 11,
   "$schema": "../schemas/workflow.schema.json",

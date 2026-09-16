@@ -10,6 +10,8 @@ status: active
 confidence: high
 source_type: reference
 updated: 2026-09-15
+verified_at: 2026-09-15
+expires_at: 2027-03-15
 tags: [example, ai-slop, dashboard, ui, before-after, contrast, typography, design-tokens]
 ---
 
@@ -43,6 +45,11 @@ The layout was generated in one pass from the prompt "make a modern analytics da
 
 ### Measured state
 
+Every ratio below is computed with the WCAG 2.x relative-luminance formula
+(`L = 0.2126R + 0.7152G + 0.0722B` on sRGB-linearised channels, contrast
+`(L1 + 0.05) / (L2 + 0.05)`), rounded to two decimals. They are reproducible
+from the hex pairs alone; none is an eyeball estimate.
+
 | Property | Value | Problem |
 |---|---|---|
 | Type sizes in use | 11, 12, 13, 13.5, 14, 15, 16, 18, 20, 24, 28, 32 px | 12 sizes, no scale |
@@ -52,10 +59,10 @@ The layout was generated in one pass from the prompt "make a modern analytics da
 | Grey scale | #f9fafb #f3f4f6 #e5e7eb #d1d5db #9ca3af #6b7280 #4b5563 #374151 #1f2937 #111827 | A full off-the-shelf grey ramp |
 | Body text contrast | #6b7280 on #ffffff = 4.83:1 | Passes AA for normal text at 4.5:1, marginally |
 | Secondary label contrast | #9ca3af on #ffffff = 2.54:1 | **Fails AA** (needs 4.5:1) |
-| Placeholder contrast | #d1d5db on #ffffff = 1.61:1 | **Fails AA** |
-| Disabled button | #f3f4f6 on #ffffff, text #9ca3af = 2.4:1 | Exempt as inactive, but visually absent |
+| Placeholder contrast | #d1d5db on #ffffff = 1.47:1 | **Fails AA** |
+| Disabled button | #f3f4f6 on #ffffff, text #9ca3af on #f3f4f6 = 2.31:1 | Exempt as inactive, but visually absent |
 | Icon contrast (nav, inactive) | #9ca3af on #ffffff = 2.54:1 | **Fails** the 3:1 non-text requirement |
-| Focus indicator | `outline: none`, replaced by `box-shadow: 0 0 0 1px #e5e7eb` | 1.12:1 against white — **no visible focus** |
+| Focus indicator | `outline: none`, replaced by `box-shadow: 0 0 0 1px #e5e7eb` | 1.24:1 against white — **no visible focus** |
 
 ### Rubric score
 
@@ -81,8 +88,8 @@ The layout was generated in one pass from the prompt "make a modern analytics da
 | Spacing reduced to 4, 8, 16, 24, 32 px (spacing step 4, with a doubling relationship) | 20 ad-hoc values | Card padding 16, gutters 24, section separation 32. The relationship is now legible |
 | Font stack reduced to one family, Inter with a system fallback | 4 stacks | Four stacks meant four different metrics for the same nominal size |
 | Grey ramp reduced to 5 values mapped to roles: surface, surface-raised, border, text-secondary, text-primary | 10-value ramp | Roles, not shades. A shade with no role is a shade nobody can defend |
-| `#9ca3af` → `#5b6472` for secondary text (6.02:1 on white) | Fails AA at 2.54:1 | Secondary text carries the units and comparison periods — it is not decoration |
-| Placeholder `#d1d5db` → `#6b7280` (4.83:1) | Fails AA at 1.61:1 | A placeholder that cannot be read is not a hint |
+| `#9ca3af` → `#5b6472` for secondary text (5.98:1 on white) | Fails AA at 2.54:1 | Secondary text carries the units and comparison periods — it is not decoration |
+| Placeholder `#d1d5db` → `#6b7280` (4.83:1) | Fails AA at 1.47:1 | A placeholder that cannot be read is not a hint |
 | Focus indicator: `outline: 2px solid #1d4ed8; outline-offset: 2px` | `outline: none` plus an invisible shadow | 2px at ≥3:1 against both the surface and the adjacent colour, visible on every focusable element |
 | Chart: added a text summary above it and a data table toggle | Decorative chart with no alternative | The trend and the two values that matter are stated in text; the table is reachable by keyboard |
 | Metric labels now read "Revenue, last 30 days" with "+12.4% vs previous 30 days" | Single-word labels | The comparison period is what makes a number interpretable |
@@ -122,11 +129,11 @@ The layout was generated in one pass from the prompt "make a modern analytics da
 | Font families | 1 (Inter, system fallback) | — |
 | Border radii | 4, 8 px | 2 values with a size relationship |
 | Colour roles | surface, surface-raised, border, text-primary, text-secondary, accent, accent-hover, positive, negative | 9 roles, each with one value |
-| Body text contrast | #1f2937 on #ffffff | 14.7:1 — AAA |
-| Secondary text contrast | #5b6472 on #ffffff | 6.02:1 — AA |
+| Body text contrast | #1f2937 on #ffffff | 14.68:1 — AAA |
+| Secondary text contrast | #5b6472 on #ffffff | 5.98:1 — AA |
 | Placeholder contrast | #6b7280 on #ffffff | 4.83:1 — AA |
-| Focus indicator | #1d4ed8 2px, offset 2px | 6.29:1 against white, 3.1:1 against the raised surface |
-| Non-text contrast (icons, borders that convey state) | ≥ 3.1:1 | Passes |
+| Focus indicator | #1d4ed8 2px, offset 2px | 6.70:1 against white, 6.41:1 against the raised surface (#f9fafb) |
+| Non-text contrast (icons, borders that convey state) | 3:1 required; worst measured pairing 6.09:1 (#1d4ed8 on #f3f4f6) | Passes |
 | Chart alternative | Text summary plus a toggleable data table | Present |
 | Primary element per view | The date-range control (page), the revenue figure (metric block) | Exactly one each |
 

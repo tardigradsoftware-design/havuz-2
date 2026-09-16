@@ -1,4 +1,5 @@
 # --- generated / local caches (never commit) ---
+metadata/staleness.json
 .cache/
 *.pyc
 __pycache__/

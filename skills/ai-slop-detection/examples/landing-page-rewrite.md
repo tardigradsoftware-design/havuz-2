@@ -11,6 +11,8 @@ status: active
 confidence: high
 source_type: reference
 updated: 2026-09-15
+verified_at: 2026-09-15
+expires_at: 2027-03-15
 tags: [example, ai-slop, landing-page, copywriting, cro, rewrite, content]
 ---
 

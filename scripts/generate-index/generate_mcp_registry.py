@@ -6,7 +6,14 @@ from live GitHub REST API calls) and emits, for every record in the `mcp-servers
 category:
 
   * knowledge/mcp/registry/<slug>.md  — a graded registry entry
-  * metadata/tools.json               — the machine-readable registry
+
+metadata/tools.json is NOT written here. It is derived from these markdown files by
+scripts/generate-index/extract_registries.py, exactly as skills.json is derived from
+skills/*/SKILL.md. Two writers for one file is how a registry silently drifts from
+the documents it claims to describe, so the chain is one-directional:
+
+    metadata/repositories.json  ->  knowledge/mcp/registry/*.md  ->  metadata/tools.json
+    (GitHub REST API)               (this script)                    (extract_registries.py)
 
 Honesty rules this generator is built around, because an MCP registry that guesses
 is worse than no registry:
@@ -44,7 +51,6 @@ from typing import Any, Dict, List, Optional
 ROOT = Path(__file__).resolve().parents[2]
 REPOS = ROOT / "metadata" / "repositories.json"
 OUT_MD = ROOT / "knowledge" / "mcp" / "registry"
-OUT_JSON = ROOT / "metadata" / "tools.json"
 
 NOW = datetime.now(timezone.utc)
 TODAY = NOW.date().isoformat()
@@ -436,18 +442,6 @@ def main() -> int:
     recs.sort(key=lambda r: (-(r.get("stars") or 0), r["slug"]))
     tools = [record_to_tool(r) for r in recs]
 
-    json_blob = {
-        "$schema": "../schemas/mcp.schema.json",
-        "generated_at": NOW.isoformat(timespec="seconds"),
-        "generator": "scripts/generate-index/generate_mcp_registry.py",
-        "source_of_truth": "metadata/repositories.json (GitHub REST API)",
-        "verification_method": "github-rest-api",
-        "records": len(tools),
-        "capability_evidence": "unverified — transport/tool/resource/prompt lists are not exposed by the GitHub API and are intentionally empty",
-        "tools": tools,
-    }
-    new_json = json.dumps(json_blob, indent=2, ensure_ascii=False) + "\n"
-
     OUT_MD.mkdir(parents=True, exist_ok=True)
     md_files: Dict[str, str] = {}
     for t, r in zip(tools, recs):
@@ -455,12 +449,14 @@ def main() -> int:
         md_files[fn] = render_md(t, r)
 
     if args.check:
+        def norm(s: str) -> str:
+            """Compare content, not the clock. Mirrors the CI drift job."""
+            return "\n".join(l for l in s.splitlines() if not l.lstrip().startswith('"generated_at"'))
+
         drift = []
-        if OUT_JSON.exists() and OUT_JSON.read_text() != new_json:
-            drift.append("metadata/tools.json")
         for fn, txt in md_files.items():
             p = OUT_MD / fn
-            if not p.exists() or p.read_text() != txt:
+            if not p.exists() or norm(p.read_text()) != norm(txt):
                 drift.append(f"knowledge/mcp/registry/{fn}")
         stale = [p.name for p in OUT_MD.glob("*.md") if p.name not in md_files]
         if stale:
@@ -473,7 +469,6 @@ def main() -> int:
         print(f"MCP registry in sync: {len(tools)} entries")
         return 0
 
-    OUT_JSON.write_text(new_json)
     for fn, txt in md_files.items():
         (OUT_MD / fn).write_text(txt)
     for p in OUT_MD.glob("*.md"):
@@ -485,7 +480,7 @@ def main() -> int:
     risky = [t["repository"] for t in tools if t.get("license_risk") not in (None, "none")]
     arch = [t["repository"] for t in tools if t["production_readiness"] == "deprecated"]
     print(f"  knowledge/mcp/registry/          {len(tools):>4} entries")
-    print(f"  metadata/tools.json              {len(tools):>4} records")
+    print("  metadata/tools.json              regenerate via extract_registries.py")
     print(f"  purpose needs human expansion:   {thin:>4}")
     print(f"  license risk (do not redistribute): {len(risky)} -> {', '.join(risky) or 'none'}")
     print(f"  archived (do not adopt):         {len(arch)} -> {', '.join(arch) or 'none'}")
