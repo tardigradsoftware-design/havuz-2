@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/model.schema.json",
+  "title": "Model Card Record",
+  "description": "Model facts. 'latest' is never stored as a static claim: every field carries verified_at + source.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "model", "provider", "confidence", "verified_at"],
+  "properties": {
+    "id": { "$ref": "common.defs.json#/$defs/id" },
+    "model": { "type": "string" },
+    "family": { "type": ["string", "null"] },
+    "provider": { "type": "string" },
+    "version": { "type": ["string", "null"] },
+    "api_identifier": { "type": ["string", "null"] },
+    "release_date": { "$ref": "common.defs.json#/$defs/date" },
+    "open_weights": { "type": "boolean" },
+    "weights_url": { "type": ["string", "null"] },
+    "license": { "type": ["string", "null"] },
+    "context_window": { "type": ["integer", "null"], "minimum": 0 },
+    "max_output_tokens": { "type": ["integer", "null"], "minimum": 0 },
+    "modalities": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text_in": { "type": "boolean" },
+        "text_out": { "type": "boolean" },
+        "image_in": { "type": "boolean" },
+        "image_out": { "type": "boolean" },
+        "audio_in": { "type": "boolean" },
+        "audio_out": { "type": "boolean" },
+        "video_in": { "type": "boolean" },
+        "tool_calls": { "type": "boolean" }
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "tool_use": { "type": "string", "enum": ["strong", "adequate", "weak", "none", "unknown"] },
+        "structured_output": { "type": "string", "enum": ["native-json-schema", "json-mode", "prompted", "none", "unknown"] },
+        "reasoning": { "type": "string", "enum": ["native-reasoning", "prompted", "unknown"] },
+        "coding": { "type": "string", "enum": ["strong", "adequate", "weak", "unknown"] },
+        "long_context": { "type": "string", "enum": ["reliable", "degrades", "unverified", "unknown"] },
+        "vision": { "type": "string", "enum": ["strong", "adequate", "weak", "none", "unknown"] },
+        "agentic": { "type": "string", "enum": ["strong", "adequate", "weak", "unknown"] },
+        "instruction_following": { "type": "string", "enum": ["strict", "adequate", "loose", "unknown"] }
+      }
+    },
+    "latency": { "type": ["string", "null"] },
+    "cost": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input_per_mtok_usd": { "type": ["number", "null"] },
+        "output_per_mtok_usd": { "type": ["number", "null"] },
+        "cached_input_per_mtok_usd": { "type": ["number", "null"] },
+        "currency": { "type": "string" },
+        "cost_verified_at": { "$ref": "common.defs.json#/$defs/date" },
+        "cost_source": { "type": ["string", "null"] }
+      }
+    },
+    "known_limitations": { "type": "array", "items": { "type": "string" } },
+    "failure_modes": { "type": "array", "items": { "type": "string" } },
+    "best_for": { "type": "array", "items": { "type": "string" } },
+    "avoid_for": { "type": "array", "items": { "type": "string" } },
+    "prompting_notes": { "type": "array", "items": { "type": "string" } },
+    "benchmark_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["benchmark"],
+        "properties": {
+          "benchmark": { "type": "string" },
+          "score": { "type": ["number", "string", "null"] },
+          "reported_by": { "type": "string", "enum": ["vendor", "third-party", "this-repo"] },
+          "source": { "type": ["string", "null"] },
+          "verified_at": { "$ref": "common.defs.json#/$defs/date" },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "official_docs": { "type": ["string", "null"] },
+    "model_card": { "type": ["string", "null"] },
+    "system_card": { "type": ["string", "null"] },
+    "technical_report": { "type": ["string", "null"] },
+    "huggingface": { "type": ["string", "null"] },
+    "tags": { "$ref": "common.defs.json#/$defs/tags" },
+    "confidence": { "$ref": "common.defs.json#/$defs/confidence" },
+    "claim_type": { "$ref": "common.defs.json#/$defs/claimType" },
+    "sources": { "type": "array", "items": { "$ref": "common.defs.json#/$defs/sourceRef" } },
+    "provenance": { "$ref": "common.defs.json#/$defs/provenance" },
+    "verified_at": { "$ref": "common.defs.json#/$defs/date" },
+    "expires_at": { "$ref": "common.defs.json#/$defs/date" }
+  }
+}

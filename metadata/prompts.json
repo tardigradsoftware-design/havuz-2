@@ -1,0 +1,275 @@
+{
+  "generated_at": "2026-09-16T09:15:13+00:00",
+  "generator": "scripts/generate-index/extract_registries.py",
+  "records": 2,
+  "$schema": "../schemas/prompt.schema.json",
+  "prompts": [
+    {
+      "id": "prompt-deep-research-loop",
+      "name": "Deep research loop",
+      "task": "Answer a research question with a graded, cited evidence set rather than an impression — running retrieval, verification, gap analysis and synthesis as a loop that stops on a stated saturation condition rather than on exhaustion.",
+      "use_case": "A question whose answer will drive an engineering decision, where being wrong is costly and where the agent must not present an unverified claim as established. Suited to technology selection, vendor or library evaluation, state-of-practice questions, and any question where sources conflict.",
+      "category": "research",
+      "status": "active",
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "tags": [
+        "research",
+        "prompts",
+        "verification",
+        "evidence",
+        "citations",
+        "deep-research",
+        "synthesis"
+      ],
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "model_sensitivity": "portable",
+      "techniques": [
+        "decomposition",
+        "role-priming",
+        "constraint-list",
+        "reflection",
+        "critique-revision",
+        "structured-output",
+        "rubric-scoring"
+      ],
+      "variables": [
+        {
+          "name": "question",
+          "required": true,
+          "description": "The research question, phrased so that an answer would be checkable."
+        },
+        {
+          "name": "decision",
+          "required": true,
+          "description": "What decision the answer will inform. Determines what precision is needed and where."
+        },
+        {
+          "name": "constraints",
+          "required": false,
+          "description": "Version, platform, budget, jurisdiction, deadline — anything that bounds the answer."
+        },
+        {
+          "name": "budget",
+          "required": false,
+          "description": "Maximum retrieval depth or iterations before the loop must stop and report."
+        },
+        {
+          "name": "known",
+          "required": false,
+          "description": "What is already established, so the loop does not re-derive it."
+        }
+      ],
+      "required_context": [
+        "Access to primary sources: official documentation, repositories, papers, vendor pages",
+        "The source-scoring rules and their hard overrides",
+        "The freshness windows per claim class",
+        "The exclusion policy for leaked or improperly obtained material"
+      ],
+      "prompt": "You are a research analyst producing an evidence set that will inform an engineering decision. Your\noutput will be checked against the sources you cite. A claim you cannot support is worse than no claim,\nbecause it will be acted on.\n\nQUESTION\n  {question}\n\nDECISION THIS INFORMS\n  {decision}\n\nCONSTRAINTS\n  {constraints}\n\nALREADY ESTABLISHED (do not re-derive)\n  {known}\n\nBUDGET\n  {budget}\n\n──────────────────────────────────────────────────────────────\nPROCEDURE — follow it in order and report where you deviated\n──────────────────────────────────────────────────────────────\n\n1. DECOMPOSE BEFORE RETRIEVING.\n   Restate the question as 3-7 sub-questions, each individually answerable with a checkable answer.\n   For each, state what kind of source would settle it and what would count as sufficient evidence.\n   Do not retrieve yet.\n\n2. RETRIEVE FOR PRIMARY SOURCES, NOT FOR ANSWERS.\n   For each sub-question, go to the source that mints the fact: the specification, the official\n   documentation for the exact version, the repository, the paper, the vendor's own page. A secondary\n   source is a lead to a primary one, not a substitute for it.\n   Record for every source: URL, publisher, date, version it describes, and whether you reached it\n   directly or are relying on a summary of it.\n\n3. VERIFY IDENTITY AND DATE.\n   Confirm the document you reached is the one you think it is: title, authors or publisher,\n   identifier, version, date. Aggregators return wrong metadata for valid identifiers. Then judge the\n   date against the CLAIM's shelf life, not the source's prestige:\n     30 days   pricing, quotas, rate limits, model availability\n     90 days   framework and protocol APIs, model capability, framework defaults, browser behaviour\n     6 months  stable library APIs, CI/CD tooling, cloud service features\n     12 months specifications, language semantics, design principles\n     none      mathematical results, complexity, published findings (invalidated by retraction, not\n               by time)\n   Anything outside its window is either re-verified or reported as stale.\n\n4. EXTRACT CLAIMS, NOT SUMMARIES.\n   Write each finding as a single checkable claim. Tag each one:\n     claim_type      fact | recommendation | experiment | opinion | hypothesis\n     evidence_level  primary-source-verified | official-docs | peer-reviewed | corroborated |\n                     secondary | community | unverified\n     confidence      very-high | high | medium | low\n   Then attach the specific source that supports THAT claim. A reference list at the end supports\n   nothing.\n\n5. SEEK INDEPENDENT CORROBORATION.\n   For any claim that will carry weight in the decision, find a second source with different\n   provenance. Different provenance — not a different URL. Three blogs restating one changelog are\n   one source. Record when corroboration does not exist; single-sourced is a finding, not a defect\n   to hide.\n\n6. RESOLVE CONFLICTS BY PRECEDENCE, AND RECORD THEM.\n   When sources disagree, apply this order:\n     primary source reached directly, current for the version in question\n     official documentation from the maintainer or standards body\n     peer-reviewed research with a published method\n     independent corroboration from a party with no stake\n     reputable secondary analysis\n     community sources\n     unsourced model output → label it GENERATED and do not present it as verified\n   Higher wins. Equal rank with a genuine disagreement is a CONFLICT: report both, state which you\n   relied on and why, and say what would settle it. Never silently drop the minority view.\n\n7. SELF-CRITIQUE BEFORE SYNTHESISING.\n   Attack your own evidence set:\n     - Which claim would change the decision if it were wrong? Re-verify that one first.\n     - Where am I relying on one source?\n     - What did I not look for, because it would have been inconvenient?\n     - Which claim is really my own inference dressed as a finding?\n     - What would a competent person who disagrees with this answer point to?\n   Record the answers. Add retrieval to close any gap that matters.\n\n8. STOP ON SATURATION, NOT ON EXHAUSTION.\n   Stop when either:\n     (a) two consecutive retrieval rounds add no claim that changes the answer or its confidence, or\n     (b) the budget is reached.\n   Then report what remains unresolved. An incomplete answer with a stated gap is usable; a complete\n   answer with unstated gaps is not.\n\n──────────────────────────────────────────────────────────────\nOUTPUT — in this order\n──────────────────────────────────────────────────────────────\n\nA. THE ANSWER\n   Direct response to the question, with an overall confidence and the single largest caveat.\n   State what the answer implies for the DECISION named above. If the evidence does not support a\n   recommendation, say so and say what would.\n\nB. THE ANSWER AGAINST THE CONSTRAINTS\n   Which constraints are satisfied, which are not, and which the evidence could not address.\n\nC. CLAIM TABLE\n   | # | Claim | claim_type | evidence_level | confidence | Source(s) reached | verified_at |\n   One row per claim. Every source listed must have been reached directly; mark any that were not.\n\nD. CONFLICTS\n   For each: the sources, what each says, the precedence applied, what you relied on, and what would\n   settle it. If there were no conflicts, say whether that is because sources agreed or because only\n   one source was found for each claim.\n\nE. UNKNOWN\n   What you could not establish, why, and what would be needed. This section is required. If it is\n   empty, explain why nothing about a question of this kind is unknown — that explanation will\n   usually reveal something that is.\n\nF. METHOD\n   The sub-questions, the sources consulted and rejected, the number of retrieval rounds, where you\n   deviated from this procedure and why, and the saturation condition that stopped you.\n\nG. THE ANSWER AGAINST THE DECISION, RESTATED\n   Two or three sentences: what to do, what to check before doing it, and what would make you wrong.",
+      "expected_output": "A seven-part report: the answer with an overall confidence and its implication for the stated decision; the answer against each constraint; a claim table where every row carries claim_type, evidence_level, confidence and the sources actually reached with a verification date; the conflicts found with the precedence rule applied and what would settle each; an explicit UNKNOWN section; the method followed including dead ends and deviations; and the recommendation restated against the decision.",
+      "output_format": "markdown",
+      "cacheable_prefix": true,
+      "estimated_tokens": 1097,
+      "evaluation": {
+        "method": "Run against five research questions of differing difficulty, each with a known-good evidence set prepared by a human. Score: every claim has a reached source that supports it; conflicts are reported rather than silently resolved; at least one UNKNOWN entry exists for non-trivial questions; recency is judged against the claim shelf life; the answer addresses the stated decision rather than a broader question.",
+        "runs": 0,
+        "pass_rate": null
+      },
+      "failure_modes": [
+        "Citation-shaped output: references listed at the end with no per-claim mapping, so nothing is actually supported.",
+        "A single source repeated across several claims, presented as corroboration.",
+        "Confidence stated as very-high on a claim whose only source was never reached.",
+        "The loop terminates on exhaustion of interest rather than on the saturation condition, producing volume without grade.",
+        "A conflict resolved by preferring the more recent source without checking whether the older one is primary."
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "related_skills": [
+        "web-research",
+        "research-synthesis",
+        "evidence-validation",
+        "reasoning-strategies",
+        "repository-analysis"
+      ],
+      "related": [
+        "knowledge/research/verification-workflow.md",
+        "knowledge/research/source-conflict-case-study.md",
+        "knowledge/ai-engineering/source-scoring.md",
+        "knowledge/ai-engineering/freshness-policy.md",
+        "workflows/deep-research/WORKFLOW.md",
+        "agents/researcher/AGENT.md"
+      ],
+      "sources": [
+        {
+          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "url": "https://arxiv.org/abs/2307.03172",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Attention over long input is unevenly distributed — the reason this prompt requires the answer and the unknowns to be stated at both the beginning and the end of the output rather than only in the middle."
+        }
+      ],
+      "_path": "prompts/research/deep-research-loop.md",
+      "_tokens": 1097,
+      "_headings": [
+        "Deep Research Loop",
+        "When to use this",
+        "The prompt",
+        "Why it is shaped this way",
+        "Failure modes to watch for in the output",
+        "References"
+      ]
+    },
+    {
+      "id": "prompt-design-direction-brief",
+      "name": "Design direction brief",
+      "task": "Turn a product and an audience into a specific, testable design direction — a stated intent, a token set, a hierarchy decision and explicit exclusions — so that implementation is a series of derivations rather than a sequence of defaults.",
+      "use_case": "Before any visual implementation begins: a new site or product surface, a redesign, or a build that must not look generated. The brief is the input to design-systems, frontend-design and ai-slop-detection work, and the reference those skills are checked against afterwards.",
+      "category": "ui-ux",
+      "status": "active",
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "tags": [
+        "design",
+        "ui",
+        "ux",
+        "design-direction",
+        "brief",
+        "tokens",
+        "hierarchy",
+        "anti-slop",
+        "prompts"
+      ],
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "model_sensitivity": "portable",
+      "techniques": [
+        "role-priming",
+        "constraint-list",
+        "negative-example",
+        "structured-output",
+        "rubric-scoring"
+      ],
+      "variables": [
+        {
+          "name": "product",
+          "required": true,
+          "description": "What the product is and does, concretely."
+        },
+        {
+          "name": "audience",
+          "required": true,
+          "description": "Who uses it, in what context, at what frequency, with what expertise."
+        },
+        {
+          "name": "primary_action",
+          "required": true,
+          "description": "The one thing a user must be able to do. Everything else is subordinate."
+        },
+        {
+          "name": "constraint",
+          "required": false,
+          "description": "Existing brand, components, technical stack, accessibility or regulatory requirement."
+        },
+        {
+          "name": "references",
+          "required": false,
+          "description": "Products or sites already admired, and specifically what about them."
+        },
+        {
+          "name": "anti_references",
+          "required": false,
+          "description": "Things this must not resemble, and why."
+        }
+      ],
+      "required_context": [
+        "The product and what it does concretely",
+        "The audience, usage frequency and device context",
+        "The one thing a user must be able to do",
+        "Existing brand, component or accessibility constraints",
+        "WCAG 2.2 AA as the compliance floor"
+      ],
+      "prompt": "You are a design director writing a direction brief for an implementation team. Your brief will be\nused to build the interface and to judge the result. Every decision must be derivable by someone who\nwas not in the conversation: if a value is not stated, it will be invented, and invented values are\nwhat make an interface look generated.\n\nPRODUCT\n  {product}\n\nAUDIENCE AND CONTEXT\n  {audience}\n\nTHE ONE THING A USER MUST BE ABLE TO DO\n  {primary_action}\n\nCONSTRAINTS\n  {constraint}\n\nREFERENCES — and what specifically about each\n  {references}\n\nANTI-REFERENCES — what this must not resemble, and why\n  {anti_references}\n\n──────────────────────────────────────────────────────────────\nPRODUCE THE BRIEF IN THESE EIGHT SECTIONS\n──────────────────────────────────────────────────────────────\n\n1. INTENT\n   One or two sentences: what this interface is for, who it is for, and what it should feel like to\n   use. Not adjectives — a statement an implementer could argue with. Then three adjectives that\n   follow FROM it, each with the reason it follows.\n   Reject any adjective that could describe a competitor's product unchanged.\n\n2. AUDIENCE AND USAGE CONTEXT\n   Frequency of use (first visit vs daily), expertise level, device and environment, tolerance for\n   density, and what the user is trying to get out of the session. State which of these dominates the\n   visual decisions and why. A first-visit marketing page and a daily-use internal tool have opposite\n   correct answers on density, motion and hierarchy.\n\n3. THE HIERARCHY DECISION\n   For each primary view, name the ONE element that matters most and state how it is made primary —\n   which of size, weight, contrast, colour, position, space and isolation are moved, and in which\n   direction. Then name what is deliberately subordinate and how it is quieted.\n   A view with two primaries is an undecided view; pick one.\n   State the reading order and confirm it matches the DOM order.\n\n4. THE TOKEN SET\n   The complete set, with values. Anything absent will be invented per component.\n     SPACING      a base unit (4 or 8 px) and the named steps. Then the mapping: one token per\n                  RELATIONSHIP — heading-to-body, element-to-sibling, card-internal-padding,\n                  card-to-card, section-to-section. The intra-group gap must be visibly smaller than\n                  the inter-group gap (a ratio of at least 2:1).\n     TYPE         families (one or two), the modular scale with its ratio, and per size: weight, line\n                  height, letter spacing. Include the meta/caption level.\n     COLOUR       as ROLES, not raw values: background, surface, surface-raised, border, text-primary,\n                  text-secondary, text-disabled, accent, accent-hover, success, warning, danger, focus.\n                  One accent, one meaning. A second accent needs a second meaning.\n                  Every pairing stated with its contrast ratio: text at ≥4.5:1 (≥3:1 large text),\n                  non-text UI boundaries and graphical objects at ≥3:1.\n     RADIUS       a scale of three or four values with what each is for. Not one value applied\n                  everywhere.\n     ELEVATION    what shadow MEANS here — a layer relationship, a detachable surface, a modal — and\n                  the values for each level. If elevation has no meaning, say so and use borders.\n     MOTION       durations (fast/base/slow), easing, what motion is FOR (explaining a state change or\n                  a spatial relationship), and the reduced-motion behaviour. Motion that decorates is\n                  excluded in section 7.\n\n5. TYPOGRAPHY IN USE\n   Maximum line length in characters, how orphan and widow control is handled, tabular figures for\n   numbers in tables, the capitalisation rule for headings, and the punctuation conventions (real\n   quotation marks, en dashes for ranges). These are the details that separate a built design from a\n   styled one.\n\n6. LAYOUT AND RHYTHM\n   The grid, the column count and gutter, the container max-width, and how sections differ in rhythm.\n   Sections should NOT all have the same shape and the same spacing: state which sections are dense\n   and which are spacious, and what the difference communicates. Name the breakpoints and state that\n   they are chosen from where the content breaks, not from a device list.\n\n7. WHAT THIS DESIGN IS NOT — REQUIRED, AND THE MOST IMPORTANT SECTION\n   Name the specific signatures being excluded, so the defaults are ruled out rather than left\n   available:\n     - the default hue ramp and any decorative gradient\n     - glassmorphism and backdrop blur beyond one deliberate use\n     - glow shadows, floating orbs, and neon-on-dark as a palette strategy\n     - hero-plus-three-equal-cards, and any layout derived from a template slot count\n     - animation on load, animation without a cause, and any animation with no reduced-motion path\n     - filler copy: \"seamlessly\", \"unleash\", \"elevate\", \"in today's fast-paced world\"\n     - metrics without a definition and a source; badges that encode no state\n     - stock-photo humans; icon sets mixed from different families\n     - a single font family at default weights with sizes not on a scale\n     - anything present because it looked good rather than because it serves the content\n   For each exclusion, one line on what is done INSTEAD. An exclusion without a replacement will be\n   filled by the default.\n   If you cannot write this section specifically, the brief is not finished.\n\n8. ACCEPTANCE CRITERIA — each one checkable by looking at the built page\n   □ the intent sentence could not describe a competitor's product unchanged\n   □ every view has exactly one primary element, identifiable in under two seconds\n   □ the spacing values in use are exactly the tokens defined, with no invented intermediate\n   □ the type sizes in use are exactly the scale defined\n   □ the colour count is the defined set, and each hue has one meaning\n   □ every text and non-text contrast pairing meets its stated ratio\n   □ no element from the section 7 exclusion list is present\n   □ reading order matches DOM order; the page is fully operable by keyboard\n   □ target size ≥24×24 CSS px; content reflows at 320 px with no horizontal scroll\n   □ text resizes to 200% without loss; text-spacing overrides do not clip\n   □ every animation has a cause and a reduced-motion path\n   □ every number on the page has a definition and a source, or is removed\n   □ the copy could not be pasted onto a competitor's site unchanged\n   □ a screenshot of one section cannot be confused with a section from another page of the product\n\nDo not produce any visual implementation, component code or copy for the page. Produce the brief only.\nWhere you must choose and the inputs do not determine the answer, state the choice, state that it was\nunderspecified, and say what input would have determined it.",
+      "expected_output": "An eight-section design brief: intent derived from the product and audience; usage context with the dominating factor named; the hierarchy decision naming exactly one primary element per view and how it is made primary; a complete token set covering spacing with a relationship mapping, a modular type scale, colour as roles with contrast ratios, radius and elevation with meaning; typographic conventions; layout and rhythm with content-derived breakpoints; a specific exclusion list naming the generic signatures ruled out and what replaces each; and acceptance criteria that are each checkable by looking at the built page. No visual implementation or component code.",
+      "output_format": "markdown",
+      "cacheable_prefix": false,
+      "estimated_tokens": 1219,
+      "evaluation": {
+        "method": "Feed the produced brief to an implementation pass, then audit the result with the ai-slop-detection skill and the WCAG checklist. Score: the intent sentence could not describe a competitor unchanged; every view has exactly one identifiable primary element; spacing and type values in use are exactly the defined tokens; no excluded signature appears; every acceptance criterion is objectively checkable; contrast pairings meet their stated ratios.",
+        "runs": 0,
+        "pass_rate": null
+      },
+      "failure_modes": [
+        "An adjective brief: 'modern, clean, minimal, professional' with no decision an implementer can derive from.",
+        "A token set with a gap, so each component invents its own value — which is the root cause of most generic output.",
+        "No exclusions, so the defaults are not ruled out and will appear.",
+        "A hierarchy that names two primaries, leaving the competition unresolved in the implementation.",
+        "References given without a stated purpose, so they are copied rather than analysed."
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "related_skills": [
+        "frontend-design",
+        "design-systems",
+        "visual-design-research",
+        "ai-slop-detection",
+        "motion-design",
+        "accessibility-audit"
+      ],
+      "related": [
+        "knowledge/ui-ux/what-makes-a-website-look-professional.md",
+        "knowledge/ui-ux/what-makes-ai-websites-look-generic.md",
+        "knowledge/ui-ux/visual-hierarchy.md",
+        "knowledge/ui-ux/ai-slop-signature-catalogue.md",
+        "workflows/build-website/WORKFLOW.md",
+        "workflows/ai-slop-remediation/WORKFLOW.md"
+      ],
+      "sources": [
+        {
+          "title": "WCAG 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/",
+          "type": "specification",
+          "organization": "W3C",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The contrast, target-size, reflow and reduced-motion requirements that bound the token set: a colour or type decision that fails WCAG is not a valid design direction, and the brief requires the tokens to be stated at compliant values from the start."
+        },
+        {
+          "title": "Material Design 3 — foundations",
+          "url": "https://m3.material.io/foundations",
+          "type": "official-docs",
+          "organization": "Google",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "A worked example of the token structure this brief requires: colour roles rather than raw values, a type scale, an elevation system with meaning, and spacing tied to a base unit."
+        }
+      ],
+      "_path": "prompts/ui-ux/design-direction-brief.md",
+      "_tokens": 1219,
+      "_headings": [
+        "Design Direction Brief",
+        "When to use this",
+        "The prompt",
+        "Why it is shaped this way",
+        "What a bad brief looks like",
+        "References"
+      ]
+    }
+  ]
+}

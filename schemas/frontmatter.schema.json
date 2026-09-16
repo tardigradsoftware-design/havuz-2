@@ -1,0 +1,230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/frontmatter.schema.json",
+  "title": "Common Frontmatter Contract",
+  "description": "The shared YAML frontmatter contract applied to every authored Markdown artifact in this knowledge base (skills, agents, workflows, knowledge, patterns, prompts, evaluations, MCP registry entries, anti-patterns, failure modes, gotchas, decision records). Each content type has its own schema in schemas/ that extends these common requirements. A document that cannot be parsed, dated and graded is not admitted to the index.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,62}[a-z0-9]$",
+      "description": "Stable kebab-case identifier, unique within its content type."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 120,
+      "description": "Human-readable name. For skills and agents this is the machine-selected identifier and must match the containing directory name."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(-[0-9A-Za-z.-]+)?$",
+      "description": "SemVer 2.0.0. Breaking changes to a contract used by other artifacts bump MAJOR."
+    },
+    "title": { "type": "string", "minLength": 2, "maxLength": 200 },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 600,
+      "description": "What the artifact does and when it applies. Written for a retrieval step, not for marketing."
+    },
+    "summary": { "type": "string", "minLength": 20, "maxLength": 600 },
+    "category": { "type": "string", "minLength": 2, "maxLength": 60 },
+    "domain": { "type": "string", "minLength": 2, "maxLength": 60 },
+    "status": {
+      "type": "string",
+      "enum": ["active", "draft", "experimental", "deprecated", "archived", "quarantined", "superseded"],
+      "description": "active: admitted to retrieval. draft/experimental: not citable. deprecated/archived: retained with a successor. quarantined: ungradeable, excluded from the index. superseded: replaced, kept for lineage."
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,39}$" }
+    },
+    "applies_to": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1, "maxLength": 60 }
+    },
+
+    "confidence": {
+      "type": "string",
+      "enum": ["very-high", "high", "medium", "low", "unverified", "conflicting"],
+      "description": "Confidence in the artifact's own claims, assigned per skills/evidence-validation."
+    },
+    "claim_type": {
+      "type": "string",
+      "enum": ["fact", "recommendation", "opinion", "hypothesis", "generated", "conflicting"],
+      "description": "The epistemic level of the dominant claim. 'generated' means model output without an external source and must never be presented as fact."
+    },
+    "evidence_level": {
+      "type": "string",
+      "enum": ["primary-source", "cross-checked", "single-source", "practitioner-experience", "emerging-consensus", "anecdotal", "none"],
+      "description": "How the claim was established."
+    },
+
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the content was last materially changed."
+    },
+    "verified_at": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Date the external sources cited here were last re-verified."
+    },
+    "expires_at": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Date after which the content must be re-verified before use. Driven by knowledge/ai-engineering/freshness-policy.md: fast-moving domains 90 days, stable specifications 12 months or more."
+    },
+    "supersedes": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "superseded_by": { "type": ["string", "null"] },
+
+    "priority": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Retrieval and execution priority. Higher wins when several artifacts apply."
+    },
+    "estimated_tokens": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Approximate context cost of loading this artifact. Used by context budgeting."
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["heading", "anchor"],
+        "properties": {
+          "heading": { "type": "string", "minLength": 1 },
+          "anchor": { "type": "string", "pattern": "^#[a-z0-9-]+$" },
+          "purpose": { "type": "string" }
+        }
+      },
+      "description": "Declared section map. Enables isolated retrieval: a section fetched alone must still be self-contained."
+    },
+
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source" },
+      "description": "Every external claim must trace to an entry here. URLs must have been actually fetched or resolved; an unopened URL is a fabrication."
+    },
+    "related_skills": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "related_repositories": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "related_sources": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "related": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "tests": {
+      "type": ["integer", "array"],
+      "description": "Number of test cases, or a list of test file paths, in the sibling tests/ directory."
+    },
+
+    "provenance": { "$ref": "#/$defs/provenance" },
+    "scoring": { "$ref": "#/$defs/scoring" }
+  },
+
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["title", "url"],
+      "properties": {
+        "title": { "type": "string", "minLength": 2 },
+        "url": { "type": "string", "pattern": "^https?://" },
+        "type": {
+          "type": "string",
+          "enum": ["research-paper", "specification", "standard", "official-docs", "github-repository", "package-registry", "vendor-docs", "blog", "news", "methodology", "gallery", "community", "dataset", "benchmark", "talk", "other"]
+        },
+        "organization": { "type": "string" },
+        "author": { "type": "string" },
+        "published": { "type": ["string", "null"], "format": "date" },
+        "license": { "type": ["string", "null"] },
+        "claim_type": {
+          "type": "string",
+          "enum": ["fact", "recommendation", "opinion", "hypothesis", "generated", "conflicting"]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["very-high", "high", "medium", "low", "unverified", "conflicting"]
+        },
+        "verified_at": { "type": ["string", "null"], "format": "date" },
+        "note": { "type": "string", "maxLength": 600 },
+        "reached": {
+          "type": "boolean",
+          "description": "Whether the URL was actually fetched during verification. false means cited from a secondary reference and must be re-verified before use."
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["content_class"],
+      "properties": {
+        "content_class": {
+          "type": "string",
+          "enum": ["original", "synthesized", "summarized", "translated", "generated", "curated"],
+          "description": "original: written for this KB. synthesized: combined from cited sources. summarized: condensed from one source with attribution. generated: produced by a model and requiring review."
+        },
+        "generated_by": { "type": ["string", "null"] },
+        "human_reviewed": { "type": "boolean" },
+        "reviewed_by": { "type": ["string", "null"] },
+        "reviewed_at": { "type": ["string", "null"], "format": "date" },
+        "derivation": { "type": "string" }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "description": "Written back by scripts/score/score_skills.py. Do not edit by hand.",
+      "properties": {
+        "total": { "type": "number", "minimum": 0, "maximum": 10 },
+        "tier": { "type": "string", "enum": ["S", "A", "B", "C", "EXPERIMENTAL", "ARCHIVED", "UNVERIFIED"] },
+        "components": {
+          "type": "object",
+          "properties": {
+            "authority": { "type": "number" },
+            "evidence": { "type": "number" },
+            "recency": { "type": "number" },
+            "adoption": { "type": "number" },
+            "reproducibility": { "type": "number" },
+            "practical_value": { "type": "number" },
+            "maintenance": { "type": "number" }
+          }
+        },
+        "scored_at": { "type": ["string", "null"], "format": "date" },
+        "scored_by": { "type": "string" }
+      }
+    }
+  },
+
+  "allOf": [
+    {
+      "if": { "properties": { "claim_type": { "const": "fact" } }, "required": ["claim_type"] },
+      "then": {
+        "required": ["sources", "verified_at"],
+        "properties": {
+          "sources": { "minItems": 1 },
+          "confidence": { "enum": ["very-high", "high", "medium"] }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "claim_type": { "const": "generated" } }, "required": ["claim_type"] },
+      "then": {
+        "properties": {
+          "status": { "enum": ["draft", "experimental", "quarantined"] },
+          "confidence": { "enum": ["unverified", "low"] }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "enum": ["active", "deprecated"] } }, "required": ["status"] },
+      "then": {
+        "required": ["updated", "confidence", "claim_type"],
+        "properties": {
+          "provenance": { "required": ["content_class", "human_reviewed"] }
+        }
+      }
+    }
+  ]
+}

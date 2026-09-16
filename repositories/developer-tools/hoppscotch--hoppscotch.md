@@ -1,0 +1,145 @@
+---
+id: hoppscotch--hoppscotch
+title: "hoppscotch/hoppscotch"
+domain: developer-tools
+summary: >-
+  hoppscotch/hoppscotch — ACTIVE, tier S,
+  80,311 stars, license MIT, quality 8.4/10, trust 8.12/10.
+  Verified against the GitHub API on 2026-09-15.
+status: active
+confidence: very-high
+claim_type: fact
+evidence_level: verified-github-api
+tags: ["api-client", "developer-tools", "github-repository"]
+version: 1.0.0
+updated: 2026-09-16
+verified_at: 2026-09-15
+expires_at: 2026-10-30
+scoring:
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.47, "reproducibility": 7.5, "security": 7.0, "recency": 9.99, "evidence": 5.0}
+  quality_score: 8.4
+  trust_score: 8.12
+  tier: S
+  maturity: production-grade
+  scored_by: scripts/lib/scoring.py
+  scored_at: 2026-09-15
+provenance:
+  content_class: reference
+  generated_by: scripts/generate-index/generate_repository_cards.py
+  human_reviewed: false
+sources:
+  - title: "hoppscotch/hoppscotch on GitHub"
+    url: https://github.com/hoppscotch/hoppscotch
+    type: github-repository
+    organization: hoppscotch
+    license: MIT
+    license_risk: none
+    confidence: very-high
+    claim_type: fact
+    verified_at: 2026-09-15
+---
+
+<!-- GENERATED FILE — DO NOT EDIT BY HAND.
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Curated judgement: scripts/update/curation.json
+     Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
+
+# hoppscotch/hoppscotch
+
+🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
+
+> _Upstream description, quoted as published and not verified here:_
+>
+> Open-Source API Development Ecosystem • `https://hoppscotch.io` • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia
+
+## Facts (verified 2026-09-15 via the GitHub API)
+
+| Field | Value |
+|---|---|
+| URL | <https://github.com/hoppscotch/hoppscotch> |
+| Owner | hoppscotch (Organization) |
+| Official upstream | yes |
+| Language | TypeScript |
+| License | `MIT` |
+| Stars | 80,311 (checked 2026-09-15) |
+| Forks | 6,108 |
+| Open issues | 822 |
+| Contributors | 329 |
+| Last push | 2026-09-14 (1 days before verification) |
+| Latest release | 2026.8.1 (2026-09-14) |
+| Archived | no |
+| Fork | no |
+| Homepage | [https://hoppscotch.io](https://hoppscotch.io) |
+| SECURITY.md | yes → `policy-published` |
+| Repository kind | `software` |
+
+## Scores
+
+| Component | 0–10 |
+|---|---|
+| authority | 9.0 |
+| maintenance | 10.0 |
+| adoption | 10.0 |
+| documentation | 6.47 |
+| reproducibility | 7.5 |
+| security | 7.0 |
+| recency | 9.99 |
+| evidence | 5.0 |
+| **quality_score** (weighted) | **8.4** |
+| **trust_score** | **8.12** |
+
+Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
+security / recency / evidence 10% each. See
+[`knowledge/ai-engineering/source-scoring.md`](../../knowledge/ai-engineering/source-scoring.md).
+
+## Repository structure signals
+
+| Signal | Present |
+|---|---|
+| readme | yes |
+| docs | no |
+| tests | no |
+| ci | yes |
+| examples | no |
+| security md | yes |
+| changelog | yes |
+| contributing | yes |
+| root entries | yes |
+| README size | 11,653 bytes |
+
+## Curated judgement
+
+_The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
+(not yet curated) and must be
+re-checked against your own constraints._
+
+**Recommended for**
+
+- _not curated yet_
+
+**Not recommended for**
+
+- _not curated yet_
+
+**Strengths**
+
+- _not curated yet_
+
+**Weaknesses**
+
+- _not curated yet_
+
+**Related projects**
+
+- _not curated yet_
+
+## Verification notes
+
+_No anomalies detected._
+
+## How to re-verify
+
+```bash
+GITHUB_TOKEN=*** python3 scripts/update/fetch_github_metadata.py --slug hoppscotch/hoppscotch
+python3 scripts/generate-index/generate_repository_cards.py --category developer-tools
+```

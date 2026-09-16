@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/index.schema.json",
+  "title": "Machine-readable retrieval index",
+  "description": "Normalised entry format for RAG / vector ingestion (brief §70). Every embeddable document in this repository emits one entry.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["generated_at", "generator", "entries"],
+  "properties": {
+    "generated_at": { "type": "string" },
+    "generator": { "type": "string" },
+    "schema_version": { "type": "string" },
+    "entry_count": { "type": "integer", "minimum": 0 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "path", "kind", "summary", "tags"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "path": { "type": "string", "description": "Repo-relative path" },
+          "anchor": { "type": ["string", "null"] },
+          "kind": { "type": "string", "enum": ["skill", "agent", "workflow", "knowledge", "pattern", "repository", "mcp", "source", "evaluation", "dataset", "model", "prompt", "anti-pattern", "failure-mode", "gotcha", "decision-record", "index", "meta"] },
+          "domain": { "type": ["string", "null"] },
+          "category": { "type": ["string", "null"] },
+          "summary": { "type": "string" },
+          "content": { "type": ["string", "null"], "description": "Optional chunk body for embedding" },
+          "chunk": { "type": ["string", "null"] },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "status": { "type": ["string", "null"] },
+          "tier": { "type": ["string", "null"] },
+          "confidence": { "type": ["string", "null"] },
+          "claim_type": { "type": ["string", "null"] },
+          "quality_score": { "type": ["number", "null"] },
+          "trust_score": { "type": ["number", "null"] },
+          "stars": { "type": ["integer", "null"] },
+          "license": { "type": ["string", "null"] },
+          "version": { "type": ["string", "null"] },
+          "source": { "type": ["string", "null"] },
+          "updated_at": { "type": ["string", "null"] },
+          "verified_at": { "type": ["string", "null"] },
+          "expires_at": { "type": ["string", "null"] },
+          "estimated_tokens": { "type": ["integer", "null"] },
+          "relations": { "type": "array", "items": { "$ref": "common.defs.json#/$defs/relation" } }
+        }
+      }
+    }
+  }
+}

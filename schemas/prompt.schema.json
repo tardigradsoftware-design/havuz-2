@@ -1,0 +1,296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/prompt.schema.json",
+  "title": "Prompt Template",
+  "description": "Prompts are stored as structured, evaluated artifacts - never as loose text files.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "task",
+    "use_case",
+    "prompt",
+    "expected_output",
+    "status",
+    "updated"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.defs.json#/$defs/id"
+    },
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "task": {
+      "type": "string",
+      "minLength": 5
+    },
+    "model": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Model family this was tuned for, or 'any'"
+    },
+    "model_sensitivity": {
+      "type": "string",
+      "enum": [
+        "portable",
+        "tuned",
+        "model-specific"
+      ]
+    },
+    "use_case": {
+      "type": "string",
+      "minLength": 10
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "system",
+        "coding",
+        "research",
+        "debugging",
+        "architecture",
+        "ui-ux",
+        "code-review",
+        "evaluation",
+        "meta-prompt",
+        "refactoring",
+        "testing",
+        "extraction"
+      ]
+    },
+    "required_context": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "variables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "example": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 20
+    },
+    "expected_output": {
+      "type": "string",
+      "minLength": 10
+    },
+    "output_format": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "markdown",
+        "json",
+        "yaml",
+        "code",
+        "diff",
+        "table",
+        "free-text",
+        null
+      ]
+    },
+    "techniques": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "zero-shot",
+          "few-shot",
+          "chain-of-thought",
+          "structured-output",
+          "role-priming",
+          "self-consistency",
+          "reflection",
+          "critique-revision",
+          "decomposition",
+          "constraint-list",
+          "negative-example",
+          "rubric-scoring",
+          "tool-calling",
+          "progressive-disclosure"
+        ]
+      }
+    },
+    "failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "method": {
+          "type": "string"
+        },
+        "runs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pass_rate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "last_evaluated": {
+          "$ref": "common.defs.json#/$defs/date"
+        }
+      }
+    },
+    "estimated_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "cacheable_prefix": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "experimental",
+        "deprecated",
+        "draft"
+      ]
+    },
+    "tags": {
+      "$ref": "common.defs.json#/$defs/tags"
+    },
+    "confidence": {
+      "$ref": "common.defs.json#/$defs/confidence"
+    },
+    "claim_type": {
+      "$ref": "common.defs.json#/$defs/claimType"
+    },
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/sourceRef"
+      }
+    },
+    "provenance": {
+      "$ref": "common.defs.json#/$defs/provenance"
+    },
+    "updated": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "verified_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "evidence_level": {
+      "$ref": "common.defs.json#/$defs/evidenceLevel"
+    },
+    "expires_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "heading",
+          "anchor"
+        ],
+        "properties": {
+          "heading": {
+            "type": "string",
+            "minLength": 1
+          },
+          "anchor": {
+            "type": "string",
+            "pattern": "^#[a-z0-9-]+$"
+          },
+          "purpose": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Declared section map, enabling isolated retrieval: a section fetched alone must still be self-contained."
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "related_skills": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/id"
+      },
+      "uniqueItems": true
+    },
+    "related_repositories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

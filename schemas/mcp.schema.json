@@ -1,0 +1,453 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/mcp.schema.json",
+  "title": "MCP Server Record",
+  "description": "A Model Context Protocol server: what tools it exposes, what it can touch, and how dangerous that is.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "purpose",
+    "distribution",
+    "official",
+    "security",
+    "verified_at"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.defs.json#/$defs/id"
+    },
+    "name": {
+      "type": "string"
+    },
+    "repository": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "owner/name"
+    },
+    "url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "npm_package": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pypi_package": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "uvx": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "npx": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "distribution": {
+      "type": "string",
+      "enum": [
+        "npm",
+        "pypi",
+        "binary",
+        "docker",
+        "hosted",
+        "monorepo",
+        "source"
+      ]
+    },
+    "official": {
+      "type": "boolean"
+    },
+    "maintainer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 20
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "browser",
+        "filesystem",
+        "vcs",
+        "database",
+        "search",
+        "documentation",
+        "cloud",
+        "communication",
+        "observability",
+        "ci-cd",
+        "payments",
+        "design",
+        "knowledge",
+        "other"
+      ],
+      "description": "What kind of system the server connects to. Assigned by whole-token match against owner-curated topics and slug segments first, then against the description as a weaker fallback; `other` when nothing matches. Members of this enum that the signal table cannot produce (`design`, `knowledge`) are reachable only by human curation, recorded as category_evidence: human-curated — a category no heuristic can select is not a category the generator may guess at."
+    },
+    "registry_kind": {
+      "type": "string",
+      "enum": [
+        "server",
+        "sdk",
+        "tooling",
+        "catalog",
+        "registry",
+        "unproven"
+      ],
+      "description": "What the repository IS, as distinct from `category`, which says what it connects to. The registry was seeded by filtering for the seed-list category `mcp-servers`, which is not a verified property of a repository, so an entry may be an SDK for building servers, a testing tool, a competing registry, or a curated catalog of other servers. `unproven` means nothing the GitHub API returned asserts what the repository is — it is a real answer, not a placeholder, because an entry counted as a server inflates the registry's apparent coverage and that count is what a reader uses to decide whether to keep looking. Only `server` entries are counted as MCP servers in README statistics and indexes/mcp.md."
+    },
+    "registry_kind_evidence": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The observed fragment that decided registry_kind, quoted from the repository's own description, slug or topics as the GitHub API returned them. Required in practice: assert_kinds_are_evidenced() fails the build when a quoted fragment does not occur in anything the API returned for that repository, which is what separates a classification from a guess."
+    },
+    "category_evidence": {
+      "type": "string",
+      "enum": [
+        "topics-or-slug",
+        "description-fallback",
+        "no-signal-matched",
+        "human-curated"
+      ],
+      "description": "Which field the category was decided from. `topics-or-slug` means an owner-curated topic or a slug segment matched a whole token; `description-fallback` means nothing structured matched and the free-text description was used instead, which is weaker evidence; `no-signal-matched` means the category is `other` because nothing matched at all; `human-curated` means a person read the project's own documentation and set the category, which is the only way to reach a category the generator's signal table does not produce. Recorded so a classification can be re-derived and challenged rather than merely trusted."
+    },
+    "category_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The whole tokens that matched, in the order the signal table declares them. Empty when category_evidence is `no-signal-matched`. A category assigned by substring accident — `'ci'` inside *official* — is visible here at a glance, which is the point."
+    },
+    "transport": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "stdio",
+          "sse",
+          "streamable-http"
+        ]
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prompts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authentication": {
+      "type": "string",
+      "enum": [
+        "none",
+        "api-key",
+        "oauth",
+        "pat",
+        "cloud-iam",
+        "local-session",
+        "mixed"
+      ]
+    },
+    "permissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "filesystem": {
+          "type": "string",
+          "enum": [
+            "none",
+            "read",
+            "write",
+            "read-write",
+            "scoped"
+          ]
+        },
+        "network": {
+          "type": "string",
+          "enum": [
+            "none",
+            "outbound",
+            "inbound",
+            "arbitrary",
+            "allowlisted"
+          ]
+        },
+        "credentials": {
+          "type": "string",
+          "enum": [
+            "none",
+            "scoped-token",
+            "broad-token",
+            "cloud-identity"
+          ]
+        },
+        "database": {
+          "type": "string",
+          "enum": [
+            "none",
+            "read",
+            "write",
+            "admin",
+            "schema-change"
+          ]
+        },
+        "code_execution": {
+          "type": "string",
+          "enum": [
+            "none",
+            "sandboxed",
+            "arbitrary"
+          ]
+        },
+        "side_effects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "browser_control": {
+          "type": "string",
+          "enum": [
+            "none",
+            "read-only",
+            "interact",
+            "full-session"
+          ]
+        }
+      }
+    },
+    "security": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "risk_level"
+      ],
+      "properties": {
+        "risk_level": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "critical"
+          ]
+        },
+        "data_exfiltration_risk": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "prompt_injection_surface": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "tool_poisoning_risk": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "supply_chain_notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "safe_defaults": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "must_not": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Human-readable security observation, e.g. whether SECURITY.md is published."
+        }
+      }
+    },
+    "local_or_remote": {
+      "type": "string",
+      "enum": [
+        "local",
+        "remote",
+        "both"
+      ]
+    },
+    "setup_complexity": {
+      "type": "string",
+      "enum": [
+        "trivial",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "production_readiness": {
+      "type": "string",
+      "enum": [
+        "production",
+        "beta",
+        "experimental",
+        "deprecated"
+      ]
+    },
+    "status": {
+      "$ref": "common.defs.json#/$defs/maintenanceStatus"
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stars": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "tier": {
+      "$ref": "common.defs.json#/$defs/tier"
+    },
+    "quality_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 10
+    },
+    "confidence": {
+      "$ref": "common.defs.json#/$defs/confidence"
+    },
+    "recommended_for": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "not_recommended_for": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "$ref": "common.defs.json#/$defs/tags"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/sourceRef"
+      }
+    },
+    "verified_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "expires_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "last_verified": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "capability_evidence": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "unverified",
+        "readme-reviewed",
+        "verified",
+        null
+      ],
+      "description": "Whether transport/tool/resource/prompt lists were confirmed from the project's own docs. 'unverified' means the GitHub API could not tell us and nothing was guessed."
+    },
+    "purpose_evidence": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "repository-description",
+        "repository-description-thin",
+        "readme-reviewed",
+        null
+      ],
+      "description": "Where the purpose statement came from."
+    },
+    "license_risk": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Carried through from metadata/repositories.json. 'no-license-do-not-redistribute' blocks vendoring regardless of score."
+    },
+    "stars_checked_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "days_since_push": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

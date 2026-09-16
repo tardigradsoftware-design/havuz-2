@@ -1,0 +1,379 @@
+name: kb-ci
+
+# Continuous validation for a knowledge base that machines read.
+# A stale or malformed record here becomes a wrong decision downstream, so the
+# gates are stricter than they would be for a documentation site.
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  schedule:
+    # Weekly re-verification: repositories move, get archived, change license.
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      external_links:
+        description: "Also check external URLs (slow, network-dependent)"
+        type: boolean
+        default: false
+      refresh_github:
+        description: "Re-fetch GitHub metadata before validating"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kb-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  # ---------------------------------------------------------------- structure
+  validate:
+    name: Validate structure, schemas and policy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install tooling
+        run: python -m pip install -r scripts/requirements.txt
+
+      - name: JSON parses
+        run: |
+          fail=0
+          while IFS= read -r f; do
+            python -c "import json,sys; json.load(open(sys.argv[1]))" "$f" \
+              || { echo "::error file=$f::invalid JSON"; fail=1; }
+          done < <(find metadata schemas scripts -name '*.json' -not -path '*/node_modules/*')
+          exit $fail
+
+      - name: YAML parses
+        run: |
+          python - <<'PY'
+          import sys, glob, yaml
+          bad = 0
+          for f in glob.glob('.github/**/*.yml', recursive=True) + glob.glob('**/*.yaml', recursive=True):
+              try:
+                  yaml.safe_load(open(f))
+              except Exception as e:
+                  print(f'::error file={f}::invalid YAML: {e}'); bad = 1
+          sys.exit(bad)
+          PY
+
+      - name: Frontmatter + schema conformance
+        run: python scripts/validate/validate_frontmatter.py
+
+      - name: Registry JSON conformance
+        run: python scripts/validate/validate_json.py
+
+      - name: Internal links and anchors
+        run: python scripts/validate/validate_links.py --internal
+
+      - name: Policy — secrets, collection ethics, license, hallucination firewall
+        run: python scripts/validate/validate_policy.py
+
+      # The validators above check artifacts against schemas. This one checks what the
+      # repository says about itself: every count published in prose in README.md,
+      # REVIEW-REPORT.md and CHANGELOG.md is recomputed from source data and compared.
+      # It exists because the generated statistics block was right while the sentence
+      # next to it was wrong — README reported 50 skill test cases where the corpus
+      # holds 1,108 — and no schema can see a disagreement between two documents.
+      # A claim whose pattern stops matching is an error, not a skip, so this cannot
+      # go green by quietly checking less.
+      - name: Release claims — prose counts vs recomputed corpus statistics
+        run: python scripts/validate/check_release_claims.py
+
+      # Validators check one artifact at a time. These check the relationships between
+      # artifacts — that a field computed upstream survives the hop downstream, that a
+      # category is not a substring accident, that a tier means what its name says.
+      # Stdlib unittest only, so this needs no extra dependency.
+      - name: Regression tests
+        run: python -m unittest discover -s tests -t . -v
+
+      - name: Duplicate detection (report only)
+        continue-on-error: true
+        run: python scripts/deduplicate/dedupe.py --report --threshold 0.45
+
+      - name: Markdown heading structure
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import sys, pathlib
+          sys.path.insert(0, 'scripts')
+          from lib import frontmatter as fm
+          bad = 0
+          for f in fm.iter_markdown(pathlib.Path('.')):
+              rel = f.relative_to('.').as_posix()
+              if not fm.requires_frontmatter(rel):
+                  continue
+              d = fm.parse(f)
+              heads = fm.headings(d.body)
+              if not heads:
+                  print(f'::warning file={rel}::no headings — cannot be chunked semantically')
+                  continue
+              if heads[0][0] != 1:
+                  print(f'::warning file={rel}::first heading is H{heads[0][0]}, expected H1')
+              levels = [h[0] for h in heads]
+              for i in range(1, len(levels)):
+                  if levels[i] - levels[i-1] > 1:
+                      print(f'::warning file={rel}::heading level jumps H{levels[i-1]} -> H{levels[i]}')
+                      bad += 1
+          sys.exit(1 if bad > 40 else 0)
+          PY
+
+  # ---------------------------------------------------------------- freshness
+  freshness:
+    name: Freshness and staleness
+    runs-on: ubuntu-latest
+    needs: validate
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: python -m pip install -r scripts/requirements.txt
+
+      - name: Staleness report
+        run: python scripts/update/check_staleness.py --window 30 --json metadata/staleness.json
+
+      - name: Fail only on unverified records
+        run: |
+          python - <<'PY'
+          import json, sys
+          d = json.load(open('metadata/staleness.json'))
+          never = d['counts']['never_verified']
+          expired = d['counts']['expired']
+          print(f"expired={expired} never_verified={never}")
+          # Expired records are expected in a living KB and are tracked, not fatal.
+          # A record that was NEVER verified is fatal: it has no evidence at all.
+          sys.exit(1 if never > 0 else 0)
+          PY
+
+      - name: Upload staleness report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: staleness-report
+          path: metadata/staleness.json
+          if-no-files-found: ignore
+
+  # ---------------------------------------------------------------- generated
+  generated-drift:
+    name: Generated files are not hand-edited
+    runs-on: ubuntu-latest
+    needs: validate
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: python -m pip install -r scripts/requirements.txt
+
+      - name: Regenerate derived artifacts
+        run: |
+          python scripts/generate-index/generate_mcp_registry.py
+          python scripts/generate-index/generate_skill_tests.py
+          python scripts/generate-index/extract_registries.py
+          python scripts/generate-index/build_index.py
+          python scripts/generate-index/generate_repository_cards.py
+          python scripts/generate-index/update_readme_stats.py
+
+      # Both generators carry a guarantee that no other check can see: the MCP
+      # registry must not assert capability fields the GitHub API cannot report, and
+      # the skill test corpus must not repeat a generic assertion across skills.
+      # Each measures its own output and fails on violation.
+      - name: MCP registry asserts no unobservable capability
+        run: python scripts/generate-index/generate_mcp_registry.py --check
+
+      - name: Skill test cases are skill-specific
+        run: python scripts/generate-index/generate_skill_tests.py --check
+
+      - name: Assert no drift (ignoring timestamps)
+        run: |
+          python - <<'PY'
+          import subprocess, sys, re
+          out = subprocess.run(['git','diff','--stat'], capture_output=True, text=True).stdout
+          if not out.strip():
+              print('No drift: committed generated files match the generators.'); sys.exit(0)
+          # timestamp-only differences are acceptable
+          diff = subprocess.run(['git','diff','-U0'], capture_output=True, text=True).stdout
+          real = []
+          for line in diff.splitlines():
+              if not line.startswith(('+','-')) or line.startswith(('+++','---')):
+                  continue
+              if re.search(r'(generated_at|Generated:|Regenerate:|\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})', line):
+                  continue
+              real.append(line)
+          if real:
+              print('::error::Generated files were hand-edited. Commit the regenerated output instead.')
+              print('\n'.join(real[:60]))
+              print(subprocess.run(['git','diff','--stat'], capture_output=True, text=True).stdout)
+              sys.exit(1)
+          print('Drift is timestamp-only; acceptable.')
+          PY
+
+  # ---------------------------------------------------------------- network
+  external-links:
+    name: External link reachability
+    runs-on: ubuntu-latest
+    needs: validate
+    if: >
+      github.event_name == 'schedule' ||
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.inputs.external_links == 'true')
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: python -m pip install -r scripts/requirements.txt
+
+      - name: Check external URLs (retry + allowlist, so outages are not fatal on first failure)
+        continue-on-error: true
+        run: python scripts/validate/validate_links.py --external --timeout 25
+
+      - name: Record failures for triage
+        if: failure()
+        run: |
+          echo "External link failures were recorded. Transient outages are expected;"
+          echo "repeat failures across two scheduled runs should become a correction issue."
+
+  # ---------------------------------------------------------------- refresh
+  refresh-sources:
+    name: Re-verify sources (weekly / manual)
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.refresh_github == 'true')
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: python -m pip install -r scripts/requirements.txt
+
+      - name: Re-verify GitHub repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update/fetch_github_metadata.py --workers 8
+
+      - name: Resolve slugs that now 404
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+        run: python scripts/update/resolve_failed_seeds.py
+
+      - name: Verify papers against arXiv
+        continue-on-error: true
+        run: python scripts/crawl/verify_arxiv_papers.py
+
+      - name: Regenerate derived artifacts
+        run: |
+          python scripts/generate-index/extract_registries.py
+          python scripts/generate-index/generate_repository_cards.py
+          python scripts/generate-index/build_index.py
+          python scripts/generate-index/update_readme_stats.py
+
+      - name: Open an issue for newly archived, moved or unlicensed projects
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          r = json.load(open('metadata/fetch-report.json'))
+          lines = []
+          if r.get('archived'):
+              lines.append('## Newly archived\n' + '\n'.join(
+                  f"- `{a['slug']}` ({a['stars']:,} stars) — read-only, no further patches"
+                  for a in r['archived']))
+          if r.get('renamed'):
+              lines.append('## Moved / renamed\n' + '\n'.join(
+                  f"- `{x['from']}` → `{x['to']}` — update hard-coded URLs"
+                  for x in r['renamed']))
+          if r.get('no_license'):
+              lines.append('## No license detected\n' + '\n'.join(
+                  f"- `{s}` — reference only, do not vendor" for s in r['no_license']))
+          if r.get('failures'):
+              lines.append('## Unreachable\n' + '\n'.join(
+                  f"- `{f['slug']}` ({f.get('error')})" for f in r['failures']))
+          if not lines:
+              print('Nothing to report.'); raise SystemExit(0)
+          body = '\n\n'.join(lines) + '\n\n_Auto-generated by `.github/workflows/kb-ci.yml`._'
+          subprocess.run(['gh','issue','create',
+                          '--title', f"[automation] source drift detected ({r['generated_at'][:10]})",
+                          '--body', body, '--label', 'staleness'], check=False)
+          PY
+
+      - name: Commit refreshed metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metadata indexes repositories README.md
+          if git diff --cached --quiet; then
+            echo "No metadata changes."
+          else
+            git commit -m "chore(metadata): weekly source re-verification
+
+          Regenerated by .github/workflows/kb-ci.yml (refresh-sources).
+          Facts come from the GitHub API; no hand edits."
+            git push
+          fi
+
+  # ---------------------------------------------------------------- security
+  security:
+    name: Secret and supply-chain scanning
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - name: Policy scan (secrets, forbidden content, license policy)
+        run: |
+          python3 -m pip install -r scripts/requirements.txt
+          python3 scripts/validate/validate_policy.py
+
+      - name: License inventory of listed resources
+        run: |
+          python3 - <<'PY'
+          import json, collections
+          d = json.load(open('metadata/repositories.json'))
+          c = collections.Counter(r['license'] for r in d['repositories'])
+          print('License distribution across listed repositories:')
+          for k, v in c.most_common():
+              print(f'  {k or "UNKNOWN":24} {v}')
+          none = [r['slug'] for r in d['repositories'] if r['license'] == 'NONE']
+          print(f'\n{len(none)} repositories have NO detected license (reference only, never vendor):')
+          for s in none:
+              print('  -', s)
+          PY

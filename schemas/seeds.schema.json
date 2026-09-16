@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/seeds.schema.json",
+  "title": "Curated Seed Intake",
+  "description": "Human-authored intent layer. Facts are fetched separately; never write stars or dates here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["seeds"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "_comment": { "type": "string" },
+    "updated": { "$ref": "common.defs.json#/$defs/date" },
+    "seeds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["slug", "category"],
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$" },
+          "category": { "type": "string" },
+          "tier": { "type": "string", "enum": ["seed", "core", "reference", "candidate", "status-check", "skip"] },
+          "repo_kind": { "type": "string", "enum": ["software", "research-artifact", "paper-code", "benchmark", "dataset", "model-release", "catalog", "docs", "issue-tracker"] },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

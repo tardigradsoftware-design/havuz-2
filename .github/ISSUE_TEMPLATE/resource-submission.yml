@@ -1,0 +1,64 @@
+name: Resource submission
+description: Propose a GitHub repository, MCP server, tool, dataset or benchmark for inclusion.
+title: "[resource] "
+labels: ["resource", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do **not** fill in stars, license, last-commit date or archive status — those are fetched
+        from the GitHub API by `scripts/update/fetch_github_metadata.py`. Only fill in judgement.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Resource kind
+      options: [github-repository, mcp, tool, dataset, benchmark, framework, agent-skill, official-docs]
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      description: The official repository or documentation URL, not a mirror or a blog post about it.
+      placeholder: https://github.com/owner/name
+    validations: { required: true }
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [agent-frameworks, agent-skills, mcp-servers, browser-automation, frontend, backend,
+                databases, ai, evaluation, reasoning-research, developer-tools, instructions-standards]
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be included?
+      description: What problem does it solve better than what is already listed?
+    validations: { required: true }
+  - type: textarea
+    id: recommended_for
+    attributes:
+      label: Recommended for
+      placeholder: "- TypeScript teams building stateful agents"
+  - type: textarea
+    id: not_recommended_for
+    attributes:
+      label: NOT recommended for
+      description: Be specific. A resource with no exclusions has probably not been evaluated.
+      placeholder: "- Air-gapped environments (requires network egress)"
+  - type: textarea
+    id: risks
+    attributes:
+      label: Known risks / limitations
+      description: Security surface, license concerns, maintenance history, breaking changes.
+  - type: checkboxes
+    id: policy
+    attributes:
+      label: Policy acknowledgement
+      options:
+        - label: This is a public resource with an identifiable maintainer.
+          required: true
+        - label: It contains no leaked system prompts, private reasoning traces, credentials or personal data.
+          required: true
+        - label: I checked whether an equivalent resource is already listed (search indexes/ first).
+          required: true
+        - label: I am not the maintainer, or I have disclosed that I am.

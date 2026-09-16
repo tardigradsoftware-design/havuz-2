@@ -1,0 +1,802 @@
+{
+  "_warning": "QUARANTINE. These are CANDIDATE research papers, not verified sources. They are excluded from metadata/index.json and must never be cited or embedded until scripts/crawl/verify_arxiv_papers.py confirms the title against arXiv.",
+  "generated_at": "2026-09-15T15:14:56",
+  "generator": "scripts/crawl/verify_arxiv_papers.py intake list minus verified set",
+  "count": 61,
+  "items": [
+    {
+      "query_title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+      "category": "reasoning",
+      "tags": [
+        "graph-reasoning",
+        "search"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "category": "reasoning",
+      "tags": [
+        "critique-revision",
+        "self-feedback"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Let's Verify Step by Step",
+      "category": "reasoning",
+      "tags": [
+        "process-reward-model",
+        "verifier",
+        "math"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling",
+      "category": "reasoning",
+      "tags": [
+        "inference-scaling",
+        "sampling"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "PAL: Program-aided Language Models",
+      "category": "reasoning",
+      "tags": [
+        "program-aided",
+        "code-reasoning"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "category": "agents",
+      "tags": [
+        "tool-use",
+        "self-supervised"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "category": "agents",
+      "tags": [
+        "tool-use",
+        "api"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Gorilla: Large Language Model Connected with Massive APIs",
+      "category": "agents",
+      "tags": [
+        "tool-use",
+        "api"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "category": "agents",
+      "tags": [
+        "memory",
+        "simulation",
+        "reflection"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "category": "multi-agent",
+      "tags": [
+        "multi-agent",
+        "framework"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+      "category": "multi-agent",
+      "tags": [
+        "multi-agent",
+        "sdlc"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+      "category": "prompt-engineering",
+      "tags": [
+        "prompt-optimization",
+        "declarative"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+      "category": "evaluation",
+      "tags": [
+        "coding-benchmark",
+        "agent-evaluation"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "category": "evaluation",
+      "tags": [
+        "coding-agent",
+        "aci"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Mind2Web: Towards a Generalist Agent for the Web",
+      "category": "evaluation",
+      "tags": [
+        "web-agent",
+        "benchmark",
+        "dataset"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+      "category": "evaluation",
+      "tags": [
+        "web-agent",
+        "benchmark"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+      "category": "evaluation",
+      "tags": [
+        "computer-use",
+        "benchmark"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "category": "evaluation",
+      "tags": [
+        "tool-use",
+        "agent-benchmark"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+      "category": "evaluation",
+      "tags": [
+        "coding-benchmark",
+        "contamination"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Terminal-Bench: A Benchmark for AI Agents",
+      "category": "evaluation",
+      "tags": [
+        "terminal-agent",
+        "benchmark"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "The Agent Company: Benchmarking LLM Agents on Consequential Real World Tasks",
+      "category": "evaluation",
+      "tags": [
+        "agent-benchmark",
+        "simulation"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "A Survey on Large Language Model based Autonomous Agents",
+      "category": "agents",
+      "tags": [
+        "survey",
+        "agents"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "category": "agents",
+      "tags": [
+        "survey",
+        "agents"
+      ],
+      "relevance": "contextual",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+      "category": "agent-engineering",
+      "tags": [
+        "memory",
+        "survey"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Effective Long-Context Scaling of Foundation Models",
+      "category": "context-engineering",
+      "tags": [
+        "long-context"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "category": "context-engineering",
+      "tags": [
+        "rag",
+        "retrieval"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Prompt Injection attack against LLM-integrated Applications",
+      "category": "security",
+      "tags": [
+        "prompt-injection",
+        "security"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "category": "security",
+      "tags": [
+        "indirect-prompt-injection",
+        "security"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Jailbreaking Black Box Large Language Models in Twenty Queries",
+      "category": "security",
+      "tags": [
+        "jailbreak",
+        "red-team"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Do Anything Now: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+      "category": "security",
+      "tags": [
+        "jailbreak",
+        "dataset"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Hallucination is Inevitable: On the Limitation of Hallucination Detection",
+      "category": "evaluation",
+      "tags": [
+        "hallucination"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+      "category": "evaluation",
+      "tags": [
+        "hallucination",
+        "self-verification"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Measuring short-form factuality in large language models",
+      "category": "evaluation",
+      "tags": [
+        "factuality",
+        "benchmark"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Constitutional AI: Harmlessness from AI Feedback",
+      "category": "security",
+      "tags": [
+        "alignment",
+        "rlaif"
+      ],
+      "relevance": "contextual",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "category": "evaluation",
+      "tags": [
+        "llm-as-judge",
+        "benchmark"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Holistic Evaluation of Language Models",
+      "category": "evaluation",
+      "tags": [
+        "helm",
+        "methodology",
+        "benchmark"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "A Framework for Few-Shot Language Model Evaluation",
+      "category": "evaluation",
+      "tags": [
+        "lm-evaluation-harness",
+        "methodology"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+      "category": "reasoning",
+      "tags": [
+        "critique",
+        "tool-use",
+        "self-correction"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "category": "reasoning",
+      "tags": [
+        "debate",
+        "multi-agent"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "category": "agents",
+      "tags": [
+        "skill-library",
+        "lifelong-learning"
+      ],
+      "relevance": "primary",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Training Verifiers to Solve Math Word Problems",
+      "category": "reasoning",
+      "tags": [
+        "verifier",
+        "outcome-reward"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Solving math word problems with process- and outcome-based feedback",
+      "category": "reasoning",
+      "tags": [
+        "process-reward",
+        "outcome-reward"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+      "category": "reasoning",
+      "tags": [
+        "internal-reasoning",
+        "self-taught"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning",
+      "category": "reasoning",
+      "tags": [
+        "self-taught",
+        "bootstrapping"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "WebGPT: Browser-assisted question-answering with human feedback",
+      "category": "browser-automation",
+      "tags": [
+        "web-agent",
+        "browsing"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+      "category": "browser-automation",
+      "tags": [
+        "web-agent",
+        "multimodal"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "SeeAct: GPT-4V(ision) is a Generalist Web Agent, if Grounded",
+      "category": "browser-automation",
+      "tags": [
+        "web-agent",
+        "grounding"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials",
+      "category": "agents",
+      "tags": [
+        "trajectory",
+        "synthetic-data"
+      ],
+      "relevance": "candidate",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Executable Code Actions Elicit Better LLM Agents",
+      "category": "agents",
+      "tags": [
+        "code-actions",
+        "smolagents"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+      "category": "reasoning",
+      "tags": [
+        "tree-search",
+        "planning"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+      "category": "agents",
+      "tags": [
+        "planning",
+        "tool-use"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning",
+      "category": "reasoning",
+      "tags": [
+        "program-aided"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+      "category": "reasoning",
+      "tags": [
+        "decomposition",
+        "prompting"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning",
+      "category": "reasoning",
+      "tags": [
+        "planning",
+        "prompting"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Attention Is All You Need",
+      "category": "architecture",
+      "tags": [
+        "transformer",
+        "foundational"
+      ],
+      "relevance": "contextual",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+      "category": "security",
+      "tags": [
+        "instruction-hierarchy",
+        "security"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Autoformalization with Large Language Models",
+      "category": "reasoning",
+      "tags": [
+        "formal-verification",
+        "autoformalization"
+      ],
+      "relevance": "candidate",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+      "category": "reasoning",
+      "tags": [
+        "r1",
+        "critical-analysis"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "TTRL: Test-Time Reinforcement Learning",
+      "category": "reasoning",
+      "tags": [
+        "test-time-rl"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "Process Reinforcement through Implicit Rewards (PRIME)",
+      "category": "reasoning",
+      "tags": [
+        "rl",
+        "implicit-rewards"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    },
+    {
+      "query_title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+      "category": "reasoning",
+      "tags": [
+        "rl",
+        "survey"
+      ],
+      "relevance": "supporting",
+      "arxiv_id": null,
+      "status": "PENDING_PRIMARY_VERIFICATION",
+      "reason": "arXiv API (export.arxiv.org), Semantic Scholar and OpenAlex were unreachable or returned inconsistent metadata from the build sandbox on 2026-09-15. No arXiv id is recorded because none could be confirmed against the primary source.",
+      "do_not_cite_until_verified": true
+    }
+  ]
+}

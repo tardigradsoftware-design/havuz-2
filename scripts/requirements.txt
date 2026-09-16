@@ -1,0 +1,4 @@
+# Runtime deps for the knowledge-base tooling.
+# Keep this minimal: validators must run in a plain CI image.
+PyYAML>=6.0,<7
+jsonschema>=4.21,<5

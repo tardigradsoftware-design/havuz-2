@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-09-16T09:15:13+00:00",
+  "generator": "scripts/generate-index/extract_registries.py",
+  "records": 0,
+  "$schema": "../schemas/model.schema.json",
+  "models": []
+}

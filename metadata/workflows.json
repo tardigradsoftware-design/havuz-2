@@ -1,0 +1,3411 @@
+{
+  "generated_at": "2026-09-16T09:15:13+00:00",
+  "generator": "scripts/generate-index/extract_registries.py",
+  "records": 11,
+  "$schema": "../schemas/workflow.schema.json",
+  "workflows": [
+    {
+      "name": "ai-slop-remediation",
+      "version": "1.0.0",
+      "description": "Take an existing site that reads as AI-generated and make it read as designed — detect with evidence, group into root causes, delete before adding, rebuild the three systems, and re-measure until the S1 count is zero without flattening the site's character.",
+      "trigger": "An existing website, landing page or application surface that stakeholders describe as \"generic\", \"template-y\" or \"obviously AI-made\"; or a pre-launch review that failed the slop gate in workflows/build-website stage 9.",
+      "not_for": "Building a new site from scratch (use workflows/build-website, which prevents the slop rather than removing it); purely internal tooling where utility is the only requirement and the owner has said so; a deliberate brutalist or maximalist design — apply the craft checks but not the restraint checks; an accessibility or performance problem mislabelled as a design problem.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "ai-slop",
+        "remediation",
+        "design",
+        "frontend",
+        "quality",
+        "workflow"
+      ],
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "estimated_duration": "hours for a landing page; days for a multi-page product surface",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Establish the target",
+          "goal": "Define what \"designed\" means for this specific product, audience and brand — otherwise remediation replaces one cliché with another.",
+          "skill": "visual-design-research",
+          "inputs": [
+            "the site",
+            "the audience",
+            "the business goal",
+            "existing brand assets",
+            "3-6 reference products at the target quality level"
+          ],
+          "outputs": [
+            "Design Direction Brief with intended impression",
+            "position",
+            "adopted conventions",
+            "at most two differentiators",
+            "explicit rejections and anti-references"
+          ],
+          "exit_gate": "A written direction exists with explicit rejections, or the owner has accepted a conventional direction in writing and the remediation scope is limited to craft and consistency.",
+          "max_loops": 2,
+          "on_gate_failure": "Escalate. Remediating without a target produces a different default, not a better design."
+        },
+        {
+          "id": 2,
+          "name": "Capture at full coverage",
+          "goal": "Collect the evidence base — every template and state, at every required breakpoint, in both themes.",
+          "skill": "ai-slop-detection",
+          "agent": "website-quality-reviewer",
+          "inputs": [
+            "the site",
+            "breakpoint list (360/768/1440 minimum)",
+            "state list",
+            "theme list"
+          ],
+          "outputs": [
+            "screenshot set",
+            "DOM captures",
+            "source access",
+            "computed-style extracts"
+          ],
+          "exit_gate": "Every template is captured in default, hover, focus, empty, loading, error and modal-open states, at every breakpoint, in both themes.",
+          "on_gate_failure": "Complete the capture. A review at 1440 px only will miss the majority of real defects."
+        },
+        {
+          "id": 3,
+          "name": "Detect mechanically",
+          "goal": "Run the full slop catalogue against source and captures, producing symptoms with IDs, evidence and severity.",
+          "skill": "ai-slop-detection",
+          "inputs": [
+            "captures",
+            "source",
+            "catalogue"
+          ],
+          "outputs": [
+            "symptom table — catalogue ID",
+            "evidence at file:line or screenshot reference",
+            "severity S1/S2/S3"
+          ],
+          "exit_gate": "Every symptom carries a catalogue ID and concrete evidence, and the source has been grepped for the tell-tale tokens (backdrop-filter, gradient utilities, blur, indigo/purple ramps, pulse/bounce animations, filler adjectives, unsubstantiated metrics).",
+          "max_loops": 2,
+          "on_gate_failure": "Remove symptoms that have no evidence. An unevidenced symptom is a taste judgement, and it discredits the rest of the report."
+        },
+        {
+          "id": 4,
+          "name": "Measure the systems",
+          "goal": "Quantify the underlying disorder — spacing values, type sizes, hues, radii, shadows — so the fix targets the cause.",
+          "skill": "design-systems",
+          "inputs": [
+            "computed-style extracts",
+            "source"
+          ],
+          "outputs": [
+            "audit table of distinct values per property",
+            "count of off-scale values",
+            "near-duplicate component inventory"
+          ],
+          "exit_gate": "Distinct spacing values, font sizes, saturated hues, radii and shadow definitions are counted, and the count of values not drawn from a 4/8 px or modular scale is recorded.",
+          "on_gate_failure": "Extract from the rendered pages rather than the source; build-time values can be transformed before they reach the browser."
+        },
+        {
+          "id": 5,
+          "name": "Group into root causes",
+          "goal": "Reduce the symptom list to at most five causes, so remediation changes systems rather than pixels.",
+          "skill": "ai-slop-detection",
+          "inputs": [
+            "symptom table",
+            "audit table"
+          ],
+          "outputs": [
+            "root-cause grouping with each symptom mapped to a cause"
+          ],
+          "exit_gate": "Every symptom maps to a cause, and there are five or fewer causes. Ungrouped symptoms mean the analysis is incomplete.",
+          "max_loops": 2,
+          "on_gate_failure": "Re-read the symptoms. Typical causes are a missing spacing/type/colour system, decoration substituting for hierarchy, no content model, and no motion rationale."
+        },
+        {
+          "id": 6,
+          "name": "Plan the remediation",
+          "goal": "Prioritise by blocking severity and recommend the smallest system change that removes the most symptoms.",
+          "skill": "ai-slop-detection",
+          "inputs": [
+            "root-cause grouping",
+            "Design Direction Brief",
+            "effort constraints"
+          ],
+          "outputs": [
+            "prioritised plan — CRITICAL/HIGH/MEDIUM/LOW",
+            "each with symptom IDs",
+            "the concrete change",
+            "effort and expected effect"
+          ],
+          "exit_gate": "The plan is ordered CRITICAL to LOW, every S1 symptom appears in CRITICAL or HIGH, and the first items are system changes (define the three scales) rather than per-element restyling.",
+          "on_gate_failure": "Re-order. Fixing twenty symptoms individually when one token file would fix eighteen is the most expensive possible path."
+        },
+        {
+          "id": 7,
+          "name": "Delete",
+          "goal": "Remove before adding — deletion resolves more slop than any quantity of new styling.",
+          "skill": "frontend-implementation",
+          "agent": "frontend-engineer",
+          "inputs": [
+            "remediation plan",
+            "source"
+          ],
+          "outputs": [
+            "reduced source — gradients",
+            "blur layers",
+            "floating decoration",
+            "glow shadows",
+            "filler sections",
+            "fake metrics",
+            "placeholder copy",
+            "decorative controls",
+            "meaningless badges removed"
+          ],
+          "exit_gate": "Every decorative gradient, backdrop-blur layer beyond one, floating shape, glow shadow, unsubstantiated metric, filler adjective and unwired control identified in the plan is gone.",
+          "max_loops": 2,
+          "on_gate_failure": "Re-check the plan; a symptom that survived deletion usually means its root cause is structural rather than decorative."
+        },
+        {
+          "id": 8,
+          "name": "Establish the three systems",
+          "goal": "Define spacing, type and colour as role-named tokens with contrast-checked pairs, and bind components to them.",
+          "skill": "design-systems",
+          "inputs": [
+            "Design Direction Brief",
+            "audit table",
+            "accessibility target"
+          ],
+          "outputs": [
+            "token files",
+            "lint rules banning raw values",
+            "migrated components"
+          ],
+          "exit_gate": "A modular type scale and a 4/8 px spacing scale are defined, colour is expressed as roles with every text/surface pair contrast-checked at WCAG AA, and lint fails on any raw value in a component.",
+          "max_loops": 2,
+          "on_gate_failure": "Fix the palette or the surfaces until contrast passes. Do not weaken the accessibility target to preserve a colour."
+        },
+        {
+          "id": 9,
+          "name": "Rebuild hierarchy",
+          "goal": "Give each view exactly one primary element, distinguishable in at least three dimensions, and vary density deliberately between sections.",
+          "skill": "frontend-design",
+          "inputs": [
+            "tokens",
+            "IA",
+            "content inventory with real strings"
+          ],
+          "outputs": [
+            "recomposed views",
+            "with the primary element identified per view and per breakpoint"
+          ],
+          "exit_gate": "Each view has one primary element distinguishable in at least three of size, weight, colour, position, space, saturation or motion, and the squint/blur test identifies it at every breakpoint.",
+          "max_loops": 3,
+          "on_gate_failure": "Remove competing elements rather than strengthening the primary one. If two elements compete, the user chooses neither."
+        },
+        {
+          "id": 10,
+          "name": "Replace content",
+          "goal": "Put specific, true statements where filler was — this is the largest single contributor to \"reads as generated\".",
+          "skill": "documentation",
+          "inputs": [
+            "product facts",
+            "real metrics with definitions",
+            "named customers or their absence",
+            "real screenshots or data"
+          ],
+          "outputs": [
+            "rewritten copy",
+            "real or removed metrics",
+            "genuine imagery or none"
+          ],
+          "exit_gate": "No unsubstantiated metric remains, no filler adjective remains, every claim is specific and true, and stock imagery has been replaced with the actual product, real data or nothing.",
+          "max_loops": 2,
+          "on_gate_failure": "Escalate to the owner for real facts. Inventing a plausible metric to replace a fake one is worse than removing it."
+        },
+        {
+          "id": 11,
+          "name": "Add one deliberate detail",
+          "goal": "Restore character — remediation that only removes leaves a bland site, which is its own failure.",
+          "skill": "visual-design-research",
+          "inputs": [
+            "Design Direction Brief",
+            "recomposed views"
+          ],
+          "outputs": [
+            "at most two differentiators implemented",
+            "each documented with its purpose and risk"
+          ],
+          "exit_gate": "At least one deliberate, non-generic design decision is present and documented, and no more than two differentiators compete.",
+          "on_gate_failure": "Choose one. Zero differentiators is blandness; five is incoherence."
+        },
+        {
+          "id": 12,
+          "name": "Motion rationalisation",
+          "goal": "Keep only motion that explains causality, continuity, feedback, hierarchy, state or relationship, with a complete reduced-motion path.",
+          "skill": "motion-design",
+          "inputs": [
+            "existing animations",
+            "motion tokens"
+          ],
+          "outputs": [
+            "motion specification per surviving animation",
+            "reduced-motion implementation",
+            "removed decorative animation"
+          ],
+          "exit_gate": "Every surviving animation names a purpose; load-time entrance animation without a cause is removed; durations follow the hierarchy; prefers-reduced-motion yields a complete experience; nothing flashes more than three times per second.",
+          "on_gate_failure": "Remove the animation. Decorative motion is never worth defending."
+        },
+        {
+          "id": 13,
+          "name": "Verify no regression",
+          "goal": "Confirm the remediation did not break accessibility, responsiveness, performance or meaning.",
+          "skill": "accessibility-audit",
+          "inputs": [
+            "remediated site",
+            "breakpoint list",
+            "WCAG target",
+            "performance budget"
+          ],
+          "outputs": [
+            "contrast measurements at every breakpoint and theme",
+            "keyboard and screen-reader pass results",
+            "Core Web Vitals",
+            "responsive verification at 360 px"
+          ],
+          "exit_gate": "Contrast passes AA everywhere, every interactive element is keyboard operable with a visible focus indicator, nothing overflows at 360 px, tap targets are at least 24x24 CSS px, and Core Web Vitals are within budget with no new layout shift.",
+          "max_loops": 2,
+          "on_gate_failure": "Fix the regression before re-measuring slop. A less generic site that is unusable is not an improvement."
+        },
+        {
+          "id": 14,
+          "name": "Re-score and lock in",
+          "goal": "Measure the improvement and prevent decay.",
+          "skill": "ai-slop-detection",
+          "agent": "skill-curator",
+          "inputs": [
+            "original and current symptom tables",
+            "remediated site"
+          ],
+          "outputs": [
+            "slop score before and after",
+            "verdict",
+            "CI lint and visual-regression gates",
+            "design-token ownership",
+            "review date"
+          ],
+          "exit_gate": "S1 count is zero, the slop score has fallen by at least 70%, visual-regression and token-lint gates run in CI, and a re-review date is scheduled.",
+          "max_loops": 3,
+          "on_gate_failure": "Return to stage 6 with the residual symptoms. If S1 symptoms remain, each needs a written justification accepted by the owner before ship."
+        }
+      ],
+      "quality_gates": [
+        "A Design Direction Brief with explicit rejections exists before remediation begins.",
+        "Captures cover every template, state, breakpoint and theme.",
+        "100% of symptoms carry a catalogue ID and concrete evidence.",
+        "Symptoms grouped into five or fewer root causes.",
+        "Deletion precedes addition.",
+        "Spacing, type and colour-role tokens defined, contrast-checked at AA, and lint-enforced.",
+        "Zero raw visual values remain in component code.",
+        "Each view has exactly one primary element, distinguishable in at least three dimensions.",
+        "No unsubstantiated metric or filler adjective remains; every claim is specific and true.",
+        "At least one deliberate non-generic design decision documented; no more than two differentiators.",
+        "Every surviving animation names a purpose; reduced-motion path complete.",
+        "Accessibility, responsiveness and performance verified after remediation, not only before.",
+        "S1 count is zero and slop score reduced by at least 70%, or residuals are justified in writing.",
+        "CI gates prevent decay; re-review scheduled."
+      ],
+      "artifacts": [
+        "Design Direction Brief",
+        "capture set across states, breakpoints and themes",
+        "symptom table with IDs, evidence and severity",
+        "value audit table",
+        "root-cause grouping",
+        "prioritised remediation plan",
+        "token files and lint rules",
+        "recomposed views with identified primary elements",
+        "rewritten copy and content decisions",
+        "motion specification",
+        "post-remediation accessibility, responsive and performance verification",
+        "before/after slop score, verdict and CI gates"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "WCAG 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/",
+          "type": "specification",
+          "organization": "W3C",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "web.dev — Core Web Vitals",
+          "url": "https://web.dev/articles/vitals",
+          "type": "official-docs",
+          "organization": "Google Chrome team",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Thresholds change; verify current values before quoting numbers."
+        }
+      ],
+      "related": [
+        "skills/ai-slop-detection/SKILL.md",
+        "workflows/build-website/WORKFLOW.md",
+        "agents/website-quality-reviewer/AGENT.md",
+        "knowledge/ui-ux/"
+      ],
+      "_path": "workflows/ai-slop-remediation/WORKFLOW.md",
+      "_tokens": 698,
+      "_headings": [
+        "Workflow: AI-Slop Remediation",
+        "The three ideas that make this work",
+        "The failure this workflow must also avoid",
+        "Scaling",
+        "References"
+      ]
+    },
+    {
+      "name": "analyze-existing-project",
+      "version": "1.0.0",
+      "description": "Understand an unfamiliar codebase or third-party repository from evidence — architecture map, conventions, health, license risk, security posture and fitness — before changing or adopting it.",
+      "trigger": "Onboarding to an unfamiliar codebase before modifying it; evaluating a library, framework or MCP server for adoption; deciding whether to fork, wrap, contribute to or abandon a dependency; recording a repository into this knowledge base.",
+      "not_for": "A repository already assessed recently and unchanged since (reuse the cached assessment); a security question, which needs workflows/security-review; a performance question, which needs workflows/performance-review; judging a project on style preference alone.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "analysis",
+        "onboarding",
+        "due-diligence",
+        "codebase",
+        "repository",
+        "workflow"
+      ],
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "estimated_duration": "30-90 minutes for an adoption assessment; hours for a full codebase onboarding",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Establish purpose and constraints",
+          "goal": "Fix why the analysis is happening, because the required depth and the report shape both follow from it.",
+          "skill": "repository-analysis",
+          "inputs": [
+            "the request",
+            "integration intent",
+            "constraints — license",
+            "runtime",
+            "security posture",
+            "maintenance expectation"
+          ],
+          "outputs": [
+            "purpose statement",
+            "integration mode",
+            "constraint list",
+            "required depth"
+          ],
+          "exit_gate": "The purpose is one of adopt, contribute, learn, onboard or record, and the integration mode is stated — dependency, vendored, MCP, fork or reference only.",
+          "on_gate_failure": "Ask the requester. An unscoped analysis produces a tour rather than an answer."
+        },
+        {
+          "id": 2,
+          "name": "Verify identity and status",
+          "goal": "Confirm this is the canonical upstream at the ref that will actually be used, and whether it is alive.",
+          "skill": "repository-analysis",
+          "inputs": [
+            "slug or URL",
+            "lockfile-pinned version or ref"
+          ],
+          "outputs": [
+            "canonical slug after redirects",
+            "owner identity",
+            "archived/disabled flag",
+            "last push and release dates",
+            "star count with observation date",
+            "rename or supersession history"
+          ],
+          "exit_gate": "The canonical upstream is confirmed, the ref under analysis matches what production pins, and archived or maintenance status is stated explicitly.",
+          "max_loops": 2,
+          "on_gate_failure": "Follow redirects and check release notes for renames. Analysing a fork and reporting the upstream's reputation is a common and damaging error."
+        },
+        {
+          "id": 3,
+          "name": "Read the machine-readable truth",
+          "goal": "Take facts from manifests, lockfiles, CI configuration and schemas rather than from prose.",
+          "inputs": [
+            "package manifests",
+            "lockfiles",
+            "CI workflows",
+            "Makefile or scripts",
+            "config files",
+            "schema definitions"
+          ],
+          "outputs": [
+            "exact dependency set with resolved versions",
+            "real build/test/lint commands",
+            "enforced CI gates",
+            "required configuration and secrets",
+            "declared entry points"
+          ],
+          "exit_gate": "The build, test and run commands are taken from manifests or CI rather than from the README, and every required environment variable and secret is enumerated.",
+          "on_gate_failure": "Run the commands. Documentation that cannot be executed is a hypothesis about the project, not a fact about it."
+        },
+        {
+          "id": 4,
+          "name": "Map the architecture",
+          "goal": "Produce a one-page map of entry point to core flow to outputs, with layering and extension points.",
+          "skill": "repository-analysis",
+          "inputs": [
+            "source tree",
+            "entry points",
+            "manifests",
+            "tests"
+          ],
+          "outputs": [
+            "one-page architecture map",
+            "layer dependency direction",
+            "public versus internal API surface",
+            "extension points",
+            "external dependencies and data model"
+          ],
+          "exit_gate": "A reader can trace one request or one command from entry to output using the map alone, and the public API boundary is identified.",
+          "max_loops": 3,
+          "on_gate_failure": "Follow one real execution path end to end with the debugger or with logging. A directory listing is not an architecture map."
+        },
+        {
+          "id": 5,
+          "name": "Assess health and maintenance",
+          "goal": "Determine whether this project will still be maintained when the dependency matters most.",
+          "skill": "repository-analysis",
+          "inputs": [
+            "commit and release history",
+            "contributor list",
+            "issue tracker",
+            "CI status",
+            "SECURITY.md"
+          ],
+          "outputs": [
+            "health classification — STRONG",
+            "WEAK or DEAD/UNSAFE — with the observable evidence and dates for each signal"
+          ],
+          "exit_gate": "Every health signal cited is observable and dated, and the classification follows the rules in skills/repository-analysis rather than the star count.",
+          "max_loops": 2,
+          "on_gate_failure": "Record the health as UNKNOWN with the missing evidence named. An undated health snapshot is noise."
+        },
+        {
+          "id": 6,
+          "name": "Read the license",
+          "goal": "Establish what may legally be done with this code — the file, not the badge.",
+          "inputs": [
+            "LICENSE file",
+            "NOTICE",
+            "dependency licenses",
+            "header comments"
+          ],
+          "outputs": [
+            "exact license",
+            "SPDX identifier",
+            "license_risk classification",
+            "vendoring and redistribution decision",
+            "attribution obligations",
+            "copyleft reach"
+          ],
+          "exit_gate": "The license file has been read; a null license is recorded as no-license-do-not-redistribute with vendoring prohibited; NOASSERTION or custom text is read for field-of-use and trademark restrictions; copyleft compatibility with the distribution model is stated.",
+          "on_gate_failure": "Prohibit vendoring and reference only. A high star count combined with no license file is the most common trap in this space."
+        },
+        {
+          "id": 7,
+          "name": "Assess quality and security posture",
+          "goal": "Determine whether the project's own engineering practices make it safe to depend on.",
+          "skill": "security-audit",
+          "inputs": [
+            "test suite",
+            "CI gates",
+            "release discipline",
+            "SECURITY.md",
+            "advisories",
+            "default configuration",
+            "install-time scripts"
+          ],
+          "outputs": [
+            "test and CI assessment",
+            "release and SemVer discipline",
+            "issue triage quality",
+            "advisory history",
+            "default-configuration safety",
+            "install-time script review",
+            "supply-chain posture"
+          ],
+          "exit_gate": "What CI actually enforces is stated from the workflow files rather than from badges, known advisories at the resolved version are listed, and install-time behaviour is reviewed.",
+          "max_loops": 2,
+          "on_gate_failure": "Treat unenforced quality claims as absent. A badge is a claim; a workflow file is evidence."
+        },
+        {
+          "id": 8,
+          "name": "Run it",
+          "goal": "Execute the quickstart in a clean environment and measure the real onboarding friction.",
+          "inputs": [
+            "quickstart instructions",
+            "clean environment",
+            "the pinned version"
+          ],
+          "outputs": [
+            "time to first successful run",
+            "every friction point encountered",
+            "divergence between documentation and reality",
+            "examples that do not run"
+          ],
+          "exit_gate": "The quickstart has been executed on a clean environment at the version that would be adopted, and every divergence between documentation and observed behaviour is recorded.",
+          "max_loops": 2,
+          "on_gate_failure": "Record the failure as a finding. A quickstart that does not run is a maintenance signal with direct cost."
+        },
+        {
+          "id": 9,
+          "name": "Score fit and removal cost",
+          "goal": "Evaluate against this project's constraints rather than in the abstract, including the field everyone skips.",
+          "skill": "competitive-analysis",
+          "inputs": [
+            "constraints",
+            "all findings",
+            "candidate alternatives"
+          ],
+          "outputs": [
+            "weighted fit table",
+            "removal cost assessment",
+            "coupling measurement",
+            "top three risks each with a detection method",
+            "exit plan"
+          ],
+          "exit_gate": "The fit table is weighted against the stated constraints, removal cost is quantified by call sites and files touched, and each of the top three risks has an observable detection method.",
+          "on_gate_failure": "Measure coupling by counting import sites. A dependency whose removal cost is unknown is a liability whatever its quality today."
+        },
+        {
+          "id": 10,
+          "name": "Report and record",
+          "goal": "Produce a verdict with conditions and file it where the next assessment can find it.",
+          "skill": "research-synthesis",
+          "agent": "skill-curator",
+          "inputs": [
+            "all findings"
+          ],
+          "outputs": [
+            "assessment report with verdict ADOPT/WRAP/EXTEND/AVOID/MONITOR",
+            "evidence table with URL or path and date per claim",
+            "repository card",
+            "index entry"
+          ],
+          "exit_gate": "A verdict is stated with the conditions attached, every factual claim carries a URL or file path and a date, uncited statements are marked GENERATED, and the assessment is filed with a re-verification date.",
+          "on_gate_failure": "Remove or label the uncited claims. An assessment that cannot be traced cannot be trusted or reused."
+        }
+      ],
+      "quality_gates": [
+        "Purpose and integration mode fixed before analysis begins.",
+        "Canonical upstream confirmed; the analysed ref matches what production pins.",
+        "Archived, disabled or maintenance status stated explicitly, never omitted.",
+        "Build, test and run commands taken from manifests or CI, not from prose.",
+        "A one-page architecture map traces one real path from entry to output.",
+        "Every health signal is observable and dated; stars alone are never a quality signal.",
+        "The license FILE was read; a null license yields no-license-do-not-redistribute and no vendoring.",
+        "CI enforcement read from workflow files, not from badges.",
+        "Advisories checked at the resolved version; install-time scripts reviewed.",
+        "The quickstart was actually executed in a clean environment at the target version.",
+        "Removal cost quantified; exit plan written.",
+        "Verdict stated with conditions; every claim cited or marked GENERATED; re-verification date set."
+      ],
+      "artifacts": [
+        "purpose and constraint statement",
+        "identity and status record",
+        "machine-readable facts — commands, dependencies, configuration",
+        "one-page architecture map",
+        "health classification with dated evidence",
+        "license assessment with license_risk",
+        "quality and security posture report",
+        "quickstart execution record with friction log",
+        "weighted fit table with removal cost and exit plan",
+        "assessment report with verdict, conditions and evidence table",
+        "repository card and index entry"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard",
+          "type": "github-repository",
+          "organization": "Open Source Security Foundation",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "GitHub REST API — repositories",
+          "url": "https://docs.github.com/en/rest/repos/repos",
+          "type": "official-docs",
+          "organization": "GitHub",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related": [
+        "skills/repository-analysis/SKILL.md",
+        "skills/competitive-analysis/SKILL.md",
+        "workflows/architecture-review/WORKFLOW.md",
+        "repositories/"
+      ],
+      "_path": "workflows/analyze-existing-project/WORKFLOW.md",
+      "_tokens": 791,
+      "_headings": [
+        "Workflow: Analyze Existing Project",
+        "The principle",
+        "Scaling",
+        "Failure modes specific to this workflow",
+        "References"
+      ]
+    },
+    {
+      "name": "architecture-review",
+      "version": "1.0.0",
+      "description": "Review an existing or proposed architecture against its stated requirements — boundaries, data ownership, consistency, failure behaviour, operability and reversibility — producing ADRs for what changes and a sequenced evolution plan.",
+      "trigger": "A new design before implementation; an existing system that has outgrown its structure; a proposed service extraction, storage change or vendor adoption; a recurring incident class pointing at structure rather than code; or a one-way-door decision about to be taken.",
+      "not_for": "Code-level review of a single change (use skills/code-review); a security-specific review (use workflows/security-review); a performance investigation (use workflows/performance-review); relitigating a decision that has an accepted ADR unless its stated revisit trigger has fired.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "architecture",
+        "review",
+        "adr",
+        "boundaries",
+        "tradeoffs",
+        "evolution",
+        "workflow"
+      ],
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "estimated_duration": "half a day for a focused design review; days for a full system review",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Recover the requirements",
+          "goal": "Establish what the architecture is actually for, including the non-functional requirements that decide structure.",
+          "skill": "project-planning",
+          "inputs": [
+            "product requirements",
+            "existing ADRs",
+            "incident history",
+            "growth and load data",
+            "compliance scope"
+          ],
+          "outputs": [
+            "functional requirements",
+            "non-functional requirements with numeric targets",
+            "hard constraints",
+            "team and operational capability"
+          ],
+          "exit_gate": "Scale, latency, consistency, availability, durability, compliance, team size and budget are each stated with a number or an explicit \"unknown\", and unknowns that would change the design are flagged for resolution.",
+          "on_gate_failure": "Stop and gather them. Reviewing an architecture without its requirements produces an opinion about taste."
+        },
+        {
+          "id": 2,
+          "name": "Rank the quality attributes",
+          "goal": "Force the tradeoffs into the open, because unranked quality attributes produce a design that optimises nothing.",
+          "skill": "project-planning",
+          "inputs": [
+            "non-functional requirements",
+            "business priorities"
+          ],
+          "outputs": [
+            "ranked quality attributes with numeric targets",
+            "and the pairs that conflict irreconcilably"
+          ],
+          "exit_gate": "Attributes are ranked with numbers, and every conflicting pair is named — those conflicts are the escalation points for the owner rather than decisions for the reviewer.",
+          "max_loops": 2,
+          "on_gate_failure": "Escalate the conflict. \"Fast, consistent and cheap\" is not a specification; one of the three must yield, and that is a business decision."
+        },
+        {
+          "id": 3,
+          "name": "Map the current or proposed structure",
+          "goal": "Draw what exists or what is proposed, at context and container level, with data flows and trust boundaries.",
+          "skill": "repository-analysis",
+          "agent": "architect",
+          "inputs": [
+            "codebase or design document",
+            "deployment topology",
+            "integration list"
+          ],
+          "outputs": [
+            "context diagram",
+            "container diagram",
+            "data-flow diagram with trust boundaries",
+            "integration inventory with direction and contract per edge"
+          ],
+          "exit_gate": "Every component, store, queue and external integration appears exactly once, every edge has a direction and a named contract, and every trust boundary is marked.",
+          "max_loops": 2,
+          "on_gate_failure": "Trace real requests through logs or traces to find the edges nobody documented. Undocumented integrations are where outages originate."
+        },
+        {
+          "id": 4,
+          "name": "Audit boundaries and data ownership",
+          "goal": "Check that each entity has one owner, each boundary has an interface, and the dependency direction is acyclic and deliberate.",
+          "skill": "backend-engineering",
+          "inputs": [
+            "structure map",
+            "data model",
+            "module and service inventory"
+          ],
+          "outputs": [
+            "ownership table per entity",
+            "boundary interface inventory",
+            "dependency graph with cycles flagged",
+            "coupling hotspots"
+          ],
+          "exit_gate": "Every entity has exactly one owning component and every other access is a read through a contract; dependency cycles are either eliminated or recorded as accepted with a reason; the highest-coupling modules are identified by measured import counts.",
+          "max_loops": 2,
+          "on_gate_failure": "Name the owner. Two writers to one entity without a coordination mechanism is a data-corruption schedule, not a design."
+        },
+        {
+          "id": 5,
+          "name": "Audit consistency and failure behaviour",
+          "goal": "Verify that every integration has a designed answer to \"what happens when this fails\", and that consistency claims match the operations that need them.",
+          "skill": "backend-engineering",
+          "inputs": [
+            "integration inventory",
+            "data flows",
+            "invariants list"
+          ],
+          "outputs": [
+            "per-integration failure behaviour — timeout",
+            "retry policy",
+            "idempotency",
+            "circuit breaking",
+            "degradation; consistency model per operation; invariant enforcement location"
+          ],
+          "exit_gate": "No integration lacks a timeout, a bounded retry policy and a stated degradation; every invariant is enforced by a constraint rather than by convention; operations requiring strong consistency are identified and the rest are explicitly eventual.",
+          "max_loops": 2,
+          "on_gate_failure": "Design the missing failure behaviour before proceeding. An unspecified failure path is decided by whoever is on call, at 3 a.m., during the incident."
+        },
+        {
+          "id": 6,
+          "name": "Audit operability",
+          "goal": "Check whether the team that must run this can actually run it.",
+          "skill": "deployment",
+          "inputs": [
+            "structure map",
+            "deployment topology",
+            "observability stack",
+            "on-call model"
+          ],
+          "outputs": [
+            "operational assessment — deployability",
+            "observability coverage",
+            "on-call load per component",
+            "scaling mechanism",
+            "backup and recovery",
+            "cost model"
+          ],
+          "exit_gate": "Every component is deployable, observable and recoverable by the team that owns it; on-call load is within the team's capacity; and the cost model is stated rather than assumed.",
+          "on_gate_failure": "Simplify. A design the team cannot operate is a bad design regardless of its elegance — reduce components before adding headcount."
+        },
+        {
+          "id": 7,
+          "name": "Test against the alternatives",
+          "goal": "Establish whether the chosen structure is justified, including the simpler one nobody proposed.",
+          "skill": "competitive-analysis",
+          "inputs": [
+            "structure map",
+            "ranked quality attributes",
+            "constraints"
+          ],
+          "outputs": [
+            "comparison of the design against at least two alternatives",
+            "always including the simplest viable option and the do-nothing option"
+          ],
+          "exit_gate": "At least two alternatives are compared against the ranked attributes, the simplest viable option is among them, and every additional component is justified by a requirement it serves.",
+          "max_loops": 2,
+          "on_gate_failure": "Remove the unjustified component. Complexity that cannot be traced to a requirement is decoration, and decoration in architecture is operational cost paid forever."
+        },
+        {
+          "id": 8,
+          "name": "Classify decision reversibility",
+          "goal": "Separate two-way doors from one-way doors, because they deserve opposite amounts of caution.",
+          "skill": "dont-reinvent-the-wheel",
+          "inputs": [
+            "findings",
+            "proposed changes"
+          ],
+          "outputs": [
+            "decision register with each decision classified as reversible or irreversible",
+            "the exit plan for irreversible ones",
+            "and the escalation list"
+          ],
+          "exit_gate": "Every proposed change is classified, every irreversible decision has a written exit plan or an explicit statement that none exists, and all irreversible decisions are on the escalation list for owner sign-off.",
+          "on_gate_failure": "Escalate before proceeding. Taking a one-way door without sign-off is how teams end up unable to change anything."
+        },
+        {
+          "id": 9,
+          "name": "Write the ADRs",
+          "goal": "Record the decisions with the reasoning and the rejected alternatives, so the design survives the people who made it.",
+          "skill": "documentation",
+          "agent": "architect",
+          "inputs": [
+            "decision register",
+            "findings",
+            "alternatives comparison"
+          ],
+          "outputs": [
+            "one ADR per consequential decision — context",
+            "options considered",
+            "decision",
+            "consequences",
+            "status",
+            "date",
+            "deciders"
+          ],
+          "exit_gate": "Every consequential decision has an ADR naming the alternatives that were rejected and why, and a reader of the ADRs alone could reconstruct the design and would not reverse it by accident.",
+          "max_loops": 2,
+          "on_gate_failure": "Write the missing ADR. A decision without a record will be reversed by the next person who finds it inconvenient."
+        },
+        {
+          "id": 10,
+          "name": "Sequence the evolution",
+          "goal": "Produce an order of work that retires risk early and keeps the system working at every step.",
+          "skill": "migration",
+          "inputs": [
+            "ADRs",
+            "decision register",
+            "current state",
+            "target state"
+          ],
+          "outputs": [
+            "evolution plan — walking skeleton first",
+            "increments ordered riskiest-first",
+            "expand-migrate-contract phases for structural changes",
+            "gates per milestone",
+            "point of no return marked"
+          ],
+          "exit_gate": "The first milestone is a demonstrable end-to-end vertical slice rather than a layer, each milestone has an observable gate, the riskiest item is earliest, and every irreversible step is marked with the sign-off it requires.",
+          "on_gate_failure": "Re-sequence. De-risking in the final milestone is not de-risking; it is discovering the risk when there is no time left to react."
+        }
+      ],
+      "quality_gates": [
+        "Requirements recovered with numeric non-functional targets before any review of structure.",
+        "Quality attributes ranked; irreconcilable conflicts escalated rather than silently resolved.",
+        "Every component, store and integration appears once, with a direction and a named contract.",
+        "Every entity has exactly one owner; dependency cycles eliminated or accepted with a reason.",
+        "No integration lacks a timeout, bounded retry and stated degradation.",
+        "Invariants enforced by constraints, not by convention.",
+        "Every component deployable, observable and recoverable by its owning team.",
+        "On-call load within team capacity.",
+        "At least two alternatives compared, including the simplest viable option.",
+        "Every component traced to a requirement it serves.",
+        "Every decision classified reversible or irreversible, with exit plans for the latter.",
+        "An ADR exists per consequential decision, naming rejected alternatives.",
+        "First milestone is a walking skeleton; riskiest work is earliest; points of no return marked."
+      ],
+      "artifacts": [
+        "requirements and constraints record",
+        "ranked quality attributes with conflicts named",
+        "context, container and data-flow diagrams with trust boundaries",
+        "data ownership table and dependency graph",
+        "failure-behaviour and consistency matrix",
+        "operability and cost assessment",
+        "alternatives comparison",
+        "decision register with reversibility classification",
+        "ADRs",
+        "sequenced evolution plan with gates and points of no return"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "C4 model for software architecture",
+          "url": "https://c4model.com/",
+          "type": "methodology",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; verify current diagram conventions before citing specifics."
+        },
+        {
+          "title": "The Twelve-Factor App",
+          "url": "https://github.com/heroku/12factor",
+          "type": "github-repository",
+          "license": "MIT",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Strangler Fig Application (Martin Fowler)",
+          "url": "https://martinfowler.com/bliki/StranglerFigApplication.html",
+          "type": "methodology",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; verify before citing specifics."
+        }
+      ],
+      "related": [
+        "agents/architect/AGENT.md",
+        "skills/api-design/SKILL.md",
+        "decision-records/",
+        "patterns/architecture/"
+      ],
+      "_path": "workflows/architecture-review/WORKFLOW.md",
+      "_tokens": 755,
+      "_headings": [
+        "Workflow: Architecture Review",
+        "The question this workflow answers",
+        "Why requirements come first",
+        "The three findings that matter most",
+        "Scaling",
+        "References"
+      ]
+    },
+    {
+      "name": "bug-investigation",
+      "version": "1.0.0",
+      "description": "Systematic defect investigation from symptom to root cause — reproduce automatically, isolate to the smallest subsystem, test one hypothesis per change, fix the cause rather than the symptom, and file the lesson where the next agent will find it.",
+      "trigger": "Any incorrect behaviour, crash, flake, regression, performance anomaly, security incident, or an agent about to make its third consecutive change to the same code without progress.",
+      "not_for": "A known and understood defect with an agreed fix (implement it); a feature request described as a bug; cosmetic preference changes; a question about intended behaviour that documentation answers.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "debugging",
+        "incident",
+        "root-cause",
+        "testing",
+        "workflow",
+        "methodology"
+      ],
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "estimated_duration": "30 minutes for an isolated defect; hours for intermittent or cross-system failures",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Capture the symptom exactly",
+          "goal": "Record what is observed verbatim — the real error text, not a paraphrase — with the expected behaviour and how that expectation is known.",
+          "skill": "debugging",
+          "inputs": [
+            "report",
+            "error output",
+            "logs",
+            "screenshots",
+            "user description"
+          ],
+          "outputs": [
+            "symptom statement",
+            "expected behaviour with its source",
+            "first-seen date",
+            "affected scope"
+          ],
+          "exit_gate": "The symptom is stated as observed text plus expected text, and the scope is bounded — which users, tenants, requests, data shapes, environments and versions are affected.",
+          "on_gate_failure": "Gather more observations before hypothesising. A paraphrased symptom sends the investigation in the wrong direction."
+        },
+        {
+          "id": 2,
+          "name": "Establish what changed",
+          "goal": "Correlate first-seen with deploys, dependency bumps, config changes, data migrations, feature flags, traffic shifts and schema changes.",
+          "inputs": [
+            "first-seen date",
+            "deploy history",
+            "dependency and lockfile diffs",
+            "config history",
+            "feature-flag changes",
+            "release notes"
+          ],
+          "outputs": [
+            "candidate change list ranked by temporal and causal proximity"
+          ],
+          "exit_gate": "Either a specific change is correlated with first-seen, or the investigation has established that nothing changed in the relevant window — which itself redirects the search to data or load.",
+          "max_loops": 2,
+          "on_gate_failure": "Widen the window and check upstream dependencies and third-party changes; a defect with no local cause often has a remote one."
+        },
+        {
+          "id": 3,
+          "name": "Reproduce automatically",
+          "goal": "Build the smallest deterministic reproduction, as a command or test, that fails reliably.",
+          "skill": "debugging",
+          "inputs": [
+            "symptom",
+            "affected scope",
+            "candidate changes"
+          ],
+          "outputs": [
+            "automated reproduction — script",
+            "test or curl — plus its determinism rate and trigger variable"
+          ],
+          "exit_gate": "A command exists that reproduces the failure, its determinism is measured (10/10, 3/10 or once), and the trigger variable is identified — input shape, timing, ordering, concurrency, state, environment, version or data volume.",
+          "max_loops": 4,
+          "on_gate_failure": "For intermittent failures, change the goal to raising the reproduction rate — parallelise, amplify timing, add load, replay recorded traffic — before hypothesising. Escalate if it cannot be reproduced at all."
+        },
+        {
+          "id": 4,
+          "name": "Observe the real error",
+          "goal": "Get the untruncated error at the correct layer, with symbols resolved and the exact input that caused it.",
+          "inputs": [
+            "reproduction",
+            "logs",
+            "traces",
+            "error tracking"
+          ],
+          "outputs": [
+            "full stack trace",
+            "exact failing input with secrets redacted",
+            "surrounding log context",
+            "version of every component in the path"
+          ],
+          "exit_gate": "The error message has been read literally, the trace is resolved to source lines, and the failing input's shape is known — not merely its identity.",
+          "on_gate_failure": "Add instrumentation at the boundary of the suspected subsystem and reproduce again. Guessing from an unresolved trace wastes the rest of the investigation."
+        },
+        {
+          "id": 5,
+          "name": "Isolate",
+          "goal": "Reduce to the smallest subsystem in which the defect still reproduces.",
+          "skill": "debugging",
+          "inputs": [
+            "reproduction",
+            "trace",
+            "failing input"
+          ],
+          "outputs": [
+            "isolated subsystem",
+            "the boundary inputs and outputs around it",
+            "evidence that everything outside is innocent"
+          ],
+          "exit_gate": "A component has been identified such that the defect reproduces inside it and not when it is replaced by a known-good stub.",
+          "max_loops": 4,
+          "on_gate_failure": "Use bisection — git bisect on the regression range, binary search on the payload, halve the call path — and diff working against broken across environment, config, versions, data, flags, headers, timezone, locale and seed."
+        },
+        {
+          "id": 6,
+          "name": "Hypothesise and test",
+          "goal": "Test one falsifiable hypothesis per change, recording every attempt whether it confirms or kills.",
+          "skill": "debugging",
+          "inputs": [
+            "isolated subsystem",
+            "trace",
+            "failing input"
+          ],
+          "outputs": [
+            "attempt log — hypothesis",
+            "predicted observation",
+            "specific test",
+            "result",
+            "conclusion"
+          ],
+          "exit_gate": "One hypothesis is confirmed by an observation that could have falsified it, and no attempt is repeated after being disproved.",
+          "max_loops": 6,
+          "on_gate_failure": "Return to stage 5 — a hypothesis that cannot be tested usually means the isolation is wrong. Never change two variables at once; if the bug disappears, nothing has been learned."
+        },
+        {
+          "id": 7,
+          "name": "Establish root cause",
+          "goal": "Ask down the causal chain to the level of the missing check, not just the immediate defect.",
+          "inputs": [
+            "confirmed hypothesis",
+            "attempt log"
+          ],
+          "outputs": [
+            "root cause at four levels — why it failed",
+            "why the defect existed",
+            "why the assumption was made",
+            "why it was not caught"
+          ],
+          "exit_gate": "The chain reaches \"why was it not caught\", identifying the missing test, validation or review gate — which becomes a fix in its own right.",
+          "on_gate_failure": "Continue asking why. Stopping at level one yields a patch that returns in a different shape."
+        },
+        {
+          "id": 8,
+          "name": "Fix minimally",
+          "goal": "Apply the smallest change that removes the root cause, with no unrelated improvements bundled in.",
+          "inputs": [
+            "root cause",
+            "reproduction"
+          ],
+          "outputs": [
+            "fix",
+            "plus the prevention fix for the missing gate identified in stage 7"
+          ],
+          "exit_gate": "The fix addresses the cause rather than the symptom, contains no unrelated changes, and the missing gate from stage 7 has been closed — a test, a validation, a constraint or a lint rule.",
+          "max_loops": 2,
+          "on_gate_failure": "Split the change. A bug fix bundled with a refactor cannot be verified or reviewed, and a symptom patch must be replaced by a cause fix."
+        },
+        {
+          "id": 9,
+          "name": "Prove the fix",
+          "goal": "Verify with the automated reproduction, in the environment where the defect appeared, without collateral damage.",
+          "skill": "testing",
+          "agent": "qa-engineer",
+          "inputs": [
+            "fix",
+            "reproduction",
+            "surrounding suite"
+          ],
+          "outputs": [
+            "green reproduction",
+            "committed regression test named after the issue",
+            "full-suite results",
+            "verification in the failing environment"
+          ],
+          "exit_gate": "The reproduction passes, a regression test is committed with a name referencing the issue, the surrounding suite passes unchanged, and the fix is verified in the environment where the defect occurred — not only locally.",
+          "max_loops": 3,
+          "on_gate_failure": "Return to stage 6. Declaring success without a reproduction is a guess with a commit message."
+        },
+        {
+          "id": 10,
+          "name": "File the lesson",
+          "goal": "Put the knowledge where the next agent will find it before making the same mistake.",
+          "skill": "agent-memory-design",
+          "agent": "skill-curator",
+          "inputs": [
+            "root cause",
+            "fix",
+            "attempt log",
+            "prevention gate"
+          ],
+          "outputs": [
+            "gotchas entry for the trap",
+            "failure-modes entry if systemic",
+            "knowledge entry if it generalises",
+            "changelog entry"
+          ],
+          "exit_gate": "The trap, its trigger and the safe alternative are recorded in a retrievable location, and any generalisable lesson has been filed with sources and a review date.",
+          "on_gate_failure": "File at minimum a gotcha entry. An unrecorded lesson will be paid for again."
+        }
+      ],
+      "quality_gates": [
+        "An automated reproduction exists before any hypothesis is tested.",
+        "Determinism rate and trigger variable are recorded.",
+        "The full error was read literally at the correct layer, with symbols resolved.",
+        "The defect is isolated to a subsystem that reproduces it and only it.",
+        "One variable changed per test; the attempt log is complete, including killed hypotheses.",
+        "No disproved hypothesis is retried.",
+        "Root cause reaches \"why was it not caught\", and that gate is closed.",
+        "The fix is minimal, cause-directed and free of unrelated changes.",
+        "A regression test is committed and named after the issue.",
+        "The fix is verified in the environment where the defect appeared.",
+        "The lesson is filed in gotchas/, failure-modes/ or knowledge/."
+      ],
+      "artifacts": [
+        "symptom statement with expected behaviour and scope",
+        "candidate change list",
+        "automated reproduction with determinism rate",
+        "full resolved trace and exact failing input",
+        "isolation evidence",
+        "attempt log",
+        "four-level root cause analysis",
+        "fix plus prevention gate",
+        "regression test",
+        "gotchas / failure-modes / knowledge entry"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "url": "https://arxiv.org/abs/2210.03629",
+          "type": "research-paper",
+          "published": "2022-10-06",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Interleaving a hypothesis with an observation beats long ungrounded reasoning chains."
+        },
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2303.11366",
+          "type": "research-paper",
+          "published": "2023-03-20",
+          "license": "CC BY 4.0",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Recording failed attempts in language prevents repeating them — the basis of the attempt log."
+        }
+      ],
+      "related": [
+        "skills/debugging/SKILL.md",
+        "skills/testing/SKILL.md",
+        "agents/qa-engineer/AGENT.md",
+        "failure-modes/",
+        "gotchas/"
+      ],
+      "_path": "workflows/bug-investigation/WORKFLOW.md",
+      "_tokens": 790,
+      "_headings": [
+        "Workflow: Bug Investigation",
+        "The rule that makes this work",
+        "The second rule",
+        "Fast paths",
+        "Failure modes specific to this workflow",
+        "References"
+      ]
+    },
+    {
+      "name": "build-website",
+      "version": "1.0.0",
+      "description": "End-to-end production of a website that looks designed rather than generated — research the direction, design the system, implement it, then pass the accessibility, slop and performance gates before anything is called finished.",
+      "trigger": "A request to build, redesign or substantially extend a website, landing page, marketing site, dashboard or web application, where the visual result will be seen by users.",
+      "not_for": "Backend-only work; a pure content edit; extending an existing surface inside an established design system (use the system, do not re-derive it); internal tooling where utility is the only requirement and the requester has said so.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "website",
+        "frontend",
+        "design",
+        "build",
+        "workflow",
+        "quality-gate",
+        "ai-slop"
+      ],
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "estimated_duration": "hours to days depending on scope; the gates are not optional at any scale",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Brief and content inventory",
+          "goal": "Establish the audience, the single most important action, the real content with its variance, and the constraints.",
+          "skill": "project-planning",
+          "inputs": [
+            "requester brief",
+            "brand assets",
+            "existing content",
+            "technical constraints"
+          ],
+          "outputs": [
+            "brief",
+            "critical tasks",
+            "content inventory with variance",
+            "constraint list"
+          ],
+          "exit_gate": "Real content exists for every section, including shortest and longest plausible strings, and empty/one/many/error data states. Placeholder copy is not accepted.",
+          "on_gate_failure": "Request the content or write it and get sign-off. Designing against lorem ipsum produces layouts that break on first contact with truth."
+        },
+        {
+          "id": 2,
+          "name": "Visual design research",
+          "goal": "Build a written, defensible visual direction from real references instead of reaching for the default generated aesthetic.",
+          "skill": "visual-design-research",
+          "inputs": [
+            "brief",
+            "audience",
+            "3-6 competitors",
+            "differentiator"
+          ],
+          "outputs": [
+            "Design Direction Brief — intended impression",
+            "position",
+            "aesthetic",
+            "adopted conventions",
+            "at most two differentiators",
+            "explicit rejections",
+            "anti-references"
+          ],
+          "exit_gate": "15-30 references across four pools including anti-references, 5-8 fully decomposed with \"why it works\", and the brief states explicit rejections.",
+          "max_loops": 2,
+          "on_gate_failure": "Escalate to the requester for references or for acceptance of a conventional direction, recorded as unresearched."
+        },
+        {
+          "id": 3,
+          "name": "Information architecture",
+          "goal": "Decide structure and priority before any pixels — what the user does here, what must be true to succeed, and in what order.",
+          "skill": "frontend-design",
+          "inputs": [
+            "brief",
+            "critical tasks",
+            "content inventory"
+          ],
+          "outputs": [
+            "per-view priority outline",
+            "navigation model",
+            "reading and action order",
+            "page inventory"
+          ],
+          "exit_gate": "Every view has exactly one primary element identified, and content that serves no task has been removed rather than placed.",
+          "on_gate_failure": "Re-derive from the task list; a layout with no task behind it is decoration."
+        },
+        {
+          "id": 4,
+          "name": "Design system and tokens",
+          "goal": "Define the three systems that remove most slop before any component is drawn — spacing scale, type scale, colour roles.",
+          "skill": "design-systems",
+          "inputs": [
+            "Design Direction Brief",
+            "IA",
+            "brand constraints",
+            "accessibility level"
+          ],
+          "outputs": [
+            "token definitions — spacing",
+            "type",
+            "colour roles with contrast-checked pairs",
+            "radius",
+            "elevation",
+            "motion durations and easings"
+          ],
+          "exit_gate": "Every semantic colour token has a contrast-checked partner at WCAG AA, and every token is named by role rather than by appearance.",
+          "max_loops": 2,
+          "on_gate_failure": "Fix the palette or the surfaces until contrast passes; never ship a token set that fails AA."
+        },
+        {
+          "id": 5,
+          "name": "Composition and craft",
+          "goal": "Design the views with deliberate hierarchy, asymmetry, density variation and craft details, plus one signature element specific to this product.",
+          "skill": "frontend-design",
+          "inputs": [
+            "IA",
+            "tokens",
+            "content inventory",
+            "Design Direction Brief"
+          ],
+          "outputs": [
+            "compositions for every view and state",
+            "at every required breakpoint",
+            "in both themes"
+          ],
+          "exit_gate": "Each view's primary element is distinguishable in at least three dimensions, and the squint/blur test identifies it at every breakpoint.",
+          "max_loops": 3,
+          "on_gate_failure": "Reduce competing elements. If two elements compete, the user chooses neither."
+        },
+        {
+          "id": 6,
+          "name": "Motion design",
+          "goal": "Add animation only where it explains causality, continuity, feedback, hierarchy, state or relationship — with a complete reduced-motion path.",
+          "skill": "motion-design",
+          "inputs": [
+            "compositions",
+            "motion tokens"
+          ],
+          "outputs": [
+            "motion specification per interaction — purpose",
+            "trigger",
+            "duration token",
+            "easing token",
+            "reduced-motion behaviour"
+          ],
+          "exit_gate": "Every animation names a purpose from the purpose test; nothing flashes more than three times per second; prefers-reduced-motion yields a complete, understandable experience.",
+          "on_gate_failure": "Remove the animation. Decorative motion is the strongest AI-slop signal and it is never worth defending."
+        },
+        {
+          "id": 7,
+          "name": "Implementation",
+          "goal": "Build the design in code with token-only styling, accessible primitives, every state implemented, and generated types at the data boundary.",
+          "skill": "frontend-implementation",
+          "agent": "frontend-engineer",
+          "inputs": [
+            "tokens",
+            "compositions",
+            "motion spec",
+            "content model",
+            "API contract"
+          ],
+          "outputs": [
+            "components",
+            "routes with recorded rendering strategy",
+            "data layer",
+            "component tests"
+          ],
+          "exit_gate": "Zero raw colour, spacing or type values in component code, and every data-bound component implements empty, loading, error, partial and success states.",
+          "max_loops": 3,
+          "on_gate_failure": "Return to stage 4 or 5 — a hard-coded value usually means the token set is missing something the design needs."
+        },
+        {
+          "id": 8,
+          "name": "Accessibility gate",
+          "goal": "Prove a user with assistive technology can complete every critical task.",
+          "skill": "accessibility-audit",
+          "inputs": [
+            "implementation",
+            "critical tasks",
+            "target WCAG level",
+            "device matrix"
+          ],
+          "outputs": [
+            "findings per criterion with barrier",
+            "evidence",
+            "remediation",
+            "priority; conformance statement"
+          ],
+          "exit_gate": "All seven audit passes run at every breakpoint and theme; every critical task is completable by keyboard and by screen reader; no P1 barriers remain.",
+          "max_loops": 3,
+          "on_gate_failure": "Fix and re-audit. An automated scan alone is not a pass — it detects roughly a third of issues."
+        },
+        {
+          "id": 9,
+          "name": "AI-slop gate",
+          "goal": "Detect and remove the signatures of generated design, with evidence per symptom and remediation aimed at root causes.",
+          "skill": "ai-slop-detection",
+          "agent": "website-quality-reviewer",
+          "inputs": [
+            "implementation",
+            "Design Direction Brief",
+            "breakpoints"
+          ],
+          "outputs": [
+            "symptom table with IDs and evidence",
+            "root-cause grouping",
+            "prioritised remediation",
+            "slop score before and after"
+          ],
+          "exit_gate": "S1 symptom count is zero, or each remaining S1 has a written justification accepted by the requester, and at least one deliberate non-generic design decision is documented.",
+          "max_loops": 3,
+          "on_gate_failure": "Delete before adding — removal fixes more slop than any amount of new styling. Do not replace one cliché with another."
+        },
+        {
+          "id": 10,
+          "name": "Performance and SEO gate",
+          "goal": "Meet the agreed Core Web Vitals budget on the target device profile, and confirm the pages that should be found can be crawled, rendered and indexed.",
+          "skill": "performance-audit",
+          "agent": "performance-engineer",
+          "inputs": [
+            "implementation",
+            "budgets",
+            "target population",
+            "critical pages"
+          ],
+          "outputs": [
+            "baseline and after measurements by segment",
+            "ranked profile",
+            "remediation",
+            "CI budget gates",
+            "SEO findings"
+          ],
+          "exit_gate": "Core Web Vitals within budget at field p75 for the target profile, no regression in error rate or correctness, and every indexable page has its primary content in the served HTML or verified as rendered.",
+          "max_loops": 2,
+          "on_gate_failure": "Remove work before adding infrastructure — deletion, caching, code-splitting and image optimisation precede any scaling decision."
+        },
+        {
+          "id": 11,
+          "name": "Usability review",
+          "goal": "Walk every critical task cold, in success and failure states, on the audience's device profile.",
+          "skill": "frontend-design",
+          "agent": "ux-reviewer",
+          "inputs": [
+            "implementation",
+            "critical tasks",
+            "audience",
+            "content model"
+          ],
+          "outputs": [
+            "task walkthroughs",
+            "barrier report with severity and smallest fix",
+            "IA review",
+            "verdict"
+          ],
+          "exit_gate": "Every critical task is completable by a first-time user with no P1 barriers, in both success and failure states.",
+          "max_loops": 2,
+          "on_gate_failure": "Fix the barrier with the smallest effective change; preferences are recorded separately and do not block."
+        },
+        {
+          "id": 12,
+          "name": "Browser verification and ship",
+          "goal": "Verify in real browsers at real breakpoints with real content, then release through a reversible, observable deploy.",
+          "skill": "browser-testing",
+          "agent": "qa-engineer",
+          "inputs": [
+            "implementation",
+            "journey list",
+            "device and browser matrix"
+          ],
+          "outputs": [
+            "browser test results",
+            "cross-browser matrix",
+            "verification report",
+            "deploy record"
+          ],
+          "exit_gate": "Critical journeys pass in the target browser matrix at every breakpoint with real content, both themes, reduced motion on and off, and the deploy has a verified instant rollback path.",
+          "max_loops": 2,
+          "on_gate_failure": "Fix and re-verify; do not ship on a desktop-only pass or a retry that happened to go green."
+        }
+      ],
+      "quality_gates": [
+        "Real content exists before design begins; no placeholder copy reaches stage 5.",
+        "A Design Direction Brief with explicit rejections exists before composition.",
+        "Spacing, type and colour-role tokens are defined and used exclusively by components.",
+        "Every semantic colour pair passes WCAG AA contrast, measured with a tool.",
+        "Every animation names a purpose and has a complete prefers-reduced-motion path.",
+        "Zero raw visual values in component code.",
+        "Every data-bound component implements empty, loading, error, partial and success states.",
+        "All seven accessibility passes run; every critical task keyboard and screen-reader operable.",
+        "AI-slop S1 count is zero, or each is justified in writing and accepted.",
+        "Core Web Vitals within budget at field p75 for the target device profile.",
+        "Every critical task walked cold in success and failure states with no P1 barrier.",
+        "Verified in the real browser matrix, at 360/768/1440 px, in both themes.",
+        "Indexable pages have their primary content in the served HTML or verified as rendered.",
+        "The deploy has a rehearsed instant rollback and observability wired from the first request."
+      ],
+      "artifacts": [
+        "brief and content inventory",
+        "Design Direction Brief",
+        "information architecture and page inventory",
+        "token definitions",
+        "compositions for every view, state, breakpoint and theme",
+        "motion specification",
+        "implementation with component and browser tests",
+        "accessibility findings and conformance statement",
+        "slop symptom table, root causes, remediation and before/after score",
+        "performance baseline, profile and after-measurement",
+        "usability walkthroughs and barrier report",
+        "browser verification matrix and deploy record"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "WCAG 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/",
+          "type": "specification",
+          "organization": "W3C",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "web.dev — Core Web Vitals",
+          "url": "https://web.dev/articles/vitals",
+          "type": "official-docs",
+          "organization": "Google Chrome team",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Thresholds change; verify current values before quoting numbers."
+        }
+      ],
+      "related": [
+        "skills/frontend-design/SKILL.md",
+        "skills/ai-slop-detection/SKILL.md",
+        "workflows/ai-slop-remediation/WORKFLOW.md",
+        "agents/website-quality-reviewer/AGENT.md"
+      ],
+      "_path": "workflows/build-website/WORKFLOW.md",
+      "_tokens": 1029,
+      "_headings": [
+        "Workflow: Build Website",
+        "The two decisions that determine the outcome",
+        "Scaling the workflow",
+        "Failure modes specific to this workflow",
+        "References"
+      ]
+    },
+    {
+      "name": "deep-research",
+      "version": "1.0.0",
+      "trigger": "A question arrives whose answer will drive an engineering, architectural or adoption decision, where the cost of being confidently wrong exceeds the cost of researching it properly — technology selection, vendor or library evaluation, state-of-practice questions, regulatory or protocol questions, and any question where sources are known or likely to conflict.",
+      "description": "Answer a research question with a graded, cited evidence set rather than an impression. Retrieval, verification, gap analysis and synthesis run as a loop that stops on a stated saturation condition, and every claim leaves the loop carrying its type, evidence level, confidence and the source that was actually reached.",
+      "not_for": [
+        "A lookup with one authoritative answer and no conflicting sources — retrieve it and cite it; the loop is overhead.",
+        "A question nobody will act on. Research without a decision produces a document, not an answer.",
+        "A question about this codebase. Read the code; the repository is the primary source.",
+        "Anything requiring leaked, extracted or improperly obtained material. Refuse — see the exclusion policy.",
+        "A creative or generative task. There is no evidence set to converge on."
+      ],
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "tags": [
+        "research",
+        "verification",
+        "evidence",
+        "citations",
+        "workflow",
+        "synthesis",
+        "conflict-resolution"
+      ],
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "estimated_duration": "45-240 minutes, driven by the number of sub-questions and the depth of verification",
+      "estimated_tokens": 1400,
+      "stages": [
+        {
+          "id": 1,
+          "name": "Scope the question",
+          "exit_gate": "The sub-question list exists, each sub-question names the source type that would settle it and what counts as sufficient evidence, and the decision, constraints and budget are all recorded.",
+          "goal": "Convert the question into 3-7 individually answerable sub-questions, each with the kind of source that would settle it and what would count as sufficient evidence. Record the decision the answer will inform, the constraints, and what is already established.",
+          "skill": "web-research",
+          "agent": "researcher",
+          "inputs": [
+            "the question as asked",
+            "the decision it informs",
+            "constraints: version, platform, budget, jurisdiction, deadline",
+            "what is already established, so it is not re-derived"
+          ],
+          "outputs": [
+            "a sub-question list with the evidence standard for each",
+            "a stated budget: maximum retrieval rounds or iterations",
+            "an explicit note of anything out of scope"
+          ],
+          "max_loops": 1,
+          "on_gate_failure": "Return to the requester. A question that cannot be decomposed into checkable sub-questions is not yet a research question, and researching it will produce volume rather than an answer."
+        },
+        {
+          "id": 2,
+          "name": "Retrieve for primary sources",
+          "exit_gate": "Every sub-question has at least one source that was reached directly, and the source register records url, publisher, date, version and the reached-directly flag for each.",
+          "goal": "For each sub-question, reach the source that mints the fact — the specification, the official documentation for the exact version, the repository, the paper, the vendor's own page. Secondary sources are leads to primary ones, never substitutes. Record for every source: URL, publisher, date, the version it describes, and whether it was reached directly.",
+          "skill": "web-research",
+          "agent": "researcher",
+          "inputs": [
+            "the sub-question list with its evidence standards",
+            "repository metadata for any repository under consideration"
+          ],
+          "outputs": [
+            "a source register: url, publisher, date, version, reached-directly flag",
+            "the raw findings per sub-question, attributed to a specific source"
+          ],
+          "max_loops": 3,
+          "on_gate_failure": "If a sub-question has only secondary sources after the loop budget, mark it single-sourced or UNVERIFIED and continue. Do not promote a secondary source to primary by re-labelling it."
+        },
+        {
+          "id": 3,
+          "name": "Verify identity, date and standing",
+          "exit_gate": "Every source in the register has an identity confirmation and a verified_at date, its recency has been judged against the claim's shelf life, and anything unverifiable has been quarantined as UNVERIFIED rather than carried forward.",
+          "goal": "Confirm each source is what it appears to be — title, authors or publisher, identifier, version, date — then judge its date against the claim's shelf life rather than the source's prestige, and check its standing: authority, lifecycle status, license, self-interest.",
+          "skill": "evidence-validation",
+          "agent": "fact-checker",
+          "inputs": [
+            "the source register",
+            "the freshness windows per claim class",
+            "the scoring rules and their hard overrides"
+          ],
+          "outputs": [
+            "a per-source verification record with a verified_at date",
+            "lifecycle and license findings for any repository involved",
+            "a list of sources that could not be verified, quarantined rather than deleted"
+          ],
+          "max_loops": 2,
+          "on_gate_failure": "Quarantine the unverifiable material as UNVERIFIED, exclude it from the active evidence set, and record what would make it gradeable. An unverifiable claim is not a weak claim; it is not a claim."
+        },
+        {
+          "id": 4,
+          "name": "Extract graded claims",
+          "exit_gate": "Every finding appears in the claim table as a single checkable claim with claim_type, evidence_level, confidence, and the specific source that supports that claim. Nothing rests on a trailing reference list.",
+          "goal": "Rewrite each finding as a single checkable claim and tag it: claim_type (fact, recommendation, experiment, opinion, hypothesis), evidence_level, confidence. Attach the specific source that supports THAT claim — a reference list at the end of a report supports nothing.",
+          "skill": "research-synthesis",
+          "agent": "researcher",
+          "inputs": [
+            "the verified findings",
+            "the claim taxonomy and evidence levels"
+          ],
+          "outputs": [
+            "a claim table: claim, type, evidence level, confidence, supporting sources, verified_at",
+            "a flag on every claim that rests on a single source"
+          ],
+          "max_loops": 2,
+          "on_gate_failure": "A finding that cannot be written as a checkable claim is not a finding. Return it to the retrieve stage with the specific gap named, or drop it with a note."
+        },
+        {
+          "id": 5,
+          "name": "Seek independent corroboration",
+          "exit_gate": "Every load-bearing claim has either an independent second source with the independence judgement stated, or an explicit single-sourced flag with confidence capped at medium.",
+          "goal": "For every claim that will carry weight in the decision, find a second source with different provenance. Different provenance, not a different URL: three blogs restating one changelog are one source. Record where corroboration does not exist — single-sourced is a finding, not a defect to hide.",
+          "skill": "evidence-validation",
+          "agent": "fact-checker",
+          "inputs": [
+            "the claim table with its single-source flags",
+            "the decision, to determine which claims carry weight"
+          ],
+          "outputs": [
+            "corroboration status per load-bearing claim, with the independence judgement stated",
+            "an updated confidence for any claim that remains single-sourced"
+          ],
+          "max_loops": 2,
+          "on_gate_failure": "Cap confidence at medium for any load-bearing claim that remains single-sourced, and say so in the report. Do not raise confidence because the claim is plausible or because it was repeated."
+        },
+        {
+          "id": 6,
+          "name": "Resolve conflicts by precedence",
+          "exit_gate": "Every disagreement between sources appears in the conflict register with the precedence rule applied, what was relied on, and what would settle it. No minority view has been dropped.",
+          "goal": "Where sources disagree, apply the precedence order — primary source reached directly, official documentation, peer-reviewed research, independent corroboration, reputable secondary analysis, community sources, and unsourced model output last, labelled GENERATED. Equal rank with genuine disagreement is a conflict: record both, state which was relied on and why, and say what would settle it.",
+          "skill": "evidence-validation",
+          "agent": "fact-checker",
+          "inputs": [
+            "the claim table and the source register",
+            "the precedence order"
+          ],
+          "outputs": [
+            "a conflict register: the sources, what each says, the rule applied, what was relied on, and what would settle it",
+            "a check that no minority view was silently dropped"
+          ],
+          "max_loops": 2,
+          "on_gate_failure": "Escalate the conflict as unresolved. An unresolved conflict reported honestly is a usable answer; one silently resolved in favour of the more convenient source is not."
+        },
+        {
+          "id": 7,
+          "name": "Self-critique the evidence set",
+          "exit_gate": "The critique record answers each of the five attack questions, and every gap that matters to the decision has either been closed by further retrieval or is listed as unresolved.",
+          "goal": "Attack the evidence set before synthesising: which claim would change the decision if it were wrong, and is it the best-verified one; where is the reliance on a single source; what was not looked for because it would have been inconvenient; which claim is really an inference dressed as a finding; what would a competent dissenter point to.",
+          "skill": "reasoning-strategies",
+          "agent": "researcher",
+          "inputs": [
+            "the claim table, conflict register and corroboration status"
+          ],
+          "outputs": [
+            "a critique record with the answers to each question",
+            "additional retrieval tasks for any gap that matters to the decision"
+          ],
+          "max_loops": 2,
+          "on_gate_failure": "If the critique produces no gaps on a non-trivial question, it was not a critique. Re-run it against the specific decision rather than the general topic."
+        },
+        {
+          "id": 8,
+          "name": "Stop on saturation, not on exhaustion",
+          "exit_gate": "The stopping condition is recorded as either saturation (two rounds that changed nothing) or budget exhaustion, and what remains unresolved is listed.",
+          "goal": "Stop when two consecutive retrieval rounds add no claim that changes the answer or its confidence, or when the budget is reached. Record which condition stopped the loop, and what remains unresolved. An incomplete answer with a stated gap is usable; a complete answer with unstated gaps is not.",
+          "skill": "research-synthesis",
+          "agent": "researcher",
+          "inputs": [
+            "the retrieval log and the budget"
+          ],
+          "outputs": [
+            "the stopping condition that was met, with evidence for it",
+            "the list of what remains unresolved and why"
+          ],
+          "max_loops": 1,
+          "on_gate_failure": "If neither condition is met and the budget is exhausted, stop anyway and report the budget as the reason. Running past budget produces volume, not confidence."
+        },
+        {
+          "id": 9,
+          "name": "Synthesise and report",
+          "exit_gate": "The report contains all seven parts including a non-empty UNKNOWN section, the answer addresses the stated decision, and a recommendation is given or its absence is justified by the evidence.",
+          "goal": "Produce the report: the answer with an overall confidence and its largest caveat; the answer against each stated constraint; the claim table; the conflict register; the UNKNOWN section; the method actually followed including dead ends and deviations; and the recommendation restated against the decision. State the answer first and restate it last — attention over a long document is unevenly distributed.",
+          "skill": "research-synthesis",
+          "agent": "researcher",
+          "inputs": [
+            "every artifact produced by the preceding stages"
+          ],
+          "outputs": [
+            "the research report in the seven-part structure",
+            "a recommendation, or an explicit statement that the evidence does not support one and what would"
+          ],
+          "max_loops": 2,
+          "on_gate_failure": "If the report cannot state what would change the recommendation, the analysis has not identified its own load-bearing assumptions. Return to the critique stage."
+        }
+      ],
+      "quality_gates": [
+        {
+          "gate": "every claim has a source that was actually reached and that supports that specific claim",
+          "checked_by": "fact-checker",
+          "on_failure": "the claim is downgraded to UNVERIFIED or removed; it is not left in with a citation that does not support it"
+        },
+        {
+          "gate": "no conflict was silently resolved",
+          "checked_by": "fact-checker",
+          "on_failure": "restore the minority view to the conflict register with the precedence reasoning"
+        },
+        {
+          "gate": "confidence matches the evidence level actually achieved",
+          "checked_by": "fact-checker",
+          "on_failure": "downgrade the confidence; never upgrade the evidence level to match the confidence"
+        },
+        {
+          "gate": "recency was judged against the claim's shelf life, not the source's prestige",
+          "checked_by": "fact-checker",
+          "on_failure": "re-window the claim, re-verify it, or mark it stale"
+        },
+        {
+          "gate": "the UNKNOWN section is present and non-empty, or explains why nothing is unknown",
+          "checked_by": "researcher",
+          "on_failure": "the report is not deliverable; a report with no unknowns on a hard question did not look"
+        },
+        {
+          "gate": "the answer addresses the stated decision, not a broader or more convenient question",
+          "checked_by": "researcher",
+          "on_failure": "re-answer the question asked, or state explicitly why it cannot be answered as asked"
+        },
+        {
+          "gate": "nothing relies on excluded material",
+          "checked_by": "fact-checker",
+          "on_failure": "remove it and record the exclusion; public reachability is not permission"
+        }
+      ],
+      "artifacts": [
+        "the research report, in the seven-part structure",
+        "the claim table with per-claim provenance",
+        "the source register with reached-directly and verified_at flags",
+        "the conflict register",
+        "the critique record",
+        "the retrieval log, including dead ends",
+        "new knowledge articles or corrections for anything durable discovered"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "related": [
+        "knowledge/research/verification-workflow.md",
+        "knowledge/research/source-conflict-case-study.md",
+        "knowledge/ai-engineering/source-scoring.md",
+        "knowledge/ai-engineering/freshness-policy.md",
+        "prompts/research/deep-research-loop.md",
+        "workflows/research-before-coding/WORKFLOW.md"
+      ],
+      "sources": [
+        {
+          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "url": "https://arxiv.org/abs/2307.03172",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Attention over long input is unevenly distributed — the reason the synthesise stage states the answer first and restates it last, and why the claim table exists as a compact structure rather than as prose."
+        },
+        {
+          "title": "arXiv:2201.11903 — Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "url": "https://arxiv.org/abs/2201.11903",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Verified against the primary source on 2026-09-15 (v6, 2023-01-10). One of two identifiers an aggregator returned a wrong title for, which is the empirical basis for the verify stage's identity check."
+        }
+      ],
+      "_path": "workflows/deep-research/WORKFLOW.md",
+      "_tokens": 1798,
+      "_headings": [
+        "Deep Research",
+        "Key principles",
+        "Scaling the workflow",
+        "Failure modes",
+        "References"
+      ]
+    },
+    {
+      "name": "knowledge-base-maintenance",
+      "version": "1.0.0",
+      "description": "Keep this repository trustworthy over time — validate, refresh sources, re-score, deduplicate, resolve conflicts, demote what no longer holds, regenerate every index, and record the run.",
+      "trigger": "On a schedule (weekly validation, monthly source refresh, quarterly deep review); on new contribution; on a CI failure in any validation job; on an upstream event that invalidates content (release, rename, archive, license change, advisory, retraction); or on a user-reported correction.",
+      "not_for": "Authoring new knowledge from scratch, which begins with workflows/research-before-coding; one-off typo fixes; content whose subject is private, leaked or prohibited — that is rejected, not maintained; deciding policy, which is a human decision recorded in an ADR.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "maintenance",
+        "curation",
+        "validation",
+        "freshness",
+        "scoring",
+        "indexes",
+        "workflow",
+        "meta"
+      ],
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "estimated_duration": "15-30 minutes for a scheduled run; hours for a quarterly deep review",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Validate the current state",
+          "goal": "Establish a green baseline before changing anything, so new failures are attributable to this run.",
+          "skill": "evidence-validation",
+          "agent": "skill-curator",
+          "inputs": [
+            "repository contents",
+            "schemas/",
+            "metadata/"
+          ],
+          "outputs": [
+            "validation report from validate_frontmatter.py",
+            "validate_json.py",
+            "validate_links.py",
+            "validate_policy.py",
+            "dedupe.py",
+            "check_staleness.py"
+          ],
+          "exit_gate": "All validators report zero errors, or every pre-existing error is listed with its cause and a decision to fix it in this run.",
+          "max_loops": 2,
+          "on_gate_failure": "Fix the validator failures before proceeding. Maintaining content on top of a red baseline produces changes nobody can attribute."
+        },
+        {
+          "id": 2,
+          "name": "Refresh repository-derived records",
+          "goal": "Re-fetch observable facts from the source of truth so repository metadata reflects today rather than the last run.",
+          "skill": "repository-analysis",
+          "inputs": [
+            "scripts/update/seeds.json",
+            "scripts/update/curation.json",
+            "GitHub API"
+          ],
+          "outputs": [
+            "updated metadata/repositories.json with stars",
+            "stars_checked_at",
+            "pushed_at",
+            "status",
+            "license",
+            "license_risk",
+            "archived flag",
+            "tier and trust_score; resolution log for renames and failures"
+          ],
+          "exit_gate": "Every seed resolves to a canonical repository or is recorded as failed with a reason; renamed and archived repositories are detected; every star count carries its observation date; and null licenses are flagged no-license-do-not-redistribute.",
+          "max_loops": 2,
+          "on_gate_failure": "Quarantine the unresolvable seed rather than retaining a stale record. A repository record that cannot be resolved is a claim with no evidence."
+        },
+        {
+          "id": 3,
+          "name": "Verify external sources",
+          "goal": "Re-check the reachability and continued accuracy of cited non-repository sources.",
+          "skill": "evidence-validation",
+          "agent": "fact-checker",
+          "inputs": [
+            "sources blocks across all artifacts",
+            "metadata/sources-papers.json",
+            "indexes/sources-papers.md"
+          ],
+          "outputs": [
+            "per-source reachability result",
+            "consecutive-failure history",
+            "corrected citations",
+            "newly quarantined sources"
+          ],
+          "exit_gate": "Every cited URL in active content was fetched; sources that fail consecutively are marked for review rather than silently retained; and papers remain verified against their primary source rather than a secondary aggregator.",
+          "max_loops": 2,
+          "on_gate_failure": "Downgrade the dependent claims and set claim_type or confidence accordingly. A dead source supporting a live fact is a defect."
+        },
+        {
+          "id": 4,
+          "name": "Scan for staleness",
+          "goal": "Find content past its review date or invalidated by an upstream event.",
+          "skill": "evidence-validation",
+          "inputs": [
+            "expires_at and verified_at across all frontmatter",
+            "external_changes list",
+            "freshness policy"
+          ],
+          "outputs": [
+            "staleness report — artifact",
+            "domain",
+            "days past review",
+            "required action"
+          ],
+          "exit_gate": "Every artifact past expires_at has an assigned action — re-verify, refresh, archive or quarantine — and fast-moving domains are on their 90-day cycle rather than a longer one.",
+          "max_loops": 2,
+          "on_gate_failure": "Quarantine the expired artifact out of the active index. Expired content retrieved with fresh-looking confidence is worse than absent content."
+        },
+        {
+          "id": 5,
+          "name": "Admit new submissions",
+          "goal": "Apply the admission standard to anything submitted since the last run.",
+          "skill": "evidence-validation",
+          "agent": "skill-curator",
+          "inputs": [
+            "new or changed artifacts",
+            "their frontmatter and sources",
+            "issue-template submissions"
+          ],
+          "outputs": [
+            "per-artifact verdict — ADMIT",
+            "REVISE with the specific fix",
+            "QUARANTINE to experimental/",
+            "or REJECT with the reason"
+          ],
+          "exit_gate": "Every admitted artifact has resolvable sources actually fetched in this run, a claim_type supported by its evidence, a confidence the evidence justifies, an expires_at per the freshness policy, declared provenance, and a clean policy check.",
+          "max_loops": 3,
+          "on_gate_failure": "Quarantine rather than admit. An ungradeable artifact never enters the retrieval index, because a retrieved claim is acted upon with the confidence its label implies."
+        },
+        {
+          "id": 6,
+          "name": "Deduplicate and resolve conflicts",
+          "goal": "Prevent the same knowledge existing twice and the same question being answered two ways.",
+          "skill": "research-synthesis",
+          "inputs": [
+            "dedupe.py output",
+            "overlapping claim reports",
+            "conflict reports"
+          ],
+          "outputs": [
+            "merged records with supersede links",
+            "conflict entries in the prescribed format",
+            "claim_type adjustments"
+          ],
+          "exit_gate": "No two active artifacts make the same load-bearing claim with different content; every conflict is recorded with both sources, the likely cause, the side relied upon and what would settle it — never averaged and never silently resolved.",
+          "max_loops": 2,
+          "on_gate_failure": "Escalate load-bearing unresolvable conflicts. A hidden contradiction in a knowledge base is worse than a visible one."
+        },
+        {
+          "id": 7,
+          "name": "Re-score",
+          "goal": "Recompute quality scores from observable properties so tiers reflect current evidence rather than past judgement.",
+          "skill": "evidence-validation",
+          "inputs": [
+            "all authored content",
+            "refreshed repository metadata",
+            "verified source data"
+          ],
+          "outputs": [
+            "updated scores written back to frontmatter and metadata/scores.json",
+            "tier assignments",
+            "tier-change report"
+          ],
+          "exit_gate": "Scores are computed by scripts/score/score_skills.py from the seven components rather than assigned by judgement, and every tier change is explained by an observable change in its inputs.",
+          "on_gate_failure": "Investigate the unexplained tier change. A score that moved without a cause indicates either a scoring defect or a content change that was not recorded."
+        },
+        {
+          "id": 8,
+          "name": "Demote and archive",
+          "goal": "Remove what no longer holds without losing the reason it was once believed.",
+          "skill": "documentation",
+          "inputs": [
+            "staleness report",
+            "conflict resolutions",
+            "tier changes",
+            "deprecation notices"
+          ],
+          "outputs": [
+            "deprecated or archived artifacts with successor links",
+            "removal from the active index",
+            "retained files"
+          ],
+          "exit_gate": "Every demotion records the reason and links a successor where one exists; nothing is deleted outright, because deleting a wrong decision loses the reasoning that prevents it recurring.",
+          "on_gate_failure": "Mark quarantined rather than deleting. An artifact that cannot be graded today may be gradeable with evidence that arrives later."
+        },
+        {
+          "id": 9,
+          "name": "Regenerate all derived artifacts",
+          "goal": "Rebuild every generated file from its records so no index can drift from its source.",
+          "inputs": [
+            "metadata/repositories.json",
+            "all frontmatter",
+            "registries"
+          ],
+          "outputs": [
+            "regenerated indexes/ via extract_registries.py and build_index.py",
+            "repository cards via generate_repository_cards.py",
+            "README statistics via update_readme_stats.py"
+          ],
+          "exit_gate": "The generated-drift CI check is clean — regeneration produces byte-identical output to what is committed, proving no index was hand-edited.",
+          "max_loops": 2,
+          "on_gate_failure": "Revert the hand edit and fix the underlying record instead. A hand-edited generated index is silently wrong from the moment its source changes."
+        },
+        {
+          "id": 10,
+          "name": "Final validation and record",
+          "goal": "Confirm the repository is green after maintenance and record what changed.",
+          "skill": "documentation",
+          "agent": "skill-curator",
+          "inputs": [
+            "all changes from this run"
+          ],
+          "outputs": [
+            "clean validation suite",
+            "CHANGELOG.md entry listing admitted",
+            "revised",
+            "quarantined",
+            "rejected",
+            "refreshed",
+            "deprecated",
+            "re-scored and regenerated items with reasons",
+            "commit"
+          ],
+          "exit_gate": "All validators pass with zero errors, the changelog entry accounts for every change made in this run, and the run is committed with its date and trigger.",
+          "max_loops": 2,
+          "on_gate_failure": "Fix before committing. Never commit maintenance that leaves the repository red."
+        }
+      ],
+      "quality_gates": [
+        "Validation suite green before changes begin and after they end.",
+        "Every repository record resolved to a canonical upstream, with dated star counts.",
+        "Null licenses flagged no-license-do-not-redistribute; archived and renamed repositories detected.",
+        "100% of cited URLs in active content fetched during the run.",
+        "Papers verified against their primary source, never a secondary aggregator alone.",
+        "Every artifact past expires_at actioned; none left in the active index.",
+        "Admitted content has verified sources, supported claim_type, justified confidence and declared provenance.",
+        "No duplicate load-bearing claims; every conflict recorded in the prescribed format, never averaged.",
+        "Scores computed by script from observable properties, never assigned by judgement.",
+        "Demotions retain the file and record the reason with a successor link.",
+        "Generated artifacts byte-identical on regeneration; no hand-edited index.",
+        "CHANGELOG entry accounts for every change in the run.",
+        "No leaked, proprietary or prohibited material admitted at any stage."
+      ],
+      "artifacts": [
+        "validation reports before and after",
+        "refreshed metadata/repositories.json with resolution log",
+        "source verification results and failure history",
+        "staleness report with assigned actions",
+        "admission decisions per submission",
+        "merge and conflict records",
+        "updated scores and tier-change report",
+        "demotion and archive records",
+        "regenerated indexes, cards and README statistics",
+        "CHANGELOG.md entry and commit"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "GitHub REST API — repositories",
+          "url": "https://docs.github.com/en/rest/repos/repos",
+          "type": "official-docs",
+          "organization": "GitHub",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard",
+          "type": "github-repository",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related": [
+        "agents/skill-curator/AGENT.md",
+        "agents/fact-checker/AGENT.md",
+        "CONTRIBUTING.md",
+        "scripts/validate/"
+      ],
+      "_path": "workflows/knowledge-base-maintenance/WORKFLOW.md",
+      "_tokens": 975,
+      "_headings": [
+        "Workflow: Knowledge Base Maintenance",
+        "The invariant this workflow protects",
+        "Why validation runs twice",
+        "Why indexes are never hand-edited",
+        "Cadence",
+        "Failure modes specific to this workflow",
+        "References"
+      ]
+    },
+    {
+      "name": "performance-review",
+      "version": "1.0.0",
+      "description": "Establish whether a system meets its budget for its real users — baseline lab and field, profile end to end, rank by measured cost, fix in remove-first order, verify with the same method, and enforce the budget in CI so the gain does not decay.",
+      "trigger": "Latency, throughput or page-load complaints backed by a symptom; a measured regression with a known approximate date; capacity planning for a known event; before scaling infrastructure; when setting budgets for a new product or redesign.",
+      "not_for": "Optimising a path with negligible traffic; a correctness defect (use workflows/bug-investigation first — a fast wrong answer is worse); micro-optimisation where cost is dominated by a network call; a UX or design problem misreported as \"slow\".",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "performance",
+        "profiling",
+        "latency",
+        "core-web-vitals",
+        "budgets",
+        "workflow"
+      ],
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "estimated_duration": "half a day for a focused regression; days for a full system review",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Agree the budget and the population",
+          "goal": "Fix the numbers and who they must hold for, because without them the work has no stopping condition.",
+          "skill": "performance-audit",
+          "agent": "performance-engineer",
+          "inputs": [
+            "product requirements",
+            "user analytics",
+            "device and network distribution",
+            "cost constraints"
+          ],
+          "outputs": [
+            "numeric budget per metric — latency p50/p95/p99",
+            "throughput at an acceptable error rate",
+            "Core Web Vitals",
+            "resource ceilings",
+            "cost per 1k requests; target population segmented by device",
+            "network",
+            "geography",
+            "tenant and data volume"
+          ],
+          "exit_gate": "Every metric has a number and every number has a named population segment. A global target without segments hides the users actually complaining.",
+          "on_gate_failure": "Refuse to proceed. Optimising without a budget never finishes and proves nothing; escalate to the owner for the numbers."
+        },
+        {
+          "id": 2,
+          "name": "Capture the baseline",
+          "goal": "Measure the current state in both lab and field, with method, environment and date recorded.",
+          "skill": "performance-audit",
+          "inputs": [
+            "budget",
+            "workload shape",
+            "target population",
+            "test environment"
+          ],
+          "outputs": [
+            "lab baseline — reproducible controlled runs; field baseline — real-user percentiles by segment; recorded method",
+            "environment and date for each"
+          ],
+          "exit_gate": "Both baselines exist, percentiles are reported by segment rather than as means only, and the method is documented precisely enough that a second engineer could reproduce the numbers.",
+          "max_loops": 2,
+          "on_gate_failure": "Add instrumentation before continuing. Without a baseline there is no way to know whether any later change helped."
+        },
+        {
+          "id": 3,
+          "name": "Profile and attribute",
+          "goal": "Find where the time actually goes, before changing any code.",
+          "skill": "performance-audit",
+          "inputs": [
+            "baseline",
+            "traces",
+            "logs",
+            "profilers",
+            "network waterfall",
+            "bundle analysis"
+          ],
+          "outputs": [
+            "ranked attribution — component",
+            "measured cost",
+            "share of the budget",
+            "evidence; query counts per request; main-thread work; saturation points; network serial dependencies"
+          ],
+          "exit_gate": "Every budget breach is attributed to a named component with a measured share of cost, and the top items account for the majority of the breach.",
+          "max_loops": 3,
+          "on_gate_failure": "Instrument deeper at the boundary of the suspected subsystem. Attributing by intuition leads to optimising the cold path."
+        },
+        {
+          "id": 4,
+          "name": "Rank and select",
+          "goal": "Decide what to fix, in what order, and explicitly what not to fix.",
+          "skill": "performance-audit",
+          "inputs": [
+            "ranked attribution",
+            "effort estimates",
+            "risk of each change"
+          ],
+          "outputs": [
+            "ordered remediation list by traffic share times per-request cost divided by effort",
+            "with the not-fixed items and their reasons"
+          ],
+          "exit_gate": "The list is ordered by measured impact rather than by ease, the top item is addressed completely before the second begins, and every item below the noise floor is listed as not-fixed with a reason.",
+          "on_gate_failure": "Re-rank against traffic data. Effort spent on a path nobody uses is the most common waste in performance work."
+        },
+        {
+          "id": 5,
+          "name": "Fix in remove-first order",
+          "goal": "Apply the cheapest, highest-yield class of fix before reaching for infrastructure.",
+          "skill": "performance-audit",
+          "agent": "performance-engineer",
+          "inputs": [
+            "ordered remediation list",
+            "budget"
+          ],
+          "outputs": [
+            "changes applied in order — REMOVE work",
+            "then do it LESS (cache",
+            "batch",
+            "dedupe",
+            "paginate",
+            "lazy-load",
+            "split)",
+            "EARLIER (preload",
+            "parallelise",
+            "warm pools)",
+            "CLOSER (CDN",
+            "edge",
+            "replica)",
+            "CHEAPER (algorithm",
+            "index",
+            "keyset",
+            "streaming)",
+            "and only then MORE (scale)"
+          ],
+          "exit_gate": "Each applied fix references the measured share of cost it addresses, and scaling infrastructure was not chosen while removal or reduction options remained unexhausted.",
+          "max_loops": 4,
+          "on_gate_failure": "Return to stage 3. A fix that does not correspond to a measured cost is a guess, and guesses compound."
+        },
+        {
+          "id": 6,
+          "name": "Verify with the same method",
+          "goal": "Prove the improvement on the same workload, in the same environment, at realistic peak.",
+          "skill": "testing",
+          "inputs": [
+            "baseline method",
+            "budget",
+            "workload at 2x expected peak",
+            "target segments"
+          ],
+          "outputs": [
+            "after-measurement by segment",
+            "delta per metric",
+            "regression check on error rate",
+            "memory",
+            "cost and correctness",
+            "field confirmation"
+          ],
+          "exit_gate": "The same method and workload as the baseline were used, percentiles by segment are reported, the run covers at least 2x expected peak, and no other metric regressed.",
+          "max_loops": 3,
+          "on_gate_failure": "Revert or continue fixing. A latency improvement that raises error rate or cost is a regression, not a win."
+        },
+        {
+          "id": 7,
+          "name": "Confirm in the field",
+          "goal": "Check that the lab gain appears in real-user data, which is the only evidence about experience.",
+          "skill": "performance-audit",
+          "inputs": [
+            "field baseline",
+            "deployed change",
+            "RUM or telemetry data"
+          ],
+          "outputs": [
+            "field deltas by segment over a defined observation window",
+            "with the segments that did not improve identified"
+          ],
+          "exit_gate": "The affected segments show improvement in field data over the observation window, or the discrepancy between lab and field is explained — usually the lab measured something users do not do.",
+          "max_loops": 2,
+          "on_gate_failure": "Re-profile against the field workload shape. A lab-only win is a measurement artefact until real users confirm it."
+        },
+        {
+          "id": 8,
+          "name": "Enforce the budget",
+          "goal": "Prevent the gain from decaying with the next ten feature merges.",
+          "skill": "deployment",
+          "agent": "performance-engineer",
+          "inputs": [
+            "budget",
+            "affected routes and endpoints",
+            "CI configuration"
+          ],
+          "outputs": [
+            "CI budget gates that fail the build on regression",
+            "bundle-size gates",
+            "Lighthouse or k6 runs on affected routes",
+            "dashboards and alerts on p95/p99",
+            "review requirement for new endpoints",
+            "queries and third-party scripts"
+          ],
+          "exit_gate": "Budget breaches fail CI rather than being noticed later, dashboards alert on p95 and p99 rather than on means, and a re-measurement date is scheduled.",
+          "on_gate_failure": "Add the gate manually for the affected paths. Performance without enforcement is a one-off event, and it decays at the rate of feature addition."
+        }
+      ],
+      "quality_gates": [
+        "Numeric budget agreed per metric, with a named population segment, before any measurement.",
+        "Baseline captured in both lab and field, with method, environment and date recorded.",
+        "Percentiles reported by segment; no mean-only reporting.",
+        "Cost attributed by trace or profile before any code change.",
+        "Remediation ranked by measured impact, with not-fixed items and reasons listed.",
+        "Fixes applied in remove-first order; scaling chosen only after reduction is exhausted.",
+        "Verification uses the identical method and workload, at 2x or more of expected peak.",
+        "No regression in error rate, memory, cost or correctness.",
+        "Field data confirms the lab result for the affected segments.",
+        "Budgets enforced in CI; dashboards alert on p95/p99.",
+        "Re-measurement scheduled, because performance decays with feature additions."
+      ],
+      "artifacts": [
+        "budget and population definition",
+        "lab and field baselines with method, environment and date",
+        "ranked profile attribution with evidence",
+        "ordered remediation list with not-fixed items and reasons",
+        "applied changes, each referencing its measured cost share",
+        "after-verification by segment with regression checks",
+        "field confirmation over the observation window",
+        "CI budget gates, dashboards, alerts and re-measurement date"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "web.dev — Core Web Vitals",
+          "url": "https://web.dev/articles/vitals",
+          "type": "official-docs",
+          "organization": "Google Chrome team",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Metric names and thresholds are revised periodically; verify current values before quoting numbers."
+        },
+        {
+          "title": "Lighthouse",
+          "url": "https://github.com/GoogleChrome/lighthouse",
+          "type": "github-repository",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "OpenTelemetry",
+          "url": "https://opentelemetry.io/",
+          "type": "specification",
+          "organization": "CNCF",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related": [
+        "agents/performance-engineer/AGENT.md",
+        "skills/performance-audit/SKILL.md",
+        "knowledge/performance/"
+      ],
+      "_path": "workflows/performance-review/WORKFLOW.md",
+      "_tokens": 936,
+      "_headings": [
+        "Workflow: Performance Review",
+        "The discipline in one line",
+        "Why stage 1 can refuse",
+        "Why the fix order is fixed",
+        "Scaling",
+        "Failure modes specific to this workflow",
+        "References"
+      ]
+    },
+    {
+      "name": "release-checklist",
+      "version": "1.0.0",
+      "description": "Take a change from merged to production and settled — version and changelog discipline, reproducible build, progressive rollout with health gates, instant rollback rehearsed, observation against leading indicators, and cleanup of flags and shims afterwards.",
+      "trigger": "Any change reaching production or a published artifact; a scheduled release train; a hotfix under time pressure; a major version with breaking changes; or a release whose rollback path has never been exercised.",
+      "not_for": "Local development iteration; a data migration, which needs workflows/../migration discipline on top of this one; a change with no consumer and no environment beyond a developer machine.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "release",
+        "deployment",
+        "versioning",
+        "changelog",
+        "rollback",
+        "rollout",
+        "workflow"
+      ],
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "estimated_duration": "30 minutes for a routine patch; days for a major version with a migration guide",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Classify the change",
+          "goal": "Determine the version bump, the risk class and the rollout strategy the change actually requires.",
+          "skill": "release-engineering",
+          "inputs": [
+            "commits and PRs since the last release",
+            "public-surface definition",
+            "breaking-change list"
+          ],
+          "outputs": [
+            "change classification per item — breaking",
+            "feature",
+            "fix",
+            "deprecation",
+            "security; derived SemVer bump; risk class; chosen rollout strategy"
+          ],
+          "exit_gate": "Every change is classified against the written public-surface definition, the version bump follows from the classification rather than from preference, and any breaking change forces a MAJOR bump without exception.",
+          "max_loops": 2,
+          "on_gate_failure": "Resolve the classification dispute before releasing. A SemVer lie destroys consumer trust more thoroughly than any bug."
+        },
+        {
+          "id": 2,
+          "name": "Prepare the release notes",
+          "goal": "Tell the consumer whether they need to act, and exactly what to do if they do.",
+          "skill": "documentation",
+          "inputs": [
+            "classified changes",
+            "migration requirements",
+            "deprecation timers"
+          ],
+          "outputs": [
+            "CHANGELOG entry grouped Added/Changed/Deprecated/Removed/Fixed/Security",
+            "with before-and-after code for every breaking change; migration guide for a MAJOR release"
+          ],
+          "exit_gate": "Every entry answers \"do I need to do anything?\", every breaking change has a migration path with code, every deprecation names its removal version and date, and no entry reads \"various fixes\" or \"improvements\".",
+          "max_loops": 2,
+          "on_gate_failure": "Rewrite. A changelog that is a git log with headings forces every consumer to read the diff."
+        },
+        {
+          "id": 3,
+          "name": "Verify the gates",
+          "goal": "Confirm the artifact is correct before it is built for release, not after.",
+          "skill": "testing",
+          "agent": "qa-engineer",
+          "inputs": [
+            "the release candidate",
+            "full test suite",
+            "security and dependency scans"
+          ],
+          "outputs": [
+            "green gate results in order — lint",
+            "type-check",
+            "unit",
+            "integration",
+            "contract",
+            "component",
+            "e2e",
+            "security scan",
+            "dependency and license scan; smoke test of the built artifact in a production-shaped environment; migration dry-run against a production-scale copy"
+          ],
+          "exit_gate": "All gates pass in order with fail-fast behaviour, the built artifact has been smoke-tested rather than only the source, and migrations have been dry-run at production scale.",
+          "max_loops": 3,
+          "on_gate_failure": "Do not release. A hotfix under pressure still requires the gates that apply to its risk class; the reduced set is recorded, not assumed."
+        },
+        {
+          "id": 4,
+          "name": "Build reproducibly",
+          "goal": "Produce one artifact, immutable and promotable, that is identical to what was tested.",
+          "skill": "deployment",
+          "inputs": [
+            "the verified commit",
+            "pinned dependencies",
+            "base images",
+            "toolchain"
+          ],
+          "outputs": [
+            "content-addressed artifact with an immutable tag or digest",
+            "SBOM",
+            "signature where available",
+            "recorded build inputs"
+          ],
+          "exit_gate": "The artifact is built once and promoted unchanged through environments; dependencies and base images are pinned with integrity hashes; no secret appears in the image, the repository or the build log; and the same commit reproduces the same digest.",
+          "max_loops": 2,
+          "on_gate_failure": "Fix the build. Rebuilding per environment means the tested artifact and the shipped artifact are different things."
+        },
+        {
+          "id": 5,
+          "name": "Confirm rollback before rollout",
+          "goal": "Know how to go back, how fast, and what cannot be undone — before there is a reason to need it.",
+          "skill": "deployment",
+          "inputs": [
+            "artifact",
+            "previous version",
+            "migration state",
+            "external effects"
+          ],
+          "outputs": [
+            "documented rollback procedure with its measured duration",
+            "the instant kill switch verified",
+            "the list of irreversible effects with their forward-fix plans",
+            "and a rehearsal record"
+          ],
+          "exit_gate": "The previous version is retained and runnable, the kill switch has been exercised rather than assumed, and every irreversible effect — schema contraction, deleted data, sent messages, charged payments — has a forward-fix plan instead of a rollback plan.",
+          "max_loops": 2,
+          "on_gate_failure": "Do not roll out. A rollback path never tested is a hypothesis, and it is tested during the incident if not before."
+        },
+        {
+          "id": 6,
+          "name": "Deploy configuration first",
+          "goal": "Land the backwards-compatible prerequisites so the code deploy is not also a configuration deploy.",
+          "skill": "deployment",
+          "inputs": [
+            "required configuration",
+            "feature flags in their off state",
+            "schema expansions"
+          ],
+          "outputs": [
+            "configuration applied and validated",
+            "flags created dark",
+            "schema expanded compatibly with the previous application version"
+          ],
+          "exit_gate": "Every required configuration value is present and validated at boot with an actionable failure message; flags exist in their off state; and the schema remains compatible with the currently running version.",
+          "on_gate_failure": "Fix configuration before deploying code. An app that boots with missing configuration and fails later produces a business bug instead of a deploy failure."
+        },
+        {
+          "id": 7,
+          "name": "Roll out progressively",
+          "goal": "Expose the change to a small, comparable cohort first and expand only on evidence.",
+          "skill": "deployment",
+          "inputs": [
+            "artifact",
+            "rollout strategy",
+            "traffic controls",
+            "health gates"
+          ],
+          "outputs": [
+            "rollout steps with dwell time per step",
+            "health-gate results at each step — readiness green",
+            "error rate flat",
+            "latency flat",
+            "saturation normal",
+            "business invariants holding"
+          ],
+          "exit_gate": "Each step passes its health gate before the next begins, mixed-version compatibility holds throughout, and the rollout can be halted at any step by flipping the kill switch.",
+          "max_loops": 3,
+          "on_gate_failure": "Halt and roll back. A canary nobody compares is a slow rolling update, and a breached gate is a decision already made."
+        },
+        {
+          "id": 8,
+          "name": "Observe against leading indicators",
+          "goal": "Detect a problem from telemetry before users report it.",
+          "skill": "deployment",
+          "agent": "performance-engineer",
+          "inputs": [
+            "dashboards",
+            "deploy markers",
+            "alerts",
+            "business invariant metrics"
+          ],
+          "outputs": [
+            "observation record over the dwell window — error rate",
+            "p95 and p99 latency",
+            "saturation",
+            "business invariants",
+            "and the specific metrics this change could affect; deploy marker attribution confirmed"
+          ],
+          "exit_gate": "The observation window has elapsed with metrics flat or improved, deploy markers make attribution possible, and alerts fired on nothing that required action.",
+          "max_loops": 2,
+          "on_gate_failure": "Roll back first, diagnose second. Restoring service precedes understanding; the artifact and telemetry remain for analysis afterwards."
+        },
+        {
+          "id": 9,
+          "name": "Publish and announce",
+          "goal": "Make the release discoverable and upgradeable by its consumers.",
+          "skill": "release-engineering",
+          "inputs": [
+            "published artifact",
+            "changelog",
+            "migration guide",
+            "support window"
+          ],
+          "outputs": [
+            "immutable tag",
+            "registry publication verified by a clean-environment install",
+            "versioned documentation published",
+            "announcement with the migration guide",
+            "updated support window and EOL dates"
+          ],
+          "exit_gate": "The published artifact has been installed and exercised from a clean environment, the tag is immutable, the documentation states which version it describes, and the support window is published with dates.",
+          "max_loops": 2,
+          "on_gate_failure": "Re-publish. Assuming the upload succeeded because CI was green is how consumers discover the release first."
+        },
+        {
+          "id": 10,
+          "name": "Settle and clean up",
+          "goal": "Close the release rather than leaving it half-finished, and learn from it.",
+          "skill": "release-engineering",
+          "agent": "skill-curator",
+          "inputs": [
+            "rollout record",
+            "observation data",
+            "flags and shims inventory",
+            "incidents and near misses"
+          ],
+          "outputs": [
+            "fully-released flags scheduled for removal with dates",
+            "temporary shims and compatibility layers dated for deletion",
+            "release record — what",
+            "when",
+            "by whom",
+            "which strategy",
+            "which metrics moved",
+            "retrospective with the estimate-versus-actual delta and any surprise"
+          ],
+          "exit_gate": "Every flag and shim has a removal date rather than an indefinite lifetime, the release record is complete, and any surprise is captured as a gotcha, a failure mode or a gate improvement.",
+          "on_gate_failure": "File the removal dates at minimum. Flag debt is real debt, and forty live flags nobody understands is a future incident."
+        }
+      ],
+      "quality_gates": [
+        "Every change classified against the written public-surface definition; breaking changes force MAJOR.",
+        "Changelog answers \"do I need to act?\" per entry; every breaking change has migration code.",
+        "All gates pass in order; the built artifact is smoke-tested, not only the source.",
+        "Migrations dry-run against a production-scale copy; schema stays compatible with the running version.",
+        "Artifact built once, reproducibly, content-addressed, promoted unchanged; no secrets in image or logs.",
+        "Rollback rehearsed and timed before rollout; irreversible effects have forward-fix plans.",
+        "Configuration validated at boot and deployed before the code that uses it.",
+        "Progressive rollout with health gates at every step; mixed-version compatibility verified.",
+        "Kill switch exercised, not assumed.",
+        "Observation window elapsed with metrics flat or improved; deploy markers enable attribution.",
+        "Published artifact verified by a clean-environment install; documentation versioned.",
+        "Flags and shims carry removal dates; release record and retrospective filed."
+      ],
+      "artifacts": [
+        "change classification and derived version bump",
+        "CHANGELOG entry and migration guide",
+        "gate results and artifact smoke test",
+        "content-addressed artifact with SBOM and signature",
+        "rollback procedure with measured duration and rehearsal record",
+        "configuration and flag prerequisites",
+        "rollout record with per-step health gates",
+        "observation record with deploy-marker attribution",
+        "published tag, verified install and versioned documentation",
+        "flag and shim removal schedule, release record and retrospective"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Semantic Versioning 2.0.0",
+          "url": "https://semver.org/",
+          "type": "specification",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Keep a Changelog",
+          "url": "https://keepachangelog.com/en/1.1.0/",
+          "type": "methodology",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "The Twelve-Factor App",
+          "url": "https://github.com/heroku/12factor",
+          "type": "github-repository",
+          "license": "MIT",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related": [
+        "skills/release-engineering/SKILL.md",
+        "skills/deployment/SKILL.md",
+        "skills/migration/SKILL.md",
+        "agents/qa-engineer/AGENT.md"
+      ],
+      "_path": "workflows/release-checklist/WORKFLOW.md",
+      "_tokens": 987,
+      "_headings": [
+        "Workflow: Release Checklist",
+        "The idea that makes releases boring",
+        "Why rollback is confirmed before rollout",
+        "Scaling",
+        "Failure modes specific to this workflow",
+        "References"
+      ]
+    },
+    {
+      "name": "research-before-coding",
+      "version": "1.0.0",
+      "description": "The mandatory gate before any non-trivial implementation: understand the request, research the unknowns, compare options, verify the evidence, and produce a Research Decision Record that implementation must follow.",
+      "trigger": "Any task that will produce code intended to be kept, especially one naming a specific library, framework, API, cloud service or protocol, or one containing an implicit technology choice (\"build me auth\", \"add caching\", \"make it fast\").",
+      "not_for": "One-line typo fixes; purely local refactoring proved correct by an existing suite; explicitly disposable spikes; tasks whose conventions are already pinned in the repository's own AGENTS.md (read that instead of the internet); work where a human has already fixed the library, version and pattern.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "research",
+        "planning",
+        "evidence",
+        "gate",
+        "workflow",
+        "anti-hallucination"
+      ],
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "estimated_duration": "20-90 minutes depending on risk class and unknown count",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Understand and frame",
+          "goal": "Restate the task, name every implicit technology decision it assumes, classify the risk, and define the observable success test.",
+          "skill": "research-before-code",
+          "inputs": [
+            "task description",
+            "stated constraints",
+            "repository AGENTS.md"
+          ],
+          "outputs": [
+            "framed task",
+            "implicit-choices list",
+            "risk class",
+            "success test"
+          ],
+          "exit_gate": "At least one implicit choice is named, or the task is explicitly marked research_skipped with a written reason.",
+          "on_gate_failure": "Return to the requester for clarification; do not proceed on an unframed task."
+        },
+        {
+          "id": 2,
+          "name": "Load local context first",
+          "goal": "Answer as much as possible from the cheapest and most specific sources before searching the internet.",
+          "skill": "research-before-code",
+          "inputs": [
+            "framed task",
+            "AGENTS.md",
+            "lockfiles and manifests",
+            "indexes/topics.md",
+            "metadata/repositories.json",
+            "gotchas/",
+            "failure-modes/"
+          ],
+          "outputs": [
+            "local-context findings",
+            "remaining unknowns list"
+          ],
+          "exit_gate": "Every unknown is either answered from local context or carried forward with a statement of what external evidence would resolve it.",
+          "max_loops": 2,
+          "on_gate_failure": "Record the unknown as UNRESOLVED and continue; never invent an answer to close the gap."
+        },
+        {
+          "id": 3,
+          "name": "Research the unknowns",
+          "goal": "Gather evidence per unknown from official documentation for the correct version, the official repository, and at least one independent source.",
+          "skill": "web-research",
+          "agent": "researcher",
+          "inputs": [
+            "remaining unknowns list",
+            "required confidence from the risk class"
+          ],
+          "outputs": [
+            "evidence table with URL",
+            "type",
+            "publisher",
+            "page date",
+            "verified_at",
+            "confidence"
+          ],
+          "exit_gate": "At least two independent provenances per load-bearing unknown, or the unknown is marked UNRESOLVED with the resolving evidence named.",
+          "max_loops": 3,
+          "on_gate_failure": "Downgrade the claim's confidence and record the single-sourcing explicitly; escalate if the decision is high-risk."
+        },
+        {
+          "id": 4,
+          "name": "Compare options",
+          "goal": "Build a decision matrix over real candidates, always including a hand-roll or do-nothing row, and reject at least one option for a stated reason.",
+          "skill": "competitive-analysis",
+          "inputs": [
+            "evidence table",
+            "constraints",
+            "weights agreed before scoring"
+          ],
+          "outputs": [
+            "decision matrix",
+            "rejected options with reasons"
+          ],
+          "exit_gate": "At least two options compared, weights fixed before scoring, and every rejected option has a specific, checkable reason.",
+          "on_gate_failure": "Return to stage 3 for the missing candidate; a matrix with one row is not a comparison."
+        },
+        {
+          "id": 5,
+          "name": "Verify the chosen option",
+          "goal": "Apply the twelve evidence-validation checks to the selected dependency or approach, including existence, status, license, version-specific API and maintenance outlook.",
+          "skill": "evidence-validation",
+          "agent": "fact-checker",
+          "inputs": [
+            "decision matrix",
+            "chosen option",
+            "metadata/repositories.json record"
+          ],
+          "outputs": [
+            "verification report",
+            "per-claim confidence",
+            "license_risk",
+            "re-verify-by date"
+          ],
+          "exit_gate": "Every load-bearing claim has confidence at or above the level the risk class requires, and each carries a verified_at date.",
+          "max_loops": 2,
+          "on_gate_failure": "Re-verify, choose the runner-up, or escalate. Never proceed on an unverified load-bearing claim."
+        },
+        {
+          "id": 6,
+          "name": "Write the Research Decision Record",
+          "goal": "Produce the artifact that implementation must follow, including the decision, the why, the rejections, the evidence, the open risks and the validation plan.",
+          "skill": "research-synthesis",
+          "inputs": [
+            "verified evidence",
+            "decision matrix",
+            "verification report"
+          ],
+          "outputs": [
+            "Research Decision Record"
+          ],
+          "exit_gate": "A reader who was not present could execute the plan without asking questions, and every load-bearing claim in it is cited with a date.",
+          "on_gate_failure": "Rewrite until the record is self-sufficient; do not start implementation with an incomplete record."
+        },
+        {
+          "id": 7,
+          "name": "Plan the implementation",
+          "goal": "Sequence the work into steps, each with an observable completion condition, ordered riskiest-first, with a walking skeleton as the first milestone.",
+          "skill": "project-planning",
+          "inputs": [
+            "Research Decision Record",
+            "constraints",
+            "deadline"
+          ],
+          "outputs": [
+            "sequenced plan with per-step gates",
+            "stop conditions",
+            "escalation triggers"
+          ],
+          "exit_gate": "Every step has a checkable done-condition, dependencies are explicit, and stop conditions and escalation triggers are written down.",
+          "on_gate_failure": "Re-decompose; a step without a gate is a hope, not a plan."
+        },
+        {
+          "id": 8,
+          "name": "Implement against the record",
+          "goal": "Build to the plan. When reality contradicts the research, stop and update the record rather than improvising silently.",
+          "inputs": [
+            "Research Decision Record",
+            "sequenced plan"
+          ],
+          "outputs": [
+            "implementation",
+            "amended record where reality diverged"
+          ],
+          "exit_gate": "The implemented solution matches the record, or the record was updated before the divergence took effect.",
+          "max_loops": 4,
+          "on_gate_failure": "Halt and re-enter stage 5 with the contradicting observation; silent improvisation converts verified research back into hallucination."
+        },
+        {
+          "id": 9,
+          "name": "Validate",
+          "goal": "Run the validation plan defined in stage 6 and add regression tests for each open risk.",
+          "skill": "testing",
+          "agent": "qa-engineer",
+          "inputs": [
+            "validation plan",
+            "open risks",
+            "implementation"
+          ],
+          "outputs": [
+            "test results",
+            "regression tests",
+            "defect reports"
+          ],
+          "exit_gate": "Every item in the validation plan passes, and each open risk has a regression test or a recorded acceptance.",
+          "max_loops": 3,
+          "on_gate_failure": "Return to stage 8 with the failing evidence; do not weaken an assertion to pass."
+        },
+        {
+          "id": 10,
+          "name": "Feed back into the knowledge base",
+          "goal": "Convert the experience into durable memory so the next agent does not relearn it.",
+          "skill": "agent-memory-design",
+          "agent": "skill-curator",
+          "inputs": [
+            "Research Decision Record",
+            "implementation outcome",
+            "defects found"
+          ],
+          "outputs": [
+            "knowledge candidates",
+            "gotchas entries",
+            "refreshed verified_at on cited sources",
+            "changelog entry"
+          ],
+          "exit_gate": "What worked, what failed, what was outdated and what was missing are each recorded somewhere retrievable, or explicitly judged not durable.",
+          "on_gate_failure": "File the minimum — a gotcha entry for the trap and a verified_at refresh for the sources used."
+        }
+      ],
+      "quality_gates": [
+        "No implementation code exists before the Research Decision Record does.",
+        "Every load-bearing claim in the record carries a URL, a page date and a confidence level.",
+        "At least one option was rejected for a stated, checkable reason.",
+        "100% of cited URLs were actually fetched during the run.",
+        "Chosen dependencies verified to exist, with license known, status known and version pinned.",
+        "Any repository with license null is flagged no-license-do-not-redistribute and never vendored.",
+        "Security-critical primitives were escalated or adopted, never hand-rolled.",
+        "The record's outcome was fed back into the knowledge base."
+      ],
+      "artifacts": [
+        "Research Decision Record (the primary output)",
+        "evidence table (json)",
+        "decision matrix",
+        "verification report",
+        "sequenced implementation plan with gates",
+        "test results and regression tests",
+        "knowledge-base entries filed in stage 10"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "url": "https://arxiv.org/abs/2210.03629",
+          "type": "research-paper",
+          "published": "2022-10-06",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Interleaving reasoning with external lookups reduces hallucination and error propagation."
+        },
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2303.11366",
+          "type": "research-paper",
+          "published": "2023-03-20",
+          "license": "CC BY 4.0",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Basis for updating the record on contradiction rather than improvising."
+        }
+      ],
+      "related": [
+        "skills/research-before-code/SKILL.md",
+        "agents/researcher/AGENT.md",
+        "agents/fact-checker/AGENT.md",
+        "decision-records/"
+      ],
+      "_path": "workflows/research-before-coding/WORKFLOW.md",
+      "_tokens": 866,
+      "_headings": [
+        "Workflow: Research Before Coding",
+        "Why the order matters",
+        "Fast paths",
+        "Failure modes specific to this workflow",
+        "References"
+      ]
+    },
+    {
+      "name": "security-review",
+      "version": "1.0.0",
+      "description": "Threat-model, audit and remediate — covering application code, data flows, supply chain, CI/CD and the agent/tool/MCP surface that conventional checklists miss, with every finding backed by a concrete exploit path.",
+      "trigger": "Before any release touching auth, sessions, payments, PII, file upload or admin surfaces; when adding an agent, tool integration, MCP server or any code-execution path; when adding a dependency that runs at install time; after a security incident; and periodically on production systems.",
+      "not_for": "Code with no attack surface (a local script with no external inputs) — record that and skip; as a substitute for an authorised penetration test where one is contractually required; as a way to generate a long list of theoretical findings, which produces alert fatigue and hides the real issue.",
+      "status": "active",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "security",
+        "threat-model",
+        "audit",
+        "supply-chain",
+        "agents",
+        "workflow",
+        "compliance"
+      ],
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "estimated_duration": "half a day for a focused change review; days for a full system audit",
+      "stages": [
+        {
+          "id": 1,
+          "name": "Scope and classify",
+          "goal": "Establish what is in scope, what data is involved, and who benefits from breaking it.",
+          "skill": "security-audit",
+          "agent": "security-reviewer",
+          "inputs": [
+            "system description",
+            "data classification",
+            "compliance scope",
+            "deployment topology"
+          ],
+          "outputs": [
+            "scope statement",
+            "data classification map",
+            "threat-actor list",
+            "compliance obligations"
+          ],
+          "exit_gate": "Every entry point is enumerated — HTTP routes, webhooks, queues, uploads, CLI, agent tools, MCP servers, CI, admin UI — and every data class is mapped to where it is stored, processed and logged.",
+          "on_gate_failure": "Widen the enumeration. A missed entry point is a missed finding, and the miss is invisible in the report."
+        },
+        {
+          "id": 2,
+          "name": "Threat model",
+          "goal": "Diagram data flows, mark trust boundaries, apply STRIDE per boundary and rank the resulting threats.",
+          "skill": "security-audit",
+          "inputs": [
+            "scope statement",
+            "data classification map",
+            "architecture documentation"
+          ],
+          "outputs": [
+            "data-flow diagram with trust boundaries",
+            "STRIDE enumeration per boundary",
+            "ranked threat list with expected controls"
+          ],
+          "exit_gate": "Every trust boundary has a STRIDE pass, and every retained threat names the control expected to mitigate it — the audit then checks whether that control exists, is correct, and cannot be bypassed.",
+          "max_loops": 2,
+          "on_gate_failure": "Return to stage 1; an incomplete boundary map produces an incomplete threat list."
+        },
+        {
+          "id": 3,
+          "name": "Read the code",
+          "goal": "Audit injection and input handling, authn and sessions, authz at object and function level, secrets and configuration, data protection, and availability and abuse.",
+          "skill": "security-audit",
+          "inputs": [
+            "codebase or diff",
+            "ranked threat list",
+            "expected controls"
+          ],
+          "outputs": [
+            "findings with file:line locations",
+            "conditions and evidence per checklist area"
+          ],
+          "exit_gate": "Every checklist area has been grepped across the whole codebase rather than sampled, and each item either cites a location or records \"not present\".",
+          "max_loops": 3,
+          "on_gate_failure": "Complete the sweep. A sampled audit reports the defects it happened to look at."
+        },
+        {
+          "id": 4,
+          "name": "Supply chain",
+          "goal": "Review dependencies, build and CI/CD for the risks that live outside the application code.",
+          "skill": "dependency-analysis",
+          "inputs": [
+            "lockfiles",
+            "dependency graph",
+            "CI workflows",
+            "registry configuration",
+            "container images"
+          ],
+          "outputs": [
+            "advisory triage at resolved versions with reachability",
+            "install-time script review",
+            "provenance and signing status",
+            "CI credential posture",
+            "license risk"
+          ],
+          "exit_gate": "Advisories are triaged at the RESOLVED version with a reachability judgement, install-time scripts are reviewed or disabled, CI credentials are least-privilege and short-lived, and no workflow grants production access to pull-request code.",
+          "max_loops": 2,
+          "on_gate_failure": "Block the release for unresolved critical advisories with a reachable path; record accepted risks with owner, expiry and compensating control."
+        },
+        {
+          "id": 5,
+          "name": "Agent, tool and MCP surface",
+          "goal": "Audit the attack surface that conventional checklists miss, whenever agents or tool integrations exist.",
+          "skill": "mcp-integration",
+          "inputs": [
+            "agent inventory",
+            "tool and MCP configuration",
+            "credential scopes",
+            "capability grants"
+          ],
+          "outputs": [
+            "per-tool capability tier",
+            "injection test results",
+            "permission test results",
+            "egress and filesystem boundary verification",
+            "audit-log attribution check"
+          ],
+          "exit_gate": "Every tool has an assigned capability tier at or below what its use requires; filesystem tools are rooted; egress is allowlisted with cloud metadata endpoints blocked; tier-2-or-above actions require confirmation when triggered by untrusted content; and every side-effecting call is attributable in a log.",
+          "max_loops": 2,
+          "on_gate_failure": "Disable the over-scoped tool. Capability creep is not mitigated by documentation."
+        },
+        {
+          "id": 6,
+          "name": "Injection and abuse testing",
+          "goal": "Attempt the attacks the threat model predicts, in an authorised environment only.",
+          "skill": "security-audit",
+          "inputs": [
+            "ranked threats",
+            "test environment",
+            "written authorisation"
+          ],
+          "outputs": [
+            "test results per threat",
+            "with reproduction steps for anything that succeeded"
+          ],
+          "exit_gate": "Every high-ranked threat has been exercised in an environment the reviewer is authorised to test, and results are recorded whether they confirm or refute the control.",
+          "max_loops": 2,
+          "on_gate_failure": "Do not test. Escalate for authorisation, or convert the item into a code-reading finding with its limitation stated. Testing a third-party system without authorisation is prohibited by this workflow."
+        },
+        {
+          "id": 7,
+          "name": "Grade and report",
+          "goal": "Rank findings by exploitability times blast radius, each with a standard reference, a remediation and a verification test.",
+          "skill": "security-audit",
+          "agent": "security-reviewer",
+          "inputs": [
+            "all findings from stages 3-6"
+          ],
+          "outputs": [
+            "findings report — severity",
+            "location",
+            "condition",
+            "exploit path",
+            "impact",
+            "standard",
+            "remediation with code sketch",
+            "verification test"
+          ],
+          "exit_gate": "Every finding above INFO has a concrete exploit path, severity is derived from exploitability times blast radius rather than from category prestige, and every finding names the test that proves its remediation.",
+          "max_loops": 2,
+          "on_gate_failure": "Downgrade findings without an exploit path to INFO and state why. Eighty theoretical findings hide the one that matters."
+        },
+        {
+          "id": 8,
+          "name": "Remediate",
+          "goal": "Fix in severity order, using trusted implementations rather than hand-rolled primitives.",
+          "inputs": [
+            "findings report",
+            "release schedule"
+          ],
+          "outputs": [
+            "remediation commits",
+            "one per finding or per coherent group",
+            "each referencing the finding"
+          ],
+          "exit_gate": "All CRITICAL findings are fixed before release; HIGH findings are fixed or carry an accepted-risk entry with owner, expiry and compensating control; no security primitive is hand-rolled.",
+          "max_loops": 3,
+          "on_gate_failure": "Block the release for unfixed CRITICAL findings, or escalate for a written risk acceptance. Never hand-roll crypto, token signing, password storage or payment flows — adopt or escalate."
+        },
+        {
+          "id": 9,
+          "name": "Verify remediation",
+          "goal": "Run each finding's verification test and confirm the failure mode is now impossible rather than merely unlikely.",
+          "skill": "testing",
+          "agent": "qa-engineer",
+          "inputs": [
+            "remediation commits",
+            "verification tests"
+          ],
+          "outputs": [
+            "verification results per finding",
+            "added regression tests",
+            "re-scan results"
+          ],
+          "exit_gate": "Every remediated finding's verification test passes, regression tests are committed, and a re-scan of the affected area produces no new findings.",
+          "max_loops": 2,
+          "on_gate_failure": "Reopen the finding. A claimed fix that was not verified is not a fix."
+        },
+        {
+          "id": 10,
+          "name": "Harden and record",
+          "goal": "Close the systemic gaps the findings revealed and make the audit repeatable.",
+          "skill": "security-audit",
+          "agent": "skill-curator",
+          "inputs": [
+            "findings",
+            "root causes",
+            "accepted risks"
+          ],
+          "outputs": [
+            "CI security gates",
+            "lint rules for the defect classes found",
+            "threat-model update",
+            "failure-modes entries",
+            "accepted-risk register",
+            "next-audit date"
+          ],
+          "exit_gate": "Each defect class that produced a finding has a preventive gate in CI or in lint, the threat model reflects the current system, accepted risks are registered with expiry dates, and the next audit is scheduled.",
+          "on_gate_failure": "File at minimum the accepted-risk register and the next-audit date; a finding fixed without a gate will recur."
+        }
+      ],
+      "quality_gates": [
+        "Threat model drawn with trust boundaries before any code was read.",
+        "STRIDE applied per boundary; every retained threat names its expected control.",
+        "All entry points enumerated, including agent tools, MCP servers and CI.",
+        "Code swept across all seven checklist areas, whole-codebase rather than sampled.",
+        "Advisories triaged at resolved versions with a reachability judgement.",
+        "Install-time scripts reviewed; CI credentials least-privilege; no PR code with production access.",
+        "Agent/tool/MCP surface audited whenever it exists, with capability tiers assigned.",
+        "No unauthorised testing of any third-party system, at any stage.",
+        "100% of findings above INFO carry a concrete exploit path.",
+        "Severity from exploitability times blast radius, never from category prestige.",
+        "Every finding has a remediation and a verification test; remediations are verified.",
+        "No security primitive hand-rolled anywhere in the remediation.",
+        "Secret scanning covers git history, not only the working tree.",
+        "Accepted risks recorded with owner, expiry and compensating control.",
+        "No leaked system prompts, private model internals or proprietary weights used, vendored or reproduced."
+      ],
+      "artifacts": [
+        "scope and data classification map",
+        "threat model with STRIDE enumeration and ranked threats",
+        "code-audit findings per checklist area",
+        "supply-chain and CI/CD report",
+        "agent/tool/MCP capability and injection test report",
+        "graded findings report with remediations and verification tests",
+        "accepted-risk register",
+        "CI security gates and lint rules added",
+        "next-audit date"
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OWASP Top Ten",
+          "url": "https://owasp.org/www-project-top-ten/",
+          "type": "standard",
+          "organization": "OWASP",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; confirm the current edition before citing specific item IDs."
+        },
+        {
+          "title": "OWASP ASVS",
+          "url": "https://owasp.org/www-project-application-security-verification-standard/",
+          "type": "standard",
+          "organization": "OWASP",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard",
+          "type": "github-repository",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "NIST AI Risk Management Framework",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "type": "standard",
+          "organization": "NIST",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; verify current version before quoting control identifiers."
+        }
+      ],
+      "related": [
+        "skills/security-audit/SKILL.md",
+        "agents/security-reviewer/AGENT.md",
+        "SECURITY.md",
+        "patterns/security/"
+      ],
+      "_path": "workflows/security-review/WORKFLOW.md",
+      "_tokens": 858,
+      "_headings": [
+        "Workflow: Security Review",
+        "Two rules that override everything",
+        "Why the threat model comes first",
+        "Scaling the workflow",
+        "Failure modes specific to this workflow",
+        "References"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 havuz-2 contributors
+
+This license covers the DOCUMENTATION AND DATA CONTENT of this repository:
+everything under knowledge/, skills/, agents/, workflows/, patterns/, prompts/,
+evaluations/, datasets/, models/, sources/, indexes/, decision-records/,
+anti-patterns/, failure-modes/, gotchas/, experimental/, research-archive/ and
+the Markdown/JSON records under repositories/ and metadata/.
+
+You are free to:
+  Share    - copy and redistribute the material in any medium or format
+  Adapt    - remix, transform, and build upon the material for any purpose,
+             even commercially
+
+Under the following terms:
+  Attribution - You must give appropriate credit, provide a link to the license,
+                and indicate if changes were made. You may do so in any reasonable
+                manner, but not in any way that suggests the licensor endorses you
+                or your use.
+  No additional restrictions - You may not apply legal terms or technological
+                measures that legally restrict others from doing anything the
+                license permits.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/deed.en
+
+---------------------------------------------------------------------------
+THIRD-PARTY MATERIAL
+---------------------------------------------------------------------------
+This repository REFERENCES third-party projects; it does not vendor them.
+Every record links to its upstream source and records that source's license.
+Where a third-party license could not be determined, the record is flagged
+`license_risk: no-license-do-not-redistribute` and no content from it may be
+copied into this repository.
+
+---------------------------------------------------------------------------
+SOURCE CODE
+---------------------------------------------------------------------------
+Executable source code under scripts/ and .github/workflows/ is licensed
+separately under the MIT License. See LICENSE-CODE.

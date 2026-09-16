@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/pattern.schema.json",
+  "title": "Engineering Pattern",
+  "description": "A named, reusable solution with explicit context, forces, tradeoffs and known failures.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "domain",
+    "problem",
+    "solution",
+    "status",
+    "confidence",
+    "updated"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.defs.json#/$defs/id"
+    },
+    "name": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "frontend",
+        "backend",
+        "database",
+        "agents",
+        "mcp",
+        "ui",
+        "animation",
+        "architecture",
+        "security",
+        "testing",
+        "performance",
+        "data"
+      ]
+    },
+    "problem": {
+      "type": "string",
+      "minLength": 20
+    },
+    "context": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "forces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "solution": {
+      "type": "string",
+      "minLength": 20
+    },
+    "implementation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "code_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "consequences": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "positive": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "negative": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "neutral": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "tradeoffs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "when_to_use": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "when_not_to_use": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "anti_pattern": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "maturity": {
+      "type": "string",
+      "enum": [
+        "established",
+        "emerging",
+        "contested",
+        "declining",
+        "experimental"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "experimental",
+        "deprecated",
+        "draft"
+      ]
+    },
+    "claim_type": {
+      "$ref": "common.defs.json#/$defs/claimType"
+    },
+    "confidence": {
+      "$ref": "common.defs.json#/$defs/confidence"
+    },
+    "evidence_level": {
+      "$ref": "common.defs.json#/$defs/evidenceLevel"
+    },
+    "tags": {
+      "$ref": "common.defs.json#/$defs/tags"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/sourceRef"
+      }
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/relation"
+      }
+    },
+    "provenance": {
+      "$ref": "common.defs.json#/$defs/provenance"
+    },
+    "updated": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "verified_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "expires_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "heading",
+          "anchor"
+        ],
+        "properties": {
+          "heading": {
+            "type": "string",
+            "minLength": 1
+          },
+          "anchor": {
+            "type": "string",
+            "pattern": "^#[a-z0-9-]+$"
+          },
+          "purpose": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Declared section map, enabling isolated retrieval: a section fetched alone must still be self-contained."
+    },
+    "related_skills": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/id"
+      },
+      "uniqueItems": true
+    },
+    "related_repositories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "SemVer of the pattern document."
+    }
+  }
+}
