@@ -136,7 +136,13 @@ def main() -> int:
                              f"confirm nothing was copied")
 
         # 4. hallucination firewall: superlatives need a date
-        if f.suffix == ".md" and "experimental/" not in rel:
+        #
+        # Generated artifacts are skipped, and the skip loses no coverage: a generated
+        # file quotes a governed source, and that source is scanned here in its own
+        # right. Flagging the copy as well as the original only doubles the count for
+        # one underlying unverified claim — which is exactly what happened when
+        # skills/*/tests/cases.md started quoting skill prose verbatim.
+        if f.suffix == ".md" and "experimental/" not in rel and not fm.is_generated(rel):
             lines = text.splitlines()
             for i, line in enumerate(lines):
                 if line.strip().startswith(("```", "|", "<!--")):

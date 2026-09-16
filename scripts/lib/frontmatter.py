@@ -52,9 +52,19 @@ EXEMPT_EXACT = {
     "README.md", "AGENTS.md", "CONTRIBUTING.md", "SECURITY.md", "CHANGELOG.md",
     "LICENSE", "LICENSE-CODE", "CODE_OF_CONDUCT.md",
 }
-EXEMPT_GLOBS = [
-    "indexes/*.md",            # generated
-    "repositories/**/*.md",    # generated
+# Generated artifacts: written by a script in scripts/generate-index/, never by hand,
+# and held to their generator by the CI drift job. They carry no claims of their own —
+# every statement in them is copied from a governed source that is scanned in its own
+# right — so content checks aimed at unverified claims belong on the source, not on the
+# derived copy. Listing them once here keeps "is this generated?" a single question with
+# one answer, instead of each validator re-deciding.
+GENERATED_GLOBS = [
+    "indexes/*.md",                 # build_index.py
+    "repositories/**/*.md",         # generate_repository_cards.py
+    "skills/*/tests/cases.md",      # generate_skill_tests.py
+]
+
+EXEMPT_GLOBS = GENERATED_GLOBS + [
     "metadata/**",             # generated
     ".github/**",
     "scripts/**",
@@ -145,6 +155,11 @@ def is_exempt(rel: str) -> bool:
     if name in EXEMPT_NAMES:
         return True
     return False
+
+
+def is_generated(rel: str) -> bool:
+    """True when `rel` is a derived artifact produced by a generator under CI drift control."""
+    return any(_glob(rel, g) for g in GENERATED_GLOBS)
 
 
 def _glob(rel: str, pattern: str) -> bool:
