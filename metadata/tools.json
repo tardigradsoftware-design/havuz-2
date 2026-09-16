@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:07:55+00:00",
+  "generated_at": "2026-09-16T09:15:13+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "records": 35,
   "$schema": "../schemas/mcp.schema.json",
@@ -563,7 +563,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/cloudflare__mcp-server-cloudflare.md",
-      "_tokens": 969,
+      "_tokens": 970,
       "_headings": [
         "mcp-server-cloudflare",
         "What is verified",
