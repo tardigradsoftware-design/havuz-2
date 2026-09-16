@@ -26,7 +26,8 @@ defect of exactly that shape shipped and was caught only by review:
 | `test_tier_semantics.py` | `UNVERIFIED` means the fetch failed; a missing license has its own tier | H-3 — all 15 `UNVERIFIED` records had `fetch_ok: true`; the tier described legal status using a word that means verification status |
 | `test_exclusions.py` | `SECURITY.md`'s hard exclusions fail a build | H-4 — the exclusions were prose with no enforcement path, honoured only because nobody had added them |
 | `test_license_policy.py` | the no-license override covers markdown, which is what gets vendored here | H-5 — the check fired only on source-code files and matched a bare repository name |
-| `test_sanitization.py` | third-party API text is inert by the time it reaches a card | H-6 — repository descriptions were embedded verbatim into markdown read by agents |
+| `test_untrusted_text.py` | third-party API text is inert by the time it reaches a card | H-6 — repository descriptions were embedded verbatim into markdown read by agents |
+| `test_release_claims.py` | every count the repository publishes about itself in prose agrees with a recomputation from source data, and a claim that stops matching is an error rather than a skip | Phase 6 — README reported **50** skill test cases where the corpus holds **1,108**, because the generator counted `cases.md` files instead of the cases inside them. The first version of the checker itself labelled its claims `"README"` while keying documents `"README.md"`, so every claim was skipped and it reported success while verifying nothing |
 
 ## Rules these tests follow
 

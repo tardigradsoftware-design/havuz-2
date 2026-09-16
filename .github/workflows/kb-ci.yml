@@ -83,6 +83,17 @@ jobs:
       - name: Policy — secrets, collection ethics, license, hallucination firewall
         run: python scripts/validate/validate_policy.py
 
+      # The validators above check artifacts against schemas. This one checks what the
+      # repository says about itself: every count published in prose in README.md,
+      # REVIEW-REPORT.md and CHANGELOG.md is recomputed from source data and compared.
+      # It exists because the generated statistics block was right while the sentence
+      # next to it was wrong — README reported 50 skill test cases where the corpus
+      # holds 1,108 — and no schema can see a disagreement between two documents.
+      # A claim whose pattern stops matching is an error, not a skip, so this cannot
+      # go green by quietly checking less.
+      - name: Release claims — prose counts vs recomputed corpus statistics
+        run: python scripts/validate/check_release_claims.py
+
       # Validators check one artifact at a time. These check the relationships between
       # artifacts — that a field computed upstream survives the hop downstream, that a
       # category is not a substring accident, that a tier means what its name says.

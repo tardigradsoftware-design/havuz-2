@@ -100,7 +100,17 @@ def build() -> str:
     anti = count_md(lambda rel, f: rel.startswith(("anti-patterns/", "failure-modes/", "gotchas/"))
                     and f.name != "README.md")
     decisions = count_md(lambda rel, f: rel.startswith("decision-records/") and f.name != "README.md")
-    tests = count_md(lambda rel, f: "/tests/" in rel and rel.startswith("skills/") and f.suffix == ".md")
+    # Count the *cases*, not the files. This row used to count cases.md files and print 50
+    # under the label "Skill test cases", which was wrong by a factor of twenty-two: the corpus
+    # holds 1108 cases across 50 files. `generate_skill_tests.py` writes one `## Case N` heading
+    # per case and its --check verifies that count against each SKILL.md's `tests:` field, so
+    # the heading is the same unit both generators already agree on.
+    tests = 0
+    for f in fm.iter_markdown(ROOT):
+        rel = f.relative_to(ROOT).as_posix()
+        if rel.startswith("skills/") and rel.endswith("/tests/cases.md"):
+            tests += len(re.findall(r"(?m)^## Case \d+",
+                                    f.read_text(encoding="utf-8", errors="replace")))
     experimental = count_md(lambda rel, f: rel.startswith("experimental/") and f.name != "README.md")
 
     stars = sum(r.get("stars") or 0 for r in repos)
@@ -196,6 +206,23 @@ def build() -> str:
     ]
     for k, v in cats.most_common():
         lines.append(f"| `{k}` | {v} |")
+
+    # The category named `mcp-servers` counts repositories the seed list filed under that
+    # heading. It is not a count of MCP servers, and the number happens to be close to the
+    # registry's entry count while measuring a different thing on a different axis: a
+    # repository's seed-list category versus an entry's own published evidence of being a
+    # server. Leaving both numbers on one page without saying so invites a reader to reconcile
+    # them and conclude one of them is wrong. This note is emitted by the generator, not
+    # hand-written into README.md, so regenerating the block cannot drop it.
+    non_servers = len(tools) - mcp_servers
+    lines += [
+        "",
+        f"`mcp-servers` above is a **repository-corpus category** from the seed list, not a count "
+        f"of MCP servers. The registry's own split — **{mcp_servers} servers** and "
+        f"**{non_servers} entries that are not servers**, out of {len(tools)} — is in the layer "
+        f"table above and in [`indexes/mcp.md`](indexes/mcp.md). The two numbers measure "
+        f"different things and are not expected to agree.",
+    ]
     return "\n".join(lines)
 
 

@@ -5,11 +5,37 @@
 **Review date:** 2026-09-16
 **Reviewer:** automated agent review, ordered per the requested sequence (SECURITY.md → scoring.py → CHANGELOG.md → skills → MCP registry → schemas/validation → README/AGENTS)
 **Scope note:** read-only review. No source file was modified to produce this report. The regeneration runs performed during the review were verified to leave the git tree unchanged (`git status --porcelain` → 0 entries), which is itself one of the findings below.
-**Fix commits:** `58dff2e` — C-1, C-2, C-3 and H-1; `b647440` — report §14 and the generated-artifact exemption; Phase 5 — H-2 through H-8, re-reviewed in §15. Each finding below now carries a **RESOLVED** block recording what changed and the measurement taken afterwards; the post-fix re-review is §14. The findings this report identified are unchanged as originally written, so the review remains readable as the state of `32720b8`.
+**Fix commits:** `58dff2e` — C-1, C-2, C-3 and H-1; `b647440` — report §14 and the generated-artifact exemption; Phase 5 — H-2 through H-8, re-reviewed in §15. Each finding below now carries a **RESOLVED** block recording what changed and the measurement taken afterwards. The findings this report identified are unchanged as originally written, so the review remains readable as the state of `32720b8`.
+
+---
+
+## How to read this report — three layers, only one of them current
+
+This document accumulated over three phases, and reading it linearly will mislead you: the early
+sections state conclusions that were true of an older tree and have since been superseded. The
+layers are:
+
+| Section | Status | Describes |
+|---|---|---|
+| **§1–§13** | **HISTORICAL** — the original review | The tree at `32720b8`. Preserved verbatim as written, including counts later corrected. Read it to understand what was found and why; **do not** read it as the current state. |
+| **§14** | **HISTORICAL** — Phase 4 re-review | The tree at `58dff2e`/`b647440`, after C-1/C-2/C-3/H-1 were fixed. Its merge recommendation covered those four findings only and is superseded. |
+| **§15** | **CURRENT — authoritative** | The tree at the Phase 5 tip. Final re-review after H-2…H-8. |
+
+**Every merge recommendation in this document except §15.5 is historical.** §13 says *"Do not
+merge yet"* and §14.5 says *"Merge"*; both were correct when written and neither describes the
+current tree. [**§15.5 is the only authoritative merge recommendation.**](#155-merge-recommendation)
+
+Finding status as of §15: **Critical 3/3 resolved · High 8/8 resolved · Medium 0/15 · Low 0/9.**
+Medium and Low were placed out of scope for Phase 5 by instruction, not assessed as unimportant.
 
 ---
 
 ## 1. Executive Summary
+
+> **HISTORICAL — §1 through §13 describe the tree at `32720b8`, not the current tree.** These
+> sections are the original review, preserved as written. Every finding below that has been fixed
+> carries a **RESOLVED** block; the current state and the authoritative merge recommendation are
+> in [§15](#15-phase-5-post-fix-re-review).
 
 The PR is structurally sound and CI-green, and a meaningful part of what it claims is
 verifiably true: all 414 repository records were fetched live with zero failures, the
@@ -1516,6 +1542,10 @@ critical issue in this report:
 
 ### Merge recommendation
 
+> **SUPERSEDED — historical.** This recommendation was written against `32720b8` and covered
+> C-1/C-2/C-3/H-1 only. Those four are resolved (§14). The authoritative recommendation for the
+> current tree is [§15.5](#155-merge-recommendation).
+
 **Do not merge yet.** Fix C-1, C-2, C-3 and H-1 — roughly half a day's work, of which only the
 C-2 decision and the C-1 regeneration are substantive. Then merge as the baseline checkpoint,
 and take the high-priority items as the first follow-up PR.
@@ -1630,6 +1660,12 @@ Stated plainly, because an unstated gap is how C-3 happened in the first place.
 
 ### 14.5 Merge recommendation
 
+> **SUPERSEDED — historical.** This was the Phase 4 recommendation, written against
+> `58dff2e`/`b647440` when H-2…H-8 were still open; it recommended merging the baseline and taking
+> the high-priority items as a follow-up. Those items were instead fixed in this same PR (§15), so
+> the recommendation no longer describes the tree. The authoritative recommendation is
+> [§15.5](#155-merge-recommendation).
+
 **Merge.** The three critical findings are resolved and measured, and each resolution is enforced
 by a check that did not exist before, so the specific failure this repository exists to prevent —
 a guarantee in prose with nothing honouring it in data — no longer has three live instances.
@@ -1658,6 +1694,11 @@ statement on the repository's front page or in its grading rule.
 ---
 
 ## 15. Phase 5 post-fix re-review
+
+> **CURRENT AND AUTHORITATIVE — this section describes the tree at the Phase 5 tip**, the commit
+> this PR now points at. It is the final re-review of this phase and the only section whose
+> measurements should be read as the present state of the repository. §15.5 is the only merge
+> recommendation in this document that is not historical.
 
 The remaining seven high-priority findings — H-2 through H-8 — were fixed in one phase, in the
 order H-2, H-3, H-7, H-8, H-4, H-5, H-6. The scoring model was left untouched by instruction, and

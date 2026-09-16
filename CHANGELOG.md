@@ -13,6 +13,142 @@ are never made silently; they appear here with the old position named.
 
 ---
 
+## [2.1.0] — 2026-09-16
+
+A documentation-consistency pass over what the repository *says about itself*. No repository was
+re-fetched, no observed value was altered, no score was recomputed, and the scoring model is
+untouched. No finding below 2.0.0's high-priority set was addressed: the 24 open Medium and Low
+findings remain open and out of scope. **Minor** because it adds a validation capability; it also
+corrects one published statistic, named below with its old value.
+
+### Added — `scripts/validate/check_release_claims.py`: the prose is now checked against the data
+
+Every count this repository publishes about itself was, until now, correct only by hand. The README
+statistics block is generated, but the sentences around it — in README.md, in REVIEW-REPORT.md and
+in this file — restate numbers in prose, and prose is where they go stale.
+
+The new validator recomputes the corpus statistics from source data (`metadata/repositories.json`,
+`metadata/tools.json`, `indexes/*.json`, the skill test suites) and cross-checks each prose claim
+against the recomputation. It also asserts that the two qualifiers README uses about its test cases
+— *"authored specifications, not executed results"* and *"No effectiveness claim is made"* — are
+still present, so removing the hedge without removing the number fails validation.
+
+A claim whose pattern stops matching is an **error, not a skip**. The first version of this script
+labelled the README claims `"README"` while keying its document map `"README.md"`, so every lookup
+missed, every claim was silently skipped, and the script reported success while checking nothing.
+That is the failure mode this rule exists to prevent: a consistency checker that passes vacuously
+is worse than no checker, because it is trusted. Eleven deliberate mutations were used to confirm
+the script now fails on a stale count, a removed qualifier, a renamed table row and an unmarked
+historical section.
+
+It is wired into the `validate` job in [`.github/workflows/kb-ci.yml`](.github/workflows/kb-ci.yml)
+as the step *Release claims — prose counts vs recomputed corpus statistics*, between the policy
+validator and the regression tests. A validator that is not run by CI is advisory, and advisory
+checks are how a wrong number stays published for a release.
+
+### Fixed — README reported **50** skill test cases; the corpus holds **1,108**
+
+`scripts/generate-index/update_readme_stats.py` counted `cases.md` **files** where it meant to count
+**cases**. Fifty skills each have one `cases.md`, so the statistic reported 50 — the number of files,
+not the number of specifications inside them. It now counts `## Case N` headings across those files,
+which is 1,108. The old value understated the corpus by a factor of 22.
+
+This was a generator bug, not a data change: no test case was added, removed or edited. The same
+figure appears in README's narrative section, which already said 1,108 correctly — the generated
+block and the prose disagreed, and the prose was right.
+
+### Changed — REVIEW-REPORT.md now states which of its own sections is current
+
+The report had grown to fifteen sections across four phases, each recording what was true when it
+was written. §13 said "do not merge yet"; §14.5 said "merge"; §15.5 said something else again. All
+three were correct at the time and a reader could not tell which still applied.
+
+A three-layer reading guide now opens the report: §1–§13 are marked **historical** (the 2.0.0-baseline
+review), §14 is marked **historical, Phase 4**, and §15 is marked **current and authoritative**. The
+superseded merge recommendations in §13 and §14.5 carry banners saying so and pointing at §15.5,
+which is now the sole authoritative merge recommendation.
+
+The historical sections are **labelled, not rewritten**. Their findings, counts and recommendations
+are preserved verbatim, because a review report that edits its own past stops being evidence of what
+was found and when.
+
+### Changed — README says plainly that the scoring model is not validated
+
+The scoring section documented its weights and thresholds without stating their epistemic status,
+which read as endorsement. A new subsection, *"Status of this model: implemented and reproducible,
+**not** validated"*, now records that:
+
+- the weights are **documented engineering judgement**, not coefficients fitted or measured against
+  any outcome;
+- the tier bands (S ≥ 8.0, A ≥ 7.0, B ≥ 5.8, C ≥ 4.3) live **only in code** — `scripts/lib/scoring.py`
+  — and [`knowledge/ai-engineering/source-scoring.md`](knowledge/ai-engineering/source-scoring.md) does not restate them, which is an open documentation
+  finding rather than something this release resolves;
+- revising the model is **planned major-version work** and was out of scope for 2.0.0.
+
+The thresholds themselves are unchanged and were verified to match `scoring.py::tier_for` exactly.
+
+### Changed — the repository category `mcp-servers` no longer reads as a server count
+
+README's generated category table listed `mcp-servers | 35` while its layer table listed
+`MCP servers | 26`. Both are right and they measure different things: 35 repositories were filed
+under that seed-list **category**, while the registry classifies 26 of its 35 **entries** as servers
+on the evidence of each entry's own published text. Printed on one page with nothing said, the pair
+invites a reader to reconcile them and conclude one is wrong.
+
+`update_readme_stats.py` now emits a note under the category table saying what the category counts
+and where the registry split lives. The note is generated rather than hand-written into README.md so
+that regenerating the block cannot drop it, and `check_release_claims.py` fails if the note is
+removed or if the split it states drifts from the data.
+
+### Changed — the 1.0.0 section below is marked historical rather than corrected in place
+
+Two figures in `[1.0.0]` no longer describe the corpus: `15 UNVERIFIED` (the tier was renamed and
+redefined by H-3 in 2.0.0) and `427 generated cards` (that count included the 12 category READMEs
+alongside the cards). They are preserved verbatim under a banner explaining both, because they were
+true of 1.0.0 as released and a changelog that rewrites its own history cannot be used to check
+anything. `check_release_claims.py` scopes its tier check to the current version section and
+requires any older section that restates a superseded label to carry such a banner.
+
+### Added — `tests/test_release_claims.py`: 26 tests, including one against the checker itself
+
+The checker above is now covered by regression tests, and the most important of them tests the
+checker rather than the corpus. `test_every_required_claim_pattern_matches` asserts that each
+required prose claim still matches something in the file it names. Without it, the defect described
+above — claims labelled `"README"` against documents keyed `"README.md"`, so every lookup missed and
+every comparison was skipped — would pass unnoticed, because a skipped claim and a verified claim
+both exit 0. `test_claim_document_labels_resolve_against_real_files` covers the same bug from the
+other direction.
+
+The remaining tests inject each stale figure and assert it is caught: 333 for 1,108 test cases, 35
+for 26 servers, 0 for 9 non-server entries, a renamed table row, and each of the four load-bearing
+qualifiers removed while its number is left in place. `tier_assertions` is tested directly for the
+three cases where a naive `\d+ UNVERIFIED` scan is wrong: a backticked mention naming the old label
+in order to record its correction, `0 UNVERIFIED` as a true statement about a corpus with no fetch
+failures, and line numbers in a sliced section, which must be reported against the file and not
+against the slice.
+
+The suite is now 248 tests (was 222).
+
+### Fixed — `tests/README.md` named a test module that does not exist
+
+Its invariant table listed `test_sanitization.py` for the H-6 regression. No such file exists; the
+H-6 module is `test_untrusted_text.py`, and has been since H-6 was fixed. The table is the only
+place that explains what each module protects, so a reader following it to the wrong filename finds
+nothing and cannot tell whether the module was renamed or never written. Every `tests/` and
+`scripts/` path named in `tests/README.md`, `README.md`, `CONTRIBUTING.md` and `AGENTS.md` was then
+checked to resolve; this was the only one that did not.
+
+### Verified — no change needed
+
+- README's *"How skills are tested"* section already stated the case count correctly, already
+  described the cases as authored specifications rather than executed results, already carried no
+  pass-rate statistic, and already recorded the 40-task evaluation suite as specified but not built.
+  Left as it was.
+- README's tier thresholds match `scripts/lib/scoring.py::tier_for` exactly.
+- No document outside REVIEW-REPORT.md and this file claims "35 MCP servers". The one remaining
+  occurrence, in `tests/README.md`, quotes the original H-8 finding text and is correct as a
+  quotation.
+
 ## [2.0.0] — 2026-09-16
 
 The high-priority findings from [`REVIEW-REPORT.md`](REVIEW-REPORT.md), after the critical
@@ -495,6 +631,16 @@ review's remaining findings are untouched by this release:
 ---
 
 ## [1.0.0] — 2026-09-15
+
+> **Historical record — the figures below describe 1.0.0 as released, not the current tree.**
+> Two of them have since been superseded and are preserved here verbatim rather than rewritten,
+> because a changelog that edits its own past stops being a record. The tier written
+> `15 UNVERIFIED` is now `15 NO-LICENSE`: H-3 (in 2.0.0) separated "the fetch failed" from
+> "verification found no license", and these records were always the second. The card count
+> `427` counted the 12 category READMEs alongside the cards; the current card count is in
+> README.md's generated statistics block. For the present state see
+> [`REVIEW-REPORT.md` §15](REVIEW-REPORT.md#15-phase-5-post-fix-re-review) and
+> `python3 scripts/validate/check_release_claims.py`.
 
 Initial public release. Everything below was authored, verified and validated in a single build pass
 against live sources on 2026-09-15.

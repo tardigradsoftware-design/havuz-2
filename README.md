@@ -288,6 +288,33 @@ An agent that reads `UNVERIFIED` should re-fetch or discard the record. An agent
 `NO-LICENSE` should trust the record and refuse to vendor it. `validate_json.py` enforces
 both directions, so a record cannot claim either label without the fact behind it.
 
+### Status of this model: implemented and reproducible, **not** validated
+
+The weights and thresholds above are a documented engineering judgement. They are reproducible —
+`scripts/lib/scoring.py` is the single implementation, every component is stored alongside the
+total, and two runs on the same data produce the same number — but **nobody has measured whether
+they predict usefulness**. No outcome data exists to calibrate against: the 40-task effectiveness
+suite that would produce some is specified and not built, and `evaluations/` holds seven scaffolded
+domain READMEs and **zero evaluation records** (`metadata/evaluations.json` is an empty list;
+[`indexes/evaluations.md`](indexes/evaluations.md) reports 0).
+
+So these figures should be read as *"a defensible, inspectable ordering"* and not as *"a
+validated quality metric"*. Nothing in this repository claims otherwise, and a tier is a signal
+to check, not a verdict to obey.
+
+Two things are deliberately unresolved and tracked rather than quietly settled:
+
+- **The bands live only in code.** `knowledge/ai-engineering/source-scoring.md` explains the
+  model's required properties and its hard overrides but does not restate the numeric
+  thresholds, so the document and the implementation cannot be compared by reading them. That is
+  an open documentation finding, not a disagreement about the values — the thresholds in this
+  README are the ones `scoring.py` implements.
+- **Revision is planned major-version work.** Re-weighting the model changes every tier in the
+  corpus at once, which is a breaking change for anything that has cached a tier. It is therefore
+  scheduled as a `MAJOR` version change with its own validation run, and was explicitly out of
+  scope for the Phase 5 review fixes. The Phase 5 work corrected what the tiers *mean*
+  (`NO-LICENSE` versus `UNVERIFIED`) without touching how they are computed.
+
 ---
 
 ## Staleness and expiration
@@ -462,7 +489,7 @@ _Generated 2026-09-16 by `scripts/generate-index/update_readme_stats.py`. Do not
 | Model cards | **0** | [`models/`](models/) |
 | Datasets | **0** | [`datasets/`](datasets/) |
 | Prompt templates | **2** | [`indexes/prompts.md`](indexes/prompts.md) |
-| Skill test cases | **50** | `skills/*/tests/` |
+| Skill test cases | **1108** | `skills/*/tests/` |
 | Quarantined / experimental | **62** | [`experimental/`](experimental/) · `metadata/pending-paper-candidates.json` |
 | Retrieval index entries | **608** | [`metadata/index.json`](metadata/index.json) |
 
@@ -521,6 +548,8 @@ All **414** repositories were verified against the GitHub REST API. Aggregate ad
 | `backend` | 21 |
 | `databases` | 17 |
 | `instructions-standards` | 14 |
+
+`mcp-servers` above is a **repository-corpus category** from the seed list, not a count of MCP servers. The registry's own split — **26 servers** and **9 entries that are not servers**, out of 35 — is in the layer table above and in [`indexes/mcp.md`](indexes/mcp.md). The two numbers measure different things and are not expected to agree.
 <!-- KB:STATS:END -->
 
 ---
