@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/knowledge.schema.json",
+  "title": "Knowledge Article",
+  "description": "Frontmatter for knowledge/**/*.md. Written as semantic chunks so a retriever can pull one section instead of the whole file.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "domain",
+    "summary",
+    "status",
+    "confidence",
+    "claim_type",
+    "updated",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.defs.json#/$defs/id"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "agent-skills",
+        "coding",
+        "frontend",
+        "backend",
+        "databases",
+        "devops",
+        "security",
+        "testing",
+        "debugging",
+        "architecture",
+        "ui-ux",
+        "performance",
+        "accessibility",
+        "seo",
+        "ai-engineering",
+        "prompt-engineering",
+        "context-engineering",
+        "agent-engineering",
+        "multi-agent",
+        "research",
+        "reasoning",
+        "evaluation",
+        "mcp",
+        "browser-automation",
+        "computer-use",
+        "data-engineering",
+        "infrastructure",
+        "motion",
+        "misc"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 600
+    },
+    "audience": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "agent",
+          "human",
+          "both"
+        ]
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "experimental",
+        "deprecated",
+        "draft"
+      ]
+    },
+    "confidence": {
+      "$ref": "common.defs.json#/$defs/confidence"
+    },
+    "claim_type": {
+      "$ref": "common.defs.json#/$defs/claimType"
+    },
+    "evidence_level": {
+      "$ref": "common.defs.json#/$defs/evidenceLevel"
+    },
+    "tags": {
+      "$ref": "common.defs.json#/$defs/tags"
+    },
+    "applies_to": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sections": {
+      "type": "array",
+      "description": "Semantic chunk map used for progressive disclosure (brief \u00a771-72)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "heading",
+          "anchor"
+        ],
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "anchor": {
+            "type": "string",
+            "pattern": "^#[a-z0-9-]+$"
+          },
+          "purpose": {
+            "type": "string",
+            "enum": [
+              "overview",
+              "when-to-use",
+              "implementation",
+              "pitfalls",
+              "examples",
+              "validation",
+              "references",
+              "decision",
+              "checklist"
+            ]
+          }
+        }
+      }
+    },
+    "estimated_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "related_skills": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/id"
+      }
+    },
+    "related_repositories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/sourceRef"
+      }
+    },
+    "scoring": {
+      "$ref": "common.defs.json#/$defs/scoring"
+    },
+    "provenance": {
+      "$ref": "common.defs.json#/$defs/provenance"
+    },
+    "version": {
+      "$ref": "common.defs.json#/$defs/semver"
+    },
+    "updated": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "verified_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "expires_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

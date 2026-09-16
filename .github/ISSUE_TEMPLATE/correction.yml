@@ -1,0 +1,41 @@
+name: Correction
+description: Report a false, unsupported, outdated or unsafe claim in this repository.
+title: "[correction] "
+labels: ["correction", "needs-triage"]
+body:
+  - type: input
+    id: path
+    attributes:
+      label: File path
+      placeholder: knowledge/frontend/nextjs/caching.md
+    validations: { required: true }
+  - type: textarea
+    id: quote
+    attributes:
+      label: The claim, quoted exactly
+    validations: { required: true }
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong with it?
+      options: [false, unsupported (no source), outdated, misleading, duplicated elsewhere,
+                unsafe guidance, license problem, broken link, hallucinated source]
+    validations: { required: true }
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence URL (primary source preferred)
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - critical (an agent following this would cause real harm or data loss)
+        - high (an agent would build the wrong thing)
+        - medium (misleading but recoverable)
+        - low (wording, staleness, minor inaccuracy)
+    validations: { required: true }

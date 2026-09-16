@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/sources.schema.json",
+  "title": "Source Registry",
+  "description": "Container for verified source records (see source.schema.json).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sources"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "generated_at": { "type": "string" },
+    "generator": { "type": "string" },
+    "verification_method": { "type": "string" },
+    "records": { "type": "integer", "minimum": 0 },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "source.schema.json" }
+    }
+  }
+}

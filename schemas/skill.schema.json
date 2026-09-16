@@ -1,0 +1,235 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/skill.schema.json",
+  "title": "Agent Skill",
+  "description": "Frontmatter schema for skills/*/SKILL.md. A skill is a reusable, testable procedure an agent can execute: INPUT -> PROCESS -> OUTPUT -> VALIDATION.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "version",
+    "description",
+    "category",
+    "status",
+    "confidence",
+    "source_type",
+    "updated",
+    "tags"
+  ],
+  "properties": {
+    "name": {
+      "$ref": "common.defs.json#/$defs/id"
+    },
+    "version": {
+      "$ref": "common.defs.json#/$defs/semver"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 400
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "accessibility",
+        "agent-engineering",
+        "agents",
+        "api",
+        "architecture",
+        "backend",
+        "coding",
+        "context-engineering",
+        "data",
+        "database",
+        "debugging",
+        "design",
+        "devops",
+        "documentation",
+        "evaluation",
+        "frontend",
+        "integration",
+        "meta",
+        "motion",
+        "performance",
+        "planning",
+        "release",
+        "research",
+        "review",
+        "security",
+        "seo",
+        "testing"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "experimental",
+        "deprecated",
+        "draft"
+      ],
+      "description": "`experimental` skills live in experimental/ or are flagged here; they are never loaded into core agent context without opt-in."
+    },
+    "confidence": {
+      "$ref": "common.defs.json#/$defs/confidence"
+    },
+    "evidence_level": {
+      "$ref": "common.defs.json#/$defs/evidenceLevel"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "curated",
+        "original",
+        "derived",
+        "ai-generated",
+        "imported"
+      ]
+    },
+    "updated": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "tags": {
+      "$ref": "common.defs.json#/$defs/tags"
+    },
+    "requires": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/id"
+      },
+      "uniqueItems": true,
+      "description": "Skill dependencies (brief \u00a774). An agent must load these first."
+    },
+    "conflicts_with": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/id"
+      },
+      "uniqueItems": true
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 50,
+      "description": "Tie-breaker when two skills apply (brief \u00a775): higher priority wins, then authority, then scope specificity, then recency."
+    },
+    "applies_to": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Stacks/domains this skill is valid for, e.g. ['nextjs', 'typescript', 'postgres']"
+    },
+    "not_applies_to": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "estimated_tokens": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "quality": {
+      "$ref": "common.defs.json#/$defs/quality"
+    },
+    "scoring": {
+      "$ref": "common.defs.json#/$defs/scoring"
+    },
+    "freshness": {
+      "$ref": "common.defs.json#/$defs/freshness"
+    },
+    "provenance": {
+      "$ref": "common.defs.json#/$defs/provenance"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/sourceRef"
+      }
+    },
+    "related_skills": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/id"
+      }
+    },
+    "related_repositories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tests": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of test cases under skills/<name>/tests/"
+    },
+    "last_test_run": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "test_pass_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "claim_type": {
+      "$ref": "common.defs.json#/$defs/claimType"
+    },
+    "verified_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "expires_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "heading",
+          "anchor"
+        ],
+        "properties": {
+          "heading": {
+            "type": "string",
+            "minLength": 1
+          },
+          "anchor": {
+            "type": "string",
+            "pattern": "^#[a-z0-9-]+$"
+          },
+          "purpose": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Declared section map, enabling isolated retrieval: a section fetched alone must still be self-contained."
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

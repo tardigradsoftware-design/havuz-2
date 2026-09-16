@@ -1,0 +1,55 @@
+name: Research submission
+description: Add a verified paper, benchmark result, official documentation finding or case study.
+title: "[research] "
+labels: ["research", "needs-triage"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Source type
+      options: [research-paper, benchmark, official-docs, dataset, case-study, specification, standard, blog]
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes:
+      label: Primary source URL
+      description: The publisher / minting authority. Not an aggregator, not a summary of a summary.
+    validations: { required: true }
+  - type: input
+    id: secondary
+    attributes:
+      label: Independent corroborating source (optional but strongly encouraged)
+  - type: textarea
+    id: finding
+    attributes:
+      label: The specific finding
+      description: What exactly does the source establish? Quote the claim, do not paraphrase loosely.
+    validations: { required: true }
+  - type: dropdown
+    id: claim_type
+    attributes:
+      label: Claim type
+      options: [fact, recommendation, experiment, opinion, hypothesis, unknown]
+    validations: { required: true }
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations of the finding
+      description: Sample size, model generation, task narrowness, contamination risk, funding.
+    validations: { required: true }
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Conflicting sources
+      description: If another credible source disagrees, describe both. Do not hide the conflict.
+  - type: checkboxes
+    id: ethics
+    attributes:
+      label: Collection ethics
+      options:
+        - label: This is public research or public documentation.
+          required: true
+        - label: It contains no private chain-of-thought, leaked system prompt, credential or personal data.
+          required: true
+        - label: I can name the primary publisher of this claim.
+          required: true

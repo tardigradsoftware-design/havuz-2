@@ -1,0 +1,76 @@
+name: Skill submission
+description: Propose a new agent skill (SKILL.md + tests).
+title: "[skill] "
+labels: ["skill", "needs-triage"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill name (kebab-case)
+      placeholder: database-migration-planning
+    validations: { required: true }
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [research, planning, frontend, backend, database, api, testing, debugging, security,
+                performance, accessibility, seo, design, motion, documentation, review, devops,
+                agent-engineering, context-engineering, evaluation, meta]
+    validations: { required: true }
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: One paragraph. What decision or output does this skill produce?
+    validations: { required: true }
+  - type: textarea
+    id: when_not
+    attributes:
+      label: When NOT to use it
+      description: At least two real exclusions. Required — a skill with no exclusions is not scoped.
+    validations: { required: true }
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow (INPUT → PROCESS → OUTPUT → VALIDATION)
+    validations: { required: true }
+  - type: textarea
+    id: tests
+    attributes:
+      label: Test cases
+      description: At least three, each in GIVEN / WHEN / THEN / FAIL IF form.
+      placeholder: |
+        test-001
+        GIVEN a Next.js app with a Prisma schema and 12 tables
+        WHEN  the skill is applied to plan a non-breaking migration
+        THEN  the output contains an ordered plan with a rollback step per stage
+        FAIL IF any step is "drop column" in the same release as "stop writing"
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Where did this come from? Real runs, official docs, papers, or experience?
+    validations: { required: true }
+  - type: dropdown
+    id: provenance
+    attributes:
+      label: Provenance
+      options:
+        - original (written for this repository)
+        - derived (adapted from an external source — cite it)
+        - ai-generated (must go to experimental/ first)
+    validations: { required: true }
+  - type: checkboxes
+    id: gate
+    attributes:
+      label: Quality gate
+      options:
+        - label: Body is under ~2,500 tokens; deeper material is in references/
+          required: true
+        - label: Every external claim has a source with verified_at
+          required: true
+        - label: I searched skills/ and knowledge/ for an existing equivalent
+          required: true
+        - label: If AI-generated, I am submitting it to experimental/, not to skills/
+          required: true

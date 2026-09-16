@@ -1,0 +1,46 @@
+# --- generated / local caches (never commit) ---
+.cache/
+*.pyc
+__pycache__/
+.venv/
+venv/
+env/
+
+# --- secrets: hard exclusion ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+*credentials.json
+service-account*.json
+.netrc
+secrets.*
+*.token
+
+# --- editor / OS ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
+
+# --- build artifacts ---
+node_modules/
+dist/
+build/
+out/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- local evaluation runs (keep the suite, not every run artifact) ---
+evaluations/**/runs/*
+!evaluations/**/runs/.gitkeep
+*.log

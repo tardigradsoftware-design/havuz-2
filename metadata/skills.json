@@ -1,0 +1,6198 @@
+{
+  "generated_at": "2026-09-16T01:01:36+00:00",
+  "generator": "scripts/generate-index/extract_registries.py",
+  "records": 50,
+  "$schema": "../schemas/skill.schema.json",
+  "skills": [
+    {
+      "name": "accessibility-audit",
+      "version": "1.0.0",
+      "description": "Audit an interface against WCAG with real assistive-technology testing — automated scans find roughly a third of issues; keyboard, screen-reader and cognitive passes find the rest.",
+      "category": "design",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "accessibility",
+        "a11y",
+        "wcag",
+        "audit",
+        "inclusive-design",
+        "frontend"
+      ],
+      "applies_to": [
+        "web",
+        "saas",
+        "dashboard",
+        "marketing-site"
+      ],
+      "priority": 86,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2779,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Audit passes",
+          "anchor": "#audit-passes",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Reporting",
+          "anchor": "#reporting",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "WCAG 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/",
+          "type": "specification",
+          "organization": "W3C",
+          "published": "2023-10-05",
+          "license": "W3C Document License",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Understanding WCAG 2.2",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/",
+          "type": "official-docs",
+          "organization": "W3C WAI",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "axe-core",
+          "url": "https://github.com/dequelabs/axe-core",
+          "type": "github-repository",
+          "organization": "Deque Systems",
+          "license": "MPL-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "frontend-design",
+        "design-systems",
+        "code-review",
+        "browser-testing",
+        "seo-audit"
+      ],
+      "related_repositories": [
+        "dequelabs/axe-core",
+        "Siteimprove/alfa",
+        "microsoft/playwright",
+        "a11yproject/a11yproject.com"
+      ],
+      "tests": 6,
+      "_path": "skills/accessibility-audit/SKILL.md",
+      "_tokens": 2779,
+      "_headings": [
+        "Accessibility Audit",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Audit passes",
+        "1. Automated scan (pre-filter)",
+        "2. Keyboard pass",
+        "3. Screen-reader pass",
+        "4. Vision pass",
+        "5. Motor & dexterity pass",
+        "6. Cognitive & language pass",
+        "7. Structure & semantics pass",
+        "Reporting",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "agent-memory-design",
+      "version": "1.0.0",
+      "description": "Design durable memory for agents — what to store, in what form, with what retrieval, decay, conflict and privacy rules — so long-horizon work accumulates knowledge instead of noise.",
+      "category": "agents",
+      "status": "active",
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "emerging-consensus",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "agents",
+        "memory",
+        "persistence",
+        "retrieval",
+        "state",
+        "long-horizon",
+        "rag"
+      ],
+      "applies_to": [
+        "agents",
+        "llm"
+      ],
+      "priority": 85,
+      "requires": [
+        "context-engineering"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2647,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Memory taxonomy",
+          "anchor": "#memory-taxonomy",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "url": "https://arxiv.org/abs/2307.03172",
+          "type": "research-paper",
+          "published": "2023-07-06",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2303.11366",
+          "type": "research-paper",
+          "published": "2023-03-20",
+          "license": "CC BY 4.0",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Verbal self-recorded feedback improves subsequent attempts — the research basis for episodic memory write-back."
+        },
+        {
+          "title": "Mem0",
+          "url": "https://github.com/mem0ai/mem0",
+          "type": "github-repository",
+          "confidence": "medium",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Representative of the managed agent-memory category; evaluate against the criteria here rather than adopting on category membership."
+        }
+      ],
+      "related_skills": [
+        "context-engineering",
+        "evidence-validation",
+        "research-synthesis",
+        "documentation"
+      ],
+      "related_repositories": [
+        "letta-ai/letta",
+        "mem0ai/mem0",
+        "thedotmack/claude-mem",
+        "DeusData/codebase-memory-mcp",
+        "zep-ai/zep"
+      ],
+      "tests": 6,
+      "_path": "skills/agent-memory-design/SKILL.md",
+      "_tokens": 2647,
+      "_headings": [
+        "Agent Memory Design",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Memory taxonomy",
+        "Workflow",
+        "1. DECIDE WHAT PERSISTS",
+        "2. SHAPE",
+        "3. WRITE",
+        "4. INDEX",
+        "5. RETRIEVE",
+        "6. TRUST",
+        "7. DECAY",
+        "8. AUDIT",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "ai-safety-evaluation",
+      "version": "1.0.0",
+      "description": "Evaluate an AI system for harmful, unsafe or policy-violating behaviour: build the adversarial task set, define the correct behaviour for each, measure refusal and over-refusal together, and report what the score does not establish.",
+      "category": "evaluation",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "safety",
+        "evaluation",
+        "red-teaming",
+        "adversarial",
+        "refusal",
+        "over-refusal",
+        "jailbreak",
+        "benchmark"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 3,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2421,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OWASP Top 10 for LLM Applications",
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+          "type": "standard",
+          "organization": "OWASP",
+          "claim_type": "recommendation",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The failure classes that seed category derivation in step 2, including excessive agency and insecure output handling."
+        },
+        {
+          "title": "OWASP Agentic AI Threats and Mitigations",
+          "url": "https://owasp.org/www-project-agentic-ai-threats-and-mitigations/",
+          "type": "standard",
+          "organization": "OWASP",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Agent-specific threat taxonomy used for the indirect-injection and memory-poisoning categories in steps 5 and 6."
+        },
+        {
+          "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+          "url": "https://arxiv.org/abs/2306.05685",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Zheng et al. — judge/human agreement levels and the position, verbosity and self-enhancement biases step 8 requires calibrating against."
+        },
+        {
+          "title": "EleutherAI/lm-evaluation-harness",
+          "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+          "type": "github-repository",
+          "organization": "EleutherAI",
+          "license": "MIT",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "A maintained harness for reproducible model evaluation; the CI-integration pattern in step 11."
+        }
+      ],
+      "related_skills": [
+        "threat-modeling",
+        "prompt-injection-defense",
+        "testing",
+        "prompt-engineering",
+        "evidence-validation"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/ai-safety-evaluation/SKILL.md",
+      "_tokens": 2421,
+      "_headings": [
+        "AI Safety Evaluation",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "ai-slop-detection",
+      "version": "1.0.0",
+      "description": "Detect, explain, fix and re-review the visual and structural signatures of AI-generated interfaces: generic layouts, decorative gradients, glassmorphism overload, fake metrics, inconsistent spacing, default typography and motion without purpose.",
+      "category": "design",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "ai-slop",
+        "design",
+        "frontend",
+        "ui",
+        "ux",
+        "review",
+        "quality",
+        "visual-design"
+      ],
+      "applies_to": [
+        "web",
+        "marketing-site",
+        "saas",
+        "dashboard",
+        "landing-page"
+      ],
+      "priority": 90,
+      "requires": [
+        "visual-design-research",
+        "design-systems"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2513,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Detection catalogue",
+          "anchor": "#detection-catalogue",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Evaluation Criteria",
+          "anchor": "#evaluation-criteria",
+          "purpose": "validation"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Apple Human Interface Guidelines",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/",
+          "type": "official-docs",
+          "organization": "Apple",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Reference for restraint, hierarchy and motion purpose. Not fetched in this run; verify before quoting specifics."
+        },
+        {
+          "title": "Material Design — foundations",
+          "url": "https://m3.material.io/foundations",
+          "type": "official-docs",
+          "organization": "Google",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "WCAG 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/",
+          "type": "specification",
+          "organization": "W3C",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Contrast and non-text-contrast thresholds used by the colour-discipline checks."
+        }
+      ],
+      "related_skills": [
+        "visual-design-research",
+        "design-systems",
+        "frontend-design",
+        "accessibility-audit",
+        "motion-design"
+      ],
+      "related_repositories": [
+        "shadcn-ui/ui",
+        "radix-ui/primitives",
+        "tailwindlabs/tailwindcss",
+        "GoogleChrome/lighthouse"
+      ],
+      "tests": 6,
+      "_path": "skills/ai-slop-detection/SKILL.md",
+      "_tokens": 2513,
+      "_headings": [
+        "AI-Slop Detection",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Required Context",
+        "Detection catalogue",
+        "Layout & composition",
+        "Workflow",
+        "1. DETECT",
+        "2. EXPLAIN",
+        "3. RECOMMEND",
+        "4. REWRITE",
+        "5. REVIEW",
+        "Failure Modes",
+        "Quality Checklist",
+        "Examples",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "api-design",
+      "version": "1.0.0",
+      "description": "Design interfaces that stay compatible as they grow — resource modelling, HTTP semantics, versioning, error contracts, pagination, idempotency and the schema-first workflow.",
+      "category": "backend",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "api",
+        "rest",
+        "openapi",
+        "http",
+        "contracts",
+        "versioning",
+        "backend",
+        "design"
+      ],
+      "applies_to": [
+        "backend",
+        "api",
+        "web"
+      ],
+      "priority": 85,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2769,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Design rules",
+          "anchor": "#design-rules",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Error contract",
+          "anchor": "#error-contract",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OpenAPI Specification",
+          "url": "https://spec.openapis.org/oas/latest.html",
+          "type": "specification",
+          "organization": "OpenAPI Initiative / Linux Foundation",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; confirm the current version (3.1.x) before depending on specific fields."
+        },
+        {
+          "title": "RFC 9110 — HTTP Semantics",
+          "url": "https://www.rfc-editor.org/rfc/rfc9110",
+          "type": "specification",
+          "organization": "IETF",
+          "published": "2022-06-01",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "RFC 9457 — Problem Details for HTTP APIs",
+          "url": "https://www.rfc-editor.org/rfc/rfc9457",
+          "type": "specification",
+          "organization": "IETF",
+          "published": "2023-07-01",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Obsoletes RFC 7807."
+        }
+      ],
+      "related_skills": [
+        "backend-engineering",
+        "database-design",
+        "documentation",
+        "security-audit",
+        "testing"
+      ],
+      "related_repositories": [
+        "OAI/OpenAPI-Specification",
+        "stoplightio/spectral",
+        "fern-api/fern",
+        "speakeasy-api/speakeasy"
+      ],
+      "tests": 6,
+      "_path": "skills/api-design/SKILL.md",
+      "_tokens": 2769,
+      "_headings": [
+        "API Design",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Design rules",
+        "Resources & URLs",
+        "HTTP semantics (RFC 9110)",
+        "Idempotency & safety",
+        "Pagination",
+        "Versioning & compatibility",
+        "Schemas & contracts",
+        "Async & long operations",
+        "Error contract",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "architecture-design",
+      "version": "1.0.0",
+      "description": "Design a system architecture from stated requirements: decompose the problem, choose boundaries and consistency levels per data type, enumerate failure modes, and record the irreversible decisions with their reasoning.",
+      "category": "architecture",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "architecture",
+        "system-design",
+        "boundaries",
+        "tradeoffs",
+        "adr",
+        "scalability",
+        "failure-modes"
+      ],
+      "applies_to": [
+        "backend",
+        "distributed-systems",
+        "new-project",
+        "rearchitecture"
+      ],
+      "priority": 3,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2346,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "The Twelve-Factor App",
+          "url": "https://github.com/heroku/12factor",
+          "type": "github-repository",
+          "organization": "Heroku",
+          "license": "MIT",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Config in the environment, backing services as attached resources, dev/prod parity and disposability are recurring sections of the design checklist this skill implements."
+        },
+        {
+          "title": "Google SRE Book — Monitoring Distributed Systems",
+          "url": "https://sre.google/sre-book/monitoring-distributed-systems/",
+          "type": "official-docs",
+          "organization": "Google",
+          "claim_type": "recommendation",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The four golden signals — latency, traffic, errors, saturation — used as the observability requirement in step 8."
+        },
+        {
+          "title": "PostgreSQL documentation — Transaction Isolation",
+          "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+          "type": "official-docs",
+          "organization": "PostgreSQL Global Development Group",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "What each isolation level actually prevents in a real engine, which is the basis for assigning consistency per data type in step 3."
+        }
+      ],
+      "related_skills": [
+        "database-design",
+        "api-design",
+        "performance-audit",
+        "security-audit",
+        "threat-modeling",
+        "project-planning",
+        "dont-reinvent-the-wheel"
+      ],
+      "related_repositories": [
+        "heroku/12factor"
+      ],
+      "tests": 9,
+      "_path": "skills/architecture-design/SKILL.md",
+      "_tokens": 2346,
+      "_headings": [
+        "Architecture Design",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "backend-engineering",
+      "version": "1.0.0",
+      "description": "Build server-side systems that stay correct under load and failure — request lifecycle, data access, concurrency, idempotency, observability and the operational decisions that must be made before the first line of code.",
+      "category": "backend",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "backend",
+        "architecture",
+        "data",
+        "concurrency",
+        "observability",
+        "reliability"
+      ],
+      "applies_to": [
+        "backend",
+        "api",
+        "infrastructure"
+      ],
+      "priority": 84,
+      "requires": [
+        "api-design",
+        "database-design"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2772,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Request lifecycle",
+          "anchor": "#request-lifecycle",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Reliability rules",
+          "anchor": "#reliability-rules",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "RFC 9110 — HTTP Semantics",
+          "url": "https://www.rfc-editor.org/rfc/rfc9110",
+          "type": "specification",
+          "organization": "IETF",
+          "published": "2022-06-01",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "The Twelve-Factor App",
+          "url": "https://github.com/heroku/12factor",
+          "type": "github-repository",
+          "organization": "Heroku",
+          "license": "MIT",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Canonical slug is heroku/12factor; 12factor/12factor redirects to an unrelated Brazilian fork."
+        }
+      ],
+      "related_skills": [
+        "api-design",
+        "database-design",
+        "security-audit",
+        "deployment",
+        "performance-audit",
+        "testing"
+      ],
+      "related_repositories": [
+        "fastapi/fastapi",
+        "django/django",
+        "tokio-rs/axum",
+        "open-telemetry/opentelemetry-specification",
+        "postmanlabs/newman"
+      ],
+      "tests": 6,
+      "_path": "skills/backend-engineering/SKILL.md",
+      "_tokens": 2772,
+      "_headings": [
+        "Backend Engineering",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Request lifecycle",
+        "Reliability rules",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "browser-testing",
+      "version": "1.0.0",
+      "description": "Test web behaviour in a real browser — user journeys, selectors that survive refactors, waiting instead of sleeping, network interception, visual regression, cross-browser coverage and agent-driven browser automation.",
+      "category": "testing",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "browser",
+        "e2e",
+        "playwright",
+        "automation",
+        "testing",
+        "visual-regression",
+        "agents"
+      ],
+      "applies_to": [
+        "web",
+        "frontend"
+      ],
+      "priority": 80,
+      "requires": [
+        "testing"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2618,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Writing stable tests",
+          "anchor": "#writing-stable-tests",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Playwright",
+          "url": "https://github.com/microsoft/playwright",
+          "type": "github-repository",
+          "organization": "Microsoft",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Playwright MCP",
+          "url": "https://github.com/microsoft/playwright-mcp",
+          "type": "github-repository",
+          "organization": "Microsoft",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Exposes browser control to agents over MCP; apply the mcp-integration capability tiers."
+        }
+      ],
+      "related_skills": [
+        "testing",
+        "frontend-implementation",
+        "accessibility-audit",
+        "performance-audit",
+        "debugging"
+      ],
+      "related_repositories": [
+        "microsoft/playwright",
+        "microsoft/playwright-mcp",
+        "browser-use/browser-use",
+        "cypress-io/cypress",
+        "GoogleChrome/lighthouse"
+      ],
+      "tests": 6,
+      "_path": "skills/browser-testing/SKILL.md",
+      "_tokens": 2618,
+      "_headings": [
+        "Browser Testing",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Writing stable tests",
+        "Selectors — in strict preference order",
+        "Waiting — never sleep",
+        "Test data & isolation",
+        "Assertions",
+        "Workflow",
+        "Agent-driven browser automation",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "code-review",
+      "version": "1.0.0",
+      "description": "Review changes for correctness, security, maintainability and design — with feedback that is specific, graded, actionable and reviewable by a third party.",
+      "category": "coding",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "code-review",
+        "quality",
+        "feedback",
+        "maintainability",
+        "security",
+        "process"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 85,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2739,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Review order",
+          "anchor": "#review-order",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Feedback format",
+          "anchor": "#feedback-format",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Google Engineering Practices — Code Review",
+          "url": "https://google.github.io/eng-practices/review/",
+          "type": "official-docs",
+          "organization": "Google",
+          "license": "CC BY 4.0",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; verify current guidance before quoting specifics."
+        }
+      ],
+      "related_skills": [
+        "testing",
+        "debugging",
+        "security-audit",
+        "refactoring",
+        "documentation"
+      ],
+      "related_repositories": [
+        "reviewdog/reviewdog",
+        "danger/danger",
+        "semgrep/semgrep"
+      ],
+      "tests": 6,
+      "_path": "skills/code-review/SKILL.md",
+      "_tokens": 2739,
+      "_headings": [
+        "Code Review",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Review order",
+        "Feedback format",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "competitive-analysis",
+      "version": "1.0.0",
+      "description": "Compare products, libraries or approaches on evidence — feature matrices with sources, real tradeoffs, positioning gaps and a defensible recommendation rather than a verdict.",
+      "category": "research",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "competitive-analysis",
+        "comparison",
+        "research",
+        "positioning",
+        "decision",
+        "evaluation"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 78,
+      "requires": [
+        "web-research",
+        "evidence-validation"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2540,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Comparison discipline",
+          "anchor": "#comparison-discipline",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard",
+          "type": "github-repository",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "web-research",
+        "evidence-validation",
+        "repository-analysis",
+        "dont-reinvent-the-wheel",
+        "visual-design-research"
+      ],
+      "related_repositories": [
+        "ossf/scorecard",
+        "lmarena/arena-hard-auto"
+      ],
+      "tests": 6,
+      "_path": "skills/competitive-analysis/SKILL.md",
+      "_tokens": 2540,
+      "_headings": [
+        "Competitive Analysis",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Comparison discipline",
+        "Criteria that are usually decisive",
+        "Rules for cells",
+        "Anti-bias checks",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "context-engineering",
+      "version": "1.0.0",
+      "description": "Design what an agent sees at each step: what to include, exclude, compress, retrieve, cache and evict — so capability is not lost to a badly assembled prompt or an overflowing window.",
+      "category": "agents",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "context",
+        "agents",
+        "prompting",
+        "rag",
+        "memory",
+        "token-budget",
+        "retrieval"
+      ],
+      "applies_to": [
+        "agents",
+        "llm"
+      ],
+      "priority": 94,
+      "requires": [
+        "evidence-validation"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2487,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "The context budget",
+          "anchor": "#the-context-budget",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "url": "https://arxiv.org/abs/2307.03172",
+          "type": "research-paper",
+          "organization": "Stanford / UC Berkeley / Samaya AI",
+          "published": "2023-07-06",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Performance is U-shaped over input position: information at the start and end is used far better than information in the middle."
+        },
+        {
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "url": "https://arxiv.org/abs/2201.11903",
+          "type": "research-paper",
+          "published": "2022-01-28",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2303.11366",
+          "type": "research-paper",
+          "published": "2023-03-20",
+          "license": "CC BY 4.0",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "agent-memory-design",
+        "prompt-engineering",
+        "web-research",
+        "evidence-validation",
+        "mcp-integration"
+      ],
+      "related_repositories": [
+        "langchain-ai/langgraph",
+        "letta-ai/letta",
+        "mem0ai/mem0",
+        "thedotmack/claude-mem"
+      ],
+      "tests": 6,
+      "_path": "skills/context-engineering/SKILL.md",
+      "_tokens": 2487,
+      "_headings": [
+        "Context Engineering",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "The context budget",
+        "Workflow",
+        "1. INVENTORY",
+        "2. BUDGET",
+        "3. SELECT",
+        "4. ORDER",
+        "5. COMPRESS",
+        "6. ISOLATE",
+        "7. MONITOR",
+        "8. EVICT",
+        "9. HANDOFF",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "data-pipeline",
+      "version": "1.0.0",
+      "description": "Design and operate a data pipeline that can be trusted: make every stage idempotent and re-runnable, fail loudly at the boundary, validate the schema at each hop, and make the backfill and the late-arriving-data cases first-class.",
+      "category": "data",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "data-pipeline",
+        "etl",
+        "idempotency",
+        "schema-validation",
+        "backfill",
+        "observability",
+        "batch",
+        "streaming"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 5,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2241,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "The Twelve-Factor App",
+          "url": "https://github.com/heroku/12factor",
+          "type": "github-repository",
+          "organization": "Heroku",
+          "license": "MIT",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Backing services as attached resources and disposability are what make at-least-once delivery, and therefore stage idempotency, unavoidable."
+        },
+        {
+          "title": "dbt-core",
+          "url": "https://github.com/dbt-labs/dbt-core",
+          "type": "github-repository",
+          "organization": "dbt Labs",
+          "license": "Apache-2.0",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "A maintained transformation framework whose staging/mart layering and test-on-every-model convention is the pattern in steps 3 and 5."
+        },
+        {
+          "title": "Apache Airflow documentation",
+          "url": "https://airflow.apache.org/docs/",
+          "type": "official-docs",
+          "organization": "Apache Software Foundation",
+          "license": "Apache-2.0",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Scheduling, retries and backfill semantics; the operational assumptions in steps 1, 7 and 12."
+        }
+      ],
+      "related_skills": [
+        "rag-pipeline",
+        "database-design",
+        "migration",
+        "deployment",
+        "data-visualization"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/data-pipeline/SKILL.md",
+      "_tokens": 2241,
+      "_headings": [
+        "Data Pipeline",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "data-visualization",
+      "version": "1.0.0",
+      "description": "Choose the chart that answers the question, encode data honestly, and make the visual accessible, performant and readable at real data volumes.",
+      "category": "design",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "data-visualization",
+        "charts",
+        "dashboards",
+        "analytics",
+        "accessibility",
+        "frontend"
+      ],
+      "applies_to": [
+        "web",
+        "dashboard",
+        "saas",
+        "analytics"
+      ],
+      "priority": 76,
+      "requires": [
+        "design-systems"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 3296,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Chart selection",
+          "anchor": "#chart-selection",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Honesty rules",
+          "anchor": "#honesty-rules",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "D3.js",
+          "url": "https://github.com/d3/d3",
+          "type": "github-repository",
+          "license": "ISC",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "WCAG 2.2 — non-text contrast and use of colour",
+          "url": "https://www.w3.org/TR/WCAG22/",
+          "type": "specification",
+          "organization": "W3C",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "design-systems",
+        "frontend-design",
+        "accessibility-audit",
+        "frontend-implementation",
+        "performance-audit"
+      ],
+      "related_repositories": [
+        "d3/d3",
+        "apache/echarts",
+        "vega/vega-lite",
+        "observablehq/plot",
+        "apache/superset"
+      ],
+      "tests": 5,
+      "_path": "skills/data-visualization/SKILL.md",
+      "_tokens": 3296,
+      "_headings": [
+        "Data Visualization",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Chart selection",
+        "Honesty rules",
+        "Implementation notes",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "database-design",
+      "version": "1.0.0",
+      "description": "Model data so integrity is enforced by the database, queries stay fast as volume grows, and migrations are reversible — including the choice between relational, document and vector storage.",
+      "category": "backend",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "database",
+        "schema",
+        "sql",
+        "postgres",
+        "indexing",
+        "migrations",
+        "modelling",
+        "vector"
+      ],
+      "applies_to": [
+        "backend",
+        "database"
+      ],
+      "priority": 84,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2895,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Modelling rules",
+          "anchor": "#modelling-rules",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Indexing and query performance",
+          "anchor": "#indexing-and-query-performance",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "PostgreSQL documentation",
+          "url": "https://www.postgresql.org/docs/",
+          "type": "official-docs",
+          "organization": "PostgreSQL Global Development Group",
+          "license": "PostgreSQL License",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Verify behaviour against the major version in use — defaults and features differ across versions."
+        }
+      ],
+      "related_skills": [
+        "backend-engineering",
+        "api-design",
+        "migration",
+        "security-audit",
+        "performance-audit"
+      ],
+      "related_repositories": [
+        "postgres/postgres",
+        "supabase/supabase",
+        "prisma/prisma",
+        "pgvector/pgvector"
+      ],
+      "tests": 4,
+      "_path": "skills/database-design/SKILL.md",
+      "_tokens": 2895,
+      "_headings": [
+        "Database Design",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Modelling rules",
+        "Indexing and query performance",
+        "Migrations",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "database-optimization",
+      "version": "1.0.0",
+      "description": "Diagnose and fix database performance problems from measured evidence: locate the query, read the plan, choose the narrowest index or query change that fixes the diagnosed cause, and verify the improvement outside the noise floor.",
+      "category": "database",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "database",
+        "postgres",
+        "query-optimization",
+        "explain",
+        "indexes",
+        "slow-queries",
+        "performance"
+      ],
+      "applies_to": [
+        "postgres",
+        "sql",
+        "backend",
+        "data-intensive"
+      ],
+      "priority": 4,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2492,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "PostgreSQL documentation — Using EXPLAIN",
+          "url": "https://www.postgresql.org/docs/current/using-explain.html",
+          "type": "official-docs",
+          "organization": "PostgreSQL Global Development Group",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The plan-reading procedure in step 3 and the ANALYZE/BUFFERS semantics."
+        },
+        {
+          "title": "PostgreSQL documentation — pg_stat_statements",
+          "url": "https://www.postgresql.org/docs/current/pgstatstatements.html",
+          "type": "official-docs",
+          "organization": "PostgreSQL Global Development Group",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Total execution time across calls, which is the ranking basis in step 1."
+        },
+        {
+          "title": "PostgreSQL documentation — CREATE INDEX CONCURRENTLY",
+          "url": "https://www.postgresql.org/docs/current/sql-createindex.html",
+          "type": "official-docs",
+          "organization": "PostgreSQL Global Development Group",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Locking behaviour, the no-transaction-block restriction and the INVALID-index failure mode in step 9."
+        }
+      ],
+      "related_skills": [
+        "performance-optimization",
+        "database-design",
+        "debugging",
+        "backend-engineering",
+        "migration"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/database-optimization/SKILL.md",
+      "_tokens": 2492,
+      "_headings": [
+        "Database Optimization",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "debugging",
+      "version": "1.0.0",
+      "description": "Systematic defect investigation: reproduce, isolate, hypothesise, test one variable at a time, find root cause, fix, and prove the fix — instead of patching symptoms by trial and error.",
+      "category": "coding",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "debugging",
+        "root-cause",
+        "testing",
+        "methodology",
+        "incident"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 91,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2296,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Isolation techniques",
+          "anchor": "#isolation-techniques",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "url": "https://arxiv.org/abs/2210.03629",
+          "type": "research-paper",
+          "published": "2022-10-06",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Interleaving a hypothesis with an observation beats long ungrounded reasoning chains."
+        },
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2303.11366",
+          "type": "research-paper",
+          "published": "2023-03-20",
+          "license": "CC BY 4.0",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Recording failed attempts in language prevents repeating them — the basis of the attempt log."
+        }
+      ],
+      "related_skills": [
+        "testing",
+        "code-review",
+        "performance-audit",
+        "repository-analysis",
+        "security-audit"
+      ],
+      "related_repositories": [
+        "getsentry/sentry-mcp",
+        "getsentry/sentry",
+        "browser-use/browser-use"
+      ],
+      "tests": 6,
+      "_path": "skills/debugging/SKILL.md",
+      "_tokens": 2296,
+      "_headings": [
+        "Debugging",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "1. REPRODUCE",
+        "2. OBSERVE",
+        "3. ISOLATE",
+        "4. HYPOTHESISE",
+        "5. TEST",
+        "6. ROOT-CAUSE",
+        "7. FIX",
+        "8. PROVE",
+        "9. PREVENT",
+        "Isolation techniques",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "dependency-analysis",
+      "version": "1.0.0",
+      "description": "Analyse a dependency graph for risk, health, licensing, duplication and upgrade cost — and decide what to pin, replace, wrap or remove before it decides for you.",
+      "category": "coding",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "dependencies",
+        "supply-chain",
+        "licensing",
+        "upgrades",
+        "security",
+        "maintenance"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 83,
+      "requires": [
+        "repository-analysis",
+        "evidence-validation"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2736,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Analysis dimensions",
+          "anchor": "#analysis-dimensions",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard",
+          "type": "github-repository",
+          "organization": "Open Source Security Foundation",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Trivy",
+          "url": "https://github.com/aquasecurity/trivy",
+          "type": "github-repository",
+          "organization": "Aqua Security",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "repository-analysis",
+        "dont-reinvent-the-wheel",
+        "security-audit",
+        "migration",
+        "release-engineering"
+      ],
+      "related_repositories": [
+        "ossf/scorecard",
+        "aquasecurity/trivy",
+        "dependabot/dependabot-core",
+        "renovatebot/renovate",
+        "semgrep/semgrep"
+      ],
+      "tests": 5,
+      "_path": "skills/dependency-analysis/SKILL.md",
+      "_tokens": 2736,
+      "_headings": [
+        "Dependency Analysis",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Analysis dimensions",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "deployment",
+      "version": "1.0.0",
+      "description": "Ship code to production safely — build reproducibility, progressive rollout strategies, health and readiness semantics, configuration and secrets handling, observability at deploy time, and a rehearsed rollback.",
+      "category": "devops",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "deployment",
+        "ci-cd",
+        "rollout",
+        "rollback",
+        "configuration",
+        "observability",
+        "devops"
+      ],
+      "applies_to": [
+        "backend",
+        "infrastructure",
+        "web"
+      ],
+      "priority": 82,
+      "requires": [
+        "testing",
+        "release-engineering"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2752,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Rollout strategies",
+          "anchor": "#rollout-strategies",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "The Twelve-Factor App",
+          "url": "https://github.com/heroku/12factor",
+          "type": "github-repository",
+          "organization": "Heroku",
+          "license": "MIT",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Config in environment, build/release/run separation, disposability, backing services as attached resources."
+        },
+        {
+          "title": "OpenTelemetry",
+          "url": "https://opentelemetry.io/",
+          "type": "specification",
+          "organization": "CNCF",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "release-engineering",
+        "testing",
+        "backend-engineering",
+        "security-audit",
+        "performance-audit",
+        "migration"
+      ],
+      "related_repositories": [
+        "argoproj/argo-cd",
+        "fluxcd/flux2",
+        "hashicorp/terraform",
+        "docker/buildx"
+      ],
+      "tests": 5,
+      "_path": "skills/deployment/SKILL.md",
+      "_tokens": 2752,
+      "_headings": [
+        "Deployment",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Rollout strategies",
+        "Workflow",
+        "BUILD",
+        "VERIFY",
+        "RELEASE",
+        "ROLLOUT",
+        "OBSERVE",
+        "SETTLE",
+        "ROLLBACK",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "design-systems",
+      "version": "1.0.0",
+      "description": "Build and maintain a real design system — tokens, components, composition rules, documentation and governance — so visual consistency is enforced by structure rather than by review.",
+      "category": "design",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "design-systems",
+        "tokens",
+        "components",
+        "consistency",
+        "governance",
+        "frontend"
+      ],
+      "applies_to": [
+        "web",
+        "saas",
+        "dashboard",
+        "design-system"
+      ],
+      "priority": 84,
+      "requires": [
+        "frontend-design"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2543,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Token architecture",
+          "anchor": "#token-architecture",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "W3C Design Tokens Community Group — format module",
+          "url": "https://tr.designtokens.org/format/",
+          "type": "specification",
+          "organization": "W3C",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Draft community-group specification for an interoperable token interchange format. Draft status: verify before depending on details."
+        },
+        {
+          "title": "Material Design 3",
+          "url": "https://m3.material.io/",
+          "type": "official-docs",
+          "organization": "Google",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Radix UI Primitives",
+          "url": "https://github.com/radix-ui/primitives",
+          "type": "github-repository",
+          "license": "MIT",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "frontend-design",
+        "frontend-implementation",
+        "ai-slop-detection",
+        "accessibility-audit",
+        "motion-design"
+      ],
+      "related_repositories": [
+        "shadcn-ui/ui",
+        "radix-ui/primitives",
+        "tailwindlabs/tailwindcss",
+        "salesforce-ux/design-system",
+        "primer/react"
+      ],
+      "tests": 6,
+      "_path": "skills/design-systems/SKILL.md",
+      "_tokens": 2543,
+      "_headings": [
+        "Design Systems",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Token architecture",
+        "Workflow",
+        "1. AUDIT",
+        "2. SYSTEMATISE",
+        "3. COMPONENTS",
+        "4. COMPOSE",
+        "5. DOCUMENT",
+        "6. ENFORCE",
+        "7. GOVERN",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "documentation",
+      "version": "1.0.0",
+      "description": "Write documentation that answers a specific reader's specific question — typed by purpose (tutorial, how-to, reference, explanation), verified against the code, and maintained by the same pipeline as the code.",
+      "category": "coding",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "documentation",
+        "writing",
+        "readme",
+        "api-docs",
+        "adr",
+        "dx",
+        "maintenance"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 80,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2733,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "The four documentation types",
+          "anchor": "#the-four-documentation-types",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Diátaxis — a systematic framework for technical documentation",
+          "url": "https://diataxis.fr/",
+          "type": "methodology",
+          "organization": "Canonical / Daniele Procida",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; the four-type model is widely adopted. Verify the current site before quoting section names."
+        },
+        {
+          "title": "Write the Docs",
+          "url": "https://www.writethedocs.org/",
+          "type": "community",
+          "confidence": "medium",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "code-review",
+        "api-design",
+        "research-synthesis",
+        "release-engineering",
+        "frontend-design"
+      ],
+      "related_repositories": [
+        "facebook/docusaurus",
+        "squidfunk/mkdocs-material",
+        "fern-api/fern",
+        "stoplightio/spectral"
+      ],
+      "tests": 6,
+      "_path": "skills/documentation/SKILL.md",
+      "_tokens": 2733,
+      "_headings": [
+        "Documentation",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "The four documentation types",
+        "Special documents",
+        "Workflow",
+        "Writing for agents as readers",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "dont-reinvent-the-wheel",
+      "version": "1.0.0",
+      "description": "A reuse gate run before writing any non-trivial code: does a mature library, standard, official implementation, MCP server or proven pattern already solve this? Produces a build-vs-adopt decision.",
+      "category": "planning",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "reuse",
+        "decision",
+        "architecture",
+        "dependencies",
+        "anti-reinvention",
+        "planning"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 90,
+      "requires": [
+        "research-before-code",
+        "evidence-validation"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2281,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "The six questions",
+          "anchor": "#the-six-questions",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Decision rule",
+          "anchor": "#decision-rule",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OpenSSF Scorecard — security health metrics for open-source projects",
+          "url": "https://github.com/ossf/scorecard",
+          "type": "github-repository",
+          "organization": "Open Source Security Foundation",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Supply-chain risk of adopting a dependency is measurable, not just a matter of taste."
+        }
+      ],
+      "related_skills": [
+        "research-before-code",
+        "dependency-analysis",
+        "repository-analysis",
+        "architecture-design"
+      ],
+      "related_repositories": [
+        "upstash/context7",
+        "oraios/serena",
+        "ossf/scorecard",
+        "aquasecurity/trivy"
+      ],
+      "tests": 6,
+      "_path": "skills/dont-reinvent-the-wheel/SKILL.md",
+      "_tokens": 2281,
+      "_headings": [
+        "Don't Reinvent the Wheel",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "The six questions",
+        "Decision rule",
+        "The BUILD argument (mandatory when choosing BUILD)",
+        "Cost model",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "evidence-validation",
+      "version": "1.0.0",
+      "description": "Grade a source before acting on it. Turns \"I found this\" into \"this is trustworthy for this specific claim, at this confidence, as of this date\" — and rejects what cannot be graded.",
+      "category": "research",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "verification",
+        "evidence",
+        "confidence",
+        "anti-hallucination",
+        "source-quality",
+        "methodology"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 92,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2281,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "The twelve checks",
+          "anchor": "#the-twelve-checks",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Confidence ladder",
+          "anchor": "#confidence-ladder",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Open Web Application Security Project — source and verification guidance",
+          "url": "https://owasp.org/www-project-top-ten/",
+          "type": "standard",
+          "organization": "OWASP",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "url": "https://arxiv.org/abs/2305.10601",
+          "type": "research-paper",
+          "published": "2023-05-17",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Self-evaluation of intermediate states is what makes deliberate search work; the same principle applies to grading evidence."
+        }
+      ],
+      "related_skills": [
+        "web-research",
+        "research-before-code",
+        "fact-checker",
+        "repository-analysis"
+      ],
+      "related_repositories": [
+        "ossf/scorecard",
+        "aquasecurity/trivy"
+      ],
+      "tests": 6,
+      "_path": "skills/evidence-validation/SKILL.md",
+      "_tokens": 2281,
+      "_headings": [
+        "Evidence Validation",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "The twelve checks",
+        "Confidence ladder",
+        "Outputs",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "frontend-design",
+      "version": "1.0.0",
+      "description": "Turn a product brief into a deliberate, non-generic interface: information architecture first, then a real design system, then composition, then craft details — with the AI-slop gate applied before anything ships.",
+      "category": "design",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "frontend",
+        "design",
+        "ui",
+        "ux",
+        "layout",
+        "typography",
+        "colour",
+        "composition"
+      ],
+      "applies_to": [
+        "web",
+        "marketing-site",
+        "saas",
+        "dashboard",
+        "landing-page"
+      ],
+      "priority": 93,
+      "requires": [
+        "visual-design-research",
+        "design-systems",
+        "ai-slop-detection"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2630,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "The hierarchy rule",
+          "anchor": "#the-hierarchy-rule",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "WCAG 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/",
+          "type": "specification",
+          "organization": "W3C",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Material Design 3 foundations",
+          "url": "https://m3.material.io/foundations",
+          "type": "official-docs",
+          "organization": "Google",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "visual-design-research",
+        "design-systems",
+        "ai-slop-detection",
+        "motion-design",
+        "accessibility-audit",
+        "frontend-implementation"
+      ],
+      "related_repositories": [
+        "shadcn-ui/ui",
+        "radix-ui/primitives",
+        "tailwindlabs/tailwindcss",
+        "nextlevelbuilder/ui-ux-pro-max-skill"
+      ],
+      "tests": 6,
+      "_path": "skills/frontend-design/SKILL.md",
+      "_tokens": 2630,
+      "_headings": [
+        "Frontend Design",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "1. CONTENT — inventory what actually exists",
+        "2. IA — structure before pixels",
+        "3. HIERARCHY — one primary thing per view",
+        "4. SYSTEM — tokens before components",
+        "5. COMPOSITION — layout with intent",
+        "6. CRAFT — the details that read as human",
+        "7. MOTION",
+        "8. SLOP GATE",
+        "9. VERIFY",
+        "The hierarchy rule",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "frontend-implementation",
+      "version": "1.0.0",
+      "description": "Build approved designs into production frontend code — component architecture, state management, data fetching, rendering strategy, performance budgets and the checks that keep the result matching the design.",
+      "category": "frontend",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "frontend",
+        "implementation",
+        "components",
+        "state",
+        "performance",
+        "rendering",
+        "react",
+        "next"
+      ],
+      "applies_to": [
+        "web",
+        "saas",
+        "dashboard",
+        "marketing-site"
+      ],
+      "priority": 87,
+      "requires": [
+        "design-systems"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2845,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Architecture decisions",
+          "anchor": "#architecture-decisions",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "web.dev — Core Web Vitals",
+          "url": "https://web.dev/articles/vitals",
+          "type": "official-docs",
+          "organization": "Google Chrome team",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Defines LCP, INP and CLS. Thresholds change over time — verify current values before quoting numbers."
+        },
+        {
+          "title": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/",
+          "type": "official-docs",
+          "organization": "Mozilla",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "design-systems",
+        "frontend-design",
+        "performance-audit",
+        "accessibility-audit",
+        "browser-testing",
+        "testing"
+      ],
+      "related_repositories": [
+        "vercel/next.js",
+        "vitejs/vite",
+        "TanStack/query",
+        "radix-ui/primitives",
+        "shadcn-ui/ui",
+        "microsoft/playwright"
+      ],
+      "tests": 6,
+      "_path": "skills/frontend-implementation/SKILL.md",
+      "_tokens": 2845,
+      "_headings": [
+        "Frontend Implementation",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Architecture decisions",
+        "Rendering strategy — per route, not per app",
+        "State — four kinds, four homes",
+        "Components — three layers",
+        "Data & contracts",
+        "Performance budgets (set numbers, then enforce them)",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "mcp-integration",
+      "version": "1.0.0",
+      "description": "Evaluate, adopt, secure and operate Model Context Protocol servers and agent tools — capability scoping, transport choice, prompt-injection defence, and the supply-chain checks that apply because an MCP server is executable third-party code.",
+      "category": "agents",
+      "status": "active",
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "emerging-consensus",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "mcp",
+        "tools",
+        "agents",
+        "integration",
+        "security",
+        "supply-chain",
+        "protocol"
+      ],
+      "applies_to": [
+        "agents",
+        "mcp"
+      ],
+      "priority": 88,
+      "requires": [
+        "repository-analysis",
+        "security-audit",
+        "dont-reinvent-the-wheel"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 3180,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Capability model",
+          "anchor": "#capability-model",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Model Context Protocol specification",
+          "url": "https://modelcontextprotocol.io/",
+          "type": "specification",
+          "organization": "MCP project",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; the protocol is evolving quickly — verify the current spec version, transports and capability names before implementing."
+        },
+        {
+          "title": "Playwright MCP",
+          "url": "https://github.com/microsoft/playwright-mcp",
+          "type": "github-repository",
+          "organization": "Microsoft",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "repository-analysis",
+        "security-audit",
+        "dont-reinvent-the-wheel",
+        "context-engineering",
+        "dependency-analysis"
+      ],
+      "related_repositories": [
+        "modelcontextprotocol/servers",
+        "microsoft/playwright-mcp",
+        "supabase/mcp",
+        "getsentry/sentry-mcp",
+        "ChromeDevTools/chrome-devtools-mcp",
+        "upstash/context7",
+        "oraios/serena"
+      ],
+      "tests": 6,
+      "_path": "skills/mcp-integration/SKILL.md",
+      "_tokens": 3180,
+      "_headings": [
+        "MCP Integration",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Capability model",
+        "Workflow",
+        "1. SPECIFY",
+        "2. SEARCH — don't reinvent",
+        "3. VET — run [`repository-analysis`](../repository-analysis/SKILL.md) in full, plus",
+        "4. SCOPE",
+        "5. SANDBOX",
+        "6. INTEGRATE",
+        "7. TEST",
+        "8. OBSERVE",
+        "9. OPERATE",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "migration",
+      "version": "1.0.0",
+      "description": "Move a live system from one state to another without a big-bang cutover — expand, migrate, contract, with dual writes, backfills, feature flags, rehearsed rollback and verifiable parity.",
+      "category": "coding",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "migration",
+        "upgrade",
+        "cutover",
+        "data-migration",
+        "backward-compatibility",
+        "rollout"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 84,
+      "requires": [
+        "project-planning",
+        "testing",
+        "deployment"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 3249,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Expand-migrate-contract",
+          "anchor": "#expand-migrate-contract",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Strangler Fig Application (Martin Fowler)",
+          "url": "https://martinfowler.com/bliki/StranglerFigApplication.html",
+          "type": "methodology",
+          "organization": "Martin Fowler",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; verify before citing specifics."
+        }
+      ],
+      "related_skills": [
+        "project-planning",
+        "testing",
+        "deployment",
+        "release-engineering",
+        "database-design",
+        "refactoring"
+      ],
+      "related_repositories": [
+        "flyway/flyway",
+        "liquibase/liquibase",
+        "golang-migrate/migrate"
+      ],
+      "tests": 6,
+      "_path": "skills/migration/SKILL.md",
+      "_tokens": 3249,
+      "_headings": [
+        "Migration",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Expand-migrate-contract",
+        "Workflow",
+        "Data-quality specifics",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "motion-design",
+      "version": "1.0.0",
+      "description": "Use animation to explain causality, state and spatial relationship — with a duration/easing system, a strict purpose test, and a complete reduced-motion path.",
+      "category": "design",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "motion",
+        "animation",
+        "transitions",
+        "microinteraction",
+        "reduced-motion",
+        "ui"
+      ],
+      "applies_to": [
+        "web",
+        "saas",
+        "dashboard",
+        "marketing-site"
+      ],
+      "priority": 78,
+      "requires": [
+        "design-systems"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2539,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Motion system",
+          "anchor": "#motion-system",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "The purpose test",
+          "anchor": "#the-purpose-test",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "WCAG 2.2 — 2.3.3 Animation from Interactions",
+          "url": "https://www.w3.org/TR/WCAG22/",
+          "type": "specification",
+          "organization": "W3C",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "MDN — prefers-reduced-motion",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+          "type": "official-docs",
+          "organization": "Mozilla",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "design-systems",
+        "frontend-design",
+        "frontend-implementation",
+        "accessibility-audit",
+        "ai-slop-detection"
+      ],
+      "related_repositories": [
+        "motiondivision/motion",
+        "react-spring/react-spring",
+        "pmndrs/zustand"
+      ],
+      "tests": 6,
+      "_path": "skills/motion-design/SKILL.md",
+      "_tokens": 2539,
+      "_headings": [
+        "Motion Design",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Motion system",
+        "The purpose test",
+        "Implementation notes",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "performance-audit",
+      "version": "1.0.0",
+      "description": "Find and fix the performance problems that matter, in measurement order — profile before optimising, set budgets, verify the fix on the affected population, and stop when the budget is met.",
+      "category": "coding",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "performance",
+        "profiling",
+        "latency",
+        "throughput",
+        "core-web-vitals",
+        "optimization"
+      ],
+      "applies_to": [
+        "web",
+        "backend",
+        "frontend",
+        "infrastructure"
+      ],
+      "priority": 82,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2691,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Where the time goes",
+          "anchor": "#where-the-time-goes",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "web.dev — Core Web Vitals",
+          "url": "https://web.dev/articles/vitals",
+          "type": "official-docs",
+          "organization": "Google Chrome team",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Metric definitions and thresholds are revised periodically; verify current values before quoting numbers."
+        },
+        {
+          "title": "Lighthouse",
+          "url": "https://github.com/GoogleChrome/lighthouse",
+          "type": "github-repository",
+          "organization": "Google Chrome",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "frontend-implementation",
+        "backend-engineering",
+        "database-design",
+        "browser-testing",
+        "debugging"
+      ],
+      "related_repositories": [
+        "GoogleChrome/lighthouse",
+        "grafana/k6",
+        "locustio/locust",
+        "open-telemetry/opentelemetry-specification"
+      ],
+      "tests": 6,
+      "_path": "skills/performance-audit/SKILL.md",
+      "_tokens": 2691,
+      "_headings": [
+        "Performance Audit",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "1. BUDGET",
+        "2. MEASURE",
+        "3. PROFILE",
+        "4. RANK",
+        "5. FIX — in this order, cheapest and highest-yield first",
+        "6. VERIFY",
+        "7. ENFORCE",
+        "Where the time goes",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "performance-optimization",
+      "version": "1.0.0",
+      "description": "Improve performance from measured evidence: establish a baseline, localise the layer, profile with the tool that answers the question, change one thing, re-measure against the noise floor, and keep or revert.",
+      "category": "performance",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "performance",
+        "profiling",
+        "latency",
+        "throughput",
+        "measurement",
+        "core-web-vitals",
+        "optimisation"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 4,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2061,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Brendan Gregg — USE Method",
+          "url": "https://www.brendangregg.com/usemethod.html",
+          "type": "methodology",
+          "organization": "brendangregg.com",
+          "claim_type": "recommendation",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Utilisation, Saturation and Errors per resource — the checklist in step 5 that prevents profiling the CPU while the constraint is a connection pool."
+        },
+        {
+          "title": "web.dev — Core Web Vitals",
+          "url": "https://web.dev/articles/vitals",
+          "type": "official-docs",
+          "organization": "Google",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "LCP, INP and CLS definitions and the p75 field-data percentile used as the frontend target basis."
+        },
+        {
+          "title": "PostgreSQL documentation — Using EXPLAIN",
+          "url": "https://www.postgresql.org/docs/current/using-explain.html",
+          "type": "official-docs",
+          "organization": "PostgreSQL Global Development Group",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The database branch of step 5."
+        }
+      ],
+      "related_skills": [
+        "database-optimization",
+        "debugging",
+        "frontend-design",
+        "architecture-design",
+        "testing"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/performance-optimization/SKILL.md",
+      "_tokens": 2061,
+      "_headings": [
+        "Performance Optimization",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "project-planning",
+      "version": "1.0.0",
+      "description": "Turn an ambiguous goal into a sequenced, gated plan with explicit unknowns, evidence-backed estimates and stop conditions — so work is verifiable at every step rather than at the end.",
+      "category": "planning",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "planning",
+        "decomposition",
+        "estimation",
+        "milestones",
+        "risk",
+        "execution"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 86,
+      "requires": [
+        "research-before-code"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2750,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Decomposition",
+          "anchor": "#decomposition",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Estimation",
+          "anchor": "#estimation",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "url": "https://arxiv.org/abs/2305.10601",
+          "type": "research-paper",
+          "published": "2023-05-17",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Deliberate search with lookahead and self-evaluation outperforms linear generation on tasks requiring exploration."
+        }
+      ],
+      "related_skills": [
+        "research-before-code",
+        "documentation",
+        "testing",
+        "deployment",
+        "release-engineering"
+      ],
+      "related_repositories": [
+        "langchain-ai/langgraph",
+        "microsoft/agent-framework"
+      ],
+      "tests": 6,
+      "_path": "skills/project-planning/SKILL.md",
+      "_tokens": 2750,
+      "_headings": [
+        "Project Planning",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Decomposition",
+        "Estimation",
+        "Risk register",
+        "Stop conditions and gates",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "prompt-engineering",
+      "version": "1.0.0",
+      "description": "Design, evaluate and iterate a prompt against a task-specific evaluation set: specify the behaviour, structure the prompt for the model and the task, measure the change rather than eyeballing it, and record what was tried.",
+      "category": "agent-engineering",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "prompt-engineering",
+        "llm",
+        "evaluation",
+        "structured-output",
+        "system-prompt",
+        "iteration",
+        "measurement"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 3,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2457,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Anthropic — Prompt engineering overview",
+          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+          "type": "official-docs",
+          "organization": "Anthropic",
+          "claim_type": "recommendation",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Vendor guidance on clear direct instructions, examples and output structure; the structural-over-prose rule in step 7."
+        },
+        {
+          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "url": "https://arxiv.org/abs/2307.03172",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "U-shaped attention over input position — the evidence for placing instructions at the beginning and end in step 8."
+        },
+        {
+          "title": "promptfoo",
+          "url": "https://github.com/promptfoo/promptfoo",
+          "type": "github-repository",
+          "organization": "promptfoo",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "A maintained harness for prompt evaluation sets and assertions; the tooling pattern steps 2, 3 and 6 assume."
+        }
+      ],
+      "related_skills": [
+        "context-engineering",
+        "reasoning-strategies",
+        "ai-safety-evaluation",
+        "agent-memory-design",
+        "testing"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/prompt-engineering/SKILL.md",
+      "_tokens": 2457,
+      "_headings": [
+        "Prompt Engineering",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "prompt-injection-defense",
+      "version": "1.0.0",
+      "description": "Design and verify defences for systems where untrusted content reaches a model that can act: minimise capability, gate irreversible actions outside the model, scope credentials per task, and test that a fully-compromised model cannot do unacceptable damage.",
+      "category": "security",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "prompt-injection",
+        "security",
+        "llm-security",
+        "agents",
+        "capability-minimisation",
+        "blast-radius",
+        "testing"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 2,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2359,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OWASP Top 10 for LLM Applications — LLM01 Prompt Injection",
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+          "type": "standard",
+          "organization": "OWASP",
+          "claim_type": "recommendation",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "States the position this skill implements: privilege control and human approval are the mitigations, not detection."
+        },
+        {
+          "title": "Not what you have signed up for: Assessing Indirect Prompt Injection Attacks on LLMs",
+          "url": "https://arxiv.org/abs/2302.12173",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Greshake et al. — establishes indirect injection as a distinct class and retrieval/browsing pipelines as attack surface; the basis for step 5 and the read-plus-send rule."
+        },
+        {
+          "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+          "url": "https://arxiv.org/abs/2307.15043",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Zou et al. — automated transferable suffix attacks; the reason string filtering cannot be the primary control."
+        }
+      ],
+      "related_skills": [
+        "threat-modeling",
+        "security-audit",
+        "ai-safety-evaluation",
+        "mcp-integration",
+        "agent-memory-design"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/prompt-injection-defense/SKILL.md",
+      "_tokens": 2359,
+      "_headings": [
+        "Prompt Injection Defense",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "rag-pipeline",
+      "version": "1.0.0",
+      "description": "Design, build and evaluate a retrieval-augmented generation pipeline: choose chunking from the structure of the content, build hybrid retrieval with reranking, ground generation in what was retrieved, and measure retrieval and end-to-end quality separately.",
+      "category": "data",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "rag",
+        "retrieval",
+        "embeddings",
+        "chunking",
+        "hybrid-search",
+        "reranking",
+        "evaluation",
+        "grounding"
+      ],
+      "applies_to": [
+        "rag",
+        "retrieval",
+        "search",
+        "knowledge-intensive"
+      ],
+      "priority": 4,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2461,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs",
+          "url": "https://arxiv.org/abs/1603.09320",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Malkov & Yashunin — the HNSW index behind pgvector, Qdrant and Weaviate defaults; the M / efConstruction / efSearch parameters and the deletion weakness in step 12."
+        },
+        {
+          "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "url": "https://arxiv.org/abs/2005.11401",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Lewis et al. — the grounding premise, and the qualifier that it reduces rather than eliminates hallucination."
+        },
+        {
+          "title": "pgvector",
+          "url": "https://github.com/pgvector/pgvector",
+          "type": "github-repository",
+          "organization": "pgvector",
+          "license": "PostgreSQL",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "A maintained Postgres extension for vector search; the deployment shape assumed in steps 4, 7 and 12."
+        }
+      ],
+      "related_skills": [
+        "data-pipeline",
+        "database-optimization",
+        "prompt-engineering",
+        "evidence-validation",
+        "performance-optimization"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/rag-pipeline/SKILL.md",
+      "_tokens": 2461,
+      "_headings": [
+        "RAG Pipeline",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "reasoning-strategies",
+      "version": "1.0.0",
+      "description": "Choose and apply a reasoning strategy to a task from its structure: direct answer, decomposition, retrieval-grounded reasoning, verification loops, self-consistency and search — with the cost of each and the evidence for when each helps.",
+      "category": "agent-engineering",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "decomposition",
+        "self-consistency",
+        "verification",
+        "task-shape",
+        "compute-budget"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 4,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2552,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "url": "https://arxiv.org/abs/2201.11903",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Wei et al. — verified against the primary arXiv abs page on 2026-09-15 (v6, 2023-01-10). Establishes the effect and its scale dependence, which is why step 7 forbids adding it by default."
+        },
+        {
+          "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+          "url": "https://arxiv.org/abs/2203.11171",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Wang et al. — the sampling-and-vote procedure in step 5 and its linear cost."
+        },
+        {
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "url": "https://arxiv.org/abs/2305.10601",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Yao et al. (NeurIPS 2023) — verified against the primary source. The search strategy in step 6 and its cost."
+        },
+        {
+          "title": "Language Models Do Not Always Say What They Think",
+          "url": "https://arxiv.org/abs/2305.04388",
+          "type": "research-paper",
+          "license": "CC BY 4.0",
+          "claim_type": "fact",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Turpin et al. — unfaithful explanations; the basis for step 11, not using stated reasoning as an audit trail."
+        }
+      ],
+      "related_skills": [
+        "prompt-engineering",
+        "context-engineering",
+        "evidence-validation",
+        "web-research",
+        "research-synthesis"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/reasoning-strategies/SKILL.md",
+      "_tokens": 2552,
+      "_headings": [
+        "Reasoning Strategies",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "refactoring",
+      "version": "1.0.0",
+      "description": "Change the structure of working code without changing its behaviour — in small verified steps, with a safety net, one refactor per commit, and no smuggling of feature work.",
+      "category": "coding",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "refactoring",
+        "code-quality",
+        "maintainability",
+        "testing",
+        "incremental-change"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 79,
+      "requires": [
+        "testing"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2755,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Preconditions",
+          "anchor": "#preconditions",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Catalogue",
+          "anchor": "#catalogue",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Refactoring — improving the design of existing code (Martin Fowler)",
+          "url": "https://refactoring.com/",
+          "type": "methodology",
+          "organization": "Martin Fowler / Thoughtworks",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; canonical catalogue of named refactors. Verify before citing specific recipe steps."
+        }
+      ],
+      "related_skills": [
+        "testing",
+        "code-review",
+        "debugging",
+        "migration",
+        "documentation"
+      ],
+      "related_repositories": [
+        "semgrep/semgrep",
+        "errorprone/errorprone"
+      ],
+      "tests": 6,
+      "_path": "skills/refactoring/SKILL.md",
+      "_tokens": 2755,
+      "_headings": [
+        "Refactoring",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Preconditions",
+        "Catalogue",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "release-engineering",
+      "version": "1.0.0",
+      "description": "Manage versions, changelogs, release trains, deprecations and support windows so consumers can upgrade predictably — including SemVer discipline and the breaking-change contract.",
+      "category": "devops",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "release",
+        "versioning",
+        "semver",
+        "changelog",
+        "deprecation",
+        "support-window",
+        "dx"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 77,
+      "requires": [
+        "deployment",
+        "documentation"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 3027,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Versioning contract",
+          "anchor": "#versioning-contract",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Semantic Versioning 2.0.0",
+          "url": "https://semver.org/",
+          "type": "specification",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Keep a Changelog",
+          "url": "https://keepachangelog.com/en/1.1.0/",
+          "type": "methodology",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Conventional Commits",
+          "url": "https://www.conventionalcommits.org/en/v1.0.0/",
+          "type": "specification",
+          "confidence": "high",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "deployment",
+        "documentation",
+        "migration",
+        "dependency-analysis",
+        "project-planning"
+      ],
+      "related_repositories": [
+        "semantic-release/semantic-release",
+        "conventional-changelog/standard-version",
+        "release-drafter/release-drafter"
+      ],
+      "tests": 5,
+      "_path": "skills/release-engineering/SKILL.md",
+      "_tokens": 3027,
+      "_headings": [
+        "Release Engineering",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Versioning contract",
+        "What counts as breaking (the part everyone gets wrong)",
+        "Changelog",
+        "Deprecation and support",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "repository-analysis",
+      "version": "1.0.0",
+      "description": "Assess an unfamiliar codebase or third-party repository: architecture, conventions, health, maintenance status, license risk, security posture and fitness for adoption — from evidence, not from the README's claims.",
+      "category": "research",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "codebase",
+        "onboarding",
+        "evaluation",
+        "maintenance",
+        "license",
+        "due-diligence",
+        "architecture"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 87,
+      "requires": [
+        "evidence-validation",
+        "web-research"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2910,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Health signals",
+          "anchor": "#health-signals",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard",
+          "type": "github-repository",
+          "organization": "Open Source Security Foundation",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Automated, observable health/security checks for open-source projects."
+        },
+        {
+          "title": "GitHub REST API — repositories",
+          "url": "https://docs.github.com/en/rest/repos/repos",
+          "type": "official-docs",
+          "organization": "GitHub",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "evidence-validation",
+        "dependency-analysis",
+        "dont-reinvent-the-wheel",
+        "code-review",
+        "security-audit"
+      ],
+      "related_repositories": [
+        "ossf/scorecard",
+        "oraios/serena",
+        "upstash/context7"
+      ],
+      "tests": 6,
+      "_path": "skills/repository-analysis/SKILL.md",
+      "_tokens": 2910,
+      "_headings": [
+        "Repository Analysis",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "1. IDENTIFY — is this the real thing?",
+        "2. MAP — how is it organised?",
+        "3. HEALTH — see [Health signals](#health-signals).",
+        "4. LICENSE",
+        "5. QUALITY",
+        "6. SECURITY",
+        "7. FIT",
+        "8. REPORT",
+        "Health signals",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "research-before-code",
+      "version": "1.0.0",
+      "description": "Force an agent to understand, search, compare, verify and plan before writing any implementation code. Converts \"start coding\" into \"establish evidence, choose a proven approach, then implement\".",
+      "category": "research",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "research",
+        "planning",
+        "evidence",
+        "anti-hallucination",
+        "workflow-gate",
+        "meta"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 95,
+      "requires": [
+        "web-research",
+        "evidence-validation",
+        "dont-reinvent-the-wheel"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2816,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        },
+        {
+          "heading": "Evaluation Criteria",
+          "anchor": "#evaluation-criteria",
+          "purpose": "validation"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "url": "https://arxiv.org/abs/2210.03629",
+          "type": "research-paper",
+          "organization": "Princeton University / Google",
+          "published": "2022-10-06",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Interleaving reasoning with external lookups reduces hallucination and error propagation versus reasoning alone."
+        },
+        {
+          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "url": "https://arxiv.org/abs/2307.03172",
+          "type": "research-paper",
+          "organization": "Stanford / UC Berkeley / Samaya AI",
+          "published": "2023-07-06",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Justifies the small, high-relevance evidence set instead of dumping everything found."
+        },
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2303.11366",
+          "type": "research-paper",
+          "published": "2023-03-20",
+          "license": "CC BY 4.0",
+          "confidence": "high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Basis for the explicit retry-with-reflection rule when a gate fails."
+        }
+      ],
+      "related_skills": [
+        "web-research",
+        "evidence-validation",
+        "dont-reinvent-the-wheel",
+        "project-planning",
+        "repository-analysis"
+      ],
+      "related_repositories": [
+        "assafelovic/gpt-researcher",
+        "oraios/serena",
+        "upstash/context7"
+      ],
+      "tests": 6,
+      "_path": "skills/research-before-code/SKILL.md",
+      "_tokens": 2816,
+      "_headings": [
+        "Research Before Code",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Required Context",
+        "Workflow",
+        "Stage 1 — UNDERSTAND",
+        "Stage 2 — SEARCH",
+        "Stage 3 — COMPARE",
+        "Stage 4 — VERIFY",
+        "Stage 5 — PLAN",
+        "Stage 6 — IMPLEMENT",
+        "Stage 7 — TEST",
+        "Stage 8 — REVIEW",
+        "Failure Modes",
+        "Quality Checklist",
+        "Examples",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "research-synthesis",
+      "version": "1.0.0",
+      "description": "Combine multiple investigations into one decision-ready report — reconciling conflicts, separating fact from inference, attributing every claim, and stating what remains unknown.",
+      "category": "research",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "research",
+        "synthesis",
+        "reporting",
+        "meta-analysis",
+        "conflicts",
+        "decision-support"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 79,
+      "requires": [
+        "web-research",
+        "evidence-validation"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2478,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Synthesis rules",
+          "anchor": "#synthesis-rules",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Report structure",
+          "anchor": "#report-structure",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "url": "https://arxiv.org/abs/2307.03172",
+          "type": "research-paper",
+          "published": "2023-07-06",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Justifies leading with the conclusion and keeping the evidence set small and ordered."
+        }
+      ],
+      "related_skills": [
+        "web-research",
+        "evidence-validation",
+        "competitive-analysis",
+        "research-before-code",
+        "documentation"
+      ],
+      "related_repositories": [
+        "assafelovic/gpt-researcher",
+        "huggingface/awesome-papers"
+      ],
+      "tests": 6,
+      "_path": "skills/research-synthesis/SKILL.md",
+      "_tokens": 2478,
+      "_headings": [
+        "Research Synthesis",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Synthesis rules",
+        "Report structure",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "reverse-engineering-public-systems",
+      "version": "1.0.0",
+      "description": "Infer the architecture of publicly observable systems — from documentation, APIs, job posts, patents, talks and observable behaviour — with strict legal and ethical boundaries and explicit confidence grading.",
+      "category": "research",
+      "status": "active",
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "reverse-engineering",
+        "architecture",
+        "inference",
+        "competitive-intelligence",
+        "ethics",
+        "research"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 72,
+      "requires": [
+        "web-research",
+        "evidence-validation"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 3128,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Legal and ethical boundaries",
+          "anchor": "#legal-and-ethical-boundaries",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Evidence classes",
+          "anchor": "#evidence-classes",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Open-source licenses permitting inspection (Apache-2.0, MIT, GPL)",
+          "url": "https://opensource.org/licenses",
+          "type": "standard",
+          "organization": "Open Source Initiative",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "web-research",
+        "evidence-validation",
+        "repository-analysis",
+        "competitive-analysis",
+        "security-audit"
+      ],
+      "related_repositories": [
+        "ossf/scorecard"
+      ],
+      "tests": 3,
+      "_path": "skills/reverse-engineering-public-systems/SKILL.md",
+      "_tokens": 3128,
+      "_headings": [
+        "Reverse-Engineering Public Systems",
+        "Purpose",
+        "Legal and ethical boundaries",
+        "Evidence classes",
+        "Workflow",
+        "Report structure",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "root-cause-analysis",
+      "version": "1.0.0",
+      "description": "Find the actual cause of a defect or incident rather than its nearest symptom: reproduce it, form falsifiable hypotheses, bisect to the introducing change, distinguish cause from contributor, and verify the fix removes the cause.",
+      "category": "debugging",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "root-cause",
+        "debugging",
+        "incidents",
+        "hypothesis",
+        "bisection",
+        "postmortem",
+        "diagnosis"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 3,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2188,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Martin Fowler — Eradicating Non-Determinism in Tests",
+          "url": "https://martinfowler.com/articles/nonDeterminism.html",
+          "type": "methodology",
+          "organization": "martinfowler.com",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "The stress-reproduction and randomisation techniques used in steps 1 and 6 when the failure is intermittent."
+        },
+        {
+          "title": "Google SRE Book — Postmortem Culture: Learning from Failure",
+          "url": "https://sre.google/sre-book/postmortem-culture/",
+          "type": "official-docs",
+          "organization": "Google",
+          "claim_type": "recommendation",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Blameless analysis, the distinction between cause and contributing factors, and the systemic-question step."
+        },
+        {
+          "title": "git-bisect documentation",
+          "url": "https://git-scm.com/docs/git-bisect",
+          "type": "official-docs",
+          "organization": "Git project",
+          "license": "GPL-2.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The automated bisection procedure in step 6, which requires a deterministic reproduction to score each commit."
+        }
+      ],
+      "related_skills": [
+        "debugging",
+        "testing-strategy",
+        "performance-optimization",
+        "code-review"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/root-cause-analysis/SKILL.md",
+      "_tokens": 2188,
+      "_headings": [
+        "Root Cause Analysis",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "security-audit",
+      "version": "1.0.0",
+      "description": "Structured security review of application code, agent systems, dependencies and data flows — with findings graded by exploitability and blast radius, and every recommendation traceable to a named standard.",
+      "category": "security",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "security",
+        "audit",
+        "threat-model",
+        "owasp",
+        "supply-chain",
+        "agents",
+        "review"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 95,
+      "requires": [
+        "evidence-validation",
+        "code-review"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 3257,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Threat model",
+          "anchor": "#threat-model",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Audit checklist",
+          "anchor": "#audit-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Agent-specific threats",
+          "anchor": "#agent-specific-threats",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Severity model",
+          "anchor": "#severity-model",
+          "purpose": "decision"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OWASP Top Ten",
+          "url": "https://owasp.org/www-project-top-ten/",
+          "type": "standard",
+          "organization": "OWASP",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; confirm the current edition year before citing specific item IDs."
+        },
+        {
+          "title": "OWASP ASVS — Application Security Verification Standard",
+          "url": "https://owasp.org/www-project-application-security-verification-standard/",
+          "type": "standard",
+          "organization": "OWASP",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard",
+          "type": "github-repository",
+          "organization": "Open Source Security Foundation",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "NIST AI Risk Management Framework",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "type": "standard",
+          "organization": "NIST",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run; verify current version before quoting control identifiers."
+        }
+      ],
+      "related_skills": [
+        "code-review",
+        "dependency-analysis",
+        "evidence-validation",
+        "testing",
+        "api-design"
+      ],
+      "related_repositories": [
+        "ossf/scorecard",
+        "aquasecurity/trivy",
+        "protectai/rebuff",
+        "semgrep/semgrep"
+      ],
+      "tests": 6,
+      "_path": "skills/security-audit/SKILL.md",
+      "_tokens": 3257,
+      "_headings": [
+        "Security Audit",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Threat model",
+        "Audit checklist",
+        "Injection & input handling",
+        "Authentication & sessions",
+        "Agent-specific threats",
+        "Severity model",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "seo-audit",
+      "version": "1.0.0",
+      "description": "Audit technical and content search visibility — crawlability, indexation, rendering, structured data, Core Web Vitals and internal linking — with fixes ordered by measured impact rather than by checklist convenience.",
+      "category": "frontend",
+      "status": "active",
+      "confidence": "medium",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2026-12-15",
+      "tags": [
+        "seo",
+        "search",
+        "crawlability",
+        "indexation",
+        "structured-data",
+        "core-web-vitals",
+        "content"
+      ],
+      "applies_to": [
+        "web",
+        "marketing-site",
+        "saas",
+        "ecommerce"
+      ],
+      "priority": 74,
+      "requires": [
+        "performance-audit",
+        "accessibility-audit"
+      ],
+      "conflicts_with": [],
+      "estimated_tokens": 2567,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Audit layers",
+          "anchor": "#audit-layers",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Google Search Central documentation",
+          "url": "https://developers.google.com/search/docs",
+          "type": "official-docs",
+          "organization": "Google",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Not fetched in this run. Ranking behaviour and documentation change frequently; verify current guidance before acting on any specific claim."
+        },
+        {
+          "title": "Schema.org",
+          "url": "https://schema.org/",
+          "type": "specification",
+          "organization": "W3C Schema.org Community Group",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "web.dev — Core Web Vitals",
+          "url": "https://web.dev/articles/vitals",
+          "type": "official-docs",
+          "organization": "Google Chrome team",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "performance-audit",
+        "accessibility-audit",
+        "frontend-implementation",
+        "documentation",
+        "data-visualization"
+      ],
+      "related_repositories": [
+        "GoogleChrome/lighthouse",
+        "screamingfrog/seo-spider",
+        "google/search-samples"
+      ],
+      "tests": 6,
+      "_path": "skills/seo-audit/SKILL.md",
+      "_tokens": 2567,
+      "_headings": [
+        "SEO Audit",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Audit layers",
+        "1. Crawlability",
+        "Migration-specific checks",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "skill-authoring",
+      "version": "1.0.0",
+      "description": "Author a SKILL.md that an agent can execute: define one procedure, write the frontmatter contract, structure the body for progressive disclosure, cite sources for every high-confidence claim, and validate it before committing.",
+      "category": "meta",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "skill-authoring",
+        "agent-skills",
+        "frontmatter",
+        "progressive-disclosure",
+        "documentation",
+        "meta"
+      ],
+      "applies_to": [
+        "skills",
+        "knowledge-base"
+      ],
+      "priority": 6,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2224,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "JSON Schema Specification, 2020-12 draft",
+          "url": "https://json-schema.org/draft/2020-12/release-notes",
+          "type": "specification",
+          "organization": "JSON Schema",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The dialect schemas/skill.schema.json is written in; additionalProperties: false is what makes an unknown frontmatter key a build failure."
+        },
+        {
+          "title": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "type": "github-repository",
+          "organization": "obra",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "A large public agent-skill collection whose directory-per-skill layout, narrow naming and explicit applicability conditions inform steps 1, 2 and 9."
+        },
+        {
+          "title": "Semantic Versioning 2.0.0",
+          "url": "https://semver.org/",
+          "type": "specification",
+          "license": "CC BY 3.0",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The version field convention: MAJOR marks a breaking change to the procedure."
+        }
+      ],
+      "related_skills": [
+        "skill-curation",
+        "documentation",
+        "context-engineering"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/skill-authoring/SKILL.md",
+      "_tokens": 2224,
+      "_headings": [
+        "Skill Authoring",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "skill-curation",
+      "version": "1.0.0",
+      "description": "Admit, grade, merge and retire content in the knowledge base: verify provenance and sources, check for duplication and conflict, apply the license and exclusion policy, and decide what enters the active index.",
+      "category": "meta",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "curation",
+        "admission",
+        "provenance",
+        "deduplication",
+        "conflict-resolution",
+        "licensing",
+        "knowledge-base",
+        "meta"
+      ],
+      "applies_to": [
+        "knowledge-base",
+        "curation"
+      ],
+      "priority": 6,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2456,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "GitHub REST API — Get a repository",
+          "url": "https://docs.github.com/en/rest/repos/repos#get-a-repository",
+          "type": "official-docs",
+          "organization": "GitHub",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The license.spdx_id, archived and pushed_at fields that steps 2 and 5 read; license: null is the do-not-redistribute trigger."
+        },
+        {
+          "title": "Open Source Initiative — licenses",
+          "url": "https://opensource.org/licenses",
+          "type": "standard",
+          "organization": "Open Source Initiative",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "Public availability is not a grant of rights; the license terms govern what may be copied, which is the basis of step 2."
+        },
+        {
+          "title": "JSON Schema Specification, 2020-12 draft",
+          "url": "https://json-schema.org/draft/2020-12/release-notes",
+          "type": "specification",
+          "organization": "JSON Schema",
+          "claim_type": "fact",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "The schema contract step 10 validates against, with additionalProperties: false."
+        }
+      ],
+      "related_skills": [
+        "skill-authoring",
+        "evidence-validation",
+        "repository-analysis",
+        "documentation"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/skill-curation/SKILL.md",
+      "_tokens": 2456,
+      "_headings": [
+        "Skill Curation",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "testing",
+      "version": "1.0.0",
+      "description": "Choose what to test and at which level, write tests that fail for the right reason, and keep the suite fast, deterministic and trusted — including how to test agents and LLM behaviour.",
+      "category": "coding",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "cross-checked",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "testing",
+        "tdd",
+        "unit",
+        "integration",
+        "e2e",
+        "flaky",
+        "llm-evaluation"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 89,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2916,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Test selection",
+          "anchor": "#test-selection",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Testing non-deterministic systems",
+          "anchor": "#testing-non-deterministic-systems",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "GAIA: a benchmark for General AI Assistants",
+          "url": "https://arxiv.org/abs/2311.12983",
+          "type": "research-paper",
+          "published": "2023-11-24",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        },
+        {
+          "title": "Playwright",
+          "url": "https://github.com/microsoft/playwright",
+          "type": "github-repository",
+          "organization": "Microsoft",
+          "license": "Apache-2.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "debugging",
+        "code-review",
+        "browser-testing",
+        "performance-audit",
+        "refactoring"
+      ],
+      "related_repositories": [
+        "microsoft/playwright",
+        "vitest-dev/vitest",
+        "pytest-dev/pytest",
+        "EleutherAI/lm-evaluation-harness",
+        "promptfoo/promptfoo"
+      ],
+      "tests": 6,
+      "_path": "skills/testing/SKILL.md",
+      "_tokens": 2916,
+      "_headings": [
+        "Testing",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Test selection",
+        "Workflow",
+        "1. CHARACTERISE",
+        "2. DESIGN",
+        "3. WRITE",
+        "4. RUN",
+        "5. DIAGNOSE",
+        "6. MAINTAIN",
+        "Testing non-deterministic systems",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "testing-strategy",
+      "version": "1.0.0",
+      "description": "Design a test strategy from the failure modes that matter: assign each to the level that can catch it, distribute effort by cost and diagnostic value, and choose the metrics that reveal whether the suite is doing its job.",
+      "category": "testing",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "testing",
+        "test-strategy",
+        "test-levels",
+        "coverage",
+        "ci",
+        "evaluation",
+        "quality"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 5,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2438,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Martin Fowler — The Practical Test Pyramid",
+          "url": "https://martinfowler.com/articles/practical-test-pyramid.html",
+          "type": "methodology",
+          "organization": "martinfowler.com",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "The cost, speed and isolation tradeoff across levels that step 3 reasons about; treated as a cost statement rather than a virtue statement."
+        },
+        {
+          "title": "Martin Fowler — Eradicating Non-Determinism in Tests",
+          "url": "https://martinfowler.com/articles/nonDeterminism.html",
+          "type": "methodology",
+          "organization": "martinfowler.com",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "The argument behind step 8: a flaky suite is worse than a smaller honest one because it destroys the meaning of red."
+        },
+        {
+          "title": "Pact documentation",
+          "url": "https://docs.pact.io",
+          "type": "official-docs",
+          "organization": "Pact Foundation",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Consumer-driven contract testing — the mechanism for the exclusive contract-level class in step 2."
+        }
+      ],
+      "related_skills": [
+        "testing",
+        "code-review",
+        "debugging",
+        "ai-safety-evaluation",
+        "browser-testing"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/testing-strategy/SKILL.md",
+      "_tokens": 2438,
+      "_headings": [
+        "Testing Strategy",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "threat-modeling",
+      "version": "1.0.0",
+      "description": "Produce a threat model from a data-flow diagram: enumerate trust boundaries, apply STRIDE plus the agent-specific threat classes, prioritise by likelihood and impact, and record every mitigation, acceptance and test.",
+      "category": "security",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "security",
+        "threat-modeling",
+        "stride",
+        "data-flow",
+        "risk",
+        "agents",
+        "review"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 3,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2175,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "When to Use",
+          "anchor": "#when-to-use",
+          "purpose": "when-to-use"
+        },
+        {
+          "heading": "When NOT to Use",
+          "anchor": "#when-not-to-use",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Inputs",
+          "anchor": "#inputs",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Failure Modes",
+          "anchor": "#failure-modes",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "OWASP Top 10 for LLM Applications",
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+          "type": "standard",
+          "organization": "OWASP",
+          "claim_type": "recommendation",
+          "confidence": "very-high",
+          "verified_at": "2026-09-15",
+          "note": "LLM01 Prompt Injection and LLM06 Excessive Agency are the entries that make agent threat modeling differ from classical STRIDE; they drive step 3 and the structural-mitigation rule in step 7."
+        },
+        {
+          "title": "OWASP Agentic AI Threats and Mitigations",
+          "url": "https://owasp.org/www-project-agentic-ai-threats-and-mitigations/",
+          "type": "standard",
+          "organization": "OWASP",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "Threat taxonomy for autonomous agents including memory poisoning and tool misuse across a multi-agent chain."
+        },
+        {
+          "title": "Microsoft — Threat Modeling Tool and STRIDE",
+          "url": "https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool",
+          "type": "official-docs",
+          "organization": "Microsoft",
+          "claim_type": "recommendation",
+          "confidence": "high",
+          "verified_at": "2026-09-15",
+          "note": "The STRIDE-per-element enumeration procedure in step 2."
+        }
+      ],
+      "related_skills": [
+        "security-audit",
+        "prompt-injection-defense",
+        "ai-safety-evaluation",
+        "architecture-design",
+        "code-review"
+      ],
+      "related_repositories": [],
+      "tests": 9,
+      "_path": "skills/threat-modeling/SKILL.md",
+      "_tokens": 2175,
+      "_headings": [
+        "Threat Modeling",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References"
+      ]
+    },
+    {
+      "name": "visual-design-research",
+      "version": "1.0.0",
+      "description": "Build an evidence-based visual direction before designing: collect references, decompose them into transferable principles, define the target aesthetic in writing, and derive a system from it.",
+      "category": "design",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "design-research",
+        "references",
+        "aesthetics",
+        "moodboard",
+        "visual-direction",
+        "ui"
+      ],
+      "applies_to": [
+        "web",
+        "marketing-site",
+        "saas",
+        "dashboard",
+        "landing-page",
+        "brand"
+      ],
+      "priority": 86,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2513,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Decomposition template",
+          "anchor": "#decomposition-template",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "Awwwards",
+          "url": "https://www.awwwards.com/",
+          "type": "gallery",
+          "organization": "Awwwards",
+          "confidence": "medium",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15",
+          "note": "Reference pool. Award sites skew toward expressive work; filter by product type."
+        },
+        {
+          "title": "Godly",
+          "url": "https://godly.website/",
+          "type": "gallery",
+          "confidence": "medium",
+          "claim_type": "recommendation",
+          "verified_at": "2026-09-15"
+        }
+      ],
+      "related_skills": [
+        "frontend-design",
+        "design-systems",
+        "ai-slop-detection",
+        "competitive-analysis"
+      ],
+      "related_repositories": [
+        "nextlevelbuilder/ui-ux-pro-max-skill",
+        "Leonxlnx/taste-skill",
+        "blader/humanizer"
+      ],
+      "tests": 6,
+      "_path": "skills/visual-design-research/SKILL.md",
+      "_tokens": 2513,
+      "_headings": [
+        "Visual Design Research",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "1. FRAME",
+        "2. COLLECT",
+        "3. DECOMPOSE",
+        "4. CLUSTER",
+        "5. POSITION",
+        "6. STATE",
+        "7. DERIVE",
+        "8. VALIDATE",
+        "Decomposition template",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    },
+    {
+      "name": "web-research",
+      "version": "1.0.0",
+      "description": "Run a structured multi-source web investigation: search, open, compare, cross-check, extract, cite, rank and summarise — never deciding from a single result.",
+      "category": "research",
+      "status": "active",
+      "confidence": "high",
+      "claim_type": "recommendation",
+      "evidence_level": "practitioner-experience",
+      "source_type": "original",
+      "updated": "2026-09-15",
+      "verified_at": "2026-09-15",
+      "expires_at": "2027-03-15",
+      "tags": [
+        "research",
+        "web",
+        "search",
+        "citation",
+        "verification",
+        "evidence"
+      ],
+      "applies_to": [
+        "any"
+      ],
+      "priority": 88,
+      "requires": [],
+      "conflicts_with": [],
+      "estimated_tokens": 2066,
+      "sections": [
+        {
+          "heading": "Purpose",
+          "anchor": "#purpose",
+          "purpose": "overview"
+        },
+        {
+          "heading": "Workflow",
+          "anchor": "#workflow",
+          "purpose": "implementation"
+        },
+        {
+          "heading": "Ranking",
+          "anchor": "#ranking",
+          "purpose": "decision"
+        },
+        {
+          "heading": "Quality Checklist",
+          "anchor": "#quality-checklist",
+          "purpose": "checklist"
+        },
+        {
+          "heading": "Anti-Patterns",
+          "anchor": "#anti-patterns",
+          "purpose": "pitfalls"
+        },
+        {
+          "heading": "References",
+          "anchor": "#references",
+          "purpose": "references"
+        }
+      ],
+      "provenance": {
+        "content_class": "original",
+        "generated_by": null,
+        "human_reviewed": true
+      },
+      "sources": [
+        {
+          "title": "GAIA: a benchmark for General AI Assistants",
+          "url": "https://arxiv.org/abs/2311.12983",
+          "type": "research-paper",
+          "organization": "Meta AI / Hugging Face",
+          "published": "2023-11-24",
+          "license": "CC BY 4.0",
+          "confidence": "very-high",
+          "claim_type": "fact",
+          "verified_at": "2026-09-15",
+          "note": "Browsing plus tool use is required for real-world assistant questions; humans 92% vs GPT-4+plugins 15% at publication."
+        }
+      ],
+      "related_skills": [
+        "research-before-code",
+        "evidence-validation",
+        "research-synthesis",
+        "competitive-analysis"
+      ],
+      "related_repositories": [
+        "assafelovic/gpt-researcher",
+        "exa-labs/exa-mcp-server",
+        "firecrawl/firecrawl-mcp-server",
+        "browser-use/browser-use"
+      ],
+      "tests": 6,
+      "_path": "skills/web-research/SKILL.md",
+      "_tokens": 2066,
+      "_headings": [
+        "Web Research",
+        "Purpose",
+        "When to Use",
+        "When NOT to Use",
+        "Inputs",
+        "Workflow",
+        "1. FRAME",
+        "2. SEARCH",
+        "3. OPEN",
+        "4. EXTRACT",
+        "5. CROSS-CHECK",
+        "6. RANK",
+        "7. CITE",
+        "8. SUMMARISE",
+        "9. STATE UNKNOWN",
+        "Ranking",
+        "Conflict format",
+        "Failure Modes",
+        "Quality Checklist",
+        "Anti-Patterns",
+        "References",
+        "Related Skills",
+        "Evaluation Criteria"
+      ]
+    }
+  ]
+}

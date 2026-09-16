@@ -1,0 +1,4005 @@
+{
+  "$schema": "../../schemas/seeds.schema.json",
+  "_comment": "Human-curated intake list. GitHub facts are fetched by scripts/update/fetch_github_metadata.py and merged into metadata/repositories.json. Never hand-write stars/dates here.",
+  "updated": "2026-09-15",
+  "seeds": [
+    {
+      "slug": "VoltAgent/awesome-agent-skills",
+      "category": "agent-skills",
+      "tier": "seed",
+      "tags": [
+        "agent",
+        "skills",
+        "catalog",
+        "discovery"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "obra/superpowers",
+      "category": "agent-skills",
+      "tier": "seed",
+      "tags": [
+        "agent",
+        "skills",
+        "methodology",
+        "claude-code"
+      ]
+    },
+    {
+      "slug": "hesreallyhim/awesome-claude-code",
+      "category": "agent-skills",
+      "tier": "seed",
+      "tags": [
+        "agent",
+        "skills",
+        "catalog",
+        "discovery"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "openai/skills",
+      "category": "agent-skills",
+      "tier": "seed",
+      "tags": [
+        "agent",
+        "skills",
+        "openai"
+      ]
+    },
+    {
+      "slug": "anthropics/skills",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "skills",
+        "anthropic"
+      ]
+    },
+    {
+      "slug": "anthropics/claude-code",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "anthropic"
+      ]
+    },
+    {
+      "slug": "anthropics/claude-code-action",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "coding-agent",
+        "ci"
+      ]
+    },
+    {
+      "slug": "anthropics/anthropic-cookbook",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "prompting",
+        "examples",
+        "anthropic"
+      ]
+    },
+    {
+      "slug": "anthropics/courses",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "education",
+        "prompting",
+        "anthropic"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "anthropics/prompt-eng-interactive-tutorial",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "prompting",
+        "education"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "PatrickJS/awesome-cursorrules",
+      "category": "instructions-standards",
+      "tier": "reference",
+      "tags": [
+        "agent",
+        "instructions",
+        "cursor"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "steipete/agent-rules",
+      "category": "instructions-standards",
+      "tier": "candidate",
+      "tags": [
+        "agent",
+        "instructions"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "openai/codex",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "openai",
+        "rust"
+      ]
+    },
+    {
+      "slug": "google-gemini/gemini-cli",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "google"
+      ]
+    },
+    {
+      "slug": "sst/opencode",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "terminal"
+      ]
+    },
+    {
+      "slug": "cline/cline",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "vscode"
+      ]
+    },
+    {
+      "slug": "continuedev/continue",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "ide"
+      ]
+    },
+    {
+      "slug": "block/goose",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "mcp"
+      ]
+    },
+    {
+      "slug": "RooCodeInc/Roo-Code",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "coding-agent",
+        "vscode"
+      ]
+    },
+    {
+      "slug": "Aider-AI/aider",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "terminal",
+        "git"
+      ]
+    },
+    {
+      "slug": "plandex-ai/plandex",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "coding-agent",
+        "terminal"
+      ]
+    },
+    {
+      "slug": "All-Hands-AI/OpenHands",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "coding-agent",
+        "autonomous"
+      ]
+    },
+    {
+      "slug": "charmbracelet/crush",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "coding-agent",
+        "terminal"
+      ]
+    },
+    {
+      "slug": "princeton-nlp/SWE-agent",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "coding-agent",
+        "research",
+        "benchmark"
+      ]
+    },
+    {
+      "slug": "sourcegraph/cody-public-snapshot",
+      "category": "agent-skills",
+      "tier": "status-check",
+      "tags": [
+        "coding-agent",
+        "deprecated-candidate"
+      ],
+      "note": "seed slug `sourcegraph/cody` returned 404 on 2026-09-15; resolved to `sourcegraph/cody-public-snapshot` via GitHub search + API confirmation",
+      "repo_kind": "software"
+    },
+    {
+      "slug": "sweepai/sweep",
+      "category": "agent-skills",
+      "tier": "status-check",
+      "tags": [
+        "coding-agent",
+        "abandoned-candidate"
+      ]
+    },
+    {
+      "slug": "getcursor/cursor",
+      "category": "agent-skills",
+      "tier": "status-check",
+      "tags": [
+        "coding-agent",
+        "issue-tracker"
+      ]
+    },
+    {
+      "slug": "zed-industries/zed",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "editor",
+        "agent"
+      ]
+    },
+    {
+      "slug": "TabbyML/tabby",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "code-completion",
+        "self-hosted"
+      ],
+      "note": "seed slug `tabby-ml/tabby` returned 404 on 2026-09-15; resolved to `TabbyML/tabby` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "langchain-ai/langgraph",
+      "category": "agent-frameworks",
+      "tier": "seed",
+      "tags": [
+        "agent",
+        "framework",
+        "stateful",
+        "orchestration"
+      ]
+    },
+    {
+      "slug": "langchain-ai/langchain",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "framework"
+      ]
+    },
+    {
+      "slug": "microsoft/agent-framework",
+      "category": "agent-frameworks",
+      "tier": "seed",
+      "tags": [
+        "agent",
+        "framework",
+        "microsoft",
+        "enterprise"
+      ]
+    },
+    {
+      "slug": "microsoft/autogen",
+      "category": "agent-frameworks",
+      "tier": "seed",
+      "tags": [
+        "agent",
+        "framework",
+        "microsoft",
+        "maintenance-candidate"
+      ]
+    },
+    {
+      "slug": "microsoft/semantic-kernel",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "framework",
+        "microsoft",
+        "dotnet"
+      ]
+    },
+    {
+      "slug": "pydantic/pydantic-ai",
+      "category": "agent-frameworks",
+      "tier": "seed",
+      "tags": [
+        "agent",
+        "framework",
+        "python",
+        "structured-output"
+      ]
+    },
+    {
+      "slug": "crewAIInc/crewAI",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "framework",
+        "multi-agent"
+      ]
+    },
+    {
+      "slug": "openai/openai-agents-python",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "framework",
+        "openai"
+      ]
+    },
+    {
+      "slug": "openai/openai-agents-js",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "framework",
+        "openai",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "google/adk-python",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "framework",
+        "google"
+      ]
+    },
+    {
+      "slug": "google/adk-js",
+      "category": "agent-frameworks",
+      "tier": "candidate",
+      "tags": [
+        "agent",
+        "framework",
+        "google",
+        "typescript"
+      ],
+      "note": "seed slug `google/adk-typescript` returned 404 on 2026-09-15; resolved to `google/adk-js` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "run-llama/llama_index",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "rag",
+        "framework",
+        "data"
+      ]
+    },
+    {
+      "slug": "deepset-ai/haystack",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "rag",
+        "framework",
+        "pipelines"
+      ]
+    },
+    {
+      "slug": "mastra-ai/mastra",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "framework",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "stanfordnlp/dspy",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "prompt-optimization",
+        "framework",
+        "research"
+      ]
+    },
+    {
+      "slug": "agno-agi/agno",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "agent",
+        "framework",
+        "performance"
+      ]
+    },
+    {
+      "slug": "letta-ai/letta",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "agent",
+        "memory",
+        "framework"
+      ]
+    },
+    {
+      "slug": "huggingface/smolagents",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "framework",
+        "code-agents"
+      ]
+    },
+    {
+      "slug": "camel-ai/camel",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "multi-agent",
+        "research"
+      ]
+    },
+    {
+      "slug": "geekan/MetaGPT",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "multi-agent",
+        "sdlc"
+      ]
+    },
+    {
+      "slug": "Significant-Gravitas/AutoGPT",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "autonomous",
+        "history"
+      ]
+    },
+    {
+      "slug": "vercel/ai",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "typescript",
+        "streaming",
+        "ai-sdk"
+      ]
+    },
+    {
+      "slug": "openai/openai-python",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "sdk",
+        "openai"
+      ]
+    },
+    {
+      "slug": "anthropics/anthropic-sdk-python",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "sdk",
+        "anthropic"
+      ]
+    },
+    {
+      "slug": "googleapis/python-genai",
+      "category": "agent-frameworks",
+      "tier": "candidate",
+      "tags": [
+        "sdk",
+        "google"
+      ],
+      "note": "seed slug `google-gemini/google-genai` returned 404 on 2026-09-15; resolved to `googleapis/python-genai` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "berriai/litellm",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "gateway",
+        "proxy",
+        "multi-provider"
+      ]
+    },
+    {
+      "slug": "modelcontextprotocol/python-sdk",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "sdk"
+      ]
+    },
+    {
+      "slug": "modelcontextprotocol/typescript-sdk",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "sdk"
+      ]
+    },
+    {
+      "slug": "modelcontextprotocol/modelcontextprotocol",
+      "category": "instructions-standards",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "specification"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "modelcontextprotocol/servers",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "reference-servers"
+      ]
+    },
+    {
+      "slug": "modelcontextprotocol/registry",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "registry"
+      ]
+    },
+    {
+      "slug": "modelcontextprotocol/inspector",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "debugging"
+      ]
+    },
+    {
+      "slug": "microsoft/playwright-mcp",
+      "category": "mcp-servers",
+      "tier": "seed",
+      "tags": [
+        "mcp",
+        "browser",
+        "automation"
+      ]
+    },
+    {
+      "slug": "github/github-mcp-server",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "github"
+      ]
+    },
+    {
+      "slug": "supabase-community/supabase-mcp",
+      "category": "mcp-servers",
+      "tier": "seed",
+      "tags": [
+        "mcp",
+        "supabase",
+        "database"
+      ]
+    },
+    {
+      "slug": "neondatabase-labs/mcp-server-neon",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "postgres",
+        "neon"
+      ]
+    },
+    {
+      "slug": "mongodb-js/mongodb-mcp-server",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "mongodb"
+      ]
+    },
+    {
+      "slug": "redis/mcp-redis",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "redis",
+        "cache"
+      ]
+    },
+    {
+      "slug": "Cloudflare/mcp-server-cloudflare",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "cloudflare",
+        "edge"
+      ]
+    },
+    {
+      "slug": "microsoft/mcp",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "catalog",
+        "microsoft"
+      ]
+    },
+    {
+      "slug": "awslabs/mcp",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "catalog",
+        "aws"
+      ]
+    },
+    {
+      "slug": "upstash/context7",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "documentation",
+        "context"
+      ]
+    },
+    {
+      "slug": "sooperset/mcp-atlassian",
+      "category": "mcp-servers",
+      "tier": "reference",
+      "tags": [
+        "mcp",
+        "jira",
+        "confluence"
+      ]
+    },
+    {
+      "slug": "makenotion/notion-mcp-server",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "notion"
+      ]
+    },
+    {
+      "slug": "korotovsky/slack-mcp-server",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "slack"
+      ],
+      "note": "seed slug `slackapi/slack-mcp-server` returned 404 on 2026-09-15; resolved to `korotovsky/slack-mcp-server` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "stripe/agent-toolkit",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "payments",
+        "stripe"
+      ]
+    },
+    {
+      "slug": "crystaldba/postgres-mcp",
+      "category": "mcp-servers",
+      "tier": "reference",
+      "tags": [
+        "mcp",
+        "postgres",
+        "dba"
+      ]
+    },
+    {
+      "slug": "punkpeye/awesome-mcp-servers",
+      "category": "mcp-servers",
+      "tier": "reference",
+      "tags": [
+        "mcp",
+        "catalog",
+        "discovery"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "exa-labs/exa-mcp-server",
+      "category": "mcp-servers",
+      "tier": "reference",
+      "tags": [
+        "mcp",
+        "search"
+      ]
+    },
+    {
+      "slug": "firecrawl/firecrawl-mcp-server",
+      "category": "mcp-servers",
+      "tier": "reference",
+      "tags": [
+        "mcp",
+        "crawling",
+        "search"
+      ]
+    },
+    {
+      "slug": "tavily-ai/tavily-mcp",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "search"
+      ]
+    },
+    {
+      "slug": "browserbase/mcp-server-browserbase",
+      "category": "mcp-servers",
+      "tier": "reference",
+      "tags": [
+        "mcp",
+        "browser",
+        "cloud"
+      ]
+    },
+    {
+      "slug": "AgentDeskAI/browser-tools-mcp",
+      "category": "mcp-servers",
+      "tier": "reference",
+      "tags": [
+        "mcp",
+        "browser",
+        "devtools"
+      ],
+      "note": "seed slug `AgentDeskAI/browser-tools-server` returned 404 on 2026-09-15; resolved to `AgentDeskAI/browser-tools-mcp` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "vercel/mcp-adapter",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "vercel",
+        "adapter"
+      ]
+    },
+    {
+      "slug": "firebase/firebase-tools",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "firebase"
+      ],
+      "note": "seed slug `firebase/firebase-tools-mcp` returned 404 on 2026-09-15; resolved to `firebase/firebase-tools` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "GoogleCloudPlatform/cloud-run-mcp",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "gcp"
+      ]
+    },
+    {
+      "slug": "browser-use/browser-use",
+      "category": "browser-automation",
+      "tier": "seed",
+      "tags": [
+        "browser",
+        "agent",
+        "automation"
+      ]
+    },
+    {
+      "slug": "microsoft/playwright",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "browser",
+        "testing",
+        "automation"
+      ]
+    },
+    {
+      "slug": "microsoft/playwright-python",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "browser",
+        "testing",
+        "python"
+      ]
+    },
+    {
+      "slug": "puppeteer/puppeteer",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "browser",
+        "automation",
+        "chrome"
+      ]
+    },
+    {
+      "slug": "SeleniumHQ/selenium",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "browser",
+        "testing"
+      ]
+    },
+    {
+      "slug": "Skyvern-AI/skyvern",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "browser",
+        "agent",
+        "workflow"
+      ]
+    },
+    {
+      "slug": "browserbase/stagehand",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "browser",
+        "agent",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "steel-dev/steel-browser",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "browser",
+        "agent",
+        "infra"
+      ]
+    },
+    {
+      "slug": "nanobrowser/nanobrowser",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "browser",
+        "agent",
+        "chrome-extension"
+      ]
+    },
+    {
+      "slug": "alumnium-hq/alumnium",
+      "category": "browser-automation",
+      "tier": "candidate",
+      "tags": [
+        "browser",
+        "self-healing",
+        "testing"
+      ]
+    },
+    {
+      "slug": "lavague-ai/LaVague",
+      "category": "browser-automation",
+      "tier": "status-check",
+      "tags": [
+        "browser",
+        "agent",
+        "abandoned-candidate"
+      ]
+    },
+    {
+      "slug": "OpenAdaptAI/OpenAdapt",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "computer-use",
+        "rpa"
+      ]
+    },
+    {
+      "slug": "anthropics/anthropic-quickstarts",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "computer-use",
+        "examples"
+      ]
+    },
+    {
+      "slug": "openinterpreter/openinterpreter",
+      "category": "browser-automation",
+      "tier": "status-check",
+      "tags": [
+        "computer-use",
+        "local"
+      ],
+      "note": "seed slug `open-interpreter/open-interpreter` returned 404 on 2026-09-15; resolved to `openinterpreter/openinterpreter` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "xlang-ai/OSWorld",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "computer-use",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "web-arena-x/webarena",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "browser",
+        "benchmark",
+        "web-agent"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "EleutherAI/lm-evaluation-harness",
+      "category": "evaluation",
+      "tier": "seed",
+      "tags": [
+        "evaluation",
+        "benchmark",
+        "reproducible"
+      ]
+    },
+    {
+      "slug": "stanford-crfm/helm",
+      "category": "evaluation",
+      "tier": "seed",
+      "tags": [
+        "evaluation",
+        "benchmark",
+        "methodology"
+      ],
+      "repo_kind": "software"
+    },
+    {
+      "slug": "openai/evals",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "framework"
+      ]
+    },
+    {
+      "slug": "openai/simple-evals",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "minimal"
+      ]
+    },
+    {
+      "slug": "bigcode-project/bigcode-evaluation-harness",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "coding",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "evalplus/evalplus",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "coding",
+        "humaneval"
+      ]
+    },
+    {
+      "slug": "SWE-bench/SWE-bench",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "coding",
+        "agent",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "sierra-research/tau-bench",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "agent",
+        "tool-use"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "LiveCodeBench/LiveCodeBench",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "coding",
+        "contamination-free"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "laude-institute/terminal-bench",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "agent",
+        "terminal"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "promptfoo/promptfoo",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "llm-ops",
+        "red-team"
+      ]
+    },
+    {
+      "slug": "confident-ai/deepeval",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "llm-ops",
+        "pytest"
+      ]
+    },
+    {
+      "slug": "truera/trulens",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "evaluation",
+        "observability"
+      ]
+    },
+    {
+      "slug": "Arize-ai/phoenix",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "observability",
+        "tracing"
+      ]
+    },
+    {
+      "slug": "langfuse/langfuse",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "observability",
+        "evaluation",
+        "tracing"
+      ]
+    },
+    {
+      "slug": "explodinggradients/ragas",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "rag"
+      ]
+    },
+    {
+      "slug": "huggingface/lighteval",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "slug": "open-compass/opencompass",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "slug": "tatsu-lab/alpaca_eval",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "evaluation",
+        "instruction-following"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "lmarena/arena-hard-auto",
+      "category": "evaluation",
+      "tier": "candidate",
+      "tags": [
+        "evaluation",
+        "arena"
+      ],
+      "note": "seed slug `lmarena-ai/arena-hard-auto` returned 404 on 2026-09-15; resolved to `lmarena/arena-hard-auto` via GitHub search + API confirmation",
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "OSU-NLP-Group/Mind2Web",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "evaluation",
+        "web-agent",
+        "dataset"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "mlcommons/croissant",
+      "category": "evaluation",
+      "tier": "candidate",
+      "tags": [
+        "dataset",
+        "metadata",
+        "standard"
+      ]
+    },
+    {
+      "slug": "deepseek-ai/DeepSeek-R1",
+      "category": "reasoning-research",
+      "tier": "seed",
+      "tags": [
+        "reasoning",
+        "open-model",
+        "rl"
+      ],
+      "repo_kind": "model-release"
+    },
+    {
+      "slug": "deepseek-ai/DeepSeek-V3",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "open-model",
+        "moe"
+      ],
+      "repo_kind": "model-release"
+    },
+    {
+      "slug": "huggingface/open-r1",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "reasoning",
+        "open-reproduction"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "EvolvingLMMs-Lab/open-r1-multimodal",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "reasoning",
+        "multimodal"
+      ],
+      "note": "seed slug `huggingface/open-r1-multimodal` returned 404 on 2026-09-15; resolved to `EvolvingLMMs-Lab/open-r1-multimodal` via GitHub search + API confirmation",
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "princeton-nlp/tree-of-thought-llm",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "reasoning",
+        "search",
+        "paper-code"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "ysymyth/ReAct",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "reasoning",
+        "tool-use",
+        "paper-code"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "noahshinn/reflexion",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "reasoning",
+        "self-correction",
+        "paper-code"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "madaan/self-refine",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "reasoning",
+        "critique",
+        "paper-code"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "joonspk-research/generative_agents",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "agent",
+        "memory",
+        "paper-code"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "volcengine/verl",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "rl",
+        "training",
+        "reasoning"
+      ]
+    },
+    {
+      "slug": "OpenRLHF/OpenRLHF",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "rl",
+        "training"
+      ]
+    },
+    {
+      "slug": "QwenLM/Qwen3",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "open-model",
+        "reasoning"
+      ],
+      "repo_kind": "model-release"
+    },
+    {
+      "slug": "meta-llama/llama-models",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "open-model"
+      ],
+      "repo_kind": "model-release"
+    },
+    {
+      "slug": "NousResearch/hermes-agent",
+      "category": "reasoning-research",
+      "tier": "status-check",
+      "tags": [
+        "agent",
+        "self-improving"
+      ]
+    },
+    {
+      "slug": "NousResearch/Hermes-Function-Calling",
+      "category": "reasoning-research",
+      "tier": "candidate",
+      "tags": [
+        "tool-use",
+        "dataset"
+      ],
+      "repo_kind": "dataset"
+    },
+    {
+      "slug": "google-deepmind/funsearch",
+      "category": "reasoning-research",
+      "tier": "candidate",
+      "tags": [
+        "reasoning",
+        "search",
+        "paper-code"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "huggingface/awesome-papers",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "papers",
+        "discovery"
+      ],
+      "note": "seed slug `huggingface/papers` returned 404 on 2026-09-15; resolved to `huggingface/awesome-papers` via GitHub search + API confirmation",
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "huggingface/transformers",
+      "category": "ai",
+      "tier": "core",
+      "tags": [
+        "models",
+        "library"
+      ]
+    },
+    {
+      "slug": "huggingface/datasets",
+      "category": "ai",
+      "tier": "core",
+      "tags": [
+        "datasets",
+        "library"
+      ]
+    },
+    {
+      "slug": "huggingface/peft",
+      "category": "ai",
+      "tier": "core",
+      "tags": [
+        "fine-tuning"
+      ]
+    },
+    {
+      "slug": "huggingface/trl",
+      "category": "ai",
+      "tier": "core",
+      "tags": [
+        "rl",
+        "fine-tuning"
+      ]
+    },
+    {
+      "slug": "huggingface/text-generation-inference",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "inference",
+        "serving"
+      ]
+    },
+    {
+      "slug": "vllm-project/vllm",
+      "category": "ai",
+      "tier": "core",
+      "tags": [
+        "inference",
+        "serving",
+        "performance"
+      ]
+    },
+    {
+      "slug": "ggml-org/llama.cpp",
+      "category": "ai",
+      "tier": "core",
+      "tags": [
+        "inference",
+        "local"
+      ]
+    },
+    {
+      "slug": "ollama/ollama",
+      "category": "ai",
+      "tier": "core",
+      "tags": [
+        "inference",
+        "local"
+      ]
+    },
+    {
+      "slug": "unslothai/unsloth",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "fine-tuning",
+        "performance"
+      ]
+    },
+    {
+      "slug": "axolotl-ai-cloud/axolotl",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "fine-tuning"
+      ]
+    },
+    {
+      "slug": "ml-explore/mlx",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "inference",
+        "apple-silicon"
+      ]
+    },
+    {
+      "slug": "mlabonne/llm-course",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "education"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "rasbt/LLMs-from-scratch",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "education"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "vercel/next.js",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "nextjs",
+        "react",
+        "framework"
+      ]
+    },
+    {
+      "slug": "facebook/react",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "react",
+        "ui"
+      ]
+    },
+    {
+      "slug": "microsoft/typescript",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "typescript",
+        "language"
+      ]
+    },
+    {
+      "slug": "vuejs/core",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "vue"
+      ]
+    },
+    {
+      "slug": "sveltejs/svelte",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "svelte"
+      ]
+    },
+    {
+      "slug": "withastro/astro",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "astro",
+        "content"
+      ]
+    },
+    {
+      "slug": "nuxt/nuxt",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "nuxt",
+        "vue"
+      ]
+    },
+    {
+      "slug": "solidjs/solid",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "solid"
+      ]
+    },
+    {
+      "slug": "vitejs/vite",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "build",
+        "tooling"
+      ]
+    },
+    {
+      "slug": "rolldown/rolldown",
+      "category": "frontend",
+      "tier": "candidate",
+      "tags": [
+        "build",
+        "bundler"
+      ]
+    },
+    {
+      "slug": "tailwindlabs/tailwindcss",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "css",
+        "tailwind"
+      ]
+    },
+    {
+      "slug": "tailwindlabs/headlessui",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "components",
+        "accessibility"
+      ]
+    },
+    {
+      "slug": "shadcn-ui/ui",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "components",
+        "radix",
+        "design-system"
+      ]
+    },
+    {
+      "slug": "shadcn-ui/taxonomy",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "saas",
+        "example",
+        "nextjs"
+      ]
+    },
+    {
+      "slug": "radix-ui/primitives",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "components",
+        "accessibility",
+        "headless"
+      ]
+    },
+    {
+      "slug": "mui/base-ui",
+      "category": "frontend",
+      "tier": "candidate",
+      "tags": [
+        "components",
+        "headless"
+      ]
+    },
+    {
+      "slug": "magicuidesign/magicui",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "components",
+        "animation",
+        "marketing"
+      ]
+    },
+    {
+      "slug": "motiondivision/motion",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "animation",
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "slug": "greensock/GSAP",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "animation",
+        "motion"
+      ]
+    },
+    {
+      "slug": "mrdoob/three.js",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "3d",
+        "webgl"
+      ]
+    },
+    {
+      "slug": "pmndrs/react-three-fiber",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "3d",
+        "react",
+        "webgl"
+      ]
+    },
+    {
+      "slug": "pmndrs/drei",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "3d",
+        "react",
+        "helpers"
+      ]
+    },
+    {
+      "slug": "pmndrs/zustand",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "state"
+      ]
+    },
+    {
+      "slug": "TanStack/query",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "data-fetching",
+        "cache"
+      ]
+    },
+    {
+      "slug": "TanStack/table",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "tables",
+        "data-grid"
+      ]
+    },
+    {
+      "slug": "TanStack/router",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "routing"
+      ]
+    },
+    {
+      "slug": "xyflow/xyflow",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "diagrams",
+        "node-editor"
+      ]
+    },
+    {
+      "slug": "recharts/recharts",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "charts",
+        "visualization"
+      ]
+    },
+    {
+      "slug": "apache/echarts",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "charts",
+        "visualization"
+      ]
+    },
+    {
+      "slug": "d3/d3",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "visualization",
+        "low-level"
+      ]
+    },
+    {
+      "slug": "observablehq/plot",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "visualization",
+        "charts"
+      ]
+    },
+    {
+      "slug": "tremorlabs/tremor",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "dashboards",
+        "components"
+      ]
+    },
+    {
+      "slug": "colinhacks/zod",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "validation",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "vercel/geist-font",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "typography",
+        "fonts"
+      ]
+    },
+    {
+      "slug": "rsms/inter",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "typography",
+        "fonts"
+      ]
+    },
+    {
+      "slug": "fontsource/fontsource",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "typography",
+        "fonts"
+      ]
+    },
+    {
+      "slug": "storybookjs/storybook",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "components",
+        "docs",
+        "testing"
+      ]
+    },
+    {
+      "slug": "vercel/turborepo",
+      "category": "frontend",
+      "tier": "core",
+      "tags": [
+        "monorepo",
+        "build"
+      ]
+    },
+    {
+      "slug": "vercel/commerce",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "example",
+        "ecommerce"
+      ]
+    },
+    {
+      "slug": "vercel/ai-chatbot",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "example",
+        "ai",
+        "streaming"
+      ]
+    },
+    {
+      "slug": "t3-oss/create-t3-app",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "scaffold",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "calcom/cal.com",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "saas",
+        "example",
+        "nextjs"
+      ]
+    },
+    {
+      "slug": "dubinc/dub",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "saas",
+        "example",
+        "nextjs"
+      ]
+    },
+    {
+      "slug": "midday-ai/midday",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "saas",
+        "example",
+        "dashboard"
+      ]
+    },
+    {
+      "slug": "formbricks/formbricks",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "saas",
+        "example"
+      ]
+    },
+    {
+      "slug": "documenso/documenso",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "saas",
+        "example"
+      ]
+    },
+    {
+      "slug": "makeplane/plane",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "saas",
+        "example",
+        "project-management"
+      ],
+      "note": "seed slug `plane-so/plane` returned 404 on 2026-09-15; resolved to `makeplane/plane` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "refinedev/refine",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "admin",
+        "framework"
+      ]
+    },
+    {
+      "slug": "appsmithorg/appsmith",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "admin",
+        "low-code"
+      ]
+    },
+    {
+      "slug": "nocodb/nocodb",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "admin",
+        "no-code",
+        "database"
+      ]
+    },
+    {
+      "slug": "payloadcms/payload",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "cms",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "lobehub/lobe-chat",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "ai-chat",
+        "example"
+      ]
+    },
+    {
+      "slug": "open-webui/open-webui",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "ai-chat",
+        "example"
+      ]
+    },
+    {
+      "slug": "oven-sh/bun",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "runtime",
+        "javascript"
+      ]
+    },
+    {
+      "slug": "denoland/deno",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "runtime",
+        "javascript"
+      ]
+    },
+    {
+      "slug": "nodejs/node",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "runtime",
+        "javascript"
+      ]
+    },
+    {
+      "slug": "fastapi/fastapi",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "api",
+        "python",
+        "async"
+      ]
+    },
+    {
+      "slug": "nestjs/nest",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "api",
+        "typescript",
+        "framework"
+      ]
+    },
+    {
+      "slug": "honojs/hono",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "api",
+        "edge",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "expressjs/express",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "api",
+        "node"
+      ]
+    },
+    {
+      "slug": "trpc/trpc",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "api",
+        "typescript",
+        "end-to-end-types"
+      ]
+    },
+    {
+      "slug": "taskforcesh/bullmq",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "queue",
+        "jobs"
+      ]
+    },
+    {
+      "slug": "temporalio/temporal",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "workflow",
+        "durability"
+      ]
+    },
+    {
+      "slug": "nats-io/nats-server",
+      "category": "backend",
+      "tier": "reference",
+      "tags": [
+        "messaging"
+      ]
+    },
+    {
+      "slug": "graphql/graphql-spec",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "api",
+        "specification"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "tiangolo/full-stack-fastapi-template",
+      "category": "backend",
+      "tier": "reference",
+      "tags": [
+        "template",
+        "fullstack"
+      ]
+    },
+    {
+      "slug": "better-auth/better-auth",
+      "category": "backend",
+      "tier": "core",
+      "tags": [
+        "auth",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "lucia-auth/lucia",
+      "category": "backend",
+      "tier": "status-check",
+      "tags": [
+        "auth",
+        "deprecated-candidate"
+      ]
+    },
+    {
+      "slug": "ory/kratos",
+      "category": "backend",
+      "tier": "reference",
+      "tags": [
+        "auth",
+        "identity"
+      ]
+    },
+    {
+      "slug": "keycloak/keycloak",
+      "category": "backend",
+      "tier": "reference",
+      "tags": [
+        "auth",
+        "identity",
+        "enterprise"
+      ]
+    },
+    {
+      "slug": "openfga/openfga",
+      "category": "backend",
+      "tier": "reference",
+      "tags": [
+        "authorization",
+        "rebac"
+      ]
+    },
+    {
+      "slug": "casbin/casbin",
+      "category": "backend",
+      "tier": "reference",
+      "tags": [
+        "authorization"
+      ]
+    },
+    {
+      "slug": "permify/permify",
+      "category": "backend",
+      "tier": "candidate",
+      "tags": [
+        "authorization"
+      ]
+    },
+    {
+      "slug": "supabase/auth",
+      "category": "backend",
+      "tier": "reference",
+      "tags": [
+        "auth",
+        "supabase"
+      ]
+    },
+    {
+      "slug": "postgres/postgres",
+      "category": "databases",
+      "tier": "core",
+      "tags": [
+        "postgres",
+        "database"
+      ]
+    },
+    {
+      "slug": "supabase/supabase",
+      "category": "databases",
+      "tier": "core",
+      "tags": [
+        "postgres",
+        "baas",
+        "auth",
+        "storage"
+      ]
+    },
+    {
+      "slug": "neondatabase/serverless",
+      "category": "databases",
+      "tier": "core",
+      "tags": [
+        "postgres",
+        "serverless"
+      ]
+    },
+    {
+      "slug": "sqlite/sqlite",
+      "category": "databases",
+      "tier": "core",
+      "tags": [
+        "sqlite",
+        "embedded"
+      ]
+    },
+    {
+      "slug": "redis/redis",
+      "category": "databases",
+      "tier": "core",
+      "tags": [
+        "cache",
+        "kv"
+      ]
+    },
+    {
+      "slug": "mongodb/mongo",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "document",
+        "database"
+      ]
+    },
+    {
+      "slug": "drizzle-team/drizzle-orm",
+      "category": "databases",
+      "tier": "core",
+      "tags": [
+        "orm",
+        "typescript",
+        "sql"
+      ]
+    },
+    {
+      "slug": "prisma/prisma",
+      "category": "databases",
+      "tier": "core",
+      "tags": [
+        "orm",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "kysely-org/kysely",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "query-builder",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "pgvector/pgvector",
+      "category": "databases",
+      "tier": "core",
+      "tags": [
+        "vector",
+        "postgres",
+        "rag"
+      ]
+    },
+    {
+      "slug": "clickhouse/clickhouse",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "analytics",
+        "olap"
+      ]
+    },
+    {
+      "slug": "duckdb/duckdb",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "analytics",
+        "embedded"
+      ]
+    },
+    {
+      "slug": "libsql/libsql",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "sqlite",
+        "serverless"
+      ]
+    },
+    {
+      "slug": "pocketbase/pocketbase",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "baas",
+        "sqlite",
+        "go"
+      ]
+    },
+    {
+      "slug": "electric-sql/electric",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "sync",
+        "local-first",
+        "postgres"
+      ]
+    },
+    {
+      "slug": "timescale/timescaledb",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "timeseries",
+        "postgres"
+      ]
+    },
+    {
+      "slug": "cockroachdb/cockroach",
+      "category": "databases",
+      "tier": "reference",
+      "tags": [
+        "distributed",
+        "sql"
+      ]
+    },
+    {
+      "slug": "moby/moby",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "containers",
+        "docker"
+      ]
+    },
+    {
+      "slug": "docker/compose",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "containers",
+        "orchestration"
+      ]
+    },
+    {
+      "slug": "kubernetes/kubernetes",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "orchestration",
+        "infra"
+      ]
+    },
+    {
+      "slug": "hashicorp/terraform",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "iac"
+      ]
+    },
+    {
+      "slug": "pulumi/pulumi",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "iac",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "sst/sst",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "iac",
+        "serverless",
+        "aws"
+      ]
+    },
+    {
+      "slug": "aws/aws-cdk",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "iac",
+        "aws"
+      ]
+    },
+    {
+      "slug": "cloudflare/workers-sdk",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "edge",
+        "serverless",
+        "cloudflare"
+      ]
+    },
+    {
+      "slug": "vercel/vercel",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "deployment",
+        "cli"
+      ]
+    },
+    {
+      "slug": "firebase/firebase-tools",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "deployment",
+        "cli"
+      ]
+    },
+    {
+      "slug": "superfly/flyctl",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "deployment",
+        "cli"
+      ]
+    },
+    {
+      "slug": "railwayapp/cli",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "deployment",
+        "cli"
+      ]
+    },
+    {
+      "slug": "argoproj/argo-cd",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "gitops",
+        "ci-cd"
+      ]
+    },
+    {
+      "slug": "woodpecker-ci/woodpecker",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "ci-cd"
+      ]
+    },
+    {
+      "slug": "nektos/act",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "ci-cd",
+        "github-actions",
+        "local"
+      ]
+    },
+    {
+      "slug": "actions/runner",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "ci-cd",
+        "github-actions"
+      ]
+    },
+    {
+      "slug": "renovatebot/renovate",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "dependencies",
+        "automation"
+      ]
+    },
+    {
+      "slug": "dependabot/dependabot-core",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "dependencies",
+        "automation"
+      ]
+    },
+    {
+      "slug": "pre-commit/pre-commit",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "git-hooks",
+        "quality"
+      ]
+    },
+    {
+      "slug": "typicode/husky",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "git-hooks"
+      ]
+    },
+    {
+      "slug": "lint-staged/lint-staged",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "git-hooks",
+        "linting"
+      ]
+    },
+    {
+      "slug": "changesets/changesets",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "versioning",
+        "release"
+      ]
+    },
+    {
+      "slug": "semantic-release/semantic-release",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "versioning",
+        "release"
+      ]
+    },
+    {
+      "slug": "conventional-changelog/commitlint",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "commits",
+        "quality"
+      ]
+    },
+    {
+      "slug": "astral-sh/ruff",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "linting",
+        "python"
+      ]
+    },
+    {
+      "slug": "astral-sh/uv",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "packaging",
+        "python"
+      ]
+    },
+    {
+      "slug": "microsoft/pyright",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "type-checking",
+        "python"
+      ]
+    },
+    {
+      "slug": "python/mypy",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "type-checking",
+        "python"
+      ]
+    },
+    {
+      "slug": "typescript-eslint/typescript-eslint",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "linting",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "biomejs/biome",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "linting",
+        "formatting"
+      ]
+    },
+    {
+      "slug": "oxc-project/oxc",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "linting",
+        "tooling",
+        "rust"
+      ]
+    },
+    {
+      "slug": "eslint/eslint",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "linting"
+      ]
+    },
+    {
+      "slug": "prettier/prettier",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "formatting"
+      ]
+    },
+    {
+      "slug": "vitest-dev/vitest",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "testing",
+        "unit"
+      ]
+    },
+    {
+      "slug": "jestjs/jest",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "testing",
+        "unit"
+      ]
+    },
+    {
+      "slug": "testing-library/react-testing-library",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "testing",
+        "react"
+      ]
+    },
+    {
+      "slug": "cypress-io/cypress",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "testing",
+        "e2e"
+      ]
+    },
+    {
+      "slug": "grafana/k6",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "performance",
+        "load-testing"
+      ]
+    },
+    {
+      "slug": "artilleryio/artillery",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "performance",
+        "load-testing"
+      ]
+    },
+    {
+      "slug": "GoogleChrome/lighthouse",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "performance",
+        "accessibility",
+        "audit"
+      ]
+    },
+    {
+      "slug": "dequelabs/axe-core",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "accessibility",
+        "audit"
+      ]
+    },
+    {
+      "slug": "pa11y/pa11y",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "accessibility",
+        "audit"
+      ]
+    },
+    {
+      "slug": "argos-ci/argos",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "visual-regression"
+      ]
+    },
+    {
+      "slug": "lost-pixel/lost-pixel",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "visual-regression"
+      ]
+    },
+    {
+      "slug": "reg-viz/reg-suit",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "visual-regression"
+      ]
+    },
+    {
+      "slug": "open-telemetry/opentelemetry-js",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "observability",
+        "tracing"
+      ]
+    },
+    {
+      "slug": "open-telemetry/opentelemetry-python",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "observability",
+        "tracing"
+      ]
+    },
+    {
+      "slug": "grafana/grafana",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "observability",
+        "dashboards"
+      ]
+    },
+    {
+      "slug": "prometheus/prometheus",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "observability",
+        "metrics"
+      ]
+    },
+    {
+      "slug": "highlight/highlight",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "observability",
+        "session-replay"
+      ]
+    },
+    {
+      "slug": "posthog/posthog",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "analytics",
+        "product"
+      ]
+    },
+    {
+      "slug": "usebruno/bruno",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "api-client"
+      ]
+    },
+    {
+      "slug": "hoppscotch/hoppscotch",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "api-client"
+      ]
+    },
+    {
+      "slug": "httpie/cli",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "api-client",
+        "cli"
+      ]
+    },
+    {
+      "slug": "BurntSushi/ripgrep",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "search",
+        "cli"
+      ]
+    },
+    {
+      "slug": "junegunn/fzf",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "search",
+        "cli"
+      ]
+    },
+    {
+      "slug": "koalaman/shellcheck",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "linting",
+        "shell"
+      ]
+    },
+    {
+      "slug": "jesseduffield/lazygit",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "git",
+        "tui"
+      ]
+    },
+    {
+      "slug": "nrwl/nx",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "monorepo",
+        "build"
+      ]
+    },
+    {
+      "slug": "cli/cli",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "cli",
+        "github"
+      ],
+      "note": "seed slug `github/gh` returned 404 on 2026-09-15; resolved to `cli/cli` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "OWASP/www-project-top-ten",
+      "category": "instructions-standards",
+      "tier": "core",
+      "tags": [
+        "security",
+        "owasp",
+        "standard"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "OWASP/Top10",
+      "category": "instructions-standards",
+      "tier": "core",
+      "tags": [
+        "security",
+        "owasp",
+        "standard"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "OWASP/CheatSheetSeries",
+      "category": "instructions-standards",
+      "tier": "core",
+      "tags": [
+        "security",
+        "owasp",
+        "reference"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "OWASP/ASVS",
+      "category": "instructions-standards",
+      "tier": "core",
+      "tags": [
+        "security",
+        "owasp",
+        "standard"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "OWASP/API-Security",
+      "category": "instructions-standards",
+      "tier": "core",
+      "tags": [
+        "security",
+        "owasp",
+        "api"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "invariantlabs-ai/invariant",
+      "category": "instructions-standards",
+      "tier": "candidate",
+      "tags": [
+        "agent-security",
+        "guardrails"
+      ]
+    },
+    {
+      "slug": "NVIDIA/garak",
+      "category": "instructions-standards",
+      "tier": "core",
+      "tags": [
+        "llm-security",
+        "red-team"
+      ]
+    },
+    {
+      "slug": "protectai/llm-guard",
+      "category": "instructions-standards",
+      "tier": "reference",
+      "tags": [
+        "llm-security",
+        "guardrails"
+      ]
+    },
+    {
+      "slug": "giskard-ai/giskard",
+      "category": "instructions-standards",
+      "tier": "reference",
+      "tags": [
+        "llm-security",
+        "testing"
+      ]
+    },
+    {
+      "slug": "protectai/rebuff",
+      "category": "instructions-standards",
+      "tier": "status-check",
+      "tags": [
+        "prompt-injection",
+        "abandoned-candidate"
+      ],
+      "note": "seed slug `rebuff-ai/rebuff` returned 404 on 2026-09-15; resolved to `protectai/rebuff` via GitHub search + API confirmation"
+    },
+    {
+      "slug": "trufflesecurity/trufflehog",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "security",
+        "secrets"
+      ]
+    },
+    {
+      "slug": "aquasecurity/trivy",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "security",
+        "dependencies",
+        "containers"
+      ]
+    },
+    {
+      "slug": "semgrep/semgrep",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "security",
+        "sast"
+      ]
+    },
+    {
+      "slug": "returntocorp/semgrep",
+      "category": "developer-tools",
+      "tier": "status-check",
+      "tags": [
+        "security",
+        "moved-candidate"
+      ]
+    },
+    {
+      "slug": "gitleaks/gitleaks",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "security",
+        "secrets"
+      ]
+    },
+    {
+      "slug": "ossf/scorecard",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "security",
+        "supply-chain",
+        "scoring"
+      ]
+    },
+    {
+      "slug": "ossf/package-analysis",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "security",
+        "supply-chain"
+      ]
+    },
+    {
+      "slug": "donnemartin/system-design-primer",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "architecture",
+        "education"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "adr/madr",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "architecture",
+        "decision-records"
+      ]
+    },
+    {
+      "slug": "npryce/adr-tools",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "architecture",
+        "decision-records"
+      ]
+    },
+    {
+      "slug": "mingrammer/diagrams",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "architecture",
+        "diagrams"
+      ]
+    },
+    {
+      "slug": "mermaid-js/mermaid",
+      "category": "developer-tools",
+      "tier": "core",
+      "tags": [
+        "diagrams",
+        "docs"
+      ]
+    },
+    {
+      "slug": "12factor/12factor",
+      "category": "instructions-standards",
+      "tier": "reference",
+      "tags": [
+        "architecture",
+        "standard"
+      ]
+    },
+    {
+      "slug": "openclaw/openclaw",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "harness",
+        "cross-platform"
+      ],
+      "note": "discovered via topic search 2026-09-15; extremely high adoption - verify governance before recommending"
+    },
+    {
+      "slug": "affaan-m/ECC",
+      "category": "agent-skills",
+      "tier": "candidate",
+      "tags": [
+        "agent",
+        "harness",
+        "optimization"
+      ]
+    },
+    {
+      "slug": "addyosmani/agent-skills",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "skills",
+        "engineering",
+        "web"
+      ],
+      "note": "author has high authority (Google Chrome team); production-grade engineering skills"
+    },
+    {
+      "slug": "nexu-io/open-design",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "slug": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "ui",
+        "ux",
+        "design"
+      ],
+      "note": "directly relevant to skills/frontend-design and skills/ai-slop-detection"
+    },
+    {
+      "slug": "Leonxlnx/taste-skill",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "design",
+        "ai-slop"
+      ],
+      "note": "anti-AI-slop design taste skill"
+    },
+    {
+      "slug": "blader/humanizer",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "writing",
+        "ai-slop"
+      ],
+      "note": "removes markers of AI-generated prose"
+    },
+    {
+      "slug": "DietrichGebert/ponytail",
+      "category": "agent-skills",
+      "tier": "candidate",
+      "tags": [
+        "skills",
+        "pragmatism"
+      ]
+    },
+    {
+      "slug": "JuliusBrussee/caveman",
+      "category": "agent-skills",
+      "tier": "candidate",
+      "tags": [
+        "skills",
+        "context-compression",
+        "tokens"
+      ]
+    },
+    {
+      "slug": "cathrynlavery/diagram-design",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "diagrams",
+        "documentation"
+      ]
+    },
+    {
+      "slug": "tt-a1i/archify",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "architecture",
+        "diagrams"
+      ]
+    },
+    {
+      "slug": "wshobson/agents",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "marketplace",
+        "multi-harness"
+      ]
+    },
+    {
+      "slug": "ComposioHQ/awesome-claude-skills",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "catalog",
+        "discovery"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "VoltAgent/awesome-openclaw-skills",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "catalog",
+        "discovery"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "K-Dense-AI/scientific-agent-skills",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "research",
+        "science"
+      ]
+    },
+    {
+      "slug": "Imbad0202/academic-research-skills",
+      "category": "agent-skills",
+      "tier": "candidate",
+      "tags": [
+        "skills",
+        "research",
+        "academic"
+      ]
+    },
+    {
+      "slug": "shareAI-lab/learn-claude-code",
+      "category": "agent-skills",
+      "tier": "reference",
+      "tags": [
+        "skills",
+        "education",
+        "harness-internals"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "google-gemini/gemini-skills",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "skills",
+        "google",
+        "official"
+      ]
+    },
+    {
+      "slug": "github/gh-aw",
+      "category": "agent-skills",
+      "tier": "core",
+      "tags": [
+        "agent",
+        "github-actions",
+        "ci",
+        "official"
+      ]
+    },
+    {
+      "slug": "anthropics/claude-agent-sdk-python",
+      "category": "agent-skills",
+      "tier": "candidate",
+      "tags": [
+        "sdk",
+        "anthropic"
+      ]
+    },
+    {
+      "slug": "thedotmack/claude-mem",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "memory",
+        "context",
+        "agent"
+      ]
+    },
+    {
+      "slug": "rtk-ai/rtk",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "context-compression",
+        "tokens",
+        "proxy"
+      ]
+    },
+    {
+      "slug": "headroomlabs-ai/headroom",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "context-compression",
+        "rag"
+      ]
+    },
+    {
+      "slug": "VectifyAI/PageIndex",
+      "category": "ai",
+      "tier": "candidate",
+      "tags": [
+        "rag",
+        "reasoning-based-retrieval"
+      ]
+    },
+    {
+      "slug": "semantica-agi/semantica",
+      "category": "ai",
+      "tier": "candidate",
+      "tags": [
+        "knowledge-graph",
+        "context"
+      ]
+    },
+    {
+      "slug": "Q00/ouroboros",
+      "category": "agent-frameworks",
+      "tier": "candidate",
+      "tags": [
+        "self-improving",
+        "agent-os"
+      ]
+    },
+    {
+      "slug": "oraios/serena",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "semantic-retrieval",
+        "coding"
+      ]
+    },
+    {
+      "slug": "mksglu/context-mode",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "context",
+        "tokens"
+      ]
+    },
+    {
+      "slug": "Graphify-Labs/graphify",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "codebase-graph",
+        "understanding"
+      ]
+    },
+    {
+      "slug": "Egonex-AI/Understand-Anything",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "codebase-understanding",
+        "visualization"
+      ]
+    },
+    {
+      "slug": "Xnhyacinth/Awesome-LLM-Long-Context-Modeling",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "long-context",
+        "papers",
+        "survey"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "ChromeDevTools/chrome-devtools-mcp",
+      "category": "mcp-servers",
+      "tier": "core",
+      "tags": [
+        "mcp",
+        "browser",
+        "devtools",
+        "official"
+      ]
+    },
+    {
+      "slug": "DeusData/codebase-memory-mcp",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "codebase",
+        "indexing"
+      ]
+    },
+    {
+      "slug": "browser-use/browser-harness",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "browser",
+        "self-healing",
+        "agent"
+      ]
+    },
+    {
+      "slug": "browser-use/desktop",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "browser",
+        "desktop"
+      ]
+    },
+    {
+      "slug": "feder-cr/AIHawk",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "browser",
+        "anti-detect",
+        "mcp"
+      ]
+    },
+    {
+      "slug": "trycua/cua",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "computer-use",
+        "cross-os"
+      ]
+    },
+    {
+      "slug": "bytedance/UI-TARS-desktop",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "multimodal"
+      ]
+    },
+    {
+      "slug": "web-infra-dev/midscene",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "gui-agent",
+        "e2e-testing"
+      ]
+    },
+    {
+      "slug": "simular-ai/Agent-S",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "computer-use",
+        "agent-framework"
+      ]
+    },
+    {
+      "slug": "microsoft/fara",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "computer-use",
+        "model",
+        "official"
+      ],
+      "repo_kind": "model-release"
+    },
+    {
+      "slug": "google-gemini/computer-use-preview",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "computer-use",
+        "google"
+      ]
+    },
+    {
+      "slug": "D4Vinci/Scrapling",
+      "category": "browser-automation",
+      "tier": "core",
+      "tags": [
+        "scraping",
+        "adaptive"
+      ]
+    },
+    {
+      "slug": "platonai/Browser4",
+      "category": "browser-automation",
+      "tier": "candidate",
+      "tags": [
+        "browser-engine",
+        "agent"
+      ]
+    },
+    {
+      "slug": "oxylabs/browser-agent-py",
+      "category": "browser-automation",
+      "tier": "candidate",
+      "tags": [
+        "browser",
+        "agent"
+      ]
+    },
+    {
+      "slug": "CelestoAI/celesto",
+      "category": "browser-automation",
+      "tier": "candidate",
+      "tags": [
+        "agent-sandbox",
+        "computer"
+      ]
+    },
+    {
+      "slug": "arcboxlabs/arcbox",
+      "category": "browser-automation",
+      "tier": "candidate",
+      "tags": [
+        "agent-sandbox",
+        "isolation"
+      ]
+    },
+    {
+      "slug": "NanmiCoder/cc-haha",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "desktop",
+        "agent-workspace"
+      ]
+    },
+    {
+      "slug": "Panniantong/Agent-Reach",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "web-reading",
+        "agent"
+      ]
+    },
+    {
+      "slug": "OS-Agent-Survey/OS-Agent-Survey",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "survey",
+        "computer-use",
+        "papers"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "comet-ml/opik",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "observability"
+      ]
+    },
+    {
+      "slug": "mlflow/mlflow",
+      "category": "evaluation",
+      "tier": "core",
+      "tags": [
+        "evaluation",
+        "experiment-tracking"
+      ]
+    },
+    {
+      "slug": "Helicone/helicone",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "observability",
+        "proxy"
+      ]
+    },
+    {
+      "slug": "ifixai-ai/iFixAi",
+      "category": "evaluation",
+      "tier": "candidate",
+      "tags": [
+        "agent-audit",
+        "evaluation"
+      ]
+    },
+    {
+      "slug": "TIGER-AI-Lab/ClawBench",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "browser-agent",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "TheAgentCompany/TheAgentCompany",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "agent",
+        "benchmark",
+        "simulated-company"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "xlang-ai/OSWorld-V2",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "computer-use",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "ServiceNow/AgentLab",
+      "category": "evaluation",
+      "tier": "candidate",
+      "tags": [
+        "agent",
+        "evaluation-framework"
+      ]
+    },
+    {
+      "slug": "Ayanami0730/deep_research_bench",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "deep-research",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "inclusionAI/AEnvironment",
+      "category": "evaluation",
+      "tier": "candidate",
+      "tags": [
+        "agent",
+        "environment",
+        "benchmark"
+      ]
+    },
+    {
+      "slug": "Tencent/AICGSecEval",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "ai-generated-code",
+        "security",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "suyoumo/ClawProBench",
+      "category": "evaluation",
+      "tier": "candidate",
+      "tags": [
+        "benchmark",
+        "live"
+      ]
+    },
+    {
+      "slug": "bigcode-project/bigcodebench",
+      "category": "evaluation",
+      "tier": "reference",
+      "tags": [
+        "coding",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "stanfordmlgroup/MedAgentBench",
+      "category": "evaluation",
+      "tier": "candidate",
+      "tags": [
+        "agent",
+        "medical",
+        "benchmark"
+      ],
+      "repo_kind": "benchmark"
+    },
+    {
+      "slug": "TsinghuaC3I/Awesome-RL-for-LRMs",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "rl",
+        "reasoning",
+        "survey"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "PRIME-RL/PRIME",
+      "category": "reasoning-research",
+      "tier": "core",
+      "tags": [
+        "rl",
+        "reasoning",
+        "training"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "PRIME-RL/TTRL",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "test-time-rl",
+        "reasoning"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "sail-sg/understand-r1-zero",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "r1",
+        "reasoning",
+        "critical-analysis"
+      ],
+      "repo_kind": "research-artifact"
+    },
+    {
+      "slug": "rasbt/reasoning-from-scratch",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "reasoning",
+        "education"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "PySpur-Dev/pyspur",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "visual-workflow",
+        "agent"
+      ]
+    },
+    {
+      "slug": "masamasa59/ai-agent-papers",
+      "category": "reasoning-research",
+      "tier": "reference",
+      "tags": [
+        "papers",
+        "agent",
+        "catalog"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "SkyworkAI/Skywork-R1V",
+      "category": "reasoning-research",
+      "tier": "candidate",
+      "tags": [
+        "multimodal",
+        "reasoning",
+        "open-model"
+      ],
+      "repo_kind": "model-release"
+    },
+    {
+      "slug": "Upsonic/Upsonic",
+      "category": "agent-frameworks",
+      "tier": "candidate",
+      "tags": [
+        "agent",
+        "python"
+      ]
+    },
+    {
+      "slug": "dair-ai/Prompt-Engineering-Guide",
+      "category": "ai",
+      "tier": "core",
+      "tags": [
+        "prompting",
+        "guide"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "f/prompts.chat",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "prompting",
+        "catalog"
+      ],
+      "repo_kind": "catalog"
+    },
+    {
+      "slug": "microsoft/generative-ai-for-beginners",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "education",
+        "microsoft"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "google/adk-samples",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "agent",
+        "samples",
+        "google"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "google/adk-go",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "agent",
+        "go",
+        "google"
+      ]
+    },
+    {
+      "slug": "google/adk-java",
+      "category": "agent-frameworks",
+      "tier": "reference",
+      "tags": [
+        "agent",
+        "java",
+        "google"
+      ]
+    },
+    {
+      "slug": "google-gemini/cookbook",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "examples",
+        "google"
+      ],
+      "repo_kind": "docs"
+    },
+    {
+      "slug": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "category": "frontend",
+      "tier": "reference",
+      "tags": [
+        "fullstack",
+        "agent",
+        "example"
+      ]
+    },
+    {
+      "slug": "n8n-io/n8n",
+      "category": "developer-tools",
+      "tier": "reference",
+      "tags": [
+        "workflow-automation",
+        "ai"
+      ]
+    },
+    {
+      "slug": "activepieces/activepieces",
+      "category": "developer-tools",
+      "tier": "candidate",
+      "tags": [
+        "automation",
+        "mcp"
+      ]
+    },
+    {
+      "slug": "czlonkowski/n8n-mcp",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "automation"
+      ]
+    },
+    {
+      "slug": "assafelovic/gpt-researcher",
+      "category": "agent-frameworks",
+      "tier": "core",
+      "tags": [
+        "deep-research",
+        "agent"
+      ]
+    },
+    {
+      "slug": "Mintplex-Labs/anything-llm",
+      "category": "ai",
+      "tier": "reference",
+      "tags": [
+        "local-llm",
+        "rag"
+      ]
+    },
+    {
+      "slug": "1Panel-dev/MaxKB",
+      "category": "ai",
+      "tier": "candidate",
+      "tags": [
+        "enterprise-kb",
+        "rag"
+      ]
+    },
+    {
+      "slug": "supabase/mcp",
+      "category": "mcp-servers",
+      "tier": "seed",
+      "tags": [
+        "mcp",
+        "supabase",
+        "database",
+        "postgres"
+      ],
+      "note": "brief seed `supabase/mcp` and `supabase-community/supabase-mcp` resolve to the same repository (verified 2026-09-15); kept once"
+    },
+    {
+      "slug": "getsentry/sentry-mcp",
+      "category": "mcp-servers",
+      "tier": "candidate",
+      "tags": [
+        "mcp",
+        "observability",
+        "sentry"
+      ],
+      "note": "brief-era slug `sentry-experts/mcp` 404s; canonical repo is getsentry/sentry-mcp (verified 2026-09-15)"
+    },
+    {
+      "slug": "microsoft/OmniParser",
+      "category": "browser-automation",
+      "tier": "reference",
+      "tags": [
+        "computer-use",
+        "screen-parsing",
+        "vision",
+        "microsoft"
+      ],
+      "note": "screen parsing for GUI agents; kept once (was seeded in two categories)"
+    }
+  ]
+}

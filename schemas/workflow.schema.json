@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/workflow.schema.json",
+  "title": "Agent Workflow",
+  "description": "An ordered, gate-checked procedure composed of skills and agents. Every workflow has explicit exit gates.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "version",
+    "trigger",
+    "stages",
+    "status",
+    "updated"
+  ],
+  "properties": {
+    "name": {
+      "$ref": "common.defs.json#/$defs/id"
+    },
+    "version": {
+      "$ref": "common.defs.json#/$defs/semver"
+    },
+    "description": {
+      "type": "string"
+    },
+    "trigger": {
+      "type": "string",
+      "minLength": 10,
+      "description": "When an agent should enter this workflow"
+    },
+    "not_for": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 10
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 5
+          },
+          "minItems": 1
+        }
+      ],
+      "description": "When NOT to enter this workflow. A semicolon-separated string or a list; both are equally machine-readable."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "experimental",
+        "deprecated",
+        "draft"
+      ]
+    },
+    "updated": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "tags": {
+      "$ref": "common.defs.json#/$defs/tags"
+    },
+    "stages": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "exit_gate"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "name": {
+            "type": "string"
+          },
+          "goal": {
+            "type": "string"
+          },
+          "skill": {
+            "$ref": "common.defs.json#/$defs/id"
+          },
+          "agent": {
+            "$ref": "common.defs.json#/$defs/id"
+          },
+          "inputs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "exit_gate": {
+            "type": "string",
+            "description": "Objective condition that must hold before advancing"
+          },
+          "max_loops": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "on_gate_failure": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "quality_gates": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 5
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "gate"
+            ],
+            "properties": {
+              "gate": {
+                "type": "string",
+                "minLength": 5,
+                "description": "The condition that must hold."
+              },
+              "checked_by": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Agent or role that verifies the gate."
+              },
+              "on_failure": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "What happens when the gate fails."
+              },
+              "stage": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Stage id this gate belongs to, if any."
+              }
+            }
+          }
+        ]
+      },
+      "description": "Exit gates. A string, or an object naming the gate, who checks it and what happens on failure."
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 2
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "path": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "produced_by": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "description": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "estimated_duration": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "confidence": {
+      "$ref": "common.defs.json#/$defs/confidence"
+    },
+    "provenance": {
+      "$ref": "common.defs.json#/$defs/provenance"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/sourceRef"
+      }
+    },
+    "claim_type": {
+      "$ref": "common.defs.json#/$defs/claimType"
+    },
+    "evidence_level": {
+      "$ref": "common.defs.json#/$defs/evidenceLevel"
+    },
+    "verified_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "expires_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "heading",
+          "anchor"
+        ],
+        "properties": {
+          "heading": {
+            "type": "string",
+            "minLength": 1
+          },
+          "anchor": {
+            "type": "string",
+            "pattern": "^#[a-z0-9-]+$"
+          },
+          "purpose": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Declared section map, enabling isolated retrieval: a section fetched alone must still be self-contained."
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "related_skills": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/id"
+      },
+      "uniqueItems": true
+    },
+    "related_repositories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "estimated_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    }
+  }
+}

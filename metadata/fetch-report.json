@@ -1,0 +1,442 @@
+{
+  "generated_at": "2026-09-15T15:36:14+00:00",
+  "requested": 417,
+  "ok": 414,
+  "failed": 0,
+  "authenticated": true,
+  "duration_seconds": 0.7,
+  "failures": [],
+  "renamed": [
+    {
+      "from": "geekan/MetaGPT",
+      "to": "FoundationAgents/MetaGPT"
+    },
+    {
+      "from": "sst/opencode",
+      "to": "anomalyco/opencode"
+    },
+    {
+      "from": "All-Hands-AI/OpenHands",
+      "to": "OpenHands/OpenHands"
+    },
+    {
+      "from": "block/goose",
+      "to": "aaif-goose/goose"
+    },
+    {
+      "from": "getcursor/cursor",
+      "to": "cursor/cursor"
+    },
+    {
+      "from": "princeton-nlp/SWE-agent",
+      "to": "SWE-agent/SWE-agent"
+    },
+    {
+      "from": "anthropics/anthropic-cookbook",
+      "to": "anthropics/claude-cookbooks"
+    },
+    {
+      "from": "tiangolo/full-stack-fastapi-template",
+      "to": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "from": "casbin/casbin",
+      "to": "apache/casbin"
+    },
+    {
+      "from": "anthropics/anthropic-quickstarts",
+      "to": "anthropics/claude-quickstarts"
+    },
+    {
+      "from": "prisma/prisma",
+      "to": "prisma/orm"
+    },
+    {
+      "from": "libsql/libsql",
+      "to": "tursodatabase/libsql"
+    },
+    {
+      "from": "sst/sst",
+      "to": "anomalyco/sst"
+    },
+    {
+      "from": "explodinggradients/ragas",
+      "to": "vibrantlabsai/ragas"
+    },
+    {
+      "from": "laude-institute/terminal-bench",
+      "to": "harbor-framework/terminal-bench-1"
+    },
+    {
+      "from": "facebook/react",
+      "to": "react/react"
+    },
+    {
+      "from": "lobehub/lobe-chat",
+      "to": "lobehub/lobehub"
+    },
+    {
+      "from": "calcom/cal.com",
+      "to": "calcom/cal.diy"
+    },
+    {
+      "from": "vercel/ai-chatbot",
+      "to": "vercel/chatbot"
+    },
+    {
+      "from": "giskard-ai/giskard",
+      "to": "Giskard-AI/giskard-oss"
+    },
+    {
+      "from": "12factor/12factor",
+      "to": "12factor/12factor-br"
+    },
+    {
+      "from": "supabase-community/supabase-mcp",
+      "to": "supabase/mcp"
+    },
+    {
+      "from": "stripe/agent-toolkit",
+      "to": "stripe/ai"
+    },
+    {
+      "from": "vercel/mcp-adapter",
+      "to": "vercel/mcp-handler"
+    },
+    {
+      "from": "neondatabase-labs/mcp-server-neon",
+      "to": "neondatabase/mcp-server-neon"
+    },
+    {
+      "from": "volcengine/verl",
+      "to": "verl-project/verl"
+    }
+  ],
+  "duplicate_seeds_collapsed": [
+    "firebase/firebase-tools",
+    "semgrep/semgrep",
+    "supabase/mcp"
+  ],
+  "archived": [
+    {
+      "slug": "RooCodeInc/Roo-Code",
+      "stars": 24302
+    },
+    {
+      "slug": "sourcegraph/cody-public-snapshot",
+      "stars": 3807
+    },
+    {
+      "slug": "anthropics/courses",
+      "stars": 22838
+    },
+    {
+      "slug": "huggingface/text-generation-inference",
+      "stars": 10886
+    },
+    {
+      "slug": "lost-pixel/lost-pixel",
+      "stars": 1684
+    },
+    {
+      "slug": "bigcode-project/bigcodebench",
+      "stars": 519
+    },
+    {
+      "slug": "steipete/agent-rules",
+      "stars": 5688
+    },
+    {
+      "slug": "protectai/llm-guard",
+      "stars": 3205
+    },
+    {
+      "slug": "protectai/rebuff",
+      "stars": 1522
+    },
+    {
+      "slug": "browserbase/mcp-server-browserbase",
+      "stars": 3409
+    }
+  ],
+  "no_license": [
+    "anthropics/skills",
+    "anthropics/claude-code",
+    "ComposioHQ/awesome-claude-skills",
+    "cursor/cursor",
+    "openai/skills",
+    "anthropics/prompt-eng-interactive-tutorial",
+    "oxylabs/browser-agent-py",
+    "greensock/GSAP",
+    "OWASP/www-project-top-ten",
+    "modelcontextprotocol/inspector",
+    "vercel/mcp-handler",
+    "QwenLM/Qwen3",
+    "huggingface/awesome-papers",
+    "masamasa59/ai-agent-papers",
+    "OS-Agent-Survey/OS-Agent-Survey"
+  ],
+  "custom_license": [
+    "Significant-Gravitas/AutoGPT",
+    "BerriAI/litellm",
+    "mastra-ai/mastra",
+    "vercel/ai",
+    "openclaw/openclaw",
+    "JuliusBrussee/caveman",
+    "hesreallyhim/awesome-claude-code",
+    "Imbad0202/academic-research-skills",
+    "charmbracelet/crush",
+    "sweepai/sweep",
+    "f/prompts.chat",
+    "rasbt/LLMs-from-scratch",
+    "anthropics/courses",
+    "nodejs/node",
+    "oven-sh/bun",
+    "graphql/graphql-spec",
+    "redis/redis",
+    "cockroachdb/cockroach",
+    "mongodb/mongo",
+    "timescale/timescaledb",
+    "pgvector/pgvector",
+    "postgres/postgres",
+    "sqlite/sqlite",
+    "donnemartin/system-design-primer",
+    "n8n-io/n8n",
+    "zed-industries/zed",
+    "hashicorp/terraform",
+    "PostHog/posthog",
+    "TabbyML/tabby",
+    "activepieces/activepieces",
+    "python/mypy",
+    "microsoft/pyright",
+    "highlight/highlight",
+    "npryce/adr-tools",
+    "adr/madr",
+    "langfuse/langfuse",
+    "openai/evals",
+    "Arize-ai/phoenix",
+    "Tencent/AICGSecEval",
+    "ServiceNow/AgentLab",
+    "open-webui/open-webui",
+    "lobehub/lobehub",
+    "nocodb/nocodb",
+    "withastro/astro",
+    "dubinc/dub",
+    "vercel/chatbot",
+    "formbricks/formbricks",
+    "modelcontextprotocol/modelcontextprotocol",
+    "OWASP/Top10",
+    "OWASP/API-Security",
+    "modelcontextprotocol/servers",
+    "oraios/serena",
+    "mksglu/context-mode",
+    "modelcontextprotocol/typescript-sdk",
+    "modelcontextprotocol/registry",
+    "getsentry/sentry-mcp",
+    "meta-llama/llama-models"
+  ],
+  "stale_over_180d": [
+    [
+      "12factor/12factor-br",
+      3863
+    ],
+    [
+      "huggingface/awesome-papers",
+      2145
+    ],
+    [
+      "google-deepmind/funsearch",
+      953
+    ],
+    [
+      "ysymyth/ReAct",
+      952
+    ],
+    [
+      "npryce/adr-tools",
+      872
+    ],
+    [
+      "joonspk-research/generative_agents",
+      770
+    ],
+    [
+      "protectai/rebuff",
+      768
+    ],
+    [
+      "madaan/self-refine",
+      710
+    ],
+    [
+      "rsms/inter",
+      665
+    ],
+    [
+      "httpie/cli",
+      636
+    ],
+    [
+      "noahshinn/reflexion",
+      609
+    ],
+    [
+      "princeton-nlp/tree-of-thought-llm",
+      606
+    ],
+    [
+      "lavague-ai/LaVague",
+      602
+    ],
+    [
+      "EvolvingLMMs-Lab/open-r1-multimodal",
+      584
+    ],
+    [
+      "PRIME-RL/PRIME",
+      546
+    ],
+    [
+      "lmarena/arena-hard-auto",
+      451
+    ],
+    [
+      "deepseek-ai/DeepSeek-R1",
+      445
+    ],
+    [
+      "LiveCodeBench/LiveCodeBench",
+      426
+    ],
+    [
+      "bigcode-project/bigcode-evaluation-harness",
+      420
+    ],
+    [
+      "sourcegraph/cody-public-snapshot",
+      410
+    ],
+    [
+      "tatsu-lab/alpaca_eval",
+      402
+    ],
+    [
+      "OS-Agent-Survey/OS-Agent-Survey",
+      395
+    ],
+    [
+      "sail-sg/understand-r1-zero",
+      384
+    ],
+    [
+      "deepseek-ai/DeepSeek-V3",
+      383
+    ],
+    [
+      "sweepai/sweep",
+      362
+    ],
+    [
+      "evalplus/evalplus",
+      347
+    ],
+    [
+      "plandex-ai/plandex",
+      346
+    ],
+    [
+      "tremorlabs/tremor",
+      340
+    ],
+    [
+      "OSU-NLP-Group/Mind2Web",
+      314
+    ],
+    [
+      "TheAgentCompany/TheAgentCompany",
+      301
+    ],
+    [
+      "stanfordmlgroup/MedAgentBench",
+      297
+    ],
+    [
+      "web-arena-x/webarena",
+      292
+    ],
+    [
+      "t3-oss/create-t3-app",
+      276
+    ],
+    [
+      "NousResearch/Hermes-Function-Calling",
+      267
+    ],
+    [
+      "OWASP/www-project-top-ten",
+      264
+    ],
+    [
+      "bigcode-project/bigcodebench",
+      255
+    ],
+    [
+      "QwenLM/Qwen3",
+      249
+    ],
+    [
+      "invariantlabs-ai/invariant",
+      246
+    ],
+    [
+      "FoundationAgents/MetaGPT",
+      237
+    ],
+    [
+      "mlabonne/llm-course",
+      222
+    ],
+    [
+      "meta-llama/llama-models",
+      215
+    ],
+    [
+      "vibrantlabsai/ragas",
+      203
+    ],
+    [
+      "dair-ai/Prompt-Engineering-Guide",
+      187
+    ]
+  ],
+  "tier_distribution": {
+    "S": 214,
+    "A": 127,
+    "B": 29,
+    "C": 16,
+    "UNVERIFIED": 15,
+    "ARCHIVED": 10,
+    "EXPERIMENTAL": 3
+  },
+  "status_distribution": {
+    "ACTIVE": 296,
+    "STABLE": 82,
+    "MAINTENANCE": 19,
+    "ARCHIVED": 10,
+    "ABANDONED": 7
+  },
+  "category_distribution": {
+    "developer-tools": 81,
+    "frontend": 54,
+    "agent-skills": 42,
+    "evaluation": 38,
+    "mcp-servers": 35,
+    "agent-frameworks": 33,
+    "browser-automation": 29,
+    "reasoning-research": 26,
+    "ai": 24,
+    "backend": 21,
+    "databases": 17,
+    "instructions-standards": 14
+  }
+}

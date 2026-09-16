@@ -1,0 +1,279 @@
+{
+  "_comment": "CURATED JUDGEMENT, merged into metadata/repositories.json by scripts/update/fetch_github_metadata.py. Facts (stars, license, status, dates) are NEVER written here - they come from the GitHub API. Everything here is a human/agent assessment and is labelled with claim_type in the generated card.",
+  "updated": "2026-09-15",
+  "claim_type_default": "recommendation",
+  "curation": {
+    "microsoft/autogen": {
+      "relevance": "historical",
+      "status_note": "MAINTENANCE",
+      "recommended_for": ["Understanding the origin of multi-agent conversation patterns", "Reading historical research context"],
+      "not_recommended_for": ["New production agent systems", "Long-term dependency in a 2026+ roadmap"],
+      "strengths": ["Established the multi-agent conversation abstraction that most later frameworks copied", "Very large contributor base (444 verified)", "Extensive published research and examples"],
+      "weaknesses": ["No push in 153 days as of 2026-09-15 (verified)", "Microsoft's active investment moved to microsoft/agent-framework", "Conversation-centric model makes durable state and checkpointing awkward"],
+      "related_projects": ["microsoft/agent-framework", "microsoft/semantic-kernel", "camel-ai/camel"],
+      "notes": "Verified 2026-09-15: microsoft/autogen is in maintenance mode. Microsoft recommends microsoft/agent-framework for new work. Do not start a new project on AutoGen; migrate existing ones deliberately."
+    },
+    "microsoft/agent-framework": {
+      "relevance": "primary",
+      "recommended_for": ["New enterprise agent systems on .NET or Python", "Teams that need Microsoft-supported lifecycle and security patching", "Migrating off AutoGen or Semantic Kernel"],
+      "not_recommended_for": ["Projects that need a minimal, dependency-light Python agent loop", "Teams standardising on the LangChain ecosystem"],
+      "strengths": ["Actively developed by Microsoft with 253 contributors (verified)", "Successor to both AutoGen and Semantic Kernel", "First-class multi-agent workflows, threading and observability", "MIT license"],
+      "weaknesses": ["Younger than the frameworks it replaces, so fewer community answers", "Enterprise orientation adds ceremony for small scripts"],
+      "related_projects": ["microsoft/autogen", "microsoft/semantic-kernel", "microsoft/mcp"],
+      "notes": "Verified 2026-09-15: ACTIVE, release dotnet-1.21.0, MIT."
+    },
+    "langchain-ai/langgraph": {
+      "relevance": "primary",
+      "recommended_for": ["Stateful, multi-step agents that must survive restarts", "Human-in-the-loop approval gates", "Cyclic graphs where a linear chain is not enough", "Durable long-running workflows with checkpointing"],
+      "not_recommended_for": ["A single tool call with no state", "Teams that want a typed-Python-first API with minimal abstraction", "Prototypes where the graph definition costs more than the logic"],
+      "strengths": ["Explicit graph + checkpoint model gives durable, resumable agents", "Native human-in-the-loop interrupts", "Large ecosystem and integration surface (279 contributors verified)", "Strong observability via LangSmith"],
+      "weaknesses": ["Graph boilerplate for simple tasks", "Abstraction changes between major versions have historically required migration work", "Debugging a graph is harder than debugging a function"],
+      "related_projects": ["langchain-ai/langchain", "pydantic/pydantic-ai", "temporalio/temporal"],
+      "notes": "Verified 2026-09-15: ACTIVE, MIT, q=8.35."
+    },
+    "pydantic/pydantic-ai": {
+      "relevance": "primary",
+      "recommended_for": ["Python agents that must return validated structured output", "Type-safe tool definitions", "Declarative agent specification and dependency injection", "Teams already using Pydantic and FastAPI"],
+      "not_recommended_for": [".NET or Java shops", "Multi-agent systems needing a durable graph runtime out of the box"],
+      "strengths": ["Model-agnostic with a typed, Pydantic-native API", "First-class structured outputs, tools, MCP client support, web search, code execution and sub-agents", "Declarative agent definition with typed dependencies", "Very high contributor count for its age (476 verified) and frequent releases (v2.43.0)"],
+      "weaknesses": ["Python only", "Younger ecosystem than LangChain's"],
+      "related_projects": ["langchain-ai/langgraph", "modelcontextprotocol/python-sdk", "colinhacks/zod"],
+      "notes": "Verified 2026-09-15: ACTIVE, MIT, q=8.92, trust 8.x - one of the strongest scores in the registry."
+    },
+    "NousResearch/hermes-agent": {
+      "relevance": "primary",
+      "recommended_for": ["Studying self-improving agent architecture", "Agents that synthesise skills from their own successful trajectories", "Open, MIT-licensed reference for procedural memory"],
+      "not_recommended_for": ["Assuming it is a drop-in replacement for a coding harness without reading its docs", "Environments that cannot tolerate an agent writing to its own skill store"],
+      "strengths": ["Highest quality score in this registry (9.05 verified 2026-09-15)", "MIT license, 401 contributors, dated releases (v2026.9.14)", "Explicit self-improvement loop: experience -> skill candidate -> validated skill", "Very high adoption for an agent project (245k+ stars verified)"],
+      "weaknesses": ["Self-modifying skill stores are a security surface: a bad trajectory can poison future runs", "Fast-moving; APIs and skill formats change between dated releases"],
+      "related_projects": ["obra/superpowers", "anthropics/skills", "VoltAgent/awesome-agent-skills", "thedotmack/claude-mem"],
+      "notes": "Verified 2026-09-15: ACTIVE, MIT, release v2026.9.14. The initial seed slug 404'd on the first run and was confirmed via GitHub search before being re-fetched - see metadata/fetch-report.json."
+    },
+    "obra/superpowers": {
+      "relevance": "primary",
+      "recommended_for": ["Studying skill authoring discipline and skill testing", "Subagent-driven development, brainstorming, planning and review workflows", "Adopting a proven agentic software-development methodology"],
+      "not_recommended_for": ["Blindly copying every skill without evaluating fit", "Treating it as a library dependency rather than a methodology reference"],
+      "strengths": ["Extraordinary adoption for a methodology repo (287k stars verified, created 2025-10-09)", "MIT license, versioned releases (v6.3.0)", "Explicit skill-testing methodology and writing-skills guidance", "Workflow patterns (brainstorm -> plan -> implement -> review) map cleanly onto this repository's workflow format"],
+      "weaknesses": ["Opinionated; some workflow steps assume a specific harness", "Growth this fast usually means documentation lags the code"],
+      "related_projects": ["anthropics/skills", "VoltAgent/awesome-agent-skills", "addyosmani/agent-skills", "NousResearch/hermes-agent"],
+      "notes": "Verified 2026-09-15: ACTIVE, MIT, q=8.1, 37 contributors. Analysed as a methodology source in knowledge/ai-engineering/agentic-coding/superpowers-analysis.md, not merely catalogued."
+    },
+    "anthropics/skills": {
+      "relevance": "primary",
+      "recommended_for": ["Reference for the SKILL.md format and progressive disclosure", "Understanding how a vendor structures first-party skills"],
+      "not_recommended_for": ["Copying or redistributing its content: GitHub detected NO license file on 2026-09-15", "Vendoring any file from it into this repository"],
+      "strengths": ["Canonical example of the skill format from the vendor that popularised it", "Very high adoption (176k stars verified)", "Actively maintained"],
+      "weaknesses": ["No license detected by GitHub - default copyright applies, so redistribution is not permitted", "No releases, so there is no stable version to pin"],
+      "related_projects": ["openai/skills", "google-gemini/gemini-skills", "VoltAgent/awesome-agent-skills"],
+      "notes": "Verified 2026-09-15: license NONE. Reference and link only; never vendor."
+    },
+    "openai/skills": {
+      "relevance": "supporting",
+      "recommended_for": ["Comparing OpenAI's skill cataloguing approach with Anthropic's", "Understanding cross-vendor skill portability"],
+      "not_recommended_for": ["Assuming it is the current recommended distribution channel without checking OpenAI's docs", "Vendoring content: no license detected"],
+      "strengths": ["Useful for studying skill taxonomy and catalogue structure", "35 contributors, recent activity"],
+      "weaknesses": ["No license detected by GitHub on 2026-09-15", "Small README (1.8 KB) relative to its star count - the substance lives elsewhere", "No releases"],
+      "related_projects": ["anthropics/skills", "google-gemini/gemini-skills", "openai/codex"],
+      "notes": "The brief asked whether this repository is deprecated. Verified 2026-09-15: it is NOT archived and received a push 6 days before verification, so it is live - but its low documentation volume means it should be treated as a catalogue pointer, not a knowledge source. Check OpenAI's official docs for the currently recommended skill mechanism before building on it."
+    },
+    "VoltAgent/awesome-agent-skills": {
+      "relevance": "primary",
+      "recommended_for": ["Seed discovery of skills across Claude, Codex, Cursor, Gemini CLI, Copilot, OpenCode and Windsurf", "Tracking which agent ecosystems have skill catalogues at all"],
+      "not_recommended_for": ["Trusting any listed skill without verifying it individually", "Assuming inclusion implies quality"],
+      "strengths": ["MIT licensed (rare for awesome-lists)", "166 contributors - genuinely community-maintained", "Cross-ecosystem coverage rather than single-vendor", "Pushed on the verification date"],
+      "weaknesses": ["It is a catalogue: entries are not individually verified", "No releases, so there is no stable snapshot to cite"],
+      "related_projects": ["hesreallyhim/awesome-claude-code", "ComposioHQ/awesome-claude-skills", "VoltAgent/awesome-openclaw-skills", "punkpeye/awesome-mcp-servers"],
+      "notes": "Verified 2026-09-15: ACTIVE, MIT, 34.3k stars, README ~220 KB. Every skill taken from it is re-verified before entering this repository."
+    },
+    "hesreallyhim/awesome-claude-code": {
+      "relevance": "supporting",
+      "recommended_for": ["Broad discovery of Claude Code resources, tools and community skills"],
+      "not_recommended_for": ["Automatic ingestion - the list is large and not individually vetted", "Vendoring content: non-SPDX license"],
+      "strengths": ["Very large resource surface (~195 KB README verified)", "Has SECURITY.md and CI, unusual for a catalogue", "14 contributors, pushed on verification date"],
+      "weaknesses": ["License is non-SPDX (NOASSERTION) - read it before reusing", "Single-maintainer concentration (14 contributors for 54k stars)"],
+      "related_projects": ["VoltAgent/awesome-agent-skills", "anthropics/claude-code", "ComposioHQ/awesome-claude-skills"],
+      "notes": "Verified 2026-09-15: ACTIVE, 54k stars, NOASSERTION license. Use as a discovery layer only; re-verify each resource."
+    },
+    "browser-use/browser-use": {
+      "relevance": "primary",
+      "recommended_for": ["Agents that must operate a real browser", "Web research automation", "Form filling and multi-step web task completion"],
+      "not_recommended_for": ["Deterministic test suites where Playwright alone is sufficient", "High-assurance flows without a human gate (payments, account changes)"],
+      "strengths": ["Very high adoption (114k stars verified) and 360 contributors", "MIT license, frequent releases (0.13.10)", "Active sibling projects: browser-harness (self-healing), desktop, bux"],
+      "weaknesses": ["Non-deterministic by nature: the same task can take different paths", "Real browser sessions are a large prompt-injection and data-exfiltration surface", "Token cost per task is high"],
+      "related_projects": ["browser-use/browser-harness", "microsoft/playwright-mcp", "browserbase/stagehand", "web-infra-dev/midscene", "ChromeDevTools/chrome-devtools-mcp"],
+      "notes": "Verified 2026-09-15: ACTIVE, MIT, q=8.62."
+    },
+    "microsoft/playwright-mcp": {
+      "relevance": "primary",
+      "recommended_for": ["Giving a coding agent browser control through MCP", "Accessibility-tree-based automation rather than pixel clicking", "Reproducible browser testing from an agent"],
+      "not_recommended_for": ["Unattended agents with write access to authenticated sessions", "Assuming it replaces visual/computer-use agents when the task needs screenshots"],
+      "strengths": ["Official Microsoft project, Apache-2.0", "Frequent releases (v0.0.81 verified), 70 contributors", "Ships agent-oriented integration examples including .claude/skills", "Accessibility-tree driven, which is more stable and cheaper than vision-based clicking"],
+      "weaknesses": ["Version 0.x: expect interface churn", "Browser control plus network egress is a high-risk permission combination"],
+      "related_projects": ["microsoft/playwright", "ChromeDevTools/chrome-devtools-mcp", "browser-use/browser-use", "browserbase/mcp-server-browserbase"],
+      "notes": "Verified 2026-09-15: ACTIVE, Apache-2.0, q=8.9 - the strongest MCP entry in the registry."
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "relevance": "primary",
+      "recommended_for": ["Performance tracing, network inspection and console debugging from an agent", "Frontend debugging workflows that need real DevTools data"],
+      "not_recommended_for": ["Cross-browser testing (Chrome-only)", "Environments where a full browser profile is unacceptable"],
+      "strengths": ["Official Chrome DevTools team project, Apache-2.0", "Very high adoption for an MCP server (52k stars verified)", "Pushed on the verification date"],
+      "weaknesses": ["Chrome-only", "Exposes runtime page state, so treat page content as untrusted input"],
+      "related_projects": ["microsoft/playwright-mcp", "AgentDeskAI/browser-tools-mcp", "GoogleChrome/lighthouse"],
+      "notes": "Discovered via topic:mcp-server search on 2026-09-15 and verified the same day."
+    },
+    "supabase/mcp": {
+      "relevance": "primary",
+      "recommended_for": ["Agents managing Supabase projects: database, auth, storage, edge functions", "Schema inspection and migration drafting"],
+      "not_recommended_for": ["Granting write/admin scope in production without a human approval gate", "Assuming row-level security is configured correctly because the MCP succeeded"],
+      "strengths": ["Official Supabase project, Apache-2.0", "Release-tagged server (mcp-server-supabase-v0.12.0 verified)", "Read-only mode available as a safe default"],
+      "weaknesses": ["Only 24 contributors - concentrated maintenance", "Database admin scope plus network egress is a high-risk permission set", "The brief's seed slug supabase-community/supabase-mcp now redirects here"],
+      "related_projects": ["supabase/supabase", "neondatabase/mcp-server-neon", "crystaldba/postgres-mcp", "drizzle-team/drizzle-orm"],
+      "notes": "Verified 2026-09-15: ACTIVE, Apache-2.0, q=8.07. Seed slug supabase-community/supabase-mcp resolved to supabase/mcp."
+    },
+    "deepseek-ai/DeepSeek-R1": {
+      "relevance": "primary",
+      "repo_kind_note": "published research artifact",
+      "recommended_for": ["Studying the published RL recipe for reasoning models", "Reading the technical report that accompanies the open checkpoints"],
+      "not_recommended_for": ["Treating the repository as a maintained SDK", "Expecting bug fixes or security patches"],
+      "strengths": ["MIT license on a frontier-class reasoning artifact", "Accompanied by a peer-reviewed paper (Nature 645:633-638, 2025)", "Very high adoption (92k stars verified)"],
+      "weaknesses": ["No push in 445 days (verified 2026-09-15) - it is a publication, not a product", "Only 12 contributors"],
+      "related_projects": ["huggingface/open-r1", "volcengine/verl", "OpenRLHF/OpenRLHF", "QwenLM/Qwen3"],
+      "notes": "IMPORTANT CLASSIFICATION NOTE: a naive staleness rule labels this ABANDONED. It is not. It is a published research artifact whose value does not depend on commit activity. This repository carries repo_kind=model-release so the classifier reports STABLE. See knowledge/ai-engineering/repository-status.md."
+    },
+    "EleutherAI/lm-evaluation-harness": {
+      "relevance": "primary",
+      "recommended_for": ["Reproducible few-shot evaluation across a large catalogue of benchmarks", "Comparing models on a common harness instead of vendor-reported numbers", "CI gates for model or prompt changes"],
+      "not_recommended_for": ["Evaluating agent behaviour end-to-end (use an agent benchmark)", "Assuming a high score transfers to your task distribution"],
+      "strengths": ["The de-facto standard open evaluation harness", "MIT, 435 contributors, release v0.4.13, pushed 1 day before verification", "Task definitions are declarative and inspectable"],
+      "weaknesses": ["Benchmark contamination is a standing risk for older tasks", "Few-shot prompting results are sensitive to formatting"],
+      "related_projects": ["stanford-crfm/helm", "huggingface/lighteval", "open-compass/opencompass", "openai/simple-evals"],
+      "notes": "Verified 2026-09-15: ACTIVE, MIT, q=8.9."
+    },
+    "stanford-crfm/helm": {
+      "relevance": "primary",
+      "recommended_for": ["Studying holistic evaluation methodology: multiple metrics across multiple scenarios", "Taxonomy of what to measure beyond accuracy (bias, toxicity, robustness, efficiency)", "Archival reference for benchmark design"],
+      "not_recommended_for": ["Assuming the leaderboard reflects the current model landscape without checking the run date", "As a lightweight dependency - it is a large framework"],
+      "strengths": ["Apache-2.0, from Stanford CRFM", "The methodology (scenario x metric x adaptation) is the most influential evaluation framing in the field", "Still receiving pushes (14 days before verification) with release v0.5.16"],
+      "weaknesses": ["Only 2.9k stars relative to its influence - adoption as a *tool* is lower than as a *reference*", "Heavy to run end-to-end"],
+      "related_projects": ["EleutherAI/lm-evaluation-harness", "huggingface/lighteval", "crfm/..."],
+      "notes": "The brief expected HELM to be in maintenance mode by 2026. Verified 2026-09-15: the repository is NOT archived and was pushed 14 days before verification, so it is still active - but its role in this knowledge base is primarily methodological reference rather than day-to-day tooling. Recorded as a CONFLICT between the brief's expectation and the observed data; the observation wins."
+    },
+    "lucia-auth/lucia": {
+      "relevance": "historical",
+      "recommended_for": ["Reading its authentication learning material", "Understanding why session-based auth guidance changed"],
+      "not_recommended_for": ["New projects: Lucia v3 was retired as an installable library and repositioned as a learning resource"],
+      "strengths": ["Its documentation and teaching material on sessions, tokens and CSRF remain valuable", "Influenced a generation of TypeScript auth implementations"],
+      "weaknesses": ["Not a maintained library dependency any more", "Migrating to it now means adopting a retired package"],
+      "related_projects": ["better-auth/better-auth", "ory/kratos", "supabase/auth", "keycloak/keycloak"],
+      "notes": "A textbook example of why maintenance status must be verified rather than remembered. Confirm the current position on the project's own site before citing."
+    },
+    "openclaw/openclaw": {
+      "relevance": "primary",
+      "recommended_for": ["Cross-platform agent execution", "Studying the largest agent-harness ecosystem by adoption"],
+      "not_recommended_for": ["Assuming its skill ecosystem is individually vetted - see VoltAgent/awesome-openclaw-skills", "Environments that require an OSI-approved license (custom license detected)"],
+      "strengths": ["Largest repository in this registry by stars (389k verified 2026-09-15)", "Pushed on the verification date", "Broad OS/platform support"],
+      "weaknesses": ["Non-SPDX license - read the terms before vendoring", "Enormous ecosystem growth means third-party skills are a supply-chain risk"],
+      "related_projects": ["VoltAgent/awesome-openclaw-skills", "hesamsheikh/awesome-openclaw-usecases", "iOfficeAI/AionUi"],
+      "notes": "Discovered 2026-09-15 via GitHub topic search; not in the original seed list."
+    },
+    "addyosmani/agent-skills": {
+      "relevance": "primary",
+      "recommended_for": ["Production-grade engineering skills for coding agents", "A high-authority reference point for skill quality"],
+      "not_recommended_for": ["Assuming every skill fits your stack - evaluate individually"],
+      "strengths": ["Author has recognised authority on web engineering", "Very high adoption (94k stars verified)", "Framed as production-grade engineering skills rather than prompt tricks"],
+      "weaknesses": ["Web/frontend weighted", "Rapidly growing star count means content quality may vary between entries"],
+      "related_projects": ["anthropics/skills", "obra/superpowers", "VoltAgent/awesome-agent-skills"],
+      "notes": "Discovered via topic:agent-skills search on 2026-09-15."
+    },
+    "oraios/serena": {
+      "relevance": "primary",
+      "recommended_for": ["Semantic code retrieval and editing as an MCP toolkit", "Reducing token cost by giving agents symbol-level access instead of whole files"],
+      "not_recommended_for": ["Repositories where an LSP server is unavailable for the language"],
+      "strengths": ["Symbol-level retrieval maps directly onto the context-engineering goal of loading less and loading better", "High adoption for an MCP project (29k stars verified)"],
+      "weaknesses": ["Depends on language-server infrastructure", "Filesystem plus code-edit permissions raise the risk level"],
+      "related_projects": ["DeusData/codebase-memory-mcp", "upstash/context7", "Graphify-Labs/graphify"],
+      "notes": "Discovered via topic:mcp-server search on 2026-09-15."
+    },
+    "upstash/context7": {
+      "relevance": "primary",
+      "recommended_for": ["Feeding current library documentation into an agent at request time", "Reducing reliance on stale training data for fast-moving frameworks"],
+      "not_recommended_for": ["Offline or air-gapped environments", "Assuming fetched documentation is authoritative over the vendor's own site"],
+      "strengths": ["Directly addresses the number one cause of agent coding errors: outdated API knowledge", "Very high adoption (62k stars verified)", "Remote-hosted, so setup is trivial"],
+      "weaknesses": ["External service dependency and network egress", "Coverage varies by library"],
+      "related_projects": ["oraios/serena", "modelcontextprotocol/servers", "firecrawl/firecrawl-mcp-server"],
+      "notes": "Verified 2026-09-15."
+    },
+    "greensock/GSAP": {
+      "relevance": "primary",
+      "recommended_for": ["Complex timeline animation, scroll-driven sequences, SVG path animation"],
+      "not_recommended_for": ["Simple one-off transitions where CSS or Motion is enough", "Blindly vendoring: GitHub detected no license file on 2026-09-15"],
+      "strengths": ["The most capable general-purpose web animation library", "Long track record, huge body of examples", "Pushed 155 days before verification"],
+      "weaknesses": ["No license detected by the GitHub API on 2026-09-15 - the terms changed over time, so read the current license on the official site before vendoring or redistributing", "Larger than CSS/Motion for simple cases"],
+      "related_projects": ["motiondivision/motion", "mrdoob/three.js", "pmndrs/react-three-fiber"],
+      "notes": "License status must be confirmed on gsap.com before any vendoring. This record deliberately states the API observation, not a remembered license name."
+    },
+    "vercel/next.js": {
+      "relevance": "primary",
+      "recommended_for": ["Production React applications needing SSR, SSG, ISR and API routes", "The default choice for AI-built SaaS dashboards and marketing sites in this knowledge base's target stack"],
+      "not_recommended_for": ["Purely static single-page apps where Vite + React is simpler", "Teams that cannot accept a fast major-version cadence"],
+      "strengths": ["142k stars, MIT, pushed on the verification date", "App Router + Server Components + Server Actions cover most full-stack needs", "Deepest integration with the shadcn/ui and Tailwind ecosystem"],
+      "weaknesses": ["Rapid change: App Router guidance from 2023-2024 is frequently wrong for current versions", "Caching semantics are the single most common source of AI-generated Next.js bugs"],
+      "related_projects": ["react/react", "shadcn-ui/ui", "tailwindlabs/tailwindcss", "vercel/ai", "vercel/turborepo"],
+      "notes": "Verified 2026-09-15. Because caching and Server Component rules change often, every Next.js claim in this knowledge base must carry a verified_at date."
+    },
+    "react/react": {
+      "relevance": "primary",
+      "recommended_for": ["All React work", "Checking current behaviour against the canonical implementation"],
+      "not_recommended_for": ["Citing the old facebook/react URL in new documentation - it redirects today but will not forever"],
+      "strengths": ["250k stars, MIT, the canonical implementation", "Pushed on the verification date"],
+      "weaknesses": ["The repository moved from facebook/react to react/react; hard-coded URLs in older content are now stale"],
+      "related_projects": ["vercel/next.js", "vitejs/vite", "TanStack/query"],
+      "notes": "Verified 2026-09-15: the seed slug facebook/react returned HTTP 301 and resolved to react/react. This is exactly the kind of move that silently breaks agent knowledge bases."
+    },
+    "sourcegraph/cody-public-snapshot": {
+      "relevance": "historical",
+      "recommended_for": ["Historical study of context-window management in a shipping coding assistant"],
+      "not_recommended_for": ["Any new work - the repository is ARCHIVED"],
+      "strengths": ["Apache-2.0 public snapshot of a real production coding agent", "Useful for studying how context selection was engineered in practice"],
+      "weaknesses": ["ARCHIVED (verified 2026-09-15): read-only, no patches, no security fixes"],
+      "related_projects": ["continuedev/continue", "cline/cline", "All-Hands-AI/OpenHands"],
+      "notes": "The original seed slug sourcegraph/cody now 404s. Verified replacement: sourcegraph/cody-public-snapshot, archived. Recorded as a discontinuation, not as a recommendation."
+    },
+    "protectai/rebuff": {
+      "relevance": "historical",
+      "recommended_for": ["Reading about early prompt-injection detection approaches"],
+      "not_recommended_for": ["Production prompt-injection defence - the project is ARCHIVED (last push 768 days before verification)"],
+      "strengths": ["Apache-2.0", "One of the first dedicated prompt-injection detectors"],
+      "weaknesses": ["ARCHIVED and unmaintained for over two years", "Detection-only; no mitigation path"],
+      "related_projects": ["NVIDIA/garak", "protectai/llm-guard", "promptfoo/promptfoo"],
+      "notes": "Verified 2026-09-15: archived. protectai/llm-guard is also archived. Both are recorded so that agents do not recommend dead defences."
+    },
+    "microsoft/fara": {
+      "relevance": "primary",
+      "recommended_for": ["Studying frontier computer-use agent models from a major lab", "Comparing vision-grounded computer use against DOM-based automation"],
+      "not_recommended_for": ["Assuming the weights are freely redistributable without reading the license"],
+      "strengths": ["Official Microsoft release of a computer-use agent model family", "Directly relevant to the computer-use section of this knowledge base"],
+      "weaknesses": ["Newer and less battle-tested than DOM-based automation", "Computer-use agents operate at the pixel level, so they are slower and less reliable than accessibility-tree approaches"],
+      "related_projects": ["microsoft/OmniParser", "bytedance/UI-TARS-desktop", "trycua/cua", "xlang-ai/OSWorld"],
+      "notes": "Discovered via topic:computer-use search on 2026-09-15."
+    },
+    "assafelovic/gpt-researcher": {
+      "relevance": "primary",
+      "recommended_for": ["Deep multi-source research agents", "Reference architecture for plan -> search -> read -> synthesise -> cite loops"],
+      "not_recommended_for": ["Assuming its output is fact-checked; it still needs an evidence-validation pass"],
+      "strengths": ["Well-known reference implementation of an autonomous research agent", "High adoption (29k stars verified)"],
+      "weaknesses": ["Research output quality depends entirely on the sources it retrieves", "Cost and latency grow with research depth"],
+      "related_projects": ["Ayanami0730/deep_research_bench", "exa-labs/exa-mcp-server", "firecrawl/firecrawl-mcp-server"],
+      "notes": "Discovered via topic:mcp-server search on 2026-09-15."
+    },
+    "Tencent/AICGSecEval": {
+      "relevance": "supporting",
+      "recommended_for": ["Repository-level security evaluation of AI-generated code", "Building a security gate into an agent's validation phase"],
+      "not_recommended_for": ["Treating a passing score as a substitute for human security review"],
+      "strengths": ["Targets exactly the risk this knowledge base cares about: insecure AI-generated code", "From a major lab"],
+      "weaknesses": ["Benchmark, so contamination and coverage limits apply", "Modest adoption (659 stars verified)"],
+      "related_projects": ["NVIDIA/garak", "promptfoo/promptfoo", "OWASP/Top10"],
+      "notes": "Discovered via topic:agent+topic:benchmark search on 2026-09-15."
+    }
+  }
+}

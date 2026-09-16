@@ -1,0 +1,397 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/common.defs.json",
+  "title": "Shared definitions for the AI Engineering Knowledge Base",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "description": "Stable kebab-case identifier. Never reused, never renamed."
+    },
+    "semver": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "very-high",
+        "high",
+        "medium",
+        "low",
+        "unverified",
+        "conflicting"
+      ],
+      "description": "Research confidence (brief \u00a739). `conflicting` means sources disagree and the disagreement is documented, not hidden."
+    },
+    "evidenceLevel": {
+      "type": "string",
+      "enum": [
+        "verified-github-api",
+        "verified-official-docs",
+        "verified-paper",
+        "verified-benchmark-run",
+        "cross-checked",
+        "single-source",
+        "emerging-consensus",
+        "practitioner-experience",
+        "model-generated"
+      ],
+      "description": "How the claim was established. `model-generated` content must never be presented as fact (brief \u00a778). `emerging-consensus` marks a fast-moving area where practitioners broadly agree but no primary source settles the question; such content carries a short review window."
+    },
+    "claimType": {
+      "type": "string",
+      "enum": [
+        "fact",
+        "recommendation",
+        "experiment",
+        "opinion",
+        "hypothesis",
+        "unknown"
+      ],
+      "description": "Fact vs opinion separation (brief \u00a740)."
+    },
+    "sourceType": {
+      "type": "string",
+      "enum": [
+        "official",
+        "research-paper",
+        "github-repository",
+        "official-docs",
+        "benchmark",
+        "dataset",
+        "agent-skill",
+        "framework",
+        "mcp",
+        "tool",
+        "blog",
+        "tutorial",
+        "discussion",
+        "video",
+        "example",
+        "case-study",
+        "specification",
+        "standard",
+        "community",
+        "experimental",
+        "archived",
+        "deprecated",
+        "methodology",
+        "gallery",
+        "vendor-docs",
+        "package-registry",
+        "news",
+        "other"
+      ],
+      "description": "Where the claim came from. `methodology` = a named, published practice or framework (Di\u00e1taxis, STRIDE, a refactoring catalogue) whose authority is adoption rather than a standards body. `gallery` = curated example collections used as design references; inherently low signal-to-noise, so always cross-checked."
+    },
+    "maintenanceStatus": {
+      "type": "string",
+      "enum": [
+        "ACTIVE",
+        "STABLE",
+        "MAINTENANCE",
+        "ARCHIVED",
+        "EXPERIMENTAL",
+        "ABANDONED",
+        "UNKNOWN"
+      ]
+    },
+    "tier": {
+      "type": "string",
+      "enum": [
+        "S",
+        "A",
+        "B",
+        "C",
+        "EXPERIMENTAL",
+        "ARCHIVED",
+        "UNVERIFIED",
+        "DEPRECATED"
+      ]
+    },
+    "contentClass": {
+      "type": "string",
+      "enum": [
+        "original",
+        "reference",
+        "derived"
+      ],
+      "description": "ORIGINAL = written here. REFERENCE = pointer to an external source. DERIVED = adapted from an external source under a compatible license (brief \u00a742)."
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authority",
+        "evidence",
+        "recency",
+        "adoption",
+        "reproducibility",
+        "practical_value",
+        "maintenance"
+      ],
+      "properties": {
+        "authority": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "evidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "recency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "adoption": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "reproducibility": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "practical_value": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "maintenance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "description": "Weighted score produced by scripts/score/*. 0\u201310 scale, weights documented in knowledge/ai-engineering/source-scoring.md",
+      "additionalProperties": false,
+      "required": [
+        "components",
+        "quality_score",
+        "trust_score",
+        "tier"
+      ],
+      "properties": {
+        "components": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          }
+        },
+        "quality_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "trust_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "tier": {
+          "$ref": "#/$defs/tier"
+        },
+        "maturity": {
+          "type": "string",
+          "enum": [
+            "production-grade",
+            "production-ready",
+            "early",
+            "experimental",
+            "maintenance-mode",
+            "end-of-life"
+          ]
+        },
+        "scored_by": {
+          "type": "string"
+        },
+        "scored_at": {
+          "$ref": "#/$defs/date"
+        }
+      }
+    },
+    "freshness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "verified_at"
+      ],
+      "properties": {
+        "verified_at": {
+          "$ref": "#/$defs/date"
+        },
+        "expires_at": {
+          "$ref": "#/$defs/date"
+        },
+        "stars_checked_at": {
+          "$ref": "#/$defs/date"
+        },
+        "ttl_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "verified_by": {
+          "type": "string"
+        },
+        "verification_method": {
+          "type": "string"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "content_class": {
+          "$ref": "#/$defs/contentClass"
+        },
+        "generated_by": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Model/tool that produced or assisted the content. Required when content_class is derived or when any part is model-generated."
+        },
+        "human_reviewed": {
+          "type": "boolean"
+        },
+        "reviewed_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_at": {
+          "$ref": "#/$defs/date"
+        }
+      }
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url",
+        "type"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 3
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "type": {
+          "$ref": "#/$defs/sourceType"
+        },
+        "repository": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "organization": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "published": {
+          "$ref": "#/$defs/date"
+        },
+        "updated": {
+          "$ref": "#/$defs/date"
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "claim_type": {
+          "$ref": "#/$defs/claimType"
+        },
+        "verified_at": {
+          "$ref": "#/$defs/date"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9.+-]*$"
+      },
+      "uniqueItems": true
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "target"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "requires",
+            "uses",
+            "extends",
+            "conflicts_with",
+            "supersedes",
+            "alternative_to",
+            "documented_by",
+            "implements",
+            "evaluated_by",
+            "depends_on",
+            "related",
+            "derived_from"
+          ]
+        },
+        "target": {
+          "type": "string",
+          "description": "Repo-relative path or knowledge-base id"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

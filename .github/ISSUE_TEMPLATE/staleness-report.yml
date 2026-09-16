@@ -1,0 +1,35 @@
+name: Staleness report
+description: Flag a record whose verified_at / expires_at is out of date or whose upstream changed.
+title: "[stale] "
+labels: ["staleness", "automation"]
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: Repository, skill or source
+      placeholder: microsoft/autogen
+    validations: { required: true }
+  - type: dropdown
+    id: change
+    attributes:
+      label: What changed upstream?
+      options: [new release, breaking change, deprecated, archived, security advisory,
+                API change, renamed or moved, license change, no change but expired]
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes:
+      label: Evidence URL
+  - type: textarea
+    id: impact
+    attributes:
+      label: What guidance in this repository is now wrong?
+  - type: checkboxes
+    id: action
+    attributes:
+      label: Requested action
+      options:
+        - label: Re-run verification (scripts/update/fetch_github_metadata.py)
+        - label: Update the recommendation
+        - label: Move to a "do not use" list with a named successor
+        - label: Record the change in CHANGELOG.md under Security/Deprecated

@@ -1,0 +1,416 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/mcp.schema.json",
+  "title": "MCP Server Record",
+  "description": "A Model Context Protocol server: what tools it exposes, what it can touch, and how dangerous that is.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "purpose",
+    "distribution",
+    "official",
+    "security",
+    "verified_at"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.defs.json#/$defs/id"
+    },
+    "name": {
+      "type": "string"
+    },
+    "repository": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "owner/name"
+    },
+    "url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "npm_package": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pypi_package": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "uvx": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "npx": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "distribution": {
+      "type": "string",
+      "enum": [
+        "npm",
+        "pypi",
+        "binary",
+        "docker",
+        "hosted",
+        "monorepo",
+        "source"
+      ]
+    },
+    "official": {
+      "type": "boolean"
+    },
+    "maintainer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 20
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "browser",
+        "filesystem",
+        "vcs",
+        "database",
+        "search",
+        "documentation",
+        "cloud",
+        "communication",
+        "observability",
+        "ci-cd",
+        "payments",
+        "design",
+        "knowledge",
+        "other"
+      ]
+    },
+    "transport": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "stdio",
+          "sse",
+          "streamable-http"
+        ]
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prompts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authentication": {
+      "type": "string",
+      "enum": [
+        "none",
+        "api-key",
+        "oauth",
+        "pat",
+        "cloud-iam",
+        "local-session",
+        "mixed"
+      ]
+    },
+    "permissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "filesystem": {
+          "type": "string",
+          "enum": [
+            "none",
+            "read",
+            "write",
+            "read-write",
+            "scoped"
+          ]
+        },
+        "network": {
+          "type": "string",
+          "enum": [
+            "none",
+            "outbound",
+            "inbound",
+            "arbitrary",
+            "allowlisted"
+          ]
+        },
+        "credentials": {
+          "type": "string",
+          "enum": [
+            "none",
+            "scoped-token",
+            "broad-token",
+            "cloud-identity"
+          ]
+        },
+        "database": {
+          "type": "string",
+          "enum": [
+            "none",
+            "read",
+            "write",
+            "admin",
+            "schema-change"
+          ]
+        },
+        "code_execution": {
+          "type": "string",
+          "enum": [
+            "none",
+            "sandboxed",
+            "arbitrary"
+          ]
+        },
+        "side_effects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "browser_control": {
+          "type": "string",
+          "enum": [
+            "none",
+            "read-only",
+            "interact",
+            "full-session"
+          ]
+        }
+      }
+    },
+    "security": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "risk_level"
+      ],
+      "properties": {
+        "risk_level": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "critical"
+          ]
+        },
+        "data_exfiltration_risk": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "prompt_injection_surface": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "tool_poisoning_risk": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "supply_chain_notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "safe_defaults": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "must_not": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Human-readable security observation, e.g. whether SECURITY.md is published."
+        }
+      }
+    },
+    "local_or_remote": {
+      "type": "string",
+      "enum": [
+        "local",
+        "remote",
+        "both"
+      ]
+    },
+    "setup_complexity": {
+      "type": "string",
+      "enum": [
+        "trivial",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "production_readiness": {
+      "type": "string",
+      "enum": [
+        "production",
+        "beta",
+        "experimental",
+        "deprecated"
+      ]
+    },
+    "status": {
+      "$ref": "common.defs.json#/$defs/maintenanceStatus"
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stars": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "tier": {
+      "$ref": "common.defs.json#/$defs/tier"
+    },
+    "quality_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 10
+    },
+    "confidence": {
+      "$ref": "common.defs.json#/$defs/confidence"
+    },
+    "recommended_for": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "not_recommended_for": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "$ref": "common.defs.json#/$defs/tags"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.defs.json#/$defs/sourceRef"
+      }
+    },
+    "verified_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "expires_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "last_verified": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "capability_evidence": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "unverified",
+        "readme-reviewed",
+        "verified",
+        null
+      ],
+      "description": "Whether transport/tool/resource/prompt lists were confirmed from the project's own docs. 'unverified' means the GitHub API could not tell us and nothing was guessed."
+    },
+    "purpose_evidence": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "repository-description",
+        "repository-description-thin",
+        "readme-reviewed",
+        null
+      ],
+      "description": "Where the purpose statement came from."
+    },
+    "license_risk": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Carried through from metadata/repositories.json. 'no-license-do-not-redistribute' blocks vendoring regardless of score."
+    },
+    "stars_checked_at": {
+      "$ref": "common.defs.json#/$defs/date"
+    },
+    "days_since_push": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
