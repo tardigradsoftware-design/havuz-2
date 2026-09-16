@@ -11,7 +11,6 @@ repository: sooperset/mcp-atlassian
 url: https://github.com/sooperset/mcp-atlassian
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: low
   notes: >-

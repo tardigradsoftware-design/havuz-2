@@ -12,7 +12,6 @@ repository: crystaldba/postgres-mcp
 url: https://github.com/crystaldba/postgres-mcp
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

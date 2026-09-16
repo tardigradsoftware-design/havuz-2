@@ -17,7 +17,7 @@ updated: 2026-09-15
 verified_at: 2026-09-15
 expires_at: 2027-03-15
 tags: [release, deployment, versioning, changelog, rollback, rollout, workflow]
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 estimated_duration: 30 minutes for a routine patch; days for a major version with a migration guide

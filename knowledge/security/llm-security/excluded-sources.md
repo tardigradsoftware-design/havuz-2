@@ -7,7 +7,7 @@ summary: >-
   other improperly obtained material — including two high-star public repositories that are
   explicitly named as excluded, the reasoning, and how the policy is enforced mechanically.
 status: active
-confidence: very-high
+confidence: high
 claim_type: recommendation
 evidence_level: cross-checked
 tags: [security, policy, ethics, exclusions, leaked-prompts, model-internals, provenance, legal]

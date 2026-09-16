@@ -5,7 +5,7 @@ domain: ui-ux
 summary: >-
   The complete AI-slop symptom catalogue with machine-checkable detection rules, severity ratings and fix directions, extracted from the skill so the skill body stays inside its context budget.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [reference, ui-ux]

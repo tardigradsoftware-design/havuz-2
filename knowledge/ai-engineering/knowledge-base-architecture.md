@@ -7,7 +7,7 @@ summary: >-
   machine-readable metadata layer beneath a human-readable card layer, schemas as the contract,
   and the retrieval path an agent follows from a task to a graded, sourced answer.
 status: active
-confidence: very-high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [architecture, knowledge-base, progressive-disclosure, schema, index, retrieval, design-decisions]

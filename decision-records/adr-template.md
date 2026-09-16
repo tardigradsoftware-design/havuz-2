@@ -7,7 +7,7 @@ summary: >-
   costs, the decision, the reasoning, what would reopen it, and the review date — plus the rules
   that make an ADR useful rather than ceremonial.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [adr, decision-record, architecture, documentation, templates, reasoning]

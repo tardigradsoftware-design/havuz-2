@@ -181,6 +181,14 @@ def main() -> int:
                 warns.append(f"{rel}: id '{doc.data['id']}' does not match folder '{exp}'")
         if doc.data.get("confidence") == "high" and not (doc.data.get("sources")):
             warns.append(f"{rel}: confidence 'high' with no sources[] — downgrade or cite")
+        # An evidence level caps the confidence a document may claim. Enforced as an
+        # error, corpus-wide, so a claim can never outstate the evidence behind it.
+        # The table lives in scripts/lib/frontmatter.py next to the schema defs it is
+        # derived from, and README.md documents the same rule in prose.
+        cap_err = fm.confidence_cap_error(doc.data.get("evidence_level"),
+                                          doc.data.get("confidence"))
+        if cap_err:
+            errors.append(f"{rel}: {cap_err}")
         if doc.data.get("claim_type") == "fact" and not doc.data.get("sources"):
             errors.append(f"{rel}: claim_type 'fact' requires at least one source")
 

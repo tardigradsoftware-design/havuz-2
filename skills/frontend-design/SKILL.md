@@ -7,7 +7,7 @@ description: >-
   before anything ships.
 category: design
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -54,7 +54,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [visual-design-research, design-systems, ai-slop-detection, motion-design, accessibility-audit, frontend-implementation]
 related_repositories: [shadcn-ui/ui, radix-ui/primitives, tailwindlabs/tailwindcss, nextlevelbuilder/ui-ux-pro-max-skill]
-tests: 6
+tests: 22
 ---
 
 # Frontend Design

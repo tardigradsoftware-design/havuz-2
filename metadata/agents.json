@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:05:33+00:00",
+  "generated_at": "2026-09-16T05:49:50+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "records": 12,
   "$schema": "../schemas/agent.schema.json",
@@ -23,7 +23,7 @@
         "tradeoffs",
         "agent"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "inputs": [
@@ -266,7 +266,7 @@
         "observability",
         "agent"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "inputs": [
@@ -525,7 +525,7 @@
         "modelling",
         "agent"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "inputs": [
@@ -974,7 +974,7 @@
         "state",
         "agent"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "inputs": [
@@ -1486,7 +1486,7 @@
         "test-design",
         "agent"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "inputs": [
@@ -2471,7 +2471,7 @@
         "interaction",
         "agent"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "inputs": [
@@ -2695,7 +2695,7 @@
         "gate",
         "agent"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "inputs": [

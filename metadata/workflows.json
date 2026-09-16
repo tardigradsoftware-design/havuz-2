@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:05:33+00:00",
+  "generated_at": "2026-09-16T05:49:50+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "records": 11,
   "$schema": "../schemas/workflow.schema.json",
@@ -22,7 +22,7 @@
         "quality",
         "workflow"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "estimated_duration": "hours for a landing page; days for a multi-page product surface",
@@ -390,7 +390,7 @@
         "repository",
         "workflow"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "estimated_duration": "30-90 minutes for an adoption assessment; hours for a full codebase onboarding",
@@ -696,7 +696,7 @@
         "evolution",
         "workflow"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "estimated_duration": "half a day for a focused design review; days for a full system review",
@@ -1289,7 +1289,7 @@
         "quality-gate",
         "ai-slop"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "estimated_duration": "hours to days depending on scope; the gates are not optional at any scale",
@@ -2512,7 +2512,7 @@
         "rollout",
         "workflow"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "estimated_duration": "30 minutes for a routine patch; days for a major version with a migration guide",

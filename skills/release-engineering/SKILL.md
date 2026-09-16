@@ -54,7 +54,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [deployment, documentation, migration, dependency-analysis, project-planning]
 related_repositories: [semantic-release/semantic-release, conventional-changelog/standard-version, release-drafter/release-drafter]
-tests: 5
+tests: 20
 ---
 
 # Release Engineering

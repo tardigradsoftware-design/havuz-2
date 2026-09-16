@@ -7,7 +7,7 @@ description: >-
   a rehearsed rollback.
 category: devops
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -53,7 +53,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [release-engineering, testing, backend-engineering, security-audit, performance-audit, migration]
 related_repositories: [argoproj/argo-cd, fluxcd/flux2, hashicorp/terraform, docker/buildx]
-tests: 5
+tests: 25
 ---
 
 # Deployment

@@ -5,7 +5,7 @@ task: Turn a product and an audience into a specific, testable design direction 
 use_case: 'Before any visual implementation begins: a new site or product surface, a redesign, or a build that must not look generated. The brief is the input to design-systems, frontend-design and ai-slop-detection work, and the reference those skills are checked against afterwards.'
 category: ui-ux
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags:

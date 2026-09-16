@@ -61,7 +61,7 @@ sources:
     note: "Obsoletes RFC 7807."
 related_skills: [backend-engineering, database-design, documentation, security-audit, testing]
 related_repositories: [OAI/OpenAPI-Specification, stoplightio/spectral, fern-api/fern, speakeasy-api/speakeasy]
-tests: 6
+tests: 24
 ---
 
 # API Design

@@ -15,7 +15,7 @@ updated: 2026-09-15
 verified_at: 2026-09-15
 expires_at: 2027-03-15
 tags: [testing, qa, quality, verification, evaluation, test-design, agent]
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 inputs:

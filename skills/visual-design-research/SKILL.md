@@ -6,7 +6,7 @@ description: >-
   into transferable principles, define the target aesthetic in writing, and derive a system from it.
 category: design
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -50,7 +50,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [frontend-design, design-systems, ai-slop-detection, competitive-analysis]
 related_repositories: [nextlevelbuilder/ui-ux-pro-max-skill, Leonxlnx/taste-skill, blader/humanizer]
-tests: 6
+tests: 19
 ---
 
 # Visual Design Research

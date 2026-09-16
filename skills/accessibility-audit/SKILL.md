@@ -60,7 +60,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [frontend-design, design-systems, code-review, browser-testing, seo-audit]
 related_repositories: [dequelabs/axe-core, Siteimprove/alfa, microsoft/playwright, a11yproject/a11yproject.com]
-tests: 6
+tests: 20
 ---
 
 # Accessibility Audit

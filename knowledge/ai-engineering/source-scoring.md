@@ -8,7 +8,7 @@ summary: >-
   from observable GitHub API facts or a cited source, never from reputation, star count alone, or
   an invented number.
 status: active
-confidence: very-high
+confidence: high
 claim_type: recommendation
 evidence_level: cross-checked
 tags: [scoring, methodology, source-quality, trust, verification, curation]

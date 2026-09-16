@@ -5,7 +5,7 @@ task: Answer a research question with a graded, cited evidence set rather than a
 use_case: A question whose answer will drive an engineering decision, where being wrong is costly and where the agent must not present an unverified claim as established. Suited to technology selection, vendor or library evaluation, state-of-practice questions, and any question where sources conflict.
 category: research
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags:

@@ -5,7 +5,7 @@ description: >-
   Admit, grade, merge and retire content in the knowledge base: verify provenance and sources, check for duplication and conflict, apply the license and exclusion policy, and decide what enters the active index.
 category: meta
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -74,7 +74,7 @@ sources:
     note: "The schema contract step 10 validates against, with additionalProperties: false."
 related_skills: [skill-authoring, evidence-validation, repository-analysis, documentation]
 related_repositories: []
-tests: 9
+tests: 24
 ---
 # Skill Curation
 

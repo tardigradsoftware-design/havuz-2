@@ -12,7 +12,6 @@ repository: stripe/ai
 url: https://github.com/stripe/ai
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: low
   notes: >-

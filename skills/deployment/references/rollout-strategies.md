@@ -5,7 +5,7 @@ domain: devops
 summary: >-
   Rolling, blue/green, canary, feature flag, shadow, immutable and recreate strategies with their costs and selection rules — extracted from the skill so the skill body stays inside its context budget.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [reference, devops]

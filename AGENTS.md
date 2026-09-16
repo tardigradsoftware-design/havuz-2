@@ -49,8 +49,20 @@ python3 scripts/score/score_skills.py
 python3 scripts/update/check_staleness.py
 ```
 
-There is no application to run and no dev server. "Tests" here means validators
-plus the evaluation suite in [`evaluations/`](evaluations/).
+There is no application to run and no dev server. "Tests" here means two things,
+and only the first exists today:
+
+1. **Validators** — `make validate` runs frontmatter/schema, JSON registry, internal
+   link, policy and duplicate checks. These exist and are enforced in CI.
+2. **Skill test cases** — `skills/*/tests/cases.md`, generated from each skill's own
+   body by `scripts/generate-index/generate_skill_tests.py`. These are authored
+   specifications of what would prove a skill failed; they have not been executed by
+   a harness, so no pass rate is recorded.
+
+A 40-task effectiveness suite for the knowledge base itself is **specified but not
+built**; [`evaluations/`](evaluations/) holds scaffolding only. Do not describe it as
+existing, and do not cite an effectiveness claim for this repository — see
+[`CHANGELOG.md`](CHANGELOG.md), "Known gaps at release".
 
 ---
 

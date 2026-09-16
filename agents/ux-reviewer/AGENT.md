@@ -15,7 +15,7 @@ updated: 2026-09-15
 verified_at: 2026-09-15
 expires_at: 2027-03-15
 tags: [ux, usability, review, information-architecture, interaction, agent]
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 inputs:

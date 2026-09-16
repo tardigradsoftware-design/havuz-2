@@ -6,7 +6,7 @@ description: >-
   tradeoffs, positioning gaps and a defensible recommendation rather than a verdict.
 category: research
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -43,7 +43,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [web-research, evidence-validation, repository-analysis, dont-reinvent-the-wheel, visual-design-research]
 related_repositories: [ossf/scorecard, lmarena/arena-hard-auto]
-tests: 6
+tests: 21
 ---
 
 # Competitive Analysis

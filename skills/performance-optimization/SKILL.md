@@ -5,7 +5,7 @@ description: >-
   Improve performance from measured evidence: establish a baseline, localise the layer, profile with the tool that answers the question, change one thing, re-measure against the noise floor, and keep or revert.
 category: performance
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -77,7 +77,7 @@ sources:
     note: "The database branch of step 5."
 related_skills: [database-optimization, debugging, frontend-design, architecture-design, testing]
 related_repositories: []
-tests: 9
+tests: 22
 ---
 # Performance Optimization
 

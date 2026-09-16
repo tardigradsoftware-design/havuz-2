@@ -168,9 +168,22 @@ jobs:
 
       - name: Regenerate derived artifacts
         run: |
+          python scripts/generate-index/generate_mcp_registry.py
+          python scripts/generate-index/generate_skill_tests.py
           python scripts/generate-index/extract_registries.py
           python scripts/generate-index/build_index.py
           python scripts/generate-index/generate_repository_cards.py
+          python scripts/generate-index/update_readme_stats.py
+
+      # Both generators carry a guarantee that no other check can see: the MCP
+      # registry must not assert capability fields the GitHub API cannot report, and
+      # the skill test corpus must not repeat a generic assertion across skills.
+      # Each measures its own output and fails on violation.
+      - name: MCP registry asserts no unobservable capability
+        run: python scripts/generate-index/generate_mcp_registry.py --check
+
+      - name: Skill test cases are skill-specific
+        run: python scripts/generate-index/generate_skill_tests.py --check
 
       - name: Assert no drift (ignoring timestamps)
         run: |

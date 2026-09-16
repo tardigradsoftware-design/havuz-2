@@ -12,7 +12,6 @@ repository: firecrawl/firecrawl-mcp-server
 url: https://github.com/firecrawl/firecrawl-mcp-server
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

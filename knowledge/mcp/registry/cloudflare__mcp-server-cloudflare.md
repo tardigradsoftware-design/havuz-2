@@ -13,7 +13,6 @@ repository: cloudflare/mcp-server-cloudflare
 url: https://github.com/cloudflare/mcp-server-cloudflare
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

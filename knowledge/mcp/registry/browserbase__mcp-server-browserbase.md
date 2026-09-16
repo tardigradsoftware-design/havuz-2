@@ -12,7 +12,6 @@ repository: browserbase/mcp-server-browserbase
 url: https://github.com/browserbase/mcp-server-browserbase
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: high
   notes: >-

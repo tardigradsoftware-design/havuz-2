@@ -5,7 +5,7 @@ domain: seo
 summary: >-
   Crawlability, indexation, rendering, on-page signals, structured data, performance and off-page context, each with its checks — extracted from the skill so the skill body stays inside its context budget.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [reference, seo]

@@ -12,7 +12,6 @@ repository: vercel/mcp-handler
 url: https://github.com/vercel/mcp-handler
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: high
   notes: >-

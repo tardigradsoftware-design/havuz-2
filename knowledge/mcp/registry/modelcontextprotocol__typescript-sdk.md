@@ -12,7 +12,6 @@ repository: modelcontextprotocol/typescript-sdk
 url: https://github.com/modelcontextprotocol/typescript-sdk
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: high
   notes: >-

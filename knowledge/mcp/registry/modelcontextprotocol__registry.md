@@ -12,7 +12,6 @@ repository: modelcontextprotocol/registry
 url: https://github.com/modelcontextprotocol/registry
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: high
   notes: >-

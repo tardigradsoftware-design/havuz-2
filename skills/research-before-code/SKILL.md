@@ -86,7 +86,7 @@ sources:
     note: "Basis for the explicit retry-with-reflection rule when a gate fails."
 related_skills: [web-research, evidence-validation, dont-reinvent-the-wheel, project-planning, repository-analysis]
 related_repositories: [assafelovic/gpt-researcher, oraios/serena, upstash/context7]
-tests: 6
+tests: 19
 ---
 
 # Research Before Code

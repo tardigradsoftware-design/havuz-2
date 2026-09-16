@@ -50,7 +50,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [design-systems, frontend-design, accessibility-audit, frontend-implementation, performance-audit]
 related_repositories: [d3/d3, apache/echarts, vega/vega-lite, observablehq/plot, apache/superset]
-tests: 5
+tests: 26
 ---
 
 # Data Visualization

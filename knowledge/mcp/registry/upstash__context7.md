@@ -12,7 +12,6 @@ repository: upstash/context7
 url: https://github.com/upstash/context7
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: low
   notes: >-

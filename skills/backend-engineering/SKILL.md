@@ -7,7 +7,7 @@ description: >-
   before the first line of code.
 category: backend
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -54,7 +54,7 @@ sources:
     note: "Canonical slug is heroku/12factor; 12factor/12factor redirects to an unrelated Brazilian fork."
 related_skills: [api-design, database-design, security-audit, deployment, performance-audit, testing]
 related_repositories: [fastapi/fastapi, django/django, tokio-rs/axum, open-telemetry/opentelemetry-specification, postmanlabs/newman]
-tests: 6
+tests: 24
 ---
 
 # Backend Engineering

@@ -5,7 +5,7 @@ description: >-
   Design a test strategy from the failure modes that matter: assign each to the level that can catch it, distribute effort by cost and diagnostic value, and choose the metrics that reveal whether the suite is doing its job.
 category: testing
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -74,7 +74,7 @@ sources:
     note: "Consumer-driven contract testing — the mechanism for the exclusive contract-level class in step 2."
 related_skills: [testing, code-review, debugging, ai-safety-evaluation, browser-testing]
 related_repositories: []
-tests: 9
+tests: 23
 ---
 # Testing Strategy
 

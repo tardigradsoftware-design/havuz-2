@@ -54,7 +54,7 @@ sources:
     note: "Recording failed attempts in language prevents repeating them — the basis of the attempt log."
 related_skills: [testing, code-review, performance-audit, repository-analysis, security-audit]
 related_repositories: [getsentry/sentry-mcp, getsentry/sentry, browser-use/browser-use]
-tests: 6
+tests: 20
 ---
 
 # Debugging

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:05:33+00:00",
+  "generated_at": "2026-09-16T05:49:50+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "records": 50,
   "$schema": "../schemas/skill.schema.json",
@@ -107,7 +107,7 @@
         "microsoft/playwright",
         "a11yproject/a11yproject.com"
       ],
-      "tests": 6,
+      "tests": 20,
       "_path": "skills/accessibility-audit/SKILL.md",
       "_tokens": 2779,
       "_headings": [
@@ -237,7 +237,7 @@
         "DeusData/codebase-memory-mcp",
         "zep-ai/zep"
       ],
-      "tests": 6,
+      "tests": 23,
       "_path": "skills/agent-memory-design/SKILL.md",
       "_tokens": 2647,
       "_headings": [
@@ -269,7 +269,7 @@
       "description": "Evaluate an AI system for harmful, unsafe or policy-violating behaviour: build the adversarial task set, define the correct behaviour for each, measure refusal and over-refusal together, and report what the score does not establish.",
       "category": "evaluation",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -396,7 +396,7 @@
         "evidence-validation"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 24,
       "_path": "skills/ai-safety-evaluation/SKILL.md",
       "_tokens": 2421,
       "_headings": [
@@ -418,7 +418,7 @@
       "description": "Detect, explain, fix and re-review the visual and structural signatures of AI-generated interfaces: generic layouts, decorative gradients, glassmorphism overload, fake metrics, inconsistent spacing, default typography and motion without purpose.",
       "category": "design",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -535,7 +535,7 @@
         "tailwindlabs/tailwindcss",
         "GoogleChrome/lighthouse"
       ],
-      "tests": 6,
+      "tests": 19,
       "_path": "skills/ai-slop-detection/SKILL.md",
       "_tokens": 2513,
       "_headings": [
@@ -667,7 +667,7 @@
         "fern-api/fern",
         "speakeasy-api/speakeasy"
       ],
-      "tests": 6,
+      "tests": 24,
       "_path": "skills/api-design/SKILL.md",
       "_tokens": 2769,
       "_headings": [
@@ -698,7 +698,7 @@
       "description": "Design a system architecture from stated requirements: decompose the problem, choose boundaries and consistency levels per data type, enumerate failure modes, and record the irreversible decisions with their reasoning.",
       "category": "architecture",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -821,7 +821,7 @@
       "related_repositories": [
         "heroku/12factor"
       ],
-      "tests": 9,
+      "tests": 20,
       "_path": "skills/architecture-design/SKILL.md",
       "_tokens": 2346,
       "_headings": [
@@ -843,7 +843,7 @@
       "description": "Build server-side systems that stay correct under load and failure — request lifecycle, data access, concurrency, idempotency, observability and the operational decisions that must be made before the first line of code.",
       "category": "backend",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -935,7 +935,7 @@
         "open-telemetry/opentelemetry-specification",
         "postmanlabs/newman"
       ],
-      "tests": 6,
+      "tests": 24,
       "_path": "skills/backend-engineering/SKILL.md",
       "_tokens": 2772,
       "_headings": [
@@ -1050,7 +1050,7 @@
         "cypress-io/cypress",
         "GoogleChrome/lighthouse"
       ],
-      "tests": 6,
+      "tests": 24,
       "_path": "skills/browser-testing/SKILL.md",
       "_tokens": 2618,
       "_headings": [
@@ -1080,7 +1080,7 @@
       "description": "Review changes for correctness, security, maintainability and design — with feedback that is specific, graded, actionable and reviewable by a third party.",
       "category": "coding",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -1154,7 +1154,7 @@
         "danger/danger",
         "semgrep/semgrep"
       ],
-      "tests": 6,
+      "tests": 21,
       "_path": "skills/code-review/SKILL.md",
       "_tokens": 2739,
       "_headings": [
@@ -1179,7 +1179,7 @@
       "description": "Compare products, libraries or approaches on evidence — feature matrices with sources, real tradeoffs, positioning gaps and a defensible recommendation rather than a verdict.",
       "category": "research",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -1253,7 +1253,7 @@
         "ossf/scorecard",
         "lmarena/arena-hard-auto"
       ],
-      "tests": 6,
+      "tests": 21,
       "_path": "skills/competitive-analysis/SKILL.md",
       "_tokens": 2540,
       "_headings": [
@@ -1381,7 +1381,7 @@
         "mem0ai/mem0",
         "thedotmack/claude-mem"
       ],
-      "tests": 6,
+      "tests": 21,
       "_path": "skills/context-engineering/SKILL.md",
       "_tokens": 2487,
       "_headings": [
@@ -1415,7 +1415,7 @@
       "description": "Design and operate a data pipeline that can be trusted: make every stage idempotent and re-runnable, fail loudly at the boundary, validate the schema at each hop, and make the backfill and the late-arriving-data cases first-class.",
       "category": "data",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -1529,7 +1529,7 @@
         "data-visualization"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 26,
       "_path": "skills/data-pipeline/SKILL.md",
       "_tokens": 2241,
       "_headings": [
@@ -1638,7 +1638,7 @@
         "observablehq/plot",
         "apache/superset"
       ],
-      "tests": 5,
+      "tests": 26,
       "_path": "skills/data-visualization/SKILL.md",
       "_tokens": 3296,
       "_headings": [
@@ -1663,7 +1663,7 @@
       "description": "Model data so integrity is enforced by the database, queries stay fast as volume grows, and migrations are reversible — including the choice between relational, document and vector storage.",
       "category": "backend",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -1741,7 +1741,7 @@
         "prisma/prisma",
         "pgvector/pgvector"
       ],
-      "tests": 4,
+      "tests": 24,
       "_path": "skills/database-design/SKILL.md",
       "_tokens": 2895,
       "_headings": [
@@ -1766,7 +1766,7 @@
       "description": "Diagnose and fix database performance problems from measured evidence: locate the query, read the plan, choose the narrowest index or query change that fixes the diagnosed cause, and verify the improvement outside the noise floor.",
       "category": "database",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -1884,7 +1884,7 @@
         "migration"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 23,
       "_path": "skills/database-optimization/SKILL.md",
       "_tokens": 2492,
       "_headings": [
@@ -1990,7 +1990,7 @@
         "getsentry/sentry",
         "browser-use/browser-use"
       ],
-      "tests": 6,
+      "tests": 20,
       "_path": "skills/debugging/SKILL.md",
       "_tokens": 2296,
       "_headings": [
@@ -2112,7 +2112,7 @@
         "renovatebot/renovate",
         "semgrep/semgrep"
       ],
-      "tests": 5,
+      "tests": 21,
       "_path": "skills/dependency-analysis/SKILL.md",
       "_tokens": 2736,
       "_headings": [
@@ -2136,7 +2136,7 @@
       "description": "Ship code to production safely — build reproducibility, progressive rollout strategies, health and readiness semantics, configuration and secrets handling, observability at deploy time, and a rehearsed rollback.",
       "category": "devops",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -2227,7 +2227,7 @@
         "hashicorp/terraform",
         "docker/buildx"
       ],
-      "tests": 5,
+      "tests": 25,
       "_path": "skills/deployment/SKILL.md",
       "_tokens": 2752,
       "_headings": [
@@ -2357,7 +2357,7 @@
         "salesforce-ux/design-system",
         "primer/react"
       ],
-      "tests": 6,
+      "tests": 18,
       "_path": "skills/design-systems/SKILL.md",
       "_tokens": 2543,
       "_headings": [
@@ -2471,7 +2471,7 @@
         "fern-api/fern",
         "stoplightio/spectral"
       ],
-      "tests": 6,
+      "tests": 23,
       "_path": "skills/documentation/SKILL.md",
       "_tokens": 2733,
       "_headings": [
@@ -2574,7 +2574,7 @@
         "ossf/scorecard",
         "aquasecurity/trivy"
       ],
-      "tests": 6,
+      "tests": 18,
       "_path": "skills/dont-reinvent-the-wheel/SKILL.md",
       "_tokens": 2281,
       "_headings": [
@@ -2682,7 +2682,7 @@
         "ossf/scorecard",
         "aquasecurity/trivy"
       ],
-      "tests": 6,
+      "tests": 17,
       "_path": "skills/evidence-validation/SKILL.md",
       "_tokens": 2281,
       "_headings": [
@@ -2708,7 +2708,7 @@
       "description": "Turn a product brief into a deliberate, non-generic interface: information architecture first, then a real design system, then composition, then craft details — with the AI-slop gate applied before anything ships.",
       "category": "design",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -2806,7 +2806,7 @@
         "tailwindlabs/tailwindcss",
         "nextlevelbuilder/ui-ux-pro-max-skill"
       ],
-      "tests": 6,
+      "tests": 22,
       "_path": "skills/frontend-design/SKILL.md",
       "_tokens": 2630,
       "_headings": [
@@ -2840,7 +2840,7 @@
       "description": "Build approved designs into production frontend code — component architecture, state management, data fetching, rendering strategy, performance budgets and the checks that keep the result matching the design.",
       "category": "frontend",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -2933,7 +2933,7 @@
         "shadcn-ui/ui",
         "microsoft/playwright"
       ],
-      "tests": 6,
+      "tests": 24,
       "_path": "skills/frontend-implementation/SKILL.md",
       "_tokens": 2845,
       "_headings": [
@@ -3056,7 +3056,7 @@
         "upstash/context7",
         "oraios/serena"
       ],
-      "tests": 6,
+      "tests": 25,
       "_path": "skills/mcp-integration/SKILL.md",
       "_tokens": 3180,
       "_headings": [
@@ -3090,7 +3090,7 @@
       "description": "Move a live system from one state to another without a big-bang cutover — expand, migrate, contract, with dual writes, backfills, feature flags, rehearsed rollback and verifiable parity.",
       "category": "coding",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -3168,7 +3168,7 @@
         "liquibase/liquibase",
         "golang-migrate/migrate"
       ],
-      "tests": 6,
+      "tests": 26,
       "_path": "skills/migration/SKILL.md",
       "_tokens": 3249,
       "_headings": [
@@ -3194,7 +3194,7 @@
       "description": "Use animation to explain causality, state and spatial relationship — with a duration/easing system, a strict purpose test, and a complete reduced-motion path.",
       "category": "design",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -3280,7 +3280,7 @@
         "react-spring/react-spring",
         "pmndrs/zustand"
       ],
-      "tests": 6,
+      "tests": 23,
       "_path": "skills/motion-design/SKILL.md",
       "_tokens": 2539,
       "_headings": [
@@ -3392,7 +3392,7 @@
         "locustio/locust",
         "open-telemetry/opentelemetry-specification"
       ],
-      "tests": 6,
+      "tests": 21,
       "_path": "skills/performance-audit/SKILL.md",
       "_tokens": 2691,
       "_headings": [
@@ -3424,7 +3424,7 @@
       "description": "Improve performance from measured evidence: establish a baseline, localise the layer, profile with the tool that answers the question, change one thing, re-measure against the noise floor, and keep or revert.",
       "category": "performance",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -3539,7 +3539,7 @@
         "testing"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 22,
       "_path": "skills/performance-optimization/SKILL.md",
       "_tokens": 2061,
       "_headings": [
@@ -3561,7 +3561,7 @@
       "description": "Turn an ambiguous goal into a sequenced, gated plan with explicit unknowns, evidence-backed estimates and stop conditions — so work is verifiable at every step rather than at the end.",
       "category": "planning",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -3636,7 +3636,7 @@
         "langchain-ai/langgraph",
         "microsoft/agent-framework"
       ],
-      "tests": 6,
+      "tests": 22,
       "_path": "skills/project-planning/SKILL.md",
       "_tokens": 2750,
       "_headings": [
@@ -3663,7 +3663,7 @@
       "description": "Design, evaluate and iterate a prompt against a task-specific evaluation set: specify the behaviour, structure the prompt for the model and the task, measure the change rather than eyeballing it, and record what was tried.",
       "category": "agent-engineering",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -3778,7 +3778,7 @@
         "testing"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 23,
       "_path": "skills/prompt-engineering/SKILL.md",
       "_tokens": 2457,
       "_headings": [
@@ -3800,7 +3800,7 @@
       "description": "Design and verify defences for systems where untrusted content reaches a model that can act: minimise capability, gate irreversible actions outside the model, scope credentials per task, and test that a fully-compromised model cannot do unacceptable damage.",
       "category": "security",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -3915,7 +3915,7 @@
         "agent-memory-design"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 22,
       "_path": "skills/prompt-injection-defense/SKILL.md",
       "_tokens": 2359,
       "_headings": [
@@ -3937,7 +3937,7 @@
       "description": "Design, build and evaluate a retrieval-augmented generation pipeline: choose chunking from the structure of the content, build hybrid retrieval with reranking, ground generation in what was retrieved, and measure retrieval and end-to-end quality separately.",
       "category": "data",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -4052,7 +4052,7 @@
         "performance-optimization"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 26,
       "_path": "skills/rag-pipeline/SKILL.md",
       "_tokens": 2461,
       "_headings": [
@@ -4073,7 +4073,7 @@
       "description": "Choose and apply a reasoning strategy to a task from its structure: direct answer, decomposition, retrieval-grounded reasoning, verification loops, self-consistency and search — with the cost of each and the evidence for when each helps.",
       "category": "agent-engineering",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -4198,7 +4198,7 @@
         "research-synthesis"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 23,
       "_path": "skills/reasoning-strategies/SKILL.md",
       "_tokens": 2552,
       "_headings": [
@@ -4293,7 +4293,7 @@
         "semgrep/semgrep",
         "errorprone/errorprone"
       ],
-      "tests": 6,
+      "tests": 23,
       "_path": "skills/refactoring/SKILL.md",
       "_tokens": 2755,
       "_headings": [
@@ -4409,7 +4409,7 @@
         "conventional-changelog/standard-version",
         "release-drafter/release-drafter"
       ],
-      "tests": 5,
+      "tests": 20,
       "_path": "skills/release-engineering/SKILL.md",
       "_tokens": 3027,
       "_headings": [
@@ -4523,7 +4523,7 @@
         "oraios/serena",
         "upstash/context7"
       ],
-      "tests": 6,
+      "tests": 19,
       "_path": "skills/repository-analysis/SKILL.md",
       "_tokens": 2910,
       "_headings": [
@@ -4688,7 +4688,7 @@
         "oraios/serena",
         "upstash/context7"
       ],
-      "tests": 6,
+      "tests": 19,
       "_path": "skills/research-before-code/SKILL.md",
       "_tokens": 2816,
       "_headings": [
@@ -4722,7 +4722,7 @@
       "description": "Combine multiple investigations into one decision-ready report — reconciling conflicts, separating fact from inference, attributing every claim, and stating what remains unknown.",
       "category": "research",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -4798,7 +4798,7 @@
         "assafelovic/gpt-researcher",
         "huggingface/awesome-papers"
       ],
-      "tests": 6,
+      "tests": 24,
       "_path": "skills/research-synthesis/SKILL.md",
       "_tokens": 2478,
       "_headings": [
@@ -4896,7 +4896,7 @@
       "related_repositories": [
         "ossf/scorecard"
       ],
-      "tests": 3,
+      "tests": 18,
       "_path": "skills/reverse-engineering-public-systems/SKILL.md",
       "_tokens": 3128,
       "_headings": [
@@ -4920,7 +4920,7 @@
       "description": "Find the actual cause of a defect or incident rather than its nearest symptom: reproduce it, form falsifiable hypotheses, bisect to the introducing change, distinguish cause from contributor, and verify the fix removes the cause.",
       "category": "debugging",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -5030,7 +5030,7 @@
         "code-review"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 25,
       "_path": "skills/root-cause-analysis/SKILL.md",
       "_tokens": 2188,
       "_headings": [
@@ -5163,7 +5163,7 @@
         "protectai/rebuff",
         "semgrep/semgrep"
       ],
-      "tests": 6,
+      "tests": 21,
       "_path": "skills/security-audit/SKILL.md",
       "_tokens": 3257,
       "_headings": [
@@ -5285,7 +5285,7 @@
         "screamingfrog/seo-spider",
         "google/search-samples"
       ],
-      "tests": 6,
+      "tests": 25,
       "_path": "skills/seo-audit/SKILL.md",
       "_tokens": 2567,
       "_headings": [
@@ -5311,7 +5311,7 @@
       "description": "Author a SKILL.md that an agent can execute: define one procedure, write the frontmatter contract, structure the body for progressive disclosure, cite sources for every high-confidence claim, and validate it before committing.",
       "category": "meta",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -5419,7 +5419,7 @@
         "context-engineering"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 24,
       "_path": "skills/skill-authoring/SKILL.md",
       "_tokens": 2224,
       "_headings": [
@@ -5440,7 +5440,7 @@
       "description": "Admit, grade, merge and retire content in the knowledge base: verify provenance and sources, check for duplication and conflict, apply the license and exclusion policy, and decide what enters the active index.",
       "category": "meta",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -5551,7 +5551,7 @@
         "documentation"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 24,
       "_path": "skills/skill-curation/SKILL.md",
       "_tokens": 2456,
       "_headings": [
@@ -5663,7 +5663,7 @@
         "EleutherAI/lm-evaluation-harness",
         "promptfoo/promptfoo"
       ],
-      "tests": 6,
+      "tests": 23,
       "_path": "skills/testing/SKILL.md",
       "_tokens": 2916,
       "_headings": [
@@ -5694,7 +5694,7 @@
       "description": "Design a test strategy from the failure modes that matter: assign each to the level that can catch it, distribute effort by cost and diagnostic value, and choose the metrics that reveal whether the suite is doing its job.",
       "category": "testing",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -5804,7 +5804,7 @@
         "browser-testing"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 23,
       "_path": "skills/testing-strategy/SKILL.md",
       "_tokens": 2438,
       "_headings": [
@@ -5825,7 +5825,7 @@
       "description": "Produce a threat model from a data-flow diagram: enumerate trust boundaries, apply STRIDE plus the agent-specific threat classes, prioritise by likelihood and impact, and record every mitigation, acceptance and test.",
       "category": "security",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -5940,7 +5940,7 @@
         "code-review"
       ],
       "related_repositories": [],
-      "tests": 9,
+      "tests": 21,
       "_path": "skills/threat-modeling/SKILL.md",
       "_tokens": 2175,
       "_headings": [
@@ -5962,7 +5962,7 @@
       "description": "Build an evidence-based visual direction before designing: collect references, decompose them into transferable principles, define the target aesthetic in writing, and derive a system from it.",
       "category": "design",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -6047,7 +6047,7 @@
         "Leonxlnx/taste-skill",
         "blader/humanizer"
       ],
-      "tests": 6,
+      "tests": 19,
       "_path": "skills/visual-design-research/SKILL.md",
       "_tokens": 2513,
       "_headings": [
@@ -6080,7 +6080,7 @@
       "description": "Run a structured multi-source web investigation: search, open, compare, cross-check, extract, cite, rank and summarise — never deciding from a single result.",
       "category": "research",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "source_type": "original",
@@ -6165,7 +6165,7 @@
         "firecrawl/firecrawl-mcp-server",
         "browser-use/browser-use"
       ],
-      "tests": 6,
+      "tests": 19,
       "_path": "skills/web-research/SKILL.md",
       "_tokens": 2066,
       "_headings": [

@@ -60,7 +60,7 @@ sources:
     note: "Representative of the managed agent-memory category; evaluate against the criteria here rather than adopting on category membership."
 related_skills: [context-engineering, evidence-validation, research-synthesis, documentation]
 related_repositories: [letta-ai/letta, mem0ai/mem0, thedotmack/claude-mem, DeusData/codebase-memory-mcp, zep-ai/zep]
-tests: 6
+tests: 23
 ---
 
 # Agent Memory Design

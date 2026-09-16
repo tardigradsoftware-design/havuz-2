@@ -6,7 +6,7 @@ description: >-
   a strict purpose test, and a complete reduced-motion path.
 category: design
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -50,7 +50,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [design-systems, frontend-design, frontend-implementation, accessibility-audit, ai-slop-detection]
 related_repositories: [motiondivision/motion, react-spring/react-spring, pmndrs/zustand]
-tests: 6
+tests: 23
 ---
 
 # Motion Design

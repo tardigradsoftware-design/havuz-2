@@ -7,7 +7,7 @@ description: >-
   matching the design.
 category: frontend
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -52,7 +52,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [design-systems, frontend-design, performance-audit, accessibility-audit, browser-testing, testing]
 related_repositories: [vercel/next.js, vitejs/vite, TanStack/query, radix-ui/primitives, shadcn-ui/ui, microsoft/playwright]
-tests: 6
+tests: 24
 ---
 
 # Frontend Implementation

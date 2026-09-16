@@ -11,7 +11,6 @@ repository: getsentry/sentry-mcp
 url: https://github.com/getsentry/sentry-mcp
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: high
   notes: >-

@@ -5,7 +5,7 @@ description: >-
   Design a system architecture from stated requirements: decompose the problem, choose boundaries and consistency levels per data type, enumerate failure modes, and record the irreversible decisions with their reasoning.
 category: architecture
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -78,7 +78,7 @@ sources:
     note: "What each isolation level actually prevents in a real engine, which is the basis for assigning consistency per data type in step 3."
 related_skills: [database-design, api-design, performance-audit, security-audit, threat-modeling, project-planning, dont-reinvent-the-wheel]
 related_repositories: [heroku/12factor]
-tests: 9
+tests: 20
 ---
 # Architecture Design
 

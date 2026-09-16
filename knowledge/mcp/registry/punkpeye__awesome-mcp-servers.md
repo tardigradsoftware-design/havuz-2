@@ -11,7 +11,6 @@ repository: punkpeye/awesome-mcp-servers
 url: https://github.com/punkpeye/awesome-mcp-servers
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

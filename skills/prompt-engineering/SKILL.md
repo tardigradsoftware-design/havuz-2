@@ -5,7 +5,7 @@ description: >-
   Design, evaluate and iterate a prompt against a task-specific evaluation set: specify the behaviour, structure the prompt for the model and the task, measure the change rather than eyeballing it, and record what was tried.
 category: agent-engineering
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -77,7 +77,7 @@ sources:
     note: "A maintained harness for prompt evaluation sets and assertions; the tooling pattern steps 2, 3 and 6 assume."
 related_skills: [context-engineering, reasoning-strategies, ai-safety-evaluation, agent-memory-design, testing]
 related_repositories: []
-tests: 9
+tests: 23
 ---
 # Prompt Engineering
 

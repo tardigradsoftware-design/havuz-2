@@ -7,7 +7,7 @@ summary: >-
   choose criteria, weight them before scoring, score against evidence rather than preference, and
   recognise when the matrix is being used to justify a decision already made.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [decision-matrix, comparison, weighting, scoring, architecture, decision-record, selection]

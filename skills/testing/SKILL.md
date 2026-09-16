@@ -55,7 +55,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [debugging, code-review, browser-testing, performance-audit, refactoring]
 related_repositories: [microsoft/playwright, vitest-dev/vitest, pytest-dev/pytest, EleutherAI/lm-evaluation-harness, promptfoo/promptfoo]
-tests: 6
+tests: 23
 ---
 
 # Testing

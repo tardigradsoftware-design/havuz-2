@@ -5,7 +5,7 @@ description: >-
   Produce a threat model from a data-flow diagram: enumerate trust boundaries, apply STRIDE plus the agent-specific threat classes, prioritise by likelihood and impact, and record every mitigation, acceptance and test.
 category: security
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -77,7 +77,7 @@ sources:
     note: "The STRIDE-per-element enumeration procedure in step 2."
 related_skills: [security-audit, prompt-injection-defense, ai-safety-evaluation, architecture-design, code-review]
 related_repositories: []
-tests: 9
+tests: 21
 ---
 # Threat Modeling
 

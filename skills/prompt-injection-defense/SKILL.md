@@ -5,7 +5,7 @@ description: >-
   Design and verify defences for systems where untrusted content reaches a model that can act: minimise capability, gate irreversible actions outside the model, scope credentials per task, and test that a fully-compromised model cannot do unacceptable damage.
 category: security
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -77,7 +77,7 @@ sources:
     note: "Zou et al. — automated transferable suffix attacks; the reason string filtering cannot be the primary control."
 related_skills: [threat-modeling, security-audit, ai-safety-evaluation, mcp-integration, agent-memory-design]
 related_repositories: []
-tests: 9
+tests: 22
 ---
 # Prompt Injection Defense
 

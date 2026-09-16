@@ -45,7 +45,7 @@ sources:
     note: "Supply-chain risk of adopting a dependency is measurable, not just a matter of taste."
 related_skills: [research-before-code, dependency-analysis, repository-analysis, architecture-design]
 related_repositories: [upstash/context7, oraios/serena, ossf/scorecard, aquasecurity/trivy]
-tests: 6
+tests: 18
 ---
 
 # Don't Reinvent the Wheel

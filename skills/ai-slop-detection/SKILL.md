@@ -7,7 +7,7 @@ description: >-
   inconsistent spacing, default typography and motion without purpose.
 category: design
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -72,7 +72,7 @@ sources:
     note: "Contrast and non-text-contrast thresholds used by the colour-discipline checks."
 related_skills: [visual-design-research, design-systems, frontend-design, accessibility-audit, motion-design]
 related_repositories: [shadcn-ui/ui, radix-ui/primitives, tailwindlabs/tailwindcss, GoogleChrome/lighthouse]
-tests: 6
+tests: 19
 ---
 
 # AI-Slop Detection

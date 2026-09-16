@@ -11,7 +11,6 @@ repository: firebase/firebase-tools
 url: https://github.com/firebase/firebase-tools
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

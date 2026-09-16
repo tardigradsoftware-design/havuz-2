@@ -5,7 +5,7 @@ description: >-
   Design and operate a data pipeline that can be trusted: make every stage idempotent and re-runnable, fail loudly at the boundary, validate the schema at each hop, and make the backfill and the late-arriving-data cases first-class.
 category: data
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -77,7 +77,7 @@ sources:
     note: "Scheduling, retries and backfill semantics; the operational assumptions in steps 1, 7 and 12."
 related_skills: [rag-pipeline, database-design, migration, deployment, data-visualization]
 related_repositories: []
-tests: 9
+tests: 26
 ---
 # Data Pipeline
 

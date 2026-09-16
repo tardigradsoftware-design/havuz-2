@@ -79,6 +79,30 @@ DISTRIBUTION_HINTS: List[tuple[str, tuple[str, ...]]] = [
 ]
 
 
+# Fields this generator promises not to infer. The GitHub API does not expose them,
+# so any non-empty value can only have come from a guess or from a human who read the
+# project's own documentation. `assert_no_guesses` allows the latter only when the
+# entry declares that it happened.
+CAPABILITY_FIELDS = ("transport", "tools", "resources", "prompts", "permissions",
+                     "authentication", "recommended_for")
+UNVERIFIED = "unverified"
+
+
+def assert_no_guesses(tools: List[Dict[str, Any]]) -> List[str]:
+    """Enforce the module's central guarantee. Returns a list of violations."""
+    bad: List[str] = []
+    for t in tools:
+        if t.get("capability_evidence") != UNVERIFIED:
+            continue          # a human reviewed this entry; the fields are theirs
+        for f in CAPABILITY_FIELDS:
+            v = t.get(f)
+            if v:             # non-empty list/dict/string is an unsupported claim
+                bad.append(f"{t.get('repository')}: capability_evidence is '{UNVERIFIED}' "
+                           f"but '{f}' is populated ({v!r}) — that value cannot have come "
+                           f"from the GitHub API, so it was guessed")
+    return bad
+
+
 def slug_to_id(slug: str) -> str:
     return "mcp-" + slug.replace("/", "-").replace(".", "-").lower()
 
@@ -164,7 +188,15 @@ def record_to_tool(rec: Dict[str, Any]) -> Dict[str, Any]:
         "tools": [],
         "resources": [],
         "prompts": [],
-        "authentication": "mixed" if rec.get("official") else None,
+        # Authentication scheme is NOT observable from the GitHub API, so it is never
+        # populated here. An earlier revision inferred "mixed" from the `official`
+        # flag; that was a guess in a security-relevant field, and it contradicted
+        # this module's own guarantee. `official` says who owns the repository — it
+        # says nothing about how the server authenticates. Absence of the field, plus
+        # capability_evidence: unverified, is the honest representation. Fill it in
+        # only from the project's own documentation, then set capability_evidence to
+        # "readme-reviewed" or "verified" and date it.
+        "authentication": None,
         "permissions": {},
         "security": {
             "risk_level": risk_level(rec),
@@ -442,6 +474,14 @@ def main() -> int:
     recs.sort(key=lambda r: (-(r.get("stars") or 0), r["slug"]))
     tools = [record_to_tool(r) for r in recs]
 
+    guesses = assert_no_guesses(tools)
+    if guesses:
+        print("error: the generator asserted capability fields it cannot observe:",
+              file=sys.stderr)
+        for g in guesses:
+            print(f"  {g}", file=sys.stderr)
+        return 2
+
     OUT_MD.mkdir(parents=True, exist_ok=True)
     md_files: Dict[str, str] = {}
     for t, r in zip(tools, recs):
@@ -466,7 +506,14 @@ def main() -> int:
             for d in drift:
                 print(f"  {d}", file=sys.stderr)
             return 1
-        print(f"MCP registry in sync: {len(tools)} entries")
+        guesses = assert_no_guesses(tools)
+        if guesses:
+            print("capability fields are populated without evidence:", file=sys.stderr)
+            for g in guesses:
+                print(f"  {g}", file=sys.stderr)
+            return 1
+        print(f"MCP registry in sync: {len(tools)} entries; "
+              f"no capability field asserted without evidence")
         return 0
 
     for fn, txt in md_files.items():

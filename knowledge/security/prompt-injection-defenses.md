@@ -7,7 +7,7 @@ summary: >-
   sufficient, which mitigations are structural versus advisory, and the honest assessment of what
   remains unmitigated.
 status: active
-confidence: very-high
+confidence: high
 claim_type: recommendation
 evidence_level: cross-checked
 tags: [prompt-injection, security, llm-security, agents, defenses, mitigation, owasp]

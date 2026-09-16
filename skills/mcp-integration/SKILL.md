@@ -53,7 +53,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [repository-analysis, security-audit, dont-reinvent-the-wheel, context-engineering, dependency-analysis]
 related_repositories: [modelcontextprotocol/servers, microsoft/playwright-mcp, supabase/mcp, getsentry/sentry-mcp, ChromeDevTools/chrome-devtools-mcp, upstash/context7, oraios/serena]
-tests: 6
+tests: 25
 ---
 
 # MCP Integration

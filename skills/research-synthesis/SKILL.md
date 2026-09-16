@@ -6,7 +6,7 @@ description: >-
   fact from inference, attributing every claim, and stating what remains unknown.
 category: research
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -45,7 +45,7 @@ sources:
     note: "Justifies leading with the conclusion and keeping the evidence set small and ordered."
 related_skills: [web-research, evidence-validation, competitive-analysis, research-before-code, documentation]
 related_repositories: [assafelovic/gpt-researcher, huggingface/awesome-papers]
-tests: 6
+tests: 24
 ---
 
 # Research Synthesis

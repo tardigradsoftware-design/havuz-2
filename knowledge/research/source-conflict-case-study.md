@@ -8,7 +8,7 @@ summary: >-
   worked example for the conflict-resolution policy: never silently pick a winner, record both
   observations, resolve by source precedence, and keep the evidence trail.
 status: active
-confidence: very-high
+confidence: high
 claim_type: fact
 evidence_level: cross-checked
 tags: [verification, conflict-resolution, methodology, arxiv, openalex, citation-integrity]

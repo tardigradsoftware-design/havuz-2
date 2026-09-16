@@ -5,7 +5,7 @@ description: >-
   Choose and apply a reasoning strategy to a task from its structure: direct answer, decomposition, retrieval-grounded reasoning, verification loops, self-consistency and search — with the cost of each and the evidence for when each helps.
 category: agent-engineering
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -85,7 +85,7 @@ sources:
     note: "Turpin et al. — unfaithful explanations; the basis for step 11, not using stated reasoning as an audit trail."
 related_skills: [prompt-engineering, context-engineering, evidence-validation, web-research, research-synthesis]
 related_repositories: []
-tests: 9
+tests: 23
 ---
 # Reasoning Strategies
 

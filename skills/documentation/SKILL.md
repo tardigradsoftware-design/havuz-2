@@ -51,7 +51,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [code-review, api-design, research-synthesis, release-engineering, frontend-design]
 related_repositories: [facebook/docusaurus, squidfunk/mkdocs-material, fern-api/fern, stoplightio/spectral]
-tests: 6
+tests: 23
 ---
 
 # Documentation

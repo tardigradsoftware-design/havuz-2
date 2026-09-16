@@ -11,7 +11,6 @@ repository: github/github-mcp-server
 url: https://github.com/github/github-mcp-server
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: low
   notes: >-

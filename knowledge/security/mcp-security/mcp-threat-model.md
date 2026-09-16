@@ -7,7 +7,7 @@ summary: >-
   reaching a tool, confused deputy, over-broad capability grants, supply-chain risk in server
   packages, and the mitigations that are structural rather than advisory.
 status: active
-confidence: very-high
+confidence: high
 claim_type: recommendation
 evidence_level: cross-checked
 tags: [mcp, security, threat-model, prompt-injection, confused-deputy, tool-use, supply-chain, capabilities]

@@ -11,7 +11,6 @@ repository: modelcontextprotocol/inspector
 url: https://github.com/modelcontextprotocol/inspector
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: high
   notes: >-

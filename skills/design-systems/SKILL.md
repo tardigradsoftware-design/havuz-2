@@ -58,7 +58,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [frontend-design, frontend-implementation, ai-slop-detection, accessibility-audit, motion-design]
 related_repositories: [shadcn-ui/ui, radix-ui/primitives, tailwindlabs/tailwindcss, salesforce-ux/design-system, primer/react]
-tests: 6
+tests: 18
 ---
 
 # Design Systems

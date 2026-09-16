@@ -5,7 +5,7 @@ domain: security
 summary: >-
   The complete audit checklist across injection, authentication, authorisation, secrets, data, supply chain and availability, extracted from the skill so the skill body stays inside its context budget.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [reference, security]

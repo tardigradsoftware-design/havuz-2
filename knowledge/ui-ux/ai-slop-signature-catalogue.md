@@ -7,7 +7,7 @@ summary: >-
   the underlying mechanism for each. Companion reference to skills/ai-slop-detection — this file
   explains why the signatures exist, the skill defines how to detect and fix them.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [ai-slop, design, ui, ux, visual-design, generated-content, craft]

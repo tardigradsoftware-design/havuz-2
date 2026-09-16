@@ -14,7 +14,7 @@ updated: 2026-09-15
 verified_at: 2026-09-15
 expires_at: 2027-03-15
 tags: [database, schema, sql, postgres, indexing, migrations, modelling, agent]
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 inputs:

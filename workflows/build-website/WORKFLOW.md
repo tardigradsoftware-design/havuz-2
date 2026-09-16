@@ -17,7 +17,7 @@ updated: 2026-09-15
 verified_at: 2026-09-15
 expires_at: 2027-03-15
 tags: [website, frontend, design, build, workflow, quality-gate, ai-slop]
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 estimated_duration: hours to days depending on scope; the gates are not optional at any scale

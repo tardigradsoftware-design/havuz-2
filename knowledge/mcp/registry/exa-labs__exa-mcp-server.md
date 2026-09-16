@@ -11,7 +11,6 @@ repository: exa-labs/exa-mcp-server
 url: https://github.com/exa-labs/exa-mcp-server
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

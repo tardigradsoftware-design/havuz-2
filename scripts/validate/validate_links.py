@@ -183,6 +183,92 @@ def collect_external() -> Tuple[List[str], List[str]]:
     return errors, warns
 
 
+# Documents read first by a human or an agent. A path asserted here that does not
+# exist is a claim about the repository that is simply false, and markdown-link
+# checking alone does not catch it: prose paths are usually backticked, not linked,
+# and a link to a *parent* directory resolves happily while the specific file named
+# in the sentence does not exist.
+PROSE_DOCS = ["README.md", "AGENTS.md", "CONTRIBUTING.md", "SECURITY.md", "CHANGELOG.md"]
+
+# A token is treated as a repository path only when its first segment is a real
+# top-level entry. That keeps GitHub slugs (`anthropics/skills`), package names
+# (`@playwright/mcp`) and dotted identifiers out of the check without an allowlist.
+PATHISH = re.compile(r"^[A-Za-z0-9_.\-]+(?:/[A-Za-z0-9_.\-]+)+/?$")
+
+# Path segments that stand for a value the reader supplies. A path containing one
+# documents a convention rather than asserting a location, so it is not checked.
+PLACEHOLDER_SEGMENTS = {
+    "YYYY", "MM", "DD", "NN", "XX", "ID", "SLUG", "NAME", "DATE", "TYPE",
+    "CATEGORY", "DOMAIN", "TOPIC", "OWNER", "REPO", "KEBAB", "NUM",
+}
+
+# A changelog must be able to name a path in order to record that the path was
+# falsely claimed and has been removed. Such a passage denies existence rather than
+# asserting it, so it is not a broken claim. The marker has to appear in the same
+# paragraph as the path, which keeps the exemption narrow enough to be useful and
+# wide enough to match how a correction is actually written: the false claim and its
+# denial are usually adjacent sentences, not one sentence.
+NON_EXISTENCE_MARKER = re.compile(
+    r"(?i)(does not exist|do(?:es)?n't exist|never existed|non-?existent|not built|"
+    r"no longer|removed|was claimed|is gone|does not produce|not produced)")
+
+
+def collect_prose_paths() -> Tuple[List[str], List[str]]:
+    """Assert that every repository path named in the entry documents exists."""
+    errs: List[str] = []
+    warns: List[str] = []
+    top = {q.name for q in ROOT.iterdir() if not q.name.startswith(".")}
+    checked = 0
+    for rel in PROSE_DOCS:
+        doc = ROOT / rel
+        if not doc.exists():
+            continue
+        text = doc.read_text(encoding="utf-8", errors="replace")
+        # backticked spans and markdown link targets; both are assertions about paths
+        tokens: List[str] = re.findall(r"`([^`\n]+)`", text)
+        tokens += [m for m in re.findall(r"\]\(([^)\s]+)\)", text)]
+        # Paragraph containing each token, for the non-existence exemption.
+        paragraphs = re.split(r"\n\s*\n", text)
+
+        def paragraph_of(token: str) -> str:
+            """The paragraph holding this token, with code spans removed.
+
+            Stripping backticked text matters: the denial has to be in prose. A
+            filename that merely *contains* a marker word — `metadata/nonexistent.json`
+            — is not a statement that anything is missing, and letting it exempt its
+            own paragraph would hide real broken claims sitting next to it.
+            """
+            for para in paragraphs:
+                if token in para:
+                    return re.sub(r"`[^`]*`", " ", para)
+            return ""
+
+        for raw in tokens:
+            tok = raw.split("#")[0].strip()
+            if not tok or tok.startswith(("http://", "https://", "mailto:")):
+                continue
+            if any(c in tok for c in "*<>{}| "):     # globs and placeholders are not claims
+                continue
+            # A documented naming convention is not a claim that the path exists:
+            # `research-archive/YYYY/MM/` describes a shape future runs will fill.
+            if any(seg in PLACEHOLDER_SEGMENTS for seg in tok.split("/")):
+                continue
+            if NON_EXISTENCE_MARKER.search(paragraph_of(raw)):
+                continue          # the passage says this path is absent, not present
+            if not PATHISH.match(tok):
+                continue
+            if tok.split("/")[0] not in top:          # not a repository path
+                continue
+            checked += 1
+            if not (ROOT / tok).exists():
+                errs.append(f"{rel}: names the path '{tok}' which does not exist — "
+                            f"either create it or stop asserting it")
+    if checked:
+        print(f"Prose paths: {checked} repository paths named in "
+              f"{', '.join(PROSE_DOCS)} checked")
+    return errs, warns
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--internal", action="store_true")
@@ -202,6 +288,9 @@ def main() -> int:
         errors += e
         warns += w
         print(f"Internal: {len(e)} errors, {len(w)} warnings, {len(ext)} external URLs discovered")
+        e2, w2 = collect_prose_paths()
+        errors += e2
+        warns += w2
     if args.external:
         e, w = collect_external()
         errors += e

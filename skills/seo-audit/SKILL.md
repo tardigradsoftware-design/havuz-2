@@ -56,7 +56,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [performance-audit, accessibility-audit, frontend-implementation, documentation, data-visualization]
 related_repositories: [GoogleChrome/lighthouse, screamingfrog/seo-spider, google/search-samples]
-tests: 6
+tests: 25
 ---
 
 # SEO Audit

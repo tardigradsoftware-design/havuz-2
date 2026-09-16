@@ -16,7 +16,7 @@ updated: 2026-09-15
 verified_at: 2026-09-15
 expires_at: 2027-03-15
 tags: [backend, api, services, reliability, observability, agent]
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 inputs:

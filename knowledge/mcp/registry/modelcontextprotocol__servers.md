@@ -11,7 +11,6 @@ repository: modelcontextprotocol/servers
 url: https://github.com/modelcontextprotocol/servers
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: high
   notes: >-

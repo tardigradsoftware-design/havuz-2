@@ -5,7 +5,7 @@ description: >-
   Evaluate an AI system for harmful, unsafe or policy-violating behaviour: build the adversarial task set, define the correct behaviour for each, measure refusal and over-refusal together, and report what the score does not establish.
 category: evaluation
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -86,7 +86,7 @@ sources:
     note: "A maintained harness for reproducible model evaluation; the CI-integration pattern in step 11."
 related_skills: [threat-modeling, prompt-injection-defense, testing, prompt-engineering, evidence-validation]
 related_repositories: []
-tests: 9
+tests: 24
 ---
 # AI Safety Evaluation
 

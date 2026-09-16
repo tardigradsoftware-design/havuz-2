@@ -7,7 +7,7 @@ summary: >-
   of the claim rather than of the source, how staleness is detected and enforced in CI, and what
   happens to content that expires — re-verify, refresh, archive or quarantine, never leave in place.
 status: active
-confidence: very-high
+confidence: high
 claim_type: recommendation
 evidence_level: cross-checked
 tags: [freshness, staleness, maintenance, verification, ttl, curation, policy]

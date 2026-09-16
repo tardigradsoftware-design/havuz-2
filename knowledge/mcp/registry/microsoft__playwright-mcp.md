@@ -11,7 +11,6 @@ repository: microsoft/playwright-mcp
 url: https://github.com/microsoft/playwright-mcp
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: low
   notes: >-

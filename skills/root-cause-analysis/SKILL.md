@@ -5,7 +5,7 @@ description: >-
   Find the actual cause of a defect or incident rather than its nearest symptom: reproduce it, form falsifiable hypotheses, bisect to the introducing change, distinguish cause from contributor, and verify the fix removes the cause.
 category: debugging
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -75,7 +75,7 @@ sources:
     note: "The automated bisection procedure in step 6, which requires a deterministic reproduction to score each commit."
 related_skills: [debugging, testing-strategy, performance-optimization, code-review]
 related_repositories: []
-tests: 9
+tests: 25
 ---
 # Root Cause Analysis
 

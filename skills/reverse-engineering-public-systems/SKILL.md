@@ -44,7 +44,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [web-research, evidence-validation, repository-analysis, competitive-analysis, security-audit]
 related_repositories: [ossf/scorecard]
-tests: 3
+tests: 18
 ---
 
 # Reverse-Engineering Public Systems

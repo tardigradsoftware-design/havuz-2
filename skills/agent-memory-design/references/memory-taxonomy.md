@@ -5,7 +5,7 @@ domain: agent-engineering
 summary: >-
   Procedural, semantic, episodic, working, preferential and relational memory — form, retrieval and decay rules for each, plus the storage-choice comparison — extracted from the skill so the skill body stays inside its context budget.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [reference, agent-engineering]

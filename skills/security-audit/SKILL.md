@@ -71,7 +71,7 @@ sources:
     note: "Not fetched in this run; verify current version before quoting control identifiers."
 related_skills: [code-review, dependency-analysis, evidence-validation, testing, api-design]
 related_repositories: [ossf/scorecard, aquasecurity/trivy, protectai/rebuff, semgrep/semgrep]
-tests: 6
+tests: 21
 ---
 
 # Security Audit

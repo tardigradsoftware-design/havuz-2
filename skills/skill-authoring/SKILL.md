@@ -5,7 +5,7 @@ description: >-
   Author a SKILL.md that an agent can execute: define one procedure, write the frontmatter contract, structure the body for progressive disclosure, cite sources for every high-confidence claim, and validate it before committing.
 category: meta
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -74,7 +74,7 @@ sources:
     note: "The version field convention: MAJOR marks a breaking change to the procedure."
 related_skills: [skill-curation, documentation, context-engineering]
 related_repositories: []
-tests: 9
+tests: 24
 ---
 # Skill Authoring
 

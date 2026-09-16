@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:05:33+00:00",
+  "generated_at": "2026-09-16T05:49:50+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "records": 2,
   "$schema": "../schemas/prompt.schema.json",
@@ -11,7 +11,7 @@
       "use_case": "A question whose answer will drive an engineering decision, where being wrong is costly and where the agent must not present an unverified claim as established. Suited to technology selection, vendor or library evaluation, state-of-practice questions, and any question where sources conflict.",
       "category": "research",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "tags": [
@@ -136,7 +136,7 @@
       "use_case": "Before any visual implementation begins: a new site or product surface, a redesign, or a build that must not look generated. The brief is the input to design-systems, frontend-design and ai-slop-detection work, and the reference those skills are checked against afterwards.",
       "category": "ui-ux",
       "status": "active",
-      "confidence": "high",
+      "confidence": "medium",
       "claim_type": "recommendation",
       "evidence_level": "practitioner-experience",
       "tags": [

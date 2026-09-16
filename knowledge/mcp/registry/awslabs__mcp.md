@@ -11,7 +11,6 @@ repository: awslabs/mcp
 url: https://github.com/awslabs/mcp
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

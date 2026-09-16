@@ -12,7 +12,6 @@ repository: tavily-ai/tavily-mcp
 url: https://github.com/tavily-ai/tavily-mcp
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

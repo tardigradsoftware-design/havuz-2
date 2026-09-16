@@ -5,7 +5,7 @@ description: >-
   Diagnose and fix database performance problems from measured evidence: locate the query, read the plan, choose the narrowest index or query change that fixes the diagnosed cause, and verify the improvement outside the noise floor.
 category: database
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -77,7 +77,7 @@ sources:
     note: "Locking behaviour, the no-transaction-block restriction and the INVALID-index failure mode in step 9."
 related_skills: [performance-optimization, database-design, debugging, backend-engineering, migration]
 related_repositories: []
-tests: 9
+tests: 23
 ---
 # Database Optimization
 

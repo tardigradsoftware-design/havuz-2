@@ -11,7 +11,6 @@ repository: supabase/mcp
 url: https://github.com/supabase/mcp
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

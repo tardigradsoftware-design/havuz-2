@@ -19,7 +19,7 @@ updated: 2026-09-15
 verified_at: 2026-09-15
 expires_at: 2027-03-15
 tags: [ai-slop, remediation, design, frontend, quality, workflow]
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 estimated_duration: hours for a landing page; days for a multi-page product surface

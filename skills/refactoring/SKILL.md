@@ -44,7 +44,7 @@ sources:
     note: "Not fetched in this run; canonical catalogue of named refactors. Verify before citing specific recipe steps."
 related_skills: [testing, code-review, debugging, migration, documentation]
 related_repositories: [semgrep/semgrep, errorprone/errorprone]
-tests: 6
+tests: 23
 ---
 
 # Refactoring

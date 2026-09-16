@@ -64,6 +64,50 @@ EXEMPT_GLOBS = [
 # Files inside a governed tree that are structural rather than content.
 EXEMPT_NAMES = {"README.md", "AGENTS.md", "CHANGELOG.md", "TESTS.md"}
 
+# ---------------------------------------------------------------------------
+# Grading rule: an evidence level caps the confidence a document may claim.
+#
+# One rule, applied corpus-wide, so that a claim can never be stronger than the
+# evidence that established it. Derived from the descriptions in
+# schemas/common.defs.json#/$defs/evidenceLevel — not invented here:
+#
+#   verified-*         the claim was checked against its primary source directly
+#   cross-checked      independent sources agree, but none is the primary source
+#   single-source      one source, not corroborated
+#   emerging-consensus practitioners broadly agree; no primary source settles it
+#   practitioner-experience  judgement from practice, not from a checked source
+#   model-generated    must never be presented as fact (brief section 78)
+#
+# Confidence is only ever DOWNGRADED to meet this cap. Upgrading evidence_level to
+# match a confidence is the failure this rule exists to prevent.
+CONFIDENCE_CAP: Dict[str, str] = {
+    "verified-github-api": "very-high",
+    "verified-official-docs": "very-high",
+    "verified-paper": "very-high",
+    "verified-benchmark-run": "very-high",
+    "cross-checked": "high",
+    "single-source": "medium",
+    "emerging-consensus": "medium",
+    "practitioner-experience": "medium",
+    "model-generated": "low",
+}
+
+CONFIDENCE_RANK: Dict[str, int] = {
+    "very-high": 4, "high": 3, "medium": 2, "low": 1, "unverified": 0, "conflicting": 0,
+}
+
+
+def confidence_cap_error(evidence_level: Any, confidence: Any) -> Optional[str]:
+    """Return an error string when `confidence` exceeds what `evidence_level` supports."""
+    cap = CONFIDENCE_CAP.get(str(evidence_level)) if evidence_level else None
+    if not cap or not confidence:
+        return None
+    if CONFIDENCE_RANK.get(str(confidence), 0) > CONFIDENCE_RANK[cap]:
+        return (f"confidence '{confidence}' exceeds the cap '{cap}' for "
+                f"evidence_level '{evidence_level}' — downgrade confidence or raise the "
+                f"evidence (never the reverse)")
+    return None
+
 
 @dataclass
 class Doc:

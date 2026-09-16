@@ -12,7 +12,6 @@ repository: AgentDeskAI/browser-tools-mcp
 url: https://github.com/AgentDeskAI/browser-tools-mcp
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: low
   notes: >-

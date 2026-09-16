@@ -52,7 +52,7 @@ sources:
     note: "Self-evaluation of intermediate states is what makes deliberate search work; the same principle applies to grading evidence."
 related_skills: [web-research, research-before-code, fact-checker, repository-analysis]
 related_repositories: [ossf/scorecard, aquasecurity/trivy]
-tests: 6
+tests: 17
 ---
 
 # Evidence Validation

@@ -6,7 +6,7 @@ description: >-
   extract, cite, rank and summarise — never deciding from a single result.
 category: research
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -52,7 +52,7 @@ sources:
     note: "Browsing plus tool use is required for real-world assistant questions; humans 92% vs GPT-4+plugins 15% at publication."
 related_skills: [research-before-code, evidence-validation, research-synthesis, competitive-analysis]
 related_repositories: [assafelovic/gpt-researcher, exa-labs/exa-mcp-server, firecrawl/firecrawl-mcp-server, browser-use/browser-use]
-tests: 6
+tests: 19
 ---
 
 # Web Research

@@ -18,7 +18,7 @@ updated: 2026-09-15
 verified_at: 2026-09-15
 expires_at: 2027-03-15
 tags: [architecture, review, adr, boundaries, tradeoffs, evolution, workflow]
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 estimated_duration: half a day for a focused design review; days for a full system review

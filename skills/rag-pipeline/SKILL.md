@@ -5,7 +5,7 @@ description: >-
   Design, build and evaluate a retrieval-augmented generation pipeline: choose chunking from the structure of the content, build hybrid retrieval with reranking, ground generation in what was retrieved, and measure retrieval and end-to-end quality separately.
 category: data
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -75,7 +75,7 @@ sources:
     note: "A maintained Postgres extension for vector search; the deployment shape assumed in steps 4, 7 and 12."
 related_skills: [data-pipeline, database-optimization, prompt-engineering, evidence-validation, performance-optimization]
 related_repositories: []
-tests: 9
+tests: 26
 ---
 # RAG Pipeline
 

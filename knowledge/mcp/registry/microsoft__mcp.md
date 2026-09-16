@@ -12,7 +12,6 @@ repository: microsoft/mcp
 url: https://github.com/microsoft/mcp
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: low
   notes: >-

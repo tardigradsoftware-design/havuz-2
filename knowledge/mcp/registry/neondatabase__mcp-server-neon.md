@@ -12,7 +12,6 @@ repository: neondatabase/mcp-server-neon
 url: https://github.com/neondatabase/mcp-server-neon
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

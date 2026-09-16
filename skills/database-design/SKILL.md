@@ -6,7 +6,7 @@ description: >-
   migrations are reversible — including the choice between relational, document and vector storage.
 category: backend
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -45,7 +45,7 @@ sources:
     note: "Verify behaviour against the major version in use — defaults and features differ across versions."
 related_skills: [backend-engineering, api-design, migration, security-audit, performance-audit]
 related_repositories: [postgres/postgres, supabase/supabase, prisma/prisma, pgvector/pgvector]
-tests: 4
+tests: 24
 ---
 
 # Database Design

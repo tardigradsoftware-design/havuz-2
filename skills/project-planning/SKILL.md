@@ -6,7 +6,7 @@ description: >-
   estimates and stop conditions — so work is verifiable at every step rather than at the end.
 category: planning
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -45,7 +45,7 @@ sources:
     note: "Deliberate search with lookahead and self-evaluation outperforms linear generation on tasks requiring exploration."
 related_skills: [research-before-code, documentation, testing, deployment, release-engineering]
 related_repositories: [langchain-ai/langgraph, microsoft/agent-framework]
-tests: 6
+tests: 22
 ---
 
 # Project Planning

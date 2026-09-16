@@ -6,7 +6,7 @@ description: >-
   contract, with dual writes, backfills, feature flags, rehearsed rollback and verifiable parity.
 category: coding
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -44,7 +44,7 @@ sources:
     note: "Not fetched in this run; verify before citing specifics."
 related_skills: [project-planning, testing, deployment, release-engineering, database-design, refactoring]
 related_repositories: [flyway/flyway, liquibase/liquibase, golang-migrate/migrate]
-tests: 6
+tests: 26
 ---
 
 # Migration

@@ -7,7 +7,7 @@ summary: >-
   required frontmatter, the body section order, progressive disclosure into references/, and the
   rules that keep a skill loadable and gradeable.
 status: active
-confidence: very-high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 tags: [skill-format, agent-skills, frontmatter, schema, progressive-disclosure, authoring]

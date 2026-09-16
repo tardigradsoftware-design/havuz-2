@@ -12,7 +12,6 @@ repository: modelcontextprotocol/python-sdk
 url: https://github.com/modelcontextprotocol/python-sdk
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: low
   notes: >-

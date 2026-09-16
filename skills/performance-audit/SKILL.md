@@ -52,7 +52,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [frontend-implementation, backend-engineering, database-design, browser-testing, debugging]
 related_repositories: [GoogleChrome/lighthouse, grafana/k6, locustio/locust, open-telemetry/opentelemetry-specification]
-tests: 6
+tests: 21
 ---
 
 # Performance Audit

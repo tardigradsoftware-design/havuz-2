@@ -297,7 +297,9 @@ count crosses a threshold. Expired ≠ wrong. Expired means **re-verify before a
 
 ## How skills are tested
 
-Every skill has `tests/` containing cases in a fixed format:
+Every skill has `tests/cases.md`, generated from that skill's own body text by
+[`scripts/generate-index/generate_skill_tests.py`](scripts/generate-index/generate_skill_tests.py).
+Each case uses a fixed four-clause format:
 
 ```text
 GIVEN    <initial state / input>
@@ -306,14 +308,59 @@ THEN     <observable, checkable outcome>
 FAIL IF  <the specific slop or error that means the skill did not work>
 ```
 
-Skills are graded by their `test_pass_rate` in frontmatter. A skill that has never
-been run against a real task is marked `evidence_level: practitioner-experience`
-or `model-generated` and cannot claim `confidence: high`.
+Four kinds of case are produced, each from a different section of the skill:
 
-The repository itself is benchmarked in [`evaluations/knowledge-base/`](evaluations/)
-with a 40-task suite run in two arms — `without-kb` and `with-kb` — comparing
-success rate, time, token usage, code quality, bug count, security issues and
-architecture quality.
+| Case kind | Derived from | What it asserts |
+|---|---|---|
+| Applies | Purpose, Workflow step titles, Quality Checklist items | the named checklist conditions hold and the named steps ran |
+| Declines | each `When NOT to Use` exclusion | the exclusion is honoured and the alternative it names is used |
+| Detects | each `Failure Modes` entry | the failure is caught by that entry's own detection signal and answered by its own documented response |
+| Avoids | each `Anti-Patterns` entry | the anti-pattern is absent for the consequence that entry states |
+
+`THEN` and `FAIL IF` quote the skill's own wording, so a case asserts something
+different for every skill by construction rather than by rewording. The generator
+measures this and refuses to write output that is generic: distinctness of `THEN`
+and `FAIL IF` across the corpus must be at least 0.95, and no single `FAIL IF` may
+be shared by more than one skill. Current measurement: **1,108 cases across 50
+skills, 1,108 distinct `FAIL IF` strings, at most one skill per `FAIL IF`.**
+
+**These cases are authored specifications, not executed results.** No skill has been
+run against its cases by a measured harness, so no `test_pass_rate` is recorded
+anywhere and none should be inferred. A case states what would prove the skill
+failed; it is not evidence that the skill passes.
+
+### Grading rule: evidence caps confidence
+
+One rule applies corpus-wide, and
+[`scripts/validate/validate_frontmatter.py`](scripts/validate/validate_frontmatter.py)
+enforces it as a hard error:
+
+| `evidence_level` | Maximum `confidence` |
+|---|---|
+| `verified-github-api`, `verified-official-docs`, `verified-paper`, `verified-benchmark-run` | `very-high` |
+| `cross-checked` | `high` |
+| `single-source`, `emerging-consensus`, `practitioner-experience` | `medium` |
+| `model-generated` | `low` |
+
+A claim may never be stronger than the evidence that established it. Confidence is
+only ever **downgraded** to meet the cap; raising `evidence_level` to match a
+confidence is the failure this rule exists to prevent. The table is defined once, in
+[`scripts/lib/frontmatter.py`](scripts/lib/frontmatter.py) as `CONFIDENCE_CAP`,
+derived from the `evidenceLevel` descriptions in
+[`schemas/common.defs.json`](schemas/common.defs.json).
+
+### Is the knowledge base itself effective?
+
+**Not measured. No effectiveness claim is made.**
+
+A 40-task, two-arm suite — `without-kb` versus `with-kb`, comparing success rate,
+time, token usage, code quality, bug count, security issues and architecture
+quality — is **specified but not built**. It is recorded as a gap in
+[`CHANGELOG.md`](CHANGELOG.md), and [`evaluations/`](evaluations/) currently holds
+scaffolded directory READMEs and no content. When it is built it will live under
+`evaluations/` and this section will be replaced with results — not before. Until
+then the honest statement is that this repository's guidance is graded, cited and
+cross-referenced, and that nobody has measured whether it helps.
 
 ---
 
@@ -347,7 +394,10 @@ allowlist, and only fails after repeated failure across runs.
 | `scripts/crawl/verify_arxiv_papers.py` | Confirm papers by title search (never stores recalled IDs) |
 | `scripts/crawl/verify_urls.py` | HEAD/GET-check every external URL |
 | `scripts/score/score_skills.py` | Recompute skill quality/trust/tier |
-| `scripts/score/score_sources.py` | Recompute source scores |
+| `scripts/generate-index/generate_mcp_registry.py` | Build `knowledge/mcp/registry/` from verified repo metadata; `--check` proves no drift |
+| `scripts/generate-index/generate_skill_tests.py` | Build `skills/*/tests/cases.md` from each skill's own body; refuses to write generic assertions |
+| `scripts/generate-index/extract_registries.py` | Emit `metadata/*.json` registries from the governed markdown |
+| `scripts/generate-index/update_readme_stats.py` | Refresh the corpus statistics block below |
 | `scripts/deduplicate/dedupe.py` | Detect overlapping content across files |
 | `scripts/validate/*.py` | Schema, frontmatter, link, policy validators |
 | `scripts/generate-index/build_index.py` | Emit `metadata/index.json` + `indexes/*.md` |

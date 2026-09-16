@@ -12,7 +12,6 @@ repository: redis/mcp-redis
 url: https://github.com/redis/mcp-redis
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

@@ -53,7 +53,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [evidence-validation, dependency-analysis, dont-reinvent-the-wheel, code-review, security-audit]
 related_repositories: [ossf/scorecard, oraios/serena, upstash/context7]
-tests: 6
+tests: 19
 ---
 
 # Repository Analysis

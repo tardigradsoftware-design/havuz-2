@@ -5,7 +5,7 @@ domain: reasoning
 summary: >-
   A graded survey of the public literature on LLM reasoning — chain-of-thought, self-consistency, ReAct, Tree of Thoughts, process reward models and RL-for-reasoning — with claims separated by evidence level, contested ones named as contested, and the engineering consequences of each.
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: emerging-consensus
 tags: [reasoning, chain-of-thought, react, tree-of-thoughts, self-consistency, rl, research-survey, evidence-grading]

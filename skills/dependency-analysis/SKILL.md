@@ -52,7 +52,7 @@ sources:
     verified_at: 2026-09-15
 related_skills: [repository-analysis, dont-reinvent-the-wheel, security-audit, migration, release-engineering]
 related_repositories: [ossf/scorecard, aquasecurity/trivy, dependabot/dependabot-core, renovatebot/renovate, semgrep/semgrep]
-tests: 5
+tests: 21
 ---
 
 # Dependency Analysis

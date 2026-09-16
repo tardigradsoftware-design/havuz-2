@@ -13,6 +13,193 @@ are never made silently; they appear here with the old position named.
 
 ---
 
+## [1.1.0] — 2026-09-16
+
+Corrections from the pre-merge review of 1.0.0 ([`REVIEW-REPORT.md`](REVIEW-REPORT.md),
+35 findings against commit `32720b8`). This release fixes the three critical findings
+and the first high-priority one. No data was invented and no confidence was raised:
+every grading change moves a claim **down** to what its evidence supports.
+
+### Fixed — C-1: the skill test corpus was a template
+
+**What was wrong.** 333 cases shared only **4 distinct `FAIL IF` strings** — every
+failure condition in the corpus was one of four sentences, identical across
+`accessibility-audit`, `rag-pipeline` and `threat-modeling` alike. `THEN` had 45
+distinct values, of which 3 covered 87%. Only the `GIVEN` line was skill-specific.
+The suite could detect a skill being selected when it should not have been, and
+nothing else. `skills/AGENTS.md` rule 3 prohibited this in terms.
+
+**What changed.** `scripts/generate-index/generate_skill_tests.py` now derives all
+four clauses from each skill's own body:
+
+| Case kind | Derived from |
+|---|---|
+| Applies | Purpose, Workflow step titles, Quality Checklist items |
+| Declines | each `When NOT to Use` exclusion, with the alternative it names |
+| Detects | each `Failure Modes` entry, with its own detection signal and documented response |
+| Avoids | each `Anti-Patterns` entry, with the consequence that entry states |
+
+`THEN` and `FAIL IF` quote that material verbatim, so assertions differ per skill by
+construction rather than by rewording. Both parsers handle the two `Failure Modes`
+shapes in the corpus (14 skills use a `Failure | Detection | Response` table, 36 use
+an aligned `NAME  description` block).
+
+**Measured result.** 1,108 cases across 50 skills (17–26 each, up from 333):
+
+| Clause | Before | After |
+|---|---|---|
+| distinct `GIVEN` | 332 / 333 | 1,092 / 1,108 |
+| distinct `THEN` | 45 / 333 (ratio 0.135) | **1,106 / 1,108 (ratio 0.998)** |
+| distinct `FAIL IF` | **4 / 333 (ratio 0.012)** | **1,108 / 1,108 (ratio 1.000)** |
+| max skills sharing one `FAIL IF` | 50 | **1** |
+
+The two remaining duplicate `THEN` values are two skills that genuinely list the same
+anti-pattern ("logging the full request body on an auth endpoint"); the assertion is
+shared because the guidance is. `WHEN` stays at 199 distinct values by design — it
+names the act of applying a particular skill, so ~4 values per skill is correct.
+
+**The guarantee is enforced, not asserted.** The generator measures its own output and
+refuses to write unless `THEN` and `FAIL IF` distinctness are both ≥ 0.95 and no
+`FAIL IF` is shared by more than one skill. `--check` runs the same gates for CI.
+
+**Corrected alongside:** `README.md` claimed skills *"are graded by their
+`test_pass_rate` in frontmatter"*. No skill has that field and none has been executed
+by a harness. The section now states that the cases are **authored specifications, not
+executed results**, and that no pass rate exists or should be inferred.
+
+### Fixed — C-2: evidence level now caps confidence, corpus-wide
+
+**What was wrong.** `README.md` stated that `evidence_level: practitioner-experience`
+or `model-generated` *"cannot claim `confidence: high`"*. **59 governed documents did
+exactly that.** The review counted 28 because it measured `skills/*/SKILL.md` only;
+the rule applies to everything with graded frontmatter.
+
+**The single rule adopted**, derived from the `evidenceLevel` descriptions already in
+`schemas/common.defs.json` — not invented for this fix:
+
+| `evidence_level` | Maximum `confidence` |
+|---|---|
+| `verified-github-api`, `verified-official-docs`, `verified-paper`, `verified-benchmark-run` | `very-high` |
+| `cross-checked` | `high` |
+| `single-source`, `emerging-consensus`, `practitioner-experience` | `medium` |
+| `model-generated` | `low` |
+
+Defined once as `CONFIDENCE_CAP` in `scripts/lib/frontmatter.py`, documented in
+`README.md`, and enforced as a **hard error** by `validate_frontmatter.py` — so CI now
+fails on any future violation rather than warning.
+
+**59 records corrected, all downward:**
+
+| Change | Count | Directories |
+|---|---|---|
+| `practitioner-experience` + `high` → `medium` | 50 | skills, agents, workflows, knowledge, prompts, decision-records |
+| `cross-checked` + `very-high` → `high` | 6 | knowledge |
+| `practitioner-experience` + `very-high` → `medium` | 2 | knowledge |
+| `emerging-consensus` + `high` → `medium` | 1 | knowledge |
+
+By directory: skills 33, knowledge 10, agents 7, workflows 5, decision-records 2,
+prompts 2. `evidence_level` was **never** raised to justify a confidence — that is the
+specific failure the rule exists to prevent. Frontmatter warnings fell from 6 to 1 as
+a side effect, since five of the six were "confidence high with no sources".
+
+### Fixed — C-3: documentation no longer asserts an evaluation suite that does not exist
+
+**What was wrong.** `README.md` stated *"The repository itself **is benchmarked** in
+`evaluations/knowledge-base/` with a 40-task suite run in two arms … comparing success
+rate, time, token usage, code quality, bug count, security issues and architecture
+quality."* `AGENTS.md` repeated it. `evaluations/` holds **0 content files** and
+`evaluations/knowledge-base/` does not exist as a path. `CHANGELOG.md` already said the
+suite was "specified but not built", so the repository contradicted itself.
+
+**What changed.** Both documents now state plainly: *"Not measured. No effectiveness
+claim is made."* The suite is described as specified-but-not-built, the non-existent
+path is gone, and the future plan is separated from present fact. `AGENTS.md` now
+distinguishes the three things "tests" could mean here — validators (exist, enforced in
+CI), skill test cases (authored, not executed), and the effectiveness suite (not built).
+
+**New check.** `validate_links.py --internal` now asserts that every repository path
+named in prose in `README.md`, `AGENTS.md`, `CONTRIBUTING.md`, `SECURITY.md` and
+`CHANGELOG.md` actually exists — backticked spans as well as link targets, since prose
+paths are rarely links. 101 paths checked. Documented naming conventions
+(`research-archive/YYYY/MM/`) are exempt via a placeholder-segment list, and tokens
+whose first segment is not a real top-level entry are ignored, which keeps GitHub slugs
+and package names out of the check without an allowlist.
+
+**The check immediately found three more false claims**, all now corrected:
+
+- `README.md` listed `scripts/score/score_sources.py` in its automation table. That
+  script has never existed; the row is replaced with the five generators that do.
+- `CHANGELOG.md` referenced `indexes/sources-papers.md`, which `build_index.py` does
+  not produce. Corrected to `metadata/sources-papers.json`, the file that exists.
+- `sources/papers/README.md` referenced the same non-existent index (fixed pre-commit).
+
+### Fixed — H-1: the MCP registry no longer guesses authentication
+
+**What was wrong.** `generate_mcp_registry.py` documented that capability fields the
+GitHub API cannot report *"are NOT guessed"*, and correctly left five of them empty —
+then inferred the sixth:
+
+```python
+"authentication": "mixed" if rec.get("official") else None,
+```
+
+**28 of 35 records** asserted `authentication: mixed` on the sole evidence that the
+owner appears in a hand-maintained organisation list. Authentication is the field an
+integrator acts on, and `official` says who owns a repository, not how its server
+authenticates. The guarantee was the valuable part of that generator, and one field
+quietly voided it.
+
+**What changed.** The inference is removed. `authentication` is now absent from all
+35 records and from all 35 markdown entries, which is the honest representation: the
+schema's enum has no `unknown` member, and absence plus
+`capability_evidence: unverified` says exactly what is known. Entries document how to
+fill it in — read the project's own docs, then set `capability_evidence` to
+`readme-reviewed` or `verified` and date it.
+
+**The guarantee is now enforced.** `assert_no_guesses()` fails the generator if any
+entry with `capability_evidence: unverified` carries a populated capability field
+(`transport`, `tools`, `resources`, `prompts`, `permissions`, `authentication`,
+`recommended_for`). Verified by negative test: injecting `authentication: "mixed"` or
+`tools: ["read_file"]` into a clean corpus is caught and reported with the offending
+repository named.
+
+**Verified after the fix:** 35/35 records — `authentication` absent, `transport`,
+`tools`, `resources`, `prompts`, `permissions`, `recommended_for` and
+`not_recommended_for` all empty, `capability_evidence: unverified` on every entry.
+
+### CI
+
+`generated-drift` now regenerates with both new generators and runs their gates as
+named steps — *MCP registry asserts no unobservable capability* and *Skill test cases
+are skill-specific* — so each generator's guarantee is checked on every push and pull
+request rather than resting on its docstring. `update_readme_stats.py` was added to the
+regeneration list, since the statistics block was previously regenerated only by hand.
+
+### Still open from the review
+
+Recorded rather than closed, per this repository's own rule on unstated gaps. The
+review's remaining findings are untouched by this release:
+
+- **High:** H-2 nine schema fields lost between the registry markdown and `tools.json`,
+  including the archived server's `not_recommended_for` warning; H-3 the `UNVERIFIED`
+  tier names the wrong property (all 15 records have `fetch_ok: true`; the real
+  condition is "no license detected"); H-4 `SECURITY.md`'s hard exclusions have no
+  enforcement path in code; H-5 the license override warns only on source-code files
+  in a repository whose vendoring risk is markdown; H-6 GitHub API descriptions are
+  rendered into cards as markdown with no sanitisation, an injection surface in a
+  corpus built to be read by agents; H-7 MCP `category` assigned by unanchored
+  substring match — both official SDKs are labelled `ci-cd` because `'ci'` appears
+  inside "offi**ci**al"; H-8 five of the "35 MCP servers" are SDKs, a testing tool, a
+  registry and a catalog.
+- **Medium/Low:** the scoring model's saturated adoption component (94% of records at
+  the ceiling), inconsistent component ceilings (theoretical maximum 9.30, which is why
+  51.7% of the corpus reaches tier S), `days_since_push` driving three components, the
+  `.cache/gh/` reproducibility claim that is not committed, and 20 further items. These
+  are grouped in the report as one major-version scoring revision, to be done before the
+  corpus grows.
+
+---
+
 ## [1.0.0] — 2026-09-15
 
 Initial public release. Everything below was authored, verified and validated in a single build pass
@@ -83,7 +270,7 @@ against live sources on 2026-09-15.
 
 **Sources**
 
-- `indexes/sources-papers.md` — 9 papers verified against their primary arXiv sources, with title,
+- `metadata/sources-papers.json` — 9 papers verified against their primary arXiv sources, with title,
   authors, identifier and version date confirmed individually.
 - 61 further paper candidates quarantined in `pending-paper-candidates.json` rather than published
   unverified.

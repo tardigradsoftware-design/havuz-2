@@ -54,7 +54,7 @@ sources:
     note: "Exposes browser control to agents over MCP; apply the mcp-integration capability tiers."
 related_skills: [testing, frontend-implementation, accessibility-audit, performance-audit, debugging]
 related_repositories: [microsoft/playwright, microsoft/playwright-mcp, browser-use/browser-use, cypress-io/cypress, GoogleChrome/lighthouse]
-tests: 6
+tests: 24
 ---
 
 # Browser Testing

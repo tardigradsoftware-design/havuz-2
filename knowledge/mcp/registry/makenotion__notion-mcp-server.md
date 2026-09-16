@@ -11,7 +11,6 @@ repository: makenotion/notion-mcp-server
 url: https://github.com/makenotion/notion-mcp-server
 transport: []
 tools: []
-authentication: mixed
 security:
   risk_level: medium
   notes: >-

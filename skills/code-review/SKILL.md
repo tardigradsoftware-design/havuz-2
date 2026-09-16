@@ -6,7 +6,7 @@ description: >-
   specific, graded, actionable and reviewable by a third party.
 category: coding
 status: active
-confidence: high
+confidence: medium
 claim_type: recommendation
 evidence_level: practitioner-experience
 source_type: original
@@ -45,7 +45,7 @@ sources:
     note: "Not fetched in this run; verify current guidance before quoting specifics."
 related_skills: [testing, debugging, security-audit, refactoring, documentation]
 related_repositories: [reviewdog/reviewdog, danger/danger, semgrep/semgrep]
-tests: 6
+tests: 21
 ---
 
 # Code Review
