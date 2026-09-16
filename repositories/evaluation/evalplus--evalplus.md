@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: evalplus
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · published-artifact · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.3.1 (2024-10-20) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://evalplus.github.io |
+| Homepage | [https://evalplus.github.io](https://evalplus.github.io) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

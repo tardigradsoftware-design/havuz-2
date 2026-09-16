@@ -6,13 +6,23 @@ purpose: >-
   description from the GitHub API. Purpose must be confirmed from the README before adoption; this
   entry deliberately does not guess at capabilities.
 category: cloud
+category_evidence: topics-or-slug
+category_signals: ["cloudflare"]
+registry_kind: server
+registry_kind_evidence: >-
+  slug "cloudflare/mcp-server-cloudflare" names the repository as MCP
 distribution: source
 official: true
 maintainer: cloudflare
 repository: cloudflare/mcp-server-cloudflare
 url: https://github.com/cloudflare/mcp-server-cloudflare
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -28,8 +38,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.53
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description-thin
+days_since_push: 14
+language: TypeScript
 tags: ["cloudflare", "edge", "mcp"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -50,9 +64,11 @@ sources:
 
 # mcp-server-cloudflare
 
-`cloudflare/mcp-server-cloudflare` — Registered as an MCP server under `cloudflare/mcp-server-cloudflare`. The repository
+`cloudflare/mcp-server-cloudflare` — Registered as an MCP server under \`cloudflare/mcp-server-cloudflare\`. The repository
 returned no description from the GitHub API. Purpose must be confirmed from the README
 before adoption; this entry deliberately does not guess at capabilities.
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: slug "cloudflare/mcp-server-cloudflare" names the repository as MCP.
 
 ## What is verified
 
@@ -95,7 +111,7 @@ then this entry is a **pointer with verified provenance**, not a capability desc
 
 ## Purpose
 
-Registered as an MCP server under `cloudflare/mcp-server-cloudflare`. The repository returned no description from the GitHub API. Purpose must be confirmed from the README before adoption; this entry deliberately does not guess at capabilities.
+Registered as an MCP server under \`cloudflare/mcp-server-cloudflare\`. The repository returned no description from the GitHub API. Purpose must be confirmed from the README before adoption; this entry deliberately does not guess at capabilities.
 
 > The repository's own description was too thin to serve as a purpose statement. Expand this section from the README, then change `purpose_evidence` to `readme-reviewed` and date it.
 

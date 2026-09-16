@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: microsoft
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v7.0.2 (2026-08-20) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.typescriptlang.org |
+| Homepage | [https://www.typescriptlang.org](https://www.typescriptlang.org) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

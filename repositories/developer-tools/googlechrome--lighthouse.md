@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: GoogleChrome
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Automated auditing, performance metrics, and best practices for the web.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v13.4.1 (2026-07-20) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://developer.chrome.com/docs/lighthouse/overview/ |
+| Homepage | [https://developer.chrome.com/docs/lighthouse/overview/](https://developer.chrome.com/docs/lighthouse/overview/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

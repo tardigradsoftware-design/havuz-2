@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Skyvern-AI
     license: AGPL-3.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Automate browser based workflows with AI
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.0.53 (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.skyvern.com |
+| Homepage | [https://www.skyvern.com](https://www.skyvern.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: DietrichGebert
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v4.10.0 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://ponytail.dev |
+| Homepage | [https://ponytail.dev](https://ponytail.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

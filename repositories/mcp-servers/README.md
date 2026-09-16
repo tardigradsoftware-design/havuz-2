@@ -53,7 +53,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [microsoft/mcp](./microsoft--mcp.md) — tier S, ACTIVE
 - [microsoft/playwright-mcp](./microsoft--playwright-mcp.md) — tier S, ACTIVE
 - [mksglu/context-mode](./mksglu--context-mode.md) — tier A, ACTIVE
-- [modelcontextprotocol/inspector](./modelcontextprotocol--inspector.md) — tier UNVERIFIED, ACTIVE
+- [modelcontextprotocol/inspector](./modelcontextprotocol--inspector.md) — tier NO-LICENSE, ACTIVE
 - [modelcontextprotocol/python-sdk](./modelcontextprotocol--python-sdk.md) — tier S, ACTIVE
 - [modelcontextprotocol/registry](./modelcontextprotocol--registry.md) — tier A, ACTIVE
 - [modelcontextprotocol/servers](./modelcontextprotocol--servers.md) — tier A, ACTIVE
@@ -68,4 +68,4 @@ all facts verified against the GitHub API on 2026-09-15.
 - [supabase/mcp](./supabase--mcp.md) — tier S, ACTIVE
 - [tavily-ai/tavily-mcp](./tavily-ai--tavily-mcp.md) — tier A, ACTIVE
 - [upstash/context7](./upstash--context7.md) — tier S, ACTIVE
-- [vercel/mcp-handler](./vercel--mcp-handler.md) — tier UNVERIFIED, ACTIVE
+- [vercel/mcp-handler](./vercel--mcp-handler.md) — tier NO-LICENSE, ACTIVE

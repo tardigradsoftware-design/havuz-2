@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: affaan-m
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.2.1 (2026-09-08) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://ecc.tools |
+| Homepage | [https://ecc.tools](https://ecc.tools) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

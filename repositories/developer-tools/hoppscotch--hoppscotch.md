@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: hoppscotch
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
-> Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia
+> _Upstream description, quoted as published and not verified here:_
+>
+> Open-Source API Development Ecosystem • `https://hoppscotch.io` • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | 2026.8.1 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://hoppscotch.io |
+| Homepage | [https://hoppscotch.io](https://hoppscotch.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

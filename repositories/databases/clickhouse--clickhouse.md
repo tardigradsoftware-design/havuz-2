@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: ClickHouse
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > ClickHouse® is a real-time analytics database management system
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v26.7.9.12-stable (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://clickhouse.com |
+| Homepage | [https://clickhouse.com](https://clickhouse.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: assafelovic
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An autonomous agent that conducts deep research on any data using any LLM providers
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.6.1 (2026-08-24) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://gptr.dev |
+| Homepage | [https://gptr.dev](https://gptr.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

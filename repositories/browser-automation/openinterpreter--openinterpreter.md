@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: openinterpreter
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A coding agent for open models like Kimi K3 and GLM 5.3
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | rust-v0.0.44 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | http://openinterpreter.com/ |
+| Homepage | [http://openinterpreter.com/](http://openinterpreter.com/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

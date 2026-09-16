@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Permify
     license: AGPL-3.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An open-source authorization as a service inspired by Google Zanzibar, designed to build and manage fine-grained and scalable authorization systems for any application. — Permify is now part of FusionAuth 🎉
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.7.4 (2026-09-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://permify.co/ |
+| Homepage | [https://permify.co/](https://permify.co/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

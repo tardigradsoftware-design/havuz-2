@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: neondatabase
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > MCP server for interacting with Neon Management API and databases
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://mcp-server-neon-jet.vercel.app |
+| Homepage | [https://mcp-server-neon-jet.vercel.app](https://mcp-server-neon-jet.vercel.app) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

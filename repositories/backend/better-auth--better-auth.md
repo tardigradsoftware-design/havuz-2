@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: better-auth
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The most comprehensive authentication framework
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.7.5 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://better-auth.com |
+| Homepage | [https://better-auth.com](https://better-auth.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

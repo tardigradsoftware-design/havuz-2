@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: OpenAdaptAI
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Compiles a demonstrated GUI task into a program that reports VERIFIED only if an independent check agrees. pip install openadapt; openadapt flow tutorial. Compiler lives in openadapt-flow.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.16.0 (2026-08-26) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://openadapt.ai |
+| Homepage | [https://openadapt.ai](https://openadapt.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

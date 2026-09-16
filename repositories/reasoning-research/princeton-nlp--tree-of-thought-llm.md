@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: princeton-nlp
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **medium**
 
-> [NeurIPS 2023] Tree of Thoughts: Deliberate Problem Solving with Large Language Models
+> _Upstream description, quoted as published and not verified here:_
+>
+> \[NeurIPS 2023\] Tree of Thoughts: Deliberate Problem Solving with Large Language Models
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.1.0 (2023-07-06) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/abs/2305.10601 |
+| Homepage | [https://arxiv.org/abs/2305.10601](https://arxiv.org/abs/2305.10601) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `research-artifact` (static artifact — quiet history is expected) |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Tencent
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🔵 STABLE · tier **B** · published-artifact · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A.S.E (AICGSecEval) is a repository-level AI-generated code security evaluation benchmark developed by Tencent Wukong Code Security Team.
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +75,7 @@ sources:
 | Latest release | report-v1.0 (2025-12-17) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://aicgseceval.tencent.com |
+| Homepage | [https://aicgseceval.tencent.com](https://aicgseceval.tencent.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

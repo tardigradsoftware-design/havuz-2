@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: kysely-org
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A type-safe TypeScript SQL query builder
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.29.5 (2026-08-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://kysely.dev |
+| Homepage | [https://kysely.dev](https://kysely.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

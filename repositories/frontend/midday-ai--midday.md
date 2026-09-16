@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: midday-ai
     license: AGPL-3.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | midday-v0.5.0 (2026-02-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://midday.ai |
+| Homepage | [https://midday.ai](https://midday.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

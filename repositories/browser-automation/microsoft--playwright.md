@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: microsoft
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.63.0 (2026-09-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://playwright.dev |
+| Homepage | [https://playwright.dev](https://playwright.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

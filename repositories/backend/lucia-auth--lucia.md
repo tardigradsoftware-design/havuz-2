@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: lucia-auth
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Authentication, simple and clean
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://lucia-auth.com |
+| Homepage | [https://lucia-auth.com](https://lucia-auth.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: browser-use
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
-> Browser Harness | Self-healing harness that enables LLMs to complete any task.
+> _Upstream description, quoted as published and not verified here:_
+>
+> Browser Harness \| Self-healing harness that enables LLMs to complete any task.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.1.13 (2026-09-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://browser-harness.com |
+| Homepage | [https://browser-harness.com](https://browser-harness.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

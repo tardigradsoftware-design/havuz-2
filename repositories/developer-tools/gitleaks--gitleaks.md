@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: gitleaks
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Find secrets with Gitleaks 🔑
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v8.30.1 (2026-03-21) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://gitleaks.io |
+| Homepage | [https://gitleaks.io](https://gitleaks.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

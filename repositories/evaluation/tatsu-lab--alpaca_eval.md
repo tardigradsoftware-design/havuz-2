@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: tatsu-lab
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · published-artifact · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An automatic evaluator for instruction-following language models. Human-validated, high-quality, cheap, and fast.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.6.6 (2024-12-27) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://tatsu-lab.github.io/alpaca_eval/ |
+| Homepage | [https://tatsu-lab.github.io/alpaca_eval/](https://tatsu-lab.github.io/alpaca_eval/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

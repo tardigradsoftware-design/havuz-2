@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: oxc-project
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > ⚓ A collection of high-performance JavaScript tools.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | apps_v1.83.0 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://oxc.rs |
+| Homepage | [https://oxc.rs](https://oxc.rs) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

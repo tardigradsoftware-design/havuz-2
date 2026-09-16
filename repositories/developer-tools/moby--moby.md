@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: moby
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | docker-v29.8.0 (2026-09-03) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://mobyproject.org/ |
+| Homepage | [https://mobyproject.org/](https://mobyproject.org/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

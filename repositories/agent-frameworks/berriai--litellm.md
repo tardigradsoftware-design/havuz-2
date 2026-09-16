@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: BerriAI
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
-> The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
+> _Upstream description, quoted as published and not verified here:_
+>
+> The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging \[Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM\]
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +75,7 @@ sources:
 | Latest release | v1.101.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.litellm.ai/docs/ |
+| Homepage | [https://docs.litellm.ai/docs/](https://docs.litellm.ai/docs/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

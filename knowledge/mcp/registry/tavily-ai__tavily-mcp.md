@@ -4,14 +4,24 @@ name: tavily-mcp
 purpose: >-
   As stated by the repository itself: "Production ready MCP server with real-time search, extract,
   map & crawl."
-category: browser
+category: search
+category_evidence: topics-or-slug
+category_signals: ["tavily"]
+registry_kind: server
+registry_kind_evidence: >-
+  description says "MCP server"
 distribution: source
 official: true
 maintainer: tavily-ai
 repository: tavily-ai/tavily-mcp
 url: https://github.com/tavily-ai/tavily-mcp
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.17
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 4
+language: TypeScript
 tags: ["mcp", "search"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `tavily-ai/tavily-mcp` — As stated by the repository itself: "Production ready MCP server with real-time search,
 extract, map & crawl."
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: description says "MCP server".
 
 ## What is verified
 

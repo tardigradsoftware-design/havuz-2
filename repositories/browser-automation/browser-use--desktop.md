@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: browser-use
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-ready · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Browser Use Desktop App
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.0.31 (2026-05-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | http://browser-use.com/ |
+| Homepage | [http://browser-use.com/](http://browser-use.com/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

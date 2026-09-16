@@ -3,7 +3,7 @@ id: masamasa59--ai-agent-papers
 title: "masamasa59/ai-agent-papers"
 domain: reasoning-research
 summary: >-
-  masamasa59/ai-agent-papers — STABLE, tier UNVERIFIED,
+  masamasa59/ai-agent-papers — STABLE, tier NO-LICENSE,
   1,647 stars, license NONE, quality 5.42/10, trust 2.58/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 4.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 4.18, "reproducibility": 1.0, "security": 1.5, "recency": 9.78, "evidence": 1.0}
   quality_score: 5.42
   trust_score: 2.58
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: masamasa59
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # masamasa59/ai-agent-papers
 
-🔵 STABLE · tier **UNVERIFIED** · early · confidence **low**
+🔵 STABLE · tier **NO-LICENSE** · early · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A collection of AI Agents papers (Updated biweekly)
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

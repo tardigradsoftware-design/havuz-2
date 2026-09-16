@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: shadcn-ui
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An open source application built using the new router, server components and everything new in Next.js 13.
 
 ## Facts (verified 2026-09-15 via the GitHub API)

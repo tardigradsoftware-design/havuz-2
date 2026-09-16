@@ -4,14 +4,24 @@ name: python-sdk
 purpose: >-
   As stated by the repository itself: "The official Python SDK for Model Context Protocol servers
   and clients"
-category: ci-cd
+category: other
+category_evidence: no-signal-matched
+category_signals: []
+registry_kind: sdk
+registry_kind_evidence: >-
+  description says "SDK"
 distribution: source
 official: true
 maintainer: modelcontextprotocol
 repository: modelcontextprotocol/python-sdk
 url: https://github.com/modelcontextprotocol/python-sdk
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.89
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 5
+language: Python
 tags: ["mcp", "mcp-client", "mcp-server", "python", "sdk"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `modelcontextprotocol/python-sdk` — As stated by the repository itself: "The official Python SDK for Model Context Protocol
 servers and clients"
+
+**Registry kind: `sdk`.** **This is not a server you can connect to.** It is a library for *building* one. Installing it as an MCP server will not work; it is recorded here so that somebody about to write a server finds it instead of writing their own. Evidence: description says "SDK".
 
 ## What is verified
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: microsoft
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Python version of the Playwright testing and automation library.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.62.0 (2026-07-31) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://playwright.dev/python/ |
+| Homepage | [https://playwright.dev/python/](https://playwright.dev/python/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

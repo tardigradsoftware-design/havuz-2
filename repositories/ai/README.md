@@ -38,7 +38,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [1Panel-dev/MaxKB](./1panel-dev--maxkb.md) — tier A, ACTIVE
 - [anthropics/claude-cookbooks](./anthropics--claude-cookbooks.md) — tier A, ACTIVE
 - [anthropics/courses](./anthropics--courses.md) — tier ARCHIVED, ARCHIVED
-- [anthropics/prompt-eng-interactive-tutorial](./anthropics--prompt-eng-interactive-tutorial.md) — tier UNVERIFIED, STABLE
+- [anthropics/prompt-eng-interactive-tutorial](./anthropics--prompt-eng-interactive-tutorial.md) — tier NO-LICENSE, STABLE
 - [axolotl-ai-cloud/axolotl](./axolotl-ai-cloud--axolotl.md) — tier S, ACTIVE
 - [dair-ai/Prompt-Engineering-Guide](./dair-ai--prompt-engineering-guide.md) — tier B, MAINTENANCE
 - [f/prompts.chat](./f--prompts.chat.md) — tier A, ACTIVE

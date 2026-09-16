@@ -4,13 +4,23 @@ name: inspector
 purpose: >-
   As stated by the repository itself: "Visual testing tool for MCP servers"
 category: other
+category_evidence: no-signal-matched
+category_signals: []
+registry_kind: tooling
+registry_kind_evidence: >-
+  description says "Visual testing"
 distribution: source
 official: true
 maintainer: modelcontextprotocol
 repository: modelcontextprotocol/inspector
 url: https://github.com/modelcontextprotocol/inspector
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -23,11 +33,15 @@ license: null
 license_risk: no-license-do-not-redistribute
 stars: 10885
 stars_checked_at: 2026-09-16
-tier: UNVERIFIED
+tier: NO-LICENSE
 quality_score: 7.92
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["cli", "debug", "debugging", "mcp", "tool", "tui", "web"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -50,6 +64,8 @@ sources:
 
 `modelcontextprotocol/inspector` — As stated by the repository itself: "Visual testing tool for MCP servers"
 
+**Registry kind: `tooling`.** **This is not a server you can connect to.** It is a tool for testing or debugging servers. Recorded here because it is the right answer to the question “how do I check the server I just built”, not to the question “which server should I install”. Evidence: description says "Visual testing".
+
 ## What is verified
 
 These fields were read from the GitHub REST API on **2026-09-16** and are facts, not judgements:
@@ -67,7 +83,7 @@ These fields were read from the GitHub REST API on **2026-09-16** and are facts,
 | SECURITY.md published | yes |
 | Tests present | **no** |
 | CI present | yes |
-| Tier / quality score | UNVERIFIED / 7.92 |
+| Tier / quality score | NO-LICENSE / 7.92 |
 
 ## What is NOT verified
 

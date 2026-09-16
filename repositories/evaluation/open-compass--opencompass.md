@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: open-compass
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 0.5.4 (2026-08-26) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://opencompass.org.cn/ |
+| Homepage | [https://opencompass.org.cn/](https://opencompass.org.cn/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

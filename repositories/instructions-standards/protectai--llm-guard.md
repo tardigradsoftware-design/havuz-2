@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: protectai
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The Security Toolkit for LLM Interactions
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | https://protectai.github.io/llm-guard/ |
+| Homepage | [https://protectai.github.io/llm-guard/](https://protectai.github.io/llm-guard/) |
 | SECURITY.md | yes → `archived-no-patches` |
 | Repository kind | `software` |
 

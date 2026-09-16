@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "Allow LLMs to control a browser with Browserbase and
   Stagehand"
 category: browser
+category_evidence: topics-or-slug
+category_signals: ["browser", "chrome", "playwright", "puppeteer"]
+registry_kind: server
+registry_kind_evidence: >-
+  slug "browserbase/mcp-server-browserbase" names the repository as MCP
 distribution: source
 official: true
 maintainer: browserbase
 repository: browserbase/mcp-server-browserbase
 url: https://github.com/browserbase/mcp-server-browserbase
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: ARCHIVED
 quality_score: 6.77
 confidence: high
+recommended_for: []
+not_recommended_for: ["adoption in new work — archived"]
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 56
+language: TypeScript
 tags: ["ai", "browser", "chrome", "chromium", "cloud", "mcp", "playwright", "puppeteer"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `browserbase/mcp-server-browserbase` — As stated by the repository itself: "Allow LLMs to control a browser with Browserbase
 and Stagehand"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: slug "browserbase/mcp-server-browserbase" names the repository as MCP.
 
 ## What is verified
 

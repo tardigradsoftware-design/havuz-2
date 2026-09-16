@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: bytedance
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.3.0 (2025-11-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://agent-tars.com |
+| Homepage | [https://agent-tars.com](https://agent-tars.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

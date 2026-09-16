@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: google-gemini
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **B** · production-ready · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Get started with building Fullstack Agents using Gemini 2.5 and LangGraph
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://ai.google.dev/gemini-api/docs/google-search |
+| Homepage | [https://ai.google.dev/gemini-api/docs/google-search](https://ai.google.dev/gemini-api/docs/google-search) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

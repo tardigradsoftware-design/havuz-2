@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Xnhyacinth
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **B** · production-ready · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 📰 Must-read papers and blogs on LLM based Long Context Modeling 🔥
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/abs/2503.17407 |
+| Homepage | [https://arxiv.org/abs/2503.17407](https://arxiv.org/abs/2503.17407) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `catalog` |
 

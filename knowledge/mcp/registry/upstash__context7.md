@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "Context7 Platform -- Up-to-date code documentation for LLMs
   and AI code editors"
 category: documentation
+category_evidence: topics-or-slug
+category_signals: ["context7"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: true
 maintainer: upstash
 repository: upstash/context7
 url: https://github.com/upstash/context7
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.28
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["context", "documentation", "llm", "mcp", "mcp-server", "vibe-coding"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `upstash/context7` — As stated by the repository itself: "Context7 Platform -- Up-to-date code documentation
 for LLMs and AI code editors"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

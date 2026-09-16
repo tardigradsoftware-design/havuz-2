@@ -6,13 +6,23 @@ purpose: >-
   codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-
   ms queries, 99% fewer tokens. Single static binary, zero dependencies."
 category: database
+category_evidence: topics-or-slug
+category_signals: ["sqlite"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: false
 maintainer: DeusData
 repository: DeusData/codebase-memory-mcp
 url: https://github.com/DeusData/codebase-memory-mcp
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -28,8 +38,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.2
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: C
 tags: ["aider", "ast", "claude-code", "code-analysis", "code-intelligence", "codebase", "codex", "cursor", "cypher", "developer-tools", "gemini-cli", "graph-visualization", "indexing", "kilocode", "knowledge-graph", "mcp", "mcp-server", "model-context-protocol", "opencode", "sqlite", "tree-sitter", "windsurf"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -53,6 +67,8 @@ sources:
 `DeusData/codebase-memory-mcp` — As stated by the repository itself: "High-performance code intelligence MCP server.
 Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158
 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

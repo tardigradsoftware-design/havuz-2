@@ -3,7 +3,7 @@ id: qwenlm--qwen3
 title: "QwenLM/Qwen3"
 domain: reasoning-research
 summary: >-
-  QwenLM/Qwen3 — STABLE, tier UNVERIFIED,
+  QwenLM/Qwen3 — STABLE, tier NO-LICENSE,
   27,624 stars, license NONE, quality 6.09/10, trust 4.66/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 8.0, "maintenance": 3.5, "adoption": 10.0, "documentation": 7.06, "reproducibility": 3.5, "security": 2.5, "recency": 6.59, "evidence": 5.0}
   quality_score: 6.09
   trust_score: 4.66
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: QwenLM
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # QwenLM/Qwen3
 
-🔵 STABLE · tier **UNVERIFIED** · published-artifact · confidence **medium**
+🔵 STABLE · tier **NO-LICENSE** · published-artifact · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

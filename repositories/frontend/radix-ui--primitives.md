@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: radix-ui
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://radix-ui.com/primitives |
+| Homepage | [https://radix-ui.com/primitives](https://radix-ui.com/primitives) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

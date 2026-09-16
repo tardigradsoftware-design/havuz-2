@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Egonex-AI
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.9.0 (2026-07-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://understand-anything.com/ |
+| Homepage | [https://understand-anything.com/](https://understand-anything.com/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

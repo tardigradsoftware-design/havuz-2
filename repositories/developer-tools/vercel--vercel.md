@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: vercel
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Develop. Preview. Ship.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @vercel/static-build@2.11.13 (2026-07-30) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://vercel.com |
+| Homepage | [https://vercel.com](https://vercel.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

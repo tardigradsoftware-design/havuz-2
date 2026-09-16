@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: awslabs
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Open source MCP Servers for AWS
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 2026.09.20260908143235 (2026-09-08) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://awslabs.github.io/mcp/ |
+| Homepage | [https://awslabs.github.io/mcp/](https://awslabs.github.io/mcp/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

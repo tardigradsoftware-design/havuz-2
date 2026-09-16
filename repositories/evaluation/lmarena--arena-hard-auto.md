@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: lmarena
     license: Apache-2.0
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Arena-Hard-Auto: An automatic LLM benchmark.
 
 ## Facts (verified 2026-09-15 via the GitHub API)

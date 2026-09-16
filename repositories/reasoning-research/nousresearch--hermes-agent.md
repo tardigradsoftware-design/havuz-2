@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: NousResearch
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The agent that grows with you
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2026.9.14 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://hermes-agent.nousresearch.com |
+| Homepage | [https://hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

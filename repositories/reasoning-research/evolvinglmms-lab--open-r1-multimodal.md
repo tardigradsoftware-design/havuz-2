@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: EvolvingLMMs-Lab
     license: Apache-2.0
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **EXPERIMENTAL** · published-artifact · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A fork to add multimodal model training to open-r1
 
 ## Facts (verified 2026-09-15 via the GitHub API)

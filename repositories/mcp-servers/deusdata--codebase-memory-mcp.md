@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: DeusData
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.10.8 (2026-08-19) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://deusdata.github.io/codebase-memory-mcp/ |
+| Homepage | [https://deusdata.github.io/codebase-memory-mcp/](https://deusdata.github.io/codebase-memory-mcp/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

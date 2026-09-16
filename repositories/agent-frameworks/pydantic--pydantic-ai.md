@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: pydantic
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.43.0 (2026-09-12) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://pydantic.dev/pydantic-ai |
+| Homepage | [https://pydantic.dev/pydantic-ai](https://pydantic.dev/pydantic-ai) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

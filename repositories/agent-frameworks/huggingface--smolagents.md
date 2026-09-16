@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: huggingface
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🤗 smolagents: a barebones library for agents that think in code.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.26.0 (2026-05-29) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://huggingface.co/docs/smolagents |
+| Homepage | [https://huggingface.co/docs/smolagents](https://huggingface.co/docs/smolagents) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

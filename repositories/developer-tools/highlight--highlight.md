@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: highlight
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +75,7 @@ sources:
 | Latest release | docker-v0.5.6 (2025-08-08) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://app.highlight.io |
+| Homepage | [https://app.highlight.io](https://app.highlight.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

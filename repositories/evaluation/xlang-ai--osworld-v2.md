@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: xlang-ai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2026.08.08 (2026-08-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://osworld-v2.xlang.ai |
+| Homepage | [https://osworld-v2.xlang.ai](https://osworld-v2.xlang.ai) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

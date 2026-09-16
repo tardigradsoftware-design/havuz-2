@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: drizzle-team
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > ORM
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 0.45.2 (2026-03-27) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://orm.drizzle.team |
+| Homepage | [https://orm.drizzle.team](https://orm.drizzle.team) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

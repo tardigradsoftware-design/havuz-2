@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:49:50+00:00",
+  "generated_at": "2026-09-16T07:07:55+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "records": 35,
   "$schema": "../schemas/mcp.schema.json",
@@ -9,13 +9,24 @@
       "name": "browser-tools-mcp",
       "purpose": "As stated by the repository itself: \"Monitor browser logs directly from Cursor and other MCP compatible IDEs.\"",
       "category": "browser",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "browser"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "AgentDeskAI",
       "repository": "AgentDeskAI/browser-tools-mcp",
       "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -31,8 +42,12 @@
       "tier": "A",
       "quality_score": 7.92,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 33,
+      "language": "TypeScript",
       "tags": [
         "ai",
         "anthropic",
@@ -57,7 +72,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/AgentDeskAI__browser-tools-mcp.md",
-      "_tokens": 758,
+      "_tokens": 842,
       "_headings": [
         "browser-tools-mcp",
         "What is verified",
@@ -72,13 +87,27 @@
       "name": "chrome-devtools-mcp",
       "purpose": "As stated by the repository itself: \"Chrome DevTools for coding agents\"",
       "category": "browser",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "browser",
+        "chrome",
+        "devtools",
+        "puppeteer"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": false,
       "maintainer": "ChromeDevTools",
       "repository": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -94,8 +123,12 @@
       "tier": "S",
       "quality_score": 8.15,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "browser",
         "chrome",
@@ -122,7 +155,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/ChromeDevTools__chrome-devtools-mcp.md",
-      "_tokens": 749,
+      "_tokens": 832,
       "_headings": [
         "chrome-devtools-mcp",
         "What is verified",
@@ -137,13 +170,24 @@
       "name": "codebase-memory-mcp",
       "purpose": "As stated by the repository itself: \"High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub- ms queries, 99% fewer tokens. Single static binary, zero dependencies.\"",
       "category": "database",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "sqlite"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": false,
       "maintainer": "DeusData",
       "repository": "DeusData/codebase-memory-mcp",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -159,8 +203,12 @@
       "tier": "S",
       "quality_score": 8.2,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "C",
       "tags": [
         "aider",
         "ast",
@@ -200,7 +248,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/DeusData__codebase-memory-mcp.md",
-      "_tokens": 833,
+      "_tokens": 917,
       "_headings": [
         "codebase-memory-mcp",
         "What is verified",
@@ -215,13 +263,24 @@
       "name": "cloud-run-mcp",
       "purpose": "As stated by the repository itself: \"MCP server to deploy apps to Cloud Run\"",
       "category": "cloud",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "cloud"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": false,
       "maintainer": "GoogleCloudPlatform",
       "repository": "GoogleCloudPlatform/cloud-run-mcp",
       "url": "https://github.com/GoogleCloudPlatform/cloud-run-mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -237,8 +296,12 @@
       "tier": "A",
       "quality_score": 7.64,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 2,
+      "language": "JavaScript",
       "tags": [
         "gcp",
         "google-cloud",
@@ -261,7 +324,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/GoogleCloudPlatform__cloud-run-mcp.md",
-      "_tokens": 743,
+      "_tokens": 827,
       "_headings": [
         "cloud-run-mcp",
         "What is verified",
@@ -276,13 +339,24 @@
       "name": "mcp",
       "purpose": "As stated by the repository itself: \"Open source MCP Servers for AWS\"",
       "category": "cloud",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "aws"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "awslabs",
       "repository": "awslabs/mcp",
       "url": "https://github.com/awslabs/mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -298,8 +372,12 @@
       "tier": "S",
       "quality_score": 8.65,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "Python",
       "tags": [
         "aws",
         "catalog",
@@ -327,7 +405,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/awslabs__mcp.md",
-      "_tokens": 713,
+      "_tokens": 796,
       "_headings": [
         "mcp",
         "What is verified",
@@ -342,13 +420,27 @@
       "name": "mcp-server-browserbase",
       "purpose": "As stated by the repository itself: \"Allow LLMs to control a browser with Browserbase and Stagehand\"",
       "category": "browser",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "browser",
+        "chrome",
+        "playwright",
+        "puppeteer"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "slug \"browserbase/mcp-server-browserbase\" names the repository as MCP",
       "distribution": "source",
       "official": true,
       "maintainer": "browserbase",
       "repository": "browserbase/mcp-server-browserbase",
       "url": "https://github.com/browserbase/mcp-server-browserbase",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "Archived: no further fixes expected."
@@ -364,8 +456,14 @@
       "tier": "ARCHIVED",
       "quality_score": 6.77,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [
+        "adoption in new work — archived"
+      ],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 56,
+      "language": "TypeScript",
       "tags": [
         "ai",
         "browser",
@@ -391,7 +489,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/browserbase__mcp-server-browserbase.md",
-      "_tokens": 786,
+      "_tokens": 880,
       "_headings": [
         "mcp-server-browserbase",
         "What is verified",
@@ -406,13 +504,24 @@
       "name": "mcp-server-cloudflare",
       "purpose": "Registered as an MCP server under `cloudflare/mcp-server-cloudflare`. The repository returned no description from the GitHub API. Purpose must be confirmed from the README before adoption; this entry deliberately does not guess at capabilities.",
       "category": "cloud",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "cloudflare"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "slug \"cloudflare/mcp-server-cloudflare\" names the repository as MCP",
       "distribution": "source",
       "official": true,
       "maintainer": "cloudflare",
       "repository": "cloudflare/mcp-server-cloudflare",
       "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -428,8 +537,12 @@
       "tier": "A",
       "quality_score": 7.53,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description-thin",
+      "days_since_push": 14,
+      "language": "TypeScript",
       "tags": [
         "cloudflare",
         "edge",
@@ -450,7 +563,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/cloudflare__mcp-server-cloudflare.md",
-      "_tokens": 876,
+      "_tokens": 969,
       "_headings": [
         "mcp-server-cloudflare",
         "What is verified",
@@ -465,13 +578,24 @@
       "name": "postgres-mcp",
       "purpose": "As stated by the repository itself: \"Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.\"",
       "category": "database",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "postgres"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "slug \"crystaldba/postgres-mcp\" names the repository as MCP",
       "distribution": "source",
       "official": true,
       "maintainer": "crystaldba",
       "repository": "crystaldba/postgres-mcp",
       "url": "https://github.com/crystaldba/postgres-mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -487,8 +611,12 @@
       "tier": "S",
       "quality_score": 8.24,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 29,
+      "language": "Python",
       "tags": [
         "dba",
         "mcp",
@@ -509,7 +637,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/crystaldba__postgres-mcp.md",
-      "_tokens": 759,
+      "_tokens": 850,
       "_headings": [
         "postgres-mcp",
         "What is verified",
@@ -524,13 +652,24 @@
       "name": "n8n-mcp",
       "purpose": "As stated by the repository itself: \"A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you\"",
       "category": "ci-cd",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "n8n"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": false,
       "maintainer": "czlonkowski",
       "repository": "czlonkowski/n8n-mcp",
       "url": "https://github.com/czlonkowski/n8n-mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -546,8 +685,12 @@
       "tier": "S",
       "quality_score": 8.25,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 1,
+      "language": "TypeScript",
       "tags": [
         "automation",
         "mcp",
@@ -570,7 +713,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/czlonkowski__n8n-mcp.md",
-      "_tokens": 756,
+      "_tokens": 840,
       "_headings": [
         "n8n-mcp",
         "What is verified",
@@ -584,14 +727,26 @@
       "id": "mcp-exa-labs-exa-mcp-server",
       "name": "exa-mcp-server",
       "purpose": "As stated by the repository itself: \"Exa MCP for web search and web crawling!\"",
-      "category": "browser",
+      "category": "search",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "exa",
+        "search"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "exa-labs",
       "repository": "exa-labs/exa-mcp-server",
       "url": "https://github.com/exa-labs/exa-mcp-server",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -607,8 +762,12 @@
       "tier": "S",
       "quality_score": 8.03,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 25,
+      "language": "TypeScript",
       "tags": [
         "code-search",
         "codesearch",
@@ -635,7 +794,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/exa-labs__exa-mcp-server.md",
-      "_tokens": 726,
+      "_tokens": 810,
       "_headings": [
         "exa-mcp-server",
         "What is verified",
@@ -650,13 +809,24 @@
       "name": "firebase-tools",
       "purpose": "As stated by the repository itself: \"The Firebase Command Line Tools\"",
       "category": "cloud",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "firebase"
+      ],
+      "registry_kind": "tooling",
+      "registry_kind_evidence": "description says \"Command Line\"",
       "distribution": "source",
       "official": true,
       "maintainer": "firebase",
       "repository": "firebase/firebase-tools",
       "url": "https://github.com/firebase/firebase-tools",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -672,8 +842,12 @@
       "tier": "A",
       "quality_score": 7.89,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "firebase",
         "mcp"
@@ -693,7 +867,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/firebase__firebase-tools.md",
-      "_tokens": 721,
+      "_tokens": 806,
       "_headings": [
         "firebase-tools",
         "What is verified",
@@ -708,13 +882,24 @@
       "name": "firecrawl-mcp-server",
       "purpose": "As stated by the repository itself: \"🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.\"",
       "category": "browser",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "web-scraping"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "firecrawl",
       "repository": "firecrawl/firecrawl-mcp-server",
       "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -730,8 +915,12 @@
       "tier": "S",
       "quality_score": 8.9,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 1,
+      "language": "JavaScript",
       "tags": [
         "batch-processing",
         "claude",
@@ -765,7 +954,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/firecrawl__firecrawl-mcp-server.md",
-      "_tokens": 771,
+      "_tokens": 854,
       "_headings": [
         "firecrawl-mcp-server",
         "What is verified",
@@ -780,13 +969,24 @@
       "name": "sentry-mcp",
       "purpose": "As stated by the repository itself: \"An MCP server for interacting with Sentry via LLMs.\"",
       "category": "observability",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "sentry"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "getsentry",
       "repository": "getsentry/sentry-mcp",
       "url": "https://github.com/getsentry/sentry-mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "No SECURITY.md published."
@@ -802,8 +1002,12 @@
       "tier": "A",
       "quality_score": 7.94,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "mcp",
         "mcp-server",
@@ -826,7 +1030,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/getsentry__sentry-mcp.md",
-      "_tokens": 784,
+      "_tokens": 867,
       "_headings": [
         "sentry-mcp",
         "What is verified",
@@ -841,13 +1045,24 @@
       "name": "github-mcp-server",
       "purpose": "As stated by the repository itself: \"GitHub's official MCP Server\"",
       "category": "vcs",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "github"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "github",
       "repository": "github/github-mcp-server",
       "url": "https://github.com/github/github-mcp-server",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -863,8 +1078,12 @@
       "tier": "S",
       "quality_score": 8.4,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "Go",
       "tags": [
         "github",
         "mcp",
@@ -885,7 +1104,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/github__github-mcp-server.md",
-      "_tokens": 729,
+      "_tokens": 813,
       "_headings": [
         "github-mcp-server",
         "What is verified",
@@ -900,13 +1119,24 @@
       "name": "slack-mcp-server",
       "purpose": "As stated by the repository itself: \"The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.\"",
       "category": "communication",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "slack"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": false,
       "maintainer": "korotovsky",
       "repository": "korotovsky/slack-mcp-server",
       "url": "https://github.com/korotovsky/slack-mcp-server",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -922,8 +1152,12 @@
       "tier": "A",
       "quality_score": 7.06,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 60,
+      "language": "Go",
       "tags": [
         "assistants",
         "govslack",
@@ -948,7 +1182,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/korotovsky__slack-mcp-server.md",
-      "_tokens": 789,
+      "_tokens": 872,
       "_headings": [
         "slack-mcp-server",
         "What is verified",
@@ -963,13 +1197,24 @@
       "name": "notion-mcp-server",
       "purpose": "As stated by the repository itself: \"Official Notion MCP Server\"",
       "category": "communication",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "notion"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "description says \"MCP Server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "makenotion",
       "repository": "makenotion/notion-mcp-server",
       "url": "https://github.com/makenotion/notion-mcp-server",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -985,8 +1230,12 @@
       "tier": "A",
       "quality_score": 7.88,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 2,
+      "language": "TypeScript",
       "tags": [
         "mcp",
         "notion"
@@ -1006,7 +1255,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/makenotion__notion-mcp-server.md",
-      "_tokens": 722,
+      "_tokens": 806,
       "_headings": [
         "notion-mcp-server",
         "What is verified",
@@ -1020,14 +1269,23 @@
       "id": "mcp-microsoft-mcp",
       "name": "mcp",
       "purpose": "As stated by the repository itself: \"Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration\"",
-      "category": "ci-cd",
+      "category": "other",
+      "category_evidence": "no-signal-matched",
+      "category_signals": [],
+      "registry_kind": "catalog",
+      "registry_kind_evidence": "description says \"Catalog\"",
       "distribution": "source",
       "official": true,
       "maintainer": "microsoft",
       "repository": "microsoft/mcp",
       "url": "https://github.com/microsoft/mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -1043,8 +1301,12 @@
       "tier": "S",
       "quality_score": 8.4,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "C#",
       "tags": [
         "catalog",
         "mcp",
@@ -1065,7 +1327,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/microsoft__mcp.md",
-      "_tokens": 776,
+      "_tokens": 852,
       "_headings": [
         "mcp",
         "What is verified",
@@ -1080,13 +1342,24 @@
       "name": "playwright-mcp",
       "purpose": "As stated by the repository itself: \"Playwright MCP server\"",
       "category": "browser",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "playwright"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "description says \"MCP server\"",
       "distribution": "npm",
       "official": true,
       "maintainer": "microsoft",
       "repository": "microsoft/playwright-mcp",
       "url": "https://github.com/microsoft/playwright-mcp",
+      "npm_package": "@playwright/mcp",
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -1102,8 +1375,12 @@
       "tier": "S",
       "quality_score": 8.9,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "automation",
         "browser",
@@ -1125,7 +1402,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/microsoft__playwright-mcp.md",
-      "_tokens": 728,
+      "_tokens": 812,
       "_headings": [
         "playwright-mcp",
         "What is verified",
@@ -1140,13 +1417,24 @@
       "name": "context-mode",
       "purpose": "As stated by the repository itself: \"Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.\"",
       "category": "filesystem",
+      "category_evidence": "description-fallback",
+      "category_signals": [
+        "memory"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": false,
       "maintainer": "mksglu",
       "repository": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "No SECURITY.md published."
@@ -1162,8 +1450,12 @@
       "tier": "A",
       "quality_score": 7.81,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "antigravity",
         "claude",
@@ -1203,7 +1495,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/mksglu__context-mode.md",
-      "_tokens": 849,
+      "_tokens": 932,
       "_headings": [
         "context-mode",
         "What is verified",
@@ -1218,13 +1510,22 @@
       "name": "inspector",
       "purpose": "As stated by the repository itself: \"Visual testing tool for MCP servers\"",
       "category": "other",
+      "category_evidence": "no-signal-matched",
+      "category_signals": [],
+      "registry_kind": "tooling",
+      "registry_kind_evidence": "description says \"Visual testing\"",
       "distribution": "source",
       "official": true,
       "maintainer": "modelcontextprotocol",
       "repository": "modelcontextprotocol/inspector",
       "url": "https://github.com/modelcontextprotocol/inspector",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "SECURITY.md published."
@@ -1237,11 +1538,15 @@
       "license_risk": "no-license-do-not-redistribute",
       "stars": 10885,
       "stars_checked_at": "2026-09-16",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "quality_score": 7.92,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "cli",
         "debug",
@@ -1266,7 +1571,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/modelcontextprotocol__inspector.md",
-      "_tokens": 782,
+      "_tokens": 867,
       "_headings": [
         "inspector",
         "What is verified",
@@ -1280,14 +1585,23 @@
       "id": "mcp-modelcontextprotocol-python-sdk",
       "name": "python-sdk",
       "purpose": "As stated by the repository itself: \"The official Python SDK for Model Context Protocol servers and clients\"",
-      "category": "ci-cd",
+      "category": "other",
+      "category_evidence": "no-signal-matched",
+      "category_signals": [],
+      "registry_kind": "sdk",
+      "registry_kind_evidence": "description says \"SDK\"",
       "distribution": "source",
       "official": true,
       "maintainer": "modelcontextprotocol",
       "repository": "modelcontextprotocol/python-sdk",
       "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -1303,8 +1617,12 @@
       "tier": "S",
       "quality_score": 8.89,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 5,
+      "language": "Python",
       "tags": [
         "mcp",
         "mcp-client",
@@ -1327,7 +1645,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/modelcontextprotocol__python-sdk.md",
-      "_tokens": 756,
+      "_tokens": 831,
       "_headings": [
         "python-sdk",
         "What is verified",
@@ -1342,13 +1660,22 @@
       "name": "registry",
       "purpose": "As stated by the repository itself: \"A community driven registry service for Model Context Protocol (MCP) servers.\"",
       "category": "other",
+      "category_evidence": "no-signal-matched",
+      "category_signals": [],
+      "registry_kind": "registry",
+      "registry_kind_evidence": "description says \"registry\"",
       "distribution": "source",
       "official": true,
       "maintainer": "modelcontextprotocol",
       "repository": "modelcontextprotocol/registry",
       "url": "https://github.com/modelcontextprotocol/registry",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "SECURITY.md published."
@@ -1364,8 +1691,12 @@
       "tier": "A",
       "quality_score": 8.62,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 5,
+      "language": "Go",
       "tags": [
         "mcp",
         "mcp-servers",
@@ -1386,7 +1717,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/modelcontextprotocol__registry.md",
-      "_tokens": 801,
+      "_tokens": 868,
       "_headings": [
         "registry",
         "What is verified",
@@ -1401,13 +1732,22 @@
       "name": "servers",
       "purpose": "As stated by the repository itself: \"Model Context Protocol Servers\"",
       "category": "other",
+      "category_evidence": "no-signal-matched",
+      "category_signals": [],
+      "registry_kind": "server",
+      "registry_kind_evidence": "description says \"Model Context Protocol Servers\"",
       "distribution": "source",
       "official": true,
       "maintainer": "modelcontextprotocol",
       "repository": "modelcontextprotocol/servers",
       "url": "https://github.com/modelcontextprotocol/servers",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "SECURITY.md published."
@@ -1423,8 +1763,12 @@
       "tier": "A",
       "quality_score": 8.02,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 12,
+      "language": "TypeScript",
       "tags": [
         "mcp",
         "reference-servers"
@@ -1444,7 +1788,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/modelcontextprotocol__servers.md",
-      "_tokens": 780,
+      "_tokens": 869,
       "_headings": [
         "servers",
         "What is verified",
@@ -1458,14 +1802,23 @@
       "id": "mcp-modelcontextprotocol-typescript-sdk",
       "name": "typescript-sdk",
       "purpose": "As stated by the repository itself: \"The official TypeScript SDK for Model Context Protocol servers and clients\"",
-      "category": "ci-cd",
+      "category": "other",
+      "category_evidence": "no-signal-matched",
+      "category_signals": [],
+      "registry_kind": "sdk",
+      "registry_kind_evidence": "description says \"SDK\"",
       "distribution": "source",
       "official": true,
       "maintainer": "modelcontextprotocol",
       "repository": "modelcontextprotocol/typescript-sdk",
       "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "SECURITY.md published."
@@ -1481,8 +1834,12 @@
       "tier": "A",
       "quality_score": 8.78,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "mcp",
         "mcp-client",
@@ -1505,7 +1862,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/modelcontextprotocol__typescript-sdk.md",
-      "_tokens": 816,
+      "_tokens": 892,
       "_headings": [
         "typescript-sdk",
         "What is verified",
@@ -1520,13 +1877,25 @@
       "name": "mongodb-mcp-server",
       "purpose": "As stated by the repository itself: \"A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.\"",
       "category": "database",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "database",
+        "mongodb"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "mongodb-js",
       "repository": "mongodb-js/mongodb-mcp-server",
       "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -1542,8 +1911,12 @@
       "tier": "S",
       "quality_score": 8.05,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "mcp",
         "mcp-server",
@@ -1566,7 +1939,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/mongodb-js__mongodb-mcp-server.md",
-      "_tokens": 759,
+      "_tokens": 843,
       "_headings": [
         "mongodb-mcp-server",
         "What is verified",
@@ -1581,13 +1954,24 @@
       "name": "mcp-server-neon",
       "purpose": "As stated by the repository itself: \"MCP server for interacting with Neon Management API and databases\"",
       "category": "database",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "neon"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "description says \"MCP server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "neondatabase",
       "repository": "neondatabase/mcp-server-neon",
       "url": "https://github.com/neondatabase/mcp-server-neon",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -1603,8 +1987,12 @@
       "tier": "A",
       "quality_score": 7.93,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "mcp",
         "neon",
@@ -1625,7 +2013,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/neondatabase__mcp-server-neon.md",
-      "_tokens": 744,
+      "_tokens": 827,
       "_headings": [
         "mcp-server-neon",
         "What is verified",
@@ -1640,13 +2028,24 @@
       "name": "serena",
       "purpose": "As stated by the repository itself: \"A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent\"",
       "category": "search",
+      "category_evidence": "description-fallback",
+      "category_signals": [
+        "retrieval"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": false,
       "maintainer": "oraios",
       "repository": "oraios/serena",
       "url": "https://github.com/oraios/serena",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "No SECURITY.md published."
@@ -1662,8 +2061,12 @@
       "tier": "A",
       "quality_score": 7.89,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "Python",
       "tags": [
         "agent",
         "ai",
@@ -1696,7 +2099,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/oraios__serena.md",
-      "_tokens": 810,
+      "_tokens": 893,
       "_headings": [
         "serena",
         "What is verified",
@@ -1711,13 +2114,22 @@
       "name": "awesome-mcp-servers",
       "purpose": "As stated by the repository itself: \"A collection of MCP servers.\"",
       "category": "other",
+      "category_evidence": "no-signal-matched",
+      "category_signals": [],
+      "registry_kind": "catalog",
+      "registry_kind_evidence": "description says \"collection of\"",
       "distribution": "source",
       "official": true,
       "maintainer": "punkpeye",
       "repository": "punkpeye/awesome-mcp-servers",
       "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -1733,8 +2145,12 @@
       "tier": "A",
       "quality_score": 7.8,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 2,
+      "language": null,
       "tags": [
         "ai",
         "catalog",
@@ -1756,7 +2172,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/punkpeye__awesome-mcp-servers.md",
-      "_tokens": 725,
+      "_tokens": 803,
       "_headings": [
         "awesome-mcp-servers",
         "What is verified",
@@ -1771,13 +2187,25 @@
       "name": "mcp-redis",
       "purpose": "As stated by the repository itself: \"The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently\"",
       "category": "database",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "database",
+        "redis"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "redis",
       "repository": "redis/mcp-redis",
       "url": "https://github.com/redis/mcp-redis",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -1793,8 +2221,12 @@
       "tier": "S",
       "quality_score": 8.62,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 13,
+      "language": "Python",
       "tags": [
         "cache",
         "database",
@@ -1819,7 +2251,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/redis__mcp-redis.md",
-      "_tokens": 768,
+      "_tokens": 852,
       "_headings": [
         "mcp-redis",
         "What is verified",
@@ -1834,13 +2266,26 @@
       "name": "mcp-atlassian",
       "purpose": "As stated by the repository itself: \"MCP server for Atlassian tools (Confluence, Jira)\"",
       "category": "communication",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "atlassian",
+        "confluence",
+        "jira"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "description says \"MCP server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "sooperset",
       "repository": "sooperset/mcp-atlassian",
       "url": "https://github.com/sooperset/mcp-atlassian",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -1856,8 +2301,12 @@
       "tier": "S",
       "quality_score": 8.54,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "Python",
       "tags": [
         "atlassian",
         "confluence",
@@ -1879,7 +2328,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/sooperset__mcp-atlassian.md",
-      "_tokens": 739,
+      "_tokens": 823,
       "_headings": [
         "mcp-atlassian",
         "What is verified",
@@ -1893,14 +2342,25 @@
       "id": "mcp-stripe-ai",
       "name": "ai",
       "purpose": "As stated by the repository itself: \"One-stop shop for building AI-powered products and businesses with Stripe.\"",
-      "category": "ci-cd",
+      "category": "payments",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "stripe"
+      ],
+      "registry_kind": "unproven",
+      "registry_kind_evidence": "the topic \"mcp\" says the repository relates to MCP; nothing observed asserts that it is a server",
       "distribution": "source",
       "official": true,
       "maintainer": "stripe",
       "repository": "stripe/ai",
       "url": "https://github.com/stripe/ai",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -1916,8 +2376,12 @@
       "tier": "S",
       "quality_score": 8.42,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "ai",
         "gemini-cli-extension",
@@ -1945,7 +2409,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/stripe__ai.md",
-      "_tokens": 741,
+      "_tokens": 894,
       "_headings": [
         "ai",
         "What is verified",
@@ -1960,13 +2424,24 @@
       "name": "mcp",
       "purpose": "As stated by the repository itself: \"Connect Supabase to your AI assistants\"",
       "category": "database",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "supabase"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "slug \"supabase/mcp\" names the repository as MCP",
       "distribution": "source",
       "official": true,
       "maintainer": "supabase",
       "repository": "supabase/mcp",
       "url": "https://github.com/supabase/mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -1982,8 +2457,12 @@
       "tier": "S",
       "quality_score": 8.07,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "database",
         "mcp",
@@ -2004,7 +2483,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/supabase__mcp.md",
-      "_tokens": 719,
+      "_tokens": 808,
       "_headings": [
         "mcp",
         "What is verified",
@@ -2018,14 +2497,25 @@
       "id": "mcp-tavily-ai-tavily-mcp",
       "name": "tavily-mcp",
       "purpose": "As stated by the repository itself: \"Production ready MCP server with real-time search, extract, map & crawl.\"",
-      "category": "browser",
+      "category": "search",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "tavily"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "description says \"MCP server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "tavily-ai",
       "repository": "tavily-ai/tavily-mcp",
       "url": "https://github.com/tavily-ai/tavily-mcp",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "medium",
         "notes": "No SECURITY.md published."
@@ -2041,8 +2531,12 @@
       "tier": "A",
       "quality_score": 7.17,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 4,
+      "language": "TypeScript",
       "tags": [
         "mcp",
         "search"
@@ -2062,7 +2556,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/tavily-ai__tavily-mcp.md",
-      "_tokens": 741,
+      "_tokens": 825,
       "_headings": [
         "tavily-mcp",
         "What is verified",
@@ -2077,13 +2571,24 @@
       "name": "context7",
       "purpose": "As stated by the repository itself: \"Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors\"",
       "category": "documentation",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "context7"
+      ],
+      "registry_kind": "server",
+      "registry_kind_evidence": "owner-set topic \"mcp-server\"",
       "distribution": "source",
       "official": true,
       "maintainer": "upstash",
       "repository": "upstash/context7",
       "url": "https://github.com/upstash/context7",
+      "npm_package": null,
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "low",
         "notes": "SECURITY.md published."
@@ -2099,8 +2604,12 @@
       "tier": "S",
       "quality_score": 8.28,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 0,
+      "language": "TypeScript",
       "tags": [
         "context",
         "documentation",
@@ -2124,7 +2633,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/upstash__context7.md",
-      "_tokens": 755,
+      "_tokens": 839,
       "_headings": [
         "context7",
         "What is verified",
@@ -2139,13 +2648,24 @@
       "name": "mcp-handler",
       "purpose": "As stated by the repository itself: \"Easily spin up an MCP Server on Next.js, Nuxt, Svelte, and more\"",
       "category": "cloud",
+      "category_evidence": "topics-or-slug",
+      "category_signals": [
+        "vercel"
+      ],
+      "registry_kind": "sdk",
+      "registry_kind_evidence": "description says \"spin up\"",
       "distribution": "npm",
       "official": true,
       "maintainer": "vercel",
       "repository": "vercel/mcp-handler",
       "url": "https://github.com/vercel/mcp-handler",
+      "npm_package": "mcp-handler",
+      "pypi_package": null,
       "transport": [],
       "tools": [],
+      "resources": [],
+      "prompts": [],
+      "permissions": {},
       "security": {
         "risk_level": "high",
         "notes": "No SECURITY.md published."
@@ -2158,11 +2678,15 @@
       "license_risk": "no-license-do-not-redistribute",
       "stars": 669,
       "stars_checked_at": "2026-09-16",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "quality_score": 8.02,
       "confidence": "high",
+      "recommended_for": [],
+      "not_recommended_for": [],
       "capability_evidence": "unverified",
       "purpose_evidence": "repository-description",
+      "days_since_push": 7,
+      "language": "TypeScript",
       "tags": [
         "adapter",
         "mcp",
@@ -2183,7 +2707,7 @@
         }
       ],
       "_path": "knowledge/mcp/registry/vercel__mcp-handler.md",
-      "_tokens": 787,
+      "_tokens": 864,
       "_headings": [
         "mcp-handler",
         "What is verified",

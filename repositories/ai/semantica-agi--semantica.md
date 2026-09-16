@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: semantica-agi
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Graph-Native Infrastructure for Context and Accountable AI Systems
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.6.8 (2026-09-05) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://getsemantica.ai |
+| Homepage | [https://getsemantica.ai](https://getsemantica.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

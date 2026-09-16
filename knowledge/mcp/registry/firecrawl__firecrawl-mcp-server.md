@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "🔥 Official Firecrawl MCP Server - Adds powerful web
   scraping and search to Cursor, Claude and any other LLM clients."
 category: browser
+category_evidence: topics-or-slug
+category_signals: ["web-scraping"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: true
 maintainer: firecrawl
 repository: firecrawl/firecrawl-mcp-server
 url: https://github.com/firecrawl/firecrawl-mcp-server
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.9
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 1
+language: JavaScript
 tags: ["batch-processing", "claude", "content-extraction", "crawling", "data-collection", "firecrawl", "firecrawl-ai", "javascript-rendering", "llm-tools", "mcp", "mcp-server", "model-context-protocol", "search", "search-api", "web-crawler", "web-scraping"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `firecrawl/firecrawl-mcp-server` — As stated by the repository itself: "🔥 Official Firecrawl MCP Server - Adds powerful web
 scraping and search to Cursor, Claude and any other LLM clients."
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

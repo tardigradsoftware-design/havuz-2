@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: rtk-ai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.49.0 (2026-09-11) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.rtk-ai.app |
+| Homepage | [https://www.rtk-ai.app](https://www.rtk-ai.app) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

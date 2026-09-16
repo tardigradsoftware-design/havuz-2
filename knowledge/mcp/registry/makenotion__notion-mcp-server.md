@@ -4,13 +4,23 @@ name: notion-mcp-server
 purpose: >-
   As stated by the repository itself: "Official Notion MCP Server"
 category: communication
+category_evidence: topics-or-slug
+category_signals: ["notion"]
+registry_kind: server
+registry_kind_evidence: >-
+  description says "MCP Server"
 distribution: source
 official: true
 maintainer: makenotion
 repository: makenotion/notion-mcp-server
 url: https://github.com/makenotion/notion-mcp-server
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.88
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 2
+language: TypeScript
 tags: ["mcp", "notion"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # notion-mcp-server
 
 `makenotion/notion-mcp-server` — As stated by the repository itself: "Official Notion MCP Server"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: description says "MCP Server".
 
 ## What is verified
 

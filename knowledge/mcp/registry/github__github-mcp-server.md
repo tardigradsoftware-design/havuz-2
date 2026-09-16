@@ -4,13 +4,23 @@ name: github-mcp-server
 purpose: >-
   As stated by the repository itself: "GitHub's official MCP Server"
 category: vcs
+category_evidence: topics-or-slug
+category_signals: ["github"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: true
 maintainer: github
 repository: github/github-mcp-server
 url: https://github.com/github/github-mcp-server
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.4
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: Go
 tags: ["github", "mcp", "mcp-server"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # github-mcp-server
 
 `github/github-mcp-server` — As stated by the repository itself: "GitHub's official MCP Server"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

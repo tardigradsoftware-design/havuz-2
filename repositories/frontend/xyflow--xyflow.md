@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: xyflow
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
-> React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.
+> _Upstream description, quoted as published and not verified here:_
+>
+> React Flow \| Svelte Flow - Powerful open source libraries for building node-based UIs with React (`https://reactflow.dev`) or Svelte (`https://svelteflow.dev`). Ready out-of-the-box and infinitely customizable.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | @xyflow/svelte@1.6.6 (2026-09-01) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://xyflow.com |
+| Homepage | [https://xyflow.com](https://xyflow.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

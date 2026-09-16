@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: testing-library
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🐐 Simple and complete React DOM testing utilities that encourage good testing practices.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v16.3.3 (2026-08-27) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://testing-library.com/react |
+| Homepage | [https://testing-library.com/react](https://testing-library.com/react) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

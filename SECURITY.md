@@ -39,6 +39,38 @@ If a contributor submits any of the above it is removed, the submitter is told w
 the *exclusion* (not the content) is recorded in
 [`knowledge/security/llm-security/excluded-sources.md`](knowledge/security/llm-security/excluded-sources.md).
 
+This is enforced in code, not by convention. Specific excluded sources are listed in
+`metadata/excluded-sources.json`; `scripts/validate/validate_policy.py` fails the build if that
+list is unusable, if an excluded source appears on any ingestion or retrieval path, or if one is
+named in a passage that does not state the exclusion. `scripts/update/fetch_github_metadata.py`
+refuses to fetch an excluded source at all, because a completed fetch would already have
+collected it. `scripts/lib/exclusions.py` is the single source of truth both read.
+
+### Ingested text is untrusted input
+
+Repository `description`, `homepage`, `topics` and `name` are set by whoever owns the
+repository. They are recorded verbatim in `metadata/repositories.json`, because that is the
+observed fact and sanitising the record would destroy the evidence of what upstream said.
+
+They are **not** treated as content anywhere downstream. `scripts/lib/sanitize.py` is the
+single boundary:
+
+- generators render them through it, so upstream text is *displayed* rather than *interpreted* —
+  markdown-active characters are escaped, a bare URL becomes inline code instead of a live link
+  this repository asserts, and a `homepage` is linked only when it is plainly `http(s)` with no
+  syntax-breaking characters, which is what stops an owner publishing `javascript:` through a
+  card here;
+- descriptions are framed as *"Upstream description, quoted as published and not verified here"*,
+  because an unframed quote reads as this repository asserting it;
+- a description matching an injection pattern is **quarantined, not rendered**. Escaping makes
+  text inert as markdown; it does nothing about a description whose content is an instruction to
+  the next agent that reads the card, and this repository is built to be ingested as external
+  memory;
+- `validate_policy.py` scans `description`, `homepage`, `topics`, `name` and MCP `purpose`
+  across the registries and **fails the build** on a match. The corpus is clean today, which is a
+  property of the current seed list and not of the pipeline — that is why the check exists before
+  something is added rather than after.
+
 What **is** collected instead: public reasoning research, open-weight models, published
 techniques, public datasets, model cards, open evaluation results, and reproducible
 implementations of published methods.

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: graphql
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > GraphQL is a query language and execution engine tied to any backend service.
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +75,7 @@ sources:
 | Latest release | September2025 (2025-09-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://spec.graphql.org |
+| Homepage | [https://spec.graphql.org](https://spec.graphql.org) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `docs` |
 

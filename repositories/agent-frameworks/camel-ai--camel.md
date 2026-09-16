@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: camel-ai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
-> 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
+> _Upstream description, quoted as published and not verified here:_
+>
+> 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. `https://www.camel-ai.org`
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.2.90 (2026-03-22) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.camel-ai.org/ |
+| Homepage | [https://docs.camel-ai.org/](https://docs.camel-ai.org/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

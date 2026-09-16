@@ -4,14 +4,25 @@ name: ai
 purpose: >-
   As stated by the repository itself: "One-stop shop for building AI-powered products and
   businesses with Stripe."
-category: ci-cd
+category: payments
+category_evidence: topics-or-slug
+category_signals: ["stripe"]
+registry_kind: unproven
+registry_kind_evidence: >-
+  the topic "mcp" says the repository relates to MCP; nothing observed asserts that it is
+  a server
 distribution: source
 official: true
 maintainer: stripe
 repository: stripe/ai
 url: https://github.com/stripe/ai
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -27,8 +38,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.42
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["ai", "gemini-cli-extension", "llm", "llm-agents", "mcp", "payments", "python", "stripe", "typescript", "workflows"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +66,8 @@ sources:
 
 `stripe/ai` — As stated by the repository itself: "One-stop shop for building AI-powered products and
 businesses with Stripe."
+
+**Registry kind: `unproven`.** **Nothing the GitHub API returned establishes what this repository is.** It was seeded into this registry under the seed-list category `mcp-servers`, which is an assertion made when the record was added rather than a verified property, and the repository's own published description and topics do not confirm it. It is not counted as an MCP server. Confirm from the README before adopting it, then set `registry_kind` and record what you read. Evidence: the topic "mcp" says the repository relates to MCP; nothing observed asserts that it is a server.
 
 ## What is verified
 

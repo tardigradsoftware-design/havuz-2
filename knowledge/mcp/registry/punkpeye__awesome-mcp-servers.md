@@ -4,13 +4,23 @@ name: awesome-mcp-servers
 purpose: >-
   As stated by the repository itself: "A collection of MCP servers."
 category: other
+category_evidence: no-signal-matched
+category_signals: []
+registry_kind: catalog
+registry_kind_evidence: >-
+  description says "collection of"
 distribution: source
 official: true
 maintainer: punkpeye
 repository: punkpeye/awesome-mcp-servers
 url: https://github.com/punkpeye/awesome-mcp-servers
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.8
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 2
+language: null
 tags: ["ai", "catalog", "discovery", "mcp"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # awesome-mcp-servers
 
 `punkpeye/awesome-mcp-servers` — As stated by the repository itself: "A collection of MCP servers."
+
+**Registry kind: `catalog`.** **This is a curated list of other servers, not a server.** Consult it to find candidates; do not install it. Recorded here because a catalog with a high star count looks exactly like a popular server in a filtered list. Evidence: description says "collection of".
 
 ## What is verified
 

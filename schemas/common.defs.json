@@ -111,9 +111,11 @@
         "C",
         "EXPERIMENTAL",
         "ARCHIVED",
+        "NO-LICENSE",
         "UNVERIFIED",
         "DEPRECATED"
-      ]
+      ],
+      "description": "Adoption tier. S/A/B/C/EXPERIMENTAL are score bands; ARCHIVED, NO-LICENSE, UNVERIFIED and DEPRECATED are status overrides that replace the band. NO-LICENSE means the metadata WAS verified and verification found no published license \u2014 legally unsafe to redistribute, but the record itself is trustworthy. UNVERIFIED means the metadata could NOT be verified (fetch failed or the repository is unresolvable), so nothing asserted about it is reliable. The two must never be used for each other."
     },
     "contentClass": {
       "type": "string",
@@ -329,6 +331,14 @@
           "type": [
             "string",
             "null"
+          ]
+        },
+        "license_risk": {
+          "description": "The redistribution consequence of `license`, copied from the record in metadata/repositories.json. Present so a generated markdown card states the policy in a form a validator can check: `license: NONE` alone is an observed fact, and a fact does not stop anyone vendoring the content.",
+          "enum": [
+            "none",
+            "custom-license-review-before-vendoring",
+            "no-license-do-not-redistribute"
           ]
         },
         "confidence": {

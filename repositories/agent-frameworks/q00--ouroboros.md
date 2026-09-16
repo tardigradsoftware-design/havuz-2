@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Q00
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.54.4 (2026-09-13) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://ouroboros.page/ |
+| Homepage | [https://ouroboros.page/](https://ouroboros.page/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

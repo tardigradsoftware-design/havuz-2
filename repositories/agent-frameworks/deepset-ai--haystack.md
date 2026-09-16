@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: deepset-ai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.1.1 (2026-09-03) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://haystack.deepset.ai |
+| Homepage | [https://haystack.deepset.ai](https://haystack.deepset.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

@@ -38,6 +38,12 @@ from typing import Any, Dict, List, Optional, Tuple
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from lib.exclusions import load_exclusions  # noqa: E402
+
+# Loaded once at import so the argument pre-check and the fetch loop consult the same list.
+# A load failure is reported here rather than raising: the caller decides whether an
+# unreadable policy file is fatal, and `main()` treats it as one.
+_EXCLUSIONS = load_exclusions()
 from lib.scoring import (  # noqa: E402
     classify_status, confidence_for, expires_for, infer_repo_kind, maturity_for,
     score_repository,
@@ -143,8 +149,27 @@ def root_tree(full_name: str, branch: str, tok, use_cache) -> Dict[str, Any]:
             "tree_status": status}
 
 
-def fetch_one(seed: Dict[str, Any], tok, use_cache: bool, curation: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+def fetch_one(seed: Dict[str, Any], tok, use_cache: bool, curation: Optional[Dict[str, Any]] = None,
+              excluded=None) -> Dict[str, Any]:
     slug = seed["slug"].strip()
+
+    # Refuse before any request is made. Fetching an excluded repository is itself
+    # collection: the response lands in .cache/gh/ and, unless the caller is careful, in
+    # the registry. A validator that rejects the record afterwards still leaves the fetched
+    # payload on disk, so the boundary belongs here.
+    if excluded is not None:
+        refusal = excluded.fetch_refusal(slug)
+        if refusal:
+            return {
+                "requested_slug": slug,
+                "category": seed.get("category", "misc"),
+                "curated_tier": seed.get("tier", "candidate"),
+                "curated_tags": seed.get("tags", []),
+                "fetch_ok": False,
+                "refused": "EXCLUDED_BY_COLLECTION_POLICY",
+                "error": "EXCLUDED_BY_COLLECTION_POLICY",
+                "refusal_reason": refusal,
+            }
     rec: Dict[str, Any] = {
         "requested_slug": slug,
         "category": seed.get("category", "misc"),
@@ -358,6 +383,115 @@ def _adoption_band(stars: int) -> str:
     return "minimal"
 
 
+
+def retier(dry: bool = False) -> int:
+    """Recompute `tier` for every stored record from fields already in the registry.
+
+    No network. Tier rules change more often than repositories do, and when they change
+    the stored `tier` strings are stale in a way nothing else detects: the schema still
+    accepts them, the scores still validate, and every generated card and index keeps
+    repeating the old label. Re-fetching to fix a labelling rule would also churn
+    `stars`, `checked_at` and `days_since_push` — data that was verified and is not
+    wrong — so this recomputes only what the rule change actually affects.
+
+    Inputs are the fields the fetcher actually stores: `license`, `archived`, `fetch_ok`
+    and `quality_score`. `score_repository()` also computes a `signals` block containing
+    `has_license_file` and `license_nonstandard`, but the fetcher does not persist it, so
+    both are re-derived here from `license` exactly as `score_repository()` derived them
+    from the API payload:
+
+        "NONE"        -> no license object at all     -> license_ok False
+        "NOASSERTION" -> a license object, no SPDX id  -> license_ok True, nonstandard True
+        anything else -> an SPDX-recognised license    -> license_ok True, nonstandard False
+
+    Deriving `nonstandard` is not optional. Skipping it silently promotes every
+    custom-licensed repository from A to S, because the cap that keeps a NOASSERTION
+    project out of the top tier is exactly that flag — and the first version of this
+    function did skip it, which is why it is derived from a stored field rather than
+    from a block that may be absent. Where `signals` IS present it is used as a
+    cross-check, and a disagreement is reported rather than resolved quietly.
+    """
+    from lib.scoring import tier_for
+
+    if not OUT.exists():
+        print(f"error: {OUT} missing — run without --retier first", file=sys.stderr)
+        return 2
+    blob = json.loads(OUT.read_text())
+    recs = blob.get("repositories", [])
+    changes: list = []
+    disagreements: list = []
+    for r in recs:
+        lic = r.get("license")
+        has_license_file = lic not in (None, "NONE", "")
+        nonstandard = has_license_file and str(lic).lower() in ("noassertion", "other")
+
+        sig = r.get("signals") or {}
+        if sig:
+            for field, derived in (("has_license_file", has_license_file),
+                                   ("license_nonstandard", nonstandard)):
+                if field in sig and bool(sig[field]) != derived:
+                    disagreements.append(
+                        f"{r['slug']}: stored signals.{field}={sig[field]!r} but license "
+                        f"{lic!r} implies {derived!r}")
+
+        new_tier = tier_for(
+            float(r.get("quality_score") or 0.0),
+            archived=bool(r.get("archived")),
+            license_ok=has_license_file,
+            nonstandard=nonstandard,
+            fetch_ok=bool(r.get("fetch_ok", True)),
+        )
+        if new_tier != r.get("tier"):
+            changes.append((r["slug"], r.get("tier"), new_tier))
+            r["tier"] = new_tier
+
+    if disagreements:
+        print("error: stored signals disagree with the license field; resolve before "
+              "retiering rather than letting one silently win:", file=sys.stderr)
+        for d in disagreements:
+            print(f"  {d}", file=sys.stderr)
+        return 2
+
+    dist: dict = {}
+    for r in recs:
+        dist[r.get("tier")] = dist.get(r.get("tier"), 0) + 1
+    print(f"Retiered {len(recs)} records from stored signals (no network).")
+    for slug, old, new in changes:
+        print(f"  {slug:52} {old} -> {new}")
+    print(f"  changed: {len(changes)}")
+    print(f"  tier distribution: " + ", ".join(f"{k}:{v}" for k, v in sorted(dist.items())))
+
+    if dry:
+        print("  --dry: nothing written")
+        return 0
+    if not changes:
+        print("  no change; registry left untouched")
+        return 0
+
+    blob["repositories"] = recs
+    blob["retiered_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    blob["retier_note"] = (
+        "tier recomputed from stored signals by `fetch_github_metadata.py --retier`; "
+        "no repository was re-fetched and no observed value was changed"
+    )
+    OUT.write_text(json.dumps(blob, indent=2, ensure_ascii=False) + "\n")
+
+    # The fetch report's tier distribution describes these same records, so it is
+    # updated to match rather than left asserting the old labels.
+    if REPORT.exists():
+        rep = json.loads(REPORT.read_text())
+        if "tier_distribution" in rep:
+            rep["tier_distribution"] = {k: dist[k] for k in sorted(dist)}
+            rep["tier_distribution_note"] = (
+                f"recomputed offline by --retier on {blob['retiered_at']}; "
+                "the fetch itself was not repeated"
+            )
+            REPORT.write_text(json.dumps(rep, indent=2, ensure_ascii=False) + "\n")
+            print("  metadata/fetch-report.json tier_distribution updated to match")
+    print(f"  wrote {OUT.relative_to(ROOT)}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
@@ -365,7 +499,12 @@ def main() -> int:
     ap.add_argument("--no-cache", action="store_true")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--dry", action="store_true", help="print summary, do not write files")
+    ap.add_argument("--retier", action="store_true",
+                    help="recompute every stored tier from stored signals; no network")
     args = ap.parse_args()
+
+    if args.retier:
+        return retier(dry=args.dry)
 
     tok = token()
     if not tok:
@@ -373,12 +512,44 @@ def main() -> int:
     else:
         print(f"OK: authenticated GitHub API ({len(tok[:4])}… token detected)")
 
+    # An explicitly requested slug is checked against the exclusion list before the seed
+    # list is filtered. Without this, `--slug <excluded>` for a repository that is not a
+    # seed would filter to nothing and exit 0 in silence, which reads as "no such
+    # repository" rather than as "refused by policy" — and the distinction matters to
+    # whoever has to explain the absence later.
+    for wanted in args.slug:
+        refusal = _EXCLUSIONS.fetch_refusal(wanted.strip())
+        if refusal:
+            print(f"REFUSED: {refusal}", file=sys.stderr)
+            return 2
+
     seeds = json.loads(SEEDS.read_text())["seeds"]
     if args.slug:
         wanted = {s.lower() for s in args.slug}
         seeds = [s for s in seeds if s["slug"].lower() in wanted]
     if args.limit:
         seeds = seeds[: args.limit]
+    # An excluded slug in the seed list is a policy violation, not a fetch failure. It is
+    # reported separately and removed before fetching so it cannot reach the registry, but
+    # the seed entry itself is left for validate_policy.py to fail on: silently dropping it
+    # here would hide the violation from the build that is supposed to catch it.
+    excluded = _EXCLUSIONS
+    if excluded.load_error:
+        print(f"error: the exclusion policy could not be read, so exclusions cannot be "
+              f"enforced while fetching:", file=sys.stderr)
+        for line in excluded.load_error.strip().splitlines():
+            print(f"  {line.strip()}", file=sys.stderr)
+        return 2
+    refused = [s["slug"] for s in seeds if excluded.fetch_refusal(s["slug"].strip())]
+    if refused:
+        print(f"REFUSING to fetch {len(refused)} seed(s) excluded by collection policy:",
+              file=sys.stderr)
+        for s in refused:
+            print(f"  {s}: {excluded.fetch_refusal(s.strip())}", file=sys.stderr)
+        seeds = [s for s in seeds if not excluded.fetch_refusal(s["slug"].strip())]
+        if not seeds:
+            return 2
+
     print(f"Fetching {len(seeds)} repositories…")
 
     use_cache = not args.no_cache
@@ -387,7 +558,7 @@ def main() -> int:
     t0 = time.time()
     with cf.ThreadPoolExecutor(max_workers=args.workers) as ex:
         cur = load_curation()
-        futs = {ex.submit(fetch_one, s, tok, use_cache, cur): s for s in seeds}
+        futs = {ex.submit(fetch_one, s, tok, use_cache, cur, excluded): s for s in seeds}
         for i, fut in enumerate(cf.as_completed(futs), 1):
             try:
                 results.append(fut.result())

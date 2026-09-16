@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "A powerful MCP toolkit for coding, providing semantic
   retrieval and editing capabilities  - the IDE for your agent"
 category: search
+category_evidence: description-fallback
+category_signals: ["retrieval"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: false
 maintainer: oraios
 repository: oraios/serena
 url: https://github.com/oraios/serena
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.89
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: Python
 tags: ["agent", "ai", "ai-coding", "claude", "claude-code", "codex", "coding", "ide", "jetbrains", "language-server", "mcp", "mcp-server", "programming", "semantic-retrieval", "vibe-coding"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `oraios/serena` — As stated by the repository itself: "A powerful MCP toolkit for coding, providing
 semantic retrieval and editing capabilities  - the IDE for your agent"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

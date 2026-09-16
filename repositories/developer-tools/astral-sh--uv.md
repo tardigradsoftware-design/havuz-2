@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: astral-sh
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An extremely fast Python package and project manager, written in Rust.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 0.12.15 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.astral.sh/uv |
+| Homepage | [https://docs.astral.sh/uv](https://docs.astral.sh/uv) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

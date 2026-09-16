@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: dair-ai
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.promptingguide.ai/ |
+| Homepage | [https://www.promptingguide.ai/](https://www.promptingguide.ai/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `docs` |
 

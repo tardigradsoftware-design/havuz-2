@@ -3,7 +3,7 @@ id: greensock--gsap
 title: "greensock/GSAP"
 domain: frontend
 summary: >-
-  greensock/GSAP — MAINTENANCE, tier UNVERIFIED,
+  greensock/GSAP — MAINTENANCE, tier NO-LICENSE,
   28,424 stars, license NONE, quality 6.09/10, trust 4.33/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 9.0, "maintenance": 5.0, "adoption": 10.0, "documentation": 5.02, "reproducibility": 1.0, "security": 5.0, "recency": 7.88, "evidence": 1.5}
   quality_score: 6.09
   trust_score: 4.33
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: greensock
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # greensock/GSAP
 
-🟡 MAINTENANCE · tier **UNVERIFIED** · maintenance-mode · confidence **medium**
+🟡 MAINTENANCE · tier **NO-LICENSE** · maintenance-mode · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +74,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://gsap.com |
+| Homepage | [https://gsap.com](https://gsap.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

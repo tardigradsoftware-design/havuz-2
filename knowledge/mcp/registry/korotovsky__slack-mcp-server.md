@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "The most powerful MCP Slack Server with no permission
   requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic."
 category: communication
+category_evidence: topics-or-slug
+category_signals: ["slack"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: false
 maintainer: korotovsky
 repository: korotovsky/slack-mcp-server
 url: https://github.com/korotovsky/slack-mcp-server
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.06
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 60
+language: Go
 tags: ["assistants", "govslack", "llm", "mcp", "mcp-server", "slack", "slack-api"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -52,6 +66,8 @@ sources:
 `korotovsky/slack-mcp-server` — As stated by the repository itself: "The most powerful MCP Slack Server with no
 permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch
 logic."
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

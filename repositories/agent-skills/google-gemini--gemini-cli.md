@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: google-gemini
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An open-source AI agent that brings the power of Gemini directly into your terminal.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.59.0 (2026-09-08) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://geminicli.com |
+| Homepage | [https://geminicli.com](https://geminicli.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

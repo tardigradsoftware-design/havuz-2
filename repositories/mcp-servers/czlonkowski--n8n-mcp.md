@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: czlonkowski
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.85.0 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.n8n-mcp.com/ |
+| Homepage | [https://www.n8n-mcp.com/](https://www.n8n-mcp.com/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

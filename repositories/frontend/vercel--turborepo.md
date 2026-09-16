@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: vercel
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Build system optimized for JavaScript and TypeScript, written in Rust
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.10.13 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://turborepo.dev |
+| Homepage | [https://turborepo.dev](https://turborepo.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

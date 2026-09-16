@@ -83,6 +83,13 @@ jobs:
       - name: Policy — secrets, collection ethics, license, hallucination firewall
         run: python scripts/validate/validate_policy.py
 
+      # Validators check one artifact at a time. These check the relationships between
+      # artifacts — that a field computed upstream survives the hop downstream, that a
+      # category is not a substring accident, that a tier means what its name says.
+      # Stdlib unittest only, so this needs no extra dependency.
+      - name: Regression tests
+        run: python -m unittest discover -s tests -t . -v
+
       - name: Duplicate detection (report only)
         continue-on-error: true
         run: python scripts/deduplicate/dedupe.py --report --threshold 0.45

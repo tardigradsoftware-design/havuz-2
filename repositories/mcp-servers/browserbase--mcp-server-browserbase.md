@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: browserbase
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Allow LLMs to control a browser with Browserbase and Stagehand
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.0.0 (2026-03-31) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | https://stagehand.dev |
+| Homepage | [https://stagehand.dev](https://stagehand.dev) |
 | SECURITY.md | no → `archived-no-patches` |
 | Repository kind | `software` |
 

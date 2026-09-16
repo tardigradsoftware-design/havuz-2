@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: nestjs
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v12.0.3 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://nestjs.com |
+| Homepage | [https://nestjs.com](https://nestjs.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

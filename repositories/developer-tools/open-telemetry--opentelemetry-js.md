@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: open-telemetry
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > OpenTelemetry JavaScript Client
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.11.0 (2026-08-31) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://opentelemetry.io |
+| Homepage | [https://opentelemetry.io](https://opentelemetry.io) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

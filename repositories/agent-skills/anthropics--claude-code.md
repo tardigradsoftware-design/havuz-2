@@ -3,7 +3,7 @@ id: anthropics--claude-code
 title: "anthropics/claude-code"
 domain: agent-skills
 summary: >-
-  anthropics/claude-code — ACTIVE, tier UNVERIFIED,
+  anthropics/claude-code — ACTIVE, tier NO-LICENSE,
   145,145 stars, license NONE, quality 7.77/10, trust 6.34/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.24, "reproducibility": 4.5, "security": 5.0, "recency": 10.0, "evidence": 6.0}
   quality_score: 7.77
   trust_score: 6.34
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: anthropics
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # anthropics/claude-code
 
-🟢 ACTIVE · tier **UNVERIFIED** · early · confidence **high**
+🟢 ACTIVE · tier **NO-LICENSE** · early · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +74,7 @@ sources:
 | Latest release | v2.1.272 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://code.claude.com/docs/en/overview |
+| Homepage | [https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

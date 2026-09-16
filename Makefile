@@ -8,7 +8,7 @@ TOKEN   ?= $(GITHUB_TOKEN)
 
 .PHONY: help install validate validate-frontmatter validate-json validate-links validate-policy \
         dedupe stale refresh refresh-github refresh-papers score index cards stats registries \
-        urls audit clean ci
+        urls audit clean ci test
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
@@ -78,9 +78,14 @@ stats: ## Refresh the README statistics block
 
 rebuild: score registries cards index stats ## Regenerate every derived artifact in order
 
-audit: validate dedupe stale ## Full audit: validation + duplicates + staleness
+# ---------------------------------------------------------------- regression tests
 
-ci: validate ## CI entrypoint (links checked separately with retries)
+test: ## Regression tests for pipeline invariants no validator can see (stdlib only)
+	$(PY) -m unittest discover -s tests -t . -v
+
+audit: validate test dedupe stale ## Full audit: validation + tests + duplicates + staleness
+
+ci: validate test ## CI entrypoint (links checked separately with retries)
 
 clean: ## Remove caches and generated reports (never removes authored content)
 	rm -rf .cache metadata/staleness.json metadata/url-report.json metadata/duplicates.json

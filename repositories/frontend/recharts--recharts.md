@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: recharts
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Redefined chart library built with React and D3
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.10.1 (2026-07-25) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://recharts.github.io |
+| Homepage | [https://recharts.github.io](https://recharts.github.io) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

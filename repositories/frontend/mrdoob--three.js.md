@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: mrdoob
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > JavaScript 3D Library.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | r186 (2026-09-08) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://threejs.org/ |
+| Homepage | [https://threejs.org/](https://threejs.org/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

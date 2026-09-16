@@ -3,7 +3,7 @@ id: composiohq--awesome-claude-skills
 title: "ComposioHQ/awesome-claude-skills"
 domain: agent-skills
 summary: >-
-  ComposioHQ/awesome-claude-skills — STABLE, tier UNVERIFIED,
+  ComposioHQ/awesome-claude-skills — STABLE, tier NO-LICENSE,
   75,075 stars, license NONE, quality 6.18/10, trust 3.85/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 5.5, "maintenance": 7.5, "adoption": 10.0, "documentation": 7.0, "reproducibility": 2.5, "security": 1.5, "recency": 9.52, "evidence": 4.0}
   quality_score: 6.18
   trust_score: 3.85
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: ComposioHQ
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # ComposioHQ/awesome-claude-skills
 
-🔵 STABLE · tier **UNVERIFIED** · early · confidence **low**
+🔵 STABLE · tier **NO-LICENSE** · early · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

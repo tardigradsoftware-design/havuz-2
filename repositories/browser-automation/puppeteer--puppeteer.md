@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: puppeteer
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > JavaScript API for Chrome and Firefox
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | puppeteer-core-v25.11.0 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://pptr.dev |
+| Homepage | [https://pptr.dev](https://pptr.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

@@ -4,13 +4,23 @@ name: chrome-devtools-mcp
 purpose: >-
   As stated by the repository itself: "Chrome DevTools for coding agents"
 category: browser
+category_evidence: topics-or-slug
+category_signals: ["browser", "chrome", "devtools", "puppeteer"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: false
 maintainer: ChromeDevTools
 repository: ChromeDevTools/chrome-devtools-mcp
 url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.15
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["browser", "chrome", "chrome-devtools", "debugging", "devtools", "mcp", "mcp-server", "official", "puppeteer"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # chrome-devtools-mcp
 
 `ChromeDevTools/chrome-devtools-mcp` — As stated by the repository itself: "Chrome DevTools for coding agents"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

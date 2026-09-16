@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: D4Vinci
     license: BSD-3-Clause
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
-> 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ
+> _Upstream description, quoted as published and not verified here:_
+>
+> 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: `https://discord.gg/EMgGbDceNQ`
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.4.15 (2026-08-23) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://scrapling.readthedocs.io/en/latest/ |
+| Homepage | [https://scrapling.readthedocs.io/en/latest/](https://scrapling.readthedocs.io/en/latest/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

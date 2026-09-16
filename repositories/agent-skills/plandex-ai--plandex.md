@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: plandex-ai
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **A** · maintenance-mode · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Open source AI coding agent. Designed for large projects and real world tasks.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | cli/v2.2.1 (2025-07-16) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://plandex.ai |
+| Homepage | [https://plandex.ai](https://plandex.ai) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

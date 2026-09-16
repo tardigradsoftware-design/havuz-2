@@ -4,13 +4,23 @@ name: cloud-run-mcp
 purpose: >-
   As stated by the repository itself: "MCP server to deploy apps to Cloud Run"
 category: cloud
+category_evidence: topics-or-slug
+category_signals: ["cloud"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: false
 maintainer: GoogleCloudPlatform
 repository: GoogleCloudPlatform/cloud-run-mcp
 url: https://github.com/GoogleCloudPlatform/cloud-run-mcp
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.64
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 2
+language: JavaScript
 tags: ["gcp", "google-cloud", "google-cloud-run", "mcp", "mcp-server"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # cloud-run-mcp
 
 `GoogleCloudPlatform/cloud-run-mcp` — As stated by the repository itself: "MCP server to deploy apps to Cloud Run"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

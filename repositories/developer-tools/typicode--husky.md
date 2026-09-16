@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: typicode
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **A** · maintenance-mode · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Git hooks made easy 🐶 woof!
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v9.1.7 (2024-11-18) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://typicode.github.io/husky |
+| Homepage | [https://typicode.github.io/husky](https://typicode.github.io/husky) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

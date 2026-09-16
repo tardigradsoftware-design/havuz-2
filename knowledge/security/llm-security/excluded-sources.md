@@ -186,16 +186,37 @@ make validate-policy        # scripts/validate/validate_policy.py
 What the validator does:
 
 ```text
-□ greps every governed file for the excluded repository slugs and for known leaked-prompt
-  filenames, and fails on any hit outside this policy document
-□ rejects any artifact whose sources block cites an excluded source
-□ flags repository records whose license is null and whose card does not carry the
-  no-license-do-not-redistribute marker
+□ loads the machine-readable exclusion list (metadata/excluded-sources.json, schema-validated
+  by schemas/excluded-source.schema.json) and fails if it is missing, unreadable, empty, or if
+  any exclusion lacks a slug, category, reason, decision, or decision date
+□ greps every tracked text file for the excluded repository slugs and for the collection
+  identifiers, and fails on any hit on an ingestion or retrieval path — the seed lists, the
+  repository / tools / paper / source registries, indexes/, or a knowledge file's sources:
+  block. A seed entry is collection, so no wording excuses it.
+□ allows an excluded slug to be NAMED in prose only inside a passage that states the exclusion
+  (this document, SECURITY.md, the CHANGELOG entry recording the decision). Naming it anywhere
+  else without that wording is an error, so the exclusion cannot become invisible through
+  drift. Matching is whole-slug: a repository whose name merely ends with an excluded name
+  does not collide with it.
+□ rejects any governed .md whose sources: frontmatter cites an excluded source — a citation is
+  an attribution of authority, which this policy prohibits
+□ flags repository records whose tier is NO-LICENSE and which do not carry the
+  no-license-do-not-redistribute marker, in the generated data files AND in the markdown cards
+  a reader actually sees (see check_license_policy below)
 □ flags code files that reference a no-license repository, requiring confirmation that nothing
   was copied (these surface as warnings with an explicit human-check prompt, because a mention
   in a comment is legitimate while an import is not)
 □ runs in CI on every pull request; a contribution cannot merge over it
 ```
+
+`scripts/lib/exclusions.py` is the single source of truth for the list, the matching rules and
+the refusal text, so the validator and the fetcher cannot drift apart.
+
+Collection is refused, not merely filtered afterwards: `scripts/update/fetch_github_metadata.py`
+will not request an excluded slug at all — neither when it appears in a seed list nor when it is
+asked for explicitly with `--slug`, which exits 2 and prints the reason. A completed fetch would
+leave the upstream payload in `.cache/gh/`, so rejecting the record after the fact would still
+have collected the content.
 
 Contributions arriving through the issue templates are checked at admission by the
 [`skill-curator`](../../../agents/skill-curator/AGENT.md) agent, whose `refuses_when` clause includes

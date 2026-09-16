@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: VoltAgent
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://officialskills.sh/ |
+| Homepage | [https://officialskills.sh/](https://officialskills.sh/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `catalog` |
 

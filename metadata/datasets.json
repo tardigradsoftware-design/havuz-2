@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:49:50+00:00",
+  "generated_at": "2026-09-16T07:07:55+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "records": 0,
   "$schema": "../schemas/dataset.schema.json",

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: nexu-io
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | open-design-v0.22.2 (2026-09-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://open-design.ai |
+| Homepage | [https://open-design.ai](https://open-design.ai) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

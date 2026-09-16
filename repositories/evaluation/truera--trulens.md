@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: truera
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Evaluation and Tracking for LLM Experiments and AI Agents
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | trulens-2.14.0 (2026-09-03) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.trulens.org/ |
+| Homepage | [https://www.trulens.org/](https://www.trulens.org/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -3,7 +3,7 @@ id: anthropics--skills
 title: "anthropics/skills"
 domain: agent-skills
 summary: >-
-  anthropics/skills — ACTIVE, tier UNVERIFIED,
+  anthropics/skills — ACTIVE, tier NO-LICENSE,
   176,456 stars, license NONE, quality 6.94/10, trust 5.24/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 3.96, "reproducibility": 3.0, "security": 2.5, "recency": 9.95, "evidence": 4.0}
   quality_score: 6.94
   trust_score: 5.24
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: anthropics
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # anthropics/skills
 
-🟢 ACTIVE · tier **UNVERIFIED** · early · confidence **medium**
+🟢 ACTIVE · tier **NO-LICENSE** · early · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Public repository for Agent Skills
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

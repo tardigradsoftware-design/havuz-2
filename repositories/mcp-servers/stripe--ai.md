@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: stripe
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > One-stop shop for building AI-powered products and businesses with Stripe.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.stripe.com/agents |
+| Homepage | [https://docs.stripe.com/agents](https://docs.stripe.com/agents) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

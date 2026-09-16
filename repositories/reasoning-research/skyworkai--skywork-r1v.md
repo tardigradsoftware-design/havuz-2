@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: SkyworkAI
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **B** · published-artifact · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Skywork-R1V is an advanced multimodal AI model series developed by Skywork AI, specializing in vision-language reasoning.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/abs/2504.05599 |
+| Homepage | [https://arxiv.org/abs/2504.05599](https://arxiv.org/abs/2504.05599) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `model-release` (static artifact — quiet history is expected) |
 

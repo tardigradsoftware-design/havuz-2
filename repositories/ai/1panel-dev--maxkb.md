@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: 1Panel-dev
     license: GPL-3.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.10.6-lts (2026-09-03) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://maxkb.cn |
+| Homepage | [https://maxkb.cn](https://maxkb.cn) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

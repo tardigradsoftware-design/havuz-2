@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: bigcode-project
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **B** · published-artifact · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A framework for the evaluation of autoregressive code generation language models.
 
 ## Facts (verified 2026-09-15 via the GitHub API)

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: pmndrs
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🐻 Bear necessities for state management in React
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v5.0.15 (2026-08-13) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://zustand-demo.pmnd.rs/ |
+| Homepage | [https://zustand-demo.pmnd.rs/](https://zustand-demo.pmnd.rs/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: denoland
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A modern runtime for JavaScript and TypeScript.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.9.6 (2026-08-27) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://deno.com |
+| Homepage | [https://deno.com](https://deno.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

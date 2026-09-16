@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: K-Dense-AI
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.69.0 (2026-09-11) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/abs/2609.00065 |
+| Homepage | [https://arxiv.org/abs/2609.00065](https://arxiv.org/abs/2609.00065) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

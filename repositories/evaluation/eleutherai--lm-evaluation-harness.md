@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: EleutherAI
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A framework for few-shot evaluation of language models.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.4.13 (2026-08-31) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.eleuther.ai |
+| Homepage | [https://www.eleuther.ai](https://www.eleuther.ai) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

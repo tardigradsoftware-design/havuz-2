@@ -4,13 +4,23 @@ name: servers
 purpose: >-
   As stated by the repository itself: "Model Context Protocol Servers"
 category: other
+category_evidence: no-signal-matched
+category_signals: []
+registry_kind: server
+registry_kind_evidence: >-
+  description says "Model Context Protocol Servers"
 distribution: source
 official: true
 maintainer: modelcontextprotocol
 repository: modelcontextprotocol/servers
 url: https://github.com/modelcontextprotocol/servers
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 8.02
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 12
+language: TypeScript
 tags: ["mcp", "reference-servers"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # servers
 
 `modelcontextprotocol/servers` — As stated by the repository itself: "Model Context Protocol Servers"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: description says "Model Context Protocol Servers".
 
 ## What is verified
 

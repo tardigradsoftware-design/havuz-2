@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: huggingface
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v5.17.0 (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://huggingface.co/transformers |
+| Homepage | [https://huggingface.co/transformers](https://huggingface.co/transformers) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

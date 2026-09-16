@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: microsoft
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Playwright MCP server
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.0.81 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.npmjs.com/package/@playwright/mcp |
+| Homepage | [https://www.npmjs.com/package/@playwright/mcp](https://www.npmjs.com/package/@playwright/mcp) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

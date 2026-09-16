@@ -263,10 +263,11 @@ changelog are one source and score as one.
 | `C` | 4.0 – 5.99 | Caution; needs a stated reason to choose it over a higher tier |
 | `EXPERIMENTAL` | any | Explicitly experimental by its own declaration — never a production dependency |
 | `ARCHIVED` | any | Frozen. Fine as a reference or a finished tool; fatal as a security dependency |
-| `UNVERIFIED` | any | Could not be verified. Excluded from the retrieval index; never cited |
+| `NO-LICENSE` | any | Verified, and verification found no published license. Reference and link only; vendoring and redistribution are prohibited. The record itself is trustworthy |
+| `UNVERIFIED` | any | Could not be verified — the fetch failed or the source is unresolvable. Excluded from the retrieval index; never cited |
 | `DEPRECATED` | any | Superseded; a successor link must exist |
 
-`EXPERIMENTAL`, `ARCHIVED`, `UNVERIFIED` and `DEPRECATED` are **status tiers, not score tiers**.
+`EXPERIMENTAL`, `ARCHIVED`, `NO-LICENSE`, `UNVERIFIED` and `DEPRECATED` are **status tiers, not score tiers**.
 They override the numeric band, because a 9.2-scoring archived repository is not an `S` adoption
 candidate — it is a frozen artifact with good history.
 
@@ -277,6 +278,7 @@ weighted average:
 
 ```text
 license: null                → license_risk = no-license-do-not-redistribute
+                               tier = NO-LICENSE (verified metadata, no published license)
                                Vendoring and redistribution prohibited. Reference and link only.
                                A high star count does not mitigate this.
 archived: true               → tier = ARCHIVED (score retained for history)

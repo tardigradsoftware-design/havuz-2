@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: t3-oss
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The best way to start a full-stack, typesafe Next.js app
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | create-t3-app@7.40.0 (2025-11-05) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://create.t3.gg |
+| Homepage | [https://create.t3.gg](https://create.t3.gg) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

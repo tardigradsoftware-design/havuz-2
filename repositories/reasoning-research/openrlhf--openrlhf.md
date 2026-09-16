@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: OpenRLHF
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.11.2 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://openrlhf.readthedocs.io/ |
+| Homepage | [https://openrlhf.readthedocs.io/](https://openrlhf.readthedocs.io/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

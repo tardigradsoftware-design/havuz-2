@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: prisma
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
-> Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+> _Upstream description, quoted as published and not verified here:_
+>
+> Next-generation ORM for Node.js & TypeScript \| PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.17.0 (2026-08-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.prisma.io |
+| Homepage | [https://www.prisma.io](https://www.prisma.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

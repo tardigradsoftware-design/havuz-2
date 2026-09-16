@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: ServiceNow
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🔵 STABLE · tier **B** · published-artifact · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility.
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

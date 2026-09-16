@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: tt-a1i
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.16.0 (2026-08-30) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://tt-a1i.github.io/archify/ |
+| Homepage | [https://tt-a1i.github.io/archify/](https://tt-a1i.github.io/archify/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

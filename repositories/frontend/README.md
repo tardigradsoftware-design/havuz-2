@@ -44,7 +44,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [fontsource/fontsource](./fontsource--fontsource.md) — tier S, ACTIVE
 - [formbricks/formbricks](./formbricks--formbricks.md) — tier A, ACTIVE
 - [google-gemini/gemini-fullstack-langgraph-quickstart](./google-gemini--gemini-fullstack-langgraph-quickstart.md) — tier B, STABLE
-- [greensock/GSAP](./greensock--gsap.md) — tier UNVERIFIED, MAINTENANCE
+- [greensock/GSAP](./greensock--gsap.md) — tier NO-LICENSE, MAINTENANCE
 - [lobehub/lobehub](./lobehub--lobehub.md) — tier A, ACTIVE
 - [magicuidesign/magicui](./magicuidesign--magicui.md) — tier A, ACTIVE
 - [makeplane/plane](./makeplane--plane.md) — tier A, ACTIVE

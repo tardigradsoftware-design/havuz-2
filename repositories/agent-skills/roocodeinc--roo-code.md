@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: RooCodeInc
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Roo Code gives you a whole dev team of AI agents in your code editor.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.54.0 (2026-05-15) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | https://roocode.com |
+| Homepage | [https://roocode.com](https://roocode.com) |
 | SECURITY.md | yes → `archived-no-patches` |
 | Repository kind | `software` |
 

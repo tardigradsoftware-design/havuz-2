@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: trufflesecurity
     license: AGPL-3.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Find, verify, and analyze leaked credentials
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.97.4 (2026-09-03) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://trufflesecurity.com |
+| Homepage | [https://trufflesecurity.com](https://trufflesecurity.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

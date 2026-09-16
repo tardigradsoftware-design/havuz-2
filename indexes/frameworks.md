@@ -1,6 +1,6 @@
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Regenerate: python3 scripts/generate-index/build_index.py
-     Generated: 2026-09-16T05:46:05+00:00 -->
+     Generated: 2026-09-16T08:59:10+00:00 -->
 
 # Framework & model-tooling index
 
@@ -61,7 +61,7 @@
 | [FoundationAgents/MetaGPT](../repositories/agent-frameworks/foundationagents--metagpt.md) | 70.4k | A | MAINTENANCE | 7.04 | MIT |
 | [PySpur-Dev/pyspur](../repositories/agent-frameworks/pyspur-dev--pyspur.md) | 5.8k | B | STABLE | 6.91 | Apache-2.0 |
 | [huggingface/text-generation-inference](../repositories/ai/huggingface--text-generation-inference.md) | 10.9k | ARCHIVED | ARCHIVED | 6.55 | Apache-2.0 |
-| [anthropics/prompt-eng-interactive-tutorial](../repositories/ai/anthropics--prompt-eng-interactive-tutorial.md) | 38.2k | UNVERIFIED | STABLE | 6.17 | NONE |
+| [anthropics/prompt-eng-interactive-tutorial](../repositories/ai/anthropics--prompt-eng-interactive-tutorial.md) | 38.2k | NO-LICENSE | STABLE | 6.17 | NONE |
 | [mlabonne/llm-course](../repositories/ai/mlabonne--llm-course.md) | 82.8k | B | MAINTENANCE | 6.1 | Apache-2.0 |
 | [dair-ai/Prompt-Engineering-Guide](../repositories/ai/dair-ai--prompt-engineering-guide.md) | 78.3k | B | MAINTENANCE | 5.94 | MIT |
 | [anthropics/courses](../repositories/ai/anthropics--courses.md) | 22.8k | ARCHIVED | ARCHIVED | 5.27 | NOASSERTION |

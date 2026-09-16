@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "MCP server for interacting with Neon Management API and
   databases"
 category: database
+category_evidence: topics-or-slug
+category_signals: ["neon"]
+registry_kind: server
+registry_kind_evidence: >-
+  description says "MCP server"
 distribution: source
 official: true
 maintainer: neondatabase
 repository: neondatabase/mcp-server-neon
 url: https://github.com/neondatabase/mcp-server-neon
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.93
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["mcp", "neon", "postgres"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `neondatabase/mcp-server-neon` — As stated by the repository itself: "MCP server for interacting with Neon Management API
 and databases"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: description says "MCP server".
 
 ## What is verified
 

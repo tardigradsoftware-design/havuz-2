@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: junegunn
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > :cherry_blossom: A command-line fuzzy finder
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.74.4 (2026-09-12) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://junegunn.github.io/fzf/ |
+| Homepage | [https://junegunn.github.io/fzf/](https://junegunn.github.io/fzf/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

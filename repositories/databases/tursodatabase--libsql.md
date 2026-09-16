@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: tursodatabase
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > libSQL is a fork of SQLite that is both Open Source, and Open Contributions.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | libsql-server-v0.24.32 (2025-02-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://turso.tech/libsql |
+| Homepage | [https://turso.tech/libsql](https://turso.tech/libsql) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

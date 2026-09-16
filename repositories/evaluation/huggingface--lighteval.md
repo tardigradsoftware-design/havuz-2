@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: huggingface
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.13.0 (2025-11-24) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://huggingface.co/docs/lighteval/en/index |
+| Homepage | [https://huggingface.co/docs/lighteval/en/index](https://huggingface.co/docs/lighteval/en/index) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

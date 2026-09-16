@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tardigradsoftware-design/havuz-2/schemas/excluded-source.schema.json",
+  "title": "Excluded Source Record",
+  "description": "One entry in metadata/excluded-sources.json. This is the machine-readable form of a collection-ethics decision documented in knowledge/security/llm-security/excluded-sources.md. It exists so the decision fails a build instead of depending on every future contributor remembering it: SECURITY.md declares these exclusions hard, and a hard exclusion that nothing enforces degrades on the first well-intentioned addition of a popular repository.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "kind", "category", "reason", "decision", "decided_on", "documented_in"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[^/\\s]+/[^/\\s]+$",
+      "description": "owner/name. Matched as a whole slug, never as a bare name, so a repository called `skills` cannot implicate every file that uses the word."
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["repository", "dataset", "paper", "url", "organization"],
+      "description": "What sort of source the exclusion covers. A repository exclusion is enforced against seeds.json and repositories.json; the others are enforced against citation and link paths."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "leaked-system-prompts",
+        "private-chain-of-thought",
+        "stolen-credentials",
+        "private-repository-content",
+        "proprietary-model-instructions",
+        "non-consensual-scrape",
+        "personal-data",
+        "private-enterprise-information"
+      ],
+      "description": "Which of the hard exclusions in SECURITY.md's collection-ethics list this entry instantiates. Constrained to that list so an exclusion cannot be recorded against a category the policy does not declare."
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 20,
+      "description": "What the source actually contains that makes it ineligible. Long enough that a bare label will not do: the point of recording the reason is that a future contributor can see the decision was made about this content, not about the topic."
+    },
+    "decision": {
+      "type": "string",
+      "enum": ["excluded"],
+      "description": "Only `excluded` is valid. A source that is merely risky belongs in the corpus with a confidence and a license_risk, not here; putting it here would let the file drift into a general watchlist that nobody treats as binding."
+    },
+    "decided_on": {
+      "$ref": "common.defs.json#/$defs/date",
+      "description": "When the decision was made. An exclusion with no date cannot be revisited, and cannot be distinguished from an oversight."
+    },
+    "decided_by": { "type": ["string", "null"] },
+    "observed_stars": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Star count at the time of the decision, recorded deliberately. The point is to make the tradeoff explicit: these are among the most-starred repositories in their category and this knowledge base still does not use them, so a future reader who notices the omission has the answer."
+    },
+    "observed_on": { "$ref": "common.defs.json#/$defs/date" },
+    "prohibits": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "What the exclusion forbids, in plain language. Each entry names a concrete action rather than restating the decision, so that a contributor can tell whether what they are about to do is covered."
+    },
+    "permitted_mentions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Where naming the source is allowed. An exclusion that could not be named could not be documented, and a contributor who cannot see it will rediscover the repository and add it in good faith."
+    },
+    "documented_in": {
+      "type": "string",
+      "pattern": "\\.md$",
+      "description": "Path to the prose reasoning. Must exist; validate_links.py checks repository paths named in prose, and this one is named here."
+    },
+    "superseded_by": { "type": ["string", "null"] },
+    "reviewed_on": { "$ref": "common.defs.json#/$defs/date" }
+  }
+}

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: cloudflare
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > ⛅️ Home to Wrangler, the CLI for Cloudflare Workers®
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @cloudflare/workers-utils@0.38.1 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://developers.cloudflare.com/workers/ |
+| Homepage | [https://developers.cloudflare.com/workers/](https://developers.cloudflare.com/workers/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

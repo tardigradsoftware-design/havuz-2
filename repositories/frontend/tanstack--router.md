@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: TanStack
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🤖 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more).
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | release-2026-09-14-0945 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://tanstack.com/router |
+| Homepage | [https://tanstack.com/router](https://tanstack.com/router) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

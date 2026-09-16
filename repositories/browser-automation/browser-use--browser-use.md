@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: browser-use
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Agents that use the browser.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 0.13.10 (2026-09-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://browser-use.com |
+| Homepage | [https://browser-use.com](https://browser-use.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

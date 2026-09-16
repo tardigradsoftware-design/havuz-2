@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: tailwindlabs
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **A** · maintenance-mode · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @headlessui/react@v2.2.10 (2026-04-07) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://headlessui.com |
+| Homepage | [https://headlessui.com](https://headlessui.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

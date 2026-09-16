@@ -3,7 +3,7 @@ id: modelcontextprotocol--inspector
 title: "modelcontextprotocol/inspector"
 domain: mcp-servers
 summary: >-
-  modelcontextprotocol/inspector — ACTIVE, tier UNVERIFIED,
+  modelcontextprotocol/inspector — ACTIVE, tier NO-LICENSE,
   10,885 stars, license NONE, quality 7.92/10, trust 6.53/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.18, "reproducibility": 4.0, "security": 5.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.92
   trust_score: 6.53
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: modelcontextprotocol
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # modelcontextprotocol/inspector
 
-🟢 ACTIVE · tier **UNVERIFIED** · early · confidence **high**
+🟢 ACTIVE · tier **NO-LICENSE** · early · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Visual testing tool for MCP servers
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +74,7 @@ sources:
 | Latest release | 2.6.0 (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector |
+| Homepage | [https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector](https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

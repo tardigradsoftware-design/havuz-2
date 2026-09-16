@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: pre-commit
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A framework for managing and maintaining multi-language pre-commit hooks.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v4.6.2 (2026-08-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://pre-commit.com |
+| Homepage | [https://pre-commit.com](https://pre-commit.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

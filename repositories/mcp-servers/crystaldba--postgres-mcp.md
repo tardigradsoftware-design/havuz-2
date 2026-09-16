@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: crystaldba
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.
 
 ## Facts (verified 2026-09-15 via the GitHub API)

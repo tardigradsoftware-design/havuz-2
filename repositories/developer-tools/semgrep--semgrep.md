@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: semgrep
     license: LGPL-2.1
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.177.0 (2026-09-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://semgrep.dev |
+| Homepage | [https://semgrep.dev](https://semgrep.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

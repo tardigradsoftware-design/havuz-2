@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: storybookjs
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v10.6.0 (2026-09-02) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://storybook.js.org |
+| Homepage | [https://storybook.js.org](https://storybook.js.org) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

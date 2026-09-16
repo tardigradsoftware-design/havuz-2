@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: changesets
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🦋 A tool to manage versioning and changelogs with a focus on monorepos
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @changesets/cli@3.0.3 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://changesets.dev |
+| Homepage | [https://changesets.dev](https://changesets.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

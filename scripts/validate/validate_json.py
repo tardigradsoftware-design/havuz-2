@@ -5,6 +5,8 @@ Also checks registry-level invariants that a per-record schema cannot express:
   * unique slugs / ids
   * no record with fetch_ok == false is presented as verified
   * archived repositories are never marked production_ready
+  * tier labels mean what they say: UNVERIFIED only when the fetch actually failed,
+    NO-LICENSE only when no license was detected
   * records past expires_at are reported (warning, not error)
   * quarantine files stay out of the retrieval index
 
@@ -45,6 +47,9 @@ TARGETS = [
     ("metadata/models.json", "model.schema.json", "models", "id"),
     ("metadata/datasets.json", "dataset.schema.json", "datasets", "id"),
     ("metadata/prompts.json", "prompt.schema.json", "prompts", "id"),
+    # Authored policy data rather than a generated registry, but schema-checked like the
+    # rest: an exclusion record that cannot be parsed cannot be enforced.
+    ("metadata/excluded-sources.json", "excluded-source.schema.json", "exclusions", "slug"),
     ("scripts/update/seeds.json", "seeds.schema.json", None, None),
 ]
 
@@ -89,6 +94,11 @@ def validate_records(rel: str, schema_name: str, records: List[Dict[str, Any]], 
             errs.append(f"{rel}[{i}] {rec.get(key)}: archived but production_ready=true")
         if rec.get("fetch_ok") is False and rec.get("evidence_level") == "verified-github-api":
             errs.append(f"{rel}[{i}] {rec.get(key)}: fetch failed but marked verified")
+        # A tier label is a claim about a fact, so both directions are checked. These two
+        # were conflated once: every record in the UNVERIFIED tier had fetch_ok == true and
+        # merely lacked a license, so the label told readers the metadata was unreliable
+        # when it was fine, and hid the signal that actually mattered.
+        errs += tier_semantics_errors(rec, rel, i, key)
         if rec.get("status") == "ARCHIVED" and rec.get("tier") not in ("ARCHIVED", None):
             warns.append(f"{rel}[{i}] {rec.get(key)}: status ARCHIVED but tier {rec.get('tier')}")
         if rec.get("stars") and rec.get("stars_checked_at") is None:
@@ -105,6 +115,83 @@ def validate_records(rel: str, schema_name: str, records: List[Dict[str, Any]], 
         if n > 1:
             errs.append(f"{rel}: duplicate {key} '{k}' ({n}x)")
     return errs, warns
+
+
+
+# Tiers decided by the score alone, which a missing license must override.
+SCORE_BAND_TIERS = ("S", "A", "B", "C", "EXPERIMENTAL")
+
+
+def tier_semantics_errors(rec: Dict[str, Any], rel: str, i: int, key: str) -> List[str]:
+    """Check that a tier label is backed by the fact it names.
+
+    `UNVERIFIED` is an epistemic claim — the record could not be checked against its
+    source. `NO-LICENSE` is a legal one — the record was checked and no license was
+    published. They are not degrees of the same thing and must not stand in for each
+    other, in either direction:
+
+      * `UNVERIFIED` on a record whose fetch succeeded asserts a failure that did not
+        happen, and invites a reader to discard metadata that is sound.
+      * a record with no license sitting in a score band (`S`/`A`/`B`/`C`) presents it as
+        an adoption candidate, which is what `license_risk` exists to prevent.
+      * `NO-LICENSE` on a record that does have a license would prohibit redistribution
+        of something freely redistributable.
+
+    Only records that carry the underlying facts are judged. A derived record such as an
+    MCP registry entry inherits its tier and does not repeat `fetch_ok`, so it is checked
+    against the license fields it does carry and otherwise left alone.
+    """
+    out: List[str] = []
+    tier = rec.get("tier")
+    if tier not in ("UNVERIFIED", "NO-LICENSE"):
+        # Still catch a no-license record left in a band the score alone decided.
+        # EXPERIMENTAL is included because tier_for() tests the license before the score
+        # bands: an unlicensed repository at score 2.0 is NO-LICENSE, not EXPERIMENTAL.
+        # ARCHIVED is excluded because a frozen repository stays ARCHIVED whether or not
+        # it has a license, and DEPRECATED because nothing in the model emits it.
+        if tier in SCORE_BAND_TIERS and _license_absent(rec):
+            out.append(f"{rel}[{i}] {rec.get(key)}: tier {tier} but no license was "
+                       f"detected — expected NO-LICENSE")
+        return out
+
+    if tier == "UNVERIFIED":
+        if rec.get("fetch_ok") is True:
+            out.append(f"{rel}[{i}] {rec.get(key)}: tier UNVERIFIED but fetch_ok is true — "
+                       f"the metadata was verified; if the finding was a missing license the "
+                       f"tier is NO-LICENSE")
+        return out
+
+    # tier == "NO-LICENSE"
+    if rec.get("fetch_ok") is False:
+        out.append(f"{rel}[{i}] {rec.get(key)}: tier NO-LICENSE but fetch_ok is false — an "
+                   f"unverified record cannot claim to have verified the absence of a license")
+    if _spdx_license(rec):
+        out.append(f"{rel}[{i}] {rec.get(key)}: tier NO-LICENSE but license is "
+                   f"{rec.get('license')!r}")
+    return out
+
+
+def _license_absent(rec: Dict[str, Any]) -> bool:
+    """True only when the record *positively states* that no license was detected.
+
+    Deliberately narrow. `license: null` does not mean "no license": in
+    `metadata/repositories.json` the vocabulary is `"NONE"` for none-detected and
+    `"NOASSERTION"` for a license the SPDX list does not recognise, but
+    `metadata/tools.json` collapses both of those to `null`. Treating `null` as absence
+    therefore accused six custom-licensed MCP entries of being unlicensed and demanded
+    they leave tier `A`, where `A` is exactly right — a non-SPDX license caps the tier at
+    `A` rather than removing it. The two signals that are unambiguous in every registry
+    are `license_risk: no-license-do-not-redistribute` and the literal string `"NONE"`.
+    """
+    if rec.get("license_risk") == "no-license-do-not-redistribute":
+        return True
+    return rec.get("license") == "NONE"
+
+
+def _spdx_license(rec: Dict[str, Any]) -> bool:
+    """True when the record names an actual SPDX-recognised license."""
+    lic = rec.get("license")
+    return bool(lic) and str(lic) not in ("NONE", "NOASSERTION", "null")
 
 
 def main() -> int:

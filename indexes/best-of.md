@@ -1,6 +1,6 @@
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Regenerate: python3 scripts/generate-index/build_index.py
-     Generated: 2026-09-16T05:46:05+00:00 -->
+     Generated: 2026-09-16T08:59:10+00:00 -->
 
 # Best-of collections
 
@@ -227,6 +227,6 @@ _Tradeoffs and alternatives are recorded per project in `repositories/<category>
 | [OWASP/Top10](../repositories/instructions-standards/owasp--top10.md) | 6.1k | A | ACTIVE | 2026-09-15 |
 | [PatrickJS/awesome-cursorrules](../repositories/instructions-standards/patrickjs--awesome-cursorrules.md) | 40.8k | A | STABLE | 2026-09-15 |
 | [invariantlabs-ai/invariant](../repositories/instructions-standards/invariantlabs-ai--invariant.md) | 456 | B | MAINTENANCE | 2026-09-15 |
-| [OWASP/www-project-top-ten](../repositories/instructions-standards/owasp--www-project-top-ten.md) | 1.4k | UNVERIFIED | MAINTENANCE | 2026-09-15 |
+| [OWASP/www-project-top-ten](../repositories/instructions-standards/owasp--www-project-top-ten.md) | 1.4k | NO-LICENSE | MAINTENANCE | 2026-09-15 |
 
 _Tradeoffs and alternatives are recorded per project in `repositories/<category>/` and in the relevant `decision-records/` file._

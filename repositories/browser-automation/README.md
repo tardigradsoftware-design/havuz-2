@@ -54,7 +54,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [nanobrowser/nanobrowser](./nanobrowser--nanobrowser.md) — tier S, STABLE
 - [OpenAdaptAI/OpenAdapt](./openadaptai--openadapt.md) — tier S, ACTIVE
 - [openinterpreter/openinterpreter](./openinterpreter--openinterpreter.md) — tier A, ACTIVE
-- [oxylabs/browser-agent-py](./oxylabs--browser-agent-py.md) — tier UNVERIFIED, MAINTENANCE
+- [oxylabs/browser-agent-py](./oxylabs--browser-agent-py.md) — tier NO-LICENSE, MAINTENANCE
 - [platonai/Browser4](./platonai--browser4.md) — tier A, ACTIVE
 - [puppeteer/puppeteer](./puppeteer--puppeteer.md) — tier S, ACTIVE
 - [SeleniumHQ/selenium](./seleniumhq--selenium.md) — tier S, ACTIVE

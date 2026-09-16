@@ -3,7 +3,7 @@ id: huggingface--awesome-papers
 title: "huggingface/awesome-papers"
 domain: reasoning-research
 summary: >-
-  huggingface/awesome-papers — ABANDONED, tier UNVERIFIED,
+  huggingface/awesome-papers — ABANDONED, tier NO-LICENSE,
   2,050 stars, license NONE, quality 4.02/10, trust 2.63/10.
   Verified against the GitHub API on 2026-09-15.
 status: deprecated
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 8.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 4.19, "reproducibility": 1.0, "security": 1.5, "recency": 0.0, "evidence": 1.0}
   quality_score: 4.02
   trust_score: 2.63
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: huggingface
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # huggingface/awesome-papers
 
-🔴 ABANDONED · tier **UNVERIFIED** · end-of-life · confidence **low**
+🔴 ABANDONED · tier **NO-LICENSE** · end-of-life · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Papers & presentation materials from Hugging Face's internal science day
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

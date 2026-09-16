@@ -43,12 +43,16 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from lib.sanitize import untrusted, yaml_folded  # noqa: E402
 REPOS = ROOT / "metadata" / "repositories.json"
 OUT_MD = ROOT / "knowledge" / "mcp" / "registry"
 
@@ -70,6 +74,10 @@ CATEGORY_SIGNALS: List[tuple[str, tuple[str, ...]]] = [
     ("observability", ("sentry", "observability", "monitoring", "logging", "trace", "metrics", "grafana", "datadog")),
     ("ci-cd", ("ci", "cd", "pipeline", "n8n", "workflow", "actions")),
     ("filesystem", ("filesystem", "file", "directory", "memory")),
+    # `payments` was already a member of the category enum in mcp.schema.json but no
+    # signal could ever select it, so a payments server fell through to whatever short
+    # signal happened to appear in its prose.
+    ("payments", ("stripe", "payment", "payments", "billing", "checkout")),
 ]
 
 DISTRIBUTION_HINTS: List[tuple[str, tuple[str, ...]]] = [
@@ -103,30 +111,454 @@ def assert_no_guesses(tools: List[Dict[str, Any]]) -> List[str]:
     return bad
 
 
+TOOLS_JSON = ROOT / "metadata" / "tools.json"
+MCP_SCHEMA = ROOT / "schemas" / "mcp.schema.json"
+# Added by extract_registries.py for its own bookkeeping; not registry fields.
+INTERNAL_KEYS = ("_path", "_tokens", "_headings")
+
+# record_to_tool() keys whose frontmatter line is written under a different name or
+# folded into another line, so a literal name match against MD_TMPL would report a
+# false loss. Each entry names the template slot that carries it.
+# record_to_tool() keys that the template carries under a different mechanism, so a
+# literal top-level name match against rendered frontmatter would report a false loss.
+TEMPLATE_ALIASES = {
+    "authentication": "authentication_line",   # conditional: emitted only when observed
+}
+
+
+def frontmatter_keys(rendered: str) -> set:
+    """Top-level keys of a rendered entry's YAML frontmatter."""
+    m = re.match(r"(?s)\A---\n(.*?)\n---\n", rendered)
+    if not m:
+        return set()
+    return set(re.findall(r"(?m)^([A-Za-z_][A-Za-z0-9_]*):", m.group(1)))
+
+
+def _kind_counts(tools: List[Dict[str, Any]]) -> str:
+    """One line of the --check report, so the split is visible without opening the JSON."""
+    import collections
+    c = collections.Counter(t.get("registry_kind") for t in tools)
+    order = [k for k in REGISTRY_KINDS if c.get(k)]
+    return "registry kinds " + ", ".join(f"{k}:{c[k]}" for k in order) + (
+        f" — {c['server']} of {len(tools)} entries counted as MCP servers" if c.get("server") else "")
+
+
+def _union_keys(tools: List[Dict[str, Any]]) -> set:
+    out: set = set()
+    for t in tools:
+        out |= set(t)
+    return out
+
+
+def assert_chain_complete(tools: List[Dict[str, Any]]) -> List[str]:
+    """Prove that nothing computed here is lost on the hop to `metadata/tools.json`.
+
+    The chain is one-directional by design —
+    `repositories.json -> knowledge/mcp/registry/*.md -> metadata/tools.json` — and
+    `extract_registries.py` reads only the markdown frontmatter. A field this module
+    computes but `MD_TMPL` does not emit therefore disappears silently: every such
+    field is optional in `mcp.schema.json`, so the schema validator reports nothing,
+    and the drift job passes because regeneration reproduces the same loss. That is
+    how nine fields went missing, including the archived server's
+    `not_recommended_for` warning — the one field in the registry that tells a reader
+    not to adopt something.
+
+    Two directions are checked, because a field can be lost or invented:
+
+      1. every key `record_to_tool()` produces must appear in `tools.json`;
+      2. every key in `tools.json` must be a property declared by the schema.
+
+    Comparison is per record, not on the union, so a field emitted for one repository
+    and dropped for another cannot hide in the aggregate.
+    """
+    bad: List[str] = []
+    if not TOOLS_JSON.exists():
+        return [f"{TOOLS_JSON.relative_to(ROOT)} missing — run extract_registries.py"]
+    if not MCP_SCHEMA.exists():
+        return [f"{MCP_SCHEMA.relative_to(ROOT)} missing"]
+    declared = set(json.loads(MCP_SCHEMA.read_text()).get("properties", {}))
+    final = {r.get("repository"): r
+             for r in json.loads(TOOLS_JSON.read_text()).get("tools", [])}
+
+    for t in tools:
+        slug = t.get("repository")
+        got = final.get(slug)
+        if got is None:
+            bad.append(f"{slug}: computed here but absent from metadata/tools.json")
+            continue
+        have = set(got) - set(INTERNAL_KEYS)
+        lost = sorted(set(t) - have)
+        if lost:
+            bad.append(f"{slug}: field(s) lost between the registry markdown and "
+                       f"tools.json: {', '.join(lost)} — MD_TMPL does not emit them")
+        undeclared = sorted(have - declared)
+        if undeclared:
+            bad.append(f"{slug}: tools.json carries key(s) not declared in "
+                       f"mcp.schema.json: {', '.join(undeclared)}")
+    return bad
+
+
+def yaml_scalar(v: Any) -> str:
+    """Render a Python value as a YAML flow scalar that round-trips through a parser.
+
+    Every value written into the frontmatter has to survive
+    `extract_registries.py` re-reading it, or the field is silently lost on the hop
+    to `metadata/tools.json`. Quoting is decided by the value, not by the field name:
+    `@playwright/mcp` must be quoted because `@` is a reserved YAML indicator, a
+    language named `null` would otherwise parse as None, and a list containing an
+    em dash is safest as JSON (which is valid YAML flow syntax).
+    """
+    if v is None:
+        return "null"
+    if isinstance(v, bool):
+        return "true" if v else "false"
+    if isinstance(v, (int, float)):
+        return str(v)
+    if isinstance(v, (list, dict)):
+        return json.dumps(v, ensure_ascii=False)
+    s = str(v)
+    # Quote when YAML would otherwise reinterpret the value: reserved indicators,
+    # values that look like another type, or anything with leading/trailing space.
+    if (s == "" or s.strip() != s
+            or s[0] in "@`#&*!|>%'\"{}[],-?:"
+            or s.lower() in ("null", "true", "false", "yes", "no", "on", "off", "~")
+            or ": " in s or " #" in s
+            or any(c in s for c in '"\'\\')):
+        return json.dumps(s, ensure_ascii=False)
+    return s
+
+
 def slug_to_id(slug: str) -> str:
     return "mcp-" + slug.replace("/", "-").replace(".", "-").lower()
 
 
-def detect_category(rec: Dict[str, Any]) -> Optional[str]:
-    haystack = " ".join(
-        [str(rec.get("description") or ""), " ".join(rec.get("topics") or []), rec.get("slug", "")]
-    ).lower()
+def assert_categories_are_whole_tokens(recs: List[Dict[str, Any]],
+                                       tools: List[Dict[str, Any]]) -> List[str]:
+    """Prove no category was assigned on the strength of a substring.
+
+    Re-derives each classification from the source record and checks it three ways: that
+    it agrees with what is stored, that every signal recorded as having matched is a whole
+    token of the field it is claimed from, and that a signal claimed from topics or the
+    slug does not in fact only appear in the description. A gate that merely re-ran
+    `detect_category` would pass against any matcher, including the broken one, because it
+    would be comparing the function with itself. Checking the *tokens* is what makes the
+    substring version fail: under it `'ci'` is recorded as having matched, and `'ci'` is
+    not a token of anything the official SDKs publish.
+    """
+    bad: List[str] = []
+    by_slug = {r["slug"]: r for r in recs}
+    for tool in tools:
+        slug = tool["repository"]
+        rec = by_slug.get(slug)
+        if rec is None:
+            bad.append(f"{slug}: not in metadata/repositories.json; cannot re-derive category")
+            continue
+        cat, evidence, signals = detect_category(rec)
+        if (cat, evidence, signals) != (tool.get("category"), tool.get("category_evidence"),
+                                        tool.get("category_signals")):
+            bad.append(f"{slug}: stored category "
+                       f"{tool.get('category')}/{tool.get('category_evidence')}/"
+                       f"{tool.get('category_signals')} does not re-derive to "
+                       f"{cat}/{evidence}/{signals}")
+
+        # The stored claim is then audited on its own terms. Re-derivation and this check
+        # are independent: if re-derivation disagreed and we skipped ahead, a category
+        # justified by a substring would be reported only as "does not re-derive" and the
+        # more specific diagnosis — which token was claimed, and why it cannot have matched
+        # — would be lost. Both messages matter when someone has to fix it.
+        stored_evidence = tool.get("category_evidence")
+        stored_signals = tool.get("category_signals") or []
+        if stored_evidence == "no-signal-matched":
+            continue
+        structured = _tokens(str(rec.get("slug", "").replace("/", " ")) + " "
+                             + " ".join(rec.get("topics") or []))
+        described = _tokens(rec.get("description") or "")
+        for sig in stored_signals:
+            if stored_evidence == "topics-or-slug" and sig not in structured:
+                bad.append(f"{slug}: category '{cat}' claims signal '{sig}' from topics or "
+                           f"the slug, but '{sig}' is not a whole token of either — it can "
+                           f"only have matched inside a word")
+            if stored_evidence == "description-fallback" and sig not in described:
+                bad.append(f"{slug}: category '{cat}' claims signal '{sig}' from the "
+                           f"description, but '{sig}' is not a whole token of it")
+    return bad
+
+# ---------------------------------------------------------------------------
+# What kind of thing each registry entry actually is.
+#
+# The registry was built by filtering repositories.json for category == "mcp-servers",
+# which is a *seed-list* category assigned when the repository was added, not a verified
+# property of it. Five of the resulting entries were not servers at all, and each entry's
+# own `purpose` quoted the description that said so — the registry contradicted its own
+# label. Consumers are skills/dont-reinvent-the-wheel and skills/mcp-integration, which
+# tell an agent to consult this registry before building or installing a server; an agent
+# handed an SDK, a catalog or a testing tool gets nothing usable.
+#
+# Classification uses only text the GitHub API returned, and records the fragment it
+# matched so every decision can be re-derived and challenged. Ordered most specific
+# first: a repository that calls itself a registry or a catalog is that even though it
+# also contains the words "MCP server", which every entry in this registry does.
+KIND_SDK = re.compile(r"(?i)\bsdk\b|\bspin up\b|\bsoftware development kit\b")
+KIND_REGISTRY = re.compile(r"(?i)\bregistry\b")
+KIND_CATALOG = re.compile(r"(?i)\bcatalog(?:ue)?\b|\bcollection of\b|\bawesome[- ]")
+KIND_TOOLING = re.compile(
+    r"(?i)\btesting tool\b|\bvisual testing\b|\bdebug(?:ging)? tool\b|\bcommand line\b|\bcli\b|\binspector\b")
+KIND_SERVER = re.compile(
+    r"(?i)\b(?:mcp|model context protocol)\b[^.]{0,40}\bservers?\b"
+    r"|\bservers?\b[^.]{0,40}\b(?:mcp|model context protocol)\b")
+
+# Ordered. The first rule whose signal is present in the observed text decides.
+KIND_RULES: List[tuple] = [
+    ("sdk", KIND_SDK),
+    ("registry", KIND_REGISTRY),
+    ("catalog", KIND_CATALOG),
+    ("tooling", KIND_TOOLING),
+]
+
+# A topic the owner set that asserts the repository is a server. Stronger evidence than
+# prose, because it is structured and set for discoverability.
+SERVER_TOPICS = ("mcp-server", "mcp-servers")
+
+
+# What each kind means to a reader who came here looking for a server to install. The
+# sentence is generated rather than left to the entry's prose so that the label and its
+# consequence cannot drift apart, and so `unproven` says what it does not know instead of
+# sitting there looking like a classification somebody made.
+KIND_SENTENCES = {
+    "server": "Counted as an MCP server in `indexes/mcp.md` and in the README statistics. "
+              "This is what the registry's consumers — `skills/mcp-integration` and "
+              "`skills/dont-reinvent-the-wheel` — mean when they say consult the registry "
+              "before installing a server.",
+    "sdk": "**This is not a server you can connect to.** It is a library for *building* one. "
+           "Installing it as an MCP server will not work; it is recorded here so that "
+           "somebody about to write a server finds it instead of writing their own.",
+    "tooling": "**This is not a server you can connect to.** It is a tool for testing or "
+               "debugging servers. Recorded here because it is the right answer to the "
+               "question “how do I check the server I just built”, not to the question "
+               "“which server should I install”.",
+    "registry": "**This is a registry, not an entry.** It is a peer of this one. Recorded so "
+                "that it is not mistaken for a server, and so that its existence is not "
+                "rediscovered as though it were news.",
+    "catalog": "**This is a curated list of other servers, not a server.** Consult it to find "
+               "candidates; do not install it. Recorded here because a catalog with a high star "
+               "count looks exactly like a popular server in a filtered list.",
+    "unproven": "**Nothing the GitHub API returned establishes what this repository is.** It was "
+                "seeded into this registry under the seed-list category `mcp-servers`, which is "
+                "an assertion made when the record was added rather than a verified property, and "
+                "the repository's own published description and topics do not confirm it. It is "
+                "not counted as an MCP server. Confirm from the README before adopting it, then "
+                "set `registry_kind` and record what you read.",
+}
+
+
+def kind_sentence(tool: Dict[str, Any]) -> str:
+    """Explain the consequence of the kind, and quote the evidence that decided it."""
+    kind = tool.get("registry_kind") or "unproven"
+    base = KIND_SENTENCES.get(kind, KIND_SENTENCES["unproven"])
+    evidence = (tool.get("registry_kind_evidence") or "").strip()
+    if evidence:
+        base += f" Evidence: {evidence}."
+    return base
+
+
+def detect_registry_kind(rec: Dict[str, Any]) -> tuple[str, str]:
+    """Return `(registry_kind, registry_kind_evidence)` from observed text only.
+
+    `unproven` is a real answer, not a fallback for the timid. Where nothing the API
+    returned asserts what the repository is, saying so is more useful than defaulting to
+    `server`: an entry counted as a server inflates the registry's apparent coverage, and
+    the count is what a reader uses to decide whether to keep looking.
+    """
+    desc = str(rec.get("description") or "").strip()
+    slug = str(rec.get("slug") or "")
+    last_segment = slug.split("/")[-1].lower()
+    topics = [str(x).lower() for x in (rec.get("topics") or [])]
+
+    for kind, rx in KIND_RULES:
+        m = rx.search(desc)
+        if m:
+            return kind, f'description says "{m.group(0).strip()}"'
+        if kind == "sdk" and last_segment.endswith("-sdk"):
+            return kind, f'slug "{slug}" ends in "-sdk"'
+        if kind == "catalog" and last_segment.startswith("awesome-"):
+            return kind, f'slug "{slug}" begins "awesome-", the convention for a curated list'
+
+    for topic in topics:
+        if topic in SERVER_TOPICS:
+            return "server", f'owner-set topic "{topic}"'
+    m = KIND_SERVER.search(desc)
+    if m:
+        return "server", f'description says "{m.group(0).strip()}"'
+    if "mcp-server" in last_segment or last_segment == "mcp" or last_segment.endswith("-mcp"):
+        return "server", f'slug "{slug}" names the repository as MCP'
+
+    if "mcp" in topics:
+        return "unproven", ('the topic "mcp" says the repository relates to MCP; nothing '
+                            "observed asserts that it is a server")
+    return "unproven", "no observed text asserts what this repository is"
+
+
+REGISTRY_KINDS = ("server", "sdk", "tooling", "catalog", "registry", "unproven")
+
+
+def assert_kinds_are_evidenced(recs: List[Dict[str, Any]],
+                               tools: List[Dict[str, Any]]) -> List[str]:
+    """Prove every kind re-derives from the record and quotes real observed text.
+
+    The evidence string has to be a fragment of the description, the slug or a topic the
+    API actually returned — a kind justified by text that is not in the record is a kind
+    that was guessed. This is the check that stops `unproven` from being used as a bin for
+    records someone simply did not look at, and stops `server` from being asserted on the
+    strength of the seed-list category the entry was filtered by.
+    """
+    bad: List[str] = []
+    by_slug = {r["slug"]: r for r in recs}
+    for tool in tools:
+        slug = tool["repository"]
+        rec = by_slug.get(slug)
+        if rec is None:
+            bad.append(f"{slug}: not in metadata/repositories.json; cannot re-derive kind")
+            continue
+        kind, evidence = detect_registry_kind(rec)
+        if kind != tool.get("registry_kind"):
+            bad.append(f"{slug}: stored registry_kind '{tool.get('registry_kind')}' does not "
+                       f"re-derive to '{kind}'")
+        if evidence != tool.get("registry_kind_evidence"):
+            bad.append(f"{slug}: stored registry_kind_evidence does not re-derive")
+        if tool.get("registry_kind") not in REGISTRY_KINDS:
+            bad.append(f"{slug}: registry_kind '{tool.get('registry_kind')}' is not one of "
+                       f"{', '.join(REGISTRY_KINDS)}")
+
+        # The stored claim is audited on its own terms, independently of re-derivation —
+        # the same separation the category gate needs. If these checks read the re-derived
+        # values instead, a fabricated justification is reported only as "does not
+        # re-derive" and the specific diagnosis (which text was quoted, and that the
+        # repository never published it) is lost.
+        stored_kind = tool.get("registry_kind")
+        stored_evidence = tool.get("registry_kind_evidence") or ""
+        quoted = re.search(r'"(.+?)"', stored_evidence)
+        if quoted:
+            fragment = quoted.group(1)
+            hay = " ".join([str(rec.get("description") or ""), slug,
+                            " ".join(rec.get("topics") or [])]).lower()
+            if fragment.lower() not in hay:
+                bad.append(f"{slug}: registry_kind_evidence quotes \"{fragment}\", which does "
+                           f"not occur in anything the API returned for this repository")
+        if stored_kind == "server" and stored_evidence.startswith("the topic"):
+            bad.append(f"{slug}: claimed to be a server on the strength of a bare 'mcp' topic, "
+                       f"which says the repository relates to MCP but not that it is a server")
+        if stored_kind == "server" and not stored_evidence.strip():
+            bad.append(f"{slug}: claimed to be a server with no recorded evidence")
+    return bad
+
+
+def _tokens(text: str) -> set:
+    """Split into whole lowercase tokens, so a signal can only match a whole word.
+
+    The previous implementation asked `if signal in haystack`, which is a substring test
+    over free prose. Short signals therefore matched inside ordinary words: `'ci'` occurs
+    inside *"offi**ci**al"*, which classified both official Model Context Protocol SDKs as
+    `ci-cd`. The same class of error was latent for `'cd'`, `'git'`, `'file'`, `'sql'`,
+    `'docs'` and `'ci'` — every signal short enough to hide in a common word. Splitting
+    on every non-alphanumeric run makes the comparison exact.
+
+    Hyphenated forms are kept whole *as well as* split, because several signals are
+    themselves hyphenated — `web-scraping`, `cloud-run`, `pull-request`. Splitting alone
+    would make those signals unmatchable and silently reclassify whatever carried them:
+    `firecrawl/firecrawl-mcp-server` publishes the topic `web-scraping` and dropped from
+    `browser` to `search` under a split-only tokenizer. Both forms are still whole tokens,
+    so nothing here reintroduces substring matching.
+    """
+    out: set = set()
+    for raw in re.split(r"[^a-z0-9\-]+", str(text).lower()):
+        if not raw:
+            continue
+        out.add(raw)                       # keep hyphenated forms whole: "web-scraping"
+        out.update(part for part in raw.split("-") if part)
+    out.discard("")
+    return out
+
+
+def detect_category(rec: Dict[str, Any]) -> tuple[str, str, List[str]]:
+    """Return `(category, evidence_source, matched_signals)`.
+
+    Matching is on whole tokens only, and the sources are tried in order of how much
+    they can be trusted to mean what they say:
+
+      1. **topics and slug segments.** Topics are curated by the owner specifically so
+         the repository is discoverable under them, and slug segments are the name the
+         owner chose. Both are structured: a token is either there or it is not.
+      2. **the description**, only when nothing structured matched. Free prose is the
+         weakest evidence — it is where *"official"* lives — but dropping it entirely
+         would leave nine of the 35 records that publish no topics unclassified, so it
+         stays as a fallback rather than as a peer of the curated fields.
+      3. **`other`**, which is the honest answer when nothing matches and is already a
+         member of the schema enum. Guessing a category from a repository's general
+         subject matter would put a confident-looking wrong value into a field
+         consumers filter on.
+
+    The matched signals are returned with the category so the decision is auditable: a
+    classification nobody can re-derive is a classification nobody can check, which is
+    how the `ci-cd` error survived review of the generator that produced it.
+    """
+    slug = rec.get("slug", "")
+    topics = rec.get("topics") or []
+    structured = _tokens(slug.replace("/", " ")) | _tokens(" ".join(topics))
     for cat, signals in CATEGORY_SIGNALS:
-        if any(s in haystack for s in signals):
-            return cat
-    return None
+        hit = sorted(s for s in signals if s in structured)
+        if hit:
+            return cat, "topics-or-slug", hit
+    described = _tokens(rec.get("description") or "")
+    for cat, signals in CATEGORY_SIGNALS:
+        hit = sorted(s for s in signals if s in described)
+        if hit:
+            return cat, "description-fallback", hit
+    return "other", "no-signal-matched", []
 
 
 def detect_distribution(rec: Dict[str, Any]) -> tuple[str, Optional[str], Optional[str]]:
-    """Return (distribution, npm_package, pypi_package) from observed fields only."""
+    """Return (distribution, npm_package, pypi_package) from observed fields only.
+
+    The package name is taken from the path *after* the registry's own `/package/`
+    segment, not from the last `/`-delimited token. Splitting on `/` alone truncates
+    npm's scoped packages: `https://www.npmjs.com/package/@playwright/mcp` yields
+    `mcp` instead of `@playwright/mcp`, which is not an installable name. The bug was
+    invisible while `npm_package` was dropped between the markdown and `tools.json`;
+    emitting the field surfaced it.
+    """
     homepage = str(rec.get("homepage") or "")
     for dist, hints in DISTRIBUTION_HINTS:
-        if any(h in homepage for h in hints):
-            pkg = homepage.rsplit("/", 1)[-1] if dist == "npm" else homepage.rsplit("/", 1)[-1]
-            return dist, (pkg if dist == "npm" else None), (pkg if dist == "pypi" else None)
+        if not any(h in homepage for h in hints):
+            continue
+        pkg = package_from_url(homepage, dist)
+        return dist, (pkg if dist == "npm" else None), (pkg if dist == "pypi" else None)
     # No package URL observed. Distribution is genuinely unknown from the API alone;
     # `source` is the only claim we can defend — the repository is buildable from source.
     return "source", None, None
+
+
+def package_from_url(homepage: str, dist: str) -> Optional[str]:
+    """Extract the installable package name from a registry URL, or None if absent.
+
+    Returns None rather than a truncated guess when the URL does not have the shape
+    the registry actually uses for package pages.
+    """
+    from urllib.parse import urlparse, unquote
+    path = unquote(urlparse(homepage).path).strip("/")
+    if dist == "npm":
+        # npm package pages are /package/<name>; scoped names keep their @scope/ prefix.
+        if not path.startswith("package/"):
+            return None
+        name = path[len("package/"):]
+        return name or None
+    if dist == "pypi":
+        # PyPI package pages are /project/<name> (and legacy /pypi/<name>).
+        for prefix in ("project/", "pypi/"):
+            if path.startswith(prefix):
+                name = path[len(prefix):].split("/")[0]
+                return name or None
+        return None
+    return None
 
 
 def risk_level(rec: Dict[str, Any]) -> str:
@@ -165,6 +597,8 @@ def build_purpose(rec: Dict[str, Any]) -> tuple[str, str]:
 def record_to_tool(rec: Dict[str, Any]) -> Dict[str, Any]:
     purpose, purpose_evidence = build_purpose(rec)
     dist, npm_pkg, pypi_pkg = detect_distribution(rec)
+    cat, cat_evidence, cat_signals = detect_category(rec)
+    kind, kind_evidence = detect_registry_kind(rec)
     q = rec.get("quality") or {}
     archived = bool(rec.get("archived"))
     lic = rec.get("license")
@@ -181,7 +615,13 @@ def record_to_tool(rec: Dict[str, Any]) -> Dict[str, Any]:
         "official": bool(rec.get("official")),
         "maintainer": rec.get("owner"),
         "purpose": purpose,
-        "category": detect_category(rec) or "other",
+        "category": cat,
+        "category_evidence": cat_evidence,
+        "category_signals": cat_signals,
+        # What the repository IS, as opposed to what it connects to. `category` came from
+        # the seed list; this comes from the repository's own observed text.
+        "registry_kind": kind,
+        "registry_kind_evidence": kind_evidence,
         # The GitHub API does not expose MCP transport, tool, resource or prompt lists.
         # Emitting empty rather than plausible values is the point of this generator.
         "transport": [],
@@ -243,23 +683,34 @@ def record_to_tool(rec: Dict[str, Any]) -> Dict[str, Any]:
     }
     return {k: v for k, v in tool.items() if v is not None or k in (
         "transport", "tools", "resources", "prompts", "permissions", "recommended_for",
-        "not_recommended_for", "category", "npm_package", "pypi_package")}
+        "not_recommended_for", "category", "category_evidence", "category_signals",
+        "registry_kind", "registry_kind_evidence", "npm_package", "pypi_package")}
 
 
 MD_TMPL = """---
 id: {id}
 name: {name}
 purpose: >-
-  {purpose}
+  {purpose_yaml}
 category: {category}
+category_evidence: {category_evidence}
+category_signals: {category_signals}
+registry_kind: {registry_kind}
+registry_kind_evidence: >-
+  {registry_kind_evidence}
 distribution: {distribution}
 official: {official}
 maintainer: {maintainer}
 repository: {repository}
 url: {url}
+npm_package: {npm_package}
+pypi_package: {pypi_package}
 transport: []
 tools: []
-{authentication_line}security:
+resources: []
+prompts: []
+{authentication_line}permissions: {{}}
+security:
   risk_level: {risk_level}
   notes: >-
     {security_notes}
@@ -274,8 +725,12 @@ stars_checked_at: {today}
 tier: {tier}
 quality_score: {quality_score}
 confidence: {confidence}
+recommended_for: {recommended_for}
+not_recommended_for: {not_recommended_for}
 capability_evidence: unverified
 purpose_evidence: {purpose_evidence}
+days_since_push: {days_since_push_fm}
+language: {language_fm}
 tags: {tags}
 verified_at: {today}
 expires_at: {expires}
@@ -297,6 +752,8 @@ sources:
 # {name}
 
 `{repository}` — {one_line}
+
+**Registry kind: `{registry_kind}`.** {registry_kind_sentence}
 
 ## What is verified
 
@@ -407,7 +864,9 @@ def render_md(t: Dict[str, Any], rec: Dict[str, Any]) -> str:
             "this entry — MCP servers move quickly and a tier earned in one quarter is not a tier earned "
             "in the next."
         )
-    purpose_block = t["purpose"]
+    # Body prose, so escaped: this is rendered markdown, and `purpose` is built from the
+    # repository's own description, which its owner controls.
+    purpose_block = untrusted(t["purpose"])
     if t.get("purpose_evidence") == "repository-description-thin":
         purpose_block += (
             "\n\n> The repository's own description was too thin to serve as a purpose statement. "
@@ -415,13 +874,32 @@ def render_md(t: Dict[str, Any], rec: Dict[str, Any]) -> str:
             "`readme-reviewed` and date it."
         )
     return MD_TMPL.format(
-        id=t["id"], name=t["name"], purpose=textwrap.fill(purpose.split(": ",1)[-1].strip('"') if False else t["purpose"].replace("\n", " "), 96).replace("\n", "\n  "),
+        id=t["id"], name=t["name"],
+        # Frontmatter is data rather than prose, so it is made YAML-safe (newlines collapsed,
+        # which also stops an upstream newline from starting a new mapping key) instead of
+        # markdown-escaped. The dead `if False else` branch that used to sit here is gone.
+        purpose_yaml=textwrap.fill(yaml_folded(t["purpose"]), 96).replace("\n", "\n  "),
         category=t.get("category") or "other",
+        category_evidence=yaml_scalar(t.get("category_evidence") or "no-signal-matched"),
+        category_signals=yaml_scalar(t.get("category_signals") or []),
+        registry_kind=t.get("registry_kind") or "unproven",
+        registry_kind_sentence=kind_sentence(t),
+        registry_kind_evidence=textwrap.fill(t.get("registry_kind_evidence") or "", 88).replace("\n", "\n  "),
         distribution=t["distribution"],
         official="true" if t["official"] else "false",
         maintainer=t.get("maintainer") or "null",
         repository=t["repository"], url=t["url"],
         authentication_line=(f"authentication: {t['authentication']}\n" if t.get("authentication") else ""),
+        # Fields emitted here and nowhere else: if a key computed by record_to_tool()
+        # is missing from this template it never reaches metadata/tools.json, because
+        # extract_registries.py reads the markdown frontmatter and nothing else.
+        # assert_chain_complete() below fails the build when the two sides diverge.
+        npm_package=yaml_scalar(t.get("npm_package")),
+        pypi_package=yaml_scalar(t.get("pypi_package")),
+        recommended_for=yaml_scalar(t.get("recommended_for") or []),
+        not_recommended_for=yaml_scalar(t.get("not_recommended_for") or []),
+        days_since_push_fm=yaml_scalar(t.get("days_since_push")),
+        language_fm=yaml_scalar(t.get("language")),
         risk_level=t["security"]["risk_level"],
         security_notes=textwrap.fill(t["security"]["notes"], 90).replace("\n", "\n    "),
         local_or_remote=t["local_or_remote"], setup_complexity=t["setup_complexity"],
@@ -430,14 +908,14 @@ def render_md(t: Dict[str, Any], rec: Dict[str, Any]) -> str:
         license_risk=t.get("license_risk") or "none",
         stars=t.get("stars") if t.get("stars") is not None else "null",
         stars_fmt=f'{t["stars"]:,}' if t.get("stars") is not None else "unknown",
-        today=TODAY, expires=EXPIRES, tier=t.get("tier") or "UNVERIFIED",
+        today=TODAY, expires=EXPIRES, tier=t["tier"],
         quality_score=t.get("quality_score") if t.get("quality_score") is not None else "null",
         confidence=t.get("confidence") or "medium",
         tags=json.dumps(t.get("tags") or []),
         source_title=f'{t["repository"]} — GitHub repository metadata',
         source_license="null" if lic in (None, "NONE") else lic,
         source_confidence="very-high" if rec.get("fetch_ok") else "low",
-        one_line=textwrap.fill(t["purpose"].replace("\n", " "), 88),
+        one_line=textwrap.fill(untrusted(t["purpose"]), 88),
         archived="yes" if archived else "no",
         pushed_at=rec.get("pushed_at") or "unknown",
         days_since_push=rec.get("days_since_push") if rec.get("days_since_push") is not None else "unknown",
@@ -474,6 +952,34 @@ def main() -> int:
     recs.sort(key=lambda r: (-(r.get("stars") or 0), r["slug"]))
     tools = [record_to_tool(r) for r in recs]
 
+    # `tier` has no honest default. It used to fall back to "UNVERIFIED", but that label
+    # now means specifically "the metadata could not be verified", so defaulting to it
+    # would assert a fetch failure that did not happen. Every record in
+    # repositories.json carries a tier; a record without one is malformed and should
+    # stop the build rather than be quietly relabelled.
+    kinds = assert_kinds_are_evidenced(recs, tools)
+    if kinds:
+        print("error: a registry_kind is not backed by observed text:", file=sys.stderr)
+        for k in kinds:
+            print(f"  {k}", file=sys.stderr)
+        return 2
+
+    substrings = assert_categories_are_whole_tokens(recs, tools)
+    if substrings:
+        print("error: a category was assigned on something other than a whole token:",
+              file=sys.stderr)
+        for s in substrings:
+            print(f"  {s}", file=sys.stderr)
+        return 2
+
+    untiered = [t["repository"] for t in tools if not t.get("tier")]
+    if untiered:
+        print("error: record(s) have no tier in metadata/repositories.json, and tier has "
+              "no honest default:", file=sys.stderr)
+        for u in untiered:
+            print(f"  {u}", file=sys.stderr)
+        return 2
+
     guesses = assert_no_guesses(tools)
     if guesses:
         print("error: the generator asserted capability fields it cannot observe:",
@@ -482,11 +988,30 @@ def main() -> int:
             print(f"  {g}", file=sys.stderr)
         return 2
 
+
     OUT_MD.mkdir(parents=True, exist_ok=True)
     md_files: Dict[str, str] = {}
     for t, r in zip(tools, recs):
         fn = r["slug"].replace("/", "__") + ".md"
         md_files[fn] = render_md(t, r)
+
+    # Every field record_to_tool() computes must appear in the rendered frontmatter,
+    # which is the only thing extract_registries.py reads. Checked against rendered
+    # output rather than against tools.json, which has not been regenerated yet at
+    # this point in the chain, and rather than against MD_TMPL's source, where a
+    # conditional prefix can hide a key from a line-start match.
+    emitted: set = set()
+    for txt in md_files.values():
+        emitted |= frontmatter_keys(txt)
+    computed = _union_keys(tools)
+    never_emitted = sorted(k for k in computed
+                           if k not in emitted and k not in TEMPLATE_ALIASES)
+    if never_emitted:
+        print("error: record_to_tool() computes field(s) the rendered frontmatter never "
+              "emits, so they will be lost before tools.json:", file=sys.stderr)
+        for f in never_emitted:
+            print(f"  {f}", file=sys.stderr)
+        return 2
 
     if args.check:
         def norm(s: str) -> str:
@@ -512,8 +1037,30 @@ def main() -> int:
             for g in guesses:
                 print(f"  {g}", file=sys.stderr)
             return 1
+        kinds = assert_kinds_are_evidenced(recs, tools)
+        if kinds:
+            print("a registry_kind is not backed by observed text:", file=sys.stderr)
+            for k in kinds:
+                print(f"  {k}", file=sys.stderr)
+            return 1
+        substrings = assert_categories_are_whole_tokens(recs, tools)
+        if substrings:
+            print("a category is not backed by a whole token:", file=sys.stderr)
+            for s in substrings:
+                print(f"  {s}", file=sys.stderr)
+            return 1
+        lost = assert_chain_complete(tools)
+        if lost:
+            print("registry fields are lost between markdown and tools.json:",
+                  file=sys.stderr)
+            for l in lost:
+                print(f"  {l}", file=sys.stderr)
+            return 1
         print(f"MCP registry in sync: {len(tools)} entries; "
-              f"no capability field asserted without evidence")
+              f"no capability field asserted without evidence; "
+              f"all {len(_union_keys(tools))} computed fields reach tools.json; "
+              f"every category backed by a whole token; "
+              f"{_kind_counts(tools)}")
         return 0
 
     for fn, txt in md_files.items():

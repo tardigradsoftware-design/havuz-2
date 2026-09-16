@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Mintplex-Labs
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.16.1 (2026-08-27) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://anythingllm.com |
+| Homepage | [https://anythingllm.com](https://anythingllm.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

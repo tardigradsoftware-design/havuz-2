@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: FoundationAgents
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **A** · maintenance-mode · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.8.1 (2024-04-22) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://atoms.dev/ |
+| Homepage | [https://atoms.dev/](https://atoms.dev/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

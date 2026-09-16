@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: anomalyco
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The open source coding agent.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.18.31 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://opencode.ai |
+| Homepage | [https://opencode.ai](https://opencode.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: VoltAgent
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://clawskills.sh/ |
+| Homepage | [https://clawskills.sh/](https://clawskills.sh/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `catalog` |
 

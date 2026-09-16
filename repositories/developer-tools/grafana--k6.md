@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: grafana
     license: AGPL-3.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A modern load testing tool, using Go and JavaScript
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.2.0 (2026-08-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://grafana.com/oss/k6/ |
+| Homepage | [https://grafana.com/oss/k6/](https://grafana.com/oss/k6/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

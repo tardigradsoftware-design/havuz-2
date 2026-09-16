@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: NousResearch
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15

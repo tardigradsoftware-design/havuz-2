@@ -3,7 +3,7 @@ id: owasp--www-project-top-ten
 title: "OWASP/www-project-top-ten"
 domain: instructions-standards
 summary: >-
-  OWASP/www-project-top-ten — MAINTENANCE, tier UNVERIFIED,
+  OWASP/www-project-top-ten — MAINTENANCE, tier NO-LICENSE,
   1,443 stars, license NONE, quality 5.04/10, trust 3.2/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 3.0, "reproducibility": 1.0, "security": 2.5, "recency": 6.38, "evidence": 2.0}
   quality_score: 5.04
   trust_score: 3.2
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: OWASP
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # OWASP/www-project-top-ten
 
-🟡 MAINTENANCE · tier **UNVERIFIED** · maintenance-mode · confidence **low**
+🟡 MAINTENANCE · tier **NO-LICENSE** · maintenance-mode · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > OWASP Foundation Web Respository
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

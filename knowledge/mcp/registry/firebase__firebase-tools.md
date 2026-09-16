@@ -4,13 +4,23 @@ name: firebase-tools
 purpose: >-
   As stated by the repository itself: "The Firebase Command Line Tools"
 category: cloud
+category_evidence: topics-or-slug
+category_signals: ["firebase"]
+registry_kind: tooling
+registry_kind_evidence: >-
+  description says "Command Line"
 distribution: source
 official: true
 maintainer: firebase
 repository: firebase/firebase-tools
 url: https://github.com/firebase/firebase-tools
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.89
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["firebase", "mcp"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # firebase-tools
 
 `firebase/firebase-tools` — As stated by the repository itself: "The Firebase Command Line Tools"
+
+**Registry kind: `tooling`.** **This is not a server you can connect to.** It is a tool for testing or debugging servers. Recorded here because it is the right answer to the question “how do I check the server I just built”, not to the question “which server should I install”. Evidence: description says "Command Line".
 
 ## What is verified
 

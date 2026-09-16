@@ -1,6 +1,6 @@
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Regenerate: python3 scripts/generate-index/build_index.py
-     Generated: 2026-09-16T05:46:05+00:00 -->
+     Generated: 2026-09-16T08:59:10+00:00 -->
 
 # Prompt template index
 

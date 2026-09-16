@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: cline
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | desktop-v0.0.28 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://cline.bot |
+| Homepage | [https://cline.bot](https://cline.bot) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

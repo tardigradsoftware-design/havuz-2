@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: suyoumo
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · published-artifact · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > ClawProBench is a live-first benchmark harness for evaluating LLM agents   in the OpenClaw runtime with deterministic grading and repeated-trial   reliability.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://suyoumo.github.io/bench/ |
+| Homepage | [https://suyoumo.github.io/bench/](https://suyoumo.github.io/bench/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

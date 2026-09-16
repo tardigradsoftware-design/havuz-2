@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: electric-sql
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The agent platform built on sync.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @electric-sql/y-electric@0.1.54 (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://electric.ax |
+| Homepage | [https://electric.ax](https://electric.ax) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

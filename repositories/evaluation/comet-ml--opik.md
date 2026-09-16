@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: comet-ml
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 2.2.63 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.comet.com/docs/opik/ |
+| Homepage | [https://www.comet.com/docs/opik/](https://www.comet.com/docs/opik/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

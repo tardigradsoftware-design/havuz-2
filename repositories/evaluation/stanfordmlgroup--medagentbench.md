@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: stanfordmlgroup
     license: MIT
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://ai.nejm.org/doi/full/10.1056/AIdbp2500144 |
+| Homepage | [https://ai.nejm.org/doi/full/10.1056/AIdbp2500144](https://ai.nejm.org/doi/full/10.1056/AIdbp2500144) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

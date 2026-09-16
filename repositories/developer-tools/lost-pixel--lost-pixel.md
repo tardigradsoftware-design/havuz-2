@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: lost-pixel
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Open source alternative to Percy, Chromatic, Applitools.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.22.0 (2024-11-14) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | https://lost-pixel.com/ |
+| Homepage | [https://lost-pixel.com/](https://lost-pixel.com/) |
 | SECURITY.md | no → `archived-no-patches` |
 | Repository kind | `software` |
 

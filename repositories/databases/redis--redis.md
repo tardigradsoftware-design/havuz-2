@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: redis
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +75,7 @@ sources:
 | Latest release | 8.10.1 (2026-08-17) |
 | Archived | no |
 | Fork | no |
-| Homepage | http://redis.io |
+| Homepage | [http://redis.io](http://redis.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: simular-ai
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Agent S: an open agentic framework that uses computers like a human
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.3.2 (2025-12-16) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.simular.ai |
+| Homepage | [https://www.simular.ai](https://www.simular.ai) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

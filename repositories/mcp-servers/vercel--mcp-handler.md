@@ -3,7 +3,7 @@ id: vercel--mcp-handler
 title: "vercel/mcp-handler"
 domain: mcp-servers
 summary: >-
-  vercel/mcp-handler — ACTIVE, tier UNVERIFIED,
+  vercel/mcp-handler — ACTIVE, tier NO-LICENSE,
   669 stars, license NONE, quality 8.02/10, trust 6.85/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 9.56, "documentation": 6.98, "reproducibility": 6.5, "security": 2.5, "recency": 9.9, "evidence": 8.0}
   quality_score: 8.02
   trust_score: 6.85
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: vercel
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # vercel/mcp-handler
 
-🟢 ACTIVE · tier **UNVERIFIED** · early · confidence **high**
+🟢 ACTIVE · tier **NO-LICENSE** · early · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Easily spin up an MCP Server on Next.js, Nuxt, Svelte, and more
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +74,7 @@ sources:
 | Latest release | v2.1.1 (2026-08-13) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.npmjs.com/package/mcp-handler |
+| Homepage | [https://www.npmjs.com/package/mcp-handler](https://www.npmjs.com/package/mcp-handler) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

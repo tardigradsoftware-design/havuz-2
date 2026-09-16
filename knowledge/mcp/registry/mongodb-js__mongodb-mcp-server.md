@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "A Model Context Protocol server to connect to MongoDB
   databases and MongoDB Atlas Clusters."
 category: database
+category_evidence: topics-or-slug
+category_signals: ["database", "mongodb"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: true
 maintainer: mongodb-js
 repository: mongodb-js/mongodb-mcp-server
 url: https://github.com/mongodb-js/mongodb-mcp-server
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.05
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["mcp", "mcp-server", "mongodb", "mongodb-atlas", "mongodb-database"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `mongodb-js/mongodb-mcp-server` — As stated by the repository itself: "A Model Context Protocol server to connect to
 MongoDB databases and MongoDB Atlas Clusters."
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

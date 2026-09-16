@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: anthropics
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
 
 ## Facts (verified 2026-09-15 via the GitHub API)

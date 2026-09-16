@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: biomejs
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @biomejs/biome@2.5.13 (2026-09-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://biomejs.dev |
+| Homepage | [https://biomejs.dev](https://biomejs.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

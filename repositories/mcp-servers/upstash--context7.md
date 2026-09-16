@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: upstash
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @upstash/context7-mcp@4.1.1 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://context7.com |
+| Homepage | [https://context7.com](https://context7.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

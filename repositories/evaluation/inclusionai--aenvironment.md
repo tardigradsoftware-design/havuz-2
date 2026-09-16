@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: inclusionAI
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **B** · published-artifact · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Standardized environment infrastructure for Agentic AI development.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.1.7 (2026-05-21) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://inclusionai.github.io/AEnvironment/ |
+| Homepage | [https://inclusionai.github.io/AEnvironment/](https://inclusionai.github.io/AEnvironment/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

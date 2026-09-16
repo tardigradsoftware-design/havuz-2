@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: mermaid-js
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @mermaid-js/tiny@12.0.0 (2026-09-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://mermaid.ai/open-source/ |
+| Homepage | [https://mermaid.ai/open-source/](https://mermaid.ai/open-source/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

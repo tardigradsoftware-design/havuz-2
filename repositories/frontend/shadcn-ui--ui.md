@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: shadcn-ui
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | shadcn@4.21.0 (2026-09-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://ui.shadcn.com |
+| Homepage | [https://ui.shadcn.com](https://ui.shadcn.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

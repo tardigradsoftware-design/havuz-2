@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: withastro
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The web framework for content-driven websites. ⭐️ Star to support our work!
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +75,7 @@ sources:
 | Latest release | astro@7.3.2 (2026-09-08) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://astro.build |
+| Homepage | [https://astro.build](https://astro.build) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

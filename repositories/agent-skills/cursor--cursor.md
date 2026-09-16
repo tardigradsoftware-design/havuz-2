@@ -3,7 +3,7 @@ id: cursor--cursor
 title: "cursor/cursor"
 domain: agent-skills
 summary: >-
-  cursor/cursor — MAINTENANCE, tier UNVERIFIED,
+  cursor/cursor — MAINTENANCE, tier NO-LICENSE,
   33,244 stars, license NONE, quality 5.71/10, trust 3.26/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 5.5, "maintenance": 5.5, "adoption": 10.0, "documentation": 4.05, "reproducibility": 2.5, "security": 4.0, "recency": 8.27, "evidence": 4.0}
   quality_score: 5.71
   trust_score: 3.26
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: cursor
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,14 @@ sources:
 
 # cursor/cursor
 
-🟡 MAINTENANCE · tier **UNVERIFIED** · maintenance-mode · confidence **low**
+🟡 MAINTENANCE · tier **NO-LICENSE** · maintenance-mode · confidence **low**
 
 > _No description published._
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +72,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://cursor.com |
+| Homepage | [https://cursor.com](https://cursor.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

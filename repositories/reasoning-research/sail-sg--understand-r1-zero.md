@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: sail-sg
     license: MIT
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Understanding R1-Zero-Like Training: A Critical Perspective
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/pdf/2503.20783 |
+| Homepage | [https://arxiv.org/pdf/2503.20783](https://arxiv.org/pdf/2503.20783) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `research-artifact` (static artifact — quiet history is expected) |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: microsoft
     license: CC-BY-4.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **A** · maintenance-mode · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A programming framework for agentic AI
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | python-v0.7.5 (2025-09-30) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://microsoft.github.io/autogen/ |
+| Homepage | [https://microsoft.github.io/autogen/](https://microsoft.github.io/autogen/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

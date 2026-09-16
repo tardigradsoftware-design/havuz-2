@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: noahshinn
     license: MIT
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **low**
 
-> [NeurIPS 2023] Reflexion: Language Agents with Verbal Reinforcement Learning
+> _Upstream description, quoted as published and not verified here:_
+>
+> \[NeurIPS 2023\] Reflexion: Language Agents with Verbal Reinforcement Learning
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

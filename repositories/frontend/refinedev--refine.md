@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: refinedev
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @refinedev/core@5.0.12 (2026-04-02) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://refine.dev |
+| Homepage | [https://refine.dev](https://refine.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

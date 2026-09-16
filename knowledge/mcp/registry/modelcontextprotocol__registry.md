@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "A community driven registry service for Model Context
   Protocol (MCP) servers."
 category: other
+category_evidence: no-signal-matched
+category_signals: []
+registry_kind: registry
+registry_kind_evidence: >-
+  description says "registry"
 distribution: source
 official: true
 maintainer: modelcontextprotocol
 repository: modelcontextprotocol/registry
 url: https://github.com/modelcontextprotocol/registry
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 8.62
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 5
+language: Go
 tags: ["mcp", "mcp-servers", "registry"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `modelcontextprotocol/registry` — As stated by the repository itself: "A community driven registry service for Model
 Context Protocol (MCP) servers."
+
+**Registry kind: `registry`.** **This is a registry, not an entry.** It is a peer of this one. Recorded so that it is not mistaken for a server, and so that its existence is not rediscovered as though it were news. Evidence: description says "registry".
 
 ## What is verified
 

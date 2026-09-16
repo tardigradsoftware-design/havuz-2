@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: steipete
     license: MIT
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Rules and Knowledge to work better with agents such as Claude Code or Cursor
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | https://steipete.me |
+| Homepage | [https://steipete.me](https://steipete.me) |
 | SECURITY.md | no → `archived-no-patches` |
 | Repository kind | `docs` |
 

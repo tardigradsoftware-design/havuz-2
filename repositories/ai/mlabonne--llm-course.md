@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: mlabonne
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://mlabonne.github.io/blog/ |
+| Homepage | [https://mlabonne.github.io/blog/](https://mlabonne.github.io/blog/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `docs` |
 

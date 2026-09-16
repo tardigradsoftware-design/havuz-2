@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: supabase
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Connect Supabase to your AI assistants
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | mcp-server-supabase-v0.12.0 (2026-09-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://supabase.com/mcp |
+| Homepage | [https://supabase.com/mcp](https://supabase.com/mcp) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

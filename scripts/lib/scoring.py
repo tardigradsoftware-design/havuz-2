@@ -380,8 +380,11 @@ def score_repository(repo: Dict[str, Any], tree: Dict[str, Any], meta: Dict[str,
         "quality_score": round(total, 2),
         "trust_score": round(_trust(components, archived=archived, official=official,
                                     license_id=license_id, has_license_file=has_license_file), 2),
+        # fetch_ok travels in `meta` because the tier must be able to say "we could not
+        # verify this" separately from "we verified it and it has no license".
         "tier": tier_for(total, archived=archived, license_ok=has_license_file,
-                         nonstandard=license_nonstandard),
+                         nonstandard=license_nonstandard,
+                         fetch_ok=bool(meta.get("fetch_ok", True))),
         "signals": {
             "official": official,
             "archived": archived,
@@ -428,16 +431,37 @@ def _trust(c: Dict[str, float], *, archived: bool, official: bool, license_id: s
 
 
 def tier_for(score: float, *, archived: bool = False, license_ok: bool = True,
-             nonstandard: bool = False) -> str:
-    """S / A / B / C / EXPERIMENTAL / ARCHIVED / UNVERIFIED (no license at all).
+             nonstandard: bool = False, fetch_ok: bool = True) -> str:
+    """S / A / B / C / EXPERIMENTAL / ARCHIVED / NO-LICENSE / UNVERIFIED.
+
+    Two of these are frequently confused and mean unrelated things, so they are kept
+    strictly apart:
+
+      * `UNVERIFIED` is about **epistemic status** — the record could not be checked
+        against its source (the GitHub fetch failed, the repository 404'd). Nothing
+        else asserted about such a record is trustworthy, which is why this is tested
+        first: it overrides even `ARCHIVED`, since a flag we could not fetch is a flag
+        we are only repeating from stale data.
+      * `NO-LICENSE` is about **legal status** — the metadata was verified perfectly
+        well, and what verification found is that no license is published. The record
+        is reliable; redistributing it is not.
+
+    An earlier revision returned `UNVERIFIED` for the license case, so all 15 records
+    in that tier carried `fetch_ok: true` while being labelled as though their metadata
+    were untrustworthy — and the signal that actually mattered, do-not-redistribute, was
+    carried in a separate field the tier name obscured. `knowledge/ai-engineering/
+    source-scoring.md` had already defined `UNVERIFIED` as "could not be verified" and
+    mapped only "unresolvable / 404" to it; the code disagreed with the documentation.
 
     A custom (NOASSERTION) license caps the tier at A: the project may be
     excellent, but its redistribution terms need a human read before vendoring.
     """
+    if not fetch_ok:
+        return "UNVERIFIED"
     if archived:
         return "ARCHIVED"
     if not license_ok:
-        return "UNVERIFIED"
+        return "NO-LICENSE"
     if score >= 8.0 and not nonstandard:
         return "S"
     if score >= 7.0 or (score >= 8.0 and nonstandard):

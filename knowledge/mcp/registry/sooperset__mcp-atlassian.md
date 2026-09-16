@@ -4,13 +4,23 @@ name: mcp-atlassian
 purpose: >-
   As stated by the repository itself: "MCP server for Atlassian tools (Confluence, Jira)"
 category: communication
+category_evidence: topics-or-slug
+category_signals: ["atlassian", "confluence", "jira"]
+registry_kind: server
+registry_kind_evidence: >-
+  description says "MCP server"
 distribution: source
 official: true
 maintainer: sooperset
 repository: sooperset/mcp-atlassian
 url: https://github.com/sooperset/mcp-atlassian
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.54
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: Python
 tags: ["atlassian", "confluence", "jira", "mcp"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # mcp-atlassian
 
 `sooperset/mcp-atlassian` — As stated by the repository itself: "MCP server for Atlassian tools (Confluence, Jira)"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: description says "MCP server".
 
 ## What is verified
 

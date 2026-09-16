@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: duckdb
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > DuckDB is an analytical in-process SQL database management system
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.5.5 (2026-07-22) |
 | Archived | no |
 | Fork | no |
-| Homepage | http://www.duckdb.org |
+| Homepage | [http://www.duckdb.org](http://www.duckdb.org) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

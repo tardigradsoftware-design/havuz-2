@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: PRIME-RL
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **medium**
 
-> [NeurIPS 2025] TTRL: Test-Time Reinforcement Learning
+> _Upstream description, quoted as published and not verified here:_
+>
+> \[NeurIPS 2025\] TTRL: Test-Time Reinforcement Learning
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | verl (2025-07-11) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/abs/2504.16084 |
+| Homepage | [https://arxiv.org/abs/2504.16084](https://arxiv.org/abs/2504.16084) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `research-artifact` (static artifact — quiet history is expected) |
 

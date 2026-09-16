@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: dequelabs
     license: MPL-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Accessibility engine for automated Web UI testing
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v4.13.0 (2026-08-05) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.deque.com/axe/ |
+| Homepage | [https://www.deque.com/axe/](https://www.deque.com/axe/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

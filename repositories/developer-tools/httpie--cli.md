@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: httpie
     license: BSD-3-Clause
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔴 ABANDONED · tier **B** · end-of-life · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 3.2.4 (2024-11-01) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://httpie.io |
+| Homepage | [https://httpie.io](https://httpie.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

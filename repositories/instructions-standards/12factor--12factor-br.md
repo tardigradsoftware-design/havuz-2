@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: 12factor
     license: MIT
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -66,7 +67,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | yes |
-| Homepage | http://www.12factor.net/ |
+| Homepage | [http://www.12factor.net/](http://www.12factor.net/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

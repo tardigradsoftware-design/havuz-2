@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: ysymyth
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **medium**
 
-> [ICLR 2023] ReAct: Synergizing Reasoning and Acting in Language Models
+> _Upstream description, quoted as published and not verified here:_
+>
+> \[ICLR 2023\] ReAct: Synergizing Reasoning and Acting in Language Models
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 

@@ -3,7 +3,7 @@ id: os-agent-survey--os-agent-survey
 title: "OS-Agent-Survey/OS-Agent-Survey"
 domain: reasoning-research
 summary: >-
-  OS-Agent-Survey/OS-Agent-Survey — ABANDONED, tier UNVERIFIED,
+  OS-Agent-Survey/OS-Agent-Survey — ABANDONED, tier NO-LICENSE,
   487 stars, license NONE, quality 4.06/10, trust 1.88/10.
   Verified against the GitHub API on 2026-09-15.
 status: deprecated
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 5.0, "maintenance": 1.0, "adoption": 8.99, "documentation": 7.5, "reproducibility": 1.0, "security": 0.5, "recency": 4.59, "evidence": 2.0}
   quality_score: 4.06
   trust_score: 1.88
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: OS-Agent-Survey
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # OS-Agent-Survey/OS-Agent-Survey
 
-🔴 ABANDONED · tier **UNVERIFIED** · end-of-life · confidence **low**
+🔴 ABANDONED · tier **NO-LICENSE** · end-of-life · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > This is the repo for the paper "OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use" (ACL 2025 Oral).
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +74,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/abs/2508.04482 |
+| Homepage | [https://arxiv.org/abs/2508.04482](https://arxiv.org/abs/2508.04482) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `catalog` |
 

@@ -4,14 +4,24 @@ name: typescript-sdk
 purpose: >-
   As stated by the repository itself: "The official TypeScript SDK for Model Context Protocol
   servers and clients"
-category: ci-cd
+category: other
+category_evidence: no-signal-matched
+category_signals: []
+registry_kind: sdk
+registry_kind_evidence: >-
+  description says "SDK"
 distribution: source
 official: true
 maintainer: modelcontextprotocol
 repository: modelcontextprotocol/typescript-sdk
 url: https://github.com/modelcontextprotocol/typescript-sdk
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 8.78
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["mcp", "mcp-client", "mcp-server", "sdk", "typescript"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `modelcontextprotocol/typescript-sdk` — As stated by the repository itself: "The official TypeScript SDK for Model Context
 Protocol servers and clients"
+
+**Registry kind: `sdk`.** **This is not a server you can connect to.** It is a library for *building* one. Installing it as an MCP server will not work; it is recorded here so that somebody about to write a server finds it instead of writing their own. Evidence: description says "SDK".
 
 ## What is verified
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: mlflow
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.16.0 (2026-09-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://mlflow.org |
+| Homepage | [https://mlflow.org](https://mlflow.org) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

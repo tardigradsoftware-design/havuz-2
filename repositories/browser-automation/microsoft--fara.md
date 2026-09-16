@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: microsoft
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · published-artifact · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Fara1.5 – A family of frontier computer use agent models
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/ |
+| Homepage | [https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/](https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `model-release` (static artifact — quiet history is expected) |
 

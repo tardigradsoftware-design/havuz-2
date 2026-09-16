@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: cathrynlavery
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://cathrynlavery.github.io/diagram-design/ |
+| Homepage | [https://cathrynlavery.github.io/diagram-design/](https://cathrynlavery.github.io/diagram-design/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

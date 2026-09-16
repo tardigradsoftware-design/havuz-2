@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: expressjs
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Fast, unopinionated, minimalist web framework for node.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v5.2.1 (2025-12-01) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://expressjs.com |
+| Homepage | [https://expressjs.com](https://expressjs.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: trycua
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | npm-fleet-v0.1.2 (2026-09-11) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://cua.ai |
+| Homepage | [https://cua.ai](https://cua.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

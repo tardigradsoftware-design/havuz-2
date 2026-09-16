@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: tavily-ai
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-ready · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Production ready MCP server with real-time search, extract, map & crawl.
 
 ## Facts (verified 2026-09-15 via the GitHub API)

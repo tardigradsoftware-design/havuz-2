@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: unslothai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.1.808-beta (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://unsloth.ai/docs |
+| Homepage | [https://unsloth.ai/docs](https://unsloth.ai/docs) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

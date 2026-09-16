@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: openai
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A lightweight, powerful framework for multi-agent workflows
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.22.2 (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://openai.github.io/openai-agents-python/ |
+| Homepage | [https://openai.github.io/openai-agents-python/](https://openai.github.io/openai-agents-python/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

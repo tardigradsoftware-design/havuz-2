@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: vibrantlabsai
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **A** · maintenance-mode · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Supercharge Your LLM Application Evaluations 🚀
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.4.3 (2026-01-13) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.ragas.io |
+| Homepage | [https://docs.ragas.io](https://docs.ragas.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

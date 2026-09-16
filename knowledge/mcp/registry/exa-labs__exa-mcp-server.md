@@ -3,14 +3,24 @@ id: mcp-exa-labs-exa-mcp-server
 name: exa-mcp-server
 purpose: >-
   As stated by the repository itself: "Exa MCP for web search and web crawling!"
-category: browser
+category: search
+category_evidence: topics-or-slug
+category_signals: ["exa", "search"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: true
 maintainer: exa-labs
 repository: exa-labs/exa-mcp-server
 url: https://github.com/exa-labs/exa-mcp-server
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.03
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 25
+language: TypeScript
 tags: ["code-search", "codesearch", "crawling", "mcp", "mcp-server", "model-context-protocol", "search", "web-search", "websearch"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # exa-mcp-server
 
 `exa-labs/exa-mcp-server` — As stated by the repository itself: "Exa MCP for web search and web crawling!"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

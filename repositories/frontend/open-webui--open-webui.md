@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: open-webui
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +75,7 @@ sources:
 | Latest release | v0.11.3 (2026-08-31) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://openwebui.com |
+| Homepage | [https://openwebui.com](https://openwebui.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

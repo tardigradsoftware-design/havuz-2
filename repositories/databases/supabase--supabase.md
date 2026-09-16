@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: supabase
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.26.08 (2026-08-07) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://supabase.com |
+| Homepage | [https://supabase.com](https://supabase.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -1,0 +1,72 @@
+{
+  "$schema": "../schemas/excluded-source.schema.json",
+  "_comment": [
+    "AUTHORED POLICY DATA — not a generated artifact.",
+    "Nothing in scripts/ writes this file. It records decisions a human made, and it is",
+    "the input that makes those decisions enforceable: validate_policy.py and",
+    "fetch_github_metadata.py both read it. Do not regenerate it, do not prune it to make",
+    "a build pass, and do not add an entry without recording who decided and when.",
+    "",
+    "The reasoning behind each entry lives in",
+    "knowledge/security/llm-security/excluded-sources.md. This file is the machine-readable",
+    "form of the same decision, so that the policy fails a build instead of depending on",
+    "every future contributor remembering it."
+  ],
+  "policy_version": "1.0.0",
+  "decided_by": "repository maintainer",
+  "exclusions": [
+    {
+      "slug": "asgeirtj/system_prompts_leaks",
+      "kind": "repository",
+      "category": "leaked-system-prompts",
+      "reason": "System prompts of commercial AI products, collected without the operators' consent.",
+      "decision": "excluded",
+      "decided_on": "2026-09-15",
+      "observed_stars": 67122,
+      "observed_on": "2026-09-15",
+      "prohibits": [
+        "ingesting into seeds.json or metadata/repositories.json",
+        "linking as an instruction source",
+        "summarising in a form usable as a prompt",
+        "citing in any artifact's sources block"
+      ],
+      "permitted_mentions": [
+        "knowledge/security/llm-security/excluded-sources.md",
+        "metadata/excluded-sources.json",
+        "any passage that states the exclusion, including this repository's own review and changelog"
+      ],
+      "documented_in": "knowledge/security/llm-security/excluded-sources.md"
+    },
+    {
+      "slug": "elder-plinius/CL4R1T4S",
+      "kind": "repository",
+      "category": "leaked-system-prompts",
+      "reason": "Extracted system prompts and jailbreak transcripts targeting commercial assistants.",
+      "decision": "excluded",
+      "decided_on": "2026-09-15",
+      "observed_stars": 49875,
+      "observed_on": "2026-09-15",
+      "prohibits": [
+        "ingesting into seeds.json or metadata/repositories.json",
+        "linking as an instruction source",
+        "summarising in a form usable as a prompt",
+        "citing in any artifact's sources block"
+      ],
+      "permitted_mentions": [
+        "knowledge/security/llm-security/excluded-sources.md",
+        "metadata/excluded-sources.json",
+        "any passage that states the exclusion, including this repository's own review and changelog"
+      ],
+      "documented_in": "knowledge/security/llm-security/excluded-sources.md"
+    }
+  ],
+  "content_patterns": [
+    {
+      "id": "leaked-prompt-collection-identifier",
+      "pattern": "(?i)\\bsystem[-_]prompts[-_]leaks?\\b|\\bleaked[-_]system[-_]prompts?\\b|\\bCL4R1T4S\\b",
+      "reason": "Identifiers of the known leaked-prompt collections — repository names and the filename stems they publish. Matching an identifier rather than the English phrase is deliberate: the separator is required, so `system_prompts_leaks` and `CL4R1T4S` match while ordinary prose about \"leaked system prompts\" does not. A pattern that fired on the phrase would flag the exclusion policy's own summary wherever it is indexed, and a check that objects to the document forbidding the thing gets switched off.",
+      "requires_nearby_exclusion_wording": true
+    }
+  ],
+  "star_count_note": "observed_stars values are snapshots recorded on observed_on, not durable facts. They are stored deliberately: the point is to make the tradeoff explicit, so that a future reader who notices these are among the most-starred repositories in their category can see the omission was a decision made with full knowledge of their popularity, not an oversight."
+}

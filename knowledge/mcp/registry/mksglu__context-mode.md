@@ -6,13 +6,23 @@ purpose: >-
   tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms
   via MCP + hooks."
 category: filesystem
+category_evidence: description-fallback
+category_signals: ["memory"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: false
 maintainer: mksglu
 repository: mksglu/context-mode
 url: https://github.com/mksglu/context-mode
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -28,8 +38,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.81
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["antigravity", "claude", "claude-code", "claude-code-hooks", "claude-code-plugins", "claude-code-skill", "codex", "codex-cli", "context", "context-mode", "copilot", "cursor-plugin", "kiro", "mcp", "mcp-server", "mcp-tools", "openclaw", "opencode", "pi-agent", "skills", "tokens", "zed-extension"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -53,6 +67,8 @@ sources:
 `mksglu/context-mode` — As stated by the repository itself: "Context window optimization for AI coding agents.
 Sandboxes tool output (98% reduction), persists session memory, and   enforces routing
 across 17 platforms via MCP + hooks."
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

@@ -263,10 +263,39 @@ def collect_prose_paths() -> Tuple[List[str], List[str]]:
             if not (ROOT / tok).exists():
                 errs.append(f"{rel}: names the path '{tok}' which does not exist — "
                             f"either create it or stop asserting it")
+    errs.extend(_skill_test_cases_exist())
+
     if checked:
         print(f"Prose paths: {checked} repository paths named in "
               f"{', '.join(PROSE_DOCS)} checked")
     return errs, warns
+
+
+def _skill_test_cases_exist() -> List[str]:
+    """Enforce the README's claim that every skill has generated test cases.
+
+    Naming the path as `skills/<skill>/tests/cases.md` describes a convention, and the
+    prose-path check deliberately does not treat a placeholder segment as a claim about a
+    location — so the convention would otherwise be asserted with nothing holding it up.
+    Checking it here is stronger than the prose check was: the sentence promises *every*
+    skill has cases, and this fails if any single skill directory is missing them.
+    """
+    errs: List[str] = []
+    skills = ROOT / "skills"
+    if not skills.is_dir():
+        return errs
+    dirs = sorted(q for q in skills.iterdir() if q.is_dir() and not q.name.startswith("."))
+    missing = [q.name for q in dirs if not (q / "tests" / "cases.md").is_file()]
+    if missing:
+        errs.append(
+            f"README.md claims every skill has tests/cases.md, but {len(missing)} of "
+            f"{len(dirs)} skill directories are missing it: {', '.join(missing[:8])}"
+            + ("…" if len(missing) > 8 else "")
+            + " — run `python scripts/generate-index/generate_skill_tests.py`"
+        )
+    elif dirs:
+        print(f"Skill test cases: all {len(dirs)} skill directories have tests/cases.md")
+    return errs
 
 
 def main() -> int:

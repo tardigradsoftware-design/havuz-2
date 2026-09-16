@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: cloudflare
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15

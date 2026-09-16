@@ -4,14 +4,24 @@ name: mcp
 purpose: >-
   As stated by the repository itself: "Catalog of official Microsoft MCP (Model Context Protocol)
   server implementations for AI-powered data access and tool integration"
-category: ci-cd
+category: other
+category_evidence: no-signal-matched
+category_signals: []
+registry_kind: catalog
+registry_kind_evidence: >-
+  description says "Catalog"
 distribution: source
 official: true
 maintainer: microsoft
 repository: microsoft/mcp
 url: https://github.com/microsoft/mcp
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: low
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.4
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: C#
 tags: ["catalog", "mcp", "microsoft"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `microsoft/mcp` — As stated by the repository itself: "Catalog of official Microsoft MCP (Model Context
 Protocol) server implementations for AI-powered data access and tool integration"
+
+**Registry kind: `catalog`.** **This is a curated list of other servers, not a server.** Consult it to find candidates; do not install it. Recorded here because a catalog with a high star count looks exactly like a popular server in a filtered list. Evidence: description says "Catalog".
 
 ## What is verified
 

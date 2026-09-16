@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: ifixai-ai
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.4.1 (2026-08-24) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.ifixai.ai |
+| Homepage | [https://www.ifixai.ai](https://www.ifixai.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

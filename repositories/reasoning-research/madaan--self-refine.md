@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: madaan
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > LLMs can generate feedback on their work, use it to improve the output, and repeat this process iteratively.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://selfrefine.info |
+| Homepage | [https://selfrefine.info](https://selfrefine.info) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `research-artifact` (static artifact — quiet history is expected) |
 

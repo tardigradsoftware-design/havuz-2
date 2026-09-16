@@ -29,6 +29,15 @@ from typing import Any, Dict, List, Optional
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
 from lib import frontmatter as fm  # noqa: E402
+from lib.sanitize import untrusted, untrusted_list  # noqa: E402
+
+# Entry kinds whose title, summary and tags originate outside this repository — a repository
+# `description`, its `topics`, or an MCP `purpose` built from that description. Everything else
+# in the index is authored here, and escaping authored text would change content that is
+# already correct: 11 workflow summaries differ under `untrusted()` and none of them is a
+# security problem. `metadata/repositories.json` keeps the raw upstream string; the index is a
+# retrieval artifact rendered into indexes/*.md, so it carries the safe form.
+UPSTREAM_KINDS = frozenset({"repository", "mcp"})
 
 NOW = datetime.now(timezone.utc).isoformat(timespec="seconds")
 TODAY = date.today()
@@ -95,8 +104,8 @@ def build_entries() -> List[Dict[str, Any]]:
     for t in load("tools.json"):
         sec = t.get("security") or {}
         out.append(entry(id=t.get("id"), title=t.get("name"), path=t.get("_path"), kind="mcp",
-                         category=t.get("category"), summary=(t.get("purpose") or "")[:600],
-                         tags=t.get("tags") or [], status=t.get("status"), tier=t.get("tier"),
+                         category=t.get("category"), summary=untrusted(t.get("purpose"))[:600],
+                         tags=untrusted_list(t.get("tags")), status=t.get("status"), tier=t.get("tier"),
                          confidence=t.get("confidence"), updated_at=t.get("verified_at"),
                          verified_at=t.get("verified_at"), expires_at=t.get("expires_at"),
                          license=t.get("license"),
@@ -106,11 +115,13 @@ def build_entries() -> List[Dict[str, Any]]:
     for r in load("repositories.json"):
         if not r.get("fetch_ok", True):
             continue
-        out.append(entry(id=r.get("slug"), title=r.get("name"),
+        out.append(entry(id=r.get("slug"), title=untrusted(r.get("name")),
                          path=f"repositories/{r.get('category')}/{r['slug'].replace('/', '--').lower()}.md",
                          kind="repository", domain=r.get("category"), category=r.get("category"),
-                         summary=(r.get("description") or "")[:500],
-                         tags=sorted(set((r.get("curated_tags") or []) + (r.get("topics") or [])[:6])),
+                         summary=untrusted(r.get("description"))[:500],
+                         # curated_tags are chosen here; topics are set by the repository owner
+                         tags=sorted(set((r.get("curated_tags") or [])
+                                         + untrusted_list((r.get("topics") or [])[:6]))),
                          status=r.get("status"), tier=r.get("tier"), confidence=r.get("confidence"),
                          quality_score=r.get("quality_score"), trust_score=r.get("trust_score"),
                          stars=r.get("stars"), license=r.get("license"),
@@ -284,22 +295,56 @@ def main() -> int:
           md_table(rows, ["Project", "Stars", "Tier", "Status", "Quality", "License"]))
 
     # ---------------- mcp / tools ----------------
+    # The registry was seeded from the seed-list category `mcp-servers`, which is not a
+    # verified property of a repository, so not every entry is a server. Splitting on
+    # `registry_kind` is what stops the index from telling an agent to install an SDK, a
+    # testing tool or a curated catalog when it asked for a server. Non-servers stay
+    # listed — an SDK and an inspector are genuinely useful to record, they are just not
+    # servers, and hiding them would send the next reader to rediscover them.
     mcp = by_kind["mcp"]
     tools_meta = {t.get("id"): t for t in load("tools.json")}
-    rows = []
-    for t in sorted(mcp, key=lambda x: (x.get("category") or "", str(x.get("id")))):
+
+    def mcp_row(t) -> List[str]:
         meta = tools_meta.get(t["id"], {})
         perm = meta.get("permissions") or {}
         sec = meta.get("security") or {}
-        rows.append([link(t["id"], t["path"]), t.get("category") or "—",
-                     "official" if meta.get("official") else "community",
-                     sec.get("risk_level") or "—",
-                     perm.get("filesystem") or "—", perm.get("network") or "—",
-                     perm.get("code_execution") or "—", t.get("status") or "—"])
+        return [link(t["id"], t["path"]), t.get("category") or "—",
+                "official" if meta.get("official") else "community",
+                sec.get("risk_level") or "—",
+                perm.get("filesystem") or "—", perm.get("network") or "—",
+                perm.get("code_execution") or "—", t.get("status") or "—"]
+
+    ordered = sorted(mcp, key=lambda x: (x.get("category") or "", str(x.get("id"))))
+    servers = [t for t in ordered if tools_meta.get(t["id"], {}).get("registry_kind") == "server"]
+    KIND_HEADINGS = [
+        ("sdk", "SDKs — for building a server, not for connecting to one"),
+        ("tooling", "Testing and debugging tools"),
+        ("registry", "Registry services — a peer of this registry, not an entry in it"),
+        ("catalog", "Catalogs — curated lists of other servers"),
+        ("unproven", "Not established as servers — nothing observed says what they are"),
+    ]
+    blocks = [md_table([mcp_row(t) for t in servers],
+                       ["Server", "Category", "Provenance", "Risk", "FS", "Network", "Exec", "Status"])]
+    for kind, heading in KIND_HEADINGS:
+        group = [t for t in ordered if tools_meta.get(t["id"], {}).get("registry_kind") == kind]
+        if not group:
+            continue
+        blocks.append(f"\n## {heading}\n")
+        blocks.append(md_table(
+            [[mcp_row(t)[0], mcp_row(t)[1], mcp_row(t)[2],
+              (tools_meta.get(t["id"], {}).get("registry_kind_evidence") or "—")]
+             for t in group],
+            ["Repository", "Category", "Provenance", "Why it is not counted as a server"]))
+
+    others = len(ordered) - len(servers)
     write("indexes/mcp.md", "MCP server index",
-          f"{len(rows)} MCP servers with their permission surface and risk level. "
+          f"**{len(servers)} MCP servers**, with their permission surface and risk level. "
+          f"The registry holds {len(ordered)} entries in total: the other {others} are SDKs, "
+          "testing tools, a registry service, catalogs and one repository whose own published "
+          "text does not establish that it is a server. They are listed separately below "
+          "rather than excluded, and rather than counted as servers. "
           "Read `knowledge/security/mcp-security/mcp-threat-model.md` before enabling any of them.",
-          md_table(rows, ["Server", "Category", "Provenance", "Risk", "FS", "Network", "Exec", "Status"]))
+          "\n".join(blocks))
     write("indexes/tools.md", "Tool index (MCP + CLI + services)",
           "MCP servers live in `indexes/mcp.md`; CLI and developer tooling is indexed below by category.",
           md_table([[link(r["id"], r["path"]), stars_fmt(r.get("stars")), r.get("tier") or "—",

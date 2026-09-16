@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: thedotmack
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v13.24.23 (2026-09-11) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://claude-mem.ai |
+| Homepage | [https://claude-mem.ai](https://claude-mem.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

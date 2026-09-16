@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: bigcode-project
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **medium**
 
-> [ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI
+> _Upstream description, quoted as published and not verified here:_
+>
+> \[ICLR'25\] BigCodeBench: Benchmarking Code Generation Towards AGI
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.2.4 (2025-03-02) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | https://bigcode-bench.github.io/ |
+| Homepage | [https://bigcode-bench.github.io/](https://bigcode-bench.github.io/) |
 | SECURITY.md | no → `archived-no-patches` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

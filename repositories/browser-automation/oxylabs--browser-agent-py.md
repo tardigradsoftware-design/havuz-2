@@ -3,7 +3,7 @@ id: oxylabs--browser-agent-py
 title: "oxylabs/browser-agent-py"
 domain: browser-automation
 summary: >-
-  oxylabs/browser-agent-py — MAINTENANCE, tier UNVERIFIED,
+  oxylabs/browser-agent-py — MAINTENANCE, tier NO-LICENSE,
   1,565 stars, license NONE, quality 5.12/10, trust 2.6/10.
   Verified against the GitHub API on 2026-09-15.
 status: active
@@ -19,7 +19,7 @@ scoring:
   components: {"authority": 6.0, "maintenance": 5.0, "adoption": 9.86, "documentation": 5.15, "reproducibility": 1.0, "security": 1.5, "recency": 7.73, "evidence": 1.5}
   quality_score: 5.12
   trust_score: 2.6
-  tier: UNVERIFIED
+  tier: NO-LICENSE
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
   scored_at: 2026-09-15
@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: oxylabs
     license: NONE
+    license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -45,9 +46,16 @@ sources:
 
 # oxylabs/browser-agent-py
 
-🟡 MAINTENANCE · tier **UNVERIFIED** · maintenance-mode · confidence **low**
+🟡 MAINTENANCE · tier **NO-LICENSE** · maintenance-mode · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > AI Browser Agent is an advanced Browser AI tool developed by Oxylabs AI Studio that automates real user browsing tasks using natural language instructions.
+
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +74,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://aistudio.oxylabs.io/apps/browser_agent?utm_source=877&utm_medium=affiliate&utm_campaign=ai_studio&utm_content=browser-agent-py&groupid=877&transaction_id=102f49063ab94276ae8f116d224b67 |
+| Homepage | [https://aistudio.oxylabs.io/apps/browser_agent?utm_source=877&utm_medium=affiliate&utm_campaign=ai_studio&utm_content=browser-agent-py&groupid=877&transaction_id=102f49063ab94276ae8f116d224b67](https://aistudio.oxylabs.io/apps/browser_agent?utm_source=877&utm_medium=affiliate&utm_campaign=ai_studio&utm_content=browser-agent-py&groupid=877&transaction_id=102f49063ab94276ae8f116d224b67) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

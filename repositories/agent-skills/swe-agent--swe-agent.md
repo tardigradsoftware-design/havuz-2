@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: SWE-agent
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🔵 STABLE · tier **S** · published-artifact · confidence **high**
 
-> SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]
+> _Upstream description, quoted as published and not verified here:_
+>
+> SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. \[NeurIPS 2024\]
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.1.0 (2025-05-22) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://swe-agent.com |
+| Homepage | [https://swe-agent.com](https://swe-agent.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `research-artifact` (static artifact — quiet history is expected) |
 

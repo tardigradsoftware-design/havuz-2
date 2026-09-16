@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: ossf
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > OpenSSF Scorecard - Security health metrics for Open Source
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v5.5.0 (2026-04-23) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://scorecard.dev |
+| Homepage | [https://scorecard.dev](https://scorecard.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

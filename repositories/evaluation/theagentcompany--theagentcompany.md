@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: TheAgentCompany
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **B** · published-artifact · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An agent benchmark with tasks in a simulated software company.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 1.0.0 (2024-12-20) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://the-agent-company.com |
+| Homepage | [https://the-agent-company.com](https://the-agent-company.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: artilleryio
     license: MPL-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any Node.js module.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | artillery-2.0.34 (2026-08-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.artillery.io |
+| Homepage | [https://www.artillery.io](https://www.artillery.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

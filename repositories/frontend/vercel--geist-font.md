@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: vercel
     license: OFL-1.1
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -66,7 +67,7 @@ sources:
 | Latest release | v1.7.2 (2026-06-01) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://vercel.com/font |
+| Homepage | [https://vercel.com/font](https://vercel.com/font) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

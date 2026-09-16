@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Arize-ai
     license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,15 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > AI Observability & Evaluation
+
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +75,7 @@ sources:
 | Latest release | arize-phoenix-v20.12.0 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arize.com/docs/phoenix |
+| Homepage | [https://arize.com/docs/phoenix](https://arize.com/docs/phoenix) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

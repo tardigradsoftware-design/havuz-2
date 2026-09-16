@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: anomalyco
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Build full-stack apps on your own infrastructure.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v4.17.1 (2026-07-12) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://sst.dev |
+| Homepage | [https://sst.dev](https://sst.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

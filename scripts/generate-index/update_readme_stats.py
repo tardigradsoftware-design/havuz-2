@@ -27,6 +27,23 @@ BEGIN = "<!-- KB:STATS:BEGIN -->"
 END = "<!-- KB:STATS:END -->"
 
 
+def tier_vocabulary() -> list:
+    """Every tier the schema permits, in the schema's own order.
+
+    Falls back to the score bands plus the status overrides if the schema cannot be read,
+    so a statistics refresh never crashes the build over a display detail.
+    """
+    try:
+        defs = json.loads((ROOT / "schemas" / "common.defs.json").read_text())
+        enum = defs["$defs"]["tier"]["enum"]
+        if enum:
+            return list(enum)
+    except Exception:
+        pass
+    return ["S", "A", "B", "C", "EXPERIMENTAL", "ARCHIVED", "NO-LICENSE", "UNVERIFIED",
+            "DEPRECATED"]
+
+
 def load_meta(name: str, key: str) -> List[Dict[str, Any]]:
     p = ROOT / "metadata" / name
     if not p.exists():
@@ -49,6 +66,11 @@ def count_md(pred) -> int:
 def build() -> str:
     repos = load_meta("repositories.json", "repositories")
     tools = load_meta("tools.json", "tools")
+    # Counted from `registry_kind`, which the registry generator derives from each
+    # repository's own observed text and records the evidence for. Records the classifier
+    # could not establish are excluded rather than assumed: `unproven` must not be counted
+    # as a server, because the count is what a reader uses to decide whether to keep looking.
+    mcp_servers = sum(1 for x in tools if x.get("registry_kind") == "server")
     skills = load_meta("skills.json", "skills")
     agents = load_meta("agents.json", "agents")
     workflows = load_meta("workflows.json", "workflows")
@@ -103,7 +125,14 @@ def build() -> str:
         f"| Failure knowledge (anti-patterns, failure modes, gotchas) | **{anti}** | [`anti-patterns/`](anti-patterns/) · [`failure-modes/`](failure-modes/) · [`gotchas/`](gotchas/) |",
         f"| Decision records | **{decisions}** | [`decision-records/`](decision-records/) |",
         f"| Verified GitHub repositories | **{len(repos)}** | [`indexes/repositories.md`](indexes/repositories.md) |",
-        f"| MCP servers | **{len(tools)}** | [`indexes/mcp.md`](indexes/mcp.md) |",
+        # `len(tools)` is the registry's entry count, not a count of MCP servers. The
+        # registry was seeded from the seed-list category `mcp-servers`, which is not a
+        # verified property of a repository, so entries include SDKs, a testing tool, a
+        # competing registry and curated catalogs. Printing the entry count as a server
+        # count overstated the registry's coverage by ~35% and told a reader that more was
+        # installable than was. Both numbers are shown, from the classified data.
+        f"| MCP servers | **{mcp_servers}** | [`indexes/mcp.md`](indexes/mcp.md) |",
+        f"| MCP registry entries (incl. {len(tools) - mcp_servers} that are not servers) | **{len(tools)}** | [`indexes/mcp.md`](indexes/mcp.md) |",
         f"| Research sources (incl. {len(papers)} verified papers) | **{len(sources)}** | [`indexes/research.md`](indexes/research.md) |",
         f"| Evaluations & benchmarks | **{len(evals_)}** | [`indexes/evaluations.md`](indexes/evaluations.md) |",
         f"| Model cards | **{len(models)}** | [`models/`](models/) |",
@@ -122,7 +151,12 @@ def build() -> str:
         "|---|---|---|---|---|",
     ]
     s_keys = ["ACTIVE", "STABLE", "MAINTENANCE", "EXPERIMENTAL", "ARCHIVED", "ABANDONED", "UNKNOWN"]
-    t_keys = ["S", "A", "B", "C", "EXPERIMENTAL", "ARCHIVED", "UNVERIFIED"]
+    # The tier vocabulary is read from the schema, not listed here. A hard-coded list is
+    # how this table came to show `UNVERIFIED` for records that had in fact been verified
+    # perfectly well and merely had no license: when the tier enum gained `NO-LICENSE`,
+    # a list maintained in two places would have kept printing the old label with an
+    # empty count beside it. Deriving it means the table cannot disagree with the schema.
+    t_keys = tier_vocabulary()
     for i in range(max(len(s_keys), len(t_keys))):
         a = s_keys[i] if i < len(s_keys) else ""
         b = status.get(a, "") if a else ""

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: sourcegraph
     license: Apache-2.0
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | vscode-v1.116.0 (2025-07-30) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | https://cody.dev |
+| Homepage | [https://cody.dev](https://cody.dev) |
 | SECURITY.md | no → `archived-no-patches` |
 | Repository kind | `software` |
 

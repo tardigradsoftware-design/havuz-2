@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: CelestoAI
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Secure and persistent computer for AI agents -- build your own Grokbot, and Muse.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.0.35 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.celesto.ai/smolvm |
+| Homepage | [https://docs.celesto.ai/smolvm](https://docs.celesto.ai/smolvm) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

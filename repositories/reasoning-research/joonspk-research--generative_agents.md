@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: joonspk-research
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Generative Agents: Interactive Simulacra of Human Behavior
 
 ## Facts (verified 2026-09-15 via the GitHub API)

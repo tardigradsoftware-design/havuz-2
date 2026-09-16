@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Leonxlnx
     license: MIT
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **B** · production-ready · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://tasteskill.dev |
+| Homepage | [https://tasteskill.dev](https://tasteskill.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

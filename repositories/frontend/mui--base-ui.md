@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: mui
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.8.0 (2026-09-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://base-ui.com |
+| Homepage | [https://base-ui.com](https://base-ui.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: koalaman
     license: GPL-3.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > ShellCheck, a static analysis tool for shell scripts
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.11.0 (2025-08-04) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.shellcheck.net |
+| Homepage | [https://www.shellcheck.net](https://www.shellcheck.net) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

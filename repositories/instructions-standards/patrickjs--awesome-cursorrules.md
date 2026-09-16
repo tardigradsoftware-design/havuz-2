@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: PatrickJS
     license: CC0-1.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://github.com/PatrickJS/awesome-cursorrules |
+| Homepage | [https://github.com/PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `catalog` |
 

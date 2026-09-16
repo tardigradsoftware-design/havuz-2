@@ -20,6 +20,10 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from lib.sanitize import injection_marks, untrusted, untrusted_url  # noqa: E402
+
 NOW = datetime.now(timezone.utc).isoformat(timespec="seconds")
 TODAY = datetime.now(timezone.utc).date().isoformat()
 
@@ -46,6 +50,25 @@ STATUS_BADGE = {
 }
 
 
+# Wording is deliberately about the consequence, not the score. "Low quality" invites an
+# agent to weigh it against other factors; "do not redistribute" does not.
+LICENSE_BANNERS = {
+    "no-license-do-not-redistribute": """
+> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
+> on {date}. Default copyright applies, so all rights are reserved: **reference and link only**.
+> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
+> useful it looks. A high star count does not create a license.
+""",
+    "custom-license-review-before-vendoring": """
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on {date}, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
+""",
+}
+
+
 def bullet(items: List[str]) -> str:
     return "\n".join(f"- {i}" for i in items) if items else "- _not curated yet_"
 
@@ -59,6 +82,50 @@ def card(r: Dict[str, Any]) -> str:
     srows = "\n".join(f"| {k.replace('_',' ').replace('has ','')} | {'yes' if v else 'no'} |"
                       for k, v in struct.items() if k != "readme_bytes")
     notes = r.get("notes") or "_No anomalies detected._"
+
+    # `description` and `homepage` are set by whoever owns the repository. They are recorded
+    # verbatim in metadata/repositories.json because that is the observed fact, and sanitised
+    # here because this is where they stop being data and start being rendering — in a document
+    # this repository publishes for agents to read as trusted guidance. See
+    # scripts/lib/sanitize.py.
+    desc_raw = r.get("description") or ""
+    safe_desc = untrusted(desc_raw) or "_No description published._"
+    safe_home = untrusted_url(r.get("homepage")) or "—"
+    # Framing the quote is not decoration. Without it the card reads as though this repository
+    # asserts the description, which is how a vendor's "the first and the best" came to be
+    # presented as content on a card ranked #1 in indexes/best-of.md.
+    desc_block = ("> _Upstream description, quoted as published and not verified here:_\n>\n"
+                  f"> {safe_desc}") if desc_raw else f"> {safe_desc}"
+
+    # Escaping makes the text inert as markdown. It does nothing about a description whose
+    # *content* is an instruction to whoever reads the card next, which is the more serious
+    # case: this repository is built to be ingested by agents as external memory. Such a
+    # record is quarantined rather than rendered — the fact that upstream published something
+    # is preserved, the text itself is not repeated.
+    inject = injection_marks(desc_raw) + injection_marks(r.get("homepage"))
+    for topic in (r.get("topics") or []):
+        inject += injection_marks(topic)
+    if inject:
+        marks = ", ".join(sorted(set(inject)))
+        desc_block = ("> ⛔ **UPSTREAM DESCRIPTION QUARANTINED.** The text this repository "
+                      f"returned matched injection patterns ({marks}) and is not reproduced "
+                      "here. The raw string remains in `metadata/repositories.json` as the "
+                      "observed fact, and `validate_policy.py` fails the build until the "
+                      "record is reviewed. Nothing in this card should be read as endorsing "
+                      "or repeating it.")
+
+    # The license policy has to reach the markdown, not just the data file. A record in
+    # repositories.json can carry `license_risk` and still leave the card a human or an agent
+    # actually reads saying only `license: NONE` — an observed fact that stops nobody from
+    # vendoring the content. So the risk is emitted twice: as a machine-checkable frontmatter
+    # field, and as a banner above the fold.
+    risk = r.get("license_risk") or "none"
+    license_banner = LICENSE_BANNERS.get(risk, "")
+    if license_banner:
+        license_banner = "\n".join(
+            ln.replace("{date}", str(r.get("verified_at") or "the last verification"))
+            for ln in license_banner.strip().splitlines()
+        ) + "\n\n"
     return f"""---
 id: {r['slug'].lower().replace('/', '--')}
 title: "{r['slug']}"
@@ -94,6 +161,7 @@ sources:
     type: github-repository
     organization: {r['owner']}
     license: {r['license']}
+    license_risk: {risk}
     confidence: {r['confidence']}
     claim_type: fact
     verified_at: {r['verified_at']}
@@ -108,9 +176,9 @@ sources:
 
 {STATUS_BADGE.get(r['status'], r['status'])} · tier **{r['tier']}** · {r['maturity']} · confidence **{r['confidence']}**
 
-> {r.get('description') or '_No description published._'}
+{desc_block}
 
-## Facts (verified {r['verified_at']} via the GitHub API)
+{license_banner}## Facts (verified {r['verified_at']} via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -127,7 +195,7 @@ sources:
 | Latest release | {r.get('latest_release') or '—'} ({str(r.get('latest_release_published_at'))[:10] if r.get('latest_release_published_at') else 'no release'}) |
 | Archived | {'**YES**' if r['archived'] else 'no'} |
 | Fork | {'yes' if r['is_fork'] else 'no'} |
-| Homepage | {r.get('homepage') or '—'} |
+| Homepage | {safe_home} |
 | SECURITY.md | {'yes' if struct.get('has_security_md') else 'no'} → `{r.get('security_status')}` |
 | Repository kind | `{r.get('repo_kind')}`{' (static artifact — quiet history is expected)' if r.get('static_artifact') else ''} |
 

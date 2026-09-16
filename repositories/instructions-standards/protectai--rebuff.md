@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: protectai
     license: Apache-2.0
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > LLM Prompt Injection Detector
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.1.1 (2024-01-20) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | https://playground.rebuff.ai |
+| Homepage | [https://playground.rebuff.ai](https://playground.rebuff.ai) |
 | SECURITY.md | no → `archived-no-patches` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: microsoft
     license: CC-BY-4.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A simple screen parsing tool towards pure vision based GUI agent
 
 ## Facts (verified 2026-09-15 via the GitHub API)

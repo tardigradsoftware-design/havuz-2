@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: stanford-crfm
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.5.16 (2026-04-30) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://crfm.stanford.edu/helm |
+| Homepage | [https://crfm.stanford.edu/helm](https://crfm.stanford.edu/helm) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

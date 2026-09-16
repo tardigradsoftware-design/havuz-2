@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: lint-staged
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🚫💩 — Run tasks like formatters and linters against staged git files
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v17.5.1 (2026-09-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.npmjs.com/package/lint-staged |
+| Homepage | [https://www.npmjs.com/package/lint-staged](https://www.npmjs.com/package/lint-staged) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

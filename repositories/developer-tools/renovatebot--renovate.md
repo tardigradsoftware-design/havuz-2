@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: renovatebot
     license: AGPL-3.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 44.93.1 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://mend.io/renovate |
+| Homepage | [https://mend.io/renovate](https://mend.io/renovate) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

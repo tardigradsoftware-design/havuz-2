@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Aider-AI
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > aider is AI pair programming in your terminal
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.86.0 (2025-08-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://aider.chat/ |
+| Homepage | [https://aider.chat/](https://aider.chat/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

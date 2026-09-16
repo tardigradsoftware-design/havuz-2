@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: cli
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > GitHub’s official command line tool
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.101.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://cli.github.com |
+| Homepage | [https://cli.github.com](https://cli.github.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: reg-viz
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > :recycle: Visual Regression Testing tool
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.14.6 (2026-03-16) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://reg-viz.github.io/reg-suit |
+| Homepage | [https://reg-viz.github.io/reg-suit](https://reg-viz.github.io/reg-suit) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: tailwindlabs
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A utility-first CSS framework for rapid UI development.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v4.3.3 (2026-07-16) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://tailwindcss.com/ |
+| Homepage | [https://tailwindcss.com/](https://tailwindcss.com/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

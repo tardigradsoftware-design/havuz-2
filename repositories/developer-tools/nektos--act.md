@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: nektos
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Run your GitHub Actions locally 🚀
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.2.89 (2026-06-01) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://nektosact.com |
+| Homepage | [https://nektosact.com](https://nektosact.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

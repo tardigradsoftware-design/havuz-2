@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: openfga
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.20.0 (2026-09-08) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://openfga.dev |
+| Homepage | [https://openfga.dev](https://openfga.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

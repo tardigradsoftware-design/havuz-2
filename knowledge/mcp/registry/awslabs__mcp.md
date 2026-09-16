@@ -4,13 +4,23 @@ name: mcp
 purpose: >-
   As stated by the repository itself: "Open source MCP Servers for AWS"
 category: cloud
+category_evidence: topics-or-slug
+category_signals: ["aws"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: true
 maintainer: awslabs
 repository: awslabs/mcp
 url: https://github.com/awslabs/mcp
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.65
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: Python
 tags: ["aws", "catalog", "mcp", "mcp-client", "mcp-clients", "mcp-host", "mcp-server", "mcp-servers", "mcp-tools", "modelcontextprotocol"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -49,6 +63,8 @@ sources:
 # mcp
 
 `awslabs/mcp` — As stated by the repository itself: "Open source MCP Servers for AWS"
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

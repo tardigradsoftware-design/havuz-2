@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: PySpur-Dev
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **B** · production-ready · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A visual playground for agentic workflows: Iterate over your agents 10x faster
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.1.18 (2025-03-25) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://pyspur.dev |
+| Homepage | [https://pyspur.dev](https://pyspur.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

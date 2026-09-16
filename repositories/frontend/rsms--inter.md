@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: rsms
     license: OFL-1.1
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔴 ABANDONED · tier **C** · end-of-life · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The Inter font family
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v4.1 (2024-11-16) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://rsms.me/inter/ |
+| Homepage | [https://rsms.me/inter/](https://rsms.me/inter/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

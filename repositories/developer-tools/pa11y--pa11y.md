@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: pa11y
     license: LGPL-3.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Pa11y is your automated accessibility testing pal
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 10.0.0 (2026-08-28) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://pa11y.org |
+| Homepage | [https://pa11y.org](https://pa11y.org) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

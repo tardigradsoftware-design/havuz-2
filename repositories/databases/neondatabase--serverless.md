@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: neondatabase
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Connect to Neon PostgreSQL from serverless/worker/edge functions
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.npmjs.com/package/@neondatabase/serverless |
+| Homepage | [https://www.npmjs.com/package/@neondatabase/serverless](https://www.npmjs.com/package/@neondatabase/serverless) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: tremorlabs
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Copy & Paste React components to build modern web applications.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://tremor.so |
+| Homepage | [https://tremor.so](https://tremor.so) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

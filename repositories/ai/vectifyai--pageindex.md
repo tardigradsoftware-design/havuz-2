@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: VectifyAI
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.2.17 (2026-09-13) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://pageindex.ai |
+| Homepage | [https://pageindex.ai](https://pageindex.ai) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

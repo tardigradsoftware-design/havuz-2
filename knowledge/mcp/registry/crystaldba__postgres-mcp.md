@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "Postgres MCP Pro provides configurable read/write access
   and performance analysis for you and your AI agents."
 category: database
+category_evidence: topics-or-slug
+category_signals: ["postgres"]
+registry_kind: server
+registry_kind_evidence: >-
+  slug "crystaldba/postgres-mcp" names the repository as MCP
 distribution: source
 official: true
 maintainer: crystaldba
 repository: crystaldba/postgres-mcp
 url: https://github.com/crystaldba/postgres-mcp
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: medium
   notes: >-
@@ -27,8 +37,12 @@ stars_checked_at: 2026-09-16
 tier: S
 quality_score: 8.24
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 29
+language: Python
 tags: ["dba", "mcp", "postgres"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -51,6 +65,8 @@ sources:
 
 `crystaldba/postgres-mcp` — As stated by the repository itself: "Postgres MCP Pro provides configurable read/write
 access and performance analysis for you and your AI agents."
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: slug "crystaldba/postgres-mcp" names the repository as MCP.
 
 ## What is verified
 

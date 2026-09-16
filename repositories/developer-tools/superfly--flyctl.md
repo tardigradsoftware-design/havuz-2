@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: superfly
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Command line tools for fly.io services
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.4.103 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://fly.io |
+| Homepage | [https://fly.io](https://fly.io) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

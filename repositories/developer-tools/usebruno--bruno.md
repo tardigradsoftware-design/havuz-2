@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: usebruno
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v4.1.0 (2026-08-20) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.usebruno.com/ |
+| Homepage | [https://www.usebruno.com/](https://www.usebruno.com/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

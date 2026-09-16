@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: run-llama
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > LlamaIndex is the document processing platform for AI
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.14.24 (2026-08-19) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://developers.llamaindex.ai |
+| Homepage | [https://developers.llamaindex.ai](https://developers.llamaindex.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

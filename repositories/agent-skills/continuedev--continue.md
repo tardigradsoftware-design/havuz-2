@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: continuedev
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > open-source coding agent
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.0.0-vscode (2026-06-19) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://continue.dev |
+| Homepage | [https://continue.dev](https://continue.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

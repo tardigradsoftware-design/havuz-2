@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: letta-ai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 0.16.8 (2026-05-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.letta.com/ |
+| Homepage | [https://docs.letta.com/](https://docs.letta.com/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

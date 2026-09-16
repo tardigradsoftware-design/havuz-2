@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: microsoft
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Integrate cutting-edge LLM technology quickly and easily into your apps
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | dotnet-1.80.1 (2026-09-03) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://aka.ms/semantic-kernel |
+| Homepage | [https://aka.ms/semantic-kernel](https://aka.ms/semantic-kernel) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

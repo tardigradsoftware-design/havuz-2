@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: addyosmani
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Production-grade engineering skills for AI coding agents.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 0.6.9 (2026-09-05) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://skills.addy.ie |
+| Homepage | [https://skills.addy.ie](https://skills.addy.ie) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

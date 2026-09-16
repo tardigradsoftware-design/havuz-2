@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: mlcommons
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **A** · published-artifact · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Croissant is a high-level format for machine learning datasets that brings together four rich layers.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.1.0 (2026-04-16) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://mlcommons.org/croissant |
+| Homepage | [https://mlcommons.org/croissant](https://mlcommons.org/croissant) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `dataset` (static artifact — quiet history is expected) |
 

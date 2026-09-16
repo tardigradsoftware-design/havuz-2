@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: nextlevelbuilder
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.15.0 (2026-08-13) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.uupm.cc/ |
+| Homepage | [https://www.uupm.cc/](https://www.uupm.cc/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

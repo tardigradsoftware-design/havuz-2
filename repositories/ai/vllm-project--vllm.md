@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: vllm-project
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A high-throughput and memory-efficient inference and serving engine for LLMs
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.29.0 (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://vllm.ai |
+| Homepage | [https://vllm.ai](https://vllm.ai) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

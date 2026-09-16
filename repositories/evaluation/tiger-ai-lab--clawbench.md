@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: TIGER-AI-Lab
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Open-source benchmark for browser AI agents on daily tasks.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.10.0 (2026-08-30) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://claw-bench.com |
+| Homepage | [https://claw-bench.com](https://claw-bench.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

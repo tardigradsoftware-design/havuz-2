@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: steel-dev
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.5.4-beta (2026-08-25) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://steel.dev |
+| Homepage | [https://steel.dev](https://steel.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

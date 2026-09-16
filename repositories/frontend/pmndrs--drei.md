@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: pmndrs
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🥉 useful helpers for react-three-fiber
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v10.7.8 (2026-08-05) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.pmnd.rs/drei |
+| Homepage | [https://docs.pmnd.rs/drei](https://docs.pmnd.rs/drei) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

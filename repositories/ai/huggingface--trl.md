@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: huggingface
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Train transformer language models with reinforcement learning.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.13.0 (2026-09-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | http://hf.co/docs/trl |
+| Homepage | [http://hf.co/docs/trl](http://hf.co/docs/trl) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

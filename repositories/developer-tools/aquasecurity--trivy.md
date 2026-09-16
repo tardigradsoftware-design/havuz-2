@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: aquasecurity
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.74.0 (2026-08-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://trivy.dev |
+| Homepage | [https://trivy.dev](https://trivy.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

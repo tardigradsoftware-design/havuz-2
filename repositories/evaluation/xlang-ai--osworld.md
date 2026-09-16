@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: xlang-ai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
-> [NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
+> _Upstream description, quoted as published and not verified here:_
+>
+> \[NeurIPS 2024\] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.1.16 (2024-06-26) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://os-world.github.io |
+| Homepage | [https://os-world.github.io](https://os-world.github.io) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

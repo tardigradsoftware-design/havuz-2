@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: SeleniumHQ
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A browser automation framework and ecosystem.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | selenium-4.49.0 (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://selenium.dev |
+| Homepage | [https://selenium.dev](https://selenium.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: mingrammer
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > :art: Diagram as Code for prototyping cloud system architectures
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.25.1 (2025-11-22) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://diagrams.mingrammer.com |
+| Homepage | [https://diagrams.mingrammer.com](https://diagrams.mingrammer.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

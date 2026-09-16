@@ -5,7 +5,7 @@
 **Review date:** 2026-09-16
 **Reviewer:** automated agent review, ordered per the requested sequence (SECURITY.md → scoring.py → CHANGELOG.md → skills → MCP registry → schemas/validation → README/AGENTS)
 **Scope note:** read-only review. No source file was modified to produce this report. The regeneration runs performed during the review were verified to leave the git tree unchanged (`git status --porcelain` → 0 entries), which is itself one of the findings below.
-**Fix commit:** `58dff2e` — C-1, C-2, C-3 and H-1 resolved. Each finding below now carries a **RESOLVED** block recording what changed and the measurement taken afterwards; the post-fix re-review is §14. The findings this report identified are unchanged as originally written, so the review remains readable as the state of `32720b8`.
+**Fix commits:** `58dff2e` — C-1, C-2, C-3 and H-1; `b647440` — report §14 and the generated-artifact exemption; Phase 5 — H-2 through H-8, re-reviewed in §15. Each finding below now carries a **RESOLVED** block recording what changed and the measurement taken afterwards; the post-fix re-review is §14. The findings this report identified are unchanged as originally written, so the review remains readable as the state of `32720b8`.
 
 ---
 
@@ -51,11 +51,12 @@ cases it is quietly violated by one field.
 **Verdict:** fix the three critical findings, then merge. The high-priority items are
 substantive but can follow immediately after; none of them corrupts existing data.
 
-### Resolution status (updated 2026-09-16, commit `58dff2e`)
+### Resolution status (updated 2026-09-16; Phase 4 `58dff2e`/`b647440`, Phase 5 see §15)
 
-All three critical findings and the first high-priority finding are resolved, measured
+All three critical findings and **all eight high-priority findings** are resolved, measured
 afterwards rather than assumed. Each resolution is enforced in CI, not only in prose —
-which was the shape of all three failures.
+which was the shape of every one of these failures. Medium and Low findings remain open:
+they were placed out of scope for Phase 5 by instruction, not overlooked.
 
 | Finding | Status | Measured result after the fix |
 |---|---|---|
@@ -63,15 +64,25 @@ which was the shape of all three failures.
 | C-2 grading-rule violations | **RESOLVED** | **59** records corrected downward, not 28 — the review undercounted by measuring `skills/*/SKILL.md` only. Rule now a hard validator error corpus-wide |
 | C-3 non-existent evaluation suite | **RESOLVED** | claims removed from README and AGENTS.md; new prose-path check covers **101** paths and found **3 further** false claims, all corrected |
 | H-1 guessed `authentication` | **RESOLVED** | absent from **35/35** records; generator fails if any unverified entry carries a capability field |
-| H-2 … H-8, M-1 … M-15, L-1 … L-9 | **OPEN** | untouched by this fix; recorded rather than closed |
+| H-2 nine fields lost before `tools.json` | **RESOLVED** | all 9 reach `tools.json`; **45** keys per record (**42** computed), count asserted by `--check`; 16 tests |
+| H-3 `UNVERIFIED` names the wrong thing | **RESOLVED** | `fetch_ok` separated from license verification; **15** records retiered `NO-LICENSE` offline, no invented dates; 31 tests |
+| H-4 exclusions prose-only | **RESOLVED** | **2** declared, **0** violations across **795** tracked files; fetcher refuses (exit 2); 37 tests |
+| H-5 license override warning-only, code-only | **RESOLVED** | markdown scanned; warnings **133 → 34**; **72/72** cards now carry the marker (was **0/72**); 1 orphan card removed; 32 tests |
+| H-6 untrusted API text embedded verbatim | **RESOLVED** | **17/401** descriptions changed, inert text untouched; **0** injection hits; `javascript:`/`data:` refused as links; 48 tests |
+| H-7 category by unanchored substring | **RESOLVED** | whole-token matching + `category_evidence`; all **35** regenerated; `"ci"` in `"official"` no longer matches; 24 tests |
+| H-8 five of 35 "servers" are not servers | **RESOLVED** | **nine**, not five; split **server 26 / sdk 3 / tooling 2 / catalog 2 / registry 1 / unproven 1**; 34 tests |
+| M-1 … M-15, L-1 … L-9 | **OPEN** | out of scope for Phase 5 by instruction; recorded rather than closed |
 
-| Severity | Count |
-|---|---|
-| Critical | 3 |
-| High | 8 |
-| Medium | 15 |
-| Low | 9 |
-| **Total** | **35** |
+| Severity | Found | Resolved | Open |
+|---|---|---|---|
+| Critical | 3 | 3 | 0 |
+| High | 8 | 8 | 0 |
+| Medium | 15 | 0 | 15 |
+| Low | 9 | 0 | 9 |
+| **Total** | **35** | **11** | **24** |
+
+Counts as originally found, with resolution as of Phase 5 (§15). "Found" is unchanged from the
+first revision of this report; the two columns to its right are the current state.
 
 Positive verifications (no issue found) are recorded in §12 and §13 rather than omitted,
 so that "not checked" and "checked and clean" are distinguishable.
@@ -362,6 +373,14 @@ so that "not checked" and "checked and clean" are distinguishable.
   present in `tools.json` — that check would have caught this at once and will catch the
   next field added to only one side.
 
+> **RESOLVED — Phase 5.** All nine fields now travel the full chain
+> registry-markdown → parser → generator → `tools.json`, and the generator *fails* rather than
+> dropping one. `archived` repositories are emitted with `not_recommended_for` populated from
+> the card's own wording instead of being silently omitted. Every record in `tools.json` carries
+> 45 keys, 42 of them computed, and `generate_mcp_registry.py --check` asserts the count rather
+> than trusting it. 16 regression tests in `tests/test_mcp_chain.py` pin each field
+> source→sink, so a field that stops reaching `tools.json` fails the build.
+
 ### H-3 · The `UNVERIFIED` tier names the wrong thing
 
 - **Files:** `scripts/lib/scoring.py` (`tier_for`); `metadata/repositories.json`;
@@ -386,6 +405,17 @@ so that "not checked" and "checked and clean" are distinguishable.
   `CHANGELOG.md` as a major-version schema change with the old name noted. Keep
   `UNVERIFIED` reserved for records whose fetch actually failed, which is the meaning every
   other part of the codebase gives it.
+
+> **RESOLVED — Phase 5.** `fetch_ok` and license verification are now separate
+> facts with separate consequences, and `UNVERIFIED` means one thing everywhere it appears.
+> `tier_for()` in `scripts/lib/scoring.py` takes `fetch_ok` explicitly: a failed fetch yields
+> `UNVERIFIED` (the API did not answer, so nothing here is known), while a successful fetch of a
+> repository with no license yields `NO-LICENSE` — which is a *legal* verdict, not a confidence
+> one, and per the standing rule means `license_risk:
+> no-license-do-not-redistribute` rather than merely a low score. `--retier` recomputes offline
+> from the stored `license` field, so the 15 affected records were corrected without inventing a
+> verification date. README, `schemas/common.defs.json`, the generator, the validator and the
+> indexes all state the same meaning. 31 tests in `tests/test_tier_semantics.py`.
 
 ### H-4 · SECURITY.md's "hard exclusions" are prose-only; nothing enforces them
 
@@ -417,6 +447,20 @@ so that "not checked" and "checked and clean" are distinguishable.
   have `fetch_github_metadata.py` refuse to fetch excluded slugs. That converts a policy
   that depends on contributor diligence into one that fails a build.
 
+> **RESOLVED — Phase 5.** The exclusions are enforced in code, and the code is the
+> single source of truth. `metadata/excluded-sources.json` is the machine-readable form of the
+> decision (authored policy data, schema-validated by `schemas/excluded-source.schema.json`),
+> and `scripts/lib/exclusions.py` is read by both the validator and the fetcher so they cannot
+> drift apart. `validate_policy.py` fails on an unusable or empty list, on an excluded slug on
+> any ingestion or retrieval path — where **no wording excuses it**, because a seed entry *is*
+> collection — on a slug named outside a paragraph that states the exclusion, and on a `sources:`
+> citation. `fetch_github_metadata.py` refuses before requesting, including for an explicit
+> `--slug` (exit 2 with the reason), because a completed fetch leaves the payload in `.cache/gh/`
+> and rejecting the record afterwards would still have collected it. Matching is whole-slug,
+> never the bare name. Measured: **2 exclusions declared, 0 violations across 795 tracked
+> files**; 37 tests, mutation-checked four ways. The Enforcement section of
+> `excluded-sources.md` was rewritten — two of its five claims were true, three were not.
+
 ### H-5 · The license "hard override" is enforced only as a warning, and only on code files
 
 - **File:** `scripts/validate/validate_policy.py:139-146` (check 3)
@@ -447,6 +491,25 @@ so that "not checked" and "checked and clean" are distinguishable.
   contains a fenced code block over ~15 lines (the shape of vendored content) as opposed to a
   passing mention. Separately, exclude `scripts/**` from the warning — the generator scripts
   legitimately name these repositories, and their warnings are pure noise.
+
+> **RESOLVED — Phase 5, and the finding understated it.** Matching is now whole-slug
+> and boundary-anchored, and markdown is scanned. Two severities: a *mention* of a repository
+> whose license carries a consequence is a warning; a mention **attributed to a long code fence**
+> is an error. Proximity alone is deliberately not evidence — the first implementation accused
+> seven files and all seven were innocent, including `skill-format.md` naming `anthropics/skills`
+> inside the block whose rule 4 is *"Never copy external content."* Failing the build over the
+> sentence that enforces the policy would remove the incentive to write it. Warnings fell
+> **133 → 34** while coverage of prose widened.
+>
+> What the review did not report: **none of the 72 generated cards carried the license marker.**
+> The consequence lived in `metadata/repositories.json`, which is not what a human or an agent
+> reads. Cards now carry `license_risk` in frontmatter (new enum-constrained field on `sourceRef`)
+> and a banner above the fold — 15 do-not-redistribute, 57 review-before-vendoring — and
+> `check_cards_state_license_policy()` fails if either half is missing. Also found and removed:
+> `repositories/developer-tools/firebase--firebase-tools.md`, an orphan that had survived since
+> v1.0.0 after a reclassification, carrying conflicting `domain`/`tags` and no license marker.
+> `check_no_orphan_cards()` now compares every card on disk to the registry. 32 tests,
+> mutation-checked eight ways.
 
 ### H-6 · Untrusted GitHub API text is embedded verbatim into generated markdown
 
@@ -494,6 +557,26 @@ so that "not checked" and "checked and clean" are distinguishable.
   untrusted third-party input, since the current policy section does not mention ingestion at
   all.
 
+> **RESOLVED — Phase 5.** `scripts/lib/sanitize.py` is the single boundary, on the rule
+> *display, do not interpret*. `metadata/repositories.json` keeps the raw string — sanitising the
+> stored record would destroy the evidence of what upstream said — and sanitisation happens where
+> text stops being data and starts being rendering. Escaping is position-aware, so inert
+> characters are left alone: "It's fast!", ":cherry_blossom:", "teach > graphs" and "The #1
+> library" are published exactly as upstream wrote them. Only **17 of 401** descriptions change.
+> Bare URLs become inline code rather than live links; `postgres--postgres.md` no longer renders
+> `*mirror*` as italics. `homepage` is linked only when plainly `http(s)` and free of
+> syntax-breaking characters, with the destination as its own label — `javascript:`, `data:`, an
+> embedded pipe and an embedded quote are all refused. Descriptions are framed as *"Upstream
+> description, quoted as published and not verified here"*, which is what stops
+> `camel-ai/camel`'s "the first and the best" reading as this repository's own claim on a card
+> ranked #1 in `indexes/best-of.md`. An injection-shaped description is **quarantined, not
+> rendered**, and `validate_policy.py` check 8 scans `description`, `homepage`, `topics`, `name`
+> and MCP `purpose` across three registries, failing the build on a match — **0 records match
+> today**, which is a property of the seed list and not of the pipeline. `build_index.py` escapes
+> only the two upstream-derived entry kinds, leaving 11 authored workflow summaries untouched.
+> `SECURITY.md` gains an "Ingested text is untrusted input" section; it previously did not mention
+> ingestion at all. 48 tests, mutation-checked ten ways.
+
 ### H-7 · MCP `category` is assigned by unanchored substring match and is already wrong
 
 - **File:** `scripts/generate-index/generate_mcp_registry.py` (`CATEGORY_SIGNALS`,
@@ -516,6 +599,17 @@ so that "not checked" and "checked and clean" are distinguishable.
   require the match in `topics` or the slug, not in free-text descriptions — topics are
   curated by the owner for discoverability and are far less prone to accidental substring
   hits. Where nothing matches, `other` is the correct answer and is already the fallback.
+
+> **RESOLVED — Phase 5.** `detect_category()` matches whole tokens, never substrings,
+> and every assignment carries `category_evidence` plus the `category_signals` that produced it —
+> so a category is a claim with its evidence attached rather than an unexplained string. The
+> tokenizer keeps hyphenated forms whole *and* split, because splitting only on
+> non-alphanumerics made signals like `web-scraping` unmatchable and silently moved `firecrawl`
+> from browser to search. All 35 categories were regenerated from their own observed text.
+> `assert_categories_are_evidenced()` audits the **stored** claim independently of re-derivation,
+> in both write and `--check` paths. The false-positive regression the review asked for is in
+> `tests/test_mcp_category.py` (24 tests): `"ci"` inside `"official"` no longer assigns a
+> category, and near-miss words do not match.
 
 ### H-8 · Five of the "35 MCP servers" are not servers
 
@@ -551,6 +645,20 @@ so that "not checked" and "checked and clean" are distinguishable.
   heading — SDKs and the inspector are genuinely useful to record, they are just not servers.
 
 ---
+
+> **RESOLVED — Phase 5, and the count in this finding was too low.** Re-checking all 35
+> entries against their own observed text found **nine** that are not servers, not five: two SDKs,
+> a testing tool, a registry service, two curated catalogs, a builder (`vercel/mcp-handler`), a
+> CLI (`firebase/firebase-tools`) and `stripe/ai`, whose description and topics mention MCP only
+> as a bare topic. Each entry now carries `registry_kind` ∈ {server, sdk, tooling, registry,
+> catalog, unproven} with `registry_kind_evidence` quoting the text that decided it. Measured
+> split: **server 26, sdk 3, tooling 2, catalog 2, registry 1, unproven 1**. README states
+> "MCP servers **26**" alongside "MCP registry entries (incl. 9 that are not servers) **35**",
+> `indexes/mcp.md` splits by kind, and `update_readme_stats.py` derives the count from
+> `registry_kind` rather than from the seed-list category. `assert_kinds_are_evidenced()` refuses
+> to write an entry whose kind is not backed by quoted observed text. Corroboration: `seeds.json`
+> had already declared `punkpeye/awesome-mcp-servers` as `repo_kind: catalog` and the generator
+> was ignoring it. 34 tests.
 
 ## 4. Medium Priority Issues
 
@@ -1549,8 +1657,112 @@ statement on the repository's front page or in its grading rule.
 
 ---
 
-*§1–§13 generated 2026-09-16 against commit `32720b8`; §14 and the resolution blocks added the
-same day against `58dff2e`. All quantitative claims were measured by executing the repository's
-own scripts and reading its own data files; the measurement method is stated alongside each
-finding so any of them can be re-checked independently. Finding text in §1–§13 is preserved as
-originally written, including the counts §14 corrects.*
+## 15. Phase 5 post-fix re-review
+
+The remaining seven high-priority findings — H-2 through H-8 — were fixed in one phase, in the
+order H-2, H-3, H-7, H-8, H-4, H-5, H-6. The scoring model was left untouched by instruction, and
+Medium and Low findings were out of scope. Everything below was measured by running the
+repository's own validators, generators and tests against the final tree, not by reading the diff.
+
+### 15.1 The eight high-priority findings, re-measured
+
+| Finding | Measured after the fix |
+|---|---|
+| H-2 fields lost before `tools.json` | all nine reach the registry; **45** keys per record, **42** computed; the count is asserted by `--check`, not trusted; `archived` entries carry `not_recommended_for`; 16 tests |
+| H-3 `UNVERIFIED` mislabel | `fetch_ok` and license verification are separate facts with separate tiers; **15** records retiered to `NO-LICENSE` offline from the stored `license` field, with no verification date invented; the same meaning in README, schema, generator, validator and indexes; 31 tests |
+| H-7 unanchored substring category | whole-token matching with `category_evidence` + `category_signals` on all **35** entries; hyphenated signals kept whole *and* split; `"ci"` inside `"official"` no longer matches; gate audits the **stored** claim independently of re-derivation; 24 tests |
+| H-8 five of 35 not servers | **nine** were not servers, not five; `registry_kind` split **server 26 / sdk 3 / tooling 2 / catalog 2 / registry 1 / unproven 1**; README and `indexes/mcp.md` state 26 servers and 35 entries separately; 34 tests |
+| H-4 exclusions prose-only | **2** exclusions declared in machine-readable form, **0** violations across **795** tracked files; the fetcher refuses before requesting, exit **2** with the reason on an explicit `--slug`; 37 tests |
+| H-5 license override warning-only | markdown scanned; mention warnings **133 → 34** while coverage widened; vendoring-shaped references are an error; **72/72** risky cards carry the marker, from **0/72**; 32 tests |
+| H-6 untrusted API text verbatim | **17 of 401** descriptions change under sanitisation and inert text is untouched; **0** injection-pattern hits across three registries; `javascript:`, `data:`, embedded pipe and embedded quote all refused as links; 48 tests |
+
+Corpus state after the phase: **414** repository records (S 214 · A 127 · B 29 · C 16 ·
+EXPERIMENTAL 3 · ARCHIVED 10 · NO-LICENSE 15), **35** MCP registry entries, **414** cards,
+**608** index entries, **50** skills with **1108** generated test cases.
+
+### 15.2 Every fix added a control, not just a corrected instance
+
+The instruction for this phase was that each fix had to prevent the recurrence rather than patch
+the instance. Measured against that, each finding now has a gate that fails the build:
+
+| Finding | The control that did not exist before |
+|---|---|
+| H-2 | `--check` asserts the computed-field count reaches `tools.json` |
+| H-3 | `tier_semantics_errors()` rejects a tier that contradicts `fetch_ok` or `license` |
+| H-7 | `assert_categories_are_evidenced()` audits the stored evidence token by token |
+| H-8 | `assert_kinds_are_evidenced()` refuses a kind not backed by quoted observed text |
+| H-4 | `check_exclusions()` + `fetch_refusal()` at the request boundary |
+| H-5 | `check_cards_state_license_policy()`, `check_no_orphan_cards()`, vendoring-shaped error |
+| H-6 | `check_ingested_text()` + card quarantine at the render boundary |
+
+**222** tests across seven files, all passing. Every control was mutation-checked: the
+corresponding code was deliberately broken and the suite confirmed to go red, then restored.
+This mattered — ten mutations were tried on H-6 alone and **two initially slipped through**,
+because the assertions read already-generated cards from disk. A test that only reads committed
+output cannot catch the wiring being undone. Those assertions now render through the generator
+itself. The same class of gap was found and closed on H-5, where a second path filter silently
+excluded `README.md` and removing it left every other test green.
+
+### 15.3 Three defects found while fixing, which this review had missed
+
+1. **None of the 72 risky repository cards carried the license marker.** H-5 as written
+   described the override as enforced only on code files. The larger half of the problem was that
+   the override never reached the markdown at all: the consequence lived in
+   `metadata/repositories.json`, which is not what a human or an agent reads. Cards now carry
+   `license_risk` in frontmatter and a banner above the fold.
+2. **An orphan card had survived a reclassification since v1.0.0.**
+   `repositories/developer-tools/firebase--firebase-tools.md` duplicated the real card at
+   `repositories/mcp-servers/`, with conflicting `domain` and `tags`, a `verified_at` a day
+   behind, and no license marker. Nothing detected it because nothing compared the cards on disk
+   to the registry. It is removed and `check_no_orphan_cards()` now fails on any recurrence.
+3. **CI had been red since Phase 4.** `validate_links.py` exited 1 at `b647440` — and had done
+   since `58dff2e` — because README.md said "Every skill has `tests/cases.md`" and the
+   prose-path check resolved that against the repository root, where no such file exists; the
+   real path is per-skill. This review was written against `32720b8` and did not catch it, and
+   the Phase 4 re-review in §14 recorded the validators as passing. Fixed on both sides rather
+   than exempted: the README names `skills/<skill>/tests/cases.md`, and a new check asserts what
+   the sentence claims — all **50** skill directories are now verified to have generated cases,
+   which nothing enforced before.
+
+### 15.4 What Phase 5 did not accomplish
+
+- **The scoring model is unchanged**, by instruction. `source-scoring.md` still documents band
+  thresholds that do not match `scripts/lib/scoring.py`; that discrepancy is recorded in §13 and
+  remains open. Nothing in this phase should be read as endorsing the current weights.
+- **Medium and Low findings are untouched** — 15 and 9 respectively. They were placed out of
+  scope, not assessed as unimportant.
+- **H-6's prose-fence exclusion is a real limitation, stated rather than hidden.** A long block
+  of copied *prose* inside a ```text fence is not caught by the vendoring check; it is caught as
+  a mention warning, and copied *code* is caught whatever the fence is labeled. The exclusion
+  exists because this repository sets its own authored prose in aligned ```text blocks, and the
+  first implementation accused seven files of vendoring when all seven were innocent — including
+  the passage whose rule 4 is "Never copy external content."
+- **The injection patterns are deliberately conservative.** "The system prompt is loaded at
+  startup", "you should pin a version" and "Invoke the function directly from Python" are
+  ordinary technical prose and are not flagged. A tighter rule would flag the corpus the check
+  exists to protect, and a check that cries wolf gets disabled. The tradeoff is that a cleverly
+  worded injection can pass; the quarantine is a floor, not a ceiling.
+- **Policy warnings stand at 86.** They are superlatives without an adjacent verification date,
+  in prose that is not wrong — the check is advisory by design and CI does not run `--strict`.
+  This phase reduced them from 89 by removing six that were pure noise from H-5's old
+  bare-name matcher, and added three by bringing `README.md` into scope.
+
+### 15.5 Merge recommendation
+
+**All three critical and all eight high-priority findings are resolved and enforced.** The
+failure shape §14.2 identified — a claim in prose with no code behind it — is closed for every
+high-priority finding: each now has a gate that fails the build, and each gate was verified to
+fail when the code behind it is broken.
+
+The 24 Medium and Low findings remain open and are recorded in §5–§13. They are documentation
+quality, redundancy and coverage gaps rather than false claims, and none of them makes the
+repository unsafe to use as agent memory. Merging with them open is defensible; merging without
+a tracked issue per finding is not, because §14.3's lesson was that a recorded-but-unowned
+finding decays silently.
+
+*§1–§13 generated 2026-09-16 against commit `32720b8`; §14 and the first resolution blocks added
+the same day against `58dff2e`; §15 and the H-2…H-8 resolution blocks added the same day against
+the Phase 5 tree. All quantitative claims were measured by executing the repository's own
+scripts, validators, generators and tests, and reading its own data files; the measurement method
+is stated alongside each finding so any of them can be re-checked independently. Finding text in
+§1–§13 is preserved as originally written, including the counts §14 and §15 correct.*

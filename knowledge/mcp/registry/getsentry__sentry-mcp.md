@@ -4,13 +4,23 @@ name: sentry-mcp
 purpose: >-
   As stated by the repository itself: "An MCP server for interacting with Sentry via LLMs."
 category: observability
+category_evidence: topics-or-slug
+category_signals: ["sentry"]
+registry_kind: server
+registry_kind_evidence: >-
+  owner-set topic "mcp-server"
 distribution: source
 official: true
 maintainer: getsentry
 repository: getsentry/sentry-mcp
 url: https://github.com/getsentry/sentry-mcp
+npm_package: null
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -26,8 +36,12 @@ stars_checked_at: 2026-09-16
 tier: A
 quality_score: 7.94
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 0
+language: TypeScript
 tags: ["mcp", "mcp-server", "observability", "sentry", "tag-production"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -50,6 +64,8 @@ sources:
 
 `getsentry/sentry-mcp` — As stated by the repository itself: "An MCP server for interacting with Sentry via
 LLMs."
+
+**Registry kind: `server`.** Counted as an MCP server in `indexes/mcp.md` and in the README statistics. This is what the registry's consumers — `skills/mcp-integration` and `skills/dont-reinvent-the-wheel` — mean when they say consult the registry before installing a server. Evidence: owner-set topic "mcp-server".
 
 ## What is verified
 

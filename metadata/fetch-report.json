@@ -410,13 +410,13 @@
     ]
   ],
   "tier_distribution": {
-    "S": 214,
     "A": 127,
+    "ARCHIVED": 10,
     "B": 29,
     "C": 16,
-    "UNVERIFIED": 15,
-    "ARCHIVED": 10,
-    "EXPERIMENTAL": 3
+    "EXPERIMENTAL": 3,
+    "NO-LICENSE": 15,
+    "S": 214
   },
   "status_distribution": {
     "ACTIVE": 296,
@@ -438,5 +438,6 @@
     "backend": 21,
     "databases": 17,
     "instructions-standards": 14
-  }
+  },
+  "tier_distribution_note": "recomputed offline by --retier on 2026-09-16T06:47:05+00:00; the fetch itself was not repeated"
 }

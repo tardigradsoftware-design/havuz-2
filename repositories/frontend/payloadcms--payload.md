@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: payloadcms
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.89.0 (2026-09-10) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://payloadcms.com |
+| Homepage | [https://payloadcms.com](https://payloadcms.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

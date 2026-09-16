@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Ayanami0730
     license: Apache-2.0
+    license_risk: none
     confidence: low
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **C** · published-artifact · confidence **low**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/pdf/2506.11763 |
+| Homepage | [https://arxiv.org/pdf/2506.11763](https://arxiv.org/pdf/2506.11763) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

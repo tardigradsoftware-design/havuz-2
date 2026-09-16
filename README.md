@@ -180,7 +180,7 @@ Machine-readable entry points:
 |---|---|
 | [`metadata/index.json`](metadata/index.json) | Single flat retrieval index; one entry per embeddable chunk |
 | [`metadata/repositories.json`](metadata/repositories.json) | Tool selection: `tier`, `status`, `quality_score`, `trust_score`, `license_risk` |
-| [`metadata/tools.json`](metadata/tools.json) | MCP servers incl. `permissions` and `security.risk_level` |
+| [`metadata/tools.json`](metadata/tools.json) | MCP registry entries incl. `registry_kind`, `permissions` and `security.risk_level` |
 | [`metadata/skills.json`](metadata/skills.json) | Skill lookup incl. `requires`, `conflicts_with`, `priority` |
 | [`metadata/sources.json`](metadata/sources.json) | Citations with `confidence` and `verified_at` |
 | [`metadata/graph.json`](metadata/graph.json) | Relationship traversal (skill → uses → framework → mcp → repo) |
@@ -273,8 +273,20 @@ Every component is computed from **observable signals**, never from opinion:
 | Evidence | tests, CI, releases, contributor count, examples, homepage |
 
 Tier mapping: `S ≥ 8.0`, `A ≥ 7.0`, `B ≥ 5.8`, `C ≥ 4.3`, else `EXPERIMENTAL`.
-Overrides: `ARCHIVED` if archived; `UNVERIFIED` if no license file is detected;
-a non-SPDX custom license caps the tier at `A`.
+Overrides, in precedence order: `UNVERIFIED` if the GitHub fetch failed, `ARCHIVED` if
+archived, `NO-LICENSE` if no license file is detected; a non-SPDX custom license caps the
+tier at `A`.
+
+`NO-LICENSE` and `UNVERIFIED` are not interchangeable and were once conflated here:
+
+| Tier | What it says | What it does **not** say |
+|---|---|---|
+| `NO-LICENSE` | the metadata **was** verified, and verification found no published license — legally unsafe to redistribute | nothing about the record's reliability; it is fully trustworthy |
+| `UNVERIFIED` | the metadata **could not** be verified — the fetch failed or the repository is unresolvable | nothing about the license; every other field on such a record is also suspect |
+
+An agent that reads `UNVERIFIED` should re-fetch or discard the record. An agent that reads
+`NO-LICENSE` should trust the record and refuse to vendor it. `validate_json.py` enforces
+both directions, so a record cannot claim either label without the fact behind it.
 
 ---
 
@@ -297,7 +309,8 @@ count crosses a threshold. Expired ≠ wrong. Expired means **re-verify before a
 
 ## How skills are tested
 
-Every skill has `tests/cases.md`, generated from that skill's own body text by
+Every skill has its own generated test cases at `skills/<skill>/tests/cases.md`, built from
+that skill's own body text by
 [`scripts/generate-index/generate_skill_tests.py`](scripts/generate-index/generate_skill_tests.py).
 Each case uses a fixed four-clause format:
 
@@ -442,7 +455,8 @@ _Generated 2026-09-16 by `scripts/generate-index/update_readme_stats.py`. Do not
 | Failure knowledge (anti-patterns, failure modes, gotchas) | **0** | [`anti-patterns/`](anti-patterns/) · [`failure-modes/`](failure-modes/) · [`gotchas/`](gotchas/) |
 | Decision records | **2** | [`decision-records/`](decision-records/) |
 | Verified GitHub repositories | **414** | [`indexes/repositories.md`](indexes/repositories.md) |
-| MCP servers | **35** | [`indexes/mcp.md`](indexes/mcp.md) |
+| MCP servers | **26** | [`indexes/mcp.md`](indexes/mcp.md) |
+| MCP registry entries (incl. 9 that are not servers) | **35** | [`indexes/mcp.md`](indexes/mcp.md) |
 | Research sources (incl. 9 verified papers) | **9** | [`indexes/research.md`](indexes/research.md) |
 | Evaluations & benchmarks | **0** | [`indexes/evaluations.md`](indexes/evaluations.md) |
 | Model cards | **0** | [`models/`](models/) |
@@ -464,7 +478,9 @@ All **414** repositories were verified against the GitHub REST API. Aggregate ad
 | EXPERIMENTAL |  | | C | 16 |
 | ARCHIVED | 10 | | EXPERIMENTAL | 3 |
 | ABANDONED | 7 | | ARCHIVED | 10 |
-| UNKNOWN |  | | UNVERIFIED | 15 |
+| UNKNOWN |  | | NO-LICENSE | 15 |
+|  |  | | UNVERIFIED |  |
+|  |  | | DEPRECATED |  |
 
 ### Findings the verification run produced
 

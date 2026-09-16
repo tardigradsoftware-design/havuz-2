@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: trpc
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v11.18.0 (2026-06-18) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://tRPC.io |
+| Homepage | [https://tRPC.io](https://tRPC.io) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

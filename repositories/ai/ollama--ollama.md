@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: ollama
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.34.0 (2026-09-05) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://ollama.com |
+| Homepage | [https://ollama.com](https://ollama.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

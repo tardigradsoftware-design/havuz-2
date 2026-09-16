@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: redis
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 0.5.1 (2026-08-05) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://redis.io/docs/latest/integrate/redis-mcp/ |
+| Homepage | [https://redis.io/docs/latest/integrate/redis-mcp/](https://redis.io/docs/latest/integrate/redis-mcp/) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

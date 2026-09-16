@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: crewAIInc
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 1.15.21 (2026-09-09) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://crewai.com |
+| Homepage | [https://crewai.com](https://crewai.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

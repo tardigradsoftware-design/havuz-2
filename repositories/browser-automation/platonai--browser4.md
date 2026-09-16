@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: platonai
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-ready · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v4.13.18 (2026-09-12) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://browser4.io |
+| Homepage | [https://browser4.io](https://browser4.io) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

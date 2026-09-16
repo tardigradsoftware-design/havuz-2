@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: anthropics
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15

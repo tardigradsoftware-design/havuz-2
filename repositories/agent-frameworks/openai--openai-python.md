@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: openai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The official Python library for the OpenAI API
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.14.0 (2026-09-14) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://pypi.org/project/openai/ |
+| Homepage | [https://pypi.org/project/openai/](https://pypi.org/project/openai/) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

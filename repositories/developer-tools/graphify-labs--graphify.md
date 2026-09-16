@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: Graphify-Labs
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.9.61 (2026-09-12) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.graphify.com |
+| Homepage | [https://www.graphify.com](https://www.graphify.com) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

@@ -19,7 +19,7 @@ all facts verified against the GitHub API on 2026-09-15.
 | [OWASP/Top10](./owasp--top10.md) | 6,076 | A | 🟢 ACTIVE | `NOASSERTION` | 7.27 | 2026-09-15 |
 | [PatrickJS/awesome-cursorrules](./patrickjs--awesome-cursorrules.md) | 40,788 | A | 🔵 STABLE | `CC0-1.0` | 6.78 | 2026-09-15 |
 | [invariantlabs-ai/invariant](./invariantlabs-ai--invariant.md) | 456 | B | 🟡 MAINTENANCE | `Apache-2.0` | 5.84 | 2026-09-15 |
-| [OWASP/www-project-top-ten](./owasp--www-project-top-ten.md) | 1,443 | UNVERIFIED | 🟡 MAINTENANCE | `NONE` | 3.2 | 2026-09-15 |
+| [OWASP/www-project-top-ten](./owasp--www-project-top-ten.md) | 1,443 | NO-LICENSE | 🟡 MAINTENANCE | `NONE` | 3.2 | 2026-09-15 |
 
 ## Do not adopt
 
@@ -41,7 +41,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [OWASP/ASVS](./owasp--asvs.md) — tier A, ACTIVE
 - [OWASP/CheatSheetSeries](./owasp--cheatsheetseries.md) — tier S, ACTIVE
 - [OWASP/Top10](./owasp--top10.md) — tier A, ACTIVE
-- [OWASP/www-project-top-ten](./owasp--www-project-top-ten.md) — tier UNVERIFIED, MAINTENANCE
+- [OWASP/www-project-top-ten](./owasp--www-project-top-ten.md) — tier NO-LICENSE, MAINTENANCE
 - [PatrickJS/awesome-cursorrules](./patrickjs--awesome-cursorrules.md) — tier A, STABLE
 - [protectai/llm-guard](./protectai--llm-guard.md) — tier ARCHIVED, ARCHIVED
 - [protectai/rebuff](./protectai--rebuff.md) — tier ARCHIVED, ARCHIVED

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: huggingface
     license: Apache-2.0
+    license_risk: none
     confidence: medium
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 ⛔ ARCHIVED · tier **ARCHIVED** · end-of-life · confidence **medium**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Large Language Model Text Generation Inference
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v3.3.7 (2025-12-19) |
 | Archived | **YES** |
 | Fork | no |
-| Homepage | http://hf.co/docs/text-generation-inference |
+| Homepage | [http://hf.co/docs/text-generation-inference](http://hf.co/docs/text-generation-inference) |
 | SECURITY.md | no → `archived-no-patches` |
 | Repository kind | `software` |
 

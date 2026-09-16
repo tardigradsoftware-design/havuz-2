@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: TsinghuaC3I
     license: MIT
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-ready · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > A Survey of Reinforcement Learning for Large Reasoning Models
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | TripleR (2025-09-11) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arxiv.org/abs/2509.08827 |
+| Homepage | [https://arxiv.org/abs/2509.08827](https://arxiv.org/abs/2509.08827) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `catalog` |
 

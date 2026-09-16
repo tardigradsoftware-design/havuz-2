@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: arcboxlabs
     license: Apache-2.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,7 +48,9 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
-> Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
+> _Upstream description, quoted as published and not verified here:_
+>
+> Run AI agents on real and isolated machines — own kernel, filesystem, and network — with \<100ms boot. Local first, OCI compatible, pure Rust.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
 
@@ -66,7 +69,7 @@ sources:
 | Latest release | fleet-agent-v0.1.5 (2026-09-11) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://arcbox.dev |
+| Homepage | [https://arcbox.dev](https://arcbox.dev) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

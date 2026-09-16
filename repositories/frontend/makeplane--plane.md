@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: makeplane
     license: AGPL-3.0
+    license_risk: none
     confidence: high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v1.4.2 (2026-08-23) |
 | Archived | no |
 | Fork | no |
-| Homepage | http://plane.so |
+| Homepage | [http://plane.so](http://plane.so) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

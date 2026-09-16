@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: huggingface
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | 5.0.1 (2026-07-28) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://huggingface.co/docs/datasets |
+| Homepage | [https://huggingface.co/docs/datasets](https://huggingface.co/docs/datasets) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `dataset` (static artifact — quiet history is expected) |
 

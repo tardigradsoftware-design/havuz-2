@@ -5,13 +5,23 @@ purpose: >-
   As stated by the repository itself: "Easily spin up an MCP Server on Next.js, Nuxt, Svelte, and
   more"
 category: cloud
+category_evidence: topics-or-slug
+category_signals: ["vercel"]
+registry_kind: sdk
+registry_kind_evidence: >-
+  description says "spin up"
 distribution: npm
 official: true
 maintainer: vercel
 repository: vercel/mcp-handler
 url: https://github.com/vercel/mcp-handler
+npm_package: mcp-handler
+pypi_package: null
 transport: []
 tools: []
+resources: []
+prompts: []
+permissions: {}
 security:
   risk_level: high
   notes: >-
@@ -24,11 +34,15 @@ license: null
 license_risk: no-license-do-not-redistribute
 stars: 669
 stars_checked_at: 2026-09-16
-tier: UNVERIFIED
+tier: NO-LICENSE
 quality_score: 8.02
 confidence: high
+recommended_for: []
+not_recommended_for: []
 capability_evidence: unverified
 purpose_evidence: repository-description
+days_since_push: 7
+language: TypeScript
 tags: ["adapter", "mcp", "vercel"]
 verified_at: 2026-09-16
 expires_at: 2026-12-15
@@ -52,6 +66,8 @@ sources:
 `vercel/mcp-handler` — As stated by the repository itself: "Easily spin up an MCP Server on Next.js, Nuxt,
 Svelte, and more"
 
+**Registry kind: `sdk`.** **This is not a server you can connect to.** It is a library for *building* one. Installing it as an MCP server will not work; it is recorded here so that somebody about to write a server finds it instead of writing their own. Evidence: description says "spin up".
+
 ## What is verified
 
 These fields were read from the GitHub REST API on **2026-09-16** and are facts, not judgements:
@@ -69,7 +85,7 @@ These fields were read from the GitHub REST API on **2026-09-16** and are facts,
 | SECURITY.md published | **no** |
 | Tests present | yes |
 | CI present | yes |
-| Tier / quality score | UNVERIFIED / 8.02 |
+| Tier / quality score | NO-LICENSE / 8.02 |
 
 ## What is NOT verified
 

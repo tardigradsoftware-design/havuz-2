@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: browserbase
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The SDK For Browser Agents
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | @browserbasehq/stagehand@3.7.3 (2026-08-28) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://stagehand.dev |
+| Homepage | [https://stagehand.dev](https://stagehand.dev) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: OWASP
     license: CC-BY-SA-4.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://cheatsheetseries.owasp.org |
+| Homepage | [https://cheatsheetseries.owasp.org](https://cheatsheetseries.owasp.org) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `docs` |
 

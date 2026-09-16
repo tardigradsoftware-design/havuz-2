@@ -1,6 +1,6 @@
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Regenerate: python3 scripts/generate-index/build_index.py
-     Generated: 2026-09-16T05:46:05+00:00 -->
+     Generated: 2026-09-16T08:59:10+00:00 -->
 
 # Repository index
 
@@ -82,17 +82,17 @@ Sort by `trust_score` when choosing a tool; check `status` before adopting.
 | [google-gemini/gemini-cli](../repositories/agent-skills/google-gemini--gemini-cli.md) | 107.0k | A | ACTIVE | Apache-2.0 | 6.79 | 2026-09-15 |
 | [cathrynlavery/diagram-design](../repositories/agent-skills/cathrynlavery--diagram-design.md) | 40.1k | A | ACTIVE | MIT | 6.65 | 2026-09-15 |
 | [addyosmani/agent-skills](../repositories/agent-skills/addyosmani--agent-skills.md) | 94.6k | A | ACTIVE | MIT | 6.51 | 2026-09-15 |
-| [anthropics/claude-code](../repositories/agent-skills/anthropics--claude-code.md) | 145.1k | UNVERIFIED | ACTIVE | NONE | 6.34 | 2026-09-15 |
+| [anthropics/claude-code](../repositories/agent-skills/anthropics--claude-code.md) | 145.1k | NO-LICENSE | ACTIVE | NONE | 6.34 | 2026-09-15 |
 | [wshobson/agents](../repositories/agent-skills/wshobson--agents.md) | 39.7k | A | ACTIVE | MIT | 5.96 | 2026-09-15 |
 | [blader/humanizer](../repositories/agent-skills/blader--humanizer.md) | 48.4k | B | ACTIVE | MIT | 5.78 | 2026-09-15 |
 | [Leonxlnx/taste-skill](../repositories/agent-skills/leonxlnx--taste-skill.md) | 87.3k | B | STABLE | MIT | 5.5 | 2026-09-15 |
 | [google-gemini/gemini-skills](../repositories/agent-skills/google-gemini--gemini-skills.md) | 4.1k | B | ACTIVE | Apache-2.0 | 5.35 | 2026-09-15 |
-| [anthropics/skills](../repositories/agent-skills/anthropics--skills.md) | 176.5k | UNVERIFIED | ACTIVE | NONE | 5.24 | 2026-09-15 |
-| [openai/skills](../repositories/agent-skills/openai--skills.md) | 27.3k | UNVERIFIED | ACTIVE | NONE | 4.77 | 2026-09-15 |
+| [anthropics/skills](../repositories/agent-skills/anthropics--skills.md) | 176.5k | NO-LICENSE | ACTIVE | NONE | 5.24 | 2026-09-15 |
+| [openai/skills](../repositories/agent-skills/openai--skills.md) | 27.3k | NO-LICENSE | ACTIVE | NONE | 4.77 | 2026-09-15 |
 | [RooCodeInc/Roo-Code](../repositories/agent-skills/roocodeinc--roo-code.md) | 24.3k | ARCHIVED | ARCHIVED | Apache-2.0 | 4.12 | 2026-09-15 |
-| [ComposioHQ/awesome-claude-skills](../repositories/agent-skills/composiohq--awesome-claude-skills.md) | 75.1k | UNVERIFIED | STABLE | NONE | 3.85 | 2026-09-15 |
+| [ComposioHQ/awesome-claude-skills](../repositories/agent-skills/composiohq--awesome-claude-skills.md) | 75.1k | NO-LICENSE | STABLE | NONE | 3.85 | 2026-09-15 |
 | [sourcegraph/cody-public-snapshot](../repositories/agent-skills/sourcegraph--cody-public-snapshot.md) | 3.8k | ARCHIVED | ARCHIVED | Apache-2.0 | 3.5 | 2026-09-15 |
-| [cursor/cursor](../repositories/agent-skills/cursor--cursor.md) | 33.2k | UNVERIFIED | MAINTENANCE | NONE | 3.26 | 2026-09-15 |
+| [cursor/cursor](../repositories/agent-skills/cursor--cursor.md) | 33.2k | NO-LICENSE | MAINTENANCE | NONE | 3.26 | 2026-09-15 |
 
 ## ai (24)
 
@@ -119,7 +119,7 @@ Sort by `trust_score` when choosing a tool; check `status` before adopting.
 | [google-gemini/cookbook](../repositories/ai/google-gemini--cookbook.md) | 17.8k | A | ACTIVE | Apache-2.0 | 6.47 | 2026-09-15 |
 | [mlabonne/llm-course](../repositories/ai/mlabonne--llm-course.md) | 82.8k | B | MAINTENANCE | Apache-2.0 | 5.58 | 2026-09-15 |
 | [dair-ai/Prompt-Engineering-Guide](../repositories/ai/dair-ai--prompt-engineering-guide.md) | 78.3k | B | MAINTENANCE | MIT | 4.76 | 2026-09-15 |
-| [anthropics/prompt-eng-interactive-tutorial](../repositories/ai/anthropics--prompt-eng-interactive-tutorial.md) | 38.2k | UNVERIFIED | STABLE | NONE | 4.16 | 2026-09-15 |
+| [anthropics/prompt-eng-interactive-tutorial](../repositories/ai/anthropics--prompt-eng-interactive-tutorial.md) | 38.2k | NO-LICENSE | STABLE | NONE | 4.16 | 2026-09-15 |
 | [huggingface/text-generation-inference](../repositories/ai/huggingface--text-generation-inference.md) | 10.9k | ARCHIVED | ARCHIVED | Apache-2.0 | 4.16 | 2026-09-15 |
 | [anthropics/courses](../repositories/ai/anthropics--courses.md) | 22.8k | ARCHIVED | ARCHIVED | NOASSERTION | 2.24 | 2026-09-15 |
 
@@ -181,7 +181,7 @@ Sort by `trust_score` when choosing a tool; check `status` before adopting.
 | [platonai/Browser4](../repositories/browser-automation/platonai--browser4.md) | 1.1k | A | ACTIVE | Apache-2.0 | 6.57 | 2026-09-15 |
 | [web-infra-dev/midscene](../repositories/browser-automation/web-infra-dev--midscene.md) | 14.9k | A | ACTIVE | MIT | 6.3 | 2026-09-15 |
 | [google-gemini/computer-use-preview](../repositories/browser-automation/google-gemini--computer-use-preview.md) | 3.2k | B | STABLE | Apache-2.0 | 5.23 | 2026-09-15 |
-| [oxylabs/browser-agent-py](../repositories/browser-automation/oxylabs--browser-agent-py.md) | 1.6k | UNVERIFIED | MAINTENANCE | NONE | 2.6 | 2026-09-15 |
+| [oxylabs/browser-agent-py](../repositories/browser-automation/oxylabs--browser-agent-py.md) | 1.6k | NO-LICENSE | MAINTENANCE | NONE | 2.6 | 2026-09-15 |
 
 ## databases (17)
 
@@ -372,7 +372,7 @@ _…and 21 more in `metadata/repositories.json`._
 | [rsms/inter](../repositories/frontend/rsms--inter.md) | 19.9k | C | ABANDONED | OFL-1.1 | 5.62 | 2026-09-15 |
 | [shadcn-ui/taxonomy](../repositories/frontend/shadcn-ui--taxonomy.md) | 19.3k | B | MAINTENANCE | MIT | 5.56 | 2026-09-15 |
 | [google-gemini/gemini-fullstack-langgraph-quickstart](../repositories/frontend/google-gemini--gemini-fullstack-langgraph-quickstart.md) | 18.3k | B | STABLE | Apache-2.0 | 4.38 | 2026-09-15 |
-| [greensock/GSAP](../repositories/frontend/greensock--gsap.md) | 28.4k | UNVERIFIED | MAINTENANCE | NONE | 4.33 | 2026-09-15 |
+| [greensock/GSAP](../repositories/frontend/greensock--gsap.md) | 28.4k | NO-LICENSE | MAINTENANCE | NONE | 4.33 | 2026-09-15 |
 
 ## instructions-standards (14)
 
@@ -390,7 +390,7 @@ _…and 21 more in `metadata/repositories.json`._
 | [protectai/llm-guard](../repositories/instructions-standards/protectai--llm-guard.md) | 3.2k | ARCHIVED | ARCHIVED | MIT | 4.61 | 2026-09-15 |
 | [12factor/12factor-br](../repositories/instructions-standards/12factor--12factor-br.md) | 3 | EXPERIMENTAL | ABANDONED | MIT | 3.94 | 2026-09-15 |
 | [protectai/rebuff](../repositories/instructions-standards/protectai--rebuff.md) | 1.5k | ARCHIVED | ARCHIVED | Apache-2.0 | 3.42 | 2026-09-15 |
-| [OWASP/www-project-top-ten](../repositories/instructions-standards/owasp--www-project-top-ten.md) | 1.4k | UNVERIFIED | MAINTENANCE | NONE | 3.2 | 2026-09-15 |
+| [OWASP/www-project-top-ten](../repositories/instructions-standards/owasp--www-project-top-ten.md) | 1.4k | NO-LICENSE | MAINTENANCE | NONE | 3.2 | 2026-09-15 |
 | [steipete/agent-rules](../repositories/instructions-standards/steipete--agent-rules.md) | 5.7k | ARCHIVED | ARCHIVED | MIT | 2.53 | 2026-09-15 |
 
 ## mcp-servers (35)
@@ -426,8 +426,8 @@ _…and 21 more in `metadata/repositories.json`._
 | [mksglu/context-mode](../repositories/mcp-servers/mksglu--context-mode.md) | 23.0k | A | ACTIVE | NOASSERTION | 7.1 | 2026-09-15 |
 | [oraios/serena](../repositories/mcp-servers/oraios--serena.md) | 29.4k | A | ACTIVE | NOASSERTION | 7.09 | 2026-09-15 |
 | [cloudflare/mcp-server-cloudflare](../repositories/mcp-servers/cloudflare--mcp-server-cloudflare.md) | 4.2k | A | ACTIVE | Apache-2.0 | 7.01 | 2026-09-15 |
-| [vercel/mcp-handler](../repositories/mcp-servers/vercel--mcp-handler.md) | 669 | UNVERIFIED | ACTIVE | NONE | 6.85 | 2026-09-15 |
-| [modelcontextprotocol/inspector](../repositories/mcp-servers/modelcontextprotocol--inspector.md) | 10.9k | UNVERIFIED | ACTIVE | NONE | 6.53 | 2026-09-15 |
+| [vercel/mcp-handler](../repositories/mcp-servers/vercel--mcp-handler.md) | 669 | NO-LICENSE | ACTIVE | NONE | 6.85 | 2026-09-15 |
+| [modelcontextprotocol/inspector](../repositories/mcp-servers/modelcontextprotocol--inspector.md) | 10.9k | NO-LICENSE | ACTIVE | NONE | 6.53 | 2026-09-15 |
 | [GoogleCloudPlatform/cloud-run-mcp](../repositories/mcp-servers/googlecloudplatform--cloud-run-mcp.md) | 631 | A | ACTIVE | Apache-2.0 | 6.49 | 2026-09-15 |
 | [tavily-ai/tavily-mcp](../repositories/mcp-servers/tavily-ai--tavily-mcp.md) | 2.4k | A | ACTIVE | MIT | 6.48 | 2026-09-15 |
 | [korotovsky/slack-mcp-server](../repositories/mcp-servers/korotovsky--slack-mcp-server.md) | 1.8k | A | STABLE | MIT | 5.85 | 2026-09-15 |
@@ -451,7 +451,7 @@ _…and 21 more in `metadata/repositories.json`._
 | [princeton-nlp/tree-of-thought-llm](../repositories/reasoning-research/princeton-nlp--tree-of-thought-llm.md) | 6.1k | C | STABLE | MIT | 5.11 | 2026-09-15 |
 | [NousResearch/Hermes-Function-Calling](../repositories/reasoning-research/nousresearch--hermes-function-calling.md) | 1.5k | B | STABLE | MIT | 5.09 | 2026-09-15 |
 | [SkyworkAI/Skywork-R1V](../repositories/reasoning-research/skyworkai--skywork-r1v.md) | 3.2k | B | STABLE | MIT | 4.95 | 2026-09-15 |
-| [QwenLM/Qwen3](../repositories/reasoning-research/qwenlm--qwen3.md) | 27.6k | UNVERIFIED | STABLE | NONE | 4.66 | 2026-09-15 |
+| [QwenLM/Qwen3](../repositories/reasoning-research/qwenlm--qwen3.md) | 27.6k | NO-LICENSE | STABLE | NONE | 4.66 | 2026-09-15 |
 | [PRIME-RL/TTRL](../repositories/reasoning-research/prime-rl--ttrl.md) | 1.1k | C | STABLE | MIT | 4.38 | 2026-09-15 |
 | [google-deepmind/funsearch](../repositories/reasoning-research/google-deepmind--funsearch.md) | 1.1k | C | STABLE | Apache-2.0 | 4.28 | 2026-09-15 |
 | [ysymyth/ReAct](../repositories/reasoning-research/ysymyth--react.md) | 4.2k | C | STABLE | MIT | 4.1 | 2026-09-15 |
@@ -460,6 +460,6 @@ _…and 21 more in `metadata/repositories.json`._
 | [sail-sg/understand-r1-zero](../repositories/reasoning-research/sail-sg--understand-r1-zero.md) | 1.3k | C | STABLE | MIT | 3.54 | 2026-09-15 |
 | [PRIME-RL/PRIME](../repositories/reasoning-research/prime-rl--prime.md) | 1.9k | EXPERIMENTAL | STABLE | Apache-2.0 | 2.89 | 2026-09-15 |
 | [EvolvingLMMs-Lab/open-r1-multimodal](../repositories/reasoning-research/evolvinglmms-lab--open-r1-multimodal.md) | 1.6k | EXPERIMENTAL | STABLE | Apache-2.0 | 2.83 | 2026-09-15 |
-| [huggingface/awesome-papers](../repositories/reasoning-research/huggingface--awesome-papers.md) | 2.0k | UNVERIFIED | ABANDONED | NONE | 2.63 | 2026-09-15 |
-| [masamasa59/ai-agent-papers](../repositories/reasoning-research/masamasa59--ai-agent-papers.md) | 1.6k | UNVERIFIED | STABLE | NONE | 2.58 | 2026-09-15 |
-| [OS-Agent-Survey/OS-Agent-Survey](../repositories/reasoning-research/os-agent-survey--os-agent-survey.md) | 487 | UNVERIFIED | ABANDONED | NONE | 1.88 | 2026-09-15 |
+| [huggingface/awesome-papers](../repositories/reasoning-research/huggingface--awesome-papers.md) | 2.0k | NO-LICENSE | ABANDONED | NONE | 2.63 | 2026-09-15 |
+| [masamasa59/ai-agent-papers](../repositories/reasoning-research/masamasa59--ai-agent-papers.md) | 1.6k | NO-LICENSE | STABLE | NONE | 2.58 | 2026-09-15 |
+| [OS-Agent-Survey/OS-Agent-Survey](../repositories/reasoning-research/os-agent-survey--os-agent-survey.md) | 487 | NO-LICENSE | ABANDONED | NONE | 1.88 | 2026-09-15 |

@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: grafana
     license: AGPL-3.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v13.2.2 (2026-09-15) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://grafana.com |
+| Homepage | [https://grafana.com](https://grafana.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

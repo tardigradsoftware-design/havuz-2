@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: headroomlabs-ai
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v0.37.0 (2026-08-27) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://docs.headroomlabs.ai/docs |
+| Homepage | [https://docs.headroomlabs.ai/docs](https://docs.headroomlabs.ai/docs) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 

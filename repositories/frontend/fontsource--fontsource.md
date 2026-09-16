@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: fontsource
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Self-host Open Source fonts in neatly bundled NPM packages.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | core-v0.4.0 (2026-09-06) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://fontsource.org |
+| Homepage | [https://fontsource.org](https://fontsource.org) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

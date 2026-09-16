@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/index.schema.json",
-  "generated_at": "2026-09-16T05:46:05+00:00",
+  "generated_at": "2026-09-16T08:59:10+00:00",
   "generator": "scripts/generate-index/build_index.py",
   "schema_version": "1.0.0",
   "entry_count": 608,
@@ -2265,7 +2265,7 @@
       "title": "mcp-server-cloudflare",
       "path": "knowledge/mcp/registry/cloudflare__mcp-server-cloudflare.md",
       "kind": "mcp",
-      "summary": "Registered as an MCP server under `cloudflare/mcp-server-cloudflare`. The repository returned no description from the GitHub API. Purpose must be confirmed from the README before adoption; this entry deliberately does not guess at capabilities.",
+      "summary": "Registered as an MCP server under \\`cloudflare/mcp-server-cloudflare\\`. The repository returned no description from the GitHub API. Purpose must be confirmed from the README before adoption; this entry deliberately does not guess at capabilities.",
       "tags": [
         "cloudflare",
         "edge",
@@ -2360,7 +2360,7 @@
         "web-search",
         "websearch"
       ],
-      "category": "browser",
+      "category": "search",
       "status": "STABLE",
       "tier": "S",
       "confidence": "high",
@@ -2565,7 +2565,7 @@
         "mcp",
         "microsoft"
       ],
-      "category": "ci-cd",
+      "category": "other",
       "status": "ACTIVE",
       "tier": "S",
       "confidence": "high",
@@ -2671,7 +2671,7 @@
       ],
       "category": "other",
       "status": "ACTIVE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "high",
       "updated_at": "2026-09-16",
       "verified_at": "2026-09-16",
@@ -2697,7 +2697,7 @@
         "python",
         "sdk"
       ],
-      "category": "ci-cd",
+      "category": "other",
       "status": "ACTIVE",
       "tier": "S",
       "confidence": "high",
@@ -2777,7 +2777,7 @@
         "sdk",
         "typescript"
       ],
-      "category": "ci-cd",
+      "category": "other",
       "status": "ACTIVE",
       "tier": "A",
       "confidence": "high",
@@ -2991,7 +2991,7 @@
         "typescript",
         "workflows"
       ],
-      "category": "ci-cd",
+      "category": "payments",
       "status": "ACTIVE",
       "tier": "S",
       "confidence": "high",
@@ -3044,7 +3044,7 @@
         "mcp",
         "search"
       ],
-      "category": "browser",
+      "category": "search",
       "status": "ACTIVE",
       "tier": "A",
       "confidence": "high",
@@ -3103,7 +3103,7 @@
       ],
       "category": "cloud",
       "status": "ACTIVE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "high",
       "updated_at": "2026-09-16",
       "verified_at": "2026-09-16",
@@ -3241,7 +3241,7 @@
       "title": "litellm",
       "path": "repositories/agent-frameworks/berriai--litellm.md",
       "kind": "repository",
-      "summary": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "summary": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging \\[Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM\\]",
       "tags": [
         "ai-gateway",
         "anthropic",
@@ -3740,7 +3740,7 @@
       "title": "camel",
       "path": "repositories/agent-frameworks/camel-ai--camel.md",
       "kind": "repository",
-      "summary": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+      "summary": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. `https://www.camel-ai.org`",
       "tags": [
         "agent",
         "ai-societies",
@@ -4213,7 +4213,7 @@
       "domain": "agent-skills",
       "category": "agent-skills",
       "status": "ACTIVE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "medium",
       "quality_score": 6.94,
       "trust_score": 5.24,
@@ -4237,7 +4237,7 @@
       "domain": "agent-skills",
       "category": "agent-skills",
       "status": "ACTIVE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "high",
       "quality_score": 7.77,
       "trust_score": 6.34,
@@ -4568,7 +4568,7 @@
       "domain": "agent-skills",
       "category": "agent-skills",
       "status": "STABLE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "low",
       "quality_score": 6.18,
       "trust_score": 3.85,
@@ -4982,7 +4982,7 @@
       "domain": "agent-skills",
       "category": "agent-skills",
       "status": "MAINTENANCE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "low",
       "quality_score": 5.71,
       "trust_score": 3.26,
@@ -5035,7 +5035,7 @@
       "domain": "agent-skills",
       "category": "agent-skills",
       "status": "ACTIVE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "medium",
       "quality_score": 6.56,
       "trust_score": 4.77,
@@ -5075,7 +5075,7 @@
       "title": "SWE-agent",
       "path": "repositories/agent-skills/swe-agent--swe-agent.md",
       "kind": "repository",
-      "summary": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]",
+      "summary": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. \\[NeurIPS 2024\\]",
       "tags": [
         "agent",
         "agent-based-model",
@@ -5654,7 +5654,7 @@
       "domain": "ai",
       "category": "ai",
       "status": "STABLE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "medium",
       "quality_score": 6.17,
       "trust_score": 4.16,
@@ -6662,7 +6662,7 @@
       "title": "Scrapling",
       "path": "repositories/browser-automation/d4vinci--scrapling.md",
       "kind": "repository",
-      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ",
+      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: `https://discord.gg/EMgGbDceNQ`",
       "tags": [
         "adaptive",
         "ai",
@@ -6951,7 +6951,7 @@
       "title": "browser-harness",
       "path": "repositories/browser-automation/browser-use--browser-harness.md",
       "kind": "repository",
-      "summary": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
+      "summary": "Browser Harness \\| Self-healing harness that enables LLMs to complete any task.",
       "tags": [
         "agent",
         "ai-agent",
@@ -7157,7 +7157,7 @@
       "title": "arcbox",
       "path": "repositories/browser-automation/arcboxlabs--arcbox.md",
       "kind": "repository",
-      "summary": "Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.",
+      "summary": "Run AI agents on real and isolated machines — own kernel, filesystem, and network — with \\<100ms boot. Local first, OCI compatible, pure Rust.",
       "tags": [
         "agent-sandbox",
         "ai-agents",
@@ -7284,7 +7284,7 @@
       "domain": "browser-automation",
       "category": "browser-automation",
       "status": "MAINTENANCE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "low",
       "quality_score": 5.12,
       "trust_score": 2.6,
@@ -7538,7 +7538,7 @@
       "title": "orm",
       "path": "repositories/databases/prisma--orm.md",
       "kind": "repository",
-      "summary": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "summary": "Next-generation ORM for Node.js & TypeScript \\| PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
       "tags": [
         "cockroachdb",
         "database",
@@ -7738,7 +7738,7 @@
       "title": "postgres",
       "path": "repositories/databases/postgres--postgres.md",
       "kind": "repository",
-      "summary": "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch",
+      "summary": "Mirror of the official PostgreSQL GIT repository. Note that this is just a \\*mirror\\* - we don't work with pull requests on github. To contribute, please see `https://wiki.postgresql.org/wiki/Submitting_a_Patch`",
       "tags": [
         "database",
         "postgres"
@@ -8281,7 +8281,7 @@
       "title": "hoppscotch",
       "path": "repositories/developer-tools/hoppscotch--hoppscotch.md",
       "kind": "repository",
-      "summary": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+      "summary": "Open-Source API Development Ecosystem • `https://hoppscotch.io` • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
       "tags": [
         "api",
         "api-client",
@@ -10635,7 +10635,7 @@
       "title": "OSWorld",
       "path": "repositories/evaluation/xlang-ai--osworld.md",
       "kind": "repository",
-      "summary": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+      "summary": "\\[NeurIPS 2024\\] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
       "tags": [
         "agent",
         "artificial-intelligence",
@@ -10901,7 +10901,7 @@
       "title": "Mind2Web",
       "path": "repositories/evaluation/osu-nlp-group--mind2web.md",
       "kind": "repository",
-      "summary": "[NeurIPS'23 Spotlight] \"Mind2Web: Towards a Generalist Agent for the Web\" -- the first LLM-based web agent and benchmark for generalist web agents",
+      "summary": "\\[NeurIPS'23 Spotlight\\] \"Mind2Web: Towards a Generalist Agent for the Web\" -- the first LLM-based web agent and benchmark for generalist web agents",
       "tags": [
         "dataset",
         "evaluation",
@@ -11156,7 +11156,7 @@
       "title": "bigcodebench",
       "path": "repositories/evaluation/bigcode-project--bigcodebench.md",
       "kind": "repository",
-      "summary": "[ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI",
+      "summary": "\\[ICLR'25\\] BigCodeBench: Benchmarking Code Generation Towards AGI",
       "tags": [
         "agent",
         "agents",
@@ -11960,7 +11960,7 @@
       "title": "xyflow",
       "path": "repositories/frontend/xyflow--xyflow.md",
       "kind": "repository",
-      "summary": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+      "summary": "React Flow \\| Svelte Flow - Powerful open source libraries for building node-based UIs with React (`https://reactflow.dev`) or Svelte (`https://svelteflow.dev`). Ready out-of-the-box and infinitely customizable.",
       "tags": [
         "diagrams",
         "flowchart",
@@ -12233,7 +12233,7 @@
       "domain": "frontend",
       "category": "frontend",
       "status": "MAINTENANCE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "medium",
       "quality_score": 6.09,
       "trust_score": 4.33,
@@ -13139,7 +13139,7 @@
       "domain": "instructions-standards",
       "category": "instructions-standards",
       "status": "MAINTENANCE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "low",
       "quality_score": 5.04,
       "trust_score": 3.2,
@@ -13551,7 +13551,7 @@
       "domain": "mcp-servers",
       "category": "mcp-servers",
       "status": "ACTIVE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "high",
       "quality_score": 7.92,
       "trust_score": 6.53,
@@ -14058,7 +14058,7 @@
       "domain": "mcp-servers",
       "category": "mcp-servers",
       "status": "ACTIVE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "high",
       "quality_score": 8.02,
       "trust_score": 6.85,
@@ -14242,7 +14242,7 @@
       "domain": "reasoning-research",
       "category": "reasoning-research",
       "status": "STABLE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "medium",
       "quality_score": 6.09,
       "trust_score": 4.66,
@@ -14385,7 +14385,7 @@
       "title": "tree-of-thought-llm",
       "path": "repositories/reasoning-research/princeton-nlp--tree-of-thought-llm.md",
       "kind": "repository",
-      "summary": "[NeurIPS 2023] Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "summary": "\\[NeurIPS 2023\\] Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
       "tags": [
         "large-language-models",
         "llm",
@@ -14445,7 +14445,7 @@
       "title": "ReAct",
       "path": "repositories/reasoning-research/ysymyth--react.md",
       "kind": "repository",
-      "summary": "[ICLR 2023] ReAct: Synergizing Reasoning and Acting in Language Models",
+      "summary": "\\[ICLR 2023\\] ReAct: Synergizing Reasoning and Acting in Language Models",
       "tags": [
         "decision-making",
         "large-language-models",
@@ -14474,7 +14474,7 @@
       "title": "reflexion",
       "path": "repositories/reasoning-research/noahshinn--reflexion.md",
       "kind": "repository",
-      "summary": "[NeurIPS 2023] Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "summary": "\\[NeurIPS 2023\\] Reflexion: Language Agents with Verbal Reinforcement Learning",
       "tags": [
         "ai",
         "artificial-intelligence",
@@ -14602,7 +14602,7 @@
       "domain": "reasoning-research",
       "category": "reasoning-research",
       "status": "ABANDONED",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "low",
       "quality_score": 4.02,
       "trust_score": 2.63,
@@ -14659,7 +14659,7 @@
       "domain": "reasoning-research",
       "category": "reasoning-research",
       "status": "STABLE",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "low",
       "quality_score": 5.42,
       "trust_score": 2.58,
@@ -14751,7 +14751,7 @@
       "title": "TTRL",
       "path": "repositories/reasoning-research/prime-rl--ttrl.md",
       "kind": "repository",
-      "summary": "[NeurIPS 2025] TTRL: Test-Time Reinforcement Learning",
+      "summary": "\\[NeurIPS 2025\\] TTRL: Test-Time Reinforcement Learning",
       "tags": [
         "llm",
         "reasoning",
@@ -14847,7 +14847,7 @@
       "domain": "reasoning-research",
       "category": "reasoning-research",
       "status": "ABANDONED",
-      "tier": "UNVERIFIED",
+      "tier": "NO-LICENSE",
       "confidence": "low",
       "quality_score": 4.06,
       "trust_score": 1.88,
@@ -15693,7 +15693,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 758
+      "estimated_tokens": 842
     },
     {
       "id": "mcp-chromedevtools-chrome-devtools-mcp",
@@ -15716,7 +15716,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 749
+      "estimated_tokens": 832
     },
     {
       "id": "mcp-deusdata-codebase-memory-mcp",
@@ -15752,7 +15752,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 833
+      "estimated_tokens": 917
     },
     {
       "id": "mcp-googlecloudplatform-cloud-run-mcp",
@@ -15771,7 +15771,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 743
+      "estimated_tokens": 827
     },
     {
       "id": "mcp-awslabs-mcp",
@@ -15795,7 +15795,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 713
+      "estimated_tokens": 796
     },
     {
       "id": "mcp-browserbase-mcp-server-browserbase",
@@ -15817,7 +15817,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 786
+      "estimated_tokens": 880
     },
     {
       "id": "mcp-cloudflare-mcp-server-cloudflare",
@@ -15834,7 +15834,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 876
+      "estimated_tokens": 970
     },
     {
       "id": "mcp-crystaldba-postgres-mcp",
@@ -15851,7 +15851,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 759
+      "estimated_tokens": 850
     },
     {
       "id": "mcp-czlonkowski-n8n-mcp",
@@ -15870,7 +15870,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 756
+      "estimated_tokens": 840
     },
     {
       "id": "mcp-exa-labs-exa-mcp-server",
@@ -15893,7 +15893,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 726
+      "estimated_tokens": 810
     },
     {
       "id": "mcp-firebase-firebase-tools",
@@ -15909,7 +15909,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 721
+      "estimated_tokens": 806
     },
     {
       "id": "mcp-firecrawl-firecrawl-mcp-server",
@@ -15939,7 +15939,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 771
+      "estimated_tokens": 854
     },
     {
       "id": "mcp-getsentry-sentry-mcp",
@@ -15958,7 +15958,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 784
+      "estimated_tokens": 867
     },
     {
       "id": "mcp-github-github-mcp-server",
@@ -15975,7 +15975,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 729
+      "estimated_tokens": 813
     },
     {
       "id": "mcp-korotovsky-slack-mcp-server",
@@ -15996,7 +15996,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 789
+      "estimated_tokens": 872
     },
     {
       "id": "mcp-makenotion-notion-mcp-server",
@@ -16012,7 +16012,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 722
+      "estimated_tokens": 806
     },
     {
       "id": "mcp-microsoft-mcp",
@@ -16029,7 +16029,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 776
+      "estimated_tokens": 852
     },
     {
       "id": "mcp-microsoft-playwright-mcp",
@@ -16047,7 +16047,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 728
+      "estimated_tokens": 812
     },
     {
       "id": "mcp-mksglu-context-mode",
@@ -16083,7 +16083,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 849
+      "estimated_tokens": 932
     },
     {
       "id": "mcp-modelcontextprotocol-inspector",
@@ -16104,7 +16104,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 782
+      "estimated_tokens": 867
     },
     {
       "id": "mcp-modelcontextprotocol-python-sdk",
@@ -16123,7 +16123,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 756
+      "estimated_tokens": 831
     },
     {
       "id": "mcp-modelcontextprotocol-registry",
@@ -16140,7 +16140,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 801
+      "estimated_tokens": 868
     },
     {
       "id": "mcp-modelcontextprotocol-servers",
@@ -16156,7 +16156,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 780
+      "estimated_tokens": 869
     },
     {
       "id": "mcp-modelcontextprotocol-typescript-sdk",
@@ -16175,7 +16175,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 816
+      "estimated_tokens": 892
     },
     {
       "id": "mcp-mongodb-js-mongodb-mcp-server",
@@ -16194,7 +16194,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 759
+      "estimated_tokens": 843
     },
     {
       "id": "mcp-neondatabase-mcp-server-neon",
@@ -16211,7 +16211,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 744
+      "estimated_tokens": 827
     },
     {
       "id": "mcp-oraios-serena",
@@ -16240,7 +16240,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 810
+      "estimated_tokens": 893
     },
     {
       "id": "mcp-punkpeye-awesome-mcp-servers",
@@ -16258,7 +16258,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 725
+      "estimated_tokens": 803
     },
     {
       "id": "mcp-redis-mcp-redis",
@@ -16279,7 +16279,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 768
+      "estimated_tokens": 852
     },
     {
       "id": "mcp-sooperset-mcp-atlassian",
@@ -16297,7 +16297,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 739
+      "estimated_tokens": 823
     },
     {
       "id": "mcp-stripe-ai",
@@ -16321,7 +16321,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 741
+      "estimated_tokens": 894
     },
     {
       "id": "mcp-supabase-mcp",
@@ -16338,7 +16338,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 719
+      "estimated_tokens": 808
     },
     {
       "id": "mcp-tavily-ai-tavily-mcp",
@@ -16354,7 +16354,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 741
+      "estimated_tokens": 825
     },
     {
       "id": "mcp-upstash-context7",
@@ -16374,7 +16374,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 755
+      "estimated_tokens": 839
     },
     {
       "id": "mcp-vercel-mcp-handler",
@@ -16391,7 +16391,7 @@
       "confidence": "high",
       "verified_at": "2026-09-16",
       "expires_at": "2026-12-15",
-      "estimated_tokens": 787
+      "estimated_tokens": 864
     },
     {
       "id": "mcp-security",

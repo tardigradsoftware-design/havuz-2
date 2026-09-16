@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: actions
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > The Runner for GitHub Actions :rocket:
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v2.337.0 (2026-08-26) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://github.com/features/actions |
+| Homepage | [https://github.com/features/actions](https://github.com/features/actions) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 

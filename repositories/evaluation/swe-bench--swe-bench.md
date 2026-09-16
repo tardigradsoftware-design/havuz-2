@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: SWE-bench
     license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > SWE-bench: Can Language Models Resolve Real-world Github Issues?
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.swebench.com |
+| Homepage | [https://www.swebench.com](https://www.swebench.com) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `benchmark` (static artifact — quiet history is expected) |
 

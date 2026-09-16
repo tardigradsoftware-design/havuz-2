@@ -33,6 +33,7 @@ sources:
     type: github-repository
     organization: ory
     license: Apache-2.0
+    license_risk: none
     confidence: very-high
     claim_type: fact
     verified_at: 2026-09-15
@@ -47,6 +48,8 @@ sources:
 
 🔵 STABLE · tier **S** · production-grade · confidence **very-high**
 
+> _Upstream description, quoted as published and not verified here:_
+>
 > Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network.
 
 ## Facts (verified 2026-09-15 via the GitHub API)
@@ -66,7 +69,7 @@ sources:
 | Latest release | v26.2.0 (2026-03-20) |
 | Archived | no |
 | Fork | no |
-| Homepage | https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=kratos |
+| Homepage | [https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=kratos](https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=kratos) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 
