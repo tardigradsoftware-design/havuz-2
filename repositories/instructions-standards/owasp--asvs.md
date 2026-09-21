@@ -3,26 +3,26 @@ id: owasp--asvs
 title: "OWASP/ASVS"
 domain: instructions-standards
 summary: >-
-  OWASP/ASVS — ACTIVE, tier A,
-  3,604 stars, license CC-BY-SA-4.0, quality 7.91/10, trust 7.45/10.
-  Verified against the GitHub API on 2026-09-15.
+  OWASP/ASVS — STABLE, tier A,
+  3,610 stars, license CC-BY-SA-4.0, quality 7.9/10, trust 7.45/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "instructions-standards", "owasp", "security", "standard"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.83, "reproducibility": 6.9, "security": 7.0, "recency": 9.85, "evidence": 4.5}
-  quality_score: 7.91
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.83, "reproducibility": 6.9, "security": 7.0, "recency": 9.77, "evidence": 4.5}
+  quality_score: 7.9
   trust_score: 7.45
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # OWASP/ASVS
 
-🟢 ACTIVE · tier **A** · production-ready · confidence **high**
+🔵 STABLE · tier **A** · production-ready · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Application Security Verification Standard
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | HTML |
 | License | `CC-BY-SA-4.0` |
-| Stars | 3,604 (checked 2026-09-15) |
+| Stars | 3,610 (checked 2026-09-21) |
 | Forks | 832 |
-| Open issues | 110 |
+| Open issues | 111 |
 | Contributors | 113 |
-| Last push | 2026-09-03 (11 days before verification) |
+| Last push | 2026-09-03 (17 days before verification) |
 | Latest release | latest (2026-09-03) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 4.83 |
 | reproducibility | 6.9 |
 | security | 7.0 |
-| recency | 9.85 |
+| recency | 9.77 |
 | evidence | 4.5 |
-| **quality_score** (weighted) | **7.91** |
+| **quality_score** (weighted) | **7.9** |
 | **trust_score** | **7.45** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

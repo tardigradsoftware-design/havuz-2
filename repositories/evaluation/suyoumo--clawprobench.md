@@ -4,25 +4,25 @@ title: "suyoumo/ClawProBench"
 domain: evaluation
 summary: >-
   suyoumo/ClawProBench — STABLE, tier A,
-  823 stars, license Apache-2.0, quality 7.37/10, trust 6.21/10.
-  Verified against the GitHub API on 2026-09-15.
+  823 stars, license Apache-2.0, quality 7.36/10, trust 6.21/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "evaluation", "github-repository", "live"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 8.5, "adoption": 9.69, "documentation": 7.7, "reproducibility": 8.0, "security": 6.0, "recency": 9.71, "evidence": 5.0}
-  quality_score: 7.37
+  components: {"authority": 5.0, "maintenance": 8.5, "adoption": 9.7, "documentation": 7.7, "reproducibility": 8.0, "security": 6.0, "recency": 9.64, "evidence": 5.0}
+  quality_score: 7.36
   trust_score: 6.21
   tier: A
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > ClawProBench is a live-first benchmark harness for evaluating LLM agents   in the OpenClaw runtime with deterministic grading and repeated-trial   reliability.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 823 (checked 2026-09-15) |
-| Forks | 54 |
-| Open issues | 1 |
+| Stars | 823 (checked 2026-09-21) |
+| Forks | 55 |
+| Open issues | 0 |
 | Contributors | — |
-| Last push | 2026-08-25 (21 days before verification) |
+| Last push | 2026-08-25 (26 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -79,13 +79,13 @@ sources:
 |---|---|
 | authority | 5.0 |
 | maintenance | 8.5 |
-| adoption | 9.69 |
+| adoption | 9.7 |
 | documentation | 7.7 |
 | reproducibility | 8.0 |
 | security | 6.0 |
-| recency | 9.71 |
+| recency | 9.64 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.37** |
+| **quality_score** (weighted) | **7.36** |
 | **trust_score** | **6.21** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

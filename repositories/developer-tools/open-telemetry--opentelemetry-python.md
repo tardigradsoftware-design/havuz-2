@@ -4,17 +4,17 @@ title: "open-telemetry/opentelemetry-python"
 domain: developer-tools
 summary: >-
   open-telemetry/opentelemetry-python — ACTIVE, tier S,
-  2,633 stars, license Apache-2.0, quality 8.62/10, trust 8.55/10.
-  Verified against the GitHub API on 2026-09-15.
+  2,639 stars, license Apache-2.0, quality 8.62/10, trust 8.55/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "observability", "tracing"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.68, "reproducibility": 9.0, "security": 4.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.62
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > OpenTelemetry Python API and SDK
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 2,633 (checked 2026-09-15) |
-| Forks | 1,004 |
-| Open issues | 423 |
-| Contributors | 373 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 2,639 (checked 2026-09-21) |
+| Forks | 1,009 |
+| Open issues | 422 |
+| Contributors | 377 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v1.44.0 (2026-07-16) |
 | Archived | no |
 | Fork | no |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 8,184 bytes |
+| README size | 8,179 bytes |
 
 ## Curated judgement
 

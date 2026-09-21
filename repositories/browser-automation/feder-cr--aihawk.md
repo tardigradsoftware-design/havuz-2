@@ -4,17 +4,17 @@ title: "feder-cr/AIHawk"
 domain: browser-automation
 summary: >-
   feder-cr/AIHawk — ACTIVE, tier A,
-  31,592 stars, license MIT, quality 7.62/10, trust 6.6/10.
-  Verified against the GitHub API on 2026-09-15.
+  31,614 stars, license MIT, quality 7.62/10, trust 6.6/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["anti-detect", "browser", "browser-automation", "github-repository", "mcp"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.66, "reproducibility": 9.0, "security": 3.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 7.62
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Anti detect browser and web browsing agent: an open-source MCP server for undetected browsing, AI web scraping and computer use agents. No captchas.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 31,592 (checked 2026-09-15) |
-| Forks | 4,664 |
-| Open issues | 1 |
+| Stars | 31,614 (checked 2026-09-21) |
+| Forks | 4,670 |
+| Open issues | 0 |
 | Contributors | 10 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v0.68.0 (2026-09-15) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v0.68.9 (2026-09-18) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://github.com/feder-cr/AIHawk/wiki](https://github.com/feder-cr/AIHawk/wiki) |

@@ -4,25 +4,25 @@ title: "cursor/cursor"
 domain: agent-skills
 summary: >-
   cursor/cursor — MAINTENANCE, tier NO-LICENSE,
-  33,244 stars, license NONE, quality 5.71/10, trust 3.26/10.
-  Verified against the GitHub API on 2026-09-15.
+  33,252 stars, license NONE, quality 5.7/10, trust 3.26/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "issue-tracker"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.5, "maintenance": 5.5, "adoption": 10.0, "documentation": 4.05, "reproducibility": 2.5, "security": 4.0, "recency": 8.27, "evidence": 4.0}
-  quality_score: 5.71
+  components: {"authority": 5.5, "maintenance": 5.5, "adoption": 10.0, "documentation": 4.05, "reproducibility": 2.5, "security": 4.0, "recency": 8.21, "evidence": 4.0}
+  quality_score: 5.7
   trust_score: 3.26
   tier: NO-LICENSE
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -51,11 +51,11 @@ sources:
 > _No description published._
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-09-21. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -64,11 +64,11 @@ sources:
 | Official upstream | no |
 | Language | — |
 | License | `NONE` |
-| Stars | 33,244 (checked 2026-09-15) |
-| Forks | 2,287 |
+| Stars | 33,252 (checked 2026-09-21) |
+| Forks | 2,290 |
 | Open issues | 3 |
 | Contributors | 31 |
-| Last push | 2026-05-12 (126 days before verification) |
+| Last push | 2026-05-12 (131 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -86,9 +86,9 @@ sources:
 | documentation | 4.05 |
 | reproducibility | 2.5 |
 | security | 4.0 |
-| recency | 8.27 |
+| recency | 8.21 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **5.71** |
+| **quality_score** (weighted) | **5.7** |
 | **trust_score** | **3.26** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -138,7 +138,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-Repository moved: `getcursor/cursor` -> `cursor/cursor`. Update any hard-coded URLs; the old path 404s once GitHub drops the redirect. No push in 126 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only.
+Repository moved: `getcursor/cursor` -> `cursor/cursor`. Update any hard-coded URLs; the old path 404s once GitHub drops the redirect. No push in 131 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only.
 
 ## How to re-verify
 

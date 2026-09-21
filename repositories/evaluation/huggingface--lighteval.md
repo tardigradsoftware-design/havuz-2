@@ -4,25 +4,25 @@ title: "huggingface/lighteval"
 domain: evaluation
 summary: >-
   huggingface/lighteval — ACTIVE, tier S,
-  2,541 stars, license MIT, quality 8.61/10, trust 8.51/10.
-  Verified against the GitHub API on 2026-09-15.
+  2,547 stars, license MIT, quality 8.62/10, trust 8.51/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.72, "reproducibility": 10.0, "security": 4.5, "recency": 9.92, "evidence": 8.0}
-  quality_score: 8.61
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.72, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.0}
+  quality_score: 8.62
   trust_score: 8.51
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 2,541 (checked 2026-09-15) |
-| Forks | 554 |
-| Open issues | 409 |
-| Contributors | 121 |
-| Last push | 2026-09-09 (6 days before verification) |
+| Stars | 2,547 (checked 2026-09-21) |
+| Forks | 557 |
+| Open issues | 412 |
+| Contributors | 122 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v0.13.0 (2025-11-24) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.72 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 9.92 |
+| recency | 10.0 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.61** |
+| **quality_score** (weighted) | **8.62** |
 | **trust_score** | **8.51** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

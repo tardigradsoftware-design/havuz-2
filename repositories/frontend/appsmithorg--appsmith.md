@@ -4,17 +4,17 @@ title: "appsmithorg/appsmith"
 domain: frontend
 summary: >-
   appsmithorg/appsmith — ACTIVE, tier S,
-  40,878 stars, license Apache-2.0, quality 8.75/10, trust 8.7/10.
-  Verified against the GitHub API on 2026-09-15.
+  40,916 stars, license Apache-2.0, quality 8.75/10, trust 8.7/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["admin", "frontend", "github-repository", "low-code"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 5.5}
   quality_score: 8.75
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 40,878 (checked 2026-09-15) |
-| Forks | 4,760 |
-| Open issues | 4,473 |
+| Stars | 40,916 (checked 2026-09-21) |
+| Forks | 4,763 |
+| Open issues | 4,489 |
 | Contributors | 327 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v2.4 (2026-09-09) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v2.4.1 (2026-09-17) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.appsmith.com](https://www.appsmith.com) |

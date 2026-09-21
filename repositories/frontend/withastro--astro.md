@@ -4,17 +4,17 @@ title: "withastro/astro"
 domain: frontend
 summary: >-
   withastro/astro — ACTIVE, tier A,
-  62,586 stars, license NOASSERTION, quality 8.33/10, trust 8.21/10.
-  Verified against the GitHub API on 2026-09-15.
+  62,729 stars, license NOASSERTION, quality 8.33/10, trust 8.21/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["astro", "content", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.7, "reproducibility": 7.1, "security": 6.5, "recency": 10.0, "evidence": 6.0}
   quality_score: 8.33
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > The web framework for content-driven websites. ⭐️ Star to support our work!
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 62,586 (checked 2026-09-15) |
-| Forks | 3,788 |
-| Open issues | 79 |
+| Stars | 62,729 (checked 2026-09-21) |
+| Forks | 3,800 |
+| Open issues | 73 |
 | Contributors | 336 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | astro@7.3.2 (2026-09-08) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | @astrojs/vue@7.0.3 (2026-09-16) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://astro.build](https://astro.build) |

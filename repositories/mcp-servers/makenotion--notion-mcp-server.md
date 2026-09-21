@@ -4,25 +4,25 @@ title: "makenotion/notion-mcp-server"
 domain: mcp-servers
 summary: >-
   makenotion/notion-mcp-server — ACTIVE, tier A,
-  4,634 stars, license MIT, quality 7.88/10, trust 7.43/10.
-  Verified against the GitHub API on 2026-09-15.
+  4,643 stars, license MIT, quality 7.9/10, trust 7.44/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "notion"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.36, "reproducibility": 7.5, "security": 4.5, "recency": 9.97, "evidence": 4.5}
-  quality_score: 7.88
-  trust_score: 7.43
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.46, "reproducibility": 7.5, "security": 4.5, "recency": 10.0, "evidence": 4.5}
+  quality_score: 7.9
+  trust_score: 7.44
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Official Notion MCP Server
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 4,634 (checked 2026-09-15) |
-| Forks | 628 |
-| Open issues | 195 |
+| Stars | 4,643 (checked 2026-09-21) |
+| Forks | 634 |
+| Open issues | 197 |
 | Contributors | 22 |
-| Last push | 2026-09-13 (2 days before verification) |
+| Last push | 2026-09-20 (0 days before verification) |
 | Latest release | v2.1.0 (2026-01-31) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 8.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.36 |
+| documentation | 6.46 |
 | reproducibility | 7.5 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 4.5 |
-| **quality_score** (weighted) | **7.88** |
-| **trust_score** | **7.43** |
+| **quality_score** (weighted) | **7.9** |
+| **trust_score** | **7.44** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 16,267 bytes |
+| README size | 17,527 bytes |
 
 ## Curated judgement
 

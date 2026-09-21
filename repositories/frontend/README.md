@@ -4,40 +4,40 @@
 # Frontend
 
 54 repositories · 53 usable · 1 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-15.
+all facts verified against the GitHub API on 2026-09-21.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [lobehub/lobehub](./lobehub--lobehub.md) | 82,498 | A | 🟢 ACTIVE | `NOASSERTION` | 9.22 | 2026-09-15 |
-| [calcom/cal.diy](./calcom--cal.diy.md) | 48,481 | S | 🟢 ACTIVE | `MIT` | 9.2 | 2026-09-15 |
-| [payloadcms/payload](./payloadcms--payload.md) | 44,751 | S | 🟢 ACTIVE | `MIT` | 8.98 | 2026-09-15 |
-| [mui/base-ui](./mui--base-ui.md) | 10,906 | S | 🟢 ACTIVE | `MIT` | 8.97 | 2026-09-15 |
-| [nuxt/nuxt](./nuxt--nuxt.md) | 60,864 | S | 🟢 ACTIVE | `MIT` | 8.95 | 2026-09-15 |
-| [pmndrs/zustand](./pmndrs--zustand.md) | 58,689 | S | 🟢 ACTIVE | `MIT` | 8.85 | 2026-09-15 |
-| [pmndrs/drei](./pmndrs--drei.md) | 9,869 | S | 🟢 ACTIVE | `MIT` | 8.85 | 2026-09-15 |
-| [xyflow/xyflow](./xyflow--xyflow.md) | 38,382 | S | 🟢 ACTIVE | `MIT` | 8.79 | 2026-09-15 |
-| [TanStack/table](./tanstack--table.md) | 28,429 | S | 🟢 ACTIVE | `MIT` | 8.71 | 2026-09-15 |
-| [appsmithorg/appsmith](./appsmithorg--appsmith.md) | 40,878 | S | 🟢 ACTIVE | `Apache-2.0` | 8.7 | 2026-09-15 |
-| [vercel/next.js](./vercel--next.js.md) | 142,318 | S | 🟢 ACTIVE | `MIT` | 8.62 | 2026-09-15 |
-| [storybookjs/storybook](./storybookjs--storybook.md) | 91,053 | S | 🟢 ACTIVE | `MIT` | 8.6 | 2026-09-15 |
-| [open-webui/open-webui](./open-webui--open-webui.md) | 152,147 | A | 🟢 ACTIVE | `NOASSERTION` | 8.55 | 2026-09-15 |
-| [mrdoob/three.js](./mrdoob--three.js.md) | 115,552 | S | 🟢 ACTIVE | `MIT` | 8.54 | 2026-09-15 |
-| [recharts/recharts](./recharts--recharts.md) | 27,557 | S | 🟢 ACTIVE | `MIT` | 8.5 | 2026-09-15 |
+| [lobehub/lobehub](./lobehub--lobehub.md) | 82,714 | A | 🟢 ACTIVE | `NOASSERTION` | 9.22 | 2026-09-21 |
+| [calcom/cal.diy](./calcom--cal.diy.md) | 48,587 | S | 🟢 ACTIVE | `MIT` | 9.2 | 2026-09-21 |
+| [payloadcms/payload](./payloadcms--payload.md) | 44,855 | S | 🟢 ACTIVE | `MIT` | 8.98 | 2026-09-21 |
+| [mui/base-ui](./mui--base-ui.md) | 10,960 | S | 🟢 ACTIVE | `MIT` | 8.97 | 2026-09-21 |
+| [nuxt/nuxt](./nuxt--nuxt.md) | 60,886 | S | 🟢 ACTIVE | `MIT` | 8.95 | 2026-09-21 |
+| [pmndrs/zustand](./pmndrs--zustand.md) | 58,714 | S | 🟢 ACTIVE | `MIT` | 8.85 | 2026-09-21 |
+| [pmndrs/drei](./pmndrs--drei.md) | 9,880 | S | 🟢 ACTIVE | `MIT` | 8.85 | 2026-09-21 |
+| [xyflow/xyflow](./xyflow--xyflow.md) | 38,450 | S | 🟢 ACTIVE | `MIT` | 8.79 | 2026-09-21 |
+| [TanStack/table](./tanstack--table.md) | 28,447 | S | 🟢 ACTIVE | `MIT` | 8.71 | 2026-09-21 |
+| [appsmithorg/appsmith](./appsmithorg--appsmith.md) | 40,916 | S | 🟢 ACTIVE | `Apache-2.0` | 8.7 | 2026-09-21 |
+| [vercel/next.js](./vercel--next.js.md) | 142,387 | S | 🟢 ACTIVE | `MIT` | 8.62 | 2026-09-21 |
+| [storybookjs/storybook](./storybookjs--storybook.md) | 91,113 | S | 🟢 ACTIVE | `MIT` | 8.6 | 2026-09-21 |
+| [open-webui/open-webui](./open-webui--open-webui.md) | 152,677 | A | 🟢 ACTIVE | `NOASSERTION` | 8.55 | 2026-09-21 |
+| [mrdoob/three.js](./mrdoob--three.js.md) | 115,704 | S | 🟢 ACTIVE | `MIT` | 8.54 | 2026-09-21 |
+| [recharts/recharts](./recharts--recharts.md) | 27,575 | S | 🟢 ACTIVE | `MIT` | 8.5 | 2026-09-21 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [rsms/inter](./rsms--inter.md) | 19,885 | 🔴 ABANDONED | 665d |
+| [rsms/inter](./rsms--inter.md) | 19,899 | 🔴 ABANDONED | 671d |
 
 ## Cards
 
 - [apache/echarts](./apache--echarts.md) — tier S, ACTIVE
 - [appsmithorg/appsmith](./appsmithorg--appsmith.md) — tier S, ACTIVE
 - [calcom/cal.diy](./calcom--cal.diy.md) — tier S, ACTIVE
-- [colinhacks/zod](./colinhacks--zod.md) — tier S, ACTIVE
+- [colinhacks/zod](./colinhacks--zod.md) — tier A, ACTIVE
 - [d3/d3](./d3--d3.md) — tier A, STABLE
 - [documenso/documenso](./documenso--documenso.md) — tier S, ACTIVE
 - [dubinc/dub](./dubinc--dub.md) — tier A, ACTIVE
@@ -55,7 +55,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [mui/base-ui](./mui--base-ui.md) — tier S, ACTIVE
 - [nocodb/nocodb](./nocodb--nocodb.md) — tier A, ACTIVE
 - [nuxt/nuxt](./nuxt--nuxt.md) — tier S, ACTIVE
-- [observablehq/plot](./observablehq--plot.md) — tier S, ACTIVE
+- [observablehq/plot](./observablehq--plot.md) — tier S, STABLE
 - [open-webui/open-webui](./open-webui--open-webui.md) — tier A, ACTIVE
 - [payloadcms/payload](./payloadcms--payload.md) — tier S, ACTIVE
 - [pmndrs/drei](./pmndrs--drei.md) — tier S, ACTIVE

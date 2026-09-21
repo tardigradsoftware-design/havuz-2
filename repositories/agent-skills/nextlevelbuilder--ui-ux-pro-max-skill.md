@@ -4,17 +4,17 @@ title: "nextlevelbuilder/ui-ux-pro-max-skill"
 domain: agent-skills
 summary: >-
   nextlevelbuilder/ui-ux-pro-max-skill — ACTIVE, tier S,
-  127,815 stars, license MIT, quality 8.0/10, trust 7.2/10.
-  Verified against the GitHub API on 2026-09-15.
+  129,449 stars, license MIT, quality 8.0/10, trust 7.2/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "design", "github-repository", "skills", "ui", "ux"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 7.0, "security": 6.0, "recency": 10.0, "evidence": 5.5}
   quality_score: 8.0
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 127,815 (checked 2026-09-15) |
-| Forks | 13,642 |
-| Open issues | 85 |
-| Contributors | 87 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 129,449 (checked 2026-09-21) |
+| Forks | 13,790 |
+| Open issues | 83 |
+| Contributors | 88 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v2.15.0 (2026-08-13) |
 | Archived | no |
 | Fork | no |

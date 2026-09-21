@@ -4,25 +4,25 @@ title: "OS-Agent-Survey/OS-Agent-Survey"
 domain: reasoning-research
 summary: >-
   OS-Agent-Survey/OS-Agent-Survey — ABANDONED, tier NO-LICENSE,
-  487 stars, license NONE, quality 4.06/10, trust 1.88/10.
-  Verified against the GitHub API on 2026-09-15.
+  486 stars, license NONE, quality 4.05/10, trust 1.88/10.
+  Verified against the GitHub API on 2026-09-21.
 status: deprecated
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["computer-use", "github-repository", "papers", "reasoning-research", "survey"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 1.0, "adoption": 8.99, "documentation": 7.5, "reproducibility": 1.0, "security": 0.5, "recency": 4.59, "evidence": 2.0}
-  quality_score: 4.06
+  components: {"authority": 5.0, "maintenance": 1.0, "adoption": 8.99, "documentation": 7.5, "reproducibility": 1.0, "security": 0.5, "recency": 4.51, "evidence": 2.0}
+  quality_score: 4.05
   trust_score: 1.88
   tier: NO-LICENSE
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > This is the repo for the paper "OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use" (ACL 2025 Oral).
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-09-21. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | no |
 | Language | — |
 | License | `NONE` |
-| Stars | 487 (checked 2026-09-15) |
+| Stars | 486 (checked 2026-09-21) |
 | Forks | 21 |
 | Open issues | 3 |
 | Contributors | 5 |
-| Last push | 2025-08-16 (395 days before verification) |
+| Last push | 2025-08-16 (401 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -88,9 +88,9 @@ sources:
 | documentation | 7.5 |
 | reproducibility | 1.0 |
 | security | 0.5 |
-| recency | 4.59 |
+| recency | 4.51 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **4.06** |
+| **quality_score** (weighted) | **4.05** |
 | **trust_score** | **1.88** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -140,7 +140,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 395 days (>365d). Likely abandoned; prefer an actively maintained alternative. NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only.
+No push in 401 days (>365d). Likely abandoned; prefer an actively maintained alternative. NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only.
 
 ## How to re-verify
 

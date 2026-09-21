@@ -4,25 +4,25 @@ title: "tailwindlabs/headlessui"
 domain: frontend
 summary: >-
   tailwindlabs/headlessui — MAINTENANCE, tier A,
-  28,740 stars, license MIT, quality 7.09/10, trust 6.79/10.
-  Verified against the GitHub API on 2026-09-15.
+  28,751 stars, license MIT, quality 7.08/10, trust 6.79/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["accessibility", "components", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 5.26, "reproducibility": 7.0, "security": 4.5, "recency": 7.89, "evidence": 5.0}
-  quality_score: 7.09
+  components: {"authority": 9.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 5.26, "reproducibility": 7.0, "security": 4.5, "recency": 7.81, "evidence": 5.0}
+  quality_score: 7.08
   trust_score: 6.79
   tier: A
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 28,740 (checked 2026-09-15) |
+| Stars | 28,751 (checked 2026-09-21) |
 | Forks | 1,201 |
 | Open issues | 111 |
 | Contributors | 74 |
-| Last push | 2026-04-13 (154 days before verification) |
+| Last push | 2026-04-13 (160 days before verification) |
 | Latest release | @headlessui/react@v2.2.10 (2026-04-07) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.26 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 7.89 |
+| recency | 7.81 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.09** |
+| **quality_score** (weighted) | **7.08** |
 | **trust_score** | **6.79** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 154 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 160 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

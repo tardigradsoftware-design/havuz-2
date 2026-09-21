@@ -4,25 +4,25 @@ title: "hoppscotch/hoppscotch"
 domain: developer-tools
 summary: >-
   hoppscotch/hoppscotch — ACTIVE, tier S,
-  80,311 stars, license MIT, quality 8.4/10, trust 8.12/10.
-  Verified against the GitHub API on 2026-09-15.
+  80,431 stars, license MIT, quality 8.4/10, trust 8.12/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["api-client", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.47, "reproducibility": 7.5, "security": 7.0, "recency": 9.99, "evidence": 5.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.47, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.4
   trust_score: 8.12
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Open-Source API Development Ecosystem • `https://hoppscotch.io` • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 80,311 (checked 2026-09-15) |
-| Forks | 6,108 |
-| Open issues | 822 |
+| Stars | 80,431 (checked 2026-09-21) |
+| Forks | 6,120 |
+| Open issues | 825 |
 | Contributors | 329 |
-| Last push | 2026-09-14 (1 days before verification) |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | 2026.8.1 (2026-09-14) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.47 |
 | reproducibility | 7.5 |
 | security | 7.0 |
-| recency | 9.99 |
+| recency | 10.0 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **8.4** |
 | **trust_score** | **8.12** |

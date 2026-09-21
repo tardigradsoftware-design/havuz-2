@@ -4,17 +4,17 @@ title: "prettier/prettier"
 domain: developer-tools
 summary: >-
   prettier/prettier — ACTIVE, tier S,
-  52,264 stars, license MIT, quality 8.58/10, trust 8.49/10.
-  Verified against the GitHub API on 2026-09-15.
+  52,287 stars, license MIT, quality 8.58/10, trust 8.49/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "formatting", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.28, "reproducibility": 9.0, "security": 4.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.58
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Prettier is an opinionated code formatter.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 52,264 (checked 2026-09-15) |
-| Forks | 4,999 |
-| Open issues | 1,428 |
+| Stars | 52,287 (checked 2026-09-21) |
+| Forks | 5,013 |
+| Open issues | 1,442 |
 | Contributors | 432 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | 3.9.6 (2026-07-21) |
+| Last push | 2026-09-20 (0 days before verification) |
+| Latest release | 3.9.8 (2026-09-17) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://prettier.io](https://prettier.io) |

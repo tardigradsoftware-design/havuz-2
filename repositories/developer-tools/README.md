@@ -4,35 +4,35 @@
 # Developer tools, CI/CD & infrastructure
 
 81 repositories · 78 usable · 3 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-15.
+all facts verified against the GitHub API on 2026-09-21.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [mermaid-js/mermaid](./mermaid-js--mermaid.md) | 90,253 | S | 🟢 ACTIVE | `MIT` | 9.14 | 2026-09-15 |
-| [argoproj/argo-cd](./argoproj--argo-cd.md) | 24,164 | S | 🟢 ACTIVE | `Apache-2.0` | 9.04 | 2026-09-15 |
-| [pa11y/pa11y](./pa11y--pa11y.md) | 4,527 | S | 🟢 ACTIVE | `LGPL-3.0` | 8.91 | 2026-09-15 |
-| [trufflesecurity/trufflehog](./trufflesecurity--trufflehog.md) | 27,906 | S | 🟢 ACTIVE | `AGPL-3.0` | 8.85 | 2026-09-15 |
-| [semgrep/semgrep](./semgrep--semgrep.md) | 16,652 | S | 🟢 ACTIVE | `LGPL-2.1` | 8.85 | 2026-09-15 |
-| [eslint/eslint](./eslint--eslint.md) | 27,505 | S | 🟢 ACTIVE | `MIT` | 8.83 | 2026-09-15 |
-| [lint-staged/lint-staged](./lint-staged--lint-staged.md) | 14,732 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-15 |
-| [railwayapp/cli](./railwayapp--cli.md) | 609 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-15 |
-| [vitest-dev/vitest](./vitest-dev--vitest.md) | 17,099 | S | 🟢 ACTIVE | `MIT` | 8.78 | 2026-09-15 |
-| [usebruno/bruno](./usebruno--bruno.md) | 46,966 | S | 🟢 ACTIVE | `MIT` | 8.73 | 2026-09-15 |
-| [junegunn/fzf](./junegunn--fzf.md) | 82,993 | S | 🟢 ACTIVE | `MIT` | 8.68 | 2026-09-15 |
-| [astral-sh/uv](./astral-sh--uv.md) | 89,847 | S | 🟢 ACTIVE | `Apache-2.0` | 8.67 | 2026-09-15 |
-| [testing-library/react-testing-library](./testing-library--react-testing-library.md) | 19,651 | S | 🔵 STABLE | `MIT` | 8.65 | 2026-09-15 |
-| [open-telemetry/opentelemetry-js](./open-telemetry--opentelemetry-js.md) | 3,467 | S | 🟢 ACTIVE | `Apache-2.0` | 8.65 | 2026-09-15 |
-| [gitleaks/gitleaks](./gitleaks--gitleaks.md) | 29,320 | S | 🟢 ACTIVE | `MIT` | 8.62 | 2026-09-15 |
+| [mermaid-js/mermaid](./mermaid-js--mermaid.md) | 90,337 | S | 🟢 ACTIVE | `MIT` | 9.14 | 2026-09-21 |
+| [argoproj/argo-cd](./argoproj--argo-cd.md) | 24,208 | S | 🟢 ACTIVE | `Apache-2.0` | 9.04 | 2026-09-21 |
+| [pa11y/pa11y](./pa11y--pa11y.md) | 4,533 | S | 🟢 ACTIVE | `LGPL-3.0` | 9.01 | 2026-09-21 |
+| [trufflesecurity/trufflehog](./trufflesecurity--trufflehog.md) | 28,007 | S | 🟢 ACTIVE | `AGPL-3.0` | 8.85 | 2026-09-21 |
+| [semgrep/semgrep](./semgrep--semgrep.md) | 16,708 | S | 🟢 ACTIVE | `LGPL-2.1` | 8.85 | 2026-09-21 |
+| [eslint/eslint](./eslint--eslint.md) | 27,515 | S | 🟢 ACTIVE | `MIT` | 8.83 | 2026-09-21 |
+| [lint-staged/lint-staged](./lint-staged--lint-staged.md) | 14,734 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-21 |
+| [railwayapp/cli](./railwayapp--cli.md) | 614 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-21 |
+| [vitest-dev/vitest](./vitest-dev--vitest.md) | 17,136 | S | 🟢 ACTIVE | `MIT` | 8.78 | 2026-09-21 |
+| [usebruno/bruno](./usebruno--bruno.md) | 47,086 | S | 🟢 ACTIVE | `MIT` | 8.73 | 2026-09-21 |
+| [junegunn/fzf](./junegunn--fzf.md) | 83,166 | S | 🟢 ACTIVE | `MIT` | 8.68 | 2026-09-21 |
+| [astral-sh/uv](./astral-sh--uv.md) | 90,024 | S | 🟢 ACTIVE | `Apache-2.0` | 8.67 | 2026-09-21 |
+| [testing-library/react-testing-library](./testing-library--react-testing-library.md) | 19,654 | S | 🔵 STABLE | `MIT` | 8.65 | 2026-09-21 |
+| [open-telemetry/opentelemetry-js](./open-telemetry--opentelemetry-js.md) | 3,473 | S | 🟢 ACTIVE | `Apache-2.0` | 8.64 | 2026-09-21 |
+| [jestjs/jest](./jestjs--jest.md) | 45,463 | S | 🟢 ACTIVE | `MIT` | 8.61 | 2026-09-21 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [httpie/cli](./httpie--cli.md) | 38,515 | 🔴 ABANDONED | 636d |
-| [npryce/adr-tools](./npryce--adr-tools.md) | 5,687 | 🔴 ABANDONED | 872d |
-| [lost-pixel/lost-pixel](./lost-pixel--lost-pixel.md) | 1,684 | ⛔ ARCHIVED | 145d |
+| [httpie/cli](./httpie--cli.md) | 38,558 | 🔴 ABANDONED | 642d |
+| [npryce/adr-tools](./npryce--adr-tools.md) | 5,697 | 🔴 ABANDONED | 878d |
+| [lost-pixel/lost-pixel](./lost-pixel--lost-pixel.md) | 1,683 | ⛔ ARCHIVED | 151d |
 
 ## Cards
 
@@ -43,7 +43,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [aquasecurity/trivy](./aquasecurity--trivy.md) — tier S, ACTIVE
 - [argoproj/argo-cd](./argoproj--argo-cd.md) — tier S, ACTIVE
 - [argos-ci/argos](./argos-ci--argos.md) — tier S, ACTIVE
-- [artilleryio/artillery](./artilleryio--artillery.md) — tier S, STABLE
+- [artilleryio/artillery](./artilleryio--artillery.md) — tier S, ACTIVE
 - [astral-sh/ruff](./astral-sh--ruff.md) — tier S, ACTIVE
 - [astral-sh/uv](./astral-sh--uv.md) — tier S, ACTIVE
 - [aws/aws-cdk](./aws--aws-cdk.md) — tier S, ACTIVE
@@ -73,7 +73,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [jesseduffield/lazygit](./jesseduffield--lazygit.md) — tier S, ACTIVE
 - [jestjs/jest](./jestjs--jest.md) — tier S, ACTIVE
 - [junegunn/fzf](./junegunn--fzf.md) — tier S, ACTIVE
-- [koalaman/shellcheck](./koalaman--shellcheck.md) — tier A, STABLE
+- [koalaman/shellcheck](./koalaman--shellcheck.md) — tier S, ACTIVE
 - [kubernetes/kubernetes](./kubernetes--kubernetes.md) — tier S, ACTIVE
 - [lint-staged/lint-staged](./lint-staged--lint-staged.md) — tier S, ACTIVE
 - [lost-pixel/lost-pixel](./lost-pixel--lost-pixel.md) — tier ARCHIVED, ARCHIVED
@@ -111,7 +111,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [thedotmack/claude-mem](./thedotmack--claude-mem.md) — tier S, ACTIVE
 - [trufflesecurity/trufflehog](./trufflesecurity--trufflehog.md) — tier S, ACTIVE
 - [typescript-eslint/typescript-eslint](./typescript-eslint--typescript-eslint.md) — tier S, ACTIVE
-- [typicode/husky](./typicode--husky.md) — tier A, MAINTENANCE
+- [typicode/husky](./typicode--husky.md) — tier B, MAINTENANCE
 - [usebruno/bruno](./usebruno--bruno.md) — tier S, ACTIVE
 - [vercel/vercel](./vercel--vercel.md) — tier S, ACTIVE
 - [vitest-dev/vitest](./vitest-dev--vitest.md) — tier S, ACTIVE

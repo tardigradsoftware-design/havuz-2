@@ -4,25 +4,25 @@ title: "cli/cli"
 domain: developer-tools
 summary: >-
   cli/cli — ACTIVE, tier A,
-  46,283 stars, license MIT, quality 7.75/10, trust 6.73/10.
-  Verified against the GitHub API on 2026-09-15.
+  46,353 stars, license MIT, quality 7.75/10, trust 6.73/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cli", "developer-tools", "github", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.52, "reproducibility": 9.5, "security": 3.5, "recency": 10.0, "evidence": 7.0}
+  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.52, "reproducibility": 9.5, "security": 3.5, "recency": 9.97, "evidence": 7.0}
   quality_score: 7.75
   trust_score: 6.73
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > GitHub’s official command line tool
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Go |
 | License | `MIT` |
-| Stars | 46,283 (checked 2026-09-15) |
-| Forks | 9,029 |
-| Open issues | 1,085 |
+| Stars | 46,353 (checked 2026-09-21) |
+| Forks | 9,058 |
+| Open issues | 1,088 |
 | Contributors | 381 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Last push | 2026-09-19 (2 days before verification) |
 | Latest release | v2.101.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.52 |
 | reproducibility | 9.5 |
 | security | 3.5 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **7.75** |
 | **trust_score** | **6.73** |

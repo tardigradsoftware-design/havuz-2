@@ -4,27 +4,27 @@
 # Agent frameworks & SDKs
 
 33 repositories · 33 usable · 0 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-15.
+all facts verified against the GitHub API on 2026-09-21.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [camel-ai/camel](./camel-ai--camel.md) | 17,721 | S | 🟢 ACTIVE | `Apache-2.0` | 9.45 | 2026-09-15 |
-| [BerriAI/litellm](./berriai--litellm.md) | 58,790 | A | 🟢 ACTIVE | `NOASSERTION` | 9.4 | 2026-09-15 |
-| [openai/openai-python](./openai--openai-python.md) | 31,623 | S | 🟢 ACTIVE | `Apache-2.0` | 9.38 | 2026-09-15 |
-| [pydantic/pydantic-ai](./pydantic--pydantic-ai.md) | 19,956 | S | 🟢 ACTIVE | `MIT` | 9.01 | 2026-09-15 |
-| [openai/openai-agents-python](./openai--openai-agents-python.md) | 29,455 | S | 🟢 ACTIVE | `MIT` | 8.98 | 2026-09-15 |
-| [deepset-ai/haystack](./deepset-ai--haystack.md) | 26,513 | S | 🟢 ACTIVE | `Apache-2.0` | 8.83 | 2026-09-15 |
-| [huggingface/smolagents](./huggingface--smolagents.md) | 29,337 | S | 🔵 STABLE | `Apache-2.0` | 8.8 | 2026-09-15 |
-| [google/adk-js](./google--adk-js.md) | 1,403 | S | 🟢 ACTIVE | `Apache-2.0` | 8.68 | 2026-09-15 |
-| [google/adk-python](./google--adk-python.md) | 21,544 | S | 🟢 ACTIVE | `Apache-2.0` | 8.57 | 2026-09-15 |
-| [stanfordnlp/dspy](./stanfordnlp--dspy.md) | 38,038 | S | 🟢 ACTIVE | `MIT` | 8.54 | 2026-09-15 |
-| [openai/openai-agents-js](./openai--openai-agents-js.md) | 3,820 | S | 🟢 ACTIVE | `MIT` | 8.45 | 2026-09-15 |
-| [googleapis/python-genai](./googleapis--python-genai.md) | 3,977 | S | 🟢 ACTIVE | `Apache-2.0` | 8.38 | 2026-09-15 |
-| [run-llama/llama_index](./run-llama--llama_index.md) | 52,168 | S | 🟢 ACTIVE | `MIT` | 8.34 | 2026-09-15 |
-| [crewAIInc/crewAI](./crewaiinc--crewai.md) | 58,592 | S | 🟢 ACTIVE | `MIT` | 8.33 | 2026-09-15 |
-| [microsoft/semantic-kernel](./microsoft--semantic-kernel.md) | 28,562 | S | 🟢 ACTIVE | `MIT` | 8.31 | 2026-09-15 |
+| [camel-ai/camel](./camel-ai--camel.md) | 17,749 | S | 🟢 ACTIVE | `Apache-2.0` | 9.45 | 2026-09-21 |
+| [BerriAI/litellm](./berriai--litellm.md) | 59,304 | A | 🟢 ACTIVE | `NOASSERTION` | 9.4 | 2026-09-21 |
+| [openai/openai-python](./openai--openai-python.md) | 31,669 | S | 🟢 ACTIVE | `Apache-2.0` | 9.38 | 2026-09-21 |
+| [pydantic/pydantic-ai](./pydantic--pydantic-ai.md) | 20,084 | S | 🟢 ACTIVE | `MIT` | 9.04 | 2026-09-21 |
+| [openai/openai-agents-python](./openai--openai-agents-python.md) | 29,600 | S | 🟢 ACTIVE | `MIT` | 8.98 | 2026-09-21 |
+| [deepset-ai/haystack](./deepset-ai--haystack.md) | 26,567 | S | 🟢 ACTIVE | `Apache-2.0` | 8.83 | 2026-09-21 |
+| [huggingface/smolagents](./huggingface--smolagents.md) | 29,424 | S | 🔵 STABLE | `Apache-2.0` | 8.8 | 2026-09-21 |
+| [google/adk-js](./google--adk-js.md) | 1,413 | S | 🟢 ACTIVE | `Apache-2.0` | 8.68 | 2026-09-21 |
+| [google/adk-python](./google--adk-python.md) | 21,584 | S | 🟢 ACTIVE | `Apache-2.0` | 8.57 | 2026-09-21 |
+| [stanfordnlp/dspy](./stanfordnlp--dspy.md) | 38,175 | S | 🟢 ACTIVE | `MIT` | 8.54 | 2026-09-21 |
+| [openai/openai-agents-js](./openai--openai-agents-js.md) | 3,837 | S | 🟢 ACTIVE | `MIT` | 8.45 | 2026-09-21 |
+| [googleapis/python-genai](./googleapis--python-genai.md) | 3,983 | S | 🟢 ACTIVE | `Apache-2.0` | 8.38 | 2026-09-21 |
+| [run-llama/llama_index](./run-llama--llama_index.md) | 52,255 | S | 🟢 ACTIVE | `MIT` | 8.34 | 2026-09-21 |
+| [crewAIInc/crewAI](./crewaiinc--crewai.md) | 58,850 | S | 🟢 ACTIVE | `MIT` | 8.33 | 2026-09-21 |
+| [microsoft/semantic-kernel](./microsoft--semantic-kernel.md) | 28,584 | S | 🟢 ACTIVE | `MIT` | 8.31 | 2026-09-21 |
 
 ## Do not adopt
 
@@ -46,7 +46,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [google/adk-java](./google--adk-java.md) — tier S, ACTIVE
 - [google/adk-js](./google--adk-js.md) — tier S, ACTIVE
 - [google/adk-python](./google--adk-python.md) — tier S, ACTIVE
-- [google/adk-samples](./google--adk-samples.md) — tier A, ACTIVE
+- [google/adk-recipes](./google--adk-recipes.md) — tier A, ACTIVE
 - [googleapis/python-genai](./googleapis--python-genai.md) — tier S, ACTIVE
 - [huggingface/smolagents](./huggingface--smolagents.md) — tier S, STABLE
 - [langchain-ai/langchain](./langchain-ai--langchain.md) — tier A, ACTIVE

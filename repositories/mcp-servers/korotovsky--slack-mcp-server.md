@@ -4,25 +4,25 @@ title: "korotovsky/slack-mcp-server"
 domain: mcp-servers
 summary: >-
   korotovsky/slack-mcp-server — STABLE, tier A,
-  1,829 stars, license MIT, quality 7.06/10, trust 5.85/10.
-  Verified against the GitHub API on 2026-09-15.
+  1,839 stars, license MIT, quality 7.05/10, trust 5.85/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "slack"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 4.5, "maintenance": 7.5, "adoption": 10.0, "documentation": 7.66, "reproducibility": 7.5, "security": 6.0, "recency": 9.18, "evidence": 5.0}
-  quality_score: 7.06
+  components: {"authority": 4.5, "maintenance": 7.5, "adoption": 10.0, "documentation": 7.66, "reproducibility": 7.5, "security": 6.0, "recency": 9.1, "evidence": 5.0}
+  quality_score: 7.05
   trust_score: 5.85
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Go |
 | License | `MIT` |
-| Stars | 1,829 (checked 2026-09-15) |
-| Forks | 367 |
-| Open issues | 73 |
+| Stars | 1,839 (checked 2026-09-21) |
+| Forks | 372 |
+| Open issues | 75 |
 | Contributors | 52 |
-| Last push | 2026-07-16 (60 days before verification) |
+| Last push | 2026-07-16 (66 days before verification) |
 | Latest release | v1.3.0 (2026-05-14) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.66 |
 | reproducibility | 7.5 |
 | security | 6.0 |
-| recency | 9.18 |
+| recency | 9.1 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.06** |
+| **quality_score** (weighted) | **7.05** |
 | **trust_score** | **5.85** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

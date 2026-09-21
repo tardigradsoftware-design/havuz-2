@@ -4,25 +4,25 @@ title: "punkpeye/awesome-mcp-servers"
 domain: mcp-servers
 summary: >-
   punkpeye/awesome-mcp-servers — ACTIVE, tier A,
-  95,034 stars, license MIT, quality 7.8/10, trust 7.53/10.
-  Verified against the GitHub API on 2026-09-15.
+  95,375 stars, license MIT, quality 7.8/10, trust 7.53/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["catalog", "discovery", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 6.0, "security": 4.5, "recency": 9.97, "evidence": 4.5}
+  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 6.0, "security": 4.5, "recency": 10.0, "evidence": 4.5}
   quality_score: 7.8
   trust_score: 7.53
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A collection of MCP servers.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | — |
 | License | `MIT` |
-| Stars | 95,034 (checked 2026-09-15) |
-| Forks | 16,174 |
-| Open issues | 2,459 |
-| Contributors | 443 |
-| Last push | 2026-09-13 (2 days before verification) |
+| Stars | 95,375 (checked 2026-09-21) |
+| Forks | 16,414 |
+| Open issues | 2,130 |
+| Contributors | 444 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 8.0 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 4.5 |
 | **quality_score** (weighted) | **7.8** |
 | **trust_score** | **7.53** |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 1,649,012 bytes |
+| README size | 1,830,996 bytes |
 
 ## Curated judgement
 

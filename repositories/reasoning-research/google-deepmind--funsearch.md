@@ -4,17 +4,17 @@ title: "google-deepmind/funsearch"
 domain: reasoning-research
 summary: >-
   google-deepmind/funsearch — STABLE, tier C,
-  1,119 stars, license Apache-2.0, quality 4.54/10, trust 4.28/10.
-  Verified against the GitHub API on 2026-09-15.
+  1,123 stars, license Apache-2.0, quality 4.54/10, trust 4.28/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "paper-code", "reasoning", "reasoning-research", "search"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 8.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 3.86, "reproducibility": 4.5, "security": 3.5, "recency": 0.0, "evidence": 1.0}
   quality_score: 4.54
@@ -22,7 +22,7 @@ scoring:
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,7 +50,7 @@ sources:
 
 > _No description published._
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -59,11 +59,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `Apache-2.0` |
-| Stars | 1,119 (checked 2026-09-15) |
-| Forks | 183 |
+| Stars | 1,123 (checked 2026-09-21) |
+| Forks | 184 |
 | Open issues | 8 |
 | Contributors | 2 |
-| Last push | 2024-02-05 (953 days before verification) |
+| Last push | 2024-02-05 (958 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |

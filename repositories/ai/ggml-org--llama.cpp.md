@@ -4,17 +4,17 @@ title: "ggml-org/llama.cpp"
 domain: ai
 summary: >-
   ggml-org/llama.cpp — ACTIVE, tier S,
-  128,301 stars, license MIT, quality 8.91/10, trust 8.82/10.
-  Verified against the GitHub API on 2026-09-15.
+  129,023 stars, license MIT, quality 8.91/10, trust 8.82/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "inference", "local"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.11, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.91
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > LLM inference in C/C++
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | C++ |
 | License | `MIT` |
-| Stars | 128,301 (checked 2026-09-15) |
-| Forks | 23,217 |
-| Open issues | 2,482 |
+| Stars | 129,023 (checked 2026-09-21) |
+| Forks | 23,527 |
+| Open issues | 2,526 |
 | Contributors | 446 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v0.4.1 (2026-09-14) |
 | Archived | no |
 | Fork | no |

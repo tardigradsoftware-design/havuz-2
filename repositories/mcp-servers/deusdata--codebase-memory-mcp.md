@@ -4,17 +4,17 @@ title: "DeusData/codebase-memory-mcp"
 domain: mcp-servers
 summary: >-
   DeusData/codebase-memory-mcp — ACTIVE, tier S,
-  43,339 stars, license MIT, quality 8.2/10, trust 7.4/10.
-  Verified against the GitHub API on 2026-09-15.
+  43,942 stars, license MIT, quality 8.2/10, trust 7.4/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["codebase", "github-repository", "indexing", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.2
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | C |
 | License | `MIT` |
-| Stars | 43,339 (checked 2026-09-15) |
-| Forks | 3,533 |
-| Open issues | 581 |
-| Contributors | 151 |
-| Last push | 2026-09-14 (0 days before verification) |
-| Latest release | v0.10.8 (2026-08-19) |
+| Stars | 43,942 (checked 2026-09-21) |
+| Forks | 3,583 |
+| Open issues | 597 |
+| Contributors | 153 |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v0.11.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://deusdata.github.io/codebase-memory-mcp/](https://deusdata.github.io/codebase-memory-mcp/) |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 75,222 bytes |
+| README size | 75,651 bytes |
 
 ## Curated judgement
 

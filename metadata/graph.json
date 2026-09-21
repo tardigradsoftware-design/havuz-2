@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T09:15:13+00:00",
+  "generated_at": "2026-09-21T10:01:02+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "description": "Knowledge graph. Traverse from a task's domain to the skills, frameworks, MCP servers, repositories and papers that support it.",
-  "node_count": 1115,
-  "edge_count": 1489,
+  "node_count": 1108,
+  "edge_count": 1484,
   "nodes": [
     {
       "id": "12factor/12factor-br",
@@ -1178,7 +1178,6 @@
     {
       "id": "deepseek-ai/DeepSeek-R1",
       "kinds": [
-        "referenced",
         "repository"
       ]
     },
@@ -1579,7 +1578,7 @@
       ]
     },
     {
-      "id": "google/adk-samples",
+      "id": "google/adk-recipes",
       "kinds": [
         "repository"
       ]
@@ -4548,12 +4547,6 @@
       ]
     },
     {
-      "id": "incentivizing-reasoning-capability-in-llms-via-reinforcement",
-      "kinds": [
-        "source"
-      ]
-    },
-    {
       "id": "inclusionAI/AEnvironment",
       "kinds": [
         "repository"
@@ -4867,12 +4860,6 @@
       "id": "locustio/locust",
       "kinds": [
         "referenced"
-      ]
-    },
-    {
-      "id": "lost-in-the-middle-how-language-models-use-long-contexts",
-      "kinds": [
-        "source"
       ]
     },
     {
@@ -5223,12 +5210,6 @@
       ]
     },
     {
-      "id": "nelson-liu/lost-in-the-middle",
-      "kinds": [
-        "referenced"
-      ]
-    },
-    {
       "id": "neondatabase/mcp-server-neon",
       "kinds": [
         "referenced",
@@ -5258,12 +5239,6 @@
       "id": "nexu-io/open-design",
       "kinds": [
         "repository"
-      ]
-    },
-    {
-      "id": "noahshinn/reflexion",
-      "kinds": [
-        "referenced"
       ]
     },
     {
@@ -5581,7 +5556,6 @@
     {
       "id": "princeton-nlp/tree-of-thought-llm",
       "kinds": [
-        "referenced",
         "repository"
       ]
     },
@@ -5734,12 +5708,6 @@
       ]
     },
     {
-      "id": "react-synergizing-reasoning-and-acting-in-language-models",
-      "kinds": [
-        "source"
-      ]
-    },
-    {
       "id": "react/react",
       "kinds": [
         "referenced",
@@ -5789,12 +5757,6 @@
       "id": "refinedev/refine",
       "kinds": [
         "repository"
-      ]
-    },
-    {
-      "id": "reflexion-language-agents-with-verbal-reinforcement-learning",
-      "kinds": [
-        "source"
       ]
     },
     {
@@ -6334,12 +6296,6 @@
       ]
     },
     {
-      "id": "tree-of-thoughts-deliberate-problem-solving-with-large-langu",
-      "kinds": [
-        "source"
-      ]
-    },
-    {
       "id": "tremorlabs/tremor",
       "kinds": [
         "repository"
@@ -6456,6 +6412,12 @@
       ]
     },
     {
+      "id": "vercel-labs/mcp-handler",
+      "kinds": [
+        "repository"
+      ]
+    },
+    {
       "id": "vercel/ai",
       "kinds": [
         "referenced",
@@ -6483,8 +6445,7 @@
     {
       "id": "vercel/mcp-handler",
       "kinds": [
-        "referenced",
-        "repository"
+        "referenced"
       ]
     },
     {
@@ -6619,12 +6580,6 @@
       "id": "xyflow/xyflow",
       "kinds": [
         "repository"
-      ]
-    },
-    {
-      "id": "ysymyth/ReAct",
-      "kinds": [
-        "referenced"
       ]
     },
     {
@@ -12380,36 +12335,6 @@
       "target": "vercel/mcp-handler"
     },
     {
-      "source": "tree-of-thoughts-deliberate-problem-solving-with-large-langu",
-      "source_kind": "source",
-      "type": "implements",
-      "target": "princeton-nlp/tree-of-thought-llm"
-    },
-    {
-      "source": "react-synergizing-reasoning-and-acting-in-language-models",
-      "source_kind": "source",
-      "type": "implements",
-      "target": "ysymyth/ReAct"
-    },
-    {
-      "source": "reflexion-language-agents-with-verbal-reinforcement-learning",
-      "source_kind": "source",
-      "type": "implements",
-      "target": "noahshinn/reflexion"
-    },
-    {
-      "source": "incentivizing-reasoning-capability-in-llms-via-reinforcement",
-      "source_kind": "source",
-      "type": "implements",
-      "target": "deepseek-ai/DeepSeek-R1"
-    },
-    {
-      "source": "lost-in-the-middle-how-language-models-use-long-contexts",
-      "source_kind": "source",
-      "type": "implements",
-      "target": "nelson-liu/lost-in-the-middle"
-    },
-    {
       "source": "adr-template",
       "source_kind": "knowledge",
       "type": "documented_by",
@@ -13432,6 +13357,12 @@
       "target": "https://pypi.org/project/openai/"
     },
     {
+      "source": "openai/openai-agents-python",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://openai.github.io/openai-agents-python/"
+    },
+    {
       "source": "assafelovic/gpt-researcher",
       "source_kind": "repository",
       "type": "related",
@@ -13454,12 +13385,6 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://gptr.dev"
-    },
-    {
-      "source": "openai/openai-agents-python",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://openai.github.io/openai-agents-python/"
     },
     {
       "source": "huggingface/smolagents",
@@ -13558,7 +13483,7 @@
       "target": "https://aka.ms/agent-framework"
     },
     {
-      "source": "google/adk-samples",
+      "source": "google/adk-recipes",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://adk.dev"
@@ -13720,12 +13645,6 @@
       "target": "https://docs.caveman.so/docs/quickstart"
     },
     {
-      "source": "nexu-io/open-design",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://open-design.ai"
-    },
-    {
       "source": "addyosmani/agent-skills",
       "source_kind": "repository",
       "type": "related",
@@ -13750,16 +13669,22 @@
       "target": "https://skills.addy.ie"
     },
     {
-      "source": "OpenHands/OpenHands",
+      "source": "nexu-io/open-design",
       "source_kind": "repository",
       "type": "documented_by",
-      "target": "https://openhands.dev"
+      "target": "https://open-design.ai"
     },
     {
       "source": "Leonxlnx/taste-skill",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://tasteskill.dev"
+    },
+    {
+      "source": "OpenHands/OpenHands",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://openhands.dev"
     },
     {
       "source": "shareAI-lab/learn-claude-code",
@@ -13810,16 +13735,16 @@
       "target": "https://clawskills.sh/"
     },
     {
-      "source": "Aider-AI/aider",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://aider.chat/"
-    },
-    {
       "source": "blader/humanizer",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://skills.sh/blader/humanizer"
+    },
+    {
+      "source": "Aider-AI/aider",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://aider.chat/"
     },
     {
       "source": "Imbad0202/academic-research-skills",
@@ -14308,6 +14233,12 @@
       "target": "https://github.com/feder-cr/AIHawk/wiki"
     },
     {
+      "source": "trycua/cua",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://cua.ai"
+    },
+    {
       "source": "browserbase/stagehand",
       "source_kind": "repository",
       "type": "documented_by",
@@ -14318,12 +14249,6 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://www.skyvern.com"
-    },
-    {
-      "source": "trycua/cua",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://cua.ai"
     },
     {
       "source": "browser-use/browser-harness",
@@ -14368,12 +14293,6 @@
       "target": "https://docs.lavague.ai/en/latest/"
     },
     {
-      "source": "arcboxlabs/arcbox",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://arcbox.dev"
-    },
-    {
       "source": "microsoft/fara",
       "source_kind": "repository",
       "type": "related",
@@ -14402,6 +14321,12 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/"
+    },
+    {
+      "source": "arcboxlabs/arcbox",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://arcbox.dev"
     },
     {
       "source": "OpenAdaptAI/OpenAdapt",
@@ -14572,16 +14497,16 @@
       "target": "https://docs.astral.sh/uv"
     },
     {
-      "source": "junegunn/fzf",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://junegunn.github.io/fzf/"
-    },
-    {
       "source": "Egonex-AI/Understand-Anything",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://understand-anything.com/"
+    },
+    {
+      "source": "junegunn/fzf",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://junegunn.github.io/fzf/"
     },
     {
       "source": "rtk-ai/rtk",
@@ -14638,16 +14563,16 @@
       "target": "https://cypress.io"
     },
     {
-      "source": "hashicorp/terraform",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "http://developer.hashicorp.com/terraform"
-    },
-    {
       "source": "astral-sh/ruff",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://docs.astral.sh/ruff"
+    },
+    {
+      "source": "hashicorp/terraform",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "http://developer.hashicorp.com/terraform"
     },
     {
       "source": "usebruno/bruno",
@@ -14728,16 +14653,16 @@
       "target": "https://developer.chrome.com/docs/lighthouse/overview/"
     },
     {
-      "source": "nrwl/nx",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://nx.dev"
-    },
-    {
       "source": "gitleaks/gitleaks",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://gitleaks.io"
+    },
+    {
+      "source": "nrwl/nx",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://nx.dev"
     },
     {
       "source": "trufflesecurity/trufflehog",
@@ -15166,16 +15091,16 @@
       "target": "https://suyoumo.github.io/bench/"
     },
     {
-      "source": "TheAgentCompany/TheAgentCompany",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://the-agent-company.com"
-    },
-    {
       "source": "TIGER-AI-Lab/ClawBench",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://claw-bench.com"
+    },
+    {
+      "source": "TheAgentCompany/TheAgentCompany",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://the-agent-company.com"
     },
     {
       "source": "Tencent/AICGSecEval",
@@ -15214,16 +15139,16 @@
       "target": "https://ai.nejm.org/doi/full/10.1056/AIdbp2500144"
     },
     {
-      "source": "inclusionAI/AEnvironment",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://inclusionai.github.io/AEnvironment/"
-    },
-    {
       "source": "xlang-ai/OSWorld-V2",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://osworld-v2.xlang.ai"
+    },
+    {
+      "source": "inclusionAI/AEnvironment",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://inclusionai.github.io/AEnvironment/"
     },
     {
       "source": "react/react",
@@ -15466,12 +15391,6 @@
       "target": "https://headlessui.com"
     },
     {
-      "source": "TanStack/table",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://tanstack.com/table"
-    },
-    {
       "source": "greensock/GSAP",
       "source_kind": "repository",
       "type": "related",
@@ -15494,6 +15413,12 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://gsap.com"
+    },
+    {
+      "source": "TanStack/table",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://tanstack.com/table"
     },
     {
       "source": "recharts/recharts",
@@ -15538,16 +15463,16 @@
       "target": "https://ai.google.dev/gemini-api/docs/google-search"
     },
     {
-      "source": "TanStack/router",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://tanstack.com/router"
-    },
-    {
       "source": "documenso/documenso",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://documenso.com"
+    },
+    {
+      "source": "TanStack/router",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://tanstack.com/router"
     },
     {
       "source": "midday-ai/midday",
@@ -15928,7 +15853,7 @@
       "target": "https://mcp.sentry.dev"
     },
     {
-      "source": "vercel/mcp-handler",
+      "source": "vercel-labs/mcp-handler",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://www.npmjs.com/package/mcp-handler"

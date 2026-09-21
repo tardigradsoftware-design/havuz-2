@@ -4,25 +4,25 @@ title: "anthropics/prompt-eng-interactive-tutorial"
 domain: ai
 summary: >-
   anthropics/prompt-eng-interactive-tutorial — STABLE, tier NO-LICENSE,
-  38,187 stars, license NONE, quality 6.17/10, trust 4.16/10.
-  Verified against the GitHub API on 2026-09-15.
+  38,249 stars, license NONE, quality 6.16/10, trust 4.16/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "education", "github-repository", "prompting"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 3.72, "reproducibility": 1.0, "security": 2.5, "recency": 9.75, "evidence": 1.0}
-  quality_score: 6.17
+  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 3.72, "reproducibility": 1.0, "security": 2.5, "recency": 9.67, "evidence": 1.0}
+  quality_score: 6.16
   trust_score: 4.16
   tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > Anthropic's Interactive Prompt Engineering Tutorial
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-15. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-09-21. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `NONE` |
-| Stars | 38,187 (checked 2026-09-15) |
-| Forks | 4,229 |
-| Open issues | 65 |
+| Stars | 38,249 (checked 2026-09-21) |
+| Forks | 4,235 |
+| Open issues | 64 |
 | Contributors | 2 |
-| Last push | 2026-08-28 (18 days before verification) |
+| Last push | 2026-08-28 (24 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -88,9 +88,9 @@ sources:
 | documentation | 3.72 |
 | reproducibility | 1.0 |
 | security | 2.5 |
-| recency | 9.75 |
+| recency | 9.67 |
 | evidence | 1.0 |
-| **quality_score** (weighted) | **6.17** |
+| **quality_score** (weighted) | **6.16** |
 | **trust_score** | **4.16** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

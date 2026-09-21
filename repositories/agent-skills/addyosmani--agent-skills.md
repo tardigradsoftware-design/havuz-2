@@ -4,25 +4,25 @@ title: "addyosmani/agent-skills"
 domain: agent-skills
 summary: >-
   addyosmani/agent-skills — ACTIVE, tier A,
-  94,570 stars, license MIT, quality 7.46/10, trust 6.51/10.
-  Verified against the GitHub API on 2026-09-15.
+  97,939 stars, license MIT, quality 7.46/10, trust 6.51/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "engineering", "github-repository", "skills", "web"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.6, "reproducibility": 7.0, "security": 3.5, "recency": 9.96, "evidence": 5.5}
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.6, "reproducibility": 7.0, "security": 3.5, "recency": 10.0, "evidence": 5.5}
   quality_score: 7.46
   trust_score: 6.51
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Production-grade engineering skills for AI coding agents.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 94,570 (checked 2026-09-15) |
-| Forks | 10,047 |
-| Open issues | 121 |
-| Contributors | 67 |
-| Last push | 2026-09-12 (3 days before verification) |
-| Latest release | 0.6.9 (2026-09-05) |
+| Stars | 97,939 (checked 2026-09-21) |
+| Forks | 10,308 |
+| Open issues | 110 |
+| Contributors | 74 |
+| Last push | 2026-09-20 (0 days before verification) |
+| Latest release | 0.6.10 (2026-09-18) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://skills.addy.ie](https://skills.addy.ie) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 8.6 |
 | reproducibility | 7.0 |
 | security | 3.5 |
-| recency | 9.96 |
+| recency | 10.0 |
 | evidence | 5.5 |
 | **quality_score** (weighted) | **7.46** |
 | **trust_score** | **6.51** |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-15) and must be
+(on 2026-09-21) and must be
 re-checked against your own constraints._
 
 **Recommended for**

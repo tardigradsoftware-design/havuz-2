@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-09-15T15:36:14+00:00",
+  "generated_at": "2026-09-21T09:57:13+00:00",
   "requested": 417,
   "ok": 414,
   "failed": 0,
   "authenticated": true,
-  "duration_seconds": 0.7,
+  "duration_seconds": 67.2,
   "failures": [],
   "renamed": [
     {
       "from": "geekan/MetaGPT",
       "to": "FoundationAgents/MetaGPT"
+    },
+    {
+      "from": "google/adk-samples",
+      "to": "google/adk-recipes"
     },
     {
       "from": "sst/opencode",
@@ -101,7 +105,7 @@
     },
     {
       "from": "vercel/mcp-adapter",
-      "to": "vercel/mcp-handler"
+      "to": "vercel-labs/mcp-handler"
     },
     {
       "from": "neondatabase-labs/mcp-server-neon",
@@ -124,19 +128,23 @@
     },
     {
       "slug": "sourcegraph/cody-public-snapshot",
-      "stars": 3807
+      "stars": 3808
     },
     {
       "slug": "anthropics/courses",
-      "stars": 22838
+      "stars": 22852
     },
     {
       "slug": "huggingface/text-generation-inference",
-      "stars": 10886
+      "stars": 10885
+    },
+    {
+      "slug": "oxylabs/browser-agent-py",
+      "stars": 1565
     },
     {
       "slug": "lost-pixel/lost-pixel",
-      "stars": 1684
+      "stars": 1683
     },
     {
       "slug": "bigcode-project/bigcodebench",
@@ -144,19 +152,23 @@
     },
     {
       "slug": "steipete/agent-rules",
-      "stars": 5688
+      "stars": 5685
     },
     {
       "slug": "protectai/llm-guard",
-      "stars": 3205
+      "stars": 3209
     },
     {
       "slug": "protectai/rebuff",
-      "stars": 1522
+      "stars": 1521
     },
     {
       "slug": "browserbase/mcp-server-browserbase",
-      "stars": 3409
+      "stars": 3412
+    },
+    {
+      "slug": "huggingface/awesome-papers",
+      "stars": 2051
     }
   ],
   "no_license": [
@@ -170,7 +182,7 @@
     "greensock/GSAP",
     "OWASP/www-project-top-ten",
     "modelcontextprotocol/inspector",
-    "vercel/mcp-handler",
+    "vercel-labs/mcp-handler",
     "QwenLM/Qwen3",
     "huggingface/awesome-papers",
     "masamasa59/ai-agent-papers",
@@ -238,191 +250,203 @@
   "stale_over_180d": [
     [
       "12factor/12factor-br",
-      3863
+      3869
     ],
     [
       "huggingface/awesome-papers",
-      2145
-    ],
-    [
-      "google-deepmind/funsearch",
-      953
+      2150
     ],
     [
       "ysymyth/ReAct",
-      952
+      958
+    ],
+    [
+      "google-deepmind/funsearch",
+      958
     ],
     [
       "npryce/adr-tools",
-      872
+      878
     ],
     [
       "joonspk-research/generative_agents",
-      770
+      776
     ],
     [
       "protectai/rebuff",
-      768
+      774
     ],
     [
       "madaan/self-refine",
-      710
+      716
     ],
     [
       "rsms/inter",
-      665
+      671
     ],
     [
       "httpie/cli",
-      636
+      642
     ],
     [
       "noahshinn/reflexion",
-      609
+      615
     ],
     [
       "princeton-nlp/tree-of-thought-llm",
-      606
+      612
     ],
     [
       "lavague-ai/LaVague",
-      602
+      607
     ],
     [
       "EvolvingLMMs-Lab/open-r1-multimodal",
-      584
+      590
     ],
     [
       "PRIME-RL/PRIME",
-      546
+      552
     ],
     [
       "lmarena/arena-hard-auto",
-      451
+      457
     ],
     [
       "deepseek-ai/DeepSeek-R1",
-      445
+      451
     ],
     [
       "LiveCodeBench/LiveCodeBench",
-      426
+      432
     ],
     [
       "bigcode-project/bigcode-evaluation-harness",
-      420
+      425
     ],
     [
       "sourcegraph/cody-public-snapshot",
-      410
+      415
     ],
     [
       "tatsu-lab/alpaca_eval",
-      402
+      408
     ],
     [
       "OS-Agent-Survey/OS-Agent-Survey",
-      395
-    ],
-    [
-      "sail-sg/understand-r1-zero",
-      384
+      401
     ],
     [
       "deepseek-ai/DeepSeek-V3",
-      383
+      389
+    ],
+    [
+      "sail-sg/understand-r1-zero",
+      389
     ],
     [
       "sweepai/sweep",
-      362
+      368
     ],
     [
       "evalplus/evalplus",
-      347
+      353
     ],
     [
       "plandex-ai/plandex",
-      346
+      352
     ],
     [
       "tremorlabs/tremor",
-      340
+      345
     ],
     [
       "OSU-NLP-Group/Mind2Web",
-      314
+      320
     ],
     [
       "TheAgentCompany/TheAgentCompany",
-      301
+      307
     ],
     [
       "stanfordmlgroup/MedAgentBench",
-      297
+      303
     ],
     [
       "web-arena-x/webarena",
-      292
+      298
     ],
     [
       "t3-oss/create-t3-app",
-      276
+      281
     ],
     [
       "NousResearch/Hermes-Function-Calling",
-      267
+      272
     ],
     [
       "OWASP/www-project-top-ten",
-      264
+      270
     ],
     [
       "bigcode-project/bigcodebench",
-      255
+      261
     ],
     [
       "QwenLM/Qwen3",
-      249
+      255
     ],
     [
       "invariantlabs-ai/invariant",
-      246
+      251
     ],
     [
       "FoundationAgents/MetaGPT",
-      237
+      242
     ],
     [
       "mlabonne/llm-course",
-      222
+      227
     ],
     [
       "meta-llama/llama-models",
-      215
+      221
     ],
     [
       "vibrantlabsai/ragas",
-      203
+      209
     ],
     [
       "dair-ai/Prompt-Engineering-Guide",
-      187
+      193
+    ],
+    [
+      "sierra-research/tau-bench",
+      186
+    ],
+    [
+      "typicode/husky",
+      185
+    ],
+    [
+      "huggingface/text-generation-inference",
+      183
     ]
   ],
   "tier_distribution": {
+    "S": 214,
     "A": 127,
-    "ARCHIVED": 10,
     "B": 29,
     "C": 16,
-    "EXPERIMENTAL": 3,
-    "NO-LICENSE": 15,
-    "S": 214
+    "NO-LICENSE": 13,
+    "ARCHIVED": 12,
+    "EXPERIMENTAL": 3
   },
   "status_distribution": {
     "ACTIVE": 296,
-    "STABLE": 82,
-    "MAINTENANCE": 19,
-    "ARCHIVED": 10,
+    "STABLE": 81,
+    "MAINTENANCE": 18,
+    "ARCHIVED": 12,
     "ABANDONED": 7
   },
   "category_distribution": {
@@ -438,6 +462,5 @@
     "backend": 21,
     "databases": 17,
     "instructions-standards": 14
-  },
-  "tier_distribution_note": "recomputed offline by --retier on 2026-09-16T06:47:05+00:00; the fetch itself was not repeated"
+  }
 }

@@ -4,17 +4,17 @@ title: "aws/aws-cdk"
 domain: developer-tools
 summary: >-
   aws/aws-cdk — ACTIVE, tier S,
-  12,900 stars, license Apache-2.0, quality 8.24/10, trust 8.08/10.
-  Verified against the GitHub API on 2026-09-15.
+  12,906 stars, license Apache-2.0, quality 8.24/10, trust 8.08/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["aws", "developer-tools", "github-repository", "iac"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.88, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.24
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 12,900 (checked 2026-09-15) |
-| Forks | 4,632 |
-| Open issues | 2,857 |
+| Stars | 12,906 (checked 2026-09-21) |
+| Forks | 4,638 |
+| Open issues | 2,865 |
 | Contributors | 390 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v2.269.0 (2026-09-10) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v2.270.0 (2026-09-17) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://aws.amazon.com/cdk](https://aws.amazon.com/cdk) |

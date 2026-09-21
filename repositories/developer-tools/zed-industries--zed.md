@@ -4,17 +4,17 @@ title: "zed-industries/zed"
 domain: developer-tools
 summary: >-
   zed-industries/zed — ACTIVE, tier A,
-  90,271 stars, license NOASSERTION, quality 7.88/10, trust 7.71/10.
-  Verified against the GitHub API on 2026-09-15.
+  90,647 stars, license NOASSERTION, quality 7.88/10, trust 7.71/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "developer-tools", "editor", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.74, "reproducibility": 6.1, "security": 4.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.88
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | Rust |
 | License | `NOASSERTION` |
-| Stars | 90,271 (checked 2026-09-15) |
-| Forks | 10,622 |
-| Open issues | 3,177 |
+| Stars | 90,647 (checked 2026-09-21) |
+| Forks | 10,711 |
+| Open issues | 3,152 |
 | Contributors | 482 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v1.19.2 (2026-09-09) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v1.20.2 (2026-09-17) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://zed.dev](https://zed.dev) |

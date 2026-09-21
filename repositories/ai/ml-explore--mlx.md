@@ -4,25 +4,25 @@ title: "ml-explore/mlx"
 domain: ai
 summary: >-
   ml-explore/mlx — ACTIVE, tier S,
-  28,428 stars, license MIT, quality 8.64/10, trust 8.53/10.
-  Verified against the GitHub API on 2026-09-15.
+  28,507 stars, license MIT, quality 8.63/10, trust 8.53/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "apple-silicon", "github-repository", "inference"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.88, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.0}
-  quality_score: 8.64
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.88, "reproducibility": 10.0, "security": 4.5, "recency": 9.96, "evidence": 8.0}
+  quality_score: 8.63
   trust_score: 8.53
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > MLX: An array framework for Apple silicon
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | C++ |
 | License | `MIT` |
-| Stars | 28,428 (checked 2026-09-15) |
-| Forks | 2,255 |
-| Open issues | 145 |
-| Contributors | 334 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 28,507 (checked 2026-09-21) |
+| Forks | 2,265 |
+| Open issues | 162 |
+| Contributors | 335 |
+| Last push | 2026-09-17 (3 days before verification) |
 | Latest release | v0.32.2 (2026-08-25) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.88 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.96 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.64** |
+| **quality_score** (weighted) | **8.63** |
 | **trust_score** | **8.53** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

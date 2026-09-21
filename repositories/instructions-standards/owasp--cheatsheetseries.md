@@ -4,17 +4,17 @@ title: "OWASP/CheatSheetSeries"
 domain: instructions-standards
 summary: >-
   OWASP/CheatSheetSeries — ACTIVE, tier S,
-  33,183 stars, license CC-BY-SA-4.0, quality 8.18/10, trust 7.93/10.
-  Verified against the GitHub API on 2026-09-15.
+  33,259 stars, license CC-BY-SA-4.0, quality 8.18/10, trust 7.93/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "instructions-standards", "owasp", "reference", "security"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.86, "reproducibility": 5.9, "security": 7.0, "recency": 10.0, "evidence": 4.0}
   quality_score: 8.18
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `CC-BY-SA-4.0` |
-| Stars | 33,183 (checked 2026-09-15) |
-| Forks | 4,623 |
-| Open issues | 59 |
+| Stars | 33,259 (checked 2026-09-21) |
+| Forks | 4,632 |
+| Open issues | 58 |
 | Contributors | 457 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |

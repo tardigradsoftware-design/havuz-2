@@ -4,17 +4,17 @@ title: "makeplane/plane"
 domain: frontend
 summary: >-
   makeplane/plane — ACTIVE, tier A,
-  59,432 stars, license AGPL-3.0, quality 7.54/10, trust 6.62/10.
-  Verified against the GitHub API on 2026-09-15.
+  59,695 stars, license AGPL-3.0, quality 7.54/10, trust 6.62/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["example", "frontend", "github-repository", "project-management", "saas"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.14, "reproducibility": 6.3, "security": 5.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.54
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `AGPL-3.0` |
-| Stars | 59,432 (checked 2026-09-15) |
-| Forks | 5,750 |
-| Open issues | 1,120 |
-| Contributors | 164 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 59,695 (checked 2026-09-21) |
+| Forks | 5,819 |
+| Open issues | 1,091 |
+| Contributors | 171 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v1.4.2 (2026-08-23) |
 | Archived | no |
 | Fork | no |

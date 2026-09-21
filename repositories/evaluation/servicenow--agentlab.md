@@ -4,25 +4,25 @@ title: "ServiceNow/AgentLab"
 domain: evaluation
 summary: >-
   ServiceNow/AgentLab — STABLE, tier B,
-  634 stars, license NOASSERTION, quality 6.96/10, trust 5.94/10.
-  Verified against the GitHub API on 2026-09-15.
+  636 stars, license NOASSERTION, quality 6.95/10, trust 5.94/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "evaluation", "evaluation-framework", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.5, "maintenance": 7.0, "adoption": 9.57, "documentation": 6.44, "reproducibility": 8.6, "security": 3.0, "recency": 9.19, "evidence": 6.5}
-  quality_score: 6.96
+  components: {"authority": 5.5, "maintenance": 7.0, "adoption": 9.58, "documentation": 6.44, "reproducibility": 8.6, "security": 3.0, "recency": 9.11, "evidence": 6.5}
+  quality_score: 6.95
   trust_score: 5.94
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 634 (checked 2026-09-15) |
-| Forks | 130 |
+| Stars | 636 (checked 2026-09-21) |
+| Forks | 131 |
 | Open issues | 36 |
 | Contributors | 16 |
-| Last push | 2026-07-17 (59 days before verification) |
+| Last push | 2026-07-17 (65 days before verification) |
 | Latest release | v0.4.2 (2026-01-20) |
 | Archived | no |
 | Fork | no |
@@ -85,13 +85,13 @@ sources:
 |---|---|
 | authority | 5.5 |
 | maintenance | 7.0 |
-| adoption | 9.57 |
+| adoption | 9.58 |
 | documentation | 6.44 |
 | reproducibility | 8.6 |
 | security | 3.0 |
-| recency | 9.19 |
+| recency | 9.11 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **6.96** |
+| **quality_score** (weighted) | **6.95** |
 | **trust_score** | **5.94** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

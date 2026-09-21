@@ -4,17 +4,17 @@ title: "timescale/timescaledb"
 domain: databases
 summary: >-
   timescale/timescaledb — ACTIVE, tier A,
-  23,527 stars, license NOASSERTION, quality 8.82/10, trust 8.9/10.
-  Verified against the GitHub API on 2026-09-15.
+  23,553 stars, license NOASSERTION, quality 8.82/10, trust 8.9/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["databases", "github-repository", "postgres", "timeseries"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.64, "reproducibility": 8.1, "security": 6.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.82
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > A time-series database for high-performance real-time analytics packaged as a Postgres extension
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | C |
 | License | `NOASSERTION` |
-| Stars | 23,527 (checked 2026-09-15) |
-| Forks | 1,152 |
-| Open issues | 388 |
-| Contributors | 118 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | 2.30.0 (2026-09-08) |
+| Stars | 23,553 (checked 2026-09-21) |
+| Forks | 1,154 |
+| Open issues | 393 |
+| Contributors | 119 |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | 2.30.1 (2026-09-17) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.tigerdata.com/](https://www.tigerdata.com/) |
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 19,720 bytes |
+| README size | 19,688 bytes |
 
 ## Curated judgement
 

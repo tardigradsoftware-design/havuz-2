@@ -4,25 +4,25 @@ title: "mlflow/mlflow"
 domain: evaluation
 summary: >-
   mlflow/mlflow — ACTIVE, tier S,
-  27,968 stars, license Apache-2.0, quality 8.62/10, trust 7.99/10.
-  Verified against the GitHub API on 2026-09-15.
+  28,070 stars, license Apache-2.0, quality 8.63/10, trust 7.99/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "experiment-tracking", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.74, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
-  quality_score: 8.62
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.76, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
+  quality_score: 8.63
   trust_score: 7.99
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 27,968 (checked 2026-09-15) |
-| Forks | 6,305 |
-| Open issues | 2,094 |
+| Stars | 28,070 (checked 2026-09-21) |
+| Forks | 6,331 |
+| Open issues | 2,116 |
 | Contributors | 446 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v3.16.0 (2026-09-04) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v3.16.1 (2026-09-17) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://mlflow.org](https://mlflow.org) |
@@ -80,12 +80,12 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 9.74 |
+| documentation | 9.76 |
 | reproducibility | 10.0 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 8.5 |
-| **quality_score** (weighted) | **8.62** |
+| **quality_score** (weighted) | **8.63** |
 | **trust_score** | **7.99** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 32,937 bytes |
+| README size | 33,104 bytes |
 
 ## Curated judgement
 

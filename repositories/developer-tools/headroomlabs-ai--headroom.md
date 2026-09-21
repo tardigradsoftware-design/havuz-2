@@ -4,25 +4,25 @@ title: "headroomlabs-ai/headroom"
 domain: developer-tools
 summary: >-
   headroomlabs-ai/headroom — ACTIVE, tier S,
-  72,274 stars, license Apache-2.0, quality 8.62/10, trust 7.98/10.
-  Verified against the GitHub API on 2026-09-15.
+  73,333 stars, license Apache-2.0, quality 8.61/10, trust 7.97/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["context-compression", "developer-tools", "github-repository", "rag"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.68, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
-  quality_score: 8.62
-  trust_score: 7.98
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.65, "reproducibility": 10.0, "security": 6.0, "recency": 9.99, "evidence": 8.5}
+  quality_score: 8.61
+  trust_score: 7.97
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 72,274 (checked 2026-09-15) |
-| Forks | 5,532 |
-| Open issues | 644 |
-| Contributors | 260 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 73,333 (checked 2026-09-21) |
+| Forks | 5,642 |
+| Open issues | 704 |
+| Contributors | 263 |
+| Last push | 2026-09-19 (1 days before verification) |
 | Latest release | v0.37.0 (2026-08-27) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 9.68 |
+| documentation | 9.65 |
 | reproducibility | 10.0 |
 | security | 6.0 |
-| recency | 10.0 |
+| recency | 9.99 |
 | evidence | 8.5 |
-| **quality_score** (weighted) | **8.62** |
-| **trust_score** | **7.98** |
+| **quality_score** (weighted) | **8.61** |
+| **trust_score** | **7.97** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 32,168 bytes |
+| README size | 31,797 bytes |
 
 ## Curated judgement
 

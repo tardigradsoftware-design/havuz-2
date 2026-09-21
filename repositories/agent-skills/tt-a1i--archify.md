@@ -4,25 +4,25 @@ title: "tt-a1i/archify"
 domain: agent-skills
 summary: >-
   tt-a1i/archify — ACTIVE, tier A,
-  63,151 stars, license MIT, quality 7.92/10, trust 7.03/10.
-  Verified against the GitHub API on 2026-09-15.
+  68,695 stars, license MIT, quality 7.98/10, trust 7.12/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "architecture", "diagrams", "github-repository", "skills"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.71, "reproducibility": 8.0, "security": 6.0, "recency": 10.0, "evidence": 6.5}
-  quality_score: 7.92
-  trust_score: 7.03
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.28, "reproducibility": 8.0, "security": 6.0, "recency": 10.0, "evidence": 6.5}
+  quality_score: 7.98
+  trust_score: 7.12
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 63,151 (checked 2026-09-15) |
-| Forks | 4,194 |
-| Open issues | 171 |
-| Contributors | 29 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 68,695 (checked 2026-09-21) |
+| Forks | 4,606 |
+| Open issues | 143 |
+| Contributors | 34 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v2.16.0 (2026-08-30) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.71 |
+| documentation | 9.28 |
 | reproducibility | 8.0 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **7.92** |
-| **trust_score** | **7.03** |
+| **quality_score** (weighted) | **7.98** |
+| **trust_score** | **7.12** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 20,534 bytes |
+| README size | 27,308 bytes |
 
 ## Curated judgement
 

@@ -4,25 +4,25 @@ title: "web-arena-x/webarena"
 domain: evaluation
 summary: >-
   web-arena-x/webarena — STABLE, tier B,
-  1,610 stars, license Apache-2.0, quality 6.83/10, trust 6.65/10.
-  Verified against the GitHub API on 2026-09-15.
+  1,611 stars, license Apache-2.0, quality 6.82/10, trust 6.65/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "browser", "evaluation", "github-repository", "web-agent"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.5, "maintenance": 3.0, "adoption": 10.0, "documentation": 5.31, "reproducibility": 9.0, "security": 4.5, "recency": 6.0, "evidence": 7.0}
-  quality_score: 6.83
+  components: {"authority": 8.5, "maintenance": 3.0, "adoption": 10.0, "documentation": 5.31, "reproducibility": 9.0, "security": 4.5, "recency": 5.92, "evidence": 7.0}
+  quality_score: 6.82
   trust_score: 6.65
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Code repo for "WebArena: A Realistic Web Environment for Building Autonomous Agents"
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 1,610 (checked 2026-09-15) |
+| Stars | 1,611 (checked 2026-09-21) |
 | Forks | 248 |
 | Open issues | 103 |
 | Contributors | 14 |
-| Last push | 2025-11-26 (292 days before verification) |
+| Last push | 2025-11-26 (298 days before verification) |
 | Latest release | v0.2.0 (2023-10-21) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.31 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 6.0 |
+| recency | 5.92 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **6.83** |
+| **quality_score** (weighted) | **6.82** |
 | **trust_score** | **6.65** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

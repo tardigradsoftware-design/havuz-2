@@ -4,25 +4,25 @@ title: "mlabonne/llm-course"
 domain: ai
 summary: >-
   mlabonne/llm-course — MAINTENANCE, tier B,
-  82,840 stars, license Apache-2.0, quality 6.1/10, trust 5.58/10.
-  Verified against the GitHub API on 2026-09-15.
+  83,057 stars, license Apache-2.0, quality 6.09/10, trust 5.58/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "education", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 7.5, "reproducibility": 4.5, "security": 4.5, "recency": 6.96, "evidence": 2.0}
-  quality_score: 6.1
+  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 7.5, "reproducibility": 4.5, "security": 4.5, "recency": 6.89, "evidence": 2.0}
+  quality_score: 6.09
   trust_score: 5.58
   tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | — |
 | License | `Apache-2.0` |
-| Stars | 82,840 (checked 2026-09-15) |
-| Forks | 9,636 |
+| Stars | 83,057 (checked 2026-09-21) |
+| Forks | 9,664 |
 | Open issues | 90 |
 | Contributors | 3 |
-| Last push | 2026-02-05 (222 days before verification) |
+| Last push | 2026-02-05 (227 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.5 |
 | reproducibility | 4.5 |
 | security | 4.5 |
-| recency | 6.96 |
+| recency | 6.89 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **6.1** |
+| **quality_score** (weighted) | **6.09** |
 | **trust_score** | **5.58** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 222 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 227 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

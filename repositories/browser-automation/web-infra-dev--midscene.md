@@ -4,17 +4,17 @@ title: "web-infra-dev/midscene"
 domain: browser-automation
 summary: >-
   web-infra-dev/midscene — ACTIVE, tier A,
-  14,906 stars, license MIT, quality 7.35/10, trust 6.3/10.
-  Verified against the GitHub API on 2026-09-15.
+  14,962 stars, license MIT, quality 7.35/10, trust 6.3/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "e2e-testing", "github-repository", "gui-agent"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.01, "reproducibility": 7.0, "security": 3.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.35
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > GUI Agent for E2E Testing
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 14,906 (checked 2026-09-15) |
-| Forks | 1,155 |
-| Open issues | 85 |
-| Contributors | 83 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v1.12.7 (2026-09-15) |
+| Stars | 14,962 (checked 2026-09-21) |
+| Forks | 1,163 |
+| Open issues | 95 |
+| Contributors | 84 |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v1.13.0 (2026-09-20) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://midscenejs.com](https://midscenejs.com) |

@@ -4,25 +4,25 @@ title: "sail-sg/understand-r1-zero"
 domain: reasoning-research
 summary: >-
   sail-sg/understand-r1-zero — STABLE, tier C,
-  1,276 stars, license MIT, quality 4.87/10, trust 3.54/10.
-  Verified against the GitHub API on 2026-09-15.
+  1,277 stars, license MIT, quality 4.86/10, trust 3.54/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["critical-analysis", "github-repository", "r1", "reasoning", "reasoning-research"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.5, "maintenance": 1.0, "adoption": 10.0, "documentation": 5.42, "reproducibility": 6.0, "security": 2.5, "recency": 4.74, "evidence": 2.5}
-  quality_score: 4.87
+  components: {"authority": 5.5, "maintenance": 1.0, "adoption": 10.0, "documentation": 5.42, "reproducibility": 6.0, "security": 2.5, "recency": 4.67, "evidence": 2.5}
+  quality_score: 4.86
   trust_score: 3.54
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Understanding R1-Zero-Like Training: A Critical Perspective
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 1,276 (checked 2026-09-15) |
+| Stars | 1,277 (checked 2026-09-21) |
 | Forks | 63 |
 | Open issues | 7 |
 | Contributors | 3 |
-| Last push | 2025-08-27 (384 days before verification) |
+| Last push | 2025-08-27 (389 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.42 |
 | reproducibility | 6.0 |
 | security | 2.5 |
-| recency | 4.74 |
+| recency | 4.67 |
 | evidence | 2.5 |
-| **quality_score** (weighted) | **4.87** |
+| **quality_score** (weighted) | **4.86** |
 | **trust_score** | **3.54** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

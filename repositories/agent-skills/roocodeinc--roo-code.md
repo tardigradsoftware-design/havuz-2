@@ -4,25 +4,25 @@ title: "RooCodeInc/Roo-Code"
 domain: agent-skills
 summary: >-
   RooCodeInc/Roo-Code — ARCHIVED, tier ARCHIVED,
-  24,302 stars, license Apache-2.0, quality 6.64/10, trust 4.12/10.
-  Verified against the GitHub API on 2026-09-15.
+  24,302 stars, license Apache-2.0, quality 6.63/10, trust 4.12/10.
+  Verified against the GitHub API on 2026-09-21.
 status: deprecated
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "vscode"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.5, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.78, "reproducibility": 7.0, "security": 5.0, "recency": 8.33, "evidence": 5.0}
-  quality_score: 6.64
+  components: {"authority": 8.5, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.78, "reproducibility": 7.0, "security": 5.0, "recency": 8.25, "evidence": 5.0}
+  quality_score: 6.63
   trust_score: 4.12
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Roo Code gives you a whole dev team of AI agents in your code editor.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 24,302 (checked 2026-09-15) |
-| Forks | 3,419 |
+| Stars | 24,302 (checked 2026-09-21) |
+| Forks | 3,421 |
 | Open issues | 1,033 |
 | Contributors | 282 |
-| Last push | 2026-05-15 (122 days before verification) |
+| Last push | 2026-05-15 (128 days before verification) |
 | Latest release | v3.54.0 (2026-05-15) |
 | Archived | **YES** |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.78 |
 | reproducibility | 7.0 |
 | security | 5.0 |
-| recency | 8.33 |
+| recency | 8.25 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **6.64** |
+| **quality_score** (weighted) | **6.63** |
 | **trust_score** | **4.12** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

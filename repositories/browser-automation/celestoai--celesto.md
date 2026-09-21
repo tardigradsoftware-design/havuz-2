@@ -4,25 +4,25 @@ title: "CelestoAI/celesto"
 domain: browser-automation
 summary: >-
   CelestoAI/celesto — ACTIVE, tier S,
-  922 stars, license Apache-2.0, quality 8.4/10, trust 7.62/10.
-  Verified against the GitHub API on 2026-09-15.
+  946 stars, license Apache-2.0, quality 8.44/10, trust 7.68/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-sandbox", "browser-automation", "computer", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 9.87, "documentation": 8.16, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.0}
-  quality_score: 8.4
-  trust_score: 7.62
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 9.9, "documentation": 8.51, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.0}
+  quality_score: 8.44
+  trust_score: 7.68
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Secure and persistent computer for AI agents -- build your own Grokbot, and Muse.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 922 (checked 2026-09-15) |
-| Forks | 74 |
-| Open issues | 15 |
+| Stars | 946 (checked 2026-09-21) |
+| Forks | 75 |
+| Open issues | 17 |
 | Contributors | 15 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v0.0.35 (2026-09-15) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v0.1.0 (2026-09-21) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://docs.celesto.ai/smolvm](https://docs.celesto.ai/smolvm) |
@@ -79,14 +79,14 @@ sources:
 |---|---|
 | authority | 6.0 |
 | maintenance | 10.0 |
-| adoption | 9.87 |
-| documentation | 8.16 |
+| adoption | 9.9 |
+| documentation | 8.51 |
 | reproducibility | 10.0 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.4** |
-| **trust_score** | **7.62** |
+| **quality_score** (weighted) | **8.44** |
+| **trust_score** | **7.68** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -102,10 +102,10 @@ security / recency / evidence 10% each. See
 | ci | yes |
 | examples | yes |
 | security md | yes |
-| changelog | no |
+| changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 19,884 bytes |
+| README size | 18,146 bytes |
 
 ## Curated judgement
 

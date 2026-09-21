@@ -4,25 +4,25 @@ title: "awslabs/mcp"
 domain: mcp-servers
 summary: >-
   awslabs/mcp — ACTIVE, tier S,
-  9,695 stars, license Apache-2.0, quality 8.65/10, trust 8.7/10.
-  Verified against the GitHub API on 2026-09-15.
+  9,716 stars, license Apache-2.0, quality 8.65/10, trust 8.7/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["aws", "catalog", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 8.0, "security": 4.5, "recency": 10.0, "evidence": 6.5}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 8.0, "security": 4.5, "recency": 9.97, "evidence": 6.5}
   quality_score: 8.65
   trust_score: 8.7
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Open source MCP Servers for AWS
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 9,695 (checked 2026-09-15) |
-| Forks | 1,757 |
-| Open issues | 243 |
-| Contributors | 328 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 9,716 (checked 2026-09-21) |
+| Forks | 1,770 |
+| Open issues | 246 |
+| Contributors | 331 |
+| Last push | 2026-09-19 (2 days before verification) |
 | Latest release | 2026.09.20260908143235 (2026-09-08) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 9.5 |
 | reproducibility | 8.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 6.5 |
 | **quality_score** (weighted) | **8.65** |
 | **trust_score** | **8.7** |

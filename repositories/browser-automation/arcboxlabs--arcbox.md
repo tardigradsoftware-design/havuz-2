@@ -4,25 +4,25 @@ title: "arcboxlabs/arcbox"
 domain: browser-automation
 summary: >-
   arcboxlabs/arcbox — ACTIVE, tier S,
-  6,215 stars, license Apache-2.0, quality 8.15/10, trust 7.11/10.
-  Verified against the GitHub API on 2026-09-15.
+  6,152 stars, license Apache-2.0, quality 8.16/10, trust 7.11/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-sandbox", "browser-automation", "github-repository", "isolation"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.05, "reproducibility": 9.5, "security": 6.0, "recency": 9.99, "evidence": 6.0}
-  quality_score: 8.15
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.05, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 6.0}
+  quality_score: 8.16
   trust_score: 7.11
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Run AI agents on real and isolated machines — own kernel, filesystem, and network — with \<100ms boot. Local first, OCI compatible, pure Rust.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 6,215 (checked 2026-09-15) |
-| Forks | 194 |
+| Stars | 6,152 (checked 2026-09-21) |
+| Forks | 214 |
 | Open issues | 42 |
 | Contributors | 9 |
-| Last push | 2026-09-14 (1 days before verification) |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | fleet-agent-v0.1.5 (2026-09-11) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.05 |
 | reproducibility | 9.5 |
 | security | 6.0 |
-| recency | 9.99 |
+| recency | 10.0 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **8.15** |
+| **quality_score** (weighted) | **8.16** |
 | **trust_score** | **7.11** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

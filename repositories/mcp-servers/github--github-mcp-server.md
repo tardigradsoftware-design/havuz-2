@@ -4,25 +4,25 @@ title: "github/github-mcp-server"
 domain: mcp-servers
 summary: >-
   github/github-mcp-server — ACTIVE, tier S,
-  32,947 stars, license MIT, quality 8.4/10, trust 8.12/10.
-  Verified against the GitHub API on 2026-09-15.
+  33,096 stars, license MIT, quality 8.39/10, trust 8.12/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 5.0}
-  quality_score: 8.4
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 7.5, "security": 7.0, "recency": 9.95, "evidence": 5.0}
+  quality_score: 8.39
   trust_score: 8.12
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > GitHub's official MCP Server
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 32,947 (checked 2026-09-15) |
-| Forks | 4,968 |
-| Open issues | 320 |
+| Stars | 33,096 (checked 2026-09-21) |
+| Forks | 5,023 |
+| Open issues | 335 |
 | Contributors | 164 |
-| Last push | 2026-09-14 (0 days before verification) |
-| Latest release | v1.12.1 (2026-09-08) |
+| Last push | 2026-09-16 (4 days before verification) |
+| Latest release | v1.12.2 (2026-09-16) |
 | Archived | no |
 | Fork | no |
 | Homepage | — |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.5 |
 | reproducibility | 7.5 |
 | security | 7.0 |
-| recency | 10.0 |
+| recency | 9.95 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **8.4** |
+| **quality_score** (weighted) | **8.39** |
 | **trust_score** | **8.12** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 112,801 bytes |
+| README size | 113,197 bytes |
 
 ## Curated judgement
 

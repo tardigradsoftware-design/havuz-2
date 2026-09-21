@@ -4,25 +4,25 @@ title: "PRIME-RL/PRIME"
 domain: reasoning-research
 summary: >-
   PRIME-RL/PRIME — STABLE, tier EXPERIMENTAL,
-  1,873 stars, license Apache-2.0, quality 4.16/10, trust 2.89/10.
-  Verified against the GitHub API on 2026-09-15.
+  1,872 stars, license Apache-2.0, quality 4.16/10, trust 2.89/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "reasoning", "reasoning-research", "rl", "training"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 4.62, "reproducibility": 4.5, "security": 2.5, "recency": 2.52, "evidence": 1.0}
+  components: {"authority": 5.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 4.62, "reproducibility": 4.5, "security": 2.5, "recency": 2.44, "evidence": 1.0}
   quality_score: 4.16
   trust_score: 2.89
   tier: EXPERIMENTAL
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Scalable RL solution for advanced reasoning of language models
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 1,873 (checked 2026-09-15) |
+| Stars | 1,872 (checked 2026-09-21) |
 | Forks | 115 |
 | Open issues | 10 |
 | Contributors | 8 |
-| Last push | 2025-03-18 (546 days before verification) |
+| Last push | 2025-03-18 (552 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 4.62 |
 | reproducibility | 4.5 |
 | security | 2.5 |
-| recency | 2.52 |
+| recency | 2.44 |
 | evidence | 1.0 |
 | **quality_score** (weighted) | **4.16** |
 | **trust_score** | **2.89** |

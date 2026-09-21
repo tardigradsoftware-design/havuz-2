@@ -4,17 +4,17 @@ title: "joonspk-research/generative_agents"
 domain: reasoning-research
 summary: >-
   joonspk-research/generative_agents — STABLE, tier C,
-  22,110 stars, license Apache-2.0, quality 4.4/10, trust 4.08/10.
-  Verified against the GitHub API on 2026-09-15.
+  22,131 stars, license Apache-2.0, quality 4.4/10, trust 4.08/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "github-repository", "memory", "paper-code", "reasoning-research"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 7.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 4.54, "reproducibility": 4.5, "security": 3.5, "recency": 0.0, "evidence": 1.0}
   quality_score: 4.4
@@ -22,7 +22,7 @@ scoring:
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Generative Agents: Interactive Simulacra of Human Behavior
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | — |
 | License | `Apache-2.0` |
-| Stars | 22,110 (checked 2026-09-15) |
-| Forks | 3,104 |
+| Stars | 22,131 (checked 2026-09-21) |
+| Forks | 3,105 |
 | Open issues | 146 |
 | Contributors | 5 |
-| Last push | 2024-08-05 (770 days before verification) |
+| Last push | 2024-08-05 (776 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |

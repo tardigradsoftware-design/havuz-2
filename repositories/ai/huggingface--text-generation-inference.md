@@ -4,25 +4,25 @@ title: "huggingface/text-generation-inference"
 domain: ai
 summary: >-
   huggingface/text-generation-inference — ARCHIVED, tier ARCHIVED,
-  10,886 stars, license Apache-2.0, quality 6.55/10, trust 4.16/10.
-  Verified against the GitHub API on 2026-09-15.
+  10,885 stars, license Apache-2.0, quality 6.55/10, trust 4.16/10.
+  Verified against the GitHub API on 2026-09-21.
 status: deprecated
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "inference", "serving"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 7.72, "reproducibility": 7.5, "security": 2.5, "recency": 7.56, "evidence": 5.0}
+  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 7.72, "reproducibility": 7.5, "security": 2.5, "recency": 7.49, "evidence": 5.0}
   quality_score: 6.55
   trust_score: 4.16
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Large Language Model Text Generation Inference
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 10,886 (checked 2026-09-15) |
-| Forks | 1,288 |
+| Stars | 10,885 (checked 2026-09-21) |
+| Forks | 1,290 |
 | Open issues | 324 |
 | Contributors | 145 |
-| Last push | 2026-03-21 (178 days before verification) |
+| Last push | 2026-03-21 (183 days before verification) |
 | Latest release | v3.3.7 (2025-12-19) |
 | Archived | **YES** |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.72 |
 | reproducibility | 7.5 |
 | security | 2.5 |
-| recency | 7.56 |
+| recency | 7.49 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **6.55** |
 | **trust_score** | **4.16** |

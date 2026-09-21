@@ -5,16 +5,16 @@ domain: instructions-standards
 summary: >-
   12factor/12factor-br — ABANDONED, tier EXPERIMENTAL,
   3 stars, license MIT, quality 3.18/10, trust 3.94/10.
-  Verified against the GitHub API on 2026-09-15.
+  Verified against the GitHub API on 2026-09-21.
 status: deprecated
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["architecture", "github-repository", "instructions-standards", "standard"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 1.5, "adoption": 2.64, "documentation": 4.1, "reproducibility": 4.5, "security": 3.5, "recency": 0.0, "evidence": 1.5}
   quality_score: 3.18
@@ -22,7 +22,7 @@ scoring:
   tier: EXPERIMENTAL
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,7 +50,7 @@ sources:
 
 > _No description published._
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -59,11 +59,11 @@ sources:
 | Official upstream | yes |
 | Language | CSS |
 | License | `MIT` |
-| Stars | 3 (checked 2026-09-15) |
+| Stars | 3 (checked 2026-09-21) |
 | Forks | 2 |
 | Open issues | 0 |
 | Contributors | 32 |
-| Last push | 2016-02-16 (3863 days before verification) |
+| Last push | 2016-02-16 (3869 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | yes |
@@ -133,7 +133,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-Repository moved: `12factor/12factor` -> `12factor/12factor-br`. Update any hard-coded URLs; the old path 404s once GitHub drops the redirect. No push in 3863 days (>365d). Likely abandoned; prefer an actively maintained alternative. This is a fork. Check the upstream parent before trusting provenance.
+Repository moved: `12factor/12factor` -> `12factor/12factor-br`. Update any hard-coded URLs; the old path 404s once GitHub drops the redirect. No push in 3869 days (>365d). Likely abandoned; prefer an actively maintained alternative. This is a fork. Check the upstream parent before trusting provenance.
 
 ## How to re-verify
 

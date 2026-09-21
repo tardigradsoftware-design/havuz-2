@@ -4,25 +4,25 @@ title: "Panniantong/Agent-Reach"
 domain: developer-tools
 summary: >-
   Panniantong/Agent-Reach — ACTIVE, tier A,
-  81,899 stars, license MIT, quality 7.72/10, trust 6.68/10.
-  Verified against the GitHub API on 2026-09-15.
+  84,108 stars, license MIT, quality 7.88/10, trust 6.88/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "developer-tools", "github-repository", "web-reading"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 4.5, "maintenance": 9.0, "adoption": 10.0, "documentation": 7.89, "reproducibility": 9.0, "security": 6.0, "recency": 9.81, "evidence": 7.0}
-  quality_score: 7.72
-  trust_score: 6.68
+  components: {"authority": 4.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.9, "reproducibility": 9.0, "security": 6.0, "recency": 9.93, "evidence": 7.0}
+  quality_score: 7.88
+  trust_score: 6.88
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 81,899 (checked 2026-09-15) |
-| Forks | 7,128 |
-| Open issues | 138 |
-| Contributors | 35 |
-| Last push | 2026-09-01 (14 days before verification) |
+| Stars | 84,108 (checked 2026-09-21) |
+| Forks | 7,377 |
+| Open issues | 154 |
+| Contributors | 36 |
+| Last push | 2026-09-15 (5 days before verification) |
 | Latest release | v1.5.0 (2026-06-11) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 4.5 |
-| maintenance | 9.0 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.89 |
+| documentation | 7.9 |
 | reproducibility | 9.0 |
 | security | 6.0 |
-| recency | 9.81 |
+| recency | 9.93 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.72** |
-| **trust_score** | **6.68** |
+| **quality_score** (weighted) | **7.88** |
+| **trust_score** | **6.88** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 22,651 bytes |
+| README size | 22,830 bytes |
 
 ## Curated judgement
 

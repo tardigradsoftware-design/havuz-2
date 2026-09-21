@@ -4,17 +4,17 @@ title: "verl-project/verl"
 domain: reasoning-research
 summary: >-
   verl-project/verl — ACTIVE, tier S,
-  23,435 stars, license Apache-2.0, quality 8.25/10, trust 7.55/10.
-  Verified against the GitHub API on 2026-09-15.
+  23,513 stars, license Apache-2.0, quality 8.25/10, trust 7.55/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "reasoning", "reasoning-research", "rl", "training"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 10.0, "security": 3.5, "recency": 10.0, "evidence": 8.5}
   quality_score: 8.25
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 23,435 (checked 2026-09-15) |
-| Forks | 4,543 |
-| Open issues | 1,222 |
+| Stars | 23,513 (checked 2026-09-21) |
+| Forks | 4,567 |
+| Open issues | 1,250 |
 | Contributors | 445 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v0.9.0 (2026-08-14) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v0.9.1 (2026-09-20) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://verl-project.github.io](https://verl-project.github.io) |

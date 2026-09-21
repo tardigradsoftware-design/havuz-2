@@ -4,33 +4,33 @@
 # Evaluation, benchmarks & observability
 
 38 repositories · 37 usable · 1 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-15.
+all facts verified against the GitHub API on 2026-09-21.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [Arize-ai/phoenix](./arize-ai--phoenix.md) | 11,469 | A | 🟢 ACTIVE | `NOASSERTION` | 9.47 | 2026-09-15 |
-| [confident-ai/deepeval](./confident-ai--deepeval.md) | 18,278 | S | 🟢 ACTIVE | `Apache-2.0` | 9.11 | 2026-09-15 |
-| [promptfoo/promptfoo](./promptfoo--promptfoo.md) | 25,129 | S | 🟢 ACTIVE | `MIT` | 9.01 | 2026-09-15 |
-| [EleutherAI/lm-evaluation-harness](./eleutherai--lm-evaluation-harness.md) | 13,988 | S | 🟢 ACTIVE | `MIT` | 8.97 | 2026-09-15 |
-| [open-compass/opencompass](./open-compass--opencompass.md) | 7,439 | S | 🔵 STABLE | `Apache-2.0` | 8.97 | 2026-09-15 |
-| [langfuse/langfuse](./langfuse--langfuse.md) | 34,637 | A | 🟢 ACTIVE | `NOASSERTION` | 8.92 | 2026-09-15 |
-| [truera/trulens](./truera--trulens.md) | 3,552 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-15 |
-| [huggingface/lighteval](./huggingface--lighteval.md) | 2,541 | S | 🟢 ACTIVE | `MIT` | 8.51 | 2026-09-15 |
-| [xlang-ai/OSWorld-V2](./xlang-ai--osworld-v2.md) | 309 | S | 🔵 STABLE | `Apache-2.0` | 8.16 | 2026-09-15 |
-| [mlflow/mlflow](./mlflow--mlflow.md) | 27,968 | S | 🟢 ACTIVE | `Apache-2.0` | 7.99 | 2026-09-15 |
-| [SWE-bench/SWE-bench](./swe-bench--swe-bench.md) | 5,849 | S | 🔵 STABLE | `MIT` | 7.94 | 2026-09-15 |
-| [xlang-ai/OSWorld](./xlang-ai--osworld.md) | 3,143 | S | 🔵 STABLE | `Apache-2.0` | 7.92 | 2026-09-15 |
-| [stanford-crfm/helm](./stanford-crfm--helm.md) | 2,909 | A | 🟢 ACTIVE | `Apache-2.0` | 7.72 | 2026-09-15 |
-| [TIGER-AI-Lab/ClawBench](./tiger-ai-lab--clawbench.md) | 754 | S | 🔵 STABLE | `Apache-2.0` | 7.52 | 2026-09-15 |
-| [tatsu-lab/alpaca_eval](./tatsu-lab--alpaca_eval.md) | 2,015 | A | 🔵 STABLE | `Apache-2.0` | 7.32 | 2026-09-15 |
+| [Arize-ai/phoenix](./arize-ai--phoenix.md) | 11,561 | A | 🟢 ACTIVE | `NOASSERTION` | 9.47 | 2026-09-21 |
+| [confident-ai/deepeval](./confident-ai--deepeval.md) | 18,363 | S | 🟢 ACTIVE | `Apache-2.0` | 9.11 | 2026-09-21 |
+| [promptfoo/promptfoo](./promptfoo--promptfoo.md) | 25,330 | S | 🟢 ACTIVE | `MIT` | 9.01 | 2026-09-21 |
+| [EleutherAI/lm-evaluation-harness](./eleutherai--lm-evaluation-harness.md) | 14,043 | S | 🟢 ACTIVE | `MIT` | 8.97 | 2026-09-21 |
+| [open-compass/opencompass](./open-compass--opencompass.md) | 7,463 | S | 🔵 STABLE | `Apache-2.0` | 8.97 | 2026-09-21 |
+| [langfuse/langfuse](./langfuse--langfuse.md) | 34,884 | A | 🟢 ACTIVE | `NOASSERTION` | 8.92 | 2026-09-21 |
+| [truera/trulens](./truera--trulens.md) | 3,568 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-21 |
+| [huggingface/lighteval](./huggingface--lighteval.md) | 2,547 | S | 🟢 ACTIVE | `MIT` | 8.51 | 2026-09-21 |
+| [xlang-ai/OSWorld-V2](./xlang-ai--osworld-v2.md) | 324 | S | 🔵 STABLE | `Apache-2.0` | 8.33 | 2026-09-21 |
+| [SWE-bench/SWE-bench](./swe-bench--swe-bench.md) | 5,884 | S | 🔵 STABLE | `MIT` | 8.14 | 2026-09-21 |
+| [mlflow/mlflow](./mlflow--mlflow.md) | 28,070 | S | 🟢 ACTIVE | `Apache-2.0` | 7.99 | 2026-09-21 |
+| [xlang-ai/OSWorld](./xlang-ai--osworld.md) | 3,152 | S | 🔵 STABLE | `Apache-2.0` | 7.92 | 2026-09-21 |
+| [stanford-crfm/helm](./stanford-crfm--helm.md) | 2,916 | A | 🔵 STABLE | `Apache-2.0` | 7.72 | 2026-09-21 |
+| [TIGER-AI-Lab/ClawBench](./tiger-ai-lab--clawbench.md) | 808 | S | 🔵 STABLE | `Apache-2.0` | 7.52 | 2026-09-21 |
+| [tatsu-lab/alpaca_eval](./tatsu-lab--alpaca_eval.md) | 2,015 | A | 🔵 STABLE | `Apache-2.0` | 7.32 | 2026-09-21 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [bigcode-project/bigcodebench](./bigcode-project--bigcodebench.md) | 519 | ⛔ ARCHIVED | 255d |
+| [bigcode-project/bigcodebench](./bigcode-project--bigcodebench.md) | 519 | ⛔ ARCHIVED | 261d |
 
 ## Cards
 
@@ -59,7 +59,7 @@ all facts verified against the GitHub API on 2026-09-15.
 - [promptfoo/promptfoo](./promptfoo--promptfoo.md) — tier S, ACTIVE
 - [ServiceNow/AgentLab](./servicenow--agentlab.md) — tier B, STABLE
 - [sierra-research/tau-bench](./sierra-research--tau-bench.md) — tier B, STABLE
-- [stanford-crfm/helm](./stanford-crfm--helm.md) — tier A, ACTIVE
+- [stanford-crfm/helm](./stanford-crfm--helm.md) — tier A, STABLE
 - [stanfordmlgroup/MedAgentBench](./stanfordmlgroup--medagentbench.md) — tier C, STABLE
 - [suyoumo/ClawProBench](./suyoumo--clawprobench.md) — tier A, STABLE
 - [SWE-bench/SWE-bench](./swe-bench--swe-bench.md) — tier S, STABLE

@@ -4,17 +4,17 @@ title: "1Panel-dev/MaxKB"
 domain: ai
 summary: >-
   1Panel-dev/MaxKB — ACTIVE, tier A,
-  22,799 stars, license GPL-3.0, quality 7.45/10, trust 6.48/10.
-  Verified against the GitHub API on 2026-09-15.
+  22,849 stars, license GPL-3.0, quality 7.45/10, trust 6.48/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "enterprise-kb", "github-repository", "rag"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.54, "reproducibility": 5.95, "security": 6.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.45
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `GPL-3.0` |
-| Stars | 22,799 (checked 2026-09-15) |
-| Forks | 3,148 |
-| Open issues | 23 |
-| Contributors | 88 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 22,849 (checked 2026-09-21) |
+| Forks | 3,158 |
+| Open issues | 22 |
+| Contributors | 91 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v2.10.6-lts (2026-09-03) |
 | Archived | no |
 | Fork | no |

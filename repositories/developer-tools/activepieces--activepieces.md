@@ -4,17 +4,17 @@ title: "activepieces/activepieces"
 domain: developer-tools
 summary: >-
   activepieces/activepieces — ACTIVE, tier A,
-  24,465 stars, license NOASSERTION, quality 7.91/10, trust 7.15/10.
-  Verified against the GitHub API on 2026-09-15.
+  24,626 stars, license NOASSERTION, quality 7.91/10, trust 7.15/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["automation", "developer-tools", "github-repository", "mcp"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 6.6, "security": 5.5, "recency": 10.0, "evidence": 5.5}
   quality_score: 7.91
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 24,465 (checked 2026-09-15) |
-| Forks | 4,192 |
-| Open issues | 594 |
+| Stars | 24,626 (checked 2026-09-21) |
+| Forks | 4,223 |
+| Open issues | 582 |
 | Contributors | 356 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | 0.91.0 (2026-09-14) |
 | Archived | no |
 | Fork | no |

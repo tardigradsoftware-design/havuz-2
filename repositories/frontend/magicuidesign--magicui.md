@@ -4,25 +4,25 @@ title: "magicuidesign/magicui"
 domain: frontend
 summary: >-
   magicuidesign/magicui — ACTIVE, tier A,
-  22,295 stars, license MIT, quality 7.76/10, trust 7.42/10.
-  Verified against the GitHub API on 2026-09-15.
+  22,347 stars, license MIT, quality 7.76/10, trust 7.42/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["animation", "components", "frontend", "github-repository", "marketing"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.15, "reproducibility": 6.0, "security": 4.5, "recency": 9.97, "evidence": 4.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.15, "reproducibility": 6.0, "security": 4.5, "recency": 9.99, "evidence": 4.0}
   quality_score: 7.76
   trust_score: 7.42
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Source.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | MDX |
 | License | `MIT` |
-| Stars | 22,295 (checked 2026-09-15) |
-| Forks | 1,132 |
+| Stars | 22,347 (checked 2026-09-21) |
+| Forks | 1,133 |
 | Open issues | 1 |
-| Contributors | 153 |
-| Last push | 2026-09-13 (2 days before verification) |
+| Contributors | 154 |
+| Last push | 2026-09-20 (1 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 5.15 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 9.99 |
 | evidence | 4.0 |
 | **quality_score** (weighted) | **7.76** |
 | **trust_score** | **7.42** |

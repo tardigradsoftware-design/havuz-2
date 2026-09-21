@@ -4,25 +4,25 @@ title: "trufflesecurity/trufflehog"
 domain: developer-tools
 summary: >-
   trufflesecurity/trufflehog — ACTIVE, tier S,
-  27,906 stars, license AGPL-3.0, quality 8.73/10, trust 8.85/10.
-  Verified against the GitHub API on 2026-09-15.
+  28,007 stars, license AGPL-3.0, quality 8.73/10, trust 8.85/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "secrets", "security"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 7.3, "security": 6.0, "recency": 10.0, "evidence": 6.5}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 7.3, "security": 6.0, "recency": 9.97, "evidence": 6.5}
   quality_score: 8.73
   trust_score: 8.85
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Find, verify, and analyze leaked credentials
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `AGPL-3.0` |
-| Stars | 27,906 (checked 2026-09-15) |
-| Forks | 2,578 |
-| Open issues | 552 |
-| Contributors | 199 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v3.97.4 (2026-09-03) |
+| Stars | 28,007 (checked 2026-09-21) |
+| Forks | 2,590 |
+| Open issues | 559 |
+| Contributors | 200 |
+| Last push | 2026-09-18 (2 days before verification) |
+| Latest release | v3.97.5 (2026-09-16) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://trufflesecurity.com](https://trufflesecurity.com) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 9.5 |
 | reproducibility | 7.3 |
 | security | 6.0 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 6.5 |
 | **quality_score** (weighted) | **8.73** |
 | **trust_score** | **8.85** |

@@ -4,25 +4,25 @@ title: "cathrynlavery/diagram-design"
 domain: agent-skills
 summary: >-
   cathrynlavery/diagram-design — ACTIVE, tier A,
-  40,113 stars, license MIT, quality 7.6/10, trust 6.65/10.
-  Verified against the GitHub API on 2026-09-15.
+  41,716 stars, license MIT, quality 7.6/10, trust 6.65/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "diagrams", "documentation", "github-repository", "skills"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 6.0, "security": 6.0, "recency": 10.0, "evidence": 4.5}
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 6.0, "security": 6.0, "recency": 9.99, "evidence": 4.5}
   quality_score: 7.6
   trust_score: 6.65
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,9 +50,9 @@ sources:
 
 > _Upstream description, quoted as published and not verified here:_
 >
-> 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+> Editorial diagram design for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | HTML |
 | License | `MIT` |
-| Stars | 40,113 (checked 2026-09-15) |
-| Forks | 2,550 |
-| Open issues | 46 |
-| Contributors | 39 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 41,716 (checked 2026-09-21) |
+| Forks | 2,671 |
+| Open issues | 33 |
+| Contributors | 42 |
+| Last push | 2026-09-19 (1 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 9.5 |
 | reproducibility | 6.0 |
 | security | 6.0 |
-| recency | 10.0 |
+| recency | 9.99 |
 | evidence | 4.5 |
 | **quality_score** (weighted) | **7.6** |
 | **trust_score** | **6.65** |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 49,125 bytes |
+| README size | 49,113 bytes |
 
 ## Curated judgement
 

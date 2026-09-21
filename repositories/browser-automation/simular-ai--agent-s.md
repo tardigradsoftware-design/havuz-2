@@ -3,26 +3,26 @@ id: simular-ai--agent-s
 title: "simular-ai/Agent-S"
 domain: browser-automation
 summary: >-
-  simular-ai/Agent-S — ACTIVE, tier A,
-  12,300 stars, license Apache-2.0, quality 7.6/10, trust 6.61/10.
-  Verified against the GitHub API on 2026-09-15.
+  simular-ai/Agent-S — STABLE, tier A,
+  12,335 stars, license Apache-2.0, quality 7.59/10, trust 6.61/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-framework", "browser-automation", "computer-use", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.09, "reproducibility": 9.0, "security": 3.5, "recency": 9.88, "evidence": 7.0}
-  quality_score: 7.6
+  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.09, "reproducibility": 9.0, "security": 3.5, "recency": 9.79, "evidence": 7.0}
+  quality_score: 7.59
   trust_score: 6.61
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # simular-ai/Agent-S
 
-🟢 ACTIVE · tier **A** · production-grade · confidence **high**
+🔵 STABLE · tier **A** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Agent S: an open agentic framework that uses computers like a human
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 12,300 (checked 2026-09-15) |
-| Forks | 1,445 |
+| Stars | 12,335 (checked 2026-09-21) |
+| Forks | 1,449 |
 | Open issues | 43 |
 | Contributors | 26 |
-| Last push | 2026-09-05 (9 days before verification) |
+| Last push | 2026-09-05 (15 days before verification) |
 | Latest release | v0.3.2 (2025-12-16) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.09 |
 | reproducibility | 9.0 |
 | security | 3.5 |
-| recency | 9.88 |
+| recency | 9.79 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.6** |
+| **quality_score** (weighted) | **7.59** |
 | **trust_score** | **6.61** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

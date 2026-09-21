@@ -4,25 +4,25 @@ title: "httpie/cli"
 domain: developer-tools
 summary: >-
   httpie/cli — ABANDONED, tier B,
-  38,515 stars, license BSD-3-Clause, quality 6.7/10, trust 7.06/10.
-  Verified against the GitHub API on 2026-09-15.
+  38,558 stars, license BSD-3-Clause, quality 6.7/10, trust 7.06/10.
+  Verified against the GitHub API on 2026-09-21.
 status: deprecated
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["api-client", "cli", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 2.0, "adoption": 10.0, "documentation": 7.41, "reproducibility": 9.35, "security": 6.0, "recency": 1.29, "evidence": 7.0}
+  components: {"authority": 9.0, "maintenance": 2.0, "adoption": 10.0, "documentation": 7.41, "reproducibility": 9.35, "security": 6.0, "recency": 1.21, "evidence": 7.0}
   quality_score: 6.7
   trust_score: 7.06
   tier: B
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `BSD-3-Clause` |
-| Stars | 38,515 (checked 2026-09-15) |
-| Forks | 4,002 |
+| Stars | 38,558 (checked 2026-09-21) |
+| Forks | 4,005 |
 | Open issues | 338 |
 | Contributors | 147 |
-| Last push | 2024-12-17 (636 days before verification) |
+| Last push | 2024-12-17 (642 days before verification) |
 | Latest release | 3.2.4 (2024-11-01) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.41 |
 | reproducibility | 9.35 |
 | security | 6.0 |
-| recency | 1.29 |
+| recency | 1.21 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **6.7** |
 | **trust_score** | **7.06** |
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 636 days (>365d). Likely abandoned; prefer an actively maintained alternative.
+No push in 642 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 

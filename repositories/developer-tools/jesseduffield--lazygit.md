@@ -4,17 +4,17 @@ title: "jesseduffield/lazygit"
 domain: developer-tools
 summary: >-
   jesseduffield/lazygit — ACTIVE, tier S,
-  82,362 stars, license MIT, quality 8.5/10, trust 8.32/10.
-  Verified against the GitHub API on 2026-09-15.
+  82,544 stars, license MIT, quality 8.5/10, trust 8.32/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "git", "github-repository", "tui"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 7.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.5
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > simple terminal UI for git commands
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 82,362 (checked 2026-09-15) |
-| Forks | 3,037 |
-| Open issues | 1,030 |
-| Contributors | 361 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 82,544 (checked 2026-09-21) |
+| Forks | 3,043 |
+| Open issues | 1,049 |
+| Contributors | 360 |
+| Last push | 2026-09-20 (0 days before verification) |
 | Latest release | v0.65.1 (2026-09-13) |
 | Archived | no |
 | Fork | no |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 38,288 bytes |
+| README size | 38,338 bytes |
 
 ## Curated judgement
 

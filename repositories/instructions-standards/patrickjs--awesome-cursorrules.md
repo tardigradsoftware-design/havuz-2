@@ -4,25 +4,25 @@ title: "PatrickJS/awesome-cursorrules"
 domain: instructions-standards
 summary: >-
   PatrickJS/awesome-cursorrules — STABLE, tier A,
-  40,788 stars, license CC0-1.0, quality 7.05/10, trust 6.78/10.
-  Verified against the GitHub API on 2026-09-15.
+  40,808 stars, license CC0-1.0, quality 7.04/10, trust 6.78/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "cursor", "github-repository", "instructions", "instructions-standards"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 8.0, "reproducibility": 5.7, "security": 4.5, "recency": 8.53, "evidence": 4.5}
-  quality_score: 7.05
+  components: {"authority": 8.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 8.0, "reproducibility": 5.7, "security": 4.5, "recency": 8.45, "evidence": 4.5}
+  quality_score: 7.04
   trust_score: 6.78
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `CC0-1.0` |
-| Stars | 40,788 (checked 2026-09-15) |
-| Forks | 3,485 |
-| Open issues | 73 |
+| Stars | 40,808 (checked 2026-09-21) |
+| Forks | 3,491 |
+| Open issues | 78 |
 | Contributors | 88 |
-| Last push | 2026-05-30 (107 days before verification) |
+| Last push | 2026-05-30 (113 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.0 |
 | reproducibility | 5.7 |
 | security | 4.5 |
-| recency | 8.53 |
+| recency | 8.45 |
 | evidence | 4.5 |
-| **quality_score** (weighted) | **7.05** |
+| **quality_score** (weighted) | **7.04** |
 | **trust_score** | **6.78** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

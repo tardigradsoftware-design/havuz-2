@@ -4,25 +4,25 @@ title: "mermaid-js/mermaid"
 domain: developer-tools
 summary: >-
   mermaid-js/mermaid — ACTIVE, tier S,
-  90,253 stars, license MIT, quality 9.01/10, trust 9.14/10.
-  Verified against the GitHub API on 2026-09-15.
+  90,337 stars, license MIT, quality 9.01/10, trust 9.14/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "diagrams", "docs", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.08, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.5}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.08, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.5}
   quality_score: 9.01
   trust_score: 9.14
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 90,253 (checked 2026-09-15) |
-| Forks | 9,259 |
-| Open issues | 1,784 |
-| Contributors | 366 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | @mermaid-js/tiny@12.0.0 (2026-09-10) |
+| Stars | 90,337 (checked 2026-09-21) |
+| Forks | 9,277 |
+| Open issues | 1,796 |
+| Contributors | 365 |
+| Last push | 2026-09-18 (2 days before verification) |
+| Latest release | @mermaid-js/layout-tidy-tree@1.0.1 (2026-09-18) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://mermaid.ai/open-source/](https://mermaid.ai/open-source/) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 9.08 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 8.5 |
 | **quality_score** (weighted) | **9.01** |
 | **trust_score** | **9.14** |

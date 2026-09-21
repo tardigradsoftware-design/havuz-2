@@ -4,25 +4,25 @@ title: "vercel/chatbot"
 domain: frontend
 summary: >-
   vercel/chatbot — STABLE, tier A,
-  20,941 stars, license NOASSERTION, quality 7.52/10, trust 7.32/10.
-  Verified against the GitHub API on 2026-09-15.
+  20,960 stars, license NOASSERTION, quality 7.51/10, trust 7.32/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "example", "frontend", "github-repository", "streaming"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 7.5, "adoption": 10.0, "documentation": 4.8, "reproducibility": 7.1, "security": 4.0, "recency": 9.07, "evidence": 6.0}
-  quality_score: 7.52
+  components: {"authority": 9.0, "maintenance": 7.5, "adoption": 10.0, "documentation": 4.8, "reproducibility": 7.1, "security": 4.0, "recency": 8.99, "evidence": 6.0}
+  quality_score: 7.51
   trust_score: 7.32
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > A full-featured, hackable Next.js AI chatbot built by Vercel
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 20,941 (checked 2026-09-15) |
-| Forks | 6,755 |
+| Stars | 20,960 (checked 2026-09-21) |
+| Forks | 6,753 |
 | Open issues | 28 |
 | Contributors | 76 |
-| Last push | 2026-07-08 (68 days before verification) |
+| Last push | 2026-07-08 (74 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 4.8 |
 | reproducibility | 7.1 |
 | security | 4.0 |
-| recency | 9.07 |
+| recency | 8.99 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **7.52** |
+| **quality_score** (weighted) | **7.51** |
 | **trust_score** | **7.32** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

@@ -3,26 +3,26 @@ id: vectifyai--pageindex
 title: "VectifyAI/PageIndex"
 domain: ai
 summary: >-
-  VectifyAI/PageIndex — ACTIVE, tier A,
-  35,656 stars, license MIT, quality 7.91/10, trust 6.99/10.
-  Verified against the GitHub API on 2026-09-15.
+  VectifyAI/PageIndex — ACTIVE, tier S,
+  35,785 stars, license MIT, quality 8.06/10, trust 7.21/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "rag", "reasoning-based-retrieval"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.58, "reproducibility": 10.0, "security": 3.5, "recency": 10.0, "evidence": 8.0}
-  quality_score: 7.91
-  trust_score: 6.99
-  tier: A
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.08, "reproducibility": 10.0, "security": 3.5, "recency": 10.0, "evidence": 8.0}
+  quality_score: 8.06
+  trust_score: 7.21
+  tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # VectifyAI/PageIndex
 
-🟢 ACTIVE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 35,656 (checked 2026-09-15) |
-| Forks | 3,144 |
-| Open issues | 103 |
+| Stars | 35,785 (checked 2026-09-21) |
+| Forks | 3,153 |
+| Open issues | 107 |
 | Contributors | 16 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v0.2.17 (2026-09-13) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v0.2.19 (2026-09-21) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://pageindex.ai](https://pageindex.ai) |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 5.58 |
+| documentation | 7.08 |
 | reproducibility | 10.0 |
 | security | 3.5 |
 | recency | 10.0 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **7.91** |
-| **trust_score** | **6.99** |
+| **quality_score** (weighted) | **8.06** |
+| **trust_score** | **7.21** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -97,7 +97,7 @@ security / recency / evidence 10% each. See
 | Signal | Present |
 |---|---|
 | readme | yes |
-| docs | no |
+| docs | yes |
 | tests | yes |
 | ci | yes |
 | examples | yes |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 12,978 bytes |
+| README size | 12,965 bytes |
 
 ## Curated judgement
 

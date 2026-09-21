@@ -4,17 +4,17 @@ title: "pulumi/pulumi"
 domain: developer-tools
 summary: >-
   pulumi/pulumi — ACTIVE, tier S,
-  25,684 stars, license Apache-2.0, quality 8.69/10, trust 8.58/10.
-  Verified against the GitHub API on 2026-09-15.
+  25,713 stars, license Apache-2.0, quality 8.69/10, trust 8.58/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "iac", "typescript"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.85, "reproducibility": 9.5, "security": 4.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.69
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Pulumi - Infrastructure as Code in any programming language 🚀
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 25,684 (checked 2026-09-15) |
-| Forks | 1,428 |
-| Open issues | 2,421 |
-| Contributors | 357 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v3.262.0 (2026-09-10) |
+| Stars | 25,713 (checked 2026-09-21) |
+| Forks | 1,430 |
+| Open issues | 2,397 |
+| Contributors | 360 |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v3.263.0 (2026-09-16) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.pulumi.com](https://www.pulumi.com) |

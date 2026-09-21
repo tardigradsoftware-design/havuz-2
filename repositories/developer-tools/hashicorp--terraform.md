@@ -4,25 +4,25 @@ title: "hashicorp/terraform"
 domain: developer-tools
 summary: >-
   hashicorp/terraform — ACTIVE, tier A,
-  49,659 stars, license NOASSERTION, quality 8.04/10, trust 7.87/10.
-  Verified against the GitHub API on 2026-09-15.
+  49,695 stars, license NOASSERTION, quality 8.04/10, trust 7.87/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "iac"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.83, "reproducibility": 6.6, "security": 4.0, "recency": 10.0, "evidence": 5.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.83, "reproducibility": 6.6, "security": 4.0, "recency": 9.97, "evidence": 5.0}
   quality_score: 8.04
   trust_score: 7.87
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `NOASSERTION` |
-| Stars | 49,659 (checked 2026-09-15) |
-| Forks | 10,615 |
-| Open issues | 1,922 |
+| Stars | 49,695 (checked 2026-09-21) |
+| Forks | 10,625 |
+| Open issues | 1,929 |
 | Contributors | 351 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v1.16.2 (2026-09-09) |
+| Last push | 2026-09-18 (2 days before verification) |
+| Latest release | v1.16.3 (2026-09-16) |
 | Archived | no |
 | Fork | no |
 | Homepage | [http://developer.hashicorp.com/terraform](http://developer.hashicorp.com/terraform) |
@@ -89,7 +89,7 @@ sources:
 | documentation | 6.83 |
 | reproducibility | 6.6 |
 | security | 4.0 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **8.04** |
 | **trust_score** | **7.87** |

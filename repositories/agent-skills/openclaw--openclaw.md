@@ -4,17 +4,17 @@ title: "openclaw/openclaw"
 domain: agent-skills
 summary: >-
   openclaw/openclaw — ACTIVE, tier A,
-  389,756 stars, license NOASSERTION, quality 8.56/10, trust 7.97/10.
-  Verified against the GitHub API on 2026-09-15.
+  390,179 stars, license NOASSERTION, quality 8.56/10, trust 7.97/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-skills", "cross-platform", "github-repository", "harness"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 9.6, "security": 5.5, "recency": 10.0, "evidence": 8.5}
   quality_score: 8.56
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > The AI that really does things. Any OS. Any Platform. The lobster way. 🦞
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 389,756 (checked 2026-09-15) |
-| Forks | 81,927 |
-| Open issues | 7,384 |
+| Stars | 390,179 (checked 2026-09-21) |
+| Forks | 82,062 |
+| Open issues | 8,263 |
 | Contributors | 377 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v2026.9.4 (2026-09-11) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v2026.9.5 (2026-09-19) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://openclaw.ai](https://openclaw.ai) |
@@ -116,7 +116,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-15) and must be
+(on 2026-09-21) and must be
 re-checked against your own constraints._
 
 **Recommended for**

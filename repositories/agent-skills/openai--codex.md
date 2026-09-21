@@ -4,17 +4,17 @@ title: "openai/codex"
 domain: agent-skills
 summary: >-
   openai/codex — ACTIVE, tier S,
-  124,354 stars, license Apache-2.0, quality 8.08/10, trust 7.59/10.
-  Verified against the GitHub API on 2026-09-15.
+  125,652 stars, license Apache-2.0, quality 8.08/10, trust 7.59/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "openai", "rust"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.78, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 4.5}
   quality_score: 8.08
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Lightweight coding agent that runs in your terminal
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 124,354 (checked 2026-09-15) |
-| Forks | 19,213 |
-| Open issues | 17,254 |
-| Contributors | 475 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | rust-v0.154.0 (2026-09-09) |
+| Stars | 125,652 (checked 2026-09-21) |
+| Forks | 19,547 |
+| Open issues | 18,083 |
+| Contributors | 474 |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | rust-v0.155.1 (2026-09-18) |
 | Archived | no |
 | Fork | no |
 | Homepage | — |

@@ -4,25 +4,25 @@ title: "madaan/self-refine"
 domain: reasoning-research
 summary: >-
   madaan/self-refine — STABLE, tier C,
-  820 stars, license Apache-2.0, quality 5.15/10, trust 5.19/10.
-  Verified against the GitHub API on 2026-09-15.
+  822 stars, license Apache-2.0, quality 5.14/10, trust 5.19/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["critique", "github-repository", "paper-code", "reasoning", "reasoning-research"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.0, "maintenance": 1.0, "adoption": 9.74, "documentation": 6.6, "reproducibility": 6.0, "security": 3.5, "recency": 0.27, "evidence": 3.0}
-  quality_score: 5.15
+  components: {"authority": 8.0, "maintenance": 1.0, "adoption": 9.74, "documentation": 6.6, "reproducibility": 6.0, "security": 3.5, "recency": 0.19, "evidence": 3.0}
+  quality_score: 5.14
   trust_score: 5.19
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > LLMs can generate feedback on their work, use it to improve the output, and repeat this process iteratively.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 820 (checked 2026-09-15) |
-| Forks | 71 |
+| Stars | 822 (checked 2026-09-21) |
+| Forks | 70 |
 | Open issues | 10 |
 | Contributors | 5 |
-| Last push | 2024-10-04 (710 days before verification) |
+| Last push | 2024-10-04 (716 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.6 |
 | reproducibility | 6.0 |
 | security | 3.5 |
-| recency | 0.27 |
+| recency | 0.19 |
 | evidence | 3.0 |
-| **quality_score** (weighted) | **5.15** |
+| **quality_score** (weighted) | **5.14** |
 | **trust_score** | **5.19** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

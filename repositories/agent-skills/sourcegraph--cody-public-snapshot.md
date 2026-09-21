@@ -4,25 +4,25 @@ title: "sourcegraph/cody-public-snapshot"
 domain: agent-skills
 summary: >-
   sourcegraph/cody-public-snapshot — ARCHIVED, tier ARCHIVED,
-  3,807 stars, license Apache-2.0, quality 5.76/10, trust 3.5/10.
-  Verified against the GitHub API on 2026-09-15.
+  3,808 stars, license Apache-2.0, quality 5.76/10, trust 3.5/10.
+  Verified against the GitHub API on 2026-09-21.
 status: deprecated
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "deprecated-candidate", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.5, "maintenance": 1.5, "adoption": 10.0, "documentation": 4.98, "reproducibility": 7.5, "security": 1.5, "recency": 4.38, "evidence": 5.0}
+  components: {"authority": 8.5, "maintenance": 1.5, "adoption": 10.0, "documentation": 4.98, "reproducibility": 7.5, "security": 1.5, "recency": 4.32, "evidence": 5.0}
   quality_score: 5.76
   trust_score: 3.5
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 3,807 (checked 2026-09-15) |
-| Forks | 486 |
+| Stars | 3,808 (checked 2026-09-21) |
+| Forks | 488 |
 | Open issues | 43 |
 | Contributors | 120 |
-| Last push | 2025-08-01 (410 days before verification) |
+| Last push | 2025-08-01 (415 days before verification) |
 | Latest release | vscode-v1.116.0 (2025-07-30) |
 | Archived | **YES** |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 4.98 |
 | reproducibility | 7.5 |
 | security | 1.5 |
-| recency | 4.38 |
+| recency | 4.32 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **5.76** |
 | **trust_score** | **3.5** |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-15) and must be
+(on 2026-09-21) and must be
 re-checked against your own constraints._
 
 **Recommended for**

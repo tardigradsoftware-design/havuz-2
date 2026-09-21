@@ -4,25 +4,25 @@ title: "DietrichGebert/ponytail"
 domain: agent-skills
 summary: >-
   DietrichGebert/ponytail — ACTIVE, tier A,
-  139,094 stars, license MIT, quality 7.99/10, trust 7.17/10.
-  Verified against the GitHub API on 2026-09-15.
+  143,393 stars, license MIT, quality 7.99/10, trust 7.17/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "github-repository", "pragmatism", "skills"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.96, "reproducibility": 10.0, "security": 3.5, "recency": 9.99, "evidence": 8.5}
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.96, "reproducibility": 10.0, "security": 3.5, "recency": 9.92, "evidence": 8.5}
   quality_score: 7.99
   trust_score: 7.17
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 139,094 (checked 2026-09-15) |
-| Forks | 7,479 |
-| Open issues | 272 |
-| Contributors | 63 |
-| Last push | 2026-09-14 (1 days before verification) |
+| Stars | 143,393 (checked 2026-09-21) |
+| Forks | 7,683 |
+| Open issues | 291 |
+| Contributors | 64 |
+| Last push | 2026-09-14 (6 days before verification) |
 | Latest release | v4.10.0 (2026-09-14) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.96 |
 | reproducibility | 10.0 |
 | security | 3.5 |
-| recency | 9.99 |
+| recency | 9.92 |
 | evidence | 8.5 |
 | **quality_score** (weighted) | **7.99** |
 | **trust_score** | **7.17** |

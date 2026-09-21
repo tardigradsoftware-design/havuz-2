@@ -4,17 +4,17 @@ title: "ysymyth/ReAct"
 domain: reasoning-research
 summary: >-
   ysymyth/ReAct — STABLE, tier C,
-  4,169 stars, license MIT, quality 4.41/10, trust 4.1/10.
-  Verified against the GitHub API on 2026-09-15.
+  4,183 stars, license MIT, quality 4.41/10, trust 4.1/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "paper-code", "reasoning", "reasoning-research", "tool-use"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 7.5, "maintenance": 1.0, "adoption": 10.0, "documentation": 3.65, "reproducibility": 4.5, "security": 3.5, "recency": 0.0, "evidence": 1.0}
   quality_score: 4.41
@@ -22,7 +22,7 @@ scoring:
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > \[ICLR 2023\] ReAct: Synergizing Reasoning and Acting in Language Models
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `MIT` |
-| Stars | 4,169 (checked 2026-09-15) |
-| Forks | 400 |
+| Stars | 4,183 (checked 2026-09-21) |
+| Forks | 401 |
 | Open issues | 5 |
 | Contributors | 2 |
-| Last push | 2024-02-06 (952 days before verification) |
+| Last push | 2024-02-06 (958 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |

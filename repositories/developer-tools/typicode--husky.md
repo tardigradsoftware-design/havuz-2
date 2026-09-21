@@ -3,26 +3,26 @@ id: typicode--husky
 title: "typicode/husky"
 domain: developer-tools
 summary: >-
-  typicode/husky — MAINTENANCE, tier A,
-  35,314 stars, license MIT, quality 7.31/10, trust 7.05/10.
-  Verified against the GitHub API on 2026-09-15.
+  typicode/husky — MAINTENANCE, tier B,
+  35,328 stars, license MIT, quality 7.0/10, trust 6.65/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "git-hooks", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 7.5, "maintenance": 6.0, "adoption": 10.0, "documentation": 6.0, "reproducibility": 9.0, "security": 4.5, "recency": 7.55, "evidence": 7.0}
-  quality_score: 7.31
-  trust_score: 7.05
-  tier: A
+  components: {"authority": 7.5, "maintenance": 4.0, "adoption": 10.0, "documentation": 6.0, "reproducibility": 9.0, "security": 4.5, "recency": 7.47, "evidence": 7.0}
+  quality_score: 7.0
+  trust_score: 6.65
+  tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # typicode/husky
 
-🟡 MAINTENANCE · tier **A** · maintenance-mode · confidence **high**
+🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Git hooks made easy 🐶 woof!
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 35,314 (checked 2026-09-15) |
-| Forks | 1,098 |
-| Open issues | 108 |
+| Stars | 35,328 (checked 2026-09-21) |
+| Forks | 1,096 |
+| Open issues | 107 |
 | Contributors | 124 |
-| Last push | 2026-03-19 (179 days before verification) |
+| Last push | 2026-03-19 (185 days before verification) |
 | Latest release | v9.1.7 (2024-11-18) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 7.5 |
-| maintenance | 6.0 |
+| maintenance | 4.0 |
 | adoption | 10.0 |
 | documentation | 6.0 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 7.55 |
+| recency | 7.47 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.31** |
-| **trust_score** | **7.05** |
+| **quality_score** (weighted) | **7.0** |
+| **trust_score** | **6.65** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 179 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 185 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

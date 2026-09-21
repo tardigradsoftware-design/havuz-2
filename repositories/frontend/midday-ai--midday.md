@@ -4,25 +4,25 @@ title: "midday-ai/midday"
 domain: frontend
 summary: >-
   midday-ai/midday — STABLE, tier A,
-  15,007 stars, license AGPL-3.0, quality 7.3/10, trust 7.09/10.
-  Verified against the GitHub API on 2026-09-15.
+  15,028 stars, license AGPL-3.0, quality 7.29/10, trust 7.09/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["dashboard", "example", "frontend", "github-repository", "saas"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 6.24, "reproducibility": 5.8, "security": 6.0, "recency": 8.71, "evidence": 5.0}
-  quality_score: 7.3
+  components: {"authority": 9.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 6.24, "reproducibility": 5.8, "security": 6.0, "recency": 8.64, "evidence": 5.0}
+  quality_score: 7.29
   trust_score: 7.09
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `AGPL-3.0` |
-| Stars | 15,007 (checked 2026-09-15) |
-| Forks | 1,872 |
+| Stars | 15,028 (checked 2026-09-21) |
+| Forks | 1,883 |
 | Open issues | 17 |
 | Contributors | 31 |
-| Last push | 2026-06-13 (94 days before verification) |
+| Last push | 2026-06-13 (99 days before verification) |
 | Latest release | midday-v0.5.0 (2026-02-15) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.24 |
 | reproducibility | 5.8 |
 | security | 6.0 |
-| recency | 8.71 |
+| recency | 8.64 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.3** |
+| **quality_score** (weighted) | **7.29** |
 | **trust_score** | **7.09** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

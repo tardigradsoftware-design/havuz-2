@@ -4,25 +4,25 @@ title: "JuliusBrussee/caveman"
 domain: agent-skills
 summary: >-
   JuliusBrussee/caveman — ACTIVE, tier A,
-  105,720 stars, license NOASSERTION, quality 8.09/10, trust 7.33/10.
-  Verified against the GitHub API on 2026-09-15.
+  107,072 stars, license NOASSERTION, quality 8.11/10, trust 7.35/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "context-compression", "github-repository", "skills", "tokens"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.34, "reproducibility": 8.6, "security": 5.5, "recency": 10.0, "evidence": 7.5}
-  quality_score: 8.09
-  trust_score: 7.33
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 8.6, "security": 5.5, "recency": 10.0, "evidence": 7.5}
+  quality_score: 8.11
+  trust_score: 7.35
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | no |
 | Language | Go |
 | License | `NOASSERTION` |
-| Stars | 105,720 (checked 2026-09-15) |
-| Forks | 6,116 |
-| Open issues | 114 |
-| Contributors | 51 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 107,072 (checked 2026-09-21) |
+| Forks | 6,199 |
+| Open issues | 124 |
+| Contributors | 57 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v2.7.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
@@ -86,13 +86,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 9.34 |
+| documentation | 9.5 |
 | reproducibility | 8.6 |
 | security | 5.5 |
 | recency | 10.0 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.09** |
-| **trust_score** | **7.33** |
+| **quality_score** (weighted) | **8.11** |
+| **trust_score** | **7.35** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 34,120 bytes |
+| README size | 43,419 bytes |
 
 ## Curated judgement
 

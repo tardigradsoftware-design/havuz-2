@@ -4,25 +4,25 @@ title: "Ayanami0730/deep_research_bench"
 domain: evaluation
 summary: >-
   Ayanami0730/deep_research_bench — STABLE, tier C,
-  829 stars, license Apache-2.0, quality 5.48/10, trust 3.95/10.
-  Verified against the GitHub API on 2026-09-15.
+  832 stars, license Apache-2.0, quality 5.47/10, trust 3.95/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "deep-research", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 4.5, "maintenance": 5.0, "adoption": 9.78, "documentation": 5.84, "reproducibility": 4.5, "security": 3.5, "recency": 8.26, "evidence": 1.5}
-  quality_score: 5.48
+  components: {"authority": 4.5, "maintenance": 5.0, "adoption": 9.79, "documentation": 5.84, "reproducibility": 4.5, "security": 3.5, "recency": 8.18, "evidence": 1.5}
+  quality_score: 5.47
   trust_score: 3.95
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 829 (checked 2026-09-15) |
-| Forks | 85 |
+| Stars | 832 (checked 2026-09-21) |
+| Forks | 86 |
 | Open issues | 25 |
 | Contributors | 2 |
-| Last push | 2026-05-11 (127 days before verification) |
+| Last push | 2026-05-11 (133 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -79,13 +79,13 @@ sources:
 |---|---|
 | authority | 4.5 |
 | maintenance | 5.0 |
-| adoption | 9.78 |
+| adoption | 9.79 |
 | documentation | 5.84 |
 | reproducibility | 4.5 |
 | security | 3.5 |
-| recency | 8.26 |
+| recency | 8.18 |
 | evidence | 1.5 |
-| **quality_score** (weighted) | **5.48** |
+| **quality_score** (weighted) | **5.47** |
 | **trust_score** | **3.95** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

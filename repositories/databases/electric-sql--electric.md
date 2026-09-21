@@ -4,25 +4,25 @@ title: "electric-sql/electric"
 domain: databases
 summary: >-
   electric-sql/electric — ACTIVE, tier S,
-  10,361 stars, license Apache-2.0, quality 8.6/10, trust 8.47/10.
-  Verified against the GitHub API on 2026-09-15.
+  10,367 stars, license Apache-2.0, quality 8.52/10, trust 8.37/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["databases", "github-repository", "local-first", "postgres", "sync"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.11, "reproducibility": 8.0, "security": 7.0, "recency": 9.92, "evidence": 6.0}
-  quality_score: 8.6
-  trust_score: 8.47
+  components: {"authority": 9.0, "maintenance": 9.5, "adoption": 10.0, "documentation": 7.11, "reproducibility": 8.0, "security": 7.0, "recency": 9.85, "evidence": 6.0}
+  quality_score: 8.52
+  trust_score: 8.37
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The agent platform built on sync.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 10,361 (checked 2026-09-15) |
+| Stars | 10,367 (checked 2026-09-21) |
 | Forks | 375 |
-| Open issues | 256 |
+| Open issues | 257 |
 | Contributors | 75 |
-| Last push | 2026-09-09 (6 days before verification) |
+| Last push | 2026-09-09 (11 days before verification) |
 | Latest release | @electric-sql/y-electric@0.1.54 (2026-09-09) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 10.0 |
+| maintenance | 9.5 |
 | adoption | 10.0 |
 | documentation | 7.11 |
 | reproducibility | 8.0 |
 | security | 7.0 |
-| recency | 9.92 |
+| recency | 9.85 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **8.6** |
-| **trust_score** | **8.47** |
+| **quality_score** (weighted) | **8.52** |
+| **trust_score** | **8.37** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

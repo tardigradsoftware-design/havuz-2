@@ -4,25 +4,25 @@ title: "rsms/inter"
 domain: frontend
 summary: >-
   rsms/inter — ABANDONED, tier C,
-  19,885 stars, license OFL-1.1, quality 5.46/10, trust 5.62/10.
-  Verified against the GitHub API on 2026-09-15.
+  19,899 stars, license OFL-1.1, quality 5.46/10, trust 5.62/10.
+  Verified against the GitHub API on 2026-09-21.
 status: deprecated
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["fonts", "frontend", "github-repository", "typography"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 7.5, "maintenance": 1.0, "adoption": 10.0, "documentation": 7.15, "reproducibility": 6.6, "security": 3.5, "recency": 0.89, "evidence": 5.0}
+  components: {"authority": 7.5, "maintenance": 1.0, "adoption": 10.0, "documentation": 7.15, "reproducibility": 6.6, "security": 3.5, "recency": 0.81, "evidence": 5.0}
   quality_score: 5.46
   trust_score: 5.62
   tier: C
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The Inter font family
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `OFL-1.1` |
-| Stars | 19,885 (checked 2026-09-15) |
-| Forks | 484 |
-| Open issues | 152 |
+| Stars | 19,899 (checked 2026-09-21) |
+| Forks | 485 |
+| Open issues | 154 |
 | Contributors | 22 |
-| Last push | 2024-11-19 (665 days before verification) |
+| Last push | 2024-11-19 (671 days before verification) |
 | Latest release | v4.1 (2024-11-16) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.15 |
 | reproducibility | 6.6 |
 | security | 3.5 |
-| recency | 0.89 |
+| recency | 0.81 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **5.46** |
 | **trust_score** | **5.62** |
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 665 days (>365d). Likely abandoned; prefer an actively maintained alternative.
+No push in 671 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 

@@ -3,26 +3,26 @@ id: sweepai--sweep
 title: "sweepai/sweep"
 domain: agent-skills
 summary: >-
-  sweepai/sweep — MAINTENANCE, tier B,
-  7,713 stars, license NOASSERTION, quality 6.94/10, trust 7.03/10.
-  Verified against the GitHub API on 2026-09-15.
-status: active
+  sweepai/sweep — ABANDONED, tier B,
+  7,711 stars, license NOASSERTION, quality 6.53/10, trust 6.53/10.
+  Verified against the GitHub API on 2026-09-21.
+status: deprecated
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["abandoned-candidate", "agent-skills", "coding-agent", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 3.5, "adoption": 10.0, "documentation": 6.52, "reproducibility": 8.6, "security": 4.0, "recency": 5.04, "evidence": 7.0}
-  quality_score: 6.94
-  trust_score: 7.03
+  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.52, "reproducibility": 8.6, "security": 3.0, "recency": 4.96, "evidence": 7.0}
+  quality_score: 6.53
+  trust_score: 6.53
   tier: B
-  maturity: maintenance-mode
+  maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,29 +36,29 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # sweepai/sweep
 
-🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **high**
+🔴 ABANDONED · tier **B** · end-of-life · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Sweep: AI coding assistant for JetBrains
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `NOASSERTION` |
-| Stars | 7,713 (checked 2026-09-15) |
+| Stars | 7,711 (checked 2026-09-21) |
 | Forks | 465 |
 | Open issues | 753 |
 | Contributors | 33 |
-| Last push | 2025-09-18 (362 days before verification) |
+| Last push | 2025-09-18 (368 days before verification) |
 | Latest release | sweep-sandbox-v1 (2023-09-11) |
 | Archived | no |
 | Fork | no |
@@ -84,15 +84,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 3.5 |
+| maintenance | 1.5 |
 | adoption | 10.0 |
 | documentation | 6.52 |
 | reproducibility | 8.6 |
-| security | 4.0 |
-| recency | 5.04 |
+| security | 3.0 |
+| recency | 4.96 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **6.94** |
-| **trust_score** | **7.03** |
+| **quality_score** (weighted) | **6.53** |
+| **trust_score** | **6.53** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -141,7 +141,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 362 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
+No push in 368 days (>365d). Likely abandoned; prefer an actively maintained alternative. Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
 
 ## How to re-verify
 

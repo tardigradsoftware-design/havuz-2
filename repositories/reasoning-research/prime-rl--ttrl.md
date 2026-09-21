@@ -5,24 +5,24 @@ domain: reasoning-research
 summary: >-
   PRIME-RL/TTRL — STABLE, tier C,
   1,123 stars, license MIT, quality 5.79/10, trust 4.38/10.
-  Verified against the GitHub API on 2026-09-15.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "reasoning", "reasoning-research", "test-time-rl"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.5, "maintenance": 5.0, "adoption": 10.0, "documentation": 5.03, "reproducibility": 5.5, "security": 3.5, "recency": 7.9, "evidence": 2.5}
+  components: {"authority": 5.5, "maintenance": 5.0, "adoption": 10.0, "documentation": 5.03, "reproducibility": 5.5, "security": 3.5, "recency": 7.82, "evidence": 2.5}
   quality_score: 5.79
   trust_score: 4.38
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > \[NeurIPS 2025\] TTRL: Test-Time Reinforcement Learning
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 1,123 (checked 2026-09-15) |
-| Forks | 81 |
+| Stars | 1,123 (checked 2026-09-21) |
+| Forks | 80 |
 | Open issues | 17 |
 | Contributors | 5 |
-| Last push | 2026-04-15 (153 days before verification) |
+| Last push | 2026-04-15 (159 days before verification) |
 | Latest release | verl (2025-07-11) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 5.03 |
 | reproducibility | 5.5 |
 | security | 3.5 |
-| recency | 7.9 |
+| recency | 7.82 |
 | evidence | 2.5 |
 | **quality_score** (weighted) | **5.79** |
 | **trust_score** | **4.38** |

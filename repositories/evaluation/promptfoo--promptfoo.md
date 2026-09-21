@@ -4,25 +4,25 @@ title: "promptfoo/promptfoo"
 domain: evaluation
 summary: >-
   promptfoo/promptfoo — ACTIVE, tier S,
-  25,129 stars, license MIT, quality 9.04/10, trust 9.01/10.
-  Verified against the GitHub API on 2026-09-15.
+  25,330 stars, license MIT, quality 9.04/10, trust 9.01/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "github-repository", "llm-ops", "red-team"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.4, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.38, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 9.04
   trust_score: 9.01
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 25,129 (checked 2026-09-15) |
-| Forks | 2,309 |
-| Open issues | 650 |
-| Contributors | 331 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | 0.123.0 (2026-09-10) |
+| Stars | 25,330 (checked 2026-09-21) |
+| Forks | 2,349 |
+| Open issues | 634 |
+| Contributors | 341 |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | 0.123.1 (2026-09-18) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://promptfoo.dev](https://promptfoo.dev) |
@@ -80,7 +80,7 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.4 |
+| documentation | 7.38 |
 | reproducibility | 10.0 |
 | security | 7.0 |
 | recency | 10.0 |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 4,844 bytes |
+| README size | 4,605 bytes |
 
 ## Curated judgement
 

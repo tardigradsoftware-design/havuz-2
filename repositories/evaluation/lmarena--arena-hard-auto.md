@@ -4,25 +4,25 @@ title: "lmarena/arena-hard-auto"
 domain: evaluation
 summary: >-
   lmarena/arena-hard-auto — STABLE, tier C,
-  1,073 stars, license Apache-2.0, quality 4.51/10, trust 3.37/10.
-  Verified against the GitHub API on 2026-09-15.
+  1,074 stars, license Apache-2.0, quality 4.5/10, trust 3.37/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["arena", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 5.28, "reproducibility": 4.5, "security": 2.5, "recency": 3.82, "evidence": 2.5}
-  quality_score: 4.51
+  components: {"authority": 5.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 5.28, "reproducibility": 4.5, "security": 2.5, "recency": 3.74, "evidence": 2.5}
+  quality_score: 4.5
   trust_score: 3.37
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Arena-Hard-Auto: An automatic LLM benchmark.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 1,073 (checked 2026-09-15) |
+| Stars | 1,074 (checked 2026-09-21) |
 | Forks | 160 |
 | Open issues | 18 |
 | Contributors | 12 |
-| Last push | 2025-06-21 (451 days before verification) |
+| Last push | 2025-06-21 (457 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.28 |
 | reproducibility | 4.5 |
 | security | 2.5 |
-| recency | 3.82 |
+| recency | 3.74 |
 | evidence | 2.5 |
-| **quality_score** (weighted) | **4.51** |
+| **quality_score** (weighted) | **4.5** |
 | **trust_score** | **3.37** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

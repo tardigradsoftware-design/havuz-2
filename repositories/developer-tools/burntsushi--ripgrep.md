@@ -4,25 +4,25 @@ title: "BurntSushi/ripgrep"
 domain: developer-tools
 summary: >-
   BurntSushi/ripgrep — STABLE, tier A,
-  68,288 stars, license Unlicense, quality 7.87/10, trust 7.6/10.
-  Verified against the GitHub API on 2026-09-15.
+  68,482 stars, license Unlicense, quality 7.86/10, trust 7.6/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cli", "developer-tools", "github-repository", "search"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 7.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 6.3, "reproducibility": 8.7, "security": 4.5, "recency": 9.42, "evidence": 7.0}
-  quality_score: 7.87
+  components: {"authority": 7.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 6.3, "reproducibility": 8.7, "security": 4.5, "recency": 9.36, "evidence": 7.0}
+  quality_score: 7.86
   trust_score: 7.6
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Rust |
 | License | `Unlicense` |
-| Stars | 68,288 (checked 2026-09-15) |
-| Forks | 2,767 |
-| Open issues | 196 |
+| Stars | 68,482 (checked 2026-09-21) |
+| Forks | 3,286 |
+| Open issues | 199 |
 | Contributors | 438 |
-| Last push | 2026-08-04 (42 days before verification) |
+| Last push | 2026-08-04 (47 days before verification) |
 | Latest release | 15.2.0 (2026-07-15) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.3 |
 | reproducibility | 8.7 |
 | security | 4.5 |
-| recency | 9.42 |
+| recency | 9.36 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.87** |
+| **quality_score** (weighted) | **7.86** |
 | **trust_score** | **7.6** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

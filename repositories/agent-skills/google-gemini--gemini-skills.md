@@ -4,25 +4,25 @@ title: "google-gemini/gemini-skills"
 domain: agent-skills
 summary: >-
   google-gemini/gemini-skills — ACTIVE, tier B,
-  4,148 stars, license Apache-2.0, quality 6.63/10, trust 5.35/10.
-  Verified against the GitHub API on 2026-09-15.
+  4,188 stars, license Apache-2.0, quality 6.63/10, trust 5.35/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "github-repository", "google", "official", "skills"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.85, "reproducibility": 4.5, "security": 3.5, "recency": 10.0, "evidence": 2.5}
+  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.85, "reproducibility": 4.5, "security": 3.5, "recency": 9.96, "evidence": 2.5}
   quality_score: 6.63
   trust_score: 5.35
   tier: B
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Skills for the Gemini API, SDK and model/agent interactions
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 4,148 (checked 2026-09-15) |
-| Forks | 432 |
-| Open issues | 10 |
-| Contributors | 14 |
-| Last push | 2026-09-14 (0 days before verification) |
+| Stars | 4,188 (checked 2026-09-21) |
+| Forks | 439 |
+| Open issues | 11 |
+| Contributors | 15 |
+| Last push | 2026-09-17 (3 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 4.85 |
 | reproducibility | 4.5 |
 | security | 3.5 |
-| recency | 10.0 |
+| recency | 9.96 |
 | evidence | 2.5 |
 | **quality_score** (weighted) | **6.63** |
 | **trust_score** | **5.35** |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 4,199 bytes |
+| README size | 4,208 bytes |
 
 ## Curated judgement
 

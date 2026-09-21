@@ -4,17 +4,17 @@ title: "ChromeDevTools/chrome-devtools-mcp"
 domain: mcp-servers
 summary: >-
   ChromeDevTools/chrome-devtools-mcp — ACTIVE, tier S,
-  52,038 stars, license Apache-2.0, quality 8.15/10, trust 7.28/10.
-  Verified against the GitHub API on 2026-09-15.
+  52,413 stars, license Apache-2.0, quality 8.15/10, trust 7.28/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser", "devtools", "github-repository", "mcp", "mcp-servers", "official"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.54, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.15
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Chrome DevTools for coding agents
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 52,038 (checked 2026-09-15) |
-| Forks | 3,658 |
-| Open issues | 103 |
-| Contributors | 127 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 52,413 (checked 2026-09-21) |
+| Forks | 4,384 |
+| Open issues | 122 |
+| Contributors | 128 |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | chrome-devtools-mcp-v1.9.0 (2026-09-08) |
 | Archived | no |
 | Fork | no |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-15) and must be
+(on 2026-09-21) and must be
 re-checked against your own constraints._
 
 **Recommended for**

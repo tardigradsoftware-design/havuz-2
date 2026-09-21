@@ -4,25 +4,25 @@ title: "deepseek-ai/DeepSeek-V3"
 domain: reasoning-research
 summary: >-
   deepseek-ai/DeepSeek-V3 — STABLE, tier C,
-  104,459 stars, license MIT, quality 5.75/10, trust 5.41/10.
-  Verified against the GitHub API on 2026-09-15.
+  104,472 stars, license MIT, quality 5.74/10, trust 5.41/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "moe", "open-model", "reasoning-research"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 4.74, "reproducibility": 7.0, "security": 3.5, "recency": 4.75, "evidence": 5.0}
-  quality_score: 5.75
+  components: {"authority": 8.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 4.74, "reproducibility": 7.0, "security": 3.5, "recency": 4.67, "evidence": 5.0}
+  quality_score: 5.74
   trust_score: 5.41
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,7 +50,7 @@ sources:
 
 > _No description published._
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -59,11 +59,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 104,459 (checked 2026-09-15) |
-| Forks | 16,726 |
-| Open issues | 228 |
+| Stars | 104,472 (checked 2026-09-21) |
+| Forks | 16,734 |
+| Open issues | 246 |
 | Contributors | 23 |
-| Last push | 2025-08-28 (383 days before verification) |
+| Last push | 2025-08-28 (389 days before verification) |
 | Latest release | v1.0.0 (2025-06-27) |
 | Archived | no |
 | Fork | no |
@@ -81,9 +81,9 @@ sources:
 | documentation | 4.74 |
 | reproducibility | 7.0 |
 | security | 3.5 |
-| recency | 4.75 |
+| recency | 4.67 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **5.75** |
+| **quality_score** (weighted) | **5.74** |
 | **trust_score** | **5.41** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

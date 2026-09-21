@@ -4,25 +4,25 @@ title: "pydantic/pydantic-ai"
 domain: agent-frameworks
 summary: >-
   pydantic/pydantic-ai — ACTIVE, tier S,
-  19,956 stars, license MIT, quality 8.92/10, trust 9.01/10.
-  Verified against the GitHub API on 2026-09-15.
+  20,084 stars, license MIT, quality 8.94/10, trust 9.04/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "framework", "github-repository", "python", "structured-output"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.25, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.5}
-  quality_score: 8.92
-  trust_score: 9.01
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.41, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.5}
+  quality_score: 8.94
+  trust_score: 9.04
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 19,956 (checked 2026-09-15) |
-| Forks | 2,717 |
-| Open issues | 884 |
+| Stars | 20,084 (checked 2026-09-21) |
+| Forks | 2,747 |
+| Open issues | 937 |
 | Contributors | 476 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v2.43.0 (2026-09-12) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v2.46.0 (2026-09-19) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://pydantic.dev/pydantic-ai](https://pydantic.dev/pydantic-ai) |
@@ -80,13 +80,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.25 |
+| documentation | 8.41 |
 | reproducibility | 10.0 |
 | security | 4.5 |
 | recency | 10.0 |
 | evidence | 8.5 |
-| **quality_score** (weighted) | **8.92** |
-| **trust_score** | **9.01** |
+| **quality_score** (weighted) | **8.94** |
+| **trust_score** | **9.04** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 20,943 bytes |
+| README size | 22,970 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-15) and must be
+(on 2026-09-21) and must be
 re-checked against your own constraints._
 
 **Recommended for**

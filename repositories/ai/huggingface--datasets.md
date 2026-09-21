@@ -4,25 +4,25 @@ title: "huggingface/datasets"
 domain: ai
 summary: >-
   huggingface/datasets — STABLE, tier S,
-  21,974 stars, license Apache-2.0, quality 8.92/10, trust 8.81/10.
-  Verified against the GitHub API on 2026-09-15.
+  21,999 stars, license Apache-2.0, quality 8.92/10, trust 8.81/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "datasets", "github-repository", "library"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.71, "reproducibility": 9.5, "security": 7.0, "recency": 9.95, "evidence": 7.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.71, "reproducibility": 9.5, "security": 7.0, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.92
   trust_score: 8.81
   tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 21,974 (checked 2026-09-15) |
-| Forks | 3,429 |
-| Open issues | 1,374 |
+| Stars | 21,999 (checked 2026-09-21) |
+| Forks | 3,448 |
+| Open issues | 1,393 |
 | Contributors | 443 |
-| Last push | 2026-09-11 (4 days before verification) |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | 5.0.1 (2026-07-28) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.71 |
 | reproducibility | 9.5 |
 | security | 7.0 |
-| recency | 9.95 |
+| recency | 10.0 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **8.92** |
 | **trust_score** | **8.81** |

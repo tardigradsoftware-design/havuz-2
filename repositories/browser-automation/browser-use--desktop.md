@@ -4,25 +4,25 @@ title: "browser-use/desktop"
 domain: browser-automation
 summary: >-
   browser-use/desktop — STABLE, tier A,
-  685 stars, license MIT, quality 7.39/10, trust 6.91/10.
-  Verified against the GitHub API on 2026-09-15.
+  688 stars, license MIT, quality 7.39/10, trust 6.91/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser", "browser-automation", "desktop", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 7.0, "adoption": 9.52, "documentation": 5.73, "reproducibility": 7.5, "security": 4.5, "recency": 9.42, "evidence": 4.0}
+  components: {"authority": 9.0, "maintenance": 7.0, "adoption": 9.53, "documentation": 5.73, "reproducibility": 7.5, "security": 4.5, "recency": 9.34, "evidence": 4.0}
   quality_score: 7.39
   trust_score: 6.91
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Browser Use Desktop App
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 685 (checked 2026-09-15) |
+| Stars | 688 (checked 2026-09-21) |
 | Forks | 61 |
 | Open issues | 35 |
 | Contributors | 6 |
-| Last push | 2026-08-03 (42 days before verification) |
+| Last push | 2026-08-03 (48 days before verification) |
 | Latest release | v0.0.31 (2026-05-09) |
 | Archived | no |
 | Fork | no |
@@ -79,11 +79,11 @@ sources:
 |---|---|
 | authority | 9.0 |
 | maintenance | 7.0 |
-| adoption | 9.52 |
+| adoption | 9.53 |
 | documentation | 5.73 |
 | reproducibility | 7.5 |
 | security | 4.5 |
-| recency | 9.42 |
+| recency | 9.34 |
 | evidence | 4.0 |
 | **quality_score** (weighted) | **7.39** |
 | **trust_score** | **6.91** |

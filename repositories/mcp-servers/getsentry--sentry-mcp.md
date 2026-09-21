@@ -4,25 +4,25 @@ title: "getsentry/sentry-mcp"
 domain: mcp-servers
 summary: >-
   getsentry/sentry-mcp — ACTIVE, tier A,
-  853 stars, license NOASSERTION, quality 7.94/10, trust 7.73/10.
-  Verified against the GitHub API on 2026-09-15.
+  858 stars, license NOASSERTION, quality 7.94/10, trust 7.73/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "observability", "sentry"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.84, "reproducibility": 6.6, "security": 4.0, "recency": 10.0, "evidence": 5.0}
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.84, "reproducibility": 6.6, "security": 4.0, "recency": 9.97, "evidence": 5.0}
   quality_score: 7.94
   trust_score: 7.73
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > An MCP server for interacting with Sentry via LLMs.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 853 (checked 2026-09-15) |
-| Forks | 144 |
-| Open issues | 112 |
+| Stars | 858 (checked 2026-09-21) |
+| Forks | 149 |
+| Open issues | 119 |
 | Contributors | 68 |
-| Last push | 2026-09-14 (0 days before verification) |
+| Last push | 2026-09-18 (2 days before verification) |
 | Latest release | 0.39.0 (2026-08-27) |
 | Archived | no |
 | Fork | no |
@@ -89,7 +89,7 @@ sources:
 | documentation | 6.84 |
 | reproducibility | 6.6 |
 | security | 4.0 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **7.94** |
 | **trust_score** | **7.73** |

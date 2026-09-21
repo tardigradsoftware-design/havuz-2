@@ -4,25 +4,25 @@ title: "postgres/postgres"
 domain: databases
 summary: >-
   postgres/postgres — ACTIVE, tier A,
-  22,111 stars, license NOASSERTION, quality 7.52/10, trust 7.14/10.
-  Verified against the GitHub API on 2026-09-15.
+  22,173 stars, license NOASSERTION, quality 7.52/10, trust 7.14/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["database", "databases", "github-repository", "postgres"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.58, "reproducibility": 5.6, "security": 4.0, "recency": 10.0, "evidence": 4.0}
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.58, "reproducibility": 5.6, "security": 4.0, "recency": 9.99, "evidence": 4.0}
   quality_score: 7.52
   trust_score: 7.14
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Mirror of the official PostgreSQL GIT repository. Note that this is just a \*mirror\* - we don't work with pull requests on github. To contribute, please see `https://wiki.postgresql.org/wiki/Submitting_a_Patch`
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | C |
 | License | `NOASSERTION` |
-| Stars | 22,111 (checked 2026-09-15) |
-| Forks | 5,915 |
+| Stars | 22,173 (checked 2026-09-21) |
+| Forks | 5,922 |
 | Open issues | 0 |
 | Contributors | 42 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Last push | 2026-09-20 (1 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -89,7 +89,7 @@ sources:
 | documentation | 4.58 |
 | reproducibility | 5.6 |
 | security | 4.0 |
-| recency | 10.0 |
+| recency | 9.99 |
 | evidence | 4.0 |
 | **quality_score** (weighted) | **7.52** |
 | **trust_score** | **7.14** |

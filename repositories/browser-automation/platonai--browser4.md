@@ -4,17 +4,17 @@ title: "platonai/Browser4"
 domain: browser-automation
 summary: >-
   platonai/Browser4 — ACTIVE, tier A,
-  1,135 stars, license Apache-2.0, quality 7.65/10, trust 6.57/10.
-  Verified against the GitHub API on 2026-09-15.
+  1,140 stars, license Apache-2.0, quality 7.65/10, trust 6.57/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "browser-automation", "browser-engine", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.0, "reproducibility": 8.5, "security": 3.5, "recency": 10.0, "evidence": 5.5}
   quality_score: 7.65
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Kotlin |
 | License | `Apache-2.0` |
-| Stars | 1,135 (checked 2026-09-15) |
+| Stars | 1,140 (checked 2026-09-21) |
 | Forks | 150 |
-| Open issues | 19 |
+| Open issues | 22 |
 | Contributors | 7 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | v4.13.18 (2026-09-12) |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | v4.13.20 (2026-09-20) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://browser4.io](https://browser4.io) |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 43,790 bytes |
+| README size | 46,087 bytes |
 
 ## Curated judgement
 

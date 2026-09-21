@@ -4,25 +4,25 @@ title: "TIGER-AI-Lab/ClawBench"
 domain: evaluation
 summary: >-
   TIGER-AI-Lab/ClawBench — STABLE, tier S,
-  754 stars, license Apache-2.0, quality 8.14/10, trust 7.52/10.
-  Verified against the GitHub API on 2026-09-15.
+  808 stars, license Apache-2.0, quality 8.15/10, trust 7.52/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "browser-agent", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 9.61, "documentation": 10.0, "reproducibility": 9.0, "security": 3.5, "recency": 9.99, "evidence": 7.5}
-  quality_score: 8.14
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 9.69, "documentation": 10.0, "reproducibility": 9.0, "security": 3.5, "recency": 9.99, "evidence": 7.5}
+  quality_score: 8.15
   trust_score: 7.52
   tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Open-source benchmark for browser AI agents on daily tasks.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 754 (checked 2026-09-15) |
-| Forks | 57 |
-| Open issues | 50 |
+| Stars | 808 (checked 2026-09-21) |
+| Forks | 60 |
+| Open issues | 48 |
 | Contributors | 12 |
-| Last push | 2026-09-13 (1 days before verification) |
+| Last push | 2026-09-20 (1 days before verification) |
 | Latest release | v0.10.0 (2026-08-30) |
 | Archived | no |
 | Fork | no |
@@ -79,13 +79,13 @@ sources:
 |---|---|
 | authority | 6.0 |
 | maintenance | 10.0 |
-| adoption | 9.61 |
+| adoption | 9.69 |
 | documentation | 10.0 |
 | reproducibility | 9.0 |
 | security | 3.5 |
 | recency | 9.99 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.14** |
+| **quality_score** (weighted) | **8.15** |
 | **trust_score** | **7.52** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 72,273 bytes |
+| README size | 72,529 bytes |
 
 ## Curated judgement
 

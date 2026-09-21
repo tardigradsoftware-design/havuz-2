@@ -4,17 +4,17 @@ title: "microsoft/playwright"
 domain: browser-automation
 summary: >-
   microsoft/playwright — ACTIVE, tier S,
-  96,163 stars, license Apache-2.0, quality 9.04/10, trust 9.02/10.
-  Verified against the GitHub API on 2026-09-15.
+  96,442 stars, license Apache-2.0, quality 9.04/10, trust 9.02/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["automation", "browser", "browser-automation", "github-repository", "testing"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.44, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 9.04
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 96,163 (checked 2026-09-15) |
-| Forks | 6,437 |
-| Open issues | 186 |
+| Stars | 96,442 (checked 2026-09-21) |
+| Forks | 6,473 |
+| Open issues | 222 |
 | Contributors | 472 |
-| Last push | 2026-09-14 (0 days before verification) |
+| Last push | 2026-09-21 (0 days before verification) |
 | Latest release | v1.63.0 (2026-09-04) |
 | Archived | no |
 | Fork | no |

@@ -4,25 +4,25 @@ title: "Graphify-Labs/graphify"
 domain: developer-tools
 summary: >-
   Graphify-Labs/graphify — ACTIVE, tier S,
-  116,936 stars, license Apache-2.0, quality 8.45/10, trust 7.7/10.
-  Verified against the GitHub API on 2026-09-15.
+  120,028 stars, license Apache-2.0, quality 8.45/10, trust 7.7/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["codebase-graph", "developer-tools", "github-repository", "understanding"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 9.5, "security": 6.0, "recency": 9.97, "evidence": 7.5}
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.45
   trust_score: 7.7
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 116,936 (checked 2026-09-15) |
-| Forks | 11,404 |
-| Open issues | 1,354 |
-| Contributors | 248 |
-| Last push | 2026-09-12 (2 days before verification) |
-| Latest release | v0.9.61 (2026-09-12) |
+| Stars | 120,028 (checked 2026-09-21) |
+| Forks | 11,597 |
+| Open issues | 1,410 |
+| Contributors | 256 |
+| Last push | 2026-09-20 (0 days before verification) |
+| Latest release | v0.9.65 (2026-09-20) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.graphify.com](https://www.graphify.com) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 9.5 |
 | reproducibility | 9.5 |
 | security | 6.0 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 7.5 |
 | **quality_score** (weighted) | **8.45** |
 | **trust_score** | **7.7** |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | no |
 | root entries | yes |
-| README size | 62,734 bytes |
+| README size | 63,872 bytes |
 
 ## Curated judgement
 

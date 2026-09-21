@@ -4,25 +4,25 @@ title: "Mintplex-Labs/anything-llm"
 domain: ai
 summary: >-
   Mintplex-Labs/anything-llm — ACTIVE, tier A,
-  66,058 stars, license MIT, quality 7.77/10, trust 6.86/10.
-  Verified against the GitHub API on 2026-09-15.
+  66,291 stars, license MIT, quality 7.77/10, trust 6.86/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "local-llm", "rag"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.21, "reproducibility": 7.0, "security": 6.0, "recency": 10.0, "evidence": 5.5}
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.21, "reproducibility": 7.0, "security": 6.0, "recency": 9.97, "evidence": 5.5}
   quality_score: 7.77
   trust_score: 6.86
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 66,058 (checked 2026-09-15) |
-| Forks | 7,334 |
-| Open issues | 315 |
-| Contributors | 239 |
-| Last push | 2026-09-15 (0 days before verification) |
+| Stars | 66,291 (checked 2026-09-21) |
+| Forks | 7,378 |
+| Open issues | 331 |
+| Contributors | 240 |
+| Last push | 2026-09-19 (2 days before verification) |
 | Latest release | v1.16.1 (2026-08-27) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.21 |
 | reproducibility | 7.0 |
 | security | 6.0 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 5.5 |
 | **quality_score** (weighted) | **7.77** |
 | **trust_score** | **6.86** |

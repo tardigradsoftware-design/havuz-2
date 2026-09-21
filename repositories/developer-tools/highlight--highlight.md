@@ -4,25 +4,25 @@ title: "highlight/highlight"
 domain: developer-tools
 summary: >-
   highlight/highlight — STABLE, tier A,
-  9,374 stars, license NOASSERTION, quality 8.12/10, trust 8.07/10.
-  Verified against the GitHub API on 2026-09-15.
+  9,376 stars, license NOASSERTION, quality 7.89/10, trust 7.77/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "observability", "session-replay"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.96, "reproducibility": 6.1, "security": 6.5, "recency": 9.66, "evidence": 5.5}
-  quality_score: 8.12
-  trust_score: 8.07
+  components: {"authority": 9.0, "maintenance": 7.5, "adoption": 10.0, "documentation": 6.96, "reproducibility": 6.1, "security": 6.5, "recency": 9.58, "evidence": 5.5}
+  quality_score: 7.89
+  trust_score: 7.77
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-15, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 9,374 (checked 2026-09-15) |
-| Forks | 675 |
-| Open issues | 553 |
+| Stars | 9,376 (checked 2026-09-21) |
+| Forks | 677 |
+| Open issues | 555 |
 | Contributors | 79 |
-| Last push | 2026-08-20 (25 days before verification) |
+| Last push | 2026-08-20 (31 days before verification) |
 | Latest release | docker-v0.5.6 (2025-08-08) |
 | Archived | no |
 | Fork | no |
@@ -84,15 +84,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 9.0 |
+| maintenance | 7.5 |
 | adoption | 10.0 |
 | documentation | 6.96 |
 | reproducibility | 6.1 |
 | security | 6.5 |
-| recency | 9.66 |
+| recency | 9.58 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **8.12** |
-| **trust_score** | **8.07** |
+| **quality_score** (weighted) | **7.89** |
+| **trust_score** | **7.77** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

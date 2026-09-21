@@ -4,17 +4,17 @@ title: "comet-ml/opik"
 domain: evaluation
 summary: >-
   comet-ml/opik — ACTIVE, tier S,
-  22,039 stars, license Apache-2.0, quality 8.05/10, trust 7.2/10.
-  Verified against the GitHub API on 2026-09-15.
+  22,177 stars, license Apache-2.0, quality 8.05/10, trust 7.2/10.
+  Verified against the GitHub API on 2026-09-21.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "github-repository", "observability"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 7.5, "security": 6.0, "recency": 10.0, "evidence": 5.5}
   quality_score: 8.05
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 22,039 (checked 2026-09-15) |
-| Forks | 1,791 |
-| Open issues | 252 |
-| Contributors | 146 |
-| Last push | 2026-09-15 (0 days before verification) |
-| Latest release | 2.2.63 (2026-09-15) |
+| Stars | 22,177 (checked 2026-09-21) |
+| Forks | 1,813 |
+| Open issues | 301 |
+| Contributors | 148 |
+| Last push | 2026-09-21 (0 days before verification) |
+| Latest release | 2.2.71 (2026-09-19) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.comet.com/docs/opik/](https://www.comet.com/docs/opik/) |

@@ -4,27 +4,27 @@
 # Backend
 
 21 repositories · 21 usable · 0 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-15.
+all facts verified against the GitHub API on 2026-09-21.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [ory/kratos](./ory--kratos.md) | 13,877 | S | 🔵 STABLE | `Apache-2.0` | 9.04 | 2026-09-15 |
-| [oven-sh/bun](./oven-sh--bun.md) | 95,970 | A | 🟢 ACTIVE | `NOASSERTION` | 9.03 | 2026-09-15 |
-| [nodejs/node](./nodejs--node.md) | 121,952 | A | 🟢 ACTIVE | `NOASSERTION` | 9.0 | 2026-09-15 |
-| [better-auth/better-auth](./better-auth--better-auth.md) | 29,952 | S | 🟢 ACTIVE | `MIT` | 8.9 | 2026-09-15 |
-| [fastapi/fastapi](./fastapi--fastapi.md) | 102,348 | S | 🟢 ACTIVE | `MIT` | 8.71 | 2026-09-15 |
-| [graphql/graphql-spec](./graphql--graphql-spec.md) | 14,590 | A | 🟢 ACTIVE | `NOASSERTION` | 8.66 | 2026-09-15 |
-| [taskforcesh/bullmq](./taskforcesh--bullmq.md) | 9,401 | S | 🟢 ACTIVE | `MIT` | 8.6 | 2026-09-15 |
-| [openfga/openfga](./openfga--openfga.md) | 5,777 | S | 🟢 ACTIVE | `Apache-2.0` | 8.59 | 2026-09-15 |
-| [keycloak/keycloak](./keycloak--keycloak.md) | 36,783 | S | 🟢 ACTIVE | `Apache-2.0` | 8.53 | 2026-09-15 |
-| [supabase/auth](./supabase--auth.md) | 2,562 | S | 🟢 ACTIVE | `MIT` | 8.52 | 2026-09-15 |
-| [Permify/permify](./permify--permify.md) | 5,951 | S | 🟢 ACTIVE | `AGPL-3.0` | 8.46 | 2026-09-15 |
-| [temporalio/temporal](./temporalio--temporal.md) | 23,064 | S | 🟢 ACTIVE | `MIT` | 8.42 | 2026-09-15 |
-| [expressjs/express](./expressjs--express.md) | 69,449 | S | 🟢 ACTIVE | `MIT` | 8.38 | 2026-09-15 |
-| [apache/casbin](./apache--casbin.md) | 20,390 | S | 🟢 ACTIVE | `Apache-2.0` | 8.34 | 2026-09-15 |
-| [trpc/trpc](./trpc--trpc.md) | 40,608 | S | 🟢 ACTIVE | `MIT` | 8.32 | 2026-09-15 |
+| [ory/kratos](./ory--kratos.md) | 13,884 | S | 🔵 STABLE | `Apache-2.0` | 9.04 | 2026-09-21 |
+| [oven-sh/bun](./oven-sh--bun.md) | 95,997 | A | 🟢 ACTIVE | `NOASSERTION` | 9.03 | 2026-09-21 |
+| [nodejs/node](./nodejs--node.md) | 122,021 | A | 🟢 ACTIVE | `NOASSERTION` | 9.0 | 2026-09-21 |
+| [better-auth/better-auth](./better-auth--better-auth.md) | 30,032 | S | 🟢 ACTIVE | `MIT` | 8.9 | 2026-09-21 |
+| [fastapi/fastapi](./fastapi--fastapi.md) | 102,496 | S | 🟢 ACTIVE | `MIT` | 8.71 | 2026-09-21 |
+| [graphql/graphql-spec](./graphql--graphql-spec.md) | 14,595 | A | 🟢 ACTIVE | `NOASSERTION` | 8.66 | 2026-09-21 |
+| [keycloak/keycloak](./keycloak--keycloak.md) | 36,900 | S | 🟢 ACTIVE | `Apache-2.0` | 8.61 | 2026-09-21 |
+| [taskforcesh/bullmq](./taskforcesh--bullmq.md) | 9,422 | S | 🟢 ACTIVE | `MIT` | 8.6 | 2026-09-21 |
+| [openfga/openfga](./openfga--openfga.md) | 5,812 | S | 🟢 ACTIVE | `Apache-2.0` | 8.59 | 2026-09-21 |
+| [supabase/auth](./supabase--auth.md) | 2,567 | S | 🟢 ACTIVE | `MIT` | 8.52 | 2026-09-21 |
+| [Permify/permify](./permify--permify.md) | 5,953 | S | 🟢 ACTIVE | `AGPL-3.0` | 8.46 | 2026-09-21 |
+| [temporalio/temporal](./temporalio--temporal.md) | 23,204 | S | 🟢 ACTIVE | `MIT` | 8.42 | 2026-09-21 |
+| [expressjs/express](./expressjs--express.md) | 69,452 | S | 🟢 ACTIVE | `MIT` | 8.38 | 2026-09-21 |
+| [apache/casbin](./apache--casbin.md) | 20,398 | S | 🟢 ACTIVE | `Apache-2.0` | 8.34 | 2026-09-21 |
+| [trpc/trpc](./trpc--trpc.md) | 40,631 | S | 🟢 ACTIVE | `MIT` | 8.32 | 2026-09-21 |
 
 ## Do not adopt
 

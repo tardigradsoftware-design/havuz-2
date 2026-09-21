@@ -4,25 +4,25 @@ title: "lavague-ai/LaVague"
 domain: browser-automation
 summary: >-
   lavague-ai/LaVague — ABANDONED, tier B,
-  6,389 stars, license Apache-2.0, quality 6.33/10, trust 6.62/10.
-  Verified against the GitHub API on 2026-09-15.
+  6,388 stars, license Apache-2.0, quality 6.32/10, trust 6.62/10.
+  Verified against the GitHub API on 2026-09-21.
 status: deprecated
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["abandoned-candidate", "agent", "browser", "browser-automation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-16
-verified_at: 2026-09-15
-expires_at: 2026-10-30
+updated: 2026-09-21
+verified_at: 2026-09-21
+expires_at: 2026-11-05
 scoring:
-  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.81, "reproducibility": 9.0, "security": 3.5, "recency": 1.75, "evidence": 7.0}
-  quality_score: 6.33
+  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.81, "reproducibility": 9.0, "security": 3.5, "recency": 1.68, "evidence": 7.0}
+  quality_score: 6.32
   trust_score: 6.62
   tier: B
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-15
+  scored_at: 2026-09-21
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-15
+    verified_at: 2026-09-21
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-15)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Large Action Model framework to develop AI Web Agents
 
-## Facts (verified 2026-09-15 via the GitHub API)
+## Facts (verified 2026-09-21 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 6,389 (checked 2026-09-15) |
+| Stars | 6,388 (checked 2026-09-21) |
 | Forks | 571 |
-| Open issues | 104 |
+| Open issues | 105 |
 | Contributors | 26 |
-| Last push | 2025-01-21 (602 days before verification) |
+| Last push | 2025-01-21 (607 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.81 |
 | reproducibility | 9.0 |
 | security | 3.5 |
-| recency | 1.75 |
+| recency | 1.68 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **6.33** |
+| **quality_score** (weighted) | **6.32** |
 | **trust_score** | **6.62** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 602 days (>365d). Likely abandoned; prefer an actively maintained alternative.
+No push in 607 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 
