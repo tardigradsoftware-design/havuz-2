@@ -3,26 +3,26 @@ id: mlcommons--croissant
 title: "mlcommons/croissant"
 domain: evaluation
 summary: >-
-  mlcommons/croissant — STABLE, tier A,
-  901 stars, license Apache-2.0, quality 7.55/10, trust 7.28/10.
-  Verified against the GitHub API on 2026-09-21.
+  mlcommons/croissant — STABLE, tier S,
+  903 stars, license Apache-2.0, quality 8.09/10, trust 7.88/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
-confidence: high
+confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["dataset", "evaluation", "github-repository", "metadata", "standard"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 8.5, "maintenance": 7.0, "adoption": 9.93, "documentation": 7.55, "reproducibility": 7.0, "security": 4.5, "recency": 9.07, "evidence": 5.0}
-  quality_score: 7.55
-  trust_score: 7.28
-  tier: A
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 9.93, "documentation": 7.55, "reproducibility": 7.0, "security": 4.5, "recency": 9.95, "evidence": 5.0}
+  quality_score: 8.09
+  trust_score: 7.88
+  tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: mlcommons
     license: Apache-2.0
     license_risk: none
-    confidence: high
+    confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # mlcommons/croissant
 
-🔵 STABLE · tier **A** · published-artifact · confidence **high**
+🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Croissant is a high-level format for machine learning datasets that brings together four rich layers.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `Apache-2.0` |
-| Stars | 901 (checked 2026-09-21) |
+| Stars | 903 (checked 2026-09-28) |
 | Forks | 125 |
-| Open issues | 222 |
+| Open issues | 225 |
 | Contributors | 40 |
-| Last push | 2026-07-15 (68 days before verification) |
+| Last push | 2026-09-23 (4 days before verification) |
 | Latest release | v1.1.0 (2026-04-16) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.5 |
-| maintenance | 7.0 |
+| maintenance | 10.0 |
 | adoption | 9.93 |
 | documentation | 7.55 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 9.07 |
+| recency | 9.95 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.55** |
-| **trust_score** | **7.28** |
+| **quality_score** (weighted) | **8.09** |
+| **trust_score** | **7.88** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

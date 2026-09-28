@@ -4,35 +4,35 @@
 # Coding agents, harnesses & skill catalogues
 
 42 repositories · 39 usable · 3 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-21.
+all facts verified against the GitHub API on 2026-09-28.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [github/gh-aw](./github--gh-aw.md) | 5,162 | S | 🟢 ACTIVE | `MIT` | 9.27 | 2026-09-21 |
-| [anthropics/claude-code-action](./anthropics--claude-code-action.md) | 8,917 | S | 🟢 ACTIVE | `MIT` | 8.29 | 2026-09-21 |
-| [cline/cline](./cline--cline.md) | 68,916 | S | 🟢 ACTIVE | `Apache-2.0` | 8.17 | 2026-09-21 |
-| [continuedev/continue](./continuedev--continue.md) | 35,968 | S | 🟢 ACTIVE | `Apache-2.0` | 8.16 | 2026-09-21 |
-| [openclaw/openclaw](./openclaw--openclaw.md) | 390,179 | A | 🟢 ACTIVE | `NOASSERTION` | 7.97 | 2026-09-21 |
-| [VoltAgent/awesome-openclaw-skills](./voltagent--awesome-openclaw-skills.md) | 52,699 | S | 🟢 ACTIVE | `MIT` | 7.97 | 2026-09-21 |
-| [hesreallyhim/awesome-claude-code](./hesreallyhim--awesome-claude-code.md) | 54,374 | A | 🟢 ACTIVE | `NOASSERTION` | 7.95 | 2026-09-21 |
-| [anthropics/claude-agent-sdk-python](./anthropics--claude-agent-sdk-python.md) | 8,142 | S | 🟢 ACTIVE | `MIT` | 7.92 | 2026-09-21 |
-| [Aider-AI/aider](./aider-ai--aider.md) | 49,091 | A | 🟡 MAINTENANCE | `Apache-2.0` | 7.8 | 2026-09-21 |
-| [obra/superpowers](./obra--superpowers.md) | 289,483 | S | 🟢 ACTIVE | `MIT` | 7.75 | 2026-09-21 |
-| [charmbracelet/crush](./charmbracelet--crush.md) | 28,220 | A | 🟢 ACTIVE | `NOASSERTION` | 7.74 | 2026-09-21 |
-| [affaan-m/ECC](./affaan-m--ecc.md) | 264,240 | S | 🟢 ACTIVE | `MIT` | 7.72 | 2026-09-21 |
-| [K-Dense-AI/scientific-agent-skills](./k-dense-ai--scientific-agent-skills.md) | 45,864 | S | 🟢 ACTIVE | `MIT` | 7.7 | 2026-09-21 |
-| [Imbad0202/academic-research-skills](./imbad0202--academic-research-skills.md) | 48,949 | A | 🟢 ACTIVE | `NOASSERTION` | 7.67 | 2026-09-21 |
-| [VoltAgent/awesome-agent-skills](./voltagent--awesome-agent-skills.md) | 34,671 | A | 🟢 ACTIVE | `MIT` | 7.6 | 2026-09-21 |
+| [github/gh-aw](./github--gh-aw.md) | 5,196 | S | 🟢 ACTIVE | `MIT` | 9.27 | 2026-09-28 |
+| [anthropics/claude-code-action](./anthropics--claude-code-action.md) | 9,212 | S | 🟢 ACTIVE | `MIT` | 8.29 | 2026-09-28 |
+| [cline/cline](./cline--cline.md) | 69,472 | S | 🟢 ACTIVE | `Apache-2.0` | 8.17 | 2026-09-28 |
+| [continuedev/continue](./continuedev--continue.md) | 36,051 | S | 🟢 ACTIVE | `Apache-2.0` | 8.16 | 2026-09-28 |
+| [openclaw/openclaw](./openclaw--openclaw.md) | 390,694 | A | 🟢 ACTIVE | `NOASSERTION` | 7.97 | 2026-09-28 |
+| [VoltAgent/awesome-openclaw-skills](./voltagent--awesome-openclaw-skills.md) | 52,846 | S | 🟢 ACTIVE | `MIT` | 7.97 | 2026-09-28 |
+| [hesreallyhim/awesome-claude-code](./hesreallyhim--awesome-claude-code.md) | 54,733 | A | 🟢 ACTIVE | `NOASSERTION` | 7.95 | 2026-09-28 |
+| [anthropics/claude-agent-sdk-python](./anthropics--claude-agent-sdk-python.md) | 8,178 | S | 🟢 ACTIVE | `MIT` | 7.92 | 2026-09-28 |
+| [Aider-AI/aider](./aider-ai--aider.md) | 49,226 | A | 🟡 MAINTENANCE | `Apache-2.0` | 7.8 | 2026-09-28 |
+| [obra/superpowers](./obra--superpowers.md) | 292,331 | S | 🟢 ACTIVE | `MIT` | 7.75 | 2026-09-28 |
+| [charmbracelet/crush](./charmbracelet--crush.md) | 28,334 | A | 🟢 ACTIVE | `NOASSERTION` | 7.74 | 2026-09-28 |
+| [affaan-m/ECC](./affaan-m--ecc.md) | 268,638 | S | 🟢 ACTIVE | `MIT` | 7.72 | 2026-09-28 |
+| [K-Dense-AI/scientific-agent-skills](./k-dense-ai--scientific-agent-skills.md) | 46,929 | S | 🟢 ACTIVE | `MIT` | 7.7 | 2026-09-28 |
+| [Imbad0202/academic-research-skills](./imbad0202--academic-research-skills.md) | 49,724 | A | 🟢 ACTIVE | `NOASSERTION` | 7.67 | 2026-09-28 |
+| [VoltAgent/awesome-agent-skills](./voltagent--awesome-agent-skills.md) | 34,971 | A | 🟢 ACTIVE | `MIT` | 7.6 | 2026-09-28 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [RooCodeInc/Roo-Code](./roocodeinc--roo-code.md) | 24,302 | ⛔ ARCHIVED | 128d |
-| [sweepai/sweep](./sweepai--sweep.md) | 7,711 | 🔴 ABANDONED | 368d |
-| [sourcegraph/cody-public-snapshot](./sourcegraph--cody-public-snapshot.md) | 3,808 | ⛔ ARCHIVED | 415d |
+| [RooCodeInc/Roo-Code](./roocodeinc--roo-code.md) | 24,293 | ⛔ ARCHIVED | 135d |
+| [sweepai/sweep](./sweepai--sweep.md) | 7,709 | 🔴 ABANDONED | 375d |
+| [sourcegraph/cody-public-snapshot](./sourcegraph--cody-public-snapshot.md) | 3,805 | ⛔ ARCHIVED | 422d |
 
 ## Cards
 
@@ -45,7 +45,7 @@ all facts verified against the GitHub API on 2026-09-21.
 - [anthropics/claude-code](./anthropics--claude-code.md) — tier NO-LICENSE, ACTIVE
 - [anthropics/claude-code-action](./anthropics--claude-code-action.md) — tier S, ACTIVE
 - [anthropics/skills](./anthropics--skills.md) — tier NO-LICENSE, ACTIVE
-- [blader/humanizer](./blader--humanizer.md) — tier B, ACTIVE
+- [blader/humanizer](./blader--humanizer.md) — tier A, ACTIVE
 - [cathrynlavery/diagram-design](./cathrynlavery--diagram-design.md) — tier A, ACTIVE
 - [charmbracelet/crush](./charmbracelet--crush.md) — tier A, ACTIVE
 - [cline/cline](./cline--cline.md) — tier S, ACTIVE
@@ -65,16 +65,16 @@ all facts verified against the GitHub API on 2026-09-21.
 - [nexu-io/open-design](./nexu-io--open-design.md) — tier S, ACTIVE
 - [obra/superpowers](./obra--superpowers.md) — tier S, ACTIVE
 - [openai/codex](./openai--codex.md) — tier S, ACTIVE
-- [openai/skills](./openai--skills.md) — tier NO-LICENSE, ACTIVE
+- [openai/skills](./openai--skills.md) — tier NO-LICENSE, STABLE
 - [openclaw/openclaw](./openclaw--openclaw.md) — tier A, ACTIVE
 - [OpenHands/OpenHands](./openhands--openhands.md) — tier S, ACTIVE
-- [plandex-ai/plandex](./plandex-ai--plandex.md) — tier A, MAINTENANCE
+- [plandex-ai/plandex](./plandex-ai--plandex.md) — tier B, MAINTENANCE
 - [RooCodeInc/Roo-Code](./roocodeinc--roo-code.md) — tier ARCHIVED, ARCHIVED
 - [shareAI-lab/learn-claude-code](./shareai-lab--learn-claude-code.md) — tier A, STABLE
 - [sourcegraph/cody-public-snapshot](./sourcegraph--cody-public-snapshot.md) — tier ARCHIVED, ARCHIVED
 - [SWE-agent/SWE-agent](./swe-agent--swe-agent.md) — tier S, STABLE
 - [sweepai/sweep](./sweepai--sweep.md) — tier B, ABANDONED
-- [tt-a1i/archify](./tt-a1i--archify.md) — tier A, ACTIVE
+- [tt-a1i/archify](./tt-a1i--archify.md) — tier S, ACTIVE
 - [VoltAgent/awesome-agent-skills](./voltagent--awesome-agent-skills.md) — tier A, ACTIVE
 - [VoltAgent/awesome-openclaw-skills](./voltagent--awesome-openclaw-skills.md) — tier S, ACTIVE
 - [wshobson/agents](./wshobson--agents.md) — tier A, ACTIVE

@@ -4,25 +4,25 @@ title: "formbricks/formbricks"
 domain: frontend
 summary: >-
   formbricks/formbricks — ACTIVE, tier A,
-  12,979 stars, license NOASSERTION, quality 8.29/10, trust 8.2/10.
-  Verified against the GitHub API on 2026-09-21.
+  13,032 stars, license NOASSERTION, quality 8.3/10, trust 8.2/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["example", "frontend", "github-repository", "saas"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.34, "reproducibility": 6.1, "security": 6.5, "recency": 10.0, "evidence": 5.0}
-  quality_score: 8.29
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.35, "reproducibility": 6.1, "security": 6.5, "recency": 10.0, "evidence": 5.0}
+  quality_score: 8.3
   trust_score: 8.2
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Open Source Qualtrics Alternative
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 12,979 (checked 2026-09-21) |
-| Forks | 2,526 |
-| Open issues | 215 |
+| Stars | 13,032 (checked 2026-09-28) |
+| Forks | 2,546 |
+| Open issues | 184 |
 | Contributors | 313 |
-| Last push | 2026-09-21 (0 days before verification) |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | 6.0.0 (2026-09-21) |
 | Archived | no |
 | Fork | no |
@@ -86,12 +86,12 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.34 |
+| documentation | 7.35 |
 | reproducibility | 6.1 |
 | security | 6.5 |
 | recency | 10.0 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **8.29** |
+| **quality_score** (weighted) | **8.3** |
 | **trust_score** | **8.2** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 10,130 bytes |
+| README size | 10,227 bytes |
 
 ## Curated judgement
 

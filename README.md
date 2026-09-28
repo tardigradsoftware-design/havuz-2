@@ -468,7 +468,7 @@ Report a vulnerability per [`SECURITY.md`](SECURITY.md).
 ## Current state
 
 <!-- KB:STATS:BEGIN -->
-_Generated 2026-09-21 by `scripts/generate-index/update_readme_stats.py`. Do not edit by hand._
+_Generated 2026-09-28 by `scripts/generate-index/update_readme_stats.py`. Do not edit by hand._
 
 ### Corpus
 
@@ -495,42 +495,42 @@ _Generated 2026-09-21 by `scripts/generate-index/update_readme_stats.py`. Do not
 
 ### Verification status of the repository database
 
-All **414** repositories were verified against the GitHub REST API. Aggregate adoption tracked: **16,230,319 stars** across 12 categories.
+All **414** repositories were verified against the GitHub REST API. Aggregate adoption tracked: **16,308,215 stars** across 12 categories.
 
 | Maintenance status | Count | | Tier | Count |
 |---|---|---|---|---|
-| ACTIVE | 296 | | S | 214 |
-| STABLE | 81 | | A | 127 |
-| MAINTENANCE | 18 | | B | 29 |
+| ACTIVE | 296 | | S | 216 |
+| STABLE | 80 | | A | 125 |
+| MAINTENANCE | 19 | | B | 30 |
 | EXPERIMENTAL |  | | C | 16 |
 | ARCHIVED | 12 | | EXPERIMENTAL | 3 |
 | ABANDONED | 7 | | ARCHIVED | 12 |
-| UNKNOWN |  | | NO-LICENSE | 13 |
+| UNKNOWN |  | | NO-LICENSE | 12 |
 |  |  | | UNVERIFIED |  |
 |  |  | | DEPRECATED |  |
 
 ### Findings the verification run produced
 
-- **27 repositories have moved.** Every one was recorded with its new slug; hard-coded URLs to the old paths silently break agents.
+- **28 repositories have moved.** Every one was recorded with its new slug; hard-coded URLs to the old paths silently break agents.
 - **12 are archived** — read-only, no security patches, successor required.
-- **15 have no detectable license** — flagged `license_risk: no-license-do-not-redistribute`; they are referenced, never vendored.
-- **18 are in maintenance mode** (>120 days without a push) and **7 are abandoned** (>365 days), excluding published research artifacts, which are classified `STABLE` on purpose.
+- **14 have no detectable license** — flagged `license_risk: no-license-do-not-redistribute`; they are referenced, never vendored.
+- **19 are in maintenance mode** (>120 days without a push) and **7 are abandoned** (>365 days), excluding published research artifacts, which are classified `STABLE` on purpose.
 - **61 candidate research papers are quarantined** because no primary source could confirm them from the build environment. They are excluded from the retrieval index.
 
 ### Top 10 by trust score
 
 | Repository | Stars | Tier | Status | Trust |
 |---|---|---|---|---|
-| [`Arize-ai/phoenix`](https://github.com/Arize-ai/phoenix) | 11,561 | A | ACTIVE | 9.47 |
-| [`camel-ai/camel`](https://github.com/camel-ai/camel) | 17,749 | S | ACTIVE | 9.45 |
-| [`BerriAI/litellm`](https://github.com/BerriAI/litellm) | 59,304 | A | ACTIVE | 9.4 |
-| [`openai/openai-python`](https://github.com/openai/openai-python) | 31,669 | S | ACTIVE | 9.38 |
-| [`github/gh-aw`](https://github.com/github/gh-aw) | 5,162 | S | ACTIVE | 9.27 |
-| [`lobehub/lobehub`](https://github.com/lobehub/lobehub) | 82,714 | A | ACTIVE | 9.22 |
-| [`calcom/cal.diy`](https://github.com/calcom/cal.diy) | 48,587 | S | ACTIVE | 9.2 |
-| [`OpenRLHF/OpenRLHF`](https://github.com/OpenRLHF/OpenRLHF) | 10,023 | S | ACTIVE | 9.2 |
-| [`OpenAdaptAI/OpenAdapt`](https://github.com/OpenAdaptAI/OpenAdapt) | 1,731 | S | ACTIVE | 9.16 |
-| [`mermaid-js/mermaid`](https://github.com/mermaid-js/mermaid) | 90,337 | S | ACTIVE | 9.14 |
+| [`Arize-ai/phoenix`](https://github.com/Arize-ai/phoenix) | 11,643 | A | ACTIVE | 9.47 |
+| [`BerriAI/litellm`](https://github.com/BerriAI/litellm) | 59,771 | A | ACTIVE | 9.4 |
+| [`openai/openai-python`](https://github.com/openai/openai-python) | 31,709 | S | ACTIVE | 9.38 |
+| [`camel-ai/camel`](https://github.com/camel-ai/camel) | 17,786 | S | ACTIVE | 9.35 |
+| [`github/gh-aw`](https://github.com/github/gh-aw) | 5,196 | S | ACTIVE | 9.27 |
+| [`lobehub/lobehub`](https://github.com/lobehub/lobehub) | 82,872 | A | ACTIVE | 9.22 |
+| [`calcom/cal.diy`](https://github.com/calcom/cal.diy) | 48,707 | S | ACTIVE | 9.2 |
+| [`OpenAdaptAI/OpenAdapt`](https://github.com/OpenAdaptAI/OpenAdapt) | 1,746 | S | ACTIVE | 9.16 |
+| [`mermaid-js/mermaid`](https://github.com/mermaid-js/mermaid) | 90,455 | S | ACTIVE | 9.14 |
+| [`confident-ai/deepeval`](https://github.com/confident-ai/deepeval) | 18,482 | S | ACTIVE | 9.11 |
 
 ### Categories
 

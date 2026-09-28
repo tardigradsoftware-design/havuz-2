@@ -4,38 +4,38 @@
 # Evaluation, benchmarks & observability
 
 38 repositories · 37 usable · 1 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-21.
+all facts verified against the GitHub API on 2026-09-28.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [Arize-ai/phoenix](./arize-ai--phoenix.md) | 11,561 | A | 🟢 ACTIVE | `NOASSERTION` | 9.47 | 2026-09-21 |
-| [confident-ai/deepeval](./confident-ai--deepeval.md) | 18,363 | S | 🟢 ACTIVE | `Apache-2.0` | 9.11 | 2026-09-21 |
-| [promptfoo/promptfoo](./promptfoo--promptfoo.md) | 25,330 | S | 🟢 ACTIVE | `MIT` | 9.01 | 2026-09-21 |
-| [EleutherAI/lm-evaluation-harness](./eleutherai--lm-evaluation-harness.md) | 14,043 | S | 🟢 ACTIVE | `MIT` | 8.97 | 2026-09-21 |
-| [open-compass/opencompass](./open-compass--opencompass.md) | 7,463 | S | 🔵 STABLE | `Apache-2.0` | 8.97 | 2026-09-21 |
-| [langfuse/langfuse](./langfuse--langfuse.md) | 34,884 | A | 🟢 ACTIVE | `NOASSERTION` | 8.92 | 2026-09-21 |
-| [truera/trulens](./truera--trulens.md) | 3,568 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-21 |
-| [huggingface/lighteval](./huggingface--lighteval.md) | 2,547 | S | 🟢 ACTIVE | `MIT` | 8.51 | 2026-09-21 |
-| [xlang-ai/OSWorld-V2](./xlang-ai--osworld-v2.md) | 324 | S | 🔵 STABLE | `Apache-2.0` | 8.33 | 2026-09-21 |
-| [SWE-bench/SWE-bench](./swe-bench--swe-bench.md) | 5,884 | S | 🔵 STABLE | `MIT` | 8.14 | 2026-09-21 |
-| [mlflow/mlflow](./mlflow--mlflow.md) | 28,070 | S | 🟢 ACTIVE | `Apache-2.0` | 7.99 | 2026-09-21 |
-| [xlang-ai/OSWorld](./xlang-ai--osworld.md) | 3,152 | S | 🔵 STABLE | `Apache-2.0` | 7.92 | 2026-09-21 |
-| [stanford-crfm/helm](./stanford-crfm--helm.md) | 2,916 | A | 🔵 STABLE | `Apache-2.0` | 7.72 | 2026-09-21 |
-| [TIGER-AI-Lab/ClawBench](./tiger-ai-lab--clawbench.md) | 808 | S | 🔵 STABLE | `Apache-2.0` | 7.52 | 2026-09-21 |
-| [tatsu-lab/alpaca_eval](./tatsu-lab--alpaca_eval.md) | 2,015 | A | 🔵 STABLE | `Apache-2.0` | 7.32 | 2026-09-21 |
+| [Arize-ai/phoenix](./arize-ai--phoenix.md) | 11,643 | A | 🟢 ACTIVE | `NOASSERTION` | 9.47 | 2026-09-28 |
+| [confident-ai/deepeval](./confident-ai--deepeval.md) | 18,482 | S | 🟢 ACTIVE | `Apache-2.0` | 9.11 | 2026-09-28 |
+| [promptfoo/promptfoo](./promptfoo--promptfoo.md) | 25,524 | S | 🟢 ACTIVE | `MIT` | 9.01 | 2026-09-28 |
+| [EleutherAI/lm-evaluation-harness](./eleutherai--lm-evaluation-harness.md) | 14,095 | S | 🟢 ACTIVE | `MIT` | 8.97 | 2026-09-28 |
+| [open-compass/opencompass](./open-compass--opencompass.md) | 7,480 | S | 🔵 STABLE | `Apache-2.0` | 8.97 | 2026-09-28 |
+| [langfuse/langfuse](./langfuse--langfuse.md) | 35,134 | A | 🟢 ACTIVE | `NOASSERTION` | 8.92 | 2026-09-28 |
+| [truera/trulens](./truera--trulens.md) | 3,575 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-28 |
+| [huggingface/lighteval](./huggingface--lighteval.md) | 2,549 | S | 🟢 ACTIVE | `MIT` | 8.51 | 2026-09-28 |
+| [xlang-ai/OSWorld-V2](./xlang-ai--osworld-v2.md) | 338 | S | 🔵 STABLE | `Apache-2.0` | 8.33 | 2026-09-28 |
+| [mlflow/mlflow](./mlflow--mlflow.md) | 28,159 | S | 🟢 ACTIVE | `Apache-2.0` | 7.99 | 2026-09-28 |
+| [SWE-bench/SWE-bench](./swe-bench--swe-bench.md) | 5,928 | S | 🔵 STABLE | `MIT` | 7.94 | 2026-09-28 |
+| [mlcommons/croissant](./mlcommons--croissant.md) | 903 | S | 🔵 STABLE | `Apache-2.0` | 7.88 | 2026-09-28 |
+| [xlang-ai/OSWorld](./xlang-ai--osworld.md) | 3,160 | A | 🔵 STABLE | `Apache-2.0` | 7.72 | 2026-09-28 |
+| [stanford-crfm/helm](./stanford-crfm--helm.md) | 2,924 | A | 🔵 STABLE | `Apache-2.0` | 7.72 | 2026-09-28 |
+| [tatsu-lab/alpaca_eval](./tatsu-lab--alpaca_eval.md) | 2,018 | A | 🔵 STABLE | `Apache-2.0` | 7.32 | 2026-09-28 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [bigcode-project/bigcodebench](./bigcode-project--bigcodebench.md) | 519 | ⛔ ARCHIVED | 261d |
+| [bigcode-project/bigcodebench](./bigcode-project--bigcodebench.md) | 518 | ⛔ ARCHIVED | 268d |
 
 ## Cards
 
 - [Arize-ai/phoenix](./arize-ai--phoenix.md) — tier A, ACTIVE
-- [Ayanami0730/deep_research_bench](./ayanami0730--deep_research_bench.md) — tier C, STABLE
+- [Ayanami0730/deep_research_bench](./ayanami0730--deep_research_bench.md) — tier B, STABLE
 - [bigcode-project/bigcode-evaluation-harness](./bigcode-project--bigcode-evaluation-harness.md) — tier B, STABLE
 - [bigcode-project/bigcodebench](./bigcode-project--bigcodebench.md) — tier ARCHIVED, ARCHIVED
 - [comet-ml/opik](./comet-ml--opik.md) — tier S, ACTIVE
@@ -43,14 +43,14 @@ all facts verified against the GitHub API on 2026-09-21.
 - [EleutherAI/lm-evaluation-harness](./eleutherai--lm-evaluation-harness.md) — tier S, ACTIVE
 - [evalplus/evalplus](./evalplus--evalplus.md) — tier A, STABLE
 - [harbor-framework/terminal-bench-1](./harbor-framework--terminal-bench-1.md) — tier B, STABLE
-- [Helicone/helicone](./helicone--helicone.md) — tier S, ACTIVE
+- [Helicone/helicone](./helicone--helicone.md) — tier A, ACTIVE
 - [huggingface/lighteval](./huggingface--lighteval.md) — tier S, ACTIVE
 - [ifixai-ai/iFixAi](./ifixai-ai--ifixai.md) — tier A, ACTIVE
 - [inclusionAI/AEnvironment](./inclusionai--aenvironment.md) — tier B, STABLE
 - [langfuse/langfuse](./langfuse--langfuse.md) — tier A, ACTIVE
 - [LiveCodeBench/LiveCodeBench](./livecodebench--livecodebench.md) — tier C, STABLE
 - [lmarena/arena-hard-auto](./lmarena--arena-hard-auto.md) — tier C, STABLE
-- [mlcommons/croissant](./mlcommons--croissant.md) — tier A, STABLE
+- [mlcommons/croissant](./mlcommons--croissant.md) — tier S, STABLE
 - [mlflow/mlflow](./mlflow--mlflow.md) — tier S, ACTIVE
 - [open-compass/opencompass](./open-compass--opencompass.md) — tier S, STABLE
 - [openai/evals](./openai--evals.md) — tier A, MAINTENANCE
@@ -70,5 +70,5 @@ all facts verified against the GitHub API on 2026-09-21.
 - [truera/trulens](./truera--trulens.md) — tier S, ACTIVE
 - [vibrantlabsai/ragas](./vibrantlabsai--ragas.md) — tier A, MAINTENANCE
 - [web-arena-x/webarena](./web-arena-x--webarena.md) — tier B, STABLE
-- [xlang-ai/OSWorld](./xlang-ai--osworld.md) — tier S, STABLE
+- [xlang-ai/OSWorld](./xlang-ai--osworld.md) — tier A, STABLE
 - [xlang-ai/OSWorld-V2](./xlang-ai--osworld-v2.md) — tier S, STABLE

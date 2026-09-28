@@ -4,25 +4,25 @@ title: "observablehq/plot"
 domain: frontend
 summary: >-
   observablehq/plot — STABLE, tier S,
-  5,386 stars, license ISC, quality 8.37/10, trust 8.27/10.
-  Verified against the GitHub API on 2026-09-21.
+  5,391 stars, license ISC, quality 8.36/10, trust 8.27/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["charts", "frontend", "github-repository", "visualization"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 7.13, "reproducibility": 8.85, "security": 4.5, "recency": 9.74, "evidence": 7.0}
-  quality_score: 8.37
+  components: {"authority": 9.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 7.13, "reproducibility": 8.85, "security": 4.5, "recency": 9.64, "evidence": 7.0}
+  quality_score: 8.36
   trust_score: 8.27
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A concise API for exploratory data visualization implementing a layered grammar of graphics
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | HTML |
 | License | `ISC` |
-| Stars | 5,386 (checked 2026-09-21) |
+| Stars | 5,391 (checked 2026-09-28) |
 | Forks | 245 |
 | Open issues | 350 |
 | Contributors | 28 |
-| Last push | 2026-09-01 (19 days before verification) |
+| Last push | 2026-09-01 (26 days before verification) |
 | Latest release | v0.6.17 (2025-02-14) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.13 |
 | reproducibility | 8.85 |
 | security | 4.5 |
-| recency | 9.74 |
+| recency | 9.64 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **8.37** |
+| **quality_score** (weighted) | **8.36** |
 | **trust_score** | **8.27** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

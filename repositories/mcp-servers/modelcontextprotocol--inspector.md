@@ -3,26 +3,26 @@ id: modelcontextprotocol--inspector
 title: "modelcontextprotocol/inspector"
 domain: mcp-servers
 summary: >-
-  modelcontextprotocol/inspector — ACTIVE, tier NO-LICENSE,
-  10,916 stars, license NONE, quality 7.92/10, trust 6.53/10.
-  Verified against the GitHub API on 2026-09-21.
+  modelcontextprotocol/inspector — ACTIVE, tier A,
+  10,971 stars, license NOASSERTION, quality 8.34/10, trust 8.2/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
-confidence: high
+confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["debugging", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.2, "reproducibility": 4.0, "security": 5.0, "recency": 9.99, "evidence": 5.0}
-  quality_score: 7.92
-  trust_score: 6.53
-  tier: NO-LICENSE
-  maturity: early
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.31, "reproducibility": 6.6, "security": 6.5, "recency": 9.99, "evidence": 5.0}
+  quality_score: 8.34
+  trust_score: 8.2
+  tier: A
+  maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -32,32 +32,33 @@ sources:
     url: https://github.com/modelcontextprotocol/inspector
     type: github-repository
     organization: modelcontextprotocol
-    license: NONE
-    license_risk: no-license-do-not-redistribute
-    confidence: high
+    license: NOASSERTION
+    license_risk: custom-license-review-before-vendoring
+    confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # modelcontextprotocol/inspector
 
-🟢 ACTIVE · tier **NO-LICENSE** · early · confidence **high**
+🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Visual testing tool for MCP servers
 
-> ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-21. Default copyright applies, so all rights are reserved: **reference and link only**.
-> Do not vendor, copy, quote at length, or redistribute any file from this repository, however
-> useful it looks. A high star count does not create a license.
+> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
+> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
+> have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -65,13 +66,13 @@ sources:
 | Owner | modelcontextprotocol (Organization) |
 | Official upstream | yes |
 | Language | TypeScript |
-| License | `NONE` |
-| Stars | 10,916 (checked 2026-09-21) |
-| Forks | 1,522 |
-| Open issues | 54 |
+| License | `NOASSERTION` |
+| Stars | 10,971 (checked 2026-09-28) |
+| Forks | 1,530 |
+| Open issues | 43 |
 | Contributors | 135 |
-| Last push | 2026-09-19 (1 days before verification) |
-| Latest release | 2.7.0 (2026-09-16) |
+| Last push | 2026-09-27 (1 days before verification) |
+| Latest release | 2.8.0 (2026-09-23) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector](https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector) |
@@ -85,13 +86,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.2 |
-| reproducibility | 4.0 |
-| security | 5.0 |
+| documentation | 7.31 |
+| reproducibility | 6.6 |
+| security | 6.5 |
 | recency | 9.99 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.92** |
-| **trust_score** | **6.53** |
+| **quality_score** (weighted) | **8.34** |
+| **trust_score** | **8.2** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -110,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 8,357 bytes |
+| README size | 9,724 bytes |
 
 ## Curated judgement
 
@@ -140,7 +141,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only.
+Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
 
 ## How to re-verify
 

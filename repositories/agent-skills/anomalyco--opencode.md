@@ -4,17 +4,17 @@ title: "anomalyco/opencode"
 domain: agent-skills
 summary: >-
   anomalyco/opencode — ACTIVE, tier A,
-  209,005 stars, license MIT, quality 7.87/10, trust 6.85/10.
-  Verified against the GitHub API on 2026-09-21.
+  210,523 stars, license MIT, quality 7.87/10, trust 6.85/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "terminal"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.67, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.0}
   quality_score: 7.87
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The open source coding agent.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 209,005 (checked 2026-09-21) |
-| Forks | 27,526 |
-| Open issues | 6,004 |
-| Contributors | 456 |
-| Last push | 2026-09-21 (0 days before verification) |
-| Latest release | v1.18.31 (2026-09-14) |
+| Stars | 210,523 (checked 2026-09-28) |
+| Forks | 27,855 |
+| Open issues | 6,259 |
+| Contributors | 455 |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | v1.18.33 (2026-09-28) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://opencode.ai](https://opencode.ai) |

@@ -4,25 +4,25 @@ title: "TsinghuaC3I/Awesome-RL-for-LRMs"
 domain: reasoning-research
 summary: >-
   TsinghuaC3I/Awesome-RL-for-LRMs — ACTIVE, tier A,
-  2,490 stars, license MIT, quality 7.24/10, trust 6.27/10.
-  Verified against the GitHub API on 2026-09-21.
+  2,488 stars, license MIT, quality 7.08/10, trust 6.07/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "reasoning", "reasoning-research", "rl", "survey"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.5, "reproducibility": 5.5, "security": 3.5, "recency": 9.92, "evidence": 4.0}
-  quality_score: 7.24
-  trust_score: 6.27
+  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 7.5, "reproducibility": 5.5, "security": 3.5, "recency": 9.81, "evidence": 4.0}
+  quality_score: 7.08
+  trust_score: 6.07
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A Survey of Reinforcement Learning for Large Reasoning Models
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TeX |
 | License | `MIT` |
-| Stars | 2,490 (checked 2026-09-21) |
+| Stars | 2,488 (checked 2026-09-28) |
 | Forks | 134 |
 | Open issues | 3 |
 | Contributors | 28 |
-| Last push | 2026-09-14 (6 days before verification) |
+| Last push | 2026-09-14 (14 days before verification) |
 | Latest release | TripleR (2025-09-11) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 10.0 |
+| maintenance | 9.0 |
 | adoption | 10.0 |
 | documentation | 7.5 |
 | reproducibility | 5.5 |
 | security | 3.5 |
-| recency | 9.92 |
+| recency | 9.81 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.24** |
-| **trust_score** | **6.27** |
+| **quality_score** (weighted) | **7.08** |
+| **trust_score** | **6.07** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

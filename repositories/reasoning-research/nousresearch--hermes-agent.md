@@ -4,25 +4,25 @@ title: "NousResearch/hermes-agent"
 domain: reasoning-research
 summary: >-
   NousResearch/hermes-agent — ACTIVE, tier S,
-  247,608 stars, license MIT, quality 9.05/10, trust 9.05/10.
-  Verified against the GitHub API on 2026-09-21.
+  249,649 stars, license MIT, quality 9.04/10, trust 9.03/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "github-repository", "reasoning-research", "self-improving"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.51, "reproducibility": 9.5, "security": 7.0, "recency": 10.0, "evidence": 7.5}
-  quality_score: 9.05
-  trust_score: 9.05
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.38, "reproducibility": 9.5, "security": 7.0, "recency": 10.0, "evidence": 7.5}
+  quality_score: 9.04
+  trust_score: 9.03
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The agent that grows with you
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 247,608 (checked 2026-09-21) |
-| Forks | 52,096 |
-| Open issues | 43,122 |
-| Contributors | 397 |
-| Last push | 2026-09-21 (0 days before verification) |
-| Latest release | v2026.9.14 (2026-09-14) |
+| Stars | 249,649 (checked 2026-09-28) |
+| Forks | 53,123 |
+| Open issues | 44,786 |
+| Contributors | 396 |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | v2026.9.24 (2026-09-24) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com) |
@@ -80,13 +80,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.51 |
+| documentation | 8.38 |
 | reproducibility | 9.5 |
 | security | 7.0 |
 | recency | 10.0 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **9.05** |
-| **trust_score** | **9.05** |
+| **quality_score** (weighted) | **9.04** |
+| **trust_score** | **9.03** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 24,070 bytes |
+| README size | 22,531 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-21) and must be
+(on 2026-09-28) and must be
 re-checked against your own constraints._
 
 **Recommended for**

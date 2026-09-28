@@ -4,25 +4,25 @@ title: "sooperset/mcp-atlassian"
 domain: mcp-servers
 summary: >-
   sooperset/mcp-atlassian — ACTIVE, tier S,
-  5,926 stars, license MIT, quality 8.54/10, trust 8.24/10.
-  Verified against the GitHub API on 2026-09-21.
+  5,945 stars, license MIT, quality 8.53/10, trust 8.24/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["confluence", "github-repository", "jira", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.93, "reproducibility": 9.5, "security": 7.0, "recency": 9.99, "evidence": 7.0}
-  quality_score: 8.54
+  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.93, "reproducibility": 9.5, "security": 7.0, "recency": 9.88, "evidence": 7.0}
+  quality_score: 8.53
   trust_score: 8.24
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > MCP server for Atlassian tools (Confluence, Jira)
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 5,926 (checked 2026-09-21) |
-| Forks | 1,364 |
-| Open issues | 234 |
+| Stars | 5,945 (checked 2026-09-28) |
+| Forks | 1,370 |
+| Open issues | 254 |
 | Contributors | 182 |
-| Last push | 2026-09-19 (1 days before verification) |
+| Last push | 2026-09-19 (9 days before verification) |
 | Latest release | v0.23.1 (2026-08-19) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.93 |
 | reproducibility | 9.5 |
 | security | 7.0 |
-| recency | 9.99 |
+| recency | 9.88 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **8.54** |
+| **quality_score** (weighted) | **8.53** |
 | **trust_score** | **8.24** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

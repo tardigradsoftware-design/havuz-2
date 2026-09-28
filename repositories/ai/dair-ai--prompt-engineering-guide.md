@@ -4,25 +4,25 @@ title: "dair-ai/Prompt-Engineering-Guide"
 domain: ai
 summary: >-
   dair-ai/Prompt-Engineering-Guide — MAINTENANCE, tier B,
-  78,518 stars, license MIT, quality 5.93/10, trust 4.76/10.
-  Verified against the GitHub API on 2026-09-21.
+  78,686 stars, license MIT, quality 5.92/10, trust 4.76/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "guide", "prompting"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 4.0, "adoption": 10.0, "documentation": 5.41, "reproducibility": 6.0, "security": 3.5, "recency": 7.36, "evidence": 4.0}
-  quality_score: 5.93
+  components: {"authority": 6.0, "maintenance": 4.0, "adoption": 10.0, "documentation": 5.41, "reproducibility": 6.0, "security": 3.5, "recency": 7.26, "evidence": 4.0}
+  quality_score: 5.92
   trust_score: 4.76
   tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | MDX |
 | License | `MIT` |
-| Stars | 78,518 (checked 2026-09-21) |
-| Forks | 8,631 |
-| Open issues | 282 |
+| Stars | 78,686 (checked 2026-09-28) |
+| Forks | 8,646 |
+| Open issues | 286 |
 | Contributors | 193 |
-| Last push | 2026-03-11 (193 days before verification) |
+| Last push | 2026-03-11 (200 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.41 |
 | reproducibility | 6.0 |
 | security | 3.5 |
-| recency | 7.36 |
+| recency | 7.26 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **5.93** |
+| **quality_score** (weighted) | **5.92** |
 | **trust_score** | **4.76** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 193 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 200 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

@@ -4,25 +4,25 @@ title: "bytedance/UI-TARS-desktop"
 domain: browser-automation
 summary: >-
   bytedance/UI-TARS-desktop — ACTIVE, tier A,
-  39,066 stars, license Apache-2.0, quality 7.82/10, trust 6.88/10.
-  Verified against the GitHub API on 2026-09-21.
+  39,142 stars, license Apache-2.0, quality 7.98/10, trust 7.08/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "computer-use", "github-repository", "gui-agent", "multimodal"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 7.86, "reproducibility": 8.0, "security": 6.0, "recency": 9.86, "evidence": 6.0}
-  quality_score: 7.82
-  trust_score: 6.88
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.86, "reproducibility": 8.0, "security": 6.0, "recency": 9.95, "evidence": 6.0}
+  quality_score: 7.98
+  trust_score: 7.08
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 39,066 (checked 2026-09-21) |
-| Forks | 3,958 |
-| Open issues | 452 |
-| Contributors | 48 |
-| Last push | 2026-09-11 (10 days before verification) |
+| Stars | 39,142 (checked 2026-09-28) |
+| Forks | 3,966 |
+| Open issues | 501 |
+| Contributors | 49 |
+| Last push | 2026-09-24 (4 days before verification) |
 | Latest release | v0.3.0 (2025-11-04) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 9.0 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 7.86 |
 | reproducibility | 8.0 |
 | security | 6.0 |
-| recency | 9.86 |
+| recency | 9.95 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **7.82** |
-| **trust_score** | **6.88** |
+| **quality_score** (weighted) | **7.98** |
+| **trust_score** | **7.08** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

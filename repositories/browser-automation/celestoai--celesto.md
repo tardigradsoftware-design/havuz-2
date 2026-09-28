@@ -4,25 +4,25 @@ title: "CelestoAI/celesto"
 domain: browser-automation
 summary: >-
   CelestoAI/celesto — ACTIVE, tier S,
-  946 stars, license Apache-2.0, quality 8.44/10, trust 7.68/10.
-  Verified against the GitHub API on 2026-09-21.
+  987 stars, license Apache-2.0, quality 8.44/10, trust 7.67/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-sandbox", "browser-automation", "computer", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 9.9, "documentation": 8.51, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.0}
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 9.95, "documentation": 8.44, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.44
-  trust_score: 7.68
+  trust_score: 7.67
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,9 +50,9 @@ sources:
 
 > _Upstream description, quoted as published and not verified here:_
 >
-> Secure and persistent computer for AI agents -- build your own Grokbot, and Muse.
+> Secure and persistent computer for AI agents
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,15 +61,15 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 946 (checked 2026-09-21) |
-| Forks | 75 |
-| Open issues | 17 |
-| Contributors | 15 |
-| Last push | 2026-09-21 (0 days before verification) |
-| Latest release | v0.1.0 (2026-09-21) |
+| Stars | 987 (checked 2026-09-28) |
+| Forks | 78 |
+| Open issues | 7 |
+| Contributors | 16 |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | v0.1.3 (2026-09-28) |
 | Archived | no |
 | Fork | no |
-| Homepage | [https://docs.celesto.ai/smolvm](https://docs.celesto.ai/smolvm) |
+| Homepage | [https://celesto.ai/docs](https://celesto.ai/docs) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 
@@ -79,14 +79,14 @@ sources:
 |---|---|
 | authority | 6.0 |
 | maintenance | 10.0 |
-| adoption | 9.9 |
-| documentation | 8.51 |
+| adoption | 9.95 |
+| documentation | 8.44 |
 | reproducibility | 10.0 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 8.0 |
 | **quality_score** (weighted) | **8.44** |
-| **trust_score** | **7.68** |
+| **trust_score** | **7.67** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 18,146 bytes |
+| README size | 17,305 bytes |
 
 ## Curated judgement
 

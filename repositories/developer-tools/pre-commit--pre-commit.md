@@ -4,25 +4,25 @@ title: "pre-commit/pre-commit"
 domain: developer-tools
 summary: >-
   pre-commit/pre-commit — STABLE, tier S,
-  15,587 stars, license MIT, quality 8.13/10, trust 7.93/10.
-  Verified against the GitHub API on 2026-09-21.
+  15,600 stars, license MIT, quality 8.12/10, trust 7.93/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "git-hooks", "github-repository", "quality"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 5.54, "reproducibility": 9.0, "security": 4.5, "recency": 9.53, "evidence": 7.0}
-  quality_score: 8.13
+  components: {"authority": 9.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 5.54, "reproducibility": 9.0, "security": 4.5, "recency": 9.44, "evidence": 7.0}
+  quality_score: 8.12
   trust_score: 7.93
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A framework for managing and maintaining multi-language pre-commit hooks.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 15,587 (checked 2026-09-21) |
-| Forks | 1,010 |
-| Open issues | 26 |
+| Stars | 15,600 (checked 2026-09-28) |
+| Forks | 1,012 |
+| Open issues | 25 |
 | Contributors | 134 |
-| Last push | 2026-08-17 (34 days before verification) |
+| Last push | 2026-08-17 (41 days before verification) |
 | Latest release | v4.6.2 (2026-08-10) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.54 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.53 |
+| recency | 9.44 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **8.13** |
+| **quality_score** (weighted) | **8.12** |
 | **trust_score** | **7.93** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

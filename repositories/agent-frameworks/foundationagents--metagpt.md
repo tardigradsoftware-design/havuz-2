@@ -4,25 +4,25 @@ title: "FoundationAgents/MetaGPT"
 domain: agent-frameworks
 summary: >-
   FoundationAgents/MetaGPT — MAINTENANCE, tier A,
-  70,534 stars, license MIT, quality 7.04/10, trust 6.2/10.
-  Verified against the GitHub API on 2026-09-21.
+  70,662 stars, license MIT, quality 7.03/10, trust 6.2/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-frameworks", "github-repository", "multi-agent", "sdlc"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 4.0, "adoption": 10.0, "documentation": 6.68, "reproducibility": 10.0, "security": 6.0, "recency": 6.68, "evidence": 8.0}
-  quality_score: 7.04
+  components: {"authority": 6.0, "maintenance": 4.0, "adoption": 10.0, "documentation": 6.68, "reproducibility": 10.0, "security": 6.0, "recency": 6.58, "evidence": 8.0}
+  quality_score: 7.03
   trust_score: 6.2
   tier: A
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 70,534 (checked 2026-09-21) |
-| Forks | 8,961 |
-| Open issues | 135 |
+| Stars | 70,662 (checked 2026-09-28) |
+| Forks | 8,972 |
+| Open issues | 141 |
 | Contributors | 116 |
-| Last push | 2026-01-21 (242 days before verification) |
+| Last push | 2026-01-21 (250 days before verification) |
 | Latest release | v0.8.1 (2024-04-22) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.68 |
 | reproducibility | 10.0 |
 | security | 6.0 |
-| recency | 6.68 |
+| recency | 6.58 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **7.04** |
+| **quality_score** (weighted) | **7.03** |
 | **trust_score** | **6.2** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-Repository moved: `geekan/MetaGPT` -> `FoundationAgents/MetaGPT`. Update any hard-coded URLs; the old path 404s once GitHub drops the redirect. No push in 242 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+Repository moved: `geekan/MetaGPT` -> `FoundationAgents/MetaGPT`. Update any hard-coded URLs; the old path 404s once GitHub drops the redirect. No push in 250 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

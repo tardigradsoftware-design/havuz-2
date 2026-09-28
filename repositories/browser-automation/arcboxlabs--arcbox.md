@@ -4,25 +4,25 @@ title: "arcboxlabs/arcbox"
 domain: browser-automation
 summary: >-
   arcboxlabs/arcbox — ACTIVE, tier S,
-  6,152 stars, license Apache-2.0, quality 8.16/10, trust 7.11/10.
-  Verified against the GitHub API on 2026-09-21.
+  4,278 stars, license Apache-2.0, quality 8.27/10, trust 7.37/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-sandbox", "browser-automation", "github-repository", "isolation"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.05, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 6.0}
-  quality_score: 8.16
-  trust_score: 7.11
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.16, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.0}
+  quality_score: 8.27
+  trust_score: 7.37
   tier: S
-  maturity: production-grade
+  maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # arcboxlabs/arcbox
 
-🟢 ACTIVE · tier **S** · production-grade · confidence **high**
+🟢 ACTIVE · tier **S** · production-ready · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Run AI agents on real and isolated machines — own kernel, filesystem, and network — with \<100ms boot. Local first, OCI compatible, pure Rust.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 6,152 (checked 2026-09-21) |
-| Forks | 214 |
-| Open issues | 42 |
-| Contributors | 9 |
-| Last push | 2026-09-21 (0 days before verification) |
+| Stars | 4,278 (checked 2026-09-28) |
+| Forks | 189 |
+| Open issues | 45 |
+| Contributors | 10 |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | fleet-agent-v0.1.5 (2026-09-11) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.05 |
+| documentation | 8.16 |
 | reproducibility | 9.5 |
 | security | 6.0 |
 | recency | 10.0 |
-| evidence | 6.0 |
-| **quality_score** (weighted) | **8.16** |
-| **trust_score** | **7.11** |
+| evidence | 7.0 |
+| **quality_score** (weighted) | **8.27** |
+| **trust_score** | **7.37** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 12,551 bytes |
+| README size | 13,947 bytes |
 
 ## Curated judgement
 

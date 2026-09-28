@@ -3,26 +3,26 @@ id: xlang-ai--osworld
 title: "xlang-ai/OSWorld"
 domain: evaluation
 summary: >-
-  xlang-ai/OSWorld — STABLE, tier S,
-  3,152 stars, license Apache-2.0, quality 8.14/10, trust 7.92/10.
-  Verified against the GitHub API on 2026-09-21.
+  xlang-ai/OSWorld — STABLE, tier A,
+  3,160 stars, license Apache-2.0, quality 7.98/10, trust 7.72/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "computer-use", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.97, "reproducibility": 7.5, "security": 4.5, "recency": 9.92, "evidence": 5.5}
-  quality_score: 8.14
-  trust_score: 7.92
-  tier: S
+  components: {"authority": 9.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 5.97, "reproducibility": 7.5, "security": 4.5, "recency": 9.82, "evidence": 5.5}
+  quality_score: 7.98
+  trust_score: 7.72
+  tier: A
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # xlang-ai/OSWorld
 
-🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
+🔵 STABLE · tier **A** · published-artifact · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > \[NeurIPS 2024\] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 3,152 (checked 2026-09-21) |
-| Forks | 533 |
-| Open issues | 202 |
+| Stars | 3,160 (checked 2026-09-28) |
+| Forks | 535 |
+| Open issues | 209 |
 | Contributors | 97 |
-| Last push | 2026-09-14 (6 days before verification) |
+| Last push | 2026-09-14 (13 days before verification) |
 | Latest release | v0.1.16 (2024-06-26) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 10.0 |
+| maintenance | 9.0 |
 | adoption | 10.0 |
 | documentation | 5.97 |
 | reproducibility | 7.5 |
 | security | 4.5 |
-| recency | 9.92 |
+| recency | 9.82 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **8.14** |
-| **trust_score** | **7.92** |
+| **quality_score** (weighted) | **7.98** |
+| **trust_score** | **7.72** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

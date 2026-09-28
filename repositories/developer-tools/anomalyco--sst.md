@@ -3,26 +3,26 @@ id: anomalyco--sst
 title: "anomalyco/sst"
 domain: developer-tools
 summary: >-
-  anomalyco/sst — STABLE, tier A,
-  26,309 stars, license MIT, quality 7.0/10, trust 5.91/10.
-  Verified against the GitHub API on 2026-09-21.
+  anomalyco/sst — STABLE, tier B,
+  26,326 stars, license MIT, quality 6.99/10, trust 5.91/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["aws", "developer-tools", "github-repository", "iac", "serverless"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 5.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 4.72, "reproducibility": 8.0, "security": 3.5, "recency": 9.04, "evidence": 6.0}
-  quality_score: 7.0
+  components: {"authority": 5.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 4.72, "reproducibility": 8.0, "security": 3.5, "recency": 8.95, "evidence": 6.0}
+  quality_score: 6.99
   trust_score: 5.91
-  tier: A
-  maturity: production-grade
+  tier: B
+  maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # anomalyco/sst
 
-🔵 STABLE · tier **A** · production-grade · confidence **medium**
+🔵 STABLE · tier **B** · production-ready · confidence **medium**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Build full-stack apps on your own infrastructure.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 26,309 (checked 2026-09-21) |
-| Forks | 2,125 |
-| Open issues | 325 |
+| Stars | 26,326 (checked 2026-09-28) |
+| Forks | 2,124 |
+| Open issues | 339 |
 | Contributors | 290 |
-| Last push | 2026-07-12 (70 days before verification) |
+| Last push | 2026-07-12 (77 days before verification) |
 | Latest release | v4.17.1 (2026-07-12) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 4.72 |
 | reproducibility | 8.0 |
 | security | 3.5 |
-| recency | 9.04 |
+| recency | 8.95 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **7.0** |
+| **quality_score** (weighted) | **6.99** |
 | **trust_score** | **5.91** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

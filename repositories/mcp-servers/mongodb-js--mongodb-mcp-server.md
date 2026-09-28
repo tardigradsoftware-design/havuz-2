@@ -4,17 +4,17 @@ title: "mongodb-js/mongodb-mcp-server"
 domain: mcp-servers
 summary: >-
   mongodb-js/mongodb-mcp-server — ACTIVE, tier S,
-  1,134 stars, license Apache-2.0, quality 8.05/10, trust 7.8/10.
-  Verified against the GitHub API on 2026-09-21.
+  1,138 stars, license Apache-2.0, quality 8.05/10, trust 7.8/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "mongodb"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.0, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.05
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 1,134 (checked 2026-09-21) |
-| Forks | 294 |
-| Open issues | 18 |
+| Stars | 1,138 (checked 2026-09-28) |
+| Forks | 293 |
+| Open issues | 24 |
 | Contributors | 50 |
-| Last push | 2026-09-21 (0 days before verification) |
-| Latest release | v3.0.3 (2026-09-18) |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | v2.1.2 (2026-09-23) |
 | Archived | no |
 | Fork | no |
 | Homepage | — |

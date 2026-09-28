@@ -4,25 +4,25 @@ title: "vllm-project/vllm"
 domain: ai
 summary: >-
   vllm-project/vllm — ACTIVE, tier S,
-  92,310 stars, license Apache-2.0, quality 9.0/10, trust 8.95/10.
-  Verified against the GitHub API on 2026-09-21.
+  92,854 stars, license Apache-2.0, quality 8.95/10, trust 8.87/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "inference", "performance", "serving"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.98, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
-  quality_score: 9.0
-  trust_score: 8.95
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.48, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
+  quality_score: 8.95
+  trust_score: 8.87
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A high-throughput and memory-efficient inference and serving engine for LLMs
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 92,310 (checked 2026-09-21) |
-| Forks | 22,470 |
-| Open issues | 8,219 |
-| Contributors | 451 |
-| Last push | 2026-09-21 (0 days before verification) |
-| Latest release | v0.29.0 (2026-09-09) |
+| Stars | 92,854 (checked 2026-09-28) |
+| Forks | 22,749 |
+| Open issues | 8,334 |
+| Contributors | 452 |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | v0.30.0 (2026-09-22) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://vllm.ai](https://vllm.ai) |
@@ -80,13 +80,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.98 |
+| documentation | 6.48 |
 | reproducibility | 10.0 |
 | security | 7.0 |
 | recency | 10.0 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **9.0** |
-| **trust_score** | **8.95** |
+| **quality_score** (weighted) | **8.95** |
+| **trust_score** | **8.87** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -103,7 +103,7 @@ security / recency / evidence 10% each. See
 | examples | yes |
 | security md | yes |
 | changelog | no |
-| contributing | yes |
+| contributing | no |
 | root entries | yes |
 | README size | 5,708 bytes |
 

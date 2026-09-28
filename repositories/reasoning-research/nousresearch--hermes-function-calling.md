@@ -3,26 +3,26 @@ id: nousresearch--hermes-function-calling
 title: "NousResearch/Hermes-Function-Calling"
 domain: reasoning-research
 summary: >-
-  NousResearch/Hermes-Function-Calling — STABLE, tier B,
-  1,473 stars, license MIT, quality 5.8/10, trust 5.09/10.
-  Verified against the GitHub API on 2026-09-21.
+  NousResearch/Hermes-Function-Calling — STABLE, tier C,
+  1,474 stars, license MIT, quality 5.79/10, trust 5.09/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["dataset", "github-repository", "reasoning-research", "tool-use"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.26, "reproducibility": 5.5, "security": 4.5, "recency": 6.27, "evidence": 2.0}
-  quality_score: 5.8
+  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.26, "reproducibility": 5.5, "security": 4.5, "recency": 6.18, "evidence": 2.0}
+  quality_score: 5.79
   trust_score: 5.09
-  tier: B
+  tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,21 +36,21 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # NousResearch/Hermes-Function-Calling
 
-🔵 STABLE · tier **B** · published-artifact · confidence **medium**
+🔵 STABLE · tier **C** · published-artifact · confidence **medium**
 
 > _No description published._
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -59,11 +59,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `MIT` |
-| Stars | 1,473 (checked 2026-09-21) |
-| Forks | 220 |
+| Stars | 1,474 (checked 2026-09-28) |
+| Forks | 221 |
 | Open issues | 31 |
 | Contributors | 9 |
-| Last push | 2025-12-22 (272 days before verification) |
+| Last push | 2025-12-22 (279 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -81,9 +81,9 @@ sources:
 | documentation | 4.26 |
 | reproducibility | 5.5 |
 | security | 4.5 |
-| recency | 6.27 |
+| recency | 6.18 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **5.8** |
+| **quality_score** (weighted) | **5.79** |
 | **trust_score** | **5.09** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

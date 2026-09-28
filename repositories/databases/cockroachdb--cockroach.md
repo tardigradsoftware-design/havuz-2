@@ -4,25 +4,25 @@ title: "cockroachdb/cockroach"
 domain: databases
 summary: >-
   cockroachdb/cockroach — ACTIVE, tier A,
-  32,481 stars, license NOASSERTION, quality 7.82/10, trust 7.67/10.
-  Verified against the GitHub API on 2026-09-21.
+  32,522 stars, license NOASSERTION, quality 7.82/10, trust 7.67/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["databases", "distributed", "github-repository", "sql"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.12, "reproducibility": 5.1, "security": 4.0, "recency": 9.95, "evidence": 4.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.12, "reproducibility": 5.1, "security": 4.0, "recency": 9.96, "evidence": 4.0}
   quality_score: 7.82
   trust_score: 7.67
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `NOASSERTION` |
-| Stars | 32,481 (checked 2026-09-21) |
-| Forks | 4,111 |
-| Open issues | 8,466 |
+| Stars | 32,522 (checked 2026-09-28) |
+| Forks | 4,120 |
+| Open issues | 8,406 |
 | Contributors | 306 |
-| Last push | 2026-09-16 (4 days before verification) |
+| Last push | 2026-09-24 (3 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -89,7 +89,7 @@ sources:
 | documentation | 7.12 |
 | reproducibility | 5.1 |
 | security | 4.0 |
-| recency | 9.95 |
+| recency | 9.96 |
 | evidence | 4.0 |
 | **quality_score** (weighted) | **7.82** |
 | **trust_score** | **7.67** |

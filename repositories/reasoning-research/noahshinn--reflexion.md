@@ -4,25 +4,25 @@ title: "noahshinn/reflexion"
 domain: reasoning-research
 summary: >-
   noahshinn/reflexion — STABLE, tier C,
-  3,280 stars, license MIT, quality 4.49/10, trust 3.98/10.
-  Verified against the GitHub API on 2026-09-21.
+  3,286 stars, license MIT, quality 4.48/10, trust 3.98/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "paper-code", "reasoning", "reasoning-research", "self-correction"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 7.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 3.86, "reproducibility": 4.5, "security": 3.5, "recency": 1.58, "evidence": 1.0}
-  quality_score: 4.49
+  components: {"authority": 7.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 3.86, "reproducibility": 4.5, "security": 3.5, "recency": 1.48, "evidence": 1.0}
+  quality_score: 4.48
   trust_score: 3.98
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > \[NeurIPS 2023\] Reflexion: Language Agents with Verbal Reinforcement Learning
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 3,280 (checked 2026-09-21) |
-| Forks | 321 |
+| Stars | 3,286 (checked 2026-09-28) |
+| Forks | 324 |
 | Open issues | 24 |
 | Contributors | 5 |
-| Last push | 2025-01-14 (615 days before verification) |
+| Last push | 2025-01-14 (622 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 3.86 |
 | reproducibility | 4.5 |
 | security | 3.5 |
-| recency | 1.58 |
+| recency | 1.48 |
 | evidence | 1.0 |
-| **quality_score** (weighted) | **4.49** |
+| **quality_score** (weighted) | **4.48** |
 | **trust_score** | **3.98** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

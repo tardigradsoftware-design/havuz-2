@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-21T09:57:13+00:00",
+  "generated_at": "2026-09-28T10:55:50+00:00",
   "requested": 417,
   "ok": 414,
   "failed": 0,
   "authenticated": true,
-  "duration_seconds": 67.2,
+  "duration_seconds": 100.0,
   "failures": [],
   "renamed": [
     {
@@ -46,6 +46,10 @@
     {
       "from": "casbin/casbin",
       "to": "apache/casbin"
+    },
+    {
+      "from": "feder-cr/AIHawk",
+      "to": "feder-cr/invisible_playwright_mcp"
     },
     {
       "from": "anthropics/anthropic-quickstarts",
@@ -124,43 +128,43 @@
   "archived": [
     {
       "slug": "RooCodeInc/Roo-Code",
-      "stars": 24302
+      "stars": 24293
     },
     {
       "slug": "sourcegraph/cody-public-snapshot",
-      "stars": 3808
+      "stars": 3805
     },
     {
       "slug": "anthropics/courses",
-      "stars": 22852
+      "stars": 22860
     },
     {
       "slug": "huggingface/text-generation-inference",
-      "stars": 10885
+      "stars": 10884
     },
     {
       "slug": "oxylabs/browser-agent-py",
-      "stars": 1565
+      "stars": 1563
     },
     {
       "slug": "lost-pixel/lost-pixel",
-      "stars": 1683
+      "stars": 1682
     },
     {
       "slug": "bigcode-project/bigcodebench",
-      "stars": 519
+      "stars": 518
     },
     {
       "slug": "steipete/agent-rules",
-      "stars": 5685
+      "stars": 5682
     },
     {
       "slug": "protectai/llm-guard",
-      "stars": 3209
+      "stars": 3210
     },
     {
       "slug": "protectai/rebuff",
-      "stars": 1521
+      "stars": 1522
     },
     {
       "slug": "browserbase/mcp-server-browserbase",
@@ -168,7 +172,7 @@
     },
     {
       "slug": "huggingface/awesome-papers",
-      "stars": 2051
+      "stars": 2052
     }
   ],
   "no_license": [
@@ -181,7 +185,6 @@
     "oxylabs/browser-agent-py",
     "greensock/GSAP",
     "OWASP/www-project-top-ten",
-    "modelcontextprotocol/inspector",
     "vercel-labs/mcp-handler",
     "QwenLM/Qwen3",
     "huggingface/awesome-papers",
@@ -243,6 +246,7 @@
     "oraios/serena",
     "mksglu/context-mode",
     "modelcontextprotocol/typescript-sdk",
+    "modelcontextprotocol/inspector",
     "modelcontextprotocol/registry",
     "getsentry/sentry-mcp",
     "meta-llama/llama-models"
@@ -250,202 +254,202 @@
   "stale_over_180d": [
     [
       "12factor/12factor-br",
-      3869
+      3876
     ],
     [
       "huggingface/awesome-papers",
-      2150
-    ],
-    [
-      "ysymyth/ReAct",
-      958
+      2157
     ],
     [
       "google-deepmind/funsearch",
-      958
+      966
+    ],
+    [
+      "ysymyth/ReAct",
+      965
     ],
     [
       "npryce/adr-tools",
-      878
+      885
     ],
     [
       "joonspk-research/generative_agents",
-      776
+      783
     ],
     [
       "protectai/rebuff",
-      774
+      781
     ],
     [
       "madaan/self-refine",
-      716
+      723
     ],
     [
       "rsms/inter",
-      671
+      678
     ],
     [
       "httpie/cli",
-      642
+      649
     ],
     [
       "noahshinn/reflexion",
-      615
+      622
     ],
     [
       "princeton-nlp/tree-of-thought-llm",
-      612
+      619
     ],
     [
       "lavague-ai/LaVague",
-      607
+      614
     ],
     [
       "EvolvingLMMs-Lab/open-r1-multimodal",
-      590
+      597
     ],
     [
       "PRIME-RL/PRIME",
-      552
+      559
     ],
     [
       "lmarena/arena-hard-auto",
-      457
+      464
     ],
     [
       "deepseek-ai/DeepSeek-R1",
-      451
+      458
     ],
     [
       "LiveCodeBench/LiveCodeBench",
-      432
+      439
     ],
     [
       "bigcode-project/bigcode-evaluation-harness",
-      425
+      432
     ],
     [
       "sourcegraph/cody-public-snapshot",
-      415
+      422
     ],
     [
       "tatsu-lab/alpaca_eval",
-      408
+      415
     ],
     [
       "OS-Agent-Survey/OS-Agent-Survey",
-      401
+      408
     ],
     [
       "deepseek-ai/DeepSeek-V3",
-      389
+      396
     ],
     [
       "sail-sg/understand-r1-zero",
-      389
+      396
     ],
     [
       "sweepai/sweep",
-      368
+      375
     ],
     [
       "evalplus/evalplus",
-      353
+      360
     ],
     [
       "plandex-ai/plandex",
-      352
+      359
     ],
     [
       "tremorlabs/tremor",
-      345
+      352
     ],
     [
       "OSU-NLP-Group/Mind2Web",
-      320
+      327
     ],
     [
       "TheAgentCompany/TheAgentCompany",
-      307
+      314
     ],
     [
       "stanfordmlgroup/MedAgentBench",
-      303
+      310
     ],
     [
       "web-arena-x/webarena",
-      298
+      305
     ],
     [
       "t3-oss/create-t3-app",
-      281
+      289
     ],
     [
       "NousResearch/Hermes-Function-Calling",
-      272
+      279
     ],
     [
       "OWASP/www-project-top-ten",
-      270
+      277
     ],
     [
       "bigcode-project/bigcodebench",
-      261
+      268
     ],
     [
       "QwenLM/Qwen3",
-      255
+      262
     ],
     [
       "invariantlabs-ai/invariant",
-      251
+      258
     ],
     [
       "FoundationAgents/MetaGPT",
-      242
+      250
     ],
     [
       "mlabonne/llm-course",
-      227
+      234
     ],
     [
       "meta-llama/llama-models",
-      221
+      228
     ],
     [
       "vibrantlabsai/ragas",
-      209
+      216
     ],
     [
       "dair-ai/Prompt-Engineering-Guide",
-      193
+      200
     ],
     [
       "sierra-research/tau-bench",
-      186
+      193
     ],
     [
       "typicode/husky",
-      185
+      192
     ],
     [
       "huggingface/text-generation-inference",
-      183
+      190
     ]
   ],
   "tier_distribution": {
-    "S": 214,
-    "A": 127,
-    "B": 29,
+    "S": 216,
+    "A": 125,
+    "B": 30,
     "C": 16,
-    "NO-LICENSE": 13,
+    "NO-LICENSE": 12,
     "ARCHIVED": 12,
     "EXPERIMENTAL": 3
   },
   "status_distribution": {
     "ACTIVE": 296,
-    "STABLE": 81,
-    "MAINTENANCE": 18,
+    "STABLE": 80,
+    "MAINTENANCE": 19,
     "ARCHIVED": 12,
     "ABANDONED": 7
   },

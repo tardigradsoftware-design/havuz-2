@@ -4,17 +4,17 @@ title: "lobehub/lobehub"
 domain: frontend
 summary: >-
   lobehub/lobehub — ACTIVE, tier A,
-  82,714 stars, license NOASSERTION, quality 9.06/10, trust 9.22/10.
-  Verified against the GitHub API on 2026-09-21.
+  82,872 stars, license NOASSERTION, quality 9.06/10, trust 9.22/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai-chat", "example", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 8.6, "security": 6.5, "recency": 10.0, "evidence": 7.5}
   quality_score: 9.06
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 82,714 (checked 2026-09-21) |
-| Forks | 15,908 |
-| Open issues | 942 |
-| Contributors | 348 |
-| Last push | 2026-09-21 (0 days before verification) |
+| Stars | 82,872 (checked 2026-09-28) |
+| Forks | 15,933 |
+| Open issues | 971 |
+| Contributors | 349 |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | v2.2.18 (2026-09-20) |
 | Archived | no |
 | Fork | no |

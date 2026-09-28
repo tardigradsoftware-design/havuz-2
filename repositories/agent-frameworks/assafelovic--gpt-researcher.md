@@ -3,26 +3,26 @@ id: assafelovic--gpt-researcher
 title: "assafelovic/gpt-researcher"
 domain: agent-frameworks
 summary: >-
-  assafelovic/gpt-researcher — STABLE, tier S,
-  29,552 stars, license Apache-2.0, quality 8.02/10, trust 7.05/10.
-  Verified against the GitHub API on 2026-09-21.
+  assafelovic/gpt-researcher — ACTIVE, tier S,
+  29,656 stars, license Apache-2.0, quality 8.14/10, trust 7.23/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "deep-research", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.98, "reproducibility": 9.5, "security": 6.0, "recency": 9.67, "evidence": 7.0}
-  quality_score: 8.02
-  trust_score: 7.05
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.39, "reproducibility": 9.5, "security": 6.0, "recency": 9.99, "evidence": 7.5}
+  quality_score: 8.14
+  trust_score: 7.23
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # assafelovic/gpt-researcher
 
-🔵 STABLE · tier **S** · production-grade · confidence **high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > An autonomous agent that conducts deep research on any data using any LLM providers
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 29,552 (checked 2026-09-21) |
-| Forks | 4,019 |
-| Open issues | 101 |
-| Contributors | 238 |
-| Last push | 2026-08-27 (24 days before verification) |
-| Latest release | v3.6.1 (2026-08-24) |
+| Stars | 29,656 (checked 2026-09-28) |
+| Forks | 4,054 |
+| Open issues | 15 |
+| Contributors | 252 |
+| Last push | 2026-09-26 (1 days before verification) |
+| Latest release | v3.7.0 (2026-09-26) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://gptr.dev](https://gptr.dev) |
@@ -80,13 +80,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.98 |
+| documentation | 8.39 |
 | reproducibility | 9.5 |
 | security | 6.0 |
-| recency | 9.67 |
-| evidence | 7.0 |
-| **quality_score** (weighted) | **8.02** |
-| **trust_score** | **7.05** |
+| recency | 9.99 |
+| evidence | 7.5 |
+| **quality_score** (weighted) | **8.14** |
+| **trust_score** | **7.23** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 17,797 bytes |
+| README size | 22,628 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-21) and must be
+(on 2026-09-28) and must be
 re-checked against your own constraints._
 
 **Recommended for**

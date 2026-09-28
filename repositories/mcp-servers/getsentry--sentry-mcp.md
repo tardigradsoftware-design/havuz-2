@@ -4,25 +4,25 @@ title: "getsentry/sentry-mcp"
 domain: mcp-servers
 summary: >-
   getsentry/sentry-mcp — ACTIVE, tier A,
-  858 stars, license NOASSERTION, quality 7.94/10, trust 7.73/10.
-  Verified against the GitHub API on 2026-09-21.
+  867 stars, license NOASSERTION, quality 7.95/10, trust 7.73/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "observability", "sentry"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.84, "reproducibility": 6.6, "security": 4.0, "recency": 9.97, "evidence": 5.0}
-  quality_score: 7.94
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.89, "reproducibility": 6.6, "security": 4.0, "recency": 10.0, "evidence": 5.0}
+  quality_score: 7.95
   trust_score: 7.73
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > An MCP server for interacting with Sentry via LLMs.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 858 (checked 2026-09-21) |
-| Forks | 149 |
-| Open issues | 119 |
+| Stars | 867 (checked 2026-09-28) |
+| Forks | 151 |
+| Open issues | 111 |
 | Contributors | 68 |
-| Last push | 2026-09-18 (2 days before verification) |
-| Latest release | 0.39.0 (2026-08-27) |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | 0.42.0 (2026-09-25) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://mcp.sentry.dev](https://mcp.sentry.dev) |
@@ -86,12 +86,12 @@ sources:
 | authority | 8.5 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.84 |
+| documentation | 6.89 |
 | reproducibility | 6.6 |
 | security | 4.0 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.94** |
+| **quality_score** (weighted) | **7.95** |
 | **trust_score** | **7.73** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 10,052 bytes |
+| README size | 10,645 bytes |
 
 ## Curated judgement
 

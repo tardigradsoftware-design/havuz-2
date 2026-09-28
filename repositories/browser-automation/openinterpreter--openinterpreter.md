@@ -4,25 +4,25 @@ title: "openinterpreter/openinterpreter"
 domain: browser-automation
 summary: >-
   openinterpreter/openinterpreter — ACTIVE, tier A,
-  68,395 stars, license Apache-2.0, quality 7.78/10, trust 6.75/10.
-  Verified against the GitHub API on 2026-09-21.
+  68,461 stars, license Apache-2.0, quality 7.79/10, trust 6.76/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "computer-use", "github-repository", "local"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.35, "reproducibility": 7.5, "security": 6.0, "recency": 9.99, "evidence": 5.0}
-  quality_score: 7.78
-  trust_score: 6.75
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.38, "reproducibility": 7.5, "security": 6.0, "recency": 9.99, "evidence": 5.0}
+  quality_score: 7.79
+  trust_score: 6.76
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A coding agent for open models like Kimi K3 and GLM 5.3
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 68,395 (checked 2026-09-21) |
-| Forks | 5,884 |
-| Open issues | 3 |
-| Contributors | 474 |
-| Last push | 2026-09-20 (1 days before verification) |
+| Stars | 68,461 (checked 2026-09-28) |
+| Forks | 5,882 |
+| Open issues | 5 |
+| Contributors | 473 |
+| Last push | 2026-09-27 (1 days before verification) |
 | Latest release | rust-v0.0.45 (2026-09-20) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.35 |
+| documentation | 7.38 |
 | reproducibility | 7.5 |
 | security | 6.0 |
 | recency | 9.99 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.78** |
-| **trust_score** | **6.75** |
+| **quality_score** (weighted) | **7.79** |
+| **trust_score** | **6.76** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | no |
 | root entries | yes |
-| README size | 10,182 bytes |
+| README size | 10,577 bytes |
 
 ## Curated judgement
 

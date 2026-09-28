@@ -4,25 +4,25 @@ title: "donnemartin/system-design-primer"
 domain: developer-tools
 summary: >-
   donnemartin/system-design-primer — ACTIVE, tier A,
-  371,051 stars, license NOASSERTION, quality 7.5/10, trust 7.2/10.
-  Verified against the GitHub API on 2026-09-21.
+  372,272 stars, license NOASSERTION, quality 7.42/10, trust 7.1/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["architecture", "developer-tools", "education", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.0, "reproducibility": 5.1, "security": 4.0, "recency": 9.92, "evidence": 4.0}
-  quality_score: 7.5
-  trust_score: 7.2
+  components: {"authority": 7.5, "maintenance": 9.5, "adoption": 10.0, "documentation": 7.0, "reproducibility": 5.1, "security": 4.0, "recency": 9.82, "evidence": 4.0}
+  quality_score: 7.42
+  trust_score: 7.1
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 371,051 (checked 2026-09-21) |
-| Forks | 58,511 |
-| Open issues | 615 |
+| Stars | 372,272 (checked 2026-09-28) |
+| Forks | 58,662 |
+| Open issues | 616 |
 | Contributors | 121 |
-| Last push | 2026-09-15 (6 days before verification) |
+| Last push | 2026-09-15 (13 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -84,15 +84,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 7.5 |
-| maintenance | 10.0 |
+| maintenance | 9.5 |
 | adoption | 10.0 |
 | documentation | 7.0 |
 | reproducibility | 5.1 |
 | security | 4.0 |
-| recency | 9.92 |
+| recency | 9.82 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.5** |
-| **trust_score** | **7.2** |
+| **quality_score** (weighted) | **7.42** |
+| **trust_score** | **7.1** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

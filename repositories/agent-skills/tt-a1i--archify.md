@@ -3,26 +3,26 @@ id: tt-a1i--archify
 title: "tt-a1i/archify"
 domain: agent-skills
 summary: >-
-  tt-a1i/archify — ACTIVE, tier A,
-  68,695 stars, license MIT, quality 7.98/10, trust 7.12/10.
-  Verified against the GitHub API on 2026-09-21.
+  tt-a1i/archify — ACTIVE, tier S,
+  73,195 stars, license MIT, quality 8.02/10, trust 7.18/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "architecture", "diagrams", "github-repository", "skills"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.28, "reproducibility": 8.0, "security": 6.0, "recency": 10.0, "evidence": 6.5}
-  quality_score: 7.98
-  trust_score: 7.12
-  tier: A
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.72, "reproducibility": 8.0, "security": 6.0, "recency": 10.0, "evidence": 6.5}
+  quality_score: 8.02
+  trust_score: 7.18
+  tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # tt-a1i/archify
 
-🟢 ACTIVE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 68,695 (checked 2026-09-21) |
-| Forks | 4,606 |
-| Open issues | 143 |
+| Stars | 73,195 (checked 2026-09-28) |
+| Forks | 4,948 |
+| Open issues | 173 |
 | Contributors | 34 |
-| Last push | 2026-09-21 (0 days before verification) |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | v2.16.0 (2026-08-30) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 9.28 |
+| documentation | 9.72 |
 | reproducibility | 8.0 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **7.98** |
-| **trust_score** | **7.12** |
+| **quality_score** (weighted) | **8.02** |
+| **trust_score** | **7.18** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 27,308 bytes |
+| README size | 32,585 bytes |
 
 ## Curated judgement
 

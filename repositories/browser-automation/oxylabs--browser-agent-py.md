@@ -4,25 +4,25 @@ title: "oxylabs/browser-agent-py"
 domain: browser-automation
 summary: >-
   oxylabs/browser-agent-py — ARCHIVED, tier ARCHIVED,
-  1,565 stars, license NONE, quality 4.28/10, trust 0.0/10.
-  Verified against the GitHub API on 2026-09-21.
+  1,563 stars, license NONE, quality 4.27/10, trust 0.0/10.
+  Verified against the GitHub API on 2026-09-28.
 status: deprecated
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "browser", "browser-automation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 0.5, "adoption": 9.86, "documentation": 5.15, "reproducibility": 1.0, "security": 0.0, "recency": 7.64, "evidence": 1.5}
-  quality_score: 4.28
+  components: {"authority": 6.0, "maintenance": 0.5, "adoption": 9.86, "documentation": 5.15, "reproducibility": 1.0, "security": 0.0, "recency": 7.55, "evidence": 1.5}
+  quality_score: 4.27
   trust_score: 0.0
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > AI Browser Agent is an advanced Browser AI tool developed by Oxylabs AI Studio that automates real user browsing tasks using natural language instructions.
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-21. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-09-28. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | no |
 | Language | — |
 | License | `NONE` |
-| Stars | 1,565 (checked 2026-09-21) |
+| Stars | 1,563 (checked 2026-09-28) |
 | Forks | 2 |
 | Open issues | 0 |
 | Contributors | 2 |
-| Last push | 2026-04-02 (172 days before verification) |
+| Last push | 2026-04-02 (179 days before verification) |
 | Latest release | — (no release) |
 | Archived | **YES** |
 | Fork | no |
@@ -88,9 +88,9 @@ sources:
 | documentation | 5.15 |
 | reproducibility | 1.0 |
 | security | 0.0 |
-| recency | 7.64 |
+| recency | 7.55 |
 | evidence | 1.5 |
-| **quality_score** (weighted) | **4.28** |
+| **quality_score** (weighted) | **4.27** |
 | **trust_score** | **0.0** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

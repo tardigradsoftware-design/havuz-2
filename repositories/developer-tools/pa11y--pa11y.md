@@ -4,17 +4,17 @@ title: "pa11y/pa11y"
 domain: developer-tools
 summary: >-
   pa11y/pa11y — ACTIVE, tier S,
-  4,533 stars, license LGPL-3.0, quality 8.85/10, trust 9.01/10.
-  Verified against the GitHub API on 2026-09-21.
+  4,562 stars, license LGPL-3.0, quality 8.85/10, trust 9.01/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["accessibility", "audit", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.22, "reproducibility": 9.25, "security": 4.5, "recency": 10.0, "evidence": 8.5}
   quality_score: 8.85
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Pa11y is your automated accessibility testing pal
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `LGPL-3.0` |
-| Stars | 4,533 (checked 2026-09-21) |
-| Forks | 301 |
+| Stars | 4,562 (checked 2026-09-28) |
+| Forks | 303 |
 | Open issues | 44 |
 | Contributors | 53 |
-| Last push | 2026-09-21 (0 days before verification) |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | 10.0.0 (2026-08-28) |
 | Archived | no |
 | Fork | no |

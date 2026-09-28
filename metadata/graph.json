@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:01:02+00:00",
+  "generated_at": "2026-09-28T10:59:44+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "description": "Knowledge graph. Traverse from a task's domain to the skills, frameworks, MCP servers, repositories and papers that support it.",
   "node_count": 1108,
@@ -1374,7 +1374,7 @@
       ]
     },
     {
-      "id": "feder-cr/AIHawk",
+      "id": "feder-cr/invisible_playwright_mcp",
       "kinds": [
         "repository"
       ]
@@ -2122,6 +2122,12 @@
       ]
     },
     {
+      "id": "https://celesto.ai/docs",
+      "kinds": [
+        "referenced"
+      ]
+    },
+    {
       "id": "https://changesets.dev",
       "kinds": [
         "referenced"
@@ -2387,12 +2393,6 @@
     },
     {
       "id": "https://docs.caveman.so/docs/quickstart",
-      "kinds": [
-        "referenced"
-      ]
-    },
-    {
-      "id": "https://docs.celesto.ai/smolvm",
       "kinds": [
         "referenced"
       ]
@@ -2734,7 +2734,7 @@
       ]
     },
     {
-      "id": "https://github.com/feder-cr/AIHawk/wiki",
+      "id": "https://github.com/feder-cr/invisible_playwright_mcp/wiki",
       "kinds": [
         "referenced"
       ]
@@ -3538,13 +3538,13 @@
       ]
     },
     {
-      "id": "https://owasp.org/www-project-agentic-ai-threats-and-mitigations/",
+      "id": "https://owasp.org/projects/api-security-project",
       "kinds": [
         "referenced"
       ]
     },
     {
-      "id": "https://owasp.org/www-project-api-security/",
+      "id": "https://owasp.org/www-project-agentic-ai-threats-and-mitigations/",
       "kinds": [
         "referenced"
       ]
@@ -13315,12 +13315,6 @@
       "target": "https://developers.llamaindex.ai"
     },
     {
-      "source": "agno-agi/agno",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://docs.agno.com"
-    },
-    {
       "source": "langchain-ai/langgraph",
       "source_kind": "repository",
       "type": "related",
@@ -13343,6 +13337,12 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://docs.langchain.com/oss/python/langgraph/"
+    },
+    {
+      "source": "agno-agi/agno",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://docs.agno.com"
     },
     {
       "source": "stanfordnlp/dspy",
@@ -13633,16 +13633,16 @@
       "target": "https://www.uupm.cc/"
     },
     {
-      "source": "google-gemini/gemini-cli",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://geminicli.com"
-    },
-    {
       "source": "JuliusBrussee/caveman",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://docs.caveman.so/docs/quickstart"
+    },
+    {
+      "source": "google-gemini/gemini-cli",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://geminicli.com"
     },
     {
       "source": "addyosmani/agent-skills",
@@ -13693,22 +13693,16 @@
       "target": "https://learn.shareai.run"
     },
     {
-      "source": "cline/cline",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://cline.bot"
-    },
-    {
       "source": "tt-a1i/archify",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://tt-a1i.github.io/archify/"
     },
     {
-      "source": "aaif-goose/goose",
+      "source": "cline/cline",
       "source_kind": "repository",
       "type": "documented_by",
-      "target": "https://goose-docs.ai/"
+      "target": "https://cline.bot"
     },
     {
       "source": "hesreallyhim/awesome-claude-code",
@@ -13729,6 +13723,12 @@
       "target": "ComposioHQ/awesome-claude-skills"
     },
     {
+      "source": "aaif-goose/goose",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://goose-docs.ai/"
+    },
+    {
       "source": "VoltAgent/awesome-openclaw-skills",
       "source_kind": "repository",
       "type": "documented_by",
@@ -13741,16 +13741,16 @@
       "target": "https://skills.sh/blader/humanizer"
     },
     {
-      "source": "Aider-AI/aider",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://aider.chat/"
-    },
-    {
       "source": "Imbad0202/academic-research-skills",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://buymeacoffee.com/crucify020v"
+    },
+    {
+      "source": "Aider-AI/aider",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://aider.chat/"
     },
     {
       "source": "K-Dense-AI/scientific-agent-skills",
@@ -14227,10 +14227,10 @@
       "target": "https://selenium.dev"
     },
     {
-      "source": "feder-cr/AIHawk",
+      "source": "feder-cr/invisible_playwright_mcp",
       "source_kind": "repository",
       "type": "documented_by",
-      "target": "https://github.com/feder-cr/AIHawk/wiki"
+      "target": "https://github.com/feder-cr/invisible_playwright_mcp/wiki"
     },
     {
       "source": "trycua/cua",
@@ -14257,16 +14257,16 @@
       "target": "https://browser-harness.com"
     },
     {
-      "source": "microsoft/playwright-python",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://playwright.dev/python/"
-    },
-    {
       "source": "web-infra-dev/midscene",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://midscenejs.com"
+    },
+    {
+      "source": "microsoft/playwright-python",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://playwright.dev/python/"
     },
     {
       "source": "nanobrowser/nanobrowser",
@@ -14356,7 +14356,7 @@
       "source": "CelestoAI/celesto",
       "source_kind": "repository",
       "type": "documented_by",
-      "target": "https://docs.celesto.ai/smolvm"
+      "target": "https://celesto.ai/docs"
     },
     {
       "source": "browser-use/desktop",
@@ -14773,16 +14773,16 @@
       "target": "https://pre-commit.com"
     },
     {
-      "source": "lint-staged/lint-staged",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://www.npmjs.com/package/lint-staged"
-    },
-    {
       "source": "NanmiCoder/cc-haha",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "cchaha.ai"
+    },
+    {
+      "source": "lint-staged/lint-staged",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://www.npmjs.com/package/lint-staged"
     },
     {
       "source": "aws/aws-cdk",
@@ -14929,16 +14929,16 @@
       "target": "https://deepeval.com"
     },
     {
-      "source": "vibrantlabsai/ragas",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://docs.ragas.io"
-    },
-    {
       "source": "ifixai-ai/iFixAi",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://www.ifixai.ai"
+    },
+    {
+      "source": "vibrantlabsai/ragas",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://docs.ragas.io"
     },
     {
       "source": "EleutherAI/lm-evaluation-harness",
@@ -15079,6 +15079,12 @@
       "target": "https://mlcommons.org/croissant"
     },
     {
+      "source": "TIGER-AI-Lab/ClawBench",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://claw-bench.com"
+    },
+    {
       "source": "Ayanami0730/deep_research_bench",
       "source_kind": "repository",
       "type": "documented_by",
@@ -15089,12 +15095,6 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://suyoumo.github.io/bench/"
-    },
-    {
-      "source": "TIGER-AI-Lab/ClawBench",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://claw-bench.com"
     },
     {
       "source": "TheAgentCompany/TheAgentCompany",
@@ -15133,16 +15133,16 @@
       "target": "https://bigcode-bench.github.io/"
     },
     {
-      "source": "stanfordmlgroup/MedAgentBench",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://ai.nejm.org/doi/full/10.1056/AIdbp2500144"
-    },
-    {
       "source": "xlang-ai/OSWorld-V2",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://osworld-v2.xlang.ai"
+    },
+    {
+      "source": "stanfordmlgroup/MedAgentBench",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://ai.nejm.org/doi/full/10.1056/AIdbp2500144"
     },
     {
       "source": "inclusionAI/AEnvironment",
@@ -15523,16 +15523,16 @@
       "target": "https://observablehq.com/plot/"
     },
     {
-      "source": "vercel/geist-font",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://vercel.com/font"
-    },
-    {
       "source": "tremorlabs/tremor",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://tremor.so"
+    },
+    {
+      "source": "vercel/geist-font",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://vercel.com/font"
     },
     {
       "source": "PatrickJS/awesome-cursorrules",
@@ -15580,7 +15580,7 @@
       "source": "OWASP/API-Security",
       "source_kind": "repository",
       "type": "documented_by",
-      "target": "https://owasp.org/www-project-api-security/"
+      "target": "https://owasp.org/projects/api-security-project"
     },
     {
       "source": "protectai/rebuff",

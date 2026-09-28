@@ -4,25 +4,25 @@ title: "browser-use/browser-harness"
 domain: browser-automation
 summary: >-
   browser-use/browser-harness — ACTIVE, tier S,
-  17,914 stars, license MIT, quality 8.44/10, trust 8.31/10.
-  Verified against the GitHub API on 2026-09-21.
+  18,170 stars, license MIT, quality 8.53/10, trust 8.41/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "browser", "browser-automation", "github-repository", "self-healing"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 9.5, "adoption": 10.0, "documentation": 6.75, "reproducibility": 9.0, "security": 4.5, "recency": 9.88, "evidence": 7.0}
-  quality_score: 8.44
-  trust_score: 8.31
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.75, "reproducibility": 9.0, "security": 4.5, "recency": 10.0, "evidence": 7.0}
+  quality_score: 8.53
+  trust_score: 8.41
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Browser Harness \| Self-healing harness that enables LLMs to complete any task.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 17,914 (checked 2026-09-21) |
-| Forks | 1,750 |
-| Open issues | 371 |
+| Stars | 18,170 (checked 2026-09-28) |
+| Forks | 1,768 |
+| Open issues | 400 |
 | Contributors | 69 |
-| Last push | 2026-09-12 (9 days before verification) |
+| Last push | 2026-09-27 (0 days before verification) |
 | Latest release | v0.1.13 (2026-09-04) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 9.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 6.75 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.88 |
+| recency | 10.0 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **8.44** |
-| **trust_score** | **8.31** |
+| **quality_score** (weighted) | **8.53** |
+| **trust_score** | **8.41** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

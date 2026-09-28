@@ -4,25 +4,25 @@ title: "tavily-ai/tavily-mcp"
 domain: mcp-servers
 summary: >-
   tavily-ai/tavily-mcp — ACTIVE, tier A,
-  2,396 stars, license MIT, quality 7.57/10, trust 6.98/10.
-  Verified against the GitHub API on 2026-09-21.
+  2,411 stars, license MIT, quality 7.33/10, trust 6.68/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "search"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.23, "reproducibility": 7.0, "security": 4.5, "recency": 9.95, "evidence": 4.0}
-  quality_score: 7.57
-  trust_score: 6.98
+  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 4.23, "reproducibility": 7.0, "security": 4.5, "recency": 9.85, "evidence": 4.0}
+  quality_score: 7.33
+  trust_score: 6.68
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Production ready MCP server with real-time search, extract, map & crawl.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 2,396 (checked 2026-09-21) |
-| Forks | 302 |
+| Stars | 2,411 (checked 2026-09-28) |
+| Forks | 303 |
 | Open issues | 57 |
 | Contributors | 16 |
-| Last push | 2026-09-16 (4 days before verification) |
+| Last push | 2026-09-16 (11 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.0 |
-| maintenance | 10.0 |
+| maintenance | 8.5 |
 | adoption | 10.0 |
 | documentation | 4.23 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 9.95 |
+| recency | 9.85 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.57** |
-| **trust_score** | **6.98** |
+| **quality_score** (weighted) | **7.33** |
+| **trust_score** | **6.68** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

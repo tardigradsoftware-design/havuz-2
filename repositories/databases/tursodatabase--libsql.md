@@ -4,25 +4,25 @@ title: "tursodatabase/libsql"
 domain: databases
 summary: >-
   tursodatabase/libsql — ACTIVE, tier A,
-  17,225 stars, license MIT, quality 7.53/10, trust 6.5/10.
-  Verified against the GitHub API on 2026-09-21.
+  17,246 stars, license MIT, quality 7.44/10, trust 6.4/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["databases", "github-repository", "serverless", "sqlite"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.36, "reproducibility": 7.5, "security": 3.5, "recency": 9.93, "evidence": 5.0}
-  quality_score: 7.53
-  trust_score: 6.5
+  components: {"authority": 6.0, "maintenance": 9.5, "adoption": 10.0, "documentation": 7.36, "reproducibility": 7.5, "security": 3.5, "recency": 9.84, "evidence": 5.0}
+  quality_score: 7.44
+  trust_score: 6.4
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > libSQL is a fork of SQLite that is both Open Source, and Open Contributions.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | C |
 | License | `MIT` |
-| Stars | 17,225 (checked 2026-09-21) |
-| Forks | 532 |
+| Stars | 17,246 (checked 2026-09-28) |
+| Forks | 533 |
 | Open issues | 455 |
 | Contributors | 108 |
-| Last push | 2026-09-16 (5 days before verification) |
+| Last push | 2026-09-16 (12 days before verification) |
 | Latest release | libsql-server-v0.24.32 (2025-02-14) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 10.0 |
+| maintenance | 9.5 |
 | adoption | 10.0 |
 | documentation | 7.36 |
 | reproducibility | 7.5 |
 | security | 3.5 |
-| recency | 9.93 |
+| recency | 9.84 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.53** |
-| **trust_score** | **6.5** |
+| **quality_score** (weighted) | **7.44** |
+| **trust_score** | **6.4** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

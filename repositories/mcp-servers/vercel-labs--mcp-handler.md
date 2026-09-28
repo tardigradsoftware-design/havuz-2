@@ -4,25 +4,25 @@ title: "vercel-labs/mcp-handler"
 domain: mcp-servers
 summary: >-
   vercel-labs/mcp-handler — ACTIVE, tier NO-LICENSE,
-  670 stars, license NONE, quality 7.34/10, trust 5.36/10.
-  Verified against the GitHub API on 2026-09-21.
+  674 stars, license NONE, quality 7.25/10, trust 5.26/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["adapter", "github-repository", "mcp", "mcp-servers", "vercel"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 9.57, "documentation": 7.05, "reproducibility": 6.5, "security": 1.5, "recency": 9.97, "evidence": 8.0}
-  quality_score: 7.34
-  trust_score: 5.36
+  components: {"authority": 5.5, "maintenance": 9.5, "adoption": 9.57, "documentation": 7.05, "reproducibility": 6.5, "security": 1.5, "recency": 9.88, "evidence": 8.0}
+  quality_score: 7.25
+  trust_score: 5.26
   tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > Easily spin up an MCP Server on Next.js, Nuxt, Svelte, and more
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-21. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-09-28. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `NONE` |
-| Stars | 670 (checked 2026-09-21) |
+| Stars | 674 (checked 2026-09-28) |
 | Forks | 89 |
 | Open issues | 35 |
 | Contributors | 26 |
-| Last push | 2026-09-18 (2 days before verification) |
+| Last push | 2026-09-18 (9 days before verification) |
 | Latest release | v2.2.0 (2026-09-18) |
 | Archived | no |
 | Fork | no |
@@ -83,15 +83,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 5.5 |
-| maintenance | 10.0 |
+| maintenance | 9.5 |
 | adoption | 9.57 |
 | documentation | 7.05 |
 | reproducibility | 6.5 |
 | security | 1.5 |
-| recency | 9.97 |
+| recency | 9.88 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **7.34** |
-| **trust_score** | **5.36** |
+| **quality_score** (weighted) | **7.25** |
+| **trust_score** | **5.26** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

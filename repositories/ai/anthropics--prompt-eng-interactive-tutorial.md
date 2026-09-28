@@ -4,25 +4,25 @@ title: "anthropics/prompt-eng-interactive-tutorial"
 domain: ai
 summary: >-
   anthropics/prompt-eng-interactive-tutorial — STABLE, tier NO-LICENSE,
-  38,249 stars, license NONE, quality 6.16/10, trust 4.16/10.
-  Verified against the GitHub API on 2026-09-21.
+  38,335 stars, license NONE, quality 5.93/10, trust 3.86/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
-confidence: medium
+confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "education", "github-repository", "prompting"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 3.72, "reproducibility": 1.0, "security": 2.5, "recency": 9.67, "evidence": 1.0}
-  quality_score: 6.16
-  trust_score: 4.16
+  components: {"authority": 8.0, "maintenance": 7.0, "adoption": 10.0, "documentation": 3.72, "reproducibility": 1.0, "security": 2.5, "recency": 9.58, "evidence": 1.0}
+  quality_score: 5.93
+  trust_score: 3.86
   tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,30 +34,30 @@ sources:
     organization: anthropics
     license: NONE
     license_risk: no-license-do-not-redistribute
-    confidence: medium
+    confidence: low
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # anthropics/prompt-eng-interactive-tutorial
 
-🔵 STABLE · tier **NO-LICENSE** · early · confidence **medium**
+🔵 STABLE · tier **NO-LICENSE** · early · confidence **low**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Anthropic's Interactive Prompt Engineering Tutorial
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-21. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-09-28. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `NONE` |
-| Stars | 38,249 (checked 2026-09-21) |
-| Forks | 4,235 |
+| Stars | 38,335 (checked 2026-09-28) |
+| Forks | 4,245 |
 | Open issues | 64 |
 | Contributors | 2 |
-| Last push | 2026-08-28 (24 days before verification) |
+| Last push | 2026-08-28 (31 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,15 +83,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.0 |
-| maintenance | 8.5 |
+| maintenance | 7.0 |
 | adoption | 10.0 |
 | documentation | 3.72 |
 | reproducibility | 1.0 |
 | security | 2.5 |
-| recency | 9.67 |
+| recency | 9.58 |
 | evidence | 1.0 |
-| **quality_score** (weighted) | **6.16** |
-| **trust_score** | **4.16** |
+| **quality_score** (weighted) | **5.93** |
+| **trust_score** | **3.86** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

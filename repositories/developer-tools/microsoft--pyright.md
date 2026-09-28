@@ -4,17 +4,17 @@ title: "microsoft/pyright"
 domain: developer-tools
 summary: >-
   microsoft/pyright — ACTIVE, tier A,
-  15,653 stars, license NOASSERTION, quality 7.89/10, trust 7.55/10.
-  Verified against the GitHub API on 2026-09-21.
+  15,663 stars, license NOASSERTION, quality 7.89/10, trust 7.55/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "python", "type-checking"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.8, "reproducibility": 6.1, "security": 6.5, "recency": 9.97, "evidence": 4.5}
   quality_score: 7.89
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Static Type Checker for Python
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 15,653 (checked 2026-09-21) |
-| Forks | 1,816 |
-| Open issues | 345 |
-| Contributors | 155 |
-| Last push | 2026-09-18 (2 days before verification) |
+| Stars | 15,663 (checked 2026-09-28) |
+| Forks | 1,819 |
+| Open issues | 324 |
+| Contributors | 157 |
+| Last push | 2026-09-25 (2 days before verification) |
 | Latest release | 1.1.414 (2026-09-09) |
 | Archived | no |
 | Fork | no |

@@ -4,17 +4,17 @@ title: "cloudflare/workers-sdk"
 domain: developer-tools
 summary: >-
   cloudflare/workers-sdk — ACTIVE, tier S,
-  4,557 stars, license Apache-2.0, quality 8.25/10, trust 7.98/10.
-  Verified against the GitHub API on 2026-09-21.
+  4,588 stars, license Apache-2.0, quality 8.25/10, trust 7.98/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cloudflare", "developer-tools", "edge", "github-repository", "serverless"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.52, "reproducibility": 7.0, "security": 7.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.25
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > ⛅️ Home to Wrangler, the CLI for Cloudflare Workers®
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 4,557 (checked 2026-09-21) |
-| Forks | 1,523 |
-| Open issues | 494 |
+| Stars | 4,588 (checked 2026-09-28) |
+| Forks | 1,544 |
+| Open issues | 509 |
 | Contributors | 410 |
-| Last push | 2026-09-21 (0 days before verification) |
-| Latest release | @cloudflare/containers-shared@0.17.0 (2026-09-18) |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | @cloudflare/deploy-helpers@0.18.1 (2026-09-27) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://developers.cloudflare.com/workers/](https://developers.cloudflare.com/workers/) |

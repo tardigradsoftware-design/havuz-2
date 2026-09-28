@@ -3,26 +3,26 @@ id: modelcontextprotocol--servers
 title: "modelcontextprotocol/servers"
 domain: mcp-servers
 summary: >-
-  modelcontextprotocol/servers — STABLE, tier A,
-  90,515 stars, license NOASSERTION, quality 8.01/10, trust 7.81/10.
-  Verified against the GitHub API on 2026-09-21.
+  modelcontextprotocol/servers — ACTIVE, tier A,
+  90,643 stars, license NOASSERTION, quality 8.03/10, trust 7.81/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "reference-servers"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.73, "reproducibility": 6.1, "security": 6.5, "recency": 9.75, "evidence": 5.0}
-  quality_score: 8.01
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.73, "reproducibility": 6.1, "security": 6.5, "recency": 10.0, "evidence": 5.0}
+  quality_score: 8.03
   trust_score: 7.81
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,29 +36,29 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # modelcontextprotocol/servers
 
-🔵 STABLE · tier **A** · production-grade · confidence **very-high**
+🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Model Context Protocol Servers
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 90,515 (checked 2026-09-21) |
-| Forks | 11,672 |
-| Open issues | 551 |
+| Stars | 90,643 (checked 2026-09-28) |
+| Forks | 11,698 |
+| Open issues | 585 |
 | Contributors | 427 |
-| Last push | 2026-09-03 (18 days before verification) |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | 2026.8.31 (2026-08-31) |
 | Archived | no |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 5.73 |
 | reproducibility | 6.1 |
 | security | 6.5 |
-| recency | 9.75 |
+| recency | 10.0 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **8.01** |
+| **quality_score** (weighted) | **8.03** |
 | **trust_score** | **7.81** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

@@ -4,25 +4,25 @@ title: "stanfordmlgroup/MedAgentBench"
 domain: evaluation
 summary: >-
   stanfordmlgroup/MedAgentBench — STABLE, tier C,
-  330 stars, license MIT, quality 4.88/10, trust 3.69/10.
-  Verified against the GitHub API on 2026-09-21.
+  332 stars, license MIT, quality 4.87/10, trust 3.69/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "benchmark", "evaluation", "github-repository", "medical"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 5.5, "maintenance": 3.0, "adoption": 8.78, "documentation": 4.8, "reproducibility": 4.5, "security": 3.5, "recency": 5.85, "evidence": 1.5}
-  quality_score: 4.88
+  components: {"authority": 5.5, "maintenance": 3.0, "adoption": 8.79, "documentation": 4.8, "reproducibility": 4.5, "security": 3.5, "recency": 5.75, "evidence": 1.5}
+  quality_score: 4.87
   trust_score: 3.69
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 330 (checked 2026-09-21) |
-| Forks | 67 |
-| Open issues | 6 |
+| Stars | 332 (checked 2026-09-28) |
+| Forks | 69 |
+| Open issues | 7 |
 | Contributors | — |
-| Last push | 2025-11-21 (303 days before verification) |
+| Last push | 2025-11-21 (310 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -79,13 +79,13 @@ sources:
 |---|---|
 | authority | 5.5 |
 | maintenance | 3.0 |
-| adoption | 8.78 |
+| adoption | 8.79 |
 | documentation | 4.8 |
 | reproducibility | 4.5 |
 | security | 3.5 |
-| recency | 5.85 |
+| recency | 5.75 |
 | evidence | 1.5 |
-| **quality_score** (weighted) | **4.88** |
+| **quality_score** (weighted) | **4.87** |
 | **trust_score** | **3.69** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

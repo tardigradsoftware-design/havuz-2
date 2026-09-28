@@ -4,17 +4,17 @@ title: "google/adk-recipes"
 domain: agent-frameworks
 summary: >-
   google/adk-recipes — ACTIVE, tier A,
-  10,355 stars, license Apache-2.0, quality 7.82/10, trust 7.51/10.
-  Verified against the GitHub API on 2026-09-21.
+  10,389 stars, license Apache-2.0, quality 7.82/10, trust 7.51/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "github-repository", "google", "samples"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.71, "reproducibility": 6.0, "security": 4.5, "recency": 9.97, "evidence": 4.0}
   quality_score: 7.82
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A collection of sample agents built with Agent Development Kit (ADK)
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 10,355 (checked 2026-09-21) |
-| Forks | 2,869 |
-| Open issues | 54 |
+| Stars | 10,389 (checked 2026-09-28) |
+| Forks | 2,874 |
+| Open issues | 64 |
 | Contributors | 136 |
-| Last push | 2026-09-19 (2 days before verification) |
+| Last push | 2026-09-26 (2 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |

@@ -4,25 +4,25 @@ title: "eslint/eslint"
 domain: developer-tools
 summary: >-
   eslint/eslint — ACTIVE, tier S,
-  27,515 stars, license MIT, quality 8.77/10, trust 8.83/10.
-  Verified against the GitHub API on 2026-09-21.
+  27,521 stars, license MIT, quality 8.77/10, trust 8.83/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "linting"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.73, "reproducibility": 9.0, "security": 4.5, "recency": 10.0, "evidence": 7.5}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.72, "reproducibility": 9.0, "security": 4.5, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.77
   trust_score: 8.83
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Find and fix problems in your JavaScript code.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 27,515 (checked 2026-09-21) |
-| Forks | 5,188 |
-| Open issues | 131 |
+| Stars | 27,521 (checked 2026-09-28) |
+| Forks | 5,191 |
+| Open issues | 127 |
 | Contributors | 413 |
-| Last push | 2026-09-21 (0 days before verification) |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | v10.11.0 (2026-09-18) |
 | Archived | no |
 | Fork | no |
@@ -80,7 +80,7 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.73 |
+| documentation | 8.72 |
 | reproducibility | 9.0 |
 | security | 4.5 |
 | recency | 10.0 |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 20,750 bytes |
+| README size | 20,621 bytes |
 
 ## Curated judgement
 

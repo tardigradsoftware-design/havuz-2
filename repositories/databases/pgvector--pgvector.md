@@ -4,25 +4,25 @@ title: "pgvector/pgvector"
 domain: databases
 summary: >-
   pgvector/pgvector — ACTIVE, tier A,
-  23,113 stars, license NOASSERTION, quality 7.82/10, trust 7.55/10.
-  Verified against the GitHub API on 2026-09-21.
+  23,173 stars, license NOASSERTION, quality 8.06/10, trust 7.85/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["databases", "github-repository", "postgres", "rag", "vector"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 7.0, "reproducibility": 7.6, "security": 4.0, "recency": 9.86, "evidence": 6.0}
-  quality_score: 7.82
-  trust_score: 7.55
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.0, "reproducibility": 7.6, "security": 4.0, "recency": 10.0, "evidence": 6.0}
+  quality_score: 8.06
+  trust_score: 7.85
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Open-source vector similarity search for Postgres
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | C |
 | License | `NOASSERTION` |
-| Stars | 23,113 (checked 2026-09-21) |
-| Forks | 1,329 |
-| Open issues | 16 |
+| Stars | 23,173 (checked 2026-09-28) |
+| Forks | 1,332 |
+| Open issues | 17 |
 | Contributors | 23 |
-| Last push | 2026-09-10 (10 days before verification) |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -84,15 +84,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.0 |
-| maintenance | 8.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 7.0 |
 | reproducibility | 7.6 |
 | security | 4.0 |
-| recency | 9.86 |
+| recency | 10.0 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **7.82** |
-| **trust_score** | **7.55** |
+| **quality_score** (weighted) | **8.06** |
+| **trust_score** | **7.85** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

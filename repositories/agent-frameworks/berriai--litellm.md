@@ -4,17 +4,17 @@ title: "BerriAI/litellm"
 domain: agent-frameworks
 summary: >-
   BerriAI/litellm — ACTIVE, tier A,
-  59,304 stars, license NOASSERTION, quality 9.21/10, trust 9.4/10.
-  Verified against the GitHub API on 2026-09-21.
+  59,771 stars, license NOASSERTION, quality 9.21/10, trust 9.4/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-frameworks", "gateway", "github-repository", "multi-provider", "proxy"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 9.6, "security": 6.5, "recency": 10.0, "evidence": 8.5}
   quality_score: 9.21
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging \[Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM\]
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 59,304 (checked 2026-09-21) |
-| Forks | 11,630 |
-| Open issues | 5,223 |
-| Contributors | 375 |
-| Last push | 2026-09-21 (0 days before verification) |
-| Latest release | v1.101.0 (2026-09-15) |
+| Stars | 59,771 (checked 2026-09-28) |
+| Forks | 11,842 |
+| Open issues | 5,377 |
+| Contributors | 374 |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | v1.103.0 (2026-09-28) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://docs.litellm.ai/docs/](https://docs.litellm.ai/docs/) |
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 36,015 bytes |
+| README size | 36,245 bytes |
 
 ## Curated judgement
 

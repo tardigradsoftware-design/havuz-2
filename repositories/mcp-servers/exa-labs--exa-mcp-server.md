@@ -3,26 +3,26 @@ id: exa-labs--exa-mcp-server
 title: "exa-labs/exa-mcp-server"
 domain: mcp-servers
 summary: >-
-  exa-labs/exa-mcp-server — STABLE, tier A,
-  5,035 stars, license MIT, quality 7.8/10, trust 7.42/10.
-  Verified against the GitHub API on 2026-09-21.
+  exa-labs/exa-mcp-server — ACTIVE, tier S,
+  5,056 stars, license MIT, quality 8.21/10, trust 7.92/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
-confidence: high
+confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "search"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 7.5, "adoption": 10.0, "documentation": 5.14, "reproducibility": 8.5, "security": 4.5, "recency": 9.58, "evidence": 6.0}
-  quality_score: 7.8
-  trust_score: 7.42
-  tier: A
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.14, "reproducibility": 8.5, "security": 4.5, "recency": 9.93, "evidence": 6.0}
+  quality_score: 8.21
+  trust_score: 7.92
+  tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: exa-labs
     license: MIT
     license_risk: none
-    confidence: high
+    confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # exa-labs/exa-mcp-server
 
-🔵 STABLE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Exa MCP for web search and web crawling!
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 5,035 (checked 2026-09-21) |
-| Forks | 396 |
-| Open issues | 49 |
+| Stars | 5,056 (checked 2026-09-28) |
+| Forks | 400 |
+| Open issues | 48 |
 | Contributors | 28 |
-| Last push | 2026-08-21 (31 days before verification) |
+| Last push | 2026-09-23 (5 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 7.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 5.14 |
 | reproducibility | 8.5 |
 | security | 4.5 |
-| recency | 9.58 |
+| recency | 9.93 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **7.8** |
-| **trust_score** | **7.42** |
+| **quality_score** (weighted) | **8.21** |
+| **trust_score** | **7.92** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

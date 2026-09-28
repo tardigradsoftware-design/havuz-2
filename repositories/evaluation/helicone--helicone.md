@@ -3,26 +3,26 @@ id: helicone--helicone
 title: "Helicone/helicone"
 domain: evaluation
 summary: >-
-  Helicone/helicone — ACTIVE, tier S,
-  6,168 stars, license Apache-2.0, quality 8.07/10, trust 7.24/10.
-  Verified against the GitHub API on 2026-09-21.
+  Helicone/helicone — ACTIVE, tier A,
+  6,183 stars, license Apache-2.0, quality 7.91/10, trust 7.04/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "github-repository", "observability", "proxy"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.29, "reproducibility": 10.0, "security": 3.5, "recency": 9.95, "evidence": 8.0}
-  quality_score: 8.07
-  trust_score: 7.24
-  tier: S
+  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 7.29, "reproducibility": 10.0, "security": 3.5, "recency": 9.85, "evidence": 8.0}
+  quality_score: 7.91
+  trust_score: 7.04
+  tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # Helicone/helicone
 
-🟢 ACTIVE · tier **S** · production-grade · confidence **high**
+🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 6,168 (checked 2026-09-21) |
-| Forks | 674 |
-| Open issues | 159 |
+| Stars | 6,183 (checked 2026-09-28) |
+| Forks | 675 |
+| Open issues | 161 |
 | Contributors | 97 |
-| Last push | 2026-09-16 (4 days before verification) |
+| Last push | 2026-09-16 (11 days before verification) |
 | Latest release | v2025.08.21-1 (2025-08-21) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 10.0 |
+| maintenance | 9.0 |
 | adoption | 10.0 |
 | documentation | 7.29 |
 | reproducibility | 10.0 |
 | security | 3.5 |
-| recency | 9.95 |
+| recency | 9.85 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.07** |
-| **trust_score** | **7.24** |
+| **quality_score** (weighted) | **7.91** |
+| **trust_score** | **7.04** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

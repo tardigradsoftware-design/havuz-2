@@ -4,25 +4,25 @@ title: "vibrantlabsai/ragas"
 domain: evaluation
 summary: >-
   vibrantlabsai/ragas — MAINTENANCE, tier A,
-  15,803 stars, license Apache-2.0, quality 7.02/10, trust 6.11/10.
-  Verified against the GitHub API on 2026-09-21.
+  15,864 stars, license Apache-2.0, quality 7.01/10, trust 6.11/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "github-repository", "rag"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 5.5, "maintenance": 4.0, "adoption": 10.0, "documentation": 7.08, "reproducibility": 10.0, "security": 6.0, "recency": 7.14, "evidence": 8.0}
-  quality_score: 7.02
+  components: {"authority": 5.5, "maintenance": 4.0, "adoption": 10.0, "documentation": 7.08, "reproducibility": 10.0, "security": 6.0, "recency": 7.04, "evidence": 8.0}
+  quality_score: 7.01
   trust_score: 6.11
   tier: A
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Supercharge Your LLM Application Evaluations 🚀
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 15,803 (checked 2026-09-21) |
-| Forks | 1,716 |
-| Open issues | 603 |
+| Stars | 15,864 (checked 2026-09-28) |
+| Forks | 1,728 |
+| Open issues | 617 |
 | Contributors | 240 |
-| Last push | 2026-02-24 (209 days before verification) |
+| Last push | 2026-02-24 (216 days before verification) |
 | Latest release | v0.4.3 (2026-01-13) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.08 |
 | reproducibility | 10.0 |
 | security | 6.0 |
-| recency | 7.14 |
+| recency | 7.04 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **7.02** |
+| **quality_score** (weighted) | **7.01** |
 | **trust_score** | **6.11** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-Repository moved: `explodinggradients/ragas` -> `vibrantlabsai/ragas`. Update any hard-coded URLs; the old path 404s once GitHub drops the redirect. No push in 209 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+Repository moved: `explodinggradients/ragas` -> `vibrantlabsai/ragas`. Update any hard-coded URLs; the old path 404s once GitHub drops the redirect. No push in 216 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

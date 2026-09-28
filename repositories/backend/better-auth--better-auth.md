@@ -4,25 +4,25 @@ title: "better-auth/better-auth"
 domain: backend
 summary: >-
   better-auth/better-auth — ACTIVE, tier S,
-  30,032 stars, license MIT, quality 8.97/10, trust 8.9/10.
-  Verified against the GitHub API on 2026-09-21.
+  30,106 stars, license MIT, quality 8.97/10, trust 8.9/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["auth", "backend", "github-repository", "typescript"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.7, "reproducibility": 10.0, "security": 7.0, "recency": 9.99, "evidence": 8.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.7, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.97
   trust_score: 8.9
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The most comprehensive authentication framework
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 30,032 (checked 2026-09-21) |
-| Forks | 2,897 |
-| Open issues | 730 |
+| Stars | 30,106 (checked 2026-09-28) |
+| Forks | 2,921 |
+| Open issues | 768 |
 | Contributors | 474 |
-| Last push | 2026-09-20 (1 days before verification) |
-| Latest release | v1.7.5 (2026-09-14) |
+| Last push | 2026-09-28 (0 days before verification) |
+| Latest release | v1.7.6 (2026-09-24) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://better-auth.com](https://better-auth.com) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.7 |
 | reproducibility | 10.0 |
 | security | 7.0 |
-| recency | 9.99 |
+| recency | 10.0 |
 | evidence | 8.0 |
 | **quality_score** (weighted) | **8.97** |
 | **trust_score** | **8.9** |

@@ -4,25 +4,25 @@ title: "google/adk-js"
 domain: agent-frameworks
 summary: >-
   google/adk-js — ACTIVE, tier S,
-  1,413 stars, license Apache-2.0, quality 8.73/10, trust 8.68/10.
-  Verified against the GitHub API on 2026-09-21.
+  1,420 stars, license Apache-2.0, quality 8.74/10, trust 8.68/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "framework", "github-repository", "google", "typescript"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.88, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.0}
-  quality_score: 8.73
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.9, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.0}
+  quality_score: 8.74
   trust_score: 8.68
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 1,413 (checked 2026-09-21) |
-| Forks | 209 |
-| Open issues | 74 |
-| Contributors | 63 |
-| Last push | 2026-09-18 (2 days before verification) |
+| Stars | 1,420 (checked 2026-09-28) |
+| Forks | 215 |
+| Open issues | 83 |
+| Contributors | 66 |
+| Last push | 2026-09-25 (2 days before verification) |
 | Latest release | integrations-v2.1.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
@@ -80,12 +80,12 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.88 |
+| documentation | 6.9 |
 | reproducibility | 10.0 |
 | security | 4.5 |
 | recency | 9.97 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.73** |
+| **quality_score** (weighted) | **8.74** |
 | **trust_score** | **8.68** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 4,588 bytes |
+| README size | 4,784 bytes |
 
 ## Curated judgement
 

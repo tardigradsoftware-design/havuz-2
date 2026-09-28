@@ -3,26 +3,26 @@ id: letta-ai--letta
 title: "letta-ai/letta"
 domain: agent-frameworks
 summary: >-
-  letta-ai/letta — ACTIVE, tier S,
-  24,822 stars, license Apache-2.0, quality 8.17/10, trust 7.89/10.
-  Verified against the GitHub API on 2026-09-21.
+  letta-ai/letta — STABLE, tier S,
+  24,938 stars, license Apache-2.0, quality 8.17/10, trust 7.89/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "framework", "github-repository", "memory"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 8.5, "maintenance": 9.5, "adoption": 10.0, "documentation": 6.63, "reproducibility": 7.0, "security": 7.0, "recency": 9.86, "evidence": 5.0}
+  components: {"authority": 8.5, "maintenance": 9.5, "adoption": 10.0, "documentation": 6.63, "reproducibility": 7.0, "security": 7.0, "recency": 9.77, "evidence": 5.0}
   quality_score: 8.17
   trust_score: 7.89
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # letta-ai/letta
 
-🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
+🔵 STABLE · tier **S** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | — |
 | License | `Apache-2.0` |
-| Stars | 24,822 (checked 2026-09-21) |
-| Forks | 2,625 |
+| Stars | 24,938 (checked 2026-09-28) |
+| Forks | 2,632 |
 | Open issues | 0 |
 | Contributors | 139 |
-| Last push | 2026-09-10 (10 days before verification) |
+| Last push | 2026-09-10 (17 days before verification) |
 | Latest release | 0.16.8 (2026-05-14) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.63 |
 | reproducibility | 7.0 |
 | security | 7.0 |
-| recency | 9.86 |
+| recency | 9.77 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **8.17** |
 | **trust_score** | **7.89** |

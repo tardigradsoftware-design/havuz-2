@@ -4,25 +4,25 @@ title: "LiveCodeBench/LiveCodeBench"
 domain: evaluation
 summary: >-
   LiveCodeBench/LiveCodeBench — STABLE, tier C,
-  950 stars, license MIT, quality 5.47/10, trust 5.21/10.
-  Verified against the GitHub API on 2026-09-21.
+  954 stars, license MIT, quality 5.46/10, trust 5.21/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["coding", "contamination-free", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 5.57, "reproducibility": 4.5, "security": 3.5, "recency": 4.08, "evidence": 2.5}
-  quality_score: 5.47
+  components: {"authority": 9.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 5.57, "reproducibility": 4.5, "security": 3.5, "recency": 3.99, "evidence": 2.5}
+  quality_score: 5.46
   trust_score: 5.21
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Official repository for the paper "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code"
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 950 (checked 2026-09-21) |
-| Forks | 203 |
-| Open issues | 46 |
+| Stars | 954 (checked 2026-09-28) |
+| Forks | 205 |
+| Open issues | 47 |
 | Contributors | 16 |
-| Last push | 2025-07-16 (432 days before verification) |
+| Last push | 2025-07-16 (439 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.57 |
 | reproducibility | 4.5 |
 | security | 3.5 |
-| recency | 4.08 |
+| recency | 3.99 |
 | evidence | 2.5 |
-| **quality_score** (weighted) | **5.47** |
+| **quality_score** (weighted) | **5.46** |
 | **trust_score** | **5.21** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

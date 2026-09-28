@@ -4,25 +4,25 @@ title: "shareAI-lab/learn-claude-code"
 domain: agent-skills
 summary: >-
   shareAI-lab/learn-claude-code — STABLE, tier A,
-  77,329 stars, license MIT, quality 7.75/10, trust 6.97/10.
-  Verified against the GitHub API on 2026-09-21.
+  77,725 stars, license MIT, quality 7.51/10, trust 6.67/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "education", "github-repository", "harness-internals", "skills"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 9.29, "reproducibility": 8.0, "security": 3.5, "recency": 9.66, "evidence": 6.5}
-  quality_score: 7.75
-  trust_score: 6.97
+  components: {"authority": 6.0, "maintenance": 7.5, "adoption": 10.0, "documentation": 9.29, "reproducibility": 8.0, "security": 3.5, "recency": 9.56, "evidence": 6.5}
+  quality_score: 7.51
+  trust_score: 6.67
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 77,329 (checked 2026-09-21) |
-| Forks | 12,440 |
-| Open issues | 53 |
+| Stars | 77,725 (checked 2026-09-28) |
+| Forks | 12,489 |
+| Open issues | 59 |
 | Contributors | 41 |
-| Last push | 2026-08-26 (25 days before verification) |
+| Last push | 2026-08-26 (32 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 9.0 |
+| maintenance | 7.5 |
 | adoption | 10.0 |
 | documentation | 9.29 |
 | reproducibility | 8.0 |
 | security | 3.5 |
-| recency | 9.66 |
+| recency | 9.56 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **7.75** |
-| **trust_score** | **6.97** |
+| **quality_score** (weighted) | **7.51** |
+| **trust_score** | **6.67** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

@@ -4,17 +4,17 @@ title: "browser-use/browser-use"
 domain: browser-automation
 summary: >-
   browser-use/browser-use — ACTIVE, tier S,
-  115,673 stars, license MIT, quality 8.62/10, trust 8.51/10.
-  Verified against the GitHub API on 2026-09-21.
+  116,574 stars, license MIT, quality 8.62/10, trust 8.51/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "automation", "browser", "browser-automation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.75, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.0}
   quality_score: 8.62
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Agents that use the browser.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 115,673 (checked 2026-09-21) |
-| Forks | 12,727 |
-| Open issues | 463 |
+| Stars | 116,574 (checked 2026-09-28) |
+| Forks | 12,844 |
+| Open issues | 516 |
 | Contributors | 361 |
-| Last push | 2026-09-18 (2 days before verification) |
+| Last push | 2026-09-26 (2 days before verification) |
 | Latest release | 0.13.10 (2026-09-04) |
 | Archived | no |
 | Fork | no |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-21) and must be
+(on 2026-09-28) and must be
 re-checked against your own constraints._
 
 **Recommended for**

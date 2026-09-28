@@ -4,17 +4,17 @@ title: "VoltAgent/awesome-agent-skills"
 domain: agent-skills
 summary: >-
   VoltAgent/awesome-agent-skills — ACTIVE, tier A,
-  34,671 stars, license MIT, quality 7.8/10, trust 7.6/10.
-  Verified against the GitHub API on 2026-09-21.
+  34,971 stars, license MIT, quality 7.8/10, trust 7.6/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-skills", "catalog", "discovery", "github-repository", "skills"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 4.5, "security": 4.5, "recency": 10.0, "evidence": 3.0}
   quality_score: 7.8
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | — |
 | License | `MIT` |
-| Stars | 34,671 (checked 2026-09-21) |
-| Forks | 3,691 |
-| Open issues | 34 |
-| Contributors | 166 |
-| Last push | 2026-09-21 (0 days before verification) |
+| Stars | 34,971 (checked 2026-09-28) |
+| Forks | 3,733 |
+| Open issues | 40 |
+| Contributors | 174 |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 219,989 bytes |
+| README size | 221,405 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-21) and must be
+(on 2026-09-28) and must be
 re-checked against your own constraints._
 
 **Recommended for**

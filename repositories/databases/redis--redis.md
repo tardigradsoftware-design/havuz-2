@@ -4,17 +4,17 @@ title: "redis/redis"
 domain: databases
 summary: >-
   redis/redis — ACTIVE, tier A,
-  76,433 stars, license NOASSERTION, quality 8.82/10, trust 8.86/10.
-  Verified against the GitHub API on 2026-09-21.
+  76,512 stars, license NOASSERTION, quality 8.82/10, trust 8.86/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cache", "databases", "github-repository", "kv"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.57, "reproducibility": 8.6, "security": 6.5, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.82
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-21, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | C |
 | License | `NOASSERTION` |
-| Stars | 76,433 (checked 2026-09-21) |
-| Forks | 24,811 |
-| Open issues | 2,957 |
-| Contributors | 382 |
-| Last push | 2026-09-21 (0 days before verification) |
+| Stars | 76,512 (checked 2026-09-28) |
+| Forks | 24,823 |
+| Open issues | 2,993 |
+| Contributors | 381 |
+| Last push | 2026-09-28 (0 days before verification) |
 | Latest release | 8.10.2 (2026-09-17) |
 | Archived | no |
 | Fork | no |

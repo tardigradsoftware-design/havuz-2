@@ -3,26 +3,26 @@ id: microsoft--fara
 title: "microsoft/fara"
 domain: browser-automation
 summary: >-
-  microsoft/fara — STABLE, tier A,
-  6,187 stars, license MIT, quality 7.73/10, trust 7.31/10.
-  Verified against the GitHub API on 2026-09-21.
+  microsoft/fara — STABLE, tier S,
+  6,200 stars, license MIT, quality 8.25/10, trust 7.91/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
-confidence: high
+confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "computer-use", "github-repository", "model", "official"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 7.0, "adoption": 10.0, "documentation": 7.6, "reproducibility": 6.5, "security": 7.0, "recency": 9.18, "evidence": 3.5}
-  quality_score: 7.73
-  trust_score: 7.31
-  tier: A
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.6, "reproducibility": 6.5, "security": 7.0, "recency": 9.93, "evidence": 3.5}
+  quality_score: 8.25
+  trust_score: 7.91
+  tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: microsoft
     license: MIT
     license_risk: none
-    confidence: high
+    confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # microsoft/fara
 
-🔵 STABLE · tier **A** · published-artifact · confidence **high**
+🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Fara1.5 – A family of frontier computer use agent models
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 6,187 (checked 2026-09-21) |
-| Forks | 602 |
-| Open issues | 43 |
+| Stars | 6,200 (checked 2026-09-28) |
+| Forks | 604 |
+| Open issues | 42 |
 | Contributors | 7 |
-| Last push | 2026-07-22 (60 days before verification) |
+| Last push | 2026-09-22 (5 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 7.0 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 7.6 |
 | reproducibility | 6.5 |
 | security | 7.0 |
-| recency | 9.18 |
+| recency | 9.93 |
 | evidence | 3.5 |
-| **quality_score** (weighted) | **7.73** |
-| **trust_score** | **7.31** |
+| **quality_score** (weighted) | **8.25** |
+| **trust_score** | **7.91** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-21) and must be
+(on 2026-09-28) and must be
 re-checked against your own constraints._
 
 **Recommended for**

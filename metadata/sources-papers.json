@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/sources.schema.json",
-  "generated_at": "2026-09-21T10:01:02+00:00",
+  "generated_at": "2026-09-28T10:59:44+00:00",
   "generator": "scripts/crawl/verify_arxiv_papers.py",
   "verification_method": "arXiv Atom API title search + string-similarity confirmation",
   "records": 0,

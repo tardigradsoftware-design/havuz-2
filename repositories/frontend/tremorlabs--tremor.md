@@ -4,25 +4,25 @@ title: "tremorlabs/tremor"
 domain: frontend
 summary: >-
   tremorlabs/tremor — MAINTENANCE, tier B,
-  3,625 stars, license Apache-2.0, quality 6.1/10, trust 5.7/10.
-  Verified against the GitHub API on 2026-09-21.
+  3,639 stars, license Apache-2.0, quality 6.09/10, trust 5.7/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["components", "dashboards", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
-  components: {"authority": 9.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.69, "reproducibility": 6.0, "security": 4.5, "recency": 5.27, "evidence": 3.0}
-  quality_score: 6.1
+  components: {"authority": 9.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.69, "reproducibility": 6.0, "security": 4.5, "recency": 5.18, "evidence": 3.0}
+  quality_score: 6.09
   trust_score: 5.7
   tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Copy & Paste React components to build modern web applications.
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 3,625 (checked 2026-09-21) |
-| Forks | 189 |
-| Open issues | 26 |
+| Stars | 3,639 (checked 2026-09-28) |
+| Forks | 190 |
+| Open issues | 27 |
 | Contributors | 4 |
-| Last push | 2025-10-10 (345 days before verification) |
+| Last push | 2025-10-10 (352 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 4.69 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 5.27 |
+| recency | 5.18 |
 | evidence | 3.0 |
-| **quality_score** (weighted) | **6.1** |
+| **quality_score** (weighted) | **6.09** |
 | **trust_score** | **5.7** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 345 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 352 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

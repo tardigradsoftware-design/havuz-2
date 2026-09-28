@@ -1,10 +1,10 @@
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Regenerate: python3 scripts/generate-index/build_index.py
-     Generated: 2026-09-21T10:01:03+00:00 -->
+     Generated: 2026-09-28T10:59:45+00:00 -->
 
 # Topic index
 
-35 domains, 1362 tags, 599 entries.
+35 domains, 1364 tags, 599 entries.
 
 Start here. Pick a domain, then a tag, then open the specific entry.
 
@@ -60,12 +60,12 @@ Start here. Pick a domain, then a tag, then open the specific entry.
 | `browser` | 33 | knowledge, mcp, repository, skill | kysely-org/kysely, microsoft/playwright, Skyvern-AI/skyvern |
 | `javascript` | 32 | repository | mermaid-js/mermaid, prisma/orm, oven-sh/bun |
 | `typescript` | 31 | knowledge, mcp, repository | kysely-org/kysely, prisma/orm, payloadcms/payload |
-| `claude-code` | 30 | knowledge, mcp, repository | github/gh-aw, headroomlabs-ai/headroom, obra/superpowers |
+| `claude-code` | 30 | knowledge, mcp, repository | github/gh-aw, headroomlabs-ai/headroom, Graphify-Labs/graphify |
 | `ai-agents` | 30 | repository | NousResearch/hermes-agent, deepset-ai/haystack, truera/trulens |
-| `security` | 28 | agent, knowledge, repository, skill, workflow | trufflesecurity/trufflehog, semgrep/semgrep, ossf/scorecard |
+| `security` | 28 | agent, knowledge, repository, skill, workflow | trufflesecurity/trufflehog, semgrep/semgrep, gitleaks/gitleaks |
 | `framework` | 26 | repository | pydantic/pydantic-ai, openai/openai-agents-python, nuxt/nuxt |
 | `automation` | 25 | knowledge, mcp, repository, skill | microsoft/playwright, Skyvern-AI/skyvern, puppeteer/puppeteer |
-| `claude` | 24 | knowledge, mcp, repository | NousResearch/hermes-agent, firecrawl/firecrawl-mcp-serv, Significant-Gravitas/AutoGPT |
+| `claude` | 25 | knowledge, mcp, repository | NousResearch/hermes-agent, firecrawl/firecrawl-mcp-serv, Significant-Gravitas/AutoGPT |
 | `cli` | 24 | knowledge, mcp, repository | railwayapp/cli, junegunn/fzf, gitleaks/gitleaks |
 | `react` | 23 | agent, knowledge, repository, skill | mui/base-ui, pmndrs/zustand, pmndrs/drei |
 | `anthropic` | 23 | knowledge, mcp, repository | Arize-ai/phoenix, BerriAI/litellm, NousResearch/hermes-agent |
@@ -74,22 +74,22 @@ Start here. Pick a domain, then a tag, then open the specific entry.
 | `testing` | 21 | agent, knowledge, repository, skill, workflow | microsoft/playwright, vitest-dev/vitest, microsoft/playwright-python |
 | `database` | 21 | agent, knowledge, mcp, repository, skill | kysely-org/kysely, prisma/orm, timescale/timescaledb |
 | `skills` | 21 | knowledge, mcp, repository | hesreallyhim/awesome-claude-, obra/superpowers, K-Dense-AI/scientific-agent- |
-| `architecture` | 20 | agent, decision-record, knowledge, repository, skill, workfl | mingrammer/diagrams, adr/madr, donnemartin/system-design-pr |
-| `reasoning` | 20 | decision-record, knowledge, repository, skill | rasbt/reasoning-from-scratch, verl-project/verl, huggingface/open-r1 |
+| `architecture` | 20 | agent, decision-record, knowledge, repository, skill, workfl | mingrammer/diagrams, adr/madr, tt-a1i/archify |
+| `reasoning` | 20 | decision-record, knowledge, repository, skill | huggingface/open-r1, rasbt/reasoning-from-scratch, verl-project/verl |
 | `postgres` | 18 | agent, knowledge, mcp, repository, skill | timescale/timescaledb, electric-sql/electric, supabase/supabase |
 | `coding-agent` | 18 | repository | anthropics/claude-code-actio, cline/cline, continuedev/continue |
 | `observability` | 17 | agent, knowledge, mcp, repository, skill | Arize-ai/phoenix, langfuse/langfuse, truera/trulens |
 | `performance` | 17 | agent, knowledge, repository, skill, workflow | vllm-project/vllm, unslothai/unsloth, GoogleChrome/lighthouse |
 | `agent-skills` | 16 | knowledge, repository, skill | VoltAgent/awesome-openclaw-s, hesreallyhim/awesome-claude-, K-Dense-AI/scientific-agent- |
-| `codex` | 16 | knowledge, mcp, repository | github/gh-aw, DeusData/codebase-memory-mcp, Egonex-AI/Understand-Anythin |
-| `computer-use` | 16 | repository | OpenAdaptAI/OpenAdapt, xlang-ai/OSWorld-V2, xlang-ai/OSWorld |
+| `chatgpt` | 16 | repository | lobehub/lobehub, NousResearch/hermes-agent, unslothai/unsloth |
+| `computer-use` | 16 | repository | OpenAdaptAI/OpenAdapt, xlang-ai/OSWorld-V2, microsoft/fara |
 | `design` | 15 | agent, knowledge, prompt, repository, skill, workflow | nexu-io/open-design, nextlevelbuilder/ui-ux-pro-m, donnemartin/system-design-pr |
 | `research` | 15 | agent, knowledge, prompt, repository, skill, workflow | camel-ai/camel, stanfordnlp/dspy, K-Dense-AI/scientific-agent- |
-| `search` | 15 | knowledge, mcp, repository, skill | firecrawl/firecrawl-mcp-serv, junegunn/fzf, BurntSushi/ripgrep |
+| `search` | 15 | knowledge, mcp, repository, skill | firecrawl/firecrawl-mcp-serv, junegunn/fzf, exa-labs/exa-mcp-server |
+| `codex` | 15 | knowledge, mcp, repository | github/gh-aw, DeusData/codebase-memory-mcp, Egonex-AI/Understand-Anythin |
 | `developer-tools` | 15 | knowledge, mcp, repository | puppeteer/puppeteer, usebruno/bruno, GoogleChrome/lighthouse |
 | `catalog` | 15 | knowledge, mcp, repository | awslabs/mcp, microsoft/mcp, VoltAgent/awesome-openclaw-s |
 | `agentic-ai` | 15 | repository | deepset-ai/haystack, google/adk-js, google/adk-python |
-| `chatgpt` | 15 | repository | lobehub/lobehub, NousResearch/hermes-agent, unslothai/unsloth |
 | `frontend` | 14 | agent, knowledge, repository, skill, workflow | vitejs/vite, nexu-io/open-design, react/react |
 | `api` | 14 | agent, repository, skill | Skyvern-AI/skyvern, fastapi/fastapi, graphql/graphql-spec |
 | `artificial-intelligence` | 14 | repository | camel-ai/camel, huggingface/datasets, xlang-ai/OSWorld-V2 |
@@ -115,18 +115,18 @@ Start here. Pick a domain, then a tag, then open the specific entry.
 | `accessibility` | 9 | knowledge, repository, skill | pa11y/pa11y, mui/base-ui, GoogleChrome/lighthouse |
 | `ux` | 9 | agent, knowledge, prompt, repository, skill | nextlevelbuilder/ui-ux-pro-m, ai-slop-detection, frontend-design |
 | `context` | 9 | knowledge, mcp, repository, skill | semantica-agi/semantica, upstash/context7, mksglu/context-mode |
-| `debugging` | 9 | knowledge, mcp, repository, skill, workflow | ChromeDevTools/chrome-devtoo, modelcontextprotocol/inspect, debugging |
+| `debugging` | 9 | knowledge, mcp, repository, skill, workflow | modelcontextprotocol/inspect, ChromeDevTools/chrome-devtoo, debugging |
 | `evidence` | 9 | agent, knowledge, prompt, skill, workflow | evidence-validation, research-before-code, web-research |
 | `ci` | 9 | knowledge, repository, skill | github/gh-aw, promptfoo/promptfoo, anthropics/claude-code-actio |
-| `cursor` | 9 | knowledge, mcp, repository | AgentDeskAI/browser-tools-mc, PatrickJS/awesome-cursorrule, addyosmani/agent-skills |
 | `rl` | 9 | knowledge, repository | OpenRLHF/OpenRLHF, huggingface/trl, verl-project/verl |
-| `browser-agent` | 9 | repository | browserbase/stagehand, browser-use/browser-harness, CelestoAI/celesto |
-| `ai-slop` | 8 | agent, knowledge, repository, skill, workflow | Leonxlnx/taste-skill, blader/humanizer, ai-slop-detection |
+| `ai-slop` | 8 | agent, knowledge, repository, skill, workflow | blader/humanizer, Leonxlnx/taste-skill, ai-slop-detection |
 | `review` | 8 | agent, knowledge, skill, workflow | ai-slop-detection, security-audit, threat-modeling |
 | `quality` | 8 | agent, repository, skill, workflow | pre-commit/pre-commit, conventional-changelog/commi, ai-slop-detection |
 | `prompting` | 8 | repository, skill | anthropics/claude-cookbooks, f/prompts.chat, princeton-nlp/tree-of-though |
 | `analytics` | 8 | repository, skill | langfuse/langfuse, timescale/timescaledb, ClickHouse/ClickHouse |
 | `methodology` | 8 | knowledge, repository, skill, workflow | obra/superpowers, stanford-crfm/helm, debugging |
 | `maintenance` | 8 | agent, knowledge, skill, workflow | dependency-analysis, documentation, repository-analysis |
+| `cursor` | 8 | knowledge, mcp, repository | AgentDeskAI/browser-tools-mc, PatrickJS/awesome-cursorrule, addyosmani/agent-skills |
 | `chrome` | 8 | knowledge, mcp, repository | microsoft/playwright, puppeteer/puppeteer, ChromeDevTools/chrome-devtoo |
 | `microsoft` | 8 | knowledge, mcp, repository | microsoft/generative-ai-for-, microsoft/semantic-kernel, microsoft/agent-framework |
+| `antigravity` | 8 | knowledge, mcp, repository | Graphify-Labs/graphify, nextlevelbuilder/ui-ux-pro-m, mksglu/context-mode |

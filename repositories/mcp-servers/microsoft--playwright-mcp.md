@@ -4,17 +4,17 @@ title: "microsoft/playwright-mcp"
 domain: mcp-servers
 summary: >-
   microsoft/playwright-mcp — ACTIVE, tier S,
-  37,423 stars, license Apache-2.0, quality 8.9/10, trust 8.82/10.
-  Verified against the GitHub API on 2026-09-21.
+  37,643 stars, license Apache-2.0, quality 8.9/10, trust 8.82/10.
+  Verified against the GitHub API on 2026-09-28.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["automation", "browser", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-21
-verified_at: 2026-09-21
-expires_at: 2026-11-05
+updated: 2026-09-28
+verified_at: 2026-09-28
+expires_at: 2026-11-12
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 9.5, "security": 7.0, "recency": 9.97, "evidence": 7.5}
   quality_score: 8.9
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-21
+  scored_at: 2026-09-28
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-21
+    verified_at: 2026-09-28
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-21)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Playwright MCP server
 
-## Facts (verified 2026-09-21 via the GitHub API)
+## Facts (verified 2026-09-28 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 37,423 (checked 2026-09-21) |
-| Forks | 3,178 |
-| Open issues | 6 |
+| Stars | 37,643 (checked 2026-09-28) |
+| Forks | 3,200 |
+| Open issues | 4 |
 | Contributors | 69 |
-| Last push | 2026-09-18 (2 days before verification) |
+| Last push | 2026-09-25 (2 days before verification) |
 | Latest release | v0.0.82 (2026-09-18) |
 | Archived | no |
 | Fork | no |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-21) and must be
+(on 2026-09-28) and must be
 re-checked against your own constraints._
 
 **Recommended for**
