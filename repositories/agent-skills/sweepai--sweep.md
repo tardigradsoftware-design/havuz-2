@@ -4,25 +4,25 @@ title: "sweepai/sweep"
 domain: agent-skills
 summary: >-
   sweepai/sweep — ABANDONED, tier B,
-  7,709 stars, license NOASSERTION, quality 6.52/10, trust 6.53/10.
-  Verified against the GitHub API on 2026-09-28.
+  7,708 stars, license NOASSERTION, quality 6.51/10, trust 6.53/10.
+  Verified against the GitHub API on 2026-10-05.
 status: deprecated
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["abandoned-candidate", "agent-skills", "coding-agent", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.52, "reproducibility": 8.6, "security": 3.0, "recency": 4.86, "evidence": 7.0}
-  quality_score: 6.52
+  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.52, "reproducibility": 8.6, "security": 3.0, "recency": 4.77, "evidence": 7.0}
+  quality_score: 6.51
   trust_score: 6.53
   tier: B
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Sweep: AI coding assistant for JetBrains
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `NOASSERTION` |
-| Stars | 7,709 (checked 2026-09-28) |
-| Forks | 465 |
-| Open issues | 754 |
+| Stars | 7,708 (checked 2026-10-05) |
+| Forks | 464 |
+| Open issues | 755 |
 | Contributors | 33 |
-| Last push | 2025-09-18 (375 days before verification) |
+| Last push | 2025-09-18 (382 days before verification) |
 | Latest release | sweep-sandbox-v1 (2023-09-11) |
 | Archived | no |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 6.52 |
 | reproducibility | 8.6 |
 | security | 3.0 |
-| recency | 4.86 |
+| recency | 4.77 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **6.52** |
+| **quality_score** (weighted) | **6.51** |
 | **trust_score** | **6.53** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -141,7 +141,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 375 days (>365d). Likely abandoned; prefer an actively maintained alternative. Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
+No push in 382 days (>365d). Likely abandoned; prefer an actively maintained alternative. Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
 
 ## How to re-verify
 

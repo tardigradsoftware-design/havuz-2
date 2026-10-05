@@ -4,25 +4,25 @@ title: "rtk-ai/rtk"
 domain: developer-tools
 summary: >-
   rtk-ai/rtk — ACTIVE, tier S,
-  81,866 stars, license Apache-2.0, quality 8.4/10, trust 7.7/10.
-  Verified against the GitHub API on 2026-09-28.
+  82,405 stars, license Apache-2.0, quality 8.4/10, trust 7.7/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["context-compression", "developer-tools", "github-repository", "proxy", "tokens"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.47, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.5}
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.48, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.4
   trust_score: 7.7
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 81,866 (checked 2026-09-28) |
-| Forks | 5,193 |
-| Open issues | 1,534 |
-| Contributors | 163 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v0.50.0 (2026-09-24) |
+| Stars | 82,405 (checked 2026-10-05) |
+| Forks | 5,246 |
+| Open issues | 1,502 |
+| Contributors | 166 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v0.51.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.rtk-ai.app](https://www.rtk-ai.app) |
@@ -80,7 +80,7 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 9.47 |
+| documentation | 9.48 |
 | reproducibility | 9.0 |
 | security | 6.0 |
 | recency | 10.0 |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 29,696 bytes |
+| README size | 29,743 bytes |
 
 ## Curated judgement
 

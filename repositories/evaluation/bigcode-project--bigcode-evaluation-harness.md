@@ -5,24 +5,24 @@ domain: evaluation
 summary: >-
   bigcode-project/bigcode-evaluation-harness — STABLE, tier B,
   1,062 stars, license Apache-2.0, quality 6.35/10, trust 6.18/10.
-  Verified against the GitHub API on 2026-09-28.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "coding", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.71, "reproducibility": 9.5, "security": 3.5, "recency": 4.08, "evidence": 6.5}
+  components: {"authority": 8.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.71, "reproducibility": 9.5, "security": 3.5, "recency": 3.99, "evidence": 6.5}
   quality_score: 6.35
   trust_score: 6.18
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A framework for the evaluation of autoregressive code generation language models.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 1,062 (checked 2026-09-28) |
-| Forks | 261 |
+| Stars | 1,062 (checked 2026-10-05) |
+| Forks | 262 |
 | Open issues | 99 |
 | Contributors | 32 |
-| Last push | 2025-07-22 (432 days before verification) |
+| Last push | 2025-07-22 (439 days before verification) |
 | Latest release | v0.1.0 (2023-05-25) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.71 |
 | reproducibility | 9.5 |
 | security | 3.5 |
-| recency | 4.08 |
+| recency | 3.99 |
 | evidence | 6.5 |
 | **quality_score** (weighted) | **6.35** |
 | **trust_score** | **6.18** |

@@ -3,26 +3,26 @@ id: nextlevelbuilder--ui-ux-pro-max-skill
 title: "nextlevelbuilder/ui-ux-pro-max-skill"
 domain: agent-skills
 summary: >-
-  nextlevelbuilder/ui-ux-pro-max-skill — ACTIVE, tier S,
-  131,141 stars, license MIT, quality 8.0/10, trust 7.2/10.
-  Verified against the GitHub API on 2026-09-28.
+  nextlevelbuilder/ui-ux-pro-max-skill — ACTIVE, tier A,
+  133,140 stars, license MIT, quality 8.0/10, trust 7.2/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "design", "github-repository", "skills", "ui", "ux"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 7.0, "security": 6.0, "recency": 10.0, "evidence": 5.5}
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 7.0, "security": 6.0, "recency": 9.99, "evidence": 5.5}
   quality_score: 8.0
   trust_score: 7.2
-  tier: S
+  tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # nextlevelbuilder/ui-ux-pro-max-skill
 
-🟢 ACTIVE · tier **S** · production-grade · confidence **high**
+🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 131,141 (checked 2026-09-28) |
-| Forks | 13,942 |
+| Stars | 133,140 (checked 2026-10-05) |
+| Forks | 14,106 |
 | Open issues | 82 |
-| Contributors | 92 |
-| Last push | 2026-09-27 (0 days before verification) |
+| Contributors | 93 |
+| Last push | 2026-10-03 (1 days before verification) |
 | Latest release | v2.15.0 (2026-08-13) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 9.5 |
 | reproducibility | 7.0 |
 | security | 6.0 |
-| recency | 10.0 |
+| recency | 9.99 |
 | evidence | 5.5 |
 | **quality_score** (weighted) | **8.0** |
 | **trust_score** | **7.2** |

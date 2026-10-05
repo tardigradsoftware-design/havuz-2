@@ -4,17 +4,17 @@ title: "huggingface/trl"
 domain: ai
 summary: >-
   huggingface/trl — ACTIVE, tier S,
-  19,406 stars, license Apache-2.0, quality 8.92/10, trust 8.83/10.
-  Verified against the GitHub API on 2026-09-28.
+  19,448 stars, license Apache-2.0, quality 8.92/10, trust 8.83/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "fine-tuning", "github-repository", "rl"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.22, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.92
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Train transformer language models with reinforcement learning.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 19,406 (checked 2026-09-28) |
-| Forks | 3,022 |
-| Open issues | 294 |
+| Stars | 19,448 (checked 2026-10-05) |
+| Forks | 3,042 |
+| Open issues | 286 |
 | Contributors | 465 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v1.14.0 (2026-09-25) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v1.14.1 (2026-09-29) |
 | Archived | no |
 | Fork | no |
 | Homepage | [http://hf.co/docs/trl](http://hf.co/docs/trl) |

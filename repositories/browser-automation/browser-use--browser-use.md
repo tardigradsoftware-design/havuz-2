@@ -4,25 +4,25 @@ title: "browser-use/browser-use"
 domain: browser-automation
 summary: >-
   browser-use/browser-use — ACTIVE, tier S,
-  116,574 stars, license MIT, quality 8.62/10, trust 8.51/10.
-  Verified against the GitHub API on 2026-09-28.
+  117,166 stars, license MIT, quality 8.63/10, trust 8.53/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "automation", "browser", "browser-automation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.75, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.0}
-  quality_score: 8.62
-  trust_score: 8.51
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.88, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.0}
+  quality_score: 8.63
+  trust_score: 8.53
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Agents that use the browser.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 116,574 (checked 2026-09-28) |
-| Forks | 12,844 |
-| Open issues | 516 |
-| Contributors | 361 |
-| Last push | 2026-09-26 (2 days before verification) |
+| Stars | 117,166 (checked 2026-10-05) |
+| Forks | 12,931 |
+| Open issues | 539 |
+| Contributors | 360 |
+| Last push | 2026-10-03 (2 days before verification) |
 | Latest release | 0.13.10 (2026-09-04) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 5.75 |
+| documentation | 5.88 |
 | reproducibility | 10.0 |
 | security | 4.5 |
 | recency | 9.97 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.62** |
-| **trust_score** | **8.51** |
+| **quality_score** (weighted) | **8.63** |
+| **trust_score** | **8.53** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 14,959 bytes |
+| README size | 16,502 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**

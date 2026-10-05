@@ -4,25 +4,25 @@ title: "OpenAdaptAI/OpenAdapt"
 domain: browser-automation
 summary: >-
   OpenAdaptAI/OpenAdapt — ACTIVE, tier S,
-  1,746 stars, license MIT, quality 9.14/10, trust 9.16/10.
-  Verified against the GitHub API on 2026-09-28.
+  1,757 stars, license MIT, quality 8.98/10, trust 8.96/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "computer-use", "github-repository", "rpa"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.42, "reproducibility": 10.0, "security": 7.0, "recency": 9.97, "evidence": 8.0}
-  quality_score: 9.14
-  trust_score: 9.16
+  components: {"authority": 9.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 8.42, "reproducibility": 10.0, "security": 7.0, "recency": 9.88, "evidence": 8.0}
+  quality_score: 8.98
+  trust_score: 8.96
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Compiles a demonstrated GUI task into a program that reports VERIFIED only if an independent check agrees. pip install openadapt; openadapt flow tutorial. Compiler lives in openadapt-flow.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 1,746 (checked 2026-09-28) |
-| Forks | 260 |
+| Stars | 1,757 (checked 2026-10-05) |
+| Forks | 263 |
 | Open issues | 7 |
 | Contributors | 18 |
-| Last push | 2026-09-26 (2 days before verification) |
+| Last push | 2026-09-26 (9 days before verification) |
 | Latest release | v1.16.0 (2026-08-26) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 10.0 |
+| maintenance | 9.0 |
 | adoption | 10.0 |
 | documentation | 8.42 |
 | reproducibility | 10.0 |
 | security | 7.0 |
-| recency | 9.97 |
+| recency | 9.88 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **9.14** |
-| **trust_score** | **9.16** |
+| **quality_score** (weighted) | **8.98** |
+| **trust_score** | **8.96** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

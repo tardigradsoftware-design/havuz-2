@@ -4,25 +4,25 @@ title: "dequelabs/axe-core"
 domain: developer-tools
 summary: >-
   dequelabs/axe-core — ACTIVE, tier S,
-  7,565 stars, license MPL-2.0, quality 8.59/10, trust 8.46/10.
-  Verified against the GitHub API on 2026-09-28.
+  7,596 stars, license MPL-2.0, quality 8.59/10, trust 8.46/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["accessibility", "audit", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.38, "reproducibility": 8.55, "security": 7.0, "recency": 9.95, "evidence": 7.0}
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.38, "reproducibility": 8.55, "security": 7.0, "recency": 9.97, "evidence": 7.0}
   quality_score: 8.59
   trust_score: 8.46
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Accessibility engine for automated Web UI testing
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | HTML |
 | License | `MPL-2.0` |
-| Stars | 7,565 (checked 2026-09-28) |
-| Forks | 944 |
-| Open issues | 449 |
-| Contributors | 237 |
-| Last push | 2026-09-23 (4 days before verification) |
+| Stars | 7,596 (checked 2026-10-05) |
+| Forks | 953 |
+| Open issues | 434 |
+| Contributors | 240 |
+| Last push | 2026-10-02 (2 days before verification) |
 | Latest release | v4.13.0 (2026-08-05) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.38 |
 | reproducibility | 8.55 |
 | security | 7.0 |
-| recency | 9.95 |
+| recency | 9.97 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **8.59** |
 | **trust_score** | **8.46** |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 10,505 bytes |
+| README size | 10,519 bytes |
 
 ## Curated judgement
 

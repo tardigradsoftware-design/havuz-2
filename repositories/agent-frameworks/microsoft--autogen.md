@@ -4,25 +4,25 @@ title: "microsoft/autogen"
 domain: agent-frameworks
 summary: >-
   microsoft/autogen — MAINTENANCE, tier A,
-  61,199 stars, license CC-BY-4.0, quality 7.7/10, trust 7.71/10.
-  Verified against the GitHub API on 2026-09-28.
+  61,255 stars, license CC-BY-4.0, quality 7.69/10, trust 7.71/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "framework", "github-repository", "maintenance-candidate", "microsoft"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 8.23, "reproducibility": 6.55, "security": 7.0, "recency": 7.74, "evidence": 5.5}
-  quality_score: 7.7
+  components: {"authority": 9.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 8.23, "reproducibility": 6.55, "security": 7.0, "recency": 7.64, "evidence": 5.5}
+  quality_score: 7.69
   trust_score: 7.71
   tier: A
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A programming framework for agentic AI
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `CC-BY-4.0` |
-| Stars | 61,199 (checked 2026-09-28) |
-| Forks | 9,258 |
-| Open issues | 1,105 |
+| Stars | 61,255 (checked 2026-10-05) |
+| Forks | 9,278 |
+| Open issues | 1,100 |
 | Contributors | 443 |
-| Last push | 2026-04-15 (165 days before verification) |
+| Last push | 2026-04-15 (172 days before verification) |
 | Latest release | python-v0.7.5 (2025-09-30) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.23 |
 | reproducibility | 6.55 |
 | security | 7.0 |
-| recency | 7.74 |
+| recency | 7.64 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **7.7** |
+| **quality_score** (weighted) | **7.69** |
 | **trust_score** | **7.71** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**
@@ -143,7 +143,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 165 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. Verified 2026-09-15: microsoft/autogen is in maintenance mode. Microsoft recommends microsoft/agent-framework for new work. Do not start a new project on AutoGen; migrate existing ones deliberately. MAINTENANCE
+No push in 172 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. Verified 2026-09-15: microsoft/autogen is in maintenance mode. Microsoft recommends microsoft/agent-framework for new work. Do not start a new project on AutoGen; migrate existing ones deliberately. MAINTENANCE
 
 ## How to re-verify
 

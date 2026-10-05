@@ -3,26 +3,26 @@ id: masamasa59--ai-agent-papers
 title: "masamasa59/ai-agent-papers"
 domain: reasoning-research
 summary: >-
-  masamasa59/ai-agent-papers — ACTIVE, tier NO-LICENSE,
-  1,662 stars, license NONE, quality 5.43/10, trust 2.58/10.
-  Verified against the GitHub API on 2026-09-28.
+  masamasa59/ai-agent-papers — STABLE, tier NO-LICENSE,
+  1,672 stars, license NONE, quality 5.42/10, trust 2.58/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "catalog", "github-repository", "papers", "reasoning-research"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 4.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 4.18, "reproducibility": 1.0, "security": 1.5, "recency": 9.89, "evidence": 1.0}
-  quality_score: 5.43
+  components: {"authority": 4.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 4.18, "reproducibility": 1.0, "security": 1.5, "recency": 9.79, "evidence": 1.0}
+  quality_score: 5.42
   trust_score: 2.58
   tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,28 +36,28 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # masamasa59/ai-agent-papers
 
-🟢 ACTIVE · tier **NO-LICENSE** · early · confidence **low**
+🔵 STABLE · tier **NO-LICENSE** · early · confidence **low**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > A collection of AI Agents papers (Updated biweekly)
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-28. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-10-05. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `NONE` |
-| Stars | 1,662 (checked 2026-09-28) |
-| Forks | 140 |
+| Stars | 1,672 (checked 2026-10-05) |
+| Forks | 143 |
 | Open issues | 1 |
 | Contributors | 4 |
-| Last push | 2026-09-20 (8 days before verification) |
+| Last push | 2026-09-20 (15 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -88,9 +88,9 @@ sources:
 | documentation | 4.18 |
 | reproducibility | 1.0 |
 | security | 1.5 |
-| recency | 9.89 |
+| recency | 9.79 |
 | evidence | 1.0 |
-| **quality_score** (weighted) | **5.43** |
+| **quality_score** (weighted) | **5.42** |
 | **trust_score** | **2.58** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

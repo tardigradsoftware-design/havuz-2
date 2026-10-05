@@ -4,25 +4,25 @@ title: "anthropics/claude-cookbooks"
 domain: ai
 summary: >-
   anthropics/claude-cookbooks — ACTIVE, tier A,
-  53,025 stars, license MIT, quality 7.9/10, trust 7.4/10.
-  Verified against the GitHub API on 2026-09-28.
+  53,204 stars, license MIT, quality 7.89/10, trust 7.4/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "anthropic", "examples", "github-repository", "prompting"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.51, "reproducibility": 8.5, "security": 4.5, "recency": 9.96, "evidence": 5.5}
-  quality_score: 7.9
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.51, "reproducibility": 8.5, "security": 4.5, "recency": 9.92, "evidence": 5.5}
+  quality_score: 7.89
   trust_score: 7.4
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `MIT` |
-| Stars | 53,025 (checked 2026-09-28) |
-| Forks | 6,373 |
-| Open issues | 348 |
+| Stars | 53,204 (checked 2026-10-05) |
+| Forks | 6,403 |
+| Open issues | 354 |
 | Contributors | 87 |
-| Last push | 2026-09-24 (3 days before verification) |
+| Last push | 2026-09-28 (6 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 4.51 |
 | reproducibility | 8.5 |
 | security | 4.5 |
-| recency | 9.96 |
+| recency | 9.92 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **7.9** |
+| **quality_score** (weighted) | **7.89** |
 | **trust_score** | **7.4** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

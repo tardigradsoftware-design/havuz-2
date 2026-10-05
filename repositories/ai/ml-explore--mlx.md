@@ -4,17 +4,17 @@ title: "ml-explore/mlx"
 domain: ai
 summary: >-
   ml-explore/mlx — ACTIVE, tier S,
-  28,579 stars, license MIT, quality 8.64/10, trust 8.53/10.
-  Verified against the GitHub API on 2026-09-28.
+  28,655 stars, license MIT, quality 8.64/10, trust 8.53/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "apple-silicon", "github-repository", "inference"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.88, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.64
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > MLX: An array framework for Apple silicon
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | C++ |
 | License | `MIT` |
-| Stars | 28,579 (checked 2026-09-28) |
-| Forks | 2,287 |
-| Open issues | 161 |
-| Contributors | 340 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v0.32.2 (2026-08-25) |
+| Stars | 28,655 (checked 2026-10-05) |
+| Forks | 2,309 |
+| Open issues | 113 |
+| Contributors | 353 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v0.32.3 (2026-09-29) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://ml-explore.github.io/mlx/](https://ml-explore.github.io/mlx/) |

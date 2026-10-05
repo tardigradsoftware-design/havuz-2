@@ -4,17 +4,17 @@ title: "renovatebot/renovate"
 domain: developer-tools
 summary: >-
   renovatebot/renovate — ACTIVE, tier S,
-  22,612 stars, license AGPL-3.0, quality 8.54/10, trust 8.54/10.
-  Verified against the GitHub API on 2026-09-28.
+  22,675 stars, license AGPL-3.0, quality 8.54/10, trust 8.54/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["automation", "dependencies", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.61, "reproducibility": 7.8, "security": 6.0, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.54
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `AGPL-3.0` |
-| Stars | 22,612 (checked 2026-09-28) |
-| Forks | 3,337 |
-| Open issues | 1,436 |
+| Stars | 22,675 (checked 2026-10-05) |
+| Forks | 3,353 |
+| Open issues | 1,499 |
 | Contributors | 435 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | 44.115.13 (2026-09-27) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | 44.134.1 (2026-10-05) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://mend.io/renovate](https://mend.io/renovate) |

@@ -4,17 +4,17 @@ title: "aaif-goose/goose"
 domain: agent-skills
 summary: >-
   aaif-goose/goose — ACTIVE, tier S,
-  54,727 stars, license Apache-2.0, quality 8.18/10, trust 7.27/10.
-  Verified against the GitHub API on 2026-09-28.
+  54,950 stars, license Apache-2.0, quality 8.18/10, trust 7.27/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "mcp"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.79, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.18
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 54,727 (checked 2026-09-28) |
-| Forks | 6,333 |
-| Open issues | 433 |
-| Contributors | 452 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v1.52.0 (2026-09-23) |
+| Stars | 54,950 (checked 2026-10-05) |
+| Forks | 6,362 |
+| Open issues | 432 |
+| Contributors | 453 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v1.53.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://goose-docs.ai/](https://goose-docs.ai/) |

@@ -4,17 +4,17 @@ title: "junegunn/fzf"
 domain: developer-tools
 summary: >-
   junegunn/fzf — ACTIVE, tier S,
-  83,280 stars, license MIT, quality 8.8/10, trust 8.68/10.
-  Verified against the GitHub API on 2026-09-28.
+  83,384 stars, license MIT, quality 8.8/10, trust 8.68/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cli", "developer-tools", "github-repository", "search"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 9.5, "security": 7.0, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.8
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > :cherry_blossom: A command-line fuzzy finder
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 83,280 (checked 2026-09-28) |
-| Forks | 3,955 |
-| Open issues | 332 |
+| Stars | 83,384 (checked 2026-10-05) |
+| Forks | 4,506 |
+| Open issues | 333 |
 | Contributors | 313 |
-| Last push | 2026-09-27 (0 days before verification) |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v0.74.4 (2026-09-12) |
 | Archived | no |
 | Fork | no |

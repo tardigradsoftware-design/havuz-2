@@ -4,17 +4,17 @@ title: "google/adk-java"
 domain: agent-frameworks
 summary: >-
   google/adk-java — ACTIVE, tier S,
-  1,741 stars, license Apache-2.0, quality 8.04/10, trust 7.79/10.
-  Verified against the GitHub API on 2026-09-28.
+  1,746 stars, license Apache-2.0, quality 8.04/10, trust 7.79/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "github-repository", "google", "java"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.91, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.04
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Java |
 | License | `Apache-2.0` |
-| Stars | 1,741 (checked 2026-09-28) |
-| Forks | 426 |
-| Open issues | 111 |
-| Contributors | 63 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v1.10.1 (2026-09-18) |
+| Stars | 1,746 (checked 2026-10-05) |
+| Forks | 431 |
+| Open issues | 122 |
+| Contributors | 66 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v1.11.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://google.github.io/adk-docs/](https://google.github.io/adk-docs/) |

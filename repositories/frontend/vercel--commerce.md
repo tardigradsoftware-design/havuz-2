@@ -4,25 +4,25 @@ title: "vercel/commerce"
 domain: frontend
 summary: >-
   vercel/commerce — STABLE, tier A,
-  14,278 stars, license MIT, quality 7.18/10, trust 6.71/10.
-  Verified against the GitHub API on 2026-09-28.
+  14,287 stars, license MIT, quality 7.17/10, trust 6.71/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ecommerce", "example", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 8.0, "adoption": 10.0, "documentation": 4.93, "reproducibility": 5.5, "security": 4.5, "recency": 9.37, "evidence": 3.5}
-  quality_score: 7.18
+  components: {"authority": 8.5, "maintenance": 8.0, "adoption": 10.0, "documentation": 4.93, "reproducibility": 5.5, "security": 4.5, "recency": 9.27, "evidence": 3.5}
+  quality_score: 7.17
   trust_score: 6.71
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Next.js Commerce
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 14,278 (checked 2026-09-28) |
+| Stars | 14,287 (checked 2026-10-05) |
 | Forks | 5,481 |
 | Open issues | 81 |
 | Contributors | 135 |
-| Last push | 2026-08-13 (46 days before verification) |
+| Last push | 2026-08-13 (53 days before verification) |
 | Latest release | v1 (2023-04-18) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 4.93 |
 | reproducibility | 5.5 |
 | security | 4.5 |
-| recency | 9.37 |
+| recency | 9.27 |
 | evidence | 3.5 |
-| **quality_score** (weighted) | **7.18** |
+| **quality_score** (weighted) | **7.17** |
 | **trust_score** | **6.71** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

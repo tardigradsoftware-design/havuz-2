@@ -3,26 +3,26 @@ id: apache--casbin
 title: "apache/casbin"
 domain: backend
 summary: >-
-  apache/casbin — STABLE, tier S,
-  20,406 stars, license Apache-2.0, quality 8.47/10, trust 8.34/10.
-  Verified against the GitHub API on 2026-09-28.
+  apache/casbin — ACTIVE, tier S,
+  20,429 stars, license Apache-2.0, quality 8.49/10, trust 8.34/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["authorization", "backend", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.92, "reproducibility": 8.5, "security": 4.5, "recency": 9.77, "evidence": 6.0}
-  quality_score: 8.47
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.93, "reproducibility": 8.5, "security": 4.5, "recency": 10.0, "evidence": 6.0}
+  quality_score: 8.49
   trust_score: 8.34
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # apache/casbin
 
-🔵 STABLE · tier **S** · production-grade · confidence **very-high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 20,406 (checked 2026-09-28) |
-| Forks | 1,758 |
+| Stars | 20,429 (checked 2026-10-05) |
+| Forks | 1,761 |
 | Open issues | 39 |
 | Contributors | 155 |
-| Last push | 2026-09-11 (17 days before verification) |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v3.11.0 (2026-08-20) |
 | Archived | no |
 | Fork | no |
@@ -80,12 +80,12 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.92 |
+| documentation | 7.93 |
 | reproducibility | 8.5 |
 | security | 4.5 |
-| recency | 9.77 |
+| recency | 10.0 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **8.47** |
+| **quality_score** (weighted) | **8.49** |
 | **trust_score** | **8.34** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 17,031 bytes |
+| README size | 17,157 bytes |
 
 ## Curated judgement
 

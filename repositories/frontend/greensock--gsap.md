@@ -4,25 +4,25 @@ title: "greensock/GSAP"
 domain: frontend
 summary: >-
   greensock/GSAP — MAINTENANCE, tier NO-LICENSE,
-  28,678 stars, license NONE, quality 6.07/10, trust 4.33/10.
-  Verified against the GitHub API on 2026-09-28.
+  28,815 stars, license NONE, quality 6.06/10, trust 4.33/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["animation", "frontend", "github-repository", "motion"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 5.0, "adoption": 10.0, "documentation": 5.02, "reproducibility": 1.0, "security": 5.0, "recency": 7.71, "evidence": 1.5}
-  quality_score: 6.07
+  components: {"authority": 9.0, "maintenance": 5.0, "adoption": 10.0, "documentation": 5.02, "reproducibility": 1.0, "security": 5.0, "recency": 7.62, "evidence": 1.5}
+  quality_score: 6.06
   trust_score: 4.33
   tier: NO-LICENSE
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-28. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-10-05. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `NONE` |
-| Stars | 28,678 (checked 2026-09-28) |
-| Forks | 2,218 |
-| Open issues | 6 |
+| Stars | 28,815 (checked 2026-10-05) |
+| Forks | 2,234 |
+| Open issues | 7 |
 | Contributors | 3 |
-| Last push | 2026-04-13 (167 days before verification) |
+| Last push | 2026-04-13 (174 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -88,9 +88,9 @@ sources:
 | documentation | 5.02 |
 | reproducibility | 1.0 |
 | security | 5.0 |
-| recency | 7.71 |
+| recency | 7.62 |
 | evidence | 1.5 |
-| **quality_score** (weighted) | **6.07** |
+| **quality_score** (weighted) | **6.06** |
 | **trust_score** | **4.33** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -115,7 +115,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**
@@ -146,7 +146,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 167 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only. License status must be confirmed on gsap.com before any vendoring. This record deliberately states the API observation, not a remembered license name.
+No push in 174 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only. License status must be confirmed on gsap.com before any vendoring. This record deliberately states the API observation, not a remembered license name.
 
 ## How to re-verify
 

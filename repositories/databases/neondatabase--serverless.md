@@ -4,25 +4,25 @@ title: "neondatabase/serverless"
 domain: databases
 summary: >-
   neondatabase/serverless — ACTIVE, tier S,
-  549 stars, license MIT, quality 8.14/10, trust 8.03/10.
-  Verified against the GitHub API on 2026-09-28.
+  549 stars, license MIT, quality 8.14/10, trust 8.04/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["databases", "github-repository", "postgres", "serverless"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 9.34, "documentation": 5.89, "reproducibility": 8.0, "security": 4.5, "recency": 9.96, "evidence": 6.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 9.35, "documentation": 5.94, "reproducibility": 8.0, "security": 4.5, "recency": 9.96, "evidence": 6.0}
   quality_score: 8.14
-  trust_score: 8.03
+  trust_score: 8.04
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,20 +52,20 @@ sources:
 >
 > Connect to Neon PostgreSQL from serverless/worker/edge functions
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
 | URL | <https://github.com/neondatabase/serverless> |
 | Owner | neondatabase (Organization) |
 | Official upstream | yes |
-| Language | JavaScript |
+| Language | TypeScript |
 | License | `MIT` |
-| Stars | 549 (checked 2026-09-28) |
-| Forks | 81 |
-| Open issues | 52 |
+| Stars | 549 (checked 2026-10-05) |
+| Forks | 83 |
+| Open issues | 51 |
 | Contributors | 15 |
-| Last push | 2026-09-25 (3 days before verification) |
+| Last push | 2026-10-01 (3 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -79,14 +79,14 @@ sources:
 |---|---|
 | authority | 9.0 |
 | maintenance | 10.0 |
-| adoption | 9.34 |
-| documentation | 5.89 |
+| adoption | 9.35 |
+| documentation | 5.94 |
 | reproducibility | 8.0 |
 | security | 4.5 |
 | recency | 9.96 |
 | evidence | 6.0 |
 | **quality_score** (weighted) | **8.14** |
-| **trust_score** | **8.03** |
+| **trust_score** | **8.04** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | no |
 | root entries | yes |
-| README size | 10,690 bytes |
+| README size | 11,291 bytes |
 
 ## Curated judgement
 

@@ -4,25 +4,25 @@ title: "microsoft/playwright-python"
 domain: browser-automation
 summary: >-
   microsoft/playwright-python — ACTIVE, tier S,
-  15,018 stars, license Apache-2.0, quality 8.87/10, trust 8.75/10.
-  Verified against the GitHub API on 2026-09-28.
+  15,027 stars, license Apache-2.0, quality 8.78/10, trust 8.65/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser", "browser-automation", "github-repository", "python", "testing"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.69, "reproducibility": 10.0, "security": 7.0, "recency": 9.96, "evidence": 8.0}
-  quality_score: 8.87
-  trust_score: 8.75
+  components: {"authority": 8.5, "maintenance": 9.5, "adoption": 10.0, "documentation": 6.69, "reproducibility": 10.0, "security": 7.0, "recency": 9.86, "evidence": 8.0}
+  quality_score: 8.78
+  trust_score: 8.65
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Python version of the Playwright testing and automation library.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 15,018 (checked 2026-09-28) |
-| Forks | 1,236 |
-| Open issues | 18 |
+| Stars | 15,027 (checked 2026-10-05) |
+| Forks | 1,242 |
+| Open issues | 22 |
 | Contributors | 57 |
-| Last push | 2026-09-24 (3 days before verification) |
+| Last push | 2026-09-24 (10 days before verification) |
 | Latest release | v1.63.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.5 |
-| maintenance | 10.0 |
+| maintenance | 9.5 |
 | adoption | 10.0 |
 | documentation | 6.69 |
 | reproducibility | 10.0 |
 | security | 7.0 |
-| recency | 9.96 |
+| recency | 9.86 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.87** |
-| **trust_score** | **8.75** |
+| **quality_score** (weighted) | **8.78** |
+| **trust_score** | **8.65** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

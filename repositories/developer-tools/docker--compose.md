@@ -4,17 +4,17 @@ title: "docker/compose"
 domain: developer-tools
 summary: >-
   docker/compose — ACTIVE, tier S,
-  38,263 stars, license Apache-2.0, quality 8.18/10, trust 7.92/10.
-  Verified against the GitHub API on 2026-09-28.
+  38,285 stars, license Apache-2.0, quality 8.18/10, trust 7.92/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["containers", "developer-tools", "github-repository", "orchestration"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.79, "reproducibility": 7.5, "security": 4.5, "recency": 9.97, "evidence": 5.0}
   quality_score: 8.18
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Define and run multi-container applications with Docker
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 38,263 (checked 2026-09-28) |
-| Forks | 5,847 |
-| Open issues | 102 |
+| Stars | 38,285 (checked 2026-10-05) |
+| Forks | 5,850 |
+| Open issues | 90 |
 | Contributors | 266 |
-| Last push | 2026-09-25 (2 days before verification) |
-| Latest release | v5.5.1 (2026-09-03) |
+| Last push | 2026-10-02 (2 days before verification) |
+| Latest release | v5.6.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://docs.docker.com/compose/](https://docs.docker.com/compose/) |

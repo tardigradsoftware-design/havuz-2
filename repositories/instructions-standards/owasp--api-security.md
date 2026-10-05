@@ -4,25 +4,25 @@ title: "OWASP/API-Security"
 domain: instructions-standards
 summary: >-
   OWASP/API-Security — ACTIVE, tier A,
-  2,368 stars, license NOASSERTION, quality 8.07/10, trust 7.86/10.
-  Verified against the GitHub API on 2026-09-28.
+  2,374 stars, license NOASSERTION, quality 7.92/10, trust 7.66/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["api", "github-repository", "instructions-standards", "owasp", "security"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.71, "reproducibility": 5.6, "security": 6.5, "recency": 9.93, "evidence": 4.0}
-  quality_score: 8.07
-  trust_score: 7.86
+  components: {"authority": 9.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.71, "reproducibility": 5.6, "security": 6.5, "recency": 9.84, "evidence": 4.0}
+  quality_score: 7.92
+  trust_score: 7.66
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > OWASP API Security Project
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Dockerfile |
 | License | `NOASSERTION` |
-| Stars | 2,368 (checked 2026-09-28) |
+| Stars | 2,374 (checked 2026-10-05) |
 | Forks | 423 |
 | Open issues | 15 |
 | Contributors | 30 |
-| Last push | 2026-09-22 (5 days before verification) |
+| Last push | 2026-09-22 (12 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -84,15 +84,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 10.0 |
+| maintenance | 9.0 |
 | adoption | 10.0 |
 | documentation | 6.71 |
 | reproducibility | 5.6 |
 | security | 6.5 |
-| recency | 9.93 |
+| recency | 9.84 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **8.07** |
-| **trust_score** | **7.86** |
+| **quality_score** (weighted) | **7.92** |
+| **trust_score** | **7.66** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

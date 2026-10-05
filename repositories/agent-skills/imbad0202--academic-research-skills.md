@@ -4,25 +4,25 @@ title: "Imbad0202/academic-research-skills"
 domain: agent-skills
 summary: >-
   Imbad0202/academic-research-skills — ACTIVE, tier A,
-  49,724 stars, license NOASSERTION, quality 8.31/10, trust 7.67/10.
-  Verified against the GitHub API on 2026-09-28.
+  50,451 stars, license NOASSERTION, quality 8.31/10, trust 7.67/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["academic", "agent-skills", "github-repository", "research", "skills"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 9.1, "security": 5.5, "recency": 9.97, "evidence": 8.5}
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 9.1, "security": 5.5, "recency": 9.99, "evidence": 8.5}
   quality_score: 8.31
   trust_score: 7.67
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Academic Research Skills for Claude Code: research → write → review → revise → finalize
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 49,724 (checked 2026-09-28) |
-| Forks | 3,845 |
-| Open issues | 33 |
-| Contributors | 20 |
-| Last push | 2026-09-25 (2 days before verification) |
-| Latest release | v3.22.2 (2026-09-25) |
+| Stars | 50,451 (checked 2026-10-05) |
+| Forks | 3,896 |
+| Open issues | 31 |
+| Contributors | 22 |
+| Last push | 2026-10-03 (1 days before verification) |
+| Latest release | v3.23.0 (2026-10-03) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://buymeacoffee.com/crucify020v](https://buymeacoffee.com/crucify020v) |
@@ -89,7 +89,7 @@ sources:
 | documentation | 10.0 |
 | reproducibility | 9.1 |
 | security | 5.5 |
-| recency | 9.97 |
+| recency | 9.99 |
 | evidence | 8.5 |
 | **quality_score** (weighted) | **8.31** |
 | **trust_score** | **7.67** |
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 49,694 bytes |
+| README size | 52,565 bytes |
 
 ## Curated judgement
 

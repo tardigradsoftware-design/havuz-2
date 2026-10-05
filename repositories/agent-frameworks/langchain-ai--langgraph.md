@@ -4,17 +4,17 @@ title: "langchain-ai/langgraph"
 domain: agent-frameworks
 summary: >-
   langchain-ai/langgraph — ACTIVE, tier S,
-  42,402 stars, license MIT, quality 8.35/10, trust 8.13/10.
-  Verified against the GitHub API on 2026-09-28.
+  42,731 stars, license MIT, quality 8.35/10, trust 8.13/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "framework", "github-repository", "orchestration", "stateful"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.53, "reproducibility": 8.5, "security": 4.5, "recency": 10.0, "evidence": 6.0}
   quality_score: 8.35
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Build resilient agents.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 42,402 (checked 2026-09-28) |
-| Forks | 7,176 |
-| Open issues | 831 |
+| Stars | 42,731 (checked 2026-10-05) |
+| Forks | 7,263 |
+| Open issues | 822 |
 | Contributors | 280 |
-| Last push | 2026-09-27 (0 days before verification) |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | cli==0.4.32.dev0 (2026-09-23) |
 | Archived | no |
 | Fork | no |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**

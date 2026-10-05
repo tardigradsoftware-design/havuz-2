@@ -4,25 +4,25 @@ title: "microsoft/semantic-kernel"
 domain: agent-frameworks
 summary: >-
   microsoft/semantic-kernel — ACTIVE, tier S,
-  28,607 stars, license MIT, quality 8.46/10, trust 8.31/10.
-  Verified against the GitHub API on 2026-09-28.
+  28,627 stars, license MIT, quality 8.47/10, trust 8.31/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "dotnet", "framework", "github-repository", "microsoft"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.71, "reproducibility": 7.0, "security": 7.0, "recency": 9.88, "evidence": 5.0}
-  quality_score: 8.46
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.71, "reproducibility": 7.0, "security": 7.0, "recency": 10.0, "evidence": 5.0}
+  quality_score: 8.47
   trust_score: 8.31
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Integrate cutting-edge LLM technology quickly and easily into your apps
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | C# |
 | License | `MIT` |
-| Stars | 28,607 (checked 2026-09-28) |
-| Forks | 4,795 |
-| Open issues | 338 |
-| Contributors | 402 |
-| Last push | 2026-09-19 (9 days before verification) |
+| Stars | 28,627 (checked 2026-10-05) |
+| Forks | 4,813 |
+| Open issues | 346 |
+| Contributors | 403 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | dotnet-1.80.1 (2026-09-03) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.71 |
 | reproducibility | 7.0 |
 | security | 7.0 |
-| recency | 9.88 |
+| recency | 10.0 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **8.46** |
+| **quality_score** (weighted) | **8.47** |
 | **trust_score** | **8.31** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

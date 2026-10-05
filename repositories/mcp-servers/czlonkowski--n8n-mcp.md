@@ -4,17 +4,17 @@ title: "czlonkowski/n8n-mcp"
 domain: mcp-servers
 summary: >-
   czlonkowski/n8n-mcp — ACTIVE, tier S,
-  23,013 stars, license MIT, quality 8.25/10, trust 7.43/10.
-  Verified against the GitHub API on 2026-09-28.
+  23,035 stars, license MIT, quality 8.25/10, trust 7.43/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["automation", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 4.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.05, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
   quality_score: 8.25
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 23,013 (checked 2026-09-28) |
-| Forks | 3,661 |
-| Open issues | 67 |
+| Stars | 23,035 (checked 2026-10-05) |
+| Forks | 3,662 |
+| Open issues | 68 |
 | Contributors | 31 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v2.90.0 (2026-09-27) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v2.91.0 (2026-10-01) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.n8n-mcp.com/](https://www.n8n-mcp.com/) |

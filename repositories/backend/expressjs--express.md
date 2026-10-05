@@ -4,25 +4,25 @@ title: "expressjs/express"
 domain: backend
 summary: >-
   expressjs/express — ACTIVE, tier S,
-  69,495 stars, license MIT, quality 8.45/10, trust 8.28/10.
-  Verified against the GitHub API on 2026-09-28.
+  69,528 stars, license MIT, quality 8.53/10, trust 8.38/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["api", "backend", "github-repository", "node"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 9.5, "adoption": 10.0, "documentation": 5.86, "reproducibility": 10.0, "security": 4.5, "recency": 9.84, "evidence": 8.0}
-  quality_score: 8.45
-  trust_score: 8.28
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.86, "reproducibility": 10.0, "security": 4.5, "recency": 9.96, "evidence": 8.0}
+  quality_score: 8.53
+  trust_score: 8.38
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Fast, unopinionated, minimalist web framework for node.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 69,495 (checked 2026-09-28) |
-| Forks | 25,089 |
-| Open issues | 235 |
-| Contributors | 329 |
-| Last push | 2026-09-15 (12 days before verification) |
+| Stars | 69,528 (checked 2026-10-05) |
+| Forks | 25,154 |
+| Open issues | 242 |
+| Contributors | 330 |
+| Last push | 2026-10-01 (3 days before verification) |
 | Latest release | v5.2.1 (2025-12-01) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.5 |
-| maintenance | 9.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 5.86 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 9.84 |
+| recency | 9.96 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.45** |
-| **trust_score** | **8.28** |
+| **quality_score** (weighted) | **8.53** |
+| **trust_score** | **8.38** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

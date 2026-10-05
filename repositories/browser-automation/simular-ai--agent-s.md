@@ -4,25 +4,25 @@ title: "simular-ai/Agent-S"
 domain: browser-automation
 summary: >-
   simular-ai/Agent-S — STABLE, tier A,
-  12,401 stars, license Apache-2.0, quality 7.58/10, trust 6.61/10.
-  Verified against the GitHub API on 2026-09-28.
+  12,539 stars, license Apache-2.0, quality 7.57/10, trust 6.61/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-framework", "browser-automation", "computer-use", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.09, "reproducibility": 9.0, "security": 3.5, "recency": 9.7, "evidence": 7.0}
-  quality_score: 7.58
+  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.09, "reproducibility": 9.0, "security": 3.5, "recency": 9.6, "evidence": 7.0}
+  quality_score: 7.57
   trust_score: 6.61
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Agent S: an open agentic framework that uses computers like a human
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 12,401 (checked 2026-09-28) |
-| Forks | 1,447 |
-| Open issues | 50 |
+| Stars | 12,539 (checked 2026-10-05) |
+| Forks | 1,466 |
+| Open issues | 59 |
 | Contributors | 26 |
-| Last push | 2026-09-05 (22 days before verification) |
+| Last push | 2026-09-05 (29 days before verification) |
 | Latest release | v0.3.2 (2025-12-16) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.09 |
 | reproducibility | 9.0 |
 | security | 3.5 |
-| recency | 9.7 |
+| recency | 9.6 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.58** |
+| **quality_score** (weighted) | **7.57** |
 | **trust_score** | **6.61** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

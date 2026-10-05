@@ -4,25 +4,25 @@ title: "semantic-release/semantic-release"
 domain: developer-tools
 summary: >-
   semantic-release/semantic-release — ACTIVE, tier S,
-  24,071 stars, license MIT, quality 8.47/10, trust 8.33/10.
-  Verified against the GitHub API on 2026-09-28.
+  24,086 stars, license MIT, quality 8.47/10, trust 8.33/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "release", "versioning"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.23, "reproducibility": 9.0, "security": 4.5, "recency": 9.97, "evidence": 7.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.23, "reproducibility": 9.0, "security": 4.5, "recency": 9.99, "evidence": 7.0}
   quality_score: 8.47
   trust_score: 8.33
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 📦🚀 Fully automated version management and package publishing
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 24,071 (checked 2026-09-28) |
-| Forks | 1,808 |
-| Open issues | 403 |
+| Stars | 24,086 (checked 2026-10-05) |
+| Forks | 1,809 |
+| Open issues | 404 |
 | Contributors | 249 |
-| Last push | 2026-09-26 (2 days before verification) |
+| Last push | 2026-10-04 (1 days before verification) |
 | Latest release | v25.0.9 (2026-08-05) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.23 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 9.99 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **8.47** |
 | **trust_score** | **8.33** |

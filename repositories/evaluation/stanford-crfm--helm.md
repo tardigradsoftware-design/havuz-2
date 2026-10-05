@@ -4,25 +4,25 @@ title: "stanford-crfm/helm"
 domain: evaluation
 summary: >-
   stanford-crfm/helm — STABLE, tier A,
-  2,924 stars, license Apache-2.0, quality 7.95/10, trust 7.72/10.
-  Verified against the GitHub API on 2026-09-28.
+  2,933 stars, license Apache-2.0, quality 7.71/10, trust 7.42/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
-confidence: very-high
+confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "evaluation", "github-repository", "methodology"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 9.5, "adoption": 10.0, "documentation": 7.1, "reproducibility": 7.0, "security": 4.5, "recency": 9.63, "evidence": 5.0}
-  quality_score: 7.95
-  trust_score: 7.72
+  components: {"authority": 8.5, "maintenance": 8.0, "adoption": 10.0, "documentation": 7.1, "reproducibility": 7.0, "security": 4.5, "recency": 9.53, "evidence": 5.0}
+  quality_score: 7.71
+  trust_score: 7.42
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: stanford-crfm
     license: Apache-2.0
     license_risk: none
-    confidence: very-high
+    confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # stanford-crfm/helm
 
-🔵 STABLE · tier **A** · production-ready · confidence **very-high**
+🔵 STABLE · tier **A** · production-ready · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 2,924 (checked 2026-09-28) |
-| Forks | 416 |
-| Open issues | 108 |
+| Stars | 2,933 (checked 2026-10-05) |
+| Forks | 421 |
+| Open issues | 112 |
 | Contributors | 130 |
-| Last push | 2026-09-01 (27 days before verification) |
+| Last push | 2026-09-01 (34 days before verification) |
 | Latest release | v0.5.16 (2026-04-30) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.5 |
-| maintenance | 9.5 |
+| maintenance | 8.0 |
 | adoption | 10.0 |
 | documentation | 7.1 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 9.63 |
+| recency | 9.53 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.95** |
-| **trust_score** | **7.72** |
+| **quality_score** (weighted) | **7.71** |
+| **trust_score** | **7.42** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**

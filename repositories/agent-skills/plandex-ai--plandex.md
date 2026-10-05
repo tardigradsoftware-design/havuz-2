@@ -3,26 +3,26 @@ id: plandex-ai--plandex
 title: "plandex-ai/plandex"
 domain: agent-skills
 summary: >-
-  plandex-ai/plandex — MAINTENANCE, tier B,
-  15,668 stars, license MIT, quality 7.0/10, trust 7.03/10.
-  Verified against the GitHub API on 2026-09-28.
-status: active
+  plandex-ai/plandex — ABANDONED, tier B,
+  15,689 stars, license MIT, quality 6.59/10, trust 6.53/10.
+  Verified against the GitHub API on 2026-10-05.
+status: deprecated
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "terminal"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 6.9, "reproducibility": 9.0, "security": 4.5, "recency": 5.08, "evidence": 7.0}
-  quality_score: 7.0
-  trust_score: 7.03
+  components: {"authority": 9.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 6.9, "reproducibility": 9.0, "security": 3.5, "recency": 4.99, "evidence": 7.0}
+  quality_score: 6.59
+  trust_score: 6.53
   tier: B
-  maturity: maintenance-mode
+  maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # plandex-ai/plandex
 
-🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **high**
+🔴 ABANDONED · tier **B** · end-of-life · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Open source AI coding agent. Designed for large projects and real world tasks.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 15,668 (checked 2026-09-28) |
-| Forks | 1,178 |
+| Stars | 15,689 (checked 2026-10-05) |
+| Forks | 1,177 |
 | Open issues | 66 |
 | Contributors | 22 |
-| Last push | 2025-10-03 (359 days before verification) |
+| Last push | 2025-10-03 (366 days before verification) |
 | Latest release | cli/v2.2.1 (2025-07-16) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 3.0 |
+| maintenance | 1.0 |
 | adoption | 10.0 |
 | documentation | 6.9 |
 | reproducibility | 9.0 |
-| security | 4.5 |
-| recency | 5.08 |
+| security | 3.5 |
+| recency | 4.99 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.0** |
-| **trust_score** | **7.03** |
+| **quality_score** (weighted) | **6.59** |
+| **trust_score** | **6.53** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 359 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 366 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 

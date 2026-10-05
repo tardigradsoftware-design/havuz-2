@@ -3,26 +3,26 @@ id: nanobrowser--nanobrowser
 title: "nanobrowser/nanobrowser"
 domain: browser-automation
 summary: >-
-  nanobrowser/nanobrowser — STABLE, tier A,
-  13,839 stars, license Apache-2.0, quality 7.87/10, trust 7.55/10.
-  Verified against the GitHub API on 2026-09-28.
+  nanobrowser/nanobrowser — ACTIVE, tier S,
+  13,961 stars, license Apache-2.0, quality 8.3/10, trust 8.06/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "browser", "browser-automation", "chrome-extension", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 7.5, "adoption": 10.0, "documentation": 6.03, "reproducibility": 7.0, "security": 7.0, "recency": 9.44, "evidence": 5.0}
-  quality_score: 7.87
-  trust_score: 7.55
-  tier: A
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.07, "reproducibility": 7.0, "security": 7.0, "recency": 9.97, "evidence": 5.0}
+  quality_score: 8.3
+  trust_score: 8.06
+  tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # nanobrowser/nanobrowser
 
-🔵 STABLE · tier **A** · production-grade · confidence **very-high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 13,839 (checked 2026-09-28) |
-| Forks | 1,463 |
-| Open issues | 81 |
+| Stars | 13,961 (checked 2026-10-05) |
+| Forks | 1,480 |
+| Open issues | 82 |
 | Contributors | 25 |
-| Last push | 2026-08-18 (41 days before verification) |
-| Latest release | v0.1.13 (2025-11-22) |
+| Last push | 2026-10-02 (2 days before verification) |
+| Latest release | v0.2.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://nanobrowser.ai](https://nanobrowser.ai) |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 7.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.03 |
+| documentation | 6.07 |
 | reproducibility | 7.0 |
 | security | 7.0 |
-| recency | 9.44 |
+| recency | 9.97 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.87** |
-| **trust_score** | **7.55** |
+| **quality_score** (weighted) | **8.3** |
+| **trust_score** | **8.06** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 12,300 bytes |
+| README size | 12,814 bytes |
 
 ## Curated judgement
 

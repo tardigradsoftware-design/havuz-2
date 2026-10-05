@@ -4,25 +4,25 @@ title: "OpenHands/OpenHands"
 domain: agent-skills
 summary: >-
   OpenHands/OpenHands — ACTIVE, tier S,
-  89,353 stars, license MIT, quality 8.09/10, trust 7.25/10.
-  Verified against the GitHub API on 2026-09-28.
+  90,017 stars, license MIT, quality 8.11/10, trust 7.29/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "autonomous", "coding-agent", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.35, "reproducibility": 10.0, "security": 3.5, "recency": 10.0, "evidence": 8.0}
-  quality_score: 8.09
-  trust_score: 7.25
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.57, "reproducibility": 10.0, "security": 3.5, "recency": 10.0, "evidence": 8.0}
+  quality_score: 8.11
+  trust_score: 7.29
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🙌 OpenHands: AI-Driven Development
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 89,353 (checked 2026-09-28) |
-| Forks | 11,780 |
-| Open issues | 864 |
+| Stars | 90,017 (checked 2026-10-05) |
+| Forks | 11,900 |
+| Open issues | 954 |
 | Contributors | 461 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v1.24.0 (2026-09-25) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.35 |
+| documentation | 7.57 |
 | reproducibility | 10.0 |
 | security | 3.5 |
 | recency | 10.0 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **8.09** |
-| **trust_score** | **7.25** |
+| **quality_score** (weighted) | **8.11** |
+| **trust_score** | **7.29** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | no |
 | root entries | yes |
-| README size | 10,162 bytes |
+| README size | 12,836 bytes |
 
 ## Curated judgement
 

@@ -4,17 +4,17 @@ title: "stripe/ai"
 domain: mcp-servers
 summary: >-
   stripe/ai — ACTIVE, tier S,
-  1,840 stars, license MIT, quality 8.42/10, trust 8.18/10.
-  Verified against the GitHub API on 2026-09-28.
+  1,856 stars, license MIT, quality 8.42/10, trust 8.18/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "payments", "stripe"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.2, "reproducibility": 8.0, "security": 7.0, "recency": 10.0, "evidence": 6.0}
   quality_score: 8.42
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > One-stop shop for building AI-powered products and businesses with Stripe.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 1,840 (checked 2026-09-28) |
-| Forks | 348 |
-| Open issues | 93 |
+| Stars | 1,856 (checked 2026-10-05) |
+| Forks | 352 |
+| Open issues | 96 |
 | Contributors | 41 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |

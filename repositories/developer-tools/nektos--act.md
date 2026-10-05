@@ -4,25 +4,25 @@ title: "nektos/act"
 domain: developer-tools
 summary: >-
   nektos/act — STABLE, tier A,
-  72,132 stars, license MIT, quality 7.56/10, trust 7.14/10.
-  Verified against the GitHub API on 2026-09-28.
+  72,214 stars, license MIT, quality 7.55/10, trust 7.14/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ci-cd", "developer-tools", "github-actions", "github-repository", "local"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 8.0, "adoption": 10.0, "documentation": 5.28, "reproducibility": 7.5, "security": 4.5, "recency": 9.33, "evidence": 5.0}
-  quality_score: 7.56
+  components: {"authority": 8.5, "maintenance": 8.0, "adoption": 10.0, "documentation": 5.28, "reproducibility": 7.5, "security": 4.5, "recency": 9.23, "evidence": 5.0}
+  quality_score: 7.55
   trust_score: 7.14
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Run your GitHub Actions locally 🚀
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 72,132 (checked 2026-09-28) |
-| Forks | 2,046 |
+| Stars | 72,214 (checked 2026-10-05) |
+| Forks | 2,055 |
 | Open issues | 385 |
 | Contributors | 202 |
-| Last push | 2026-08-09 (49 days before verification) |
+| Last push | 2026-08-09 (56 days before verification) |
 | Latest release | v0.2.89 (2026-06-01) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.28 |
 | reproducibility | 7.5 |
 | security | 4.5 |
-| recency | 9.33 |
+| recency | 9.23 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.56** |
+| **quality_score** (weighted) | **7.55** |
 | **trust_score** | **7.14** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

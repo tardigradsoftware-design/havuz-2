@@ -4,25 +4,25 @@ title: "colinhacks/zod"
 domain: frontend
 summary: >-
   colinhacks/zod — ACTIVE, tier A,
-  44,032 stars, license MIT, quality 8.0/10, trust 7.6/10.
-  Verified against the GitHub API on 2026-09-28.
+  44,058 stars, license MIT, quality 8.0/10, trust 7.6/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["frontend", "github-repository", "typescript", "validation"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.0, "reproducibility": 7.0, "security": 7.0, "recency": 9.95, "evidence": 5.0}
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.0, "reproducibility": 7.0, "security": 7.0, "recency": 9.97, "evidence": 5.0}
   quality_score: 8.0
   trust_score: 7.6
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > TypeScript-first schema validation with static type inference
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 44,032 (checked 2026-09-28) |
-| Forks | 2,207 |
-| Open issues | 76 |
+| Stars | 44,058 (checked 2026-10-05) |
+| Forks | 2,224 |
+| Open issues | 87 |
 | Contributors | 461 |
-| Last push | 2026-09-24 (4 days before verification) |
+| Last push | 2026-10-02 (2 days before verification) |
 | Latest release | v4.6.5 (2026-09-13) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 5.0 |
 | reproducibility | 7.0 |
 | security | 7.0 |
-| recency | 9.95 |
+| recency | 9.97 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **8.0** |
 | **trust_score** | **7.6** |

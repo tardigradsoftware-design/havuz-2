@@ -4,17 +4,17 @@ title: "affaan-m/ECC"
 domain: agent-skills
 summary: >-
   affaan-m/ECC — ACTIVE, tier S,
-  268,638 stars, license MIT, quality 8.45/10, trust 7.72/10.
-  Verified against the GitHub API on 2026-09-28.
+  273,262 stars, license MIT, quality 8.45/10, trust 7.72/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-skills", "github-repository", "harness", "optimization"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
   quality_score: 8.45
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 268,638 (checked 2026-09-28) |
-| Forks | 40,132 |
-| Open issues | 232 |
-| Contributors | 357 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v2.2.1 (2026-09-08) |
+| Stars | 273,262 (checked 2026-10-05) |
+| Forks | 40,784 |
+| Open issues | 347 |
+| Contributors | 370 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v2.2.3 (2026-10-01) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://ecc.tools](https://ecc.tools) |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 106,074 bytes |
+| README size | 106,621 bytes |
 
 ## Curated judgement
 

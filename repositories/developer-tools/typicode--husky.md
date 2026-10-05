@@ -4,25 +4,25 @@ title: "typicode/husky"
 domain: developer-tools
 summary: >-
   typicode/husky — MAINTENANCE, tier B,
-  35,334 stars, license MIT, quality 6.99/10, trust 6.65/10.
-  Verified against the GitHub API on 2026-09-28.
+  35,337 stars, license MIT, quality 6.98/10, trust 6.65/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "git-hooks", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 7.5, "maintenance": 4.0, "adoption": 10.0, "documentation": 6.0, "reproducibility": 9.0, "security": 4.5, "recency": 7.37, "evidence": 7.0}
-  quality_score: 6.99
+  components: {"authority": 7.5, "maintenance": 4.0, "adoption": 10.0, "documentation": 6.0, "reproducibility": 9.0, "security": 4.5, "recency": 7.27, "evidence": 7.0}
+  quality_score: 6.98
   trust_score: 6.65
   tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Git hooks made easy 🐶 woof!
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 35,334 (checked 2026-09-28) |
-| Forks | 1,096 |
-| Open issues | 108 |
+| Stars | 35,337 (checked 2026-10-05) |
+| Forks | 1,097 |
+| Open issues | 107 |
 | Contributors | 124 |
-| Last push | 2026-03-19 (192 days before verification) |
+| Last push | 2026-03-19 (199 days before verification) |
 | Latest release | v9.1.7 (2024-11-18) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.0 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 7.37 |
+| recency | 7.27 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **6.99** |
+| **quality_score** (weighted) | **6.98** |
 | **trust_score** | **6.65** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 192 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 199 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

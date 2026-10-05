@@ -4,25 +4,25 @@ title: "ifixai-ai/iFixAi"
 domain: evaluation
 summary: >-
   ifixai-ai/iFixAi — ACTIVE, tier A,
-  16,287 stars, license Apache-2.0, quality 7.92/10, trust 7.09/10.
-  Verified against the GitHub API on 2026-09-28.
+  20,799 stars, license Apache-2.0, quality 7.93/10, trust 7.09/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-audit", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.76, "reproducibility": 7.0, "security": 6.0, "recency": 9.97, "evidence": 5.5}
-  quality_score: 7.92
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.76, "reproducibility": 7.0, "security": 6.0, "recency": 10.0, "evidence": 5.5}
+  quality_score: 7.93
   trust_score: 7.09
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 16,287 (checked 2026-09-28) |
-| Forks | 1,342 |
-| Open issues | 22 |
-| Contributors | 13 |
-| Last push | 2026-09-25 (2 days before verification) |
+| Stars | 20,799 (checked 2026-10-05) |
+| Forks | 1,400 |
+| Open issues | 37 |
+| Contributors | 14 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v4.0.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.76 |
 | reproducibility | 7.0 |
 | security | 6.0 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **7.92** |
+| **quality_score** (weighted) | **7.93** |
 | **trust_score** | **7.09** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

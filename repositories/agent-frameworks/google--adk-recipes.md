@@ -4,25 +4,25 @@ title: "google/adk-recipes"
 domain: agent-frameworks
 summary: >-
   google/adk-recipes — ACTIVE, tier A,
-  10,389 stars, license Apache-2.0, quality 7.82/10, trust 7.51/10.
-  Verified against the GitHub API on 2026-09-28.
+  10,412 stars, license Apache-2.0, quality 7.83/10, trust 7.51/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "github-repository", "google", "samples"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.71, "reproducibility": 6.0, "security": 4.5, "recency": 9.97, "evidence": 4.0}
-  quality_score: 7.82
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.75, "reproducibility": 6.0, "security": 4.5, "recency": 10.0, "evidence": 4.0}
+  quality_score: 7.83
   trust_score: 7.51
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,9 +50,9 @@ sources:
 
 > _Upstream description, quoted as published and not verified here:_
 >
-> A collection of sample agents built with Agent Development Kit (ADK)
+> A collection of agent recipes, reference patterns, and vertical plugins built with Agent Development Kit (ADK)
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 10,389 (checked 2026-09-28) |
-| Forks | 2,874 |
-| Open issues | 64 |
-| Contributors | 136 |
-| Last push | 2026-09-26 (2 days before verification) |
+| Stars | 10,412 (checked 2026-10-05) |
+| Forks | 2,891 |
+| Open issues | 27 |
+| Contributors | 138 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -80,12 +80,12 @@ sources:
 | authority | 8.5 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.71 |
+| documentation | 6.75 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.82** |
+| **quality_score** (weighted) | **7.83** |
 | **trust_score** | **7.51** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 2,537 bytes |
+| README size | 2,982 bytes |
 
 ## Curated judgement
 

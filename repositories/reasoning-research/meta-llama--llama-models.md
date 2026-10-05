@@ -4,25 +4,25 @@ title: "meta-llama/llama-models"
 domain: reasoning-research
 summary: >-
   meta-llama/llama-models — STABLE, tier B,
-  7,702 stars, license NOASSERTION, quality 6.66/10, trust 6.33/10.
-  Verified against the GitHub API on 2026-09-28.
+  7,709 stars, license NOASSERTION, quality 6.65/10, trust 6.33/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "open-model", "reasoning-research"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 3.5, "adoption": 10.0, "documentation": 6.34, "reproducibility": 6.1, "security": 6.5, "recency": 6.88, "evidence": 4.5}
-  quality_score: 6.66
+  components: {"authority": 8.0, "maintenance": 3.5, "adoption": 10.0, "documentation": 6.34, "reproducibility": 6.1, "security": 6.5, "recency": 6.78, "evidence": 4.5}
+  quality_score: 6.65
   trust_score: 6.33
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Utilities intended for use with Llama models.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 7,702 (checked 2026-09-28) |
-| Forks | 1,408 |
-| Open issues | 220 |
+| Stars | 7,709 (checked 2026-10-05) |
+| Forks | 1,410 |
+| Open issues | 223 |
 | Contributors | 40 |
-| Last push | 2026-02-11 (228 days before verification) |
+| Last push | 2026-02-11 (235 days before verification) |
 | Latest release | v0.2.0 (2025-04-05) |
 | Archived | no |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 6.34 |
 | reproducibility | 6.1 |
 | security | 6.5 |
-| recency | 6.88 |
+| recency | 6.78 |
 | evidence | 4.5 |
-| **quality_score** (weighted) | **6.66** |
+| **quality_score** (weighted) | **6.65** |
 | **trust_score** | **6.33** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

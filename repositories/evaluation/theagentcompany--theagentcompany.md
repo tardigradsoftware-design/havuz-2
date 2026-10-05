@@ -4,25 +4,25 @@ title: "TheAgentCompany/TheAgentCompany"
 domain: evaluation
 summary: >-
   TheAgentCompany/TheAgentCompany — STABLE, tier B,
-  784 stars, license MIT, quality 5.91/10, trust 5.01/10.
-  Verified against the GitHub API on 2026-09-28.
+  791 stars, license MIT, quality 5.9/10, trust 5.01/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "benchmark", "evaluation", "github-repository", "simulated-company"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 3.0, "adoption": 9.79, "documentation": 6.71, "reproducibility": 7.0, "security": 3.5, "recency": 5.7, "evidence": 5.0}
-  quality_score: 5.91
+  components: {"authority": 6.0, "maintenance": 3.0, "adoption": 9.8, "documentation": 6.71, "reproducibility": 7.0, "security": 3.5, "recency": 5.6, "evidence": 5.0}
+  quality_score: 5.9
   trust_score: 5.01
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An agent benchmark with tasks in a simulated software company.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 784 (checked 2026-09-28) |
+| Stars | 791 (checked 2026-10-05) |
 | Forks | 126 |
-| Open issues | 25 |
+| Open issues | 26 |
 | Contributors | 24 |
-| Last push | 2025-11-17 (314 days before verification) |
+| Last push | 2025-11-17 (321 days before verification) |
 | Latest release | 1.0.0 (2024-12-20) |
 | Archived | no |
 | Fork | no |
@@ -79,13 +79,13 @@ sources:
 |---|---|
 | authority | 6.0 |
 | maintenance | 3.0 |
-| adoption | 9.79 |
+| adoption | 9.8 |
 | documentation | 6.71 |
 | reproducibility | 7.0 |
 | security | 3.5 |
-| recency | 5.7 |
+| recency | 5.6 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **5.91** |
+| **quality_score** (weighted) | **5.9** |
 | **trust_score** | **5.01** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

@@ -3,26 +3,26 @@ id: sierra-research--tau-bench
 title: "sierra-research/tau-bench"
 domain: evaluation
 summary: >-
-  sierra-research/tau-bench — STABLE, tier B,
-  1,447 stars, license MIT, quality 5.81/10, trust 5.08/10.
-  Verified against the GitHub API on 2026-09-28.
+  sierra-research/tau-bench — STABLE, tier C,
+  1,456 stars, license MIT, quality 5.8/10, trust 5.08/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "evaluation", "github-repository", "tool-use"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.2, "reproducibility": 4.5, "security": 4.5, "recency": 7.36, "evidence": 2.0}
-  quality_score: 5.81
+  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.2, "reproducibility": 4.5, "security": 4.5, "recency": 7.26, "evidence": 2.0}
+  quality_score: 5.8
   trust_score: 5.08
-  tier: B
+  tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # sierra-research/tau-bench
 
-🔵 STABLE · tier **B** · published-artifact · confidence **medium**
+🔵 STABLE · tier **C** · published-artifact · confidence **medium**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Code and Data for Tau-Bench
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 1,447 (checked 2026-09-28) |
-| Forks | 218 |
+| Stars | 1,456 (checked 2026-10-05) |
+| Forks | 219 |
 | Open issues | 55 |
 | Contributors | 15 |
-| Last push | 2026-03-18 (193 days before verification) |
+| Last push | 2026-03-18 (200 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 4.2 |
 | reproducibility | 4.5 |
 | security | 4.5 |
-| recency | 7.36 |
+| recency | 7.26 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **5.81** |
+| **quality_score** (weighted) | **5.8** |
 | **trust_score** | **5.08** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

@@ -4,25 +4,25 @@ title: "OWASP/www-project-top-ten"
 domain: instructions-standards
 summary: >-
   OWASP/www-project-top-ten — MAINTENANCE, tier NO-LICENSE,
-  1,448 stars, license NONE, quality 5.02/10, trust 3.2/10.
-  Verified against the GitHub API on 2026-09-28.
+  1,447 stars, license NONE, quality 5.01/10, trust 3.2/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "instructions-standards", "owasp", "security", "standard"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 3.0, "reproducibility": 1.0, "security": 2.5, "recency": 6.21, "evidence": 2.0}
-  quality_score: 5.02
+  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 3.0, "reproducibility": 1.0, "security": 2.5, "recency": 6.11, "evidence": 2.0}
+  quality_score: 5.01
   trust_score: 3.2
   tier: NO-LICENSE
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > OWASP Foundation Web Respository
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-28. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-10-05. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | yes |
 | Language | HTML |
 | License | `NONE` |
-| Stars | 1,448 (checked 2026-09-28) |
-| Forks | 278 |
+| Stars | 1,447 (checked 2026-10-05) |
+| Forks | 277 |
 | Open issues | 43 |
 | Contributors | 14 |
-| Last push | 2025-12-24 (277 days before verification) |
+| Last push | 2025-12-24 (284 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -88,9 +88,9 @@ sources:
 | documentation | 3.0 |
 | reproducibility | 1.0 |
 | security | 2.5 |
-| recency | 6.21 |
+| recency | 6.11 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **5.02** |
+| **quality_score** (weighted) | **5.01** |
 | **trust_score** | **3.2** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -140,7 +140,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 277 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only.
+No push in 284 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. NO LICENSE FILE DETECTED by GitHub. Copyright defaults to all-rights-reserved: do not vendor, copy or redistribute code from this repository. Reference and link only.
 
 ## How to re-verify
 

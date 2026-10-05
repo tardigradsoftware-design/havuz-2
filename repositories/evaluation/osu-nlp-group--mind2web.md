@@ -4,25 +4,25 @@ title: "OSU-NLP-Group/Mind2Web"
 domain: evaluation
 summary: >-
   OSU-NLP-Group/Mind2Web — STABLE, tier B,
-  1,029 stars, license MIT, quality 6.0/10, trust 5.6/10.
-  Verified against the GitHub API on 2026-09-28.
+  1,031 stars, license MIT, quality 5.99/10, trust 5.6/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["dataset", "evaluation", "github-repository", "web-agent"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 3.0, "adoption": 10.0, "documentation": 7.48, "reproducibility": 4.5, "security": 4.5, "recency": 5.52, "evidence": 1.5}
-  quality_score: 6.0
+  components: {"authority": 8.5, "maintenance": 3.0, "adoption": 10.0, "documentation": 7.48, "reproducibility": 4.5, "security": 4.5, "recency": 5.42, "evidence": 1.5}
+  quality_score: 5.99
   trust_score: 5.6
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > \[NeurIPS'23 Spotlight\] "Mind2Web: Towards a Generalist Agent for the Web" -- the first LLM-based web agent and benchmark for generalist web agents
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `MIT` |
-| Stars | 1,029 (checked 2026-09-28) |
+| Stars | 1,031 (checked 2026-10-05) |
 | Forks | 124 |
 | Open issues | 14 |
-| Contributors | 8 |
-| Last push | 2025-11-05 (327 days before verification) |
+| Contributors | 7 |
+| Last push | 2025-11-05 (334 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.48 |
 | reproducibility | 4.5 |
 | security | 4.5 |
-| recency | 5.52 |
+| recency | 5.42 |
 | evidence | 1.5 |
-| **quality_score** (weighted) | **6.0** |
+| **quality_score** (weighted) | **5.99** |
 | **trust_score** | **5.6** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T10:59:44+00:00",
+  "generated_at": "2026-10-05T11:34:29+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "description": "Knowledge graph. Traverse from a task's domain to the skills, frameworks, MCP servers, repositories and papers that support it.",
-  "node_count": 1108,
+  "node_count": 1109,
   "edge_count": 1484,
   "nodes": [
     {
@@ -1487,7 +1487,12 @@
     {
       "id": "getsentry/sentry-mcp",
       "kinds": [
-        "referenced",
+        "referenced"
+      ]
+    },
+    {
+      "id": "getsentry/toolkit",
+      "kinds": [
         "repository"
       ]
     },
@@ -13357,12 +13362,6 @@
       "target": "https://pypi.org/project/openai/"
     },
     {
-      "source": "openai/openai-agents-python",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://openai.github.io/openai-agents-python/"
-    },
-    {
       "source": "assafelovic/gpt-researcher",
       "source_kind": "repository",
       "type": "related",
@@ -13385,6 +13384,12 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://gptr.dev"
+    },
+    {
+      "source": "openai/openai-agents-python",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://openai.github.io/openai-agents-python/"
     },
     {
       "source": "huggingface/smolagents",
@@ -13615,16 +13620,16 @@
       "target": "VoltAgent/awesome-agent-skills"
     },
     {
-      "source": "anthropics/claude-code",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://code.claude.com/docs/en/overview"
-    },
-    {
       "source": "DietrichGebert/ponytail",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://ponytail.dev"
+    },
+    {
+      "source": "anthropics/claude-code",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://code.claude.com/docs/en/overview"
     },
     {
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -13729,16 +13734,16 @@
       "target": "https://goose-docs.ai/"
     },
     {
-      "source": "VoltAgent/awesome-openclaw-skills",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://clawskills.sh/"
-    },
-    {
       "source": "blader/humanizer",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://skills.sh/blader/humanizer"
+    },
+    {
+      "source": "VoltAgent/awesome-openclaw-skills",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://clawskills.sh/"
     },
     {
       "source": "Imbad0202/academic-research-skills",
@@ -14533,16 +14538,16 @@
       "target": "https://docs.headroomlabs.ai/docs"
     },
     {
-      "source": "moby/moby",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://mobyproject.org/"
-    },
-    {
       "source": "nektos/act",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://nektosact.com"
+    },
+    {
+      "source": "moby/moby",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://mobyproject.org/"
     },
     {
       "source": "prometheus/prometheus",
@@ -14599,16 +14604,16 @@
       "target": "https://diagrams.mingrammer.com"
     },
     {
-      "source": "koalaman/shellcheck",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://www.shellcheck.net"
-    },
-    {
       "source": "PostHog/posthog",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://posthog.com"
+    },
+    {
+      "source": "koalaman/shellcheck",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://www.shellcheck.net"
     },
     {
       "source": "httpie/cli",
@@ -14923,16 +14928,16 @@
       "target": "https://www.comet.com/docs/opik/"
     },
     {
-      "source": "confident-ai/deepeval",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://deepeval.com"
-    },
-    {
       "source": "ifixai-ai/iFixAi",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://www.ifixai.ai"
+    },
+    {
+      "source": "confident-ai/deepeval",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://deepeval.com"
     },
     {
       "source": "vibrantlabsai/ragas",
@@ -15073,16 +15078,16 @@
       "target": "https://livecodebench.github.io/"
     },
     {
-      "source": "mlcommons/croissant",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://mlcommons.org/croissant"
-    },
-    {
       "source": "TIGER-AI-Lab/ClawBench",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://claw-bench.com"
+    },
+    {
+      "source": "mlcommons/croissant",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://mlcommons.org/croissant"
     },
     {
       "source": "Ayanami0730/deep_research_bench",
@@ -15385,12 +15390,6 @@
       "target": "https://create.t3.gg"
     },
     {
-      "source": "tailwindlabs/headlessui",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://headlessui.com"
-    },
-    {
       "source": "greensock/GSAP",
       "source_kind": "repository",
       "type": "related",
@@ -15413,6 +15412,12 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://gsap.com"
+    },
+    {
+      "source": "tailwindlabs/headlessui",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://headlessui.com"
     },
     {
       "source": "TanStack/table",
@@ -15739,16 +15744,16 @@
       "target": "https://oraios.github.io/serena"
     },
     {
-      "source": "modelcontextprotocol/python-sdk",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://py.sdk.modelcontextprotocol.io/"
-    },
-    {
       "source": "mksglu/context-mode",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://context-mode.com"
+    },
+    {
+      "source": "modelcontextprotocol/python-sdk",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://py.sdk.modelcontextprotocol.io/"
     },
     {
       "source": "czlonkowski/n8n-mcp",
@@ -15847,7 +15852,7 @@
       "target": "https://docs.stripe.com/agents"
     },
     {
-      "source": "getsentry/sentry-mcp",
+      "source": "getsentry/toolkit",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://mcp.sentry.dev"

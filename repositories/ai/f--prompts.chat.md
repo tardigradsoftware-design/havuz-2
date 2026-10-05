@@ -3,26 +3,26 @@ id: f--prompts.chat
 title: "f/prompts.chat"
 domain: ai
 summary: >-
-  f/prompts.chat — STABLE, tier A,
-  171,455 stars, license NOASSERTION, quality 7.5/10, trust 6.57/10.
-  Verified against the GitHub API on 2026-09-28.
+  f/prompts.chat — ACTIVE, tier A,
+  172,059 stars, license NOASSERTION, quality 7.6/10, trust 6.67/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "catalog", "github-repository", "prompting"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.0, "maintenance": 9.5, "adoption": 10.0, "documentation": 7.45, "reproducibility": 7.1, "security": 5.5, "recency": 9.74, "evidence": 6.0}
-  quality_score: 7.5
-  trust_score: 6.57
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.45, "reproducibility": 7.1, "security": 5.5, "recency": 9.97, "evidence": 6.0}
+  quality_score: 7.6
+  trust_score: 6.67
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,29 +36,29 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # f/prompts.chat
 
-🔵 STABLE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | no |
 | Language | HTML |
 | License | `NOASSERTION` |
-| Stars | 171,455 (checked 2026-09-28) |
-| Forks | 22,007 |
-| Open issues | 83 |
+| Stars | 172,059 (checked 2026-10-05) |
+| Forks | 22,030 |
+| Open issues | 84 |
 | Contributors | 280 |
-| Last push | 2026-09-09 (19 days before verification) |
+| Last push | 2026-10-03 (2 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -84,15 +84,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 5.0 |
-| maintenance | 9.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 7.45 |
 | reproducibility | 7.1 |
 | security | 5.5 |
-| recency | 9.74 |
+| recency | 9.97 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **7.5** |
-| **trust_score** | **6.57** |
+| **quality_score** (weighted) | **7.6** |
+| **trust_score** | **6.67** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

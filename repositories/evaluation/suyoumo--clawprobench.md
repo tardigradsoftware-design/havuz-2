@@ -4,25 +4,25 @@ title: "suyoumo/ClawProBench"
 domain: evaluation
 summary: >-
   suyoumo/ClawProBench — STABLE, tier A,
-  824 stars, license Apache-2.0, quality 7.13/10, trust 5.91/10.
-  Verified against the GitHub API on 2026-09-28.
+  824 stars, license Apache-2.0, quality 7.12/10, trust 5.91/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "evaluation", "github-repository", "live"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.0, "maintenance": 7.0, "adoption": 9.7, "documentation": 7.7, "reproducibility": 8.0, "security": 6.0, "recency": 9.55, "evidence": 5.0}
-  quality_score: 7.13
+  components: {"authority": 5.0, "maintenance": 7.0, "adoption": 9.7, "documentation": 7.7, "reproducibility": 8.0, "security": 6.0, "recency": 9.45, "evidence": 5.0}
+  quality_score: 7.12
   trust_score: 5.91
   tier: A
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > ClawProBench is a live-first benchmark harness for evaluating LLM agents   in the OpenClaw runtime with deterministic grading and repeated-trial   reliability.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 824 (checked 2026-09-28) |
-| Forks | 55 |
+| Stars | 824 (checked 2026-10-05) |
+| Forks | 54 |
 | Open issues | 0 |
 | Contributors | — |
-| Last push | 2026-08-25 (33 days before verification) |
+| Last push | 2026-08-25 (40 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.7 |
 | reproducibility | 8.0 |
 | security | 6.0 |
-| recency | 9.55 |
+| recency | 9.45 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.13** |
+| **quality_score** (weighted) | **7.12** |
 | **trust_score** | **5.91** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

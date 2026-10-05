@@ -4,25 +4,25 @@ title: "Egonex-AI/Understand-Anything"
 domain: developer-tools
 summary: >-
   Egonex-AI/Understand-Anything — ACTIVE, tier S,
-  84,431 stars, license MIT, quality 8.21/10, trust 7.37/10.
-  Verified against the GitHub API on 2026-09-28.
+  85,310 stars, license MIT, quality 8.21/10, trust 7.37/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["codebase-understanding", "developer-tools", "github-repository", "visualization"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.13, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.0}
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.13, "reproducibility": 9.0, "security": 6.0, "recency": 9.96, "evidence": 7.0}
   quality_score: 8.21
   trust_score: 7.37
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 84,431 (checked 2026-09-28) |
-| Forks | 7,119 |
-| Open issues | 308 |
+| Stars | 85,310 (checked 2026-10-05) |
+| Forks | 7,189 |
+| Open issues | 312 |
 | Contributors | 59 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Last push | 2026-10-02 (3 days before verification) |
 | Latest release | v2.9.0 (2026-07-10) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 8.13 |
 | reproducibility | 9.0 |
 | security | 6.0 |
-| recency | 10.0 |
+| recency | 9.96 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **8.21** |
 | **trust_score** | **7.37** |

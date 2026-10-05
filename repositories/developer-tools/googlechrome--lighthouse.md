@@ -4,25 +4,25 @@ title: "GoogleChrome/lighthouse"
 domain: developer-tools
 summary: >-
   GoogleChrome/lighthouse — ACTIVE, tier S,
-  30,825 stars, license Apache-2.0, quality 8.49/10, trust 8.52/10.
-  Verified against the GitHub API on 2026-09-28.
+  30,855 stars, license Apache-2.0, quality 8.5/10, trust 8.52/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["accessibility", "audit", "developer-tools", "github-repository", "performance"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 7.0, "security": 4.5, "recency": 9.9, "evidence": 5.5}
-  quality_score: 8.49
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.5}
+  quality_score: 8.5
   trust_score: 8.52
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Automated auditing, performance metrics, and best practices for the web.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `Apache-2.0` |
-| Stars | 30,825 (checked 2026-09-28) |
-| Forks | 9,761 |
-| Open issues | 466 |
+| Stars | 30,855 (checked 2026-10-05) |
+| Forks | 9,758 |
+| Open issues | 469 |
 | Contributors | 361 |
-| Last push | 2026-09-20 (7 days before verification) |
+| Last push | 2026-10-04 (0 days before verification) |
 | Latest release | v13.5.0 (2026-09-18) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 10.0 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 9.9 |
+| recency | 10.0 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **8.49** |
+| **quality_score** (weighted) | **8.5** |
 | **trust_score** | **8.52** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

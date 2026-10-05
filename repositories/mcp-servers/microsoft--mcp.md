@@ -4,25 +4,25 @@ title: "microsoft/mcp"
 domain: mcp-servers
 summary: >-
   microsoft/mcp — ACTIVE, tier S,
-  3,720 stars, license MIT, quality 8.4/10, trust 8.12/10.
-  Verified against the GitHub API on 2026-09-28.
+  3,730 stars, license MIT, quality 8.4/10, trust 8.12/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["catalog", "github-repository", "mcp", "mcp-servers", "microsoft"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 5.0}
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 7.5, "security": 7.0, "recency": 9.99, "evidence": 5.0}
   quality_score: 8.4
   trust_score: 8.12
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | C# |
 | License | `MIT` |
-| Stars | 3,720 (checked 2026-09-28) |
-| Forks | 629 |
-| Open issues | 307 |
+| Stars | 3,730 (checked 2026-10-05) |
+| Forks | 635 |
+| Open issues | 295 |
 | Contributors | 167 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | Azure.Mcp.Server-3.0.0-beta.47 (2026-09-24) |
+| Last push | 2026-10-03 (1 days before verification) |
+| Latest release | Template.Mcp.Server-0.0.12-alpha.6913352 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | — |
@@ -83,7 +83,7 @@ sources:
 | documentation | 8.5 |
 | reproducibility | 7.5 |
 | security | 7.0 |
-| recency | 10.0 |
+| recency | 9.99 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **8.4** |
 | **trust_score** | **8.12** |

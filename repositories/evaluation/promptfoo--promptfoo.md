@@ -4,17 +4,17 @@ title: "promptfoo/promptfoo"
 domain: evaluation
 summary: >-
   promptfoo/promptfoo — ACTIVE, tier S,
-  25,524 stars, license MIT, quality 9.04/10, trust 9.01/10.
-  Verified against the GitHub API on 2026-09-28.
+  25,714 stars, license MIT, quality 9.04/10, trust 9.01/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "github-repository", "llm-ops", "red-team"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.38, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 9.04
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 25,524 (checked 2026-09-28) |
-| Forks | 2,388 |
-| Open issues | 750 |
-| Contributors | 350 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Stars | 25,714 (checked 2026-10-05) |
+| Forks | 2,439 |
+| Open issues | 716 |
+| Contributors | 361 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | 0.123.1 (2026-09-18) |
 | Archived | no |
 | Fork | no |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 4,605 bytes |
+| README size | 4,596 bytes |
 
 ## Curated judgement
 

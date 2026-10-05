@@ -4,25 +4,25 @@ title: "ossf/package-analysis"
 domain: developer-tools
 summary: >-
   ossf/package-analysis — ACTIVE, tier S,
-  915 stars, license Apache-2.0, quality 8.63/10, trust 8.38/10.
-  Verified against the GitHub API on 2026-09-28.
+  916 stars, license Apache-2.0, quality 8.4/10, trust 8.08/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "security", "supply-chain"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 9.86, "documentation": 6.06, "reproducibility": 10.0, "security": 7.0, "recency": 9.97, "evidence": 7.5}
-  quality_score: 8.63
-  trust_score: 8.38
+  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 9.86, "documentation": 6.06, "reproducibility": 10.0, "security": 7.0, "recency": 9.88, "evidence": 7.5}
+  quality_score: 8.4
+  trust_score: 8.08
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Open Source Package Analysis
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 915 (checked 2026-09-28) |
-| Forks | 74 |
-| Open issues | 87 |
+| Stars | 916 (checked 2026-10-05) |
+| Forks | 75 |
+| Open issues | 90 |
 | Contributors | 23 |
-| Last push | 2026-09-25 (2 days before verification) |
+| Last push | 2026-09-25 (9 days before verification) |
 | Latest release | rel-38 (2026-05-20) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.0 |
-| maintenance | 10.0 |
+| maintenance | 8.5 |
 | adoption | 9.86 |
 | documentation | 6.06 |
 | reproducibility | 10.0 |
 | security | 7.0 |
-| recency | 9.97 |
+| recency | 9.88 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.63** |
-| **trust_score** | **8.38** |
+| **quality_score** (weighted) | **8.4** |
+| **trust_score** | **8.08** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

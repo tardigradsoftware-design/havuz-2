@@ -4,25 +4,25 @@ title: "calcom/cal.diy"
 domain: frontend
 summary: >-
   calcom/cal.diy — ACTIVE, tier S,
-  48,707 stars, license MIT, quality 9.15/10, trust 9.2/10.
-  Verified against the GitHub API on 2026-09-28.
+  48,869 stars, license MIT, quality 9.06/10, trust 9.1/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["example", "frontend", "github-repository", "nextjs", "saas"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 9.5, "security": 7.0, "recency": 9.97, "evidence": 7.5}
-  quality_score: 9.15
-  trust_score: 9.2
+  components: {"authority": 9.0, "maintenance": 9.5, "adoption": 10.0, "documentation": 9.5, "reproducibility": 9.5, "security": 7.0, "recency": 9.88, "evidence": 7.5}
+  quality_score: 9.06
+  trust_score: 9.1
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Scheduling infrastructure for absolutely everyone.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 48,707 (checked 2026-09-28) |
-| Forks | 15,231 |
-| Open issues | 1,439 |
+| Stars | 48,869 (checked 2026-10-05) |
+| Forks | 15,279 |
+| Open issues | 1,458 |
 | Contributors | 436 |
-| Last push | 2026-09-26 (2 days before verification) |
+| Last push | 2026-09-26 (9 days before verification) |
 | Latest release | v6.2.0 (2026-03-01) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 10.0 |
+| maintenance | 9.5 |
 | adoption | 10.0 |
 | documentation | 9.5 |
 | reproducibility | 9.5 |
 | security | 7.0 |
-| recency | 9.97 |
+| recency | 9.88 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **9.15** |
-| **trust_score** | **9.2** |
+| **quality_score** (weighted) | **9.06** |
+| **trust_score** | **9.1** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

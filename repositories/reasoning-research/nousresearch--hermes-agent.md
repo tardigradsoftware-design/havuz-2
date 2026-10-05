@@ -4,17 +4,17 @@ title: "NousResearch/hermes-agent"
 domain: reasoning-research
 summary: >-
   NousResearch/hermes-agent — ACTIVE, tier S,
-  249,649 stars, license MIT, quality 9.04/10, trust 9.03/10.
-  Verified against the GitHub API on 2026-09-28.
+  251,302 stars, license MIT, quality 9.04/10, trust 9.03/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "github-repository", "reasoning-research", "self-improving"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.38, "reproducibility": 9.5, "security": 7.0, "recency": 10.0, "evidence": 7.5}
   quality_score: 9.04
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The agent that grows with you
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 249,649 (checked 2026-09-28) |
-| Forks | 53,123 |
-| Open issues | 44,786 |
-| Contributors | 396 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Stars | 251,302 (checked 2026-10-05) |
+| Forks | 53,960 |
+| Open issues | 48,062 |
+| Contributors | 398 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v2026.9.24 (2026-09-24) |
 | Archived | no |
 | Fork | no |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**

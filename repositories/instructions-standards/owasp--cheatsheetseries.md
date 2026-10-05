@@ -4,25 +4,25 @@ title: "OWASP/CheatSheetSeries"
 domain: instructions-standards
 summary: >-
   OWASP/CheatSheetSeries — ACTIVE, tier S,
-  33,330 stars, license CC-BY-SA-4.0, quality 8.18/10, trust 7.93/10.
-  Verified against the GitHub API on 2026-09-28.
+  33,423 stars, license CC-BY-SA-4.0, quality 8.57/10, trust 8.43/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "instructions-standards", "owasp", "reference", "security"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.86, "reproducibility": 5.9, "security": 7.0, "recency": 10.0, "evidence": 4.0}
-  quality_score: 8.18
-  trust_score: 7.93
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.84, "reproducibility": 7.9, "security": 7.0, "recency": 10.0, "evidence": 6.0}
+  quality_score: 8.57
+  trust_score: 8.43
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,20 +52,20 @@ sources:
 >
 > The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
 | URL | <https://github.com/OWASP/CheatSheetSeries> |
 | Owner | OWASP (Organization) |
 | Official upstream | yes |
-| Language | Python |
+| Language | JavaScript |
 | License | `CC-BY-SA-4.0` |
-| Stars | 33,330 (checked 2026-09-28) |
-| Forks | 4,641 |
-| Open issues | 55 |
-| Contributors | 457 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Stars | 33,423 (checked 2026-10-05) |
+| Forks | 4,653 |
+| Open issues | 0 |
+| Contributors | 456 |
+| Last push | 2026-10-04 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.86 |
-| reproducibility | 5.9 |
+| documentation | 6.84 |
+| reproducibility | 7.9 |
 | security | 7.0 |
 | recency | 10.0 |
-| evidence | 4.0 |
-| **quality_score** (weighted) | **8.18** |
-| **trust_score** | **7.93** |
+| evidence | 6.0 |
+| **quality_score** (weighted) | **8.57** |
+| **trust_score** | **8.43** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -98,14 +98,14 @@ security / recency / evidence 10% each. See
 |---|---|
 | readme | yes |
 | docs | yes |
-| tests | no |
+| tests | yes |
 | ci | yes |
 | examples | no |
 | security md | yes |
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 4,286 bytes |
+| README size | 4,114 bytes |
 
 ## Curated judgement
 

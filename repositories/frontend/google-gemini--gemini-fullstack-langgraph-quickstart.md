@@ -3,26 +3,26 @@ id: google-gemini--gemini-fullstack-langgraph-quickstart
 title: "google-gemini/gemini-fullstack-langgraph-quickstart"
 domain: frontend
 summary: >-
-  google-gemini/gemini-fullstack-langgraph-quickstart — STABLE, tier B,
-  18,337 stars, license Apache-2.0, quality 5.81/10, trust 4.38/10.
-  Verified against the GitHub API on 2026-09-28.
+  google-gemini/gemini-fullstack-langgraph-quickstart — STABLE, tier C,
+  18,347 stars, license Apache-2.0, quality 5.8/10, trust 4.38/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "example", "frontend", "fullstack", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.5, "maintenance": 5.0, "adoption": 10.0, "documentation": 5.03, "reproducibility": 5.0, "security": 3.5, "recency": 8.55, "evidence": 2.5}
-  quality_score: 5.81
+  components: {"authority": 5.5, "maintenance": 5.0, "adoption": 10.0, "documentation": 5.03, "reproducibility": 5.0, "security": 3.5, "recency": 8.45, "evidence": 2.5}
+  quality_score: 5.8
   trust_score: 4.38
-  tier: B
-  maturity: production-ready
+  tier: C
+  maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # google-gemini/gemini-fullstack-langgraph-quickstart
 
-🔵 STABLE · tier **B** · production-ready · confidence **medium**
+🔵 STABLE · tier **C** · early · confidence **medium**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Get started with building Fullstack Agents using Gemini 2.5 and LangGraph
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Jupyter Notebook |
 | License | `Apache-2.0` |
-| Stars | 18,337 (checked 2026-09-28) |
-| Forks | 3,064 |
+| Stars | 18,347 (checked 2026-10-05) |
+| Forks | 3,061 |
 | Open issues | 78 |
 | Contributors | 15 |
-| Last push | 2026-06-14 (106 days before verification) |
+| Last push | 2026-06-14 (113 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.03 |
 | reproducibility | 5.0 |
 | security | 3.5 |
-| recency | 8.55 |
+| recency | 8.45 |
 | evidence | 2.5 |
-| **quality_score** (weighted) | **5.81** |
+| **quality_score** (weighted) | **5.8** |
 | **trust_score** | **4.38** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

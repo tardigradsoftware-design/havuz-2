@@ -4,17 +4,17 @@ title: "protectai/rebuff"
 domain: instructions-standards
 summary: >-
   protectai/rebuff — ARCHIVED, tier ARCHIVED,
-  1,522 stars, license Apache-2.0, quality 5.32/10, trust 3.42/10.
-  Verified against the GitHub API on 2026-09-28.
+  1,525 stars, license Apache-2.0, quality 5.32/10, trust 3.42/10.
+  Verified against the GitHub API on 2026-10-05.
 status: deprecated
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["abandoned-candidate", "github-repository", "instructions-standards", "prompt-injection"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 0.5, "adoption": 10.0, "documentation": 6.48, "reproducibility": 7.5, "security": 1.5, "recency": 0.0, "evidence": 4.0}
   quality_score: 5.32
@@ -22,7 +22,7 @@ scoring:
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > LLM Prompt Injection Detector
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 1,522 (checked 2026-09-28) |
-| Forks | 148 |
+| Stars | 1,525 (checked 2026-10-05) |
+| Forks | 150 |
 | Open issues | 33 |
 | Contributors | 9 |
-| Last push | 2024-08-07 (781 days before verification) |
+| Last push | 2024-08-07 (788 days before verification) |
 | Latest release | v0.1.1 (2024-01-20) |
 | Archived | **YES** |
 | Fork | no |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**

@@ -3,26 +3,26 @@ id: evalplus--evalplus
 title: "evalplus/evalplus"
 domain: evaluation
 summary: >-
-  evalplus/evalplus — STABLE, tier A,
-  1,820 stars, license Apache-2.0, quality 7.16/10, trust 7.19/10.
-  Verified against the GitHub API on 2026-09-28.
+  evalplus/evalplus — STABLE, tier B,
+  1,824 stars, license Apache-2.0, quality 6.75/10, trust 6.69/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["coding", "evaluation", "github-repository", "humaneval"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 3.5, "adoption": 10.0, "documentation": 7.27, "reproducibility": 9.5, "security": 4.5, "recency": 5.07, "evidence": 7.0}
-  quality_score: 7.16
-  trust_score: 7.19
-  tier: A
+  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 7.27, "reproducibility": 9.5, "security": 3.5, "recency": 4.97, "evidence": 7.0}
+  quality_score: 6.75
+  trust_score: 6.69
+  tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # evalplus/evalplus
 
-🔵 STABLE · tier **A** · published-artifact · confidence **high**
+🔵 STABLE · tier **B** · published-artifact · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 1,820 (checked 2026-09-28) |
-| Forks | 208 |
-| Open issues | 77 |
+| Stars | 1,824 (checked 2026-10-05) |
+| Forks | 209 |
+| Open issues | 78 |
 | Contributors | 27 |
-| Last push | 2025-10-02 (360 days before verification) |
+| Last push | 2025-10-02 (367 days before verification) |
 | Latest release | v0.3.1 (2024-10-20) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 3.5 |
+| maintenance | 1.5 |
 | adoption | 10.0 |
 | documentation | 7.27 |
 | reproducibility | 9.5 |
-| security | 4.5 |
-| recency | 5.07 |
+| security | 3.5 |
+| recency | 4.97 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.16** |
-| **trust_score** | **7.19** |
+| **quality_score** (weighted) | **6.75** |
+| **trust_score** | **6.69** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

@@ -4,17 +4,17 @@ title: "SeleniumHQ/selenium"
 domain: browser-automation
 summary: >-
   SeleniumHQ/selenium — ACTIVE, tier S,
-  34,514 stars, license Apache-2.0, quality 8.25/10, trust 8.11/10.
-  Verified against the GitHub API on 2026-09-28.
+  34,521 stars, license Apache-2.0, quality 8.25/10, trust 8.11/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser", "browser-automation", "github-repository", "testing"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.04, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.25
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A browser automation framework and ecosystem.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Java |
 | License | `Apache-2.0` |
-| Stars | 34,514 (checked 2026-09-28) |
-| Forks | 8,716 |
-| Open issues | 187 |
+| Stars | 34,521 (checked 2026-10-05) |
+| Forks | 8,717 |
+| Open issues | 197 |
 | Contributors | 403 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | selenium-4.49.0 (2026-09-09) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | selenium-4.50.0 (2026-09-30) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://selenium.dev](https://selenium.dev) |

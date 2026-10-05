@@ -3,26 +3,26 @@ id: openclaw--openclaw
 title: "openclaw/openclaw"
 domain: agent-skills
 summary: >-
-  openclaw/openclaw — ACTIVE, tier A,
-  390,694 stars, license NOASSERTION, quality 8.56/10, trust 7.97/10.
-  Verified against the GitHub API on 2026-09-28.
+  openclaw/openclaw — ACTIVE, tier S,
+  391,411 stars, license MIT, quality 8.65/10, trust 8.03/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-skills", "cross-platform", "github-repository", "harness"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 9.6, "security": 5.5, "recency": 10.0, "evidence": 8.5}
-  quality_score: 8.56
-  trust_score: 7.97
-  tier: A
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
+  quality_score: 8.65
+  trust_score: 8.03
+  tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -32,33 +32,27 @@ sources:
     url: https://github.com/openclaw/openclaw
     type: github-repository
     organization: openclaw
-    license: NOASSERTION
-    license_risk: custom-license-review-before-vendoring
+    license: MIT
+    license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # openclaw/openclaw
 
-🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > The AI that really does things. Any OS. Any Platform. The lobster way. 🦞
 
-> ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
-> upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
-> a custom license may permit, restrict or require attribution in ways a standard SPDX id would
-> have made obvious.
-
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,13 +60,13 @@ sources:
 | Owner | openclaw (Organization) |
 | Official upstream | no |
 | Language | TypeScript |
-| License | `NOASSERTION` |
-| Stars | 390,694 (checked 2026-09-28) |
-| Forks | 82,161 |
-| Open issues | 8,916 |
+| License | `MIT` |
+| Stars | 391,411 (checked 2026-10-05) |
+| Forks | 82,277 |
+| Open issues | 9,356 |
 | Contributors | 377 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v2026.9.6 (2026-09-23) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v2026.9.8 (2026-10-03) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://openclaw.ai](https://openclaw.ai) |
@@ -87,12 +81,12 @@ sources:
 | maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 10.0 |
-| reproducibility | 9.6 |
-| security | 5.5 |
+| reproducibility | 10.0 |
+| security | 6.0 |
 | recency | 10.0 |
 | evidence | 8.5 |
-| **quality_score** (weighted) | **8.56** |
-| **trust_score** | **7.97** |
+| **quality_score** (weighted) | **8.65** |
+| **trust_score** | **8.03** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -116,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**
@@ -148,7 +142,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine. Discovered 2026-09-15 via GitHub topic search; not in the original seed list.
+Discovered 2026-09-15 via GitHub topic search; not in the original seed list.
 
 ## How to re-verify
 

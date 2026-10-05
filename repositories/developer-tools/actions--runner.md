@@ -4,25 +4,25 @@ title: "actions/runner"
 domain: developer-tools
 summary: >-
   actions/runner — ACTIVE, tier A,
-  6,293 stars, license MIT, quality 7.97/10, trust 7.68/10.
-  Verified against the GitHub API on 2026-09-28.
+  6,309 stars, license MIT, quality 7.97/10, trust 7.68/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ci-cd", "developer-tools", "github-actions", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.22, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.22, "reproducibility": 7.0, "security": 4.5, "recency": 9.97, "evidence": 5.0}
   quality_score: 7.97
   trust_score: 7.68
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The Runner for GitHub Actions :rocket:
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | C# |
 | License | `MIT` |
-| Stars | 6,293 (checked 2026-09-28) |
-| Forks | 1,441 |
-| Open issues | 540 |
+| Stars | 6,309 (checked 2026-10-05) |
+| Forks | 1,447 |
+| Open issues | 539 |
 | Contributors | 168 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Last push | 2026-10-02 (2 days before verification) |
 | Latest release | v2.337.0 (2026-08-26) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.22 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **7.97** |
 | **trust_score** | **7.68** |

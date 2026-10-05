@@ -4,25 +4,25 @@ title: "ClickHouse/ClickHouse"
 domain: databases
 summary: >-
   ClickHouse/ClickHouse — ACTIVE, tier S,
-  50,121 stars, license Apache-2.0, quality 8.85/10, trust 8.77/10.
-  Verified against the GitHub API on 2026-09-28.
+  50,256 stars, license Apache-2.0, quality 8.85/10, trust 8.77/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["analytics", "databases", "github-repository", "olap"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.49, "reproducibility": 9.0, "security": 7.0, "recency": 10.0, "evidence": 7.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.5, "reproducibility": 9.0, "security": 7.0, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.85
   trust_score: 8.77
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > ClickHouse® is a real-time analytics database management system
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | C++ |
 | License | `Apache-2.0` |
-| Stars | 50,121 (checked 2026-09-28) |
-| Forks | 9,018 |
-| Open issues | 7,973 |
+| Stars | 50,256 (checked 2026-10-05) |
+| Forks | 9,061 |
+| Open issues | 8,047 |
 | Contributors | 311 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v26.9.4.3-stable (2026-09-27) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v26.8.17.4-lts (2026-10-04) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://clickhouse.com](https://clickhouse.com) |
@@ -80,7 +80,7 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.49 |
+| documentation | 7.5 |
 | reproducibility | 9.0 |
 | security | 7.0 |
 | recency | 10.0 |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 5,841 bytes |
+| README size | 6,017 bytes |
 
 ## Curated judgement
 

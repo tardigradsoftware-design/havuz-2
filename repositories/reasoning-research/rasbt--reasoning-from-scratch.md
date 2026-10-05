@@ -4,25 +4,25 @@ title: "rasbt/reasoning-from-scratch"
 domain: reasoning-research
 summary: >-
   rasbt/reasoning-from-scratch — ACTIVE, tier S,
-  5,309 stars, license Apache-2.0, quality 8.09/10, trust 7.67/10.
-  Verified against the GitHub API on 2026-09-28.
+  5,349 stars, license Apache-2.0, quality 8.09/10, trust 7.67/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["education", "github-repository", "reasoning", "reasoning-research"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.44, "reproducibility": 9.0, "security": 4.5, "recency": 9.95, "evidence": 6.0}
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.44, "reproducibility": 9.0, "security": 4.5, "recency": 9.97, "evidence": 6.0}
   quality_score: 8.09
   trust_score: 7.67
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Implement a reasoning LLM in PyTorch from scratch, step by step
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `Apache-2.0` |
-| Stars | 5,309 (checked 2026-09-28) |
-| Forks | 833 |
+| Stars | 5,349 (checked 2026-10-05) |
+| Forks | 845 |
 | Open issues | 2 |
 | Contributors | 6 |
-| Last push | 2026-09-23 (4 days before verification) |
+| Last push | 2026-10-02 (2 days before verification) |
 | Latest release | v1.0 (2026-05-18) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 5.44 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.95 |
+| recency | 9.97 |
 | evidence | 6.0 |
 | **quality_score** (weighted) | **8.09** |
 | **trust_score** | **7.67** |

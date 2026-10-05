@@ -4,25 +4,25 @@ title: "shadcn-ui/taxonomy"
 domain: frontend
 summary: >-
   shadcn-ui/taxonomy — MAINTENANCE, tier B,
-  19,291 stars, license MIT, quality 6.2/10, trust 5.56/10.
-  Verified against the GitHub API on 2026-09-28.
+  19,289 stars, license MIT, quality 6.19/10, trust 5.56/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["example", "frontend", "github-repository", "nextjs", "saas"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 5.0, "adoption": 10.0, "documentation": 3.72, "reproducibility": 4.5, "security": 4.5, "recency": 7.81, "evidence": 2.0}
-  quality_score: 6.2
+  components: {"authority": 8.5, "maintenance": 5.0, "adoption": 10.0, "documentation": 3.72, "reproducibility": 4.5, "security": 4.5, "recency": 7.71, "evidence": 2.0}
+  quality_score: 6.19
   trust_score: 5.56
   tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An open source application built using the new router, server components and everything new in Next.js 13.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 19,291 (checked 2026-09-28) |
-| Forks | 2,744 |
+| Stars | 19,289 (checked 2026-10-05) |
+| Forks | 2,746 |
 | Open issues | 218 |
 | Contributors | 10 |
-| Last push | 2026-04-20 (160 days before verification) |
+| Last push | 2026-04-20 (167 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 3.72 |
 | reproducibility | 4.5 |
 | security | 4.5 |
-| recency | 7.81 |
+| recency | 7.71 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **6.2** |
+| **quality_score** (weighted) | **6.19** |
 | **trust_score** | **5.56** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 160 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 167 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

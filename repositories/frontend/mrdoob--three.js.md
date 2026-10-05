@@ -4,17 +4,17 @@ title: "mrdoob/three.js"
 domain: frontend
 summary: >-
   mrdoob/three.js — ACTIVE, tier S,
-  116,013 stars, license MIT, quality 8.72/10, trust 8.54/10.
-  Verified against the GitHub API on 2026-09-28.
+  116,241 stars, license MIT, quality 8.72/10, trust 8.54/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["3d", "frontend", "github-repository", "webgl"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.25, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.72
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > JavaScript 3D Library.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 116,013 (checked 2026-09-28) |
-| Forks | 36,580 |
-| Open issues | 380 |
+| Stars | 116,241 (checked 2026-10-05) |
+| Forks | 36,608 |
+| Open issues | 388 |
 | Contributors | 363 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | r186 (2026-09-24) |
 | Archived | no |
 | Fork | no |

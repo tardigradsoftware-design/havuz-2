@@ -4,17 +4,17 @@ title: "modelcontextprotocol/typescript-sdk"
 domain: mcp-servers
 summary: >-
   modelcontextprotocol/typescript-sdk — ACTIVE, tier A,
-  13,479 stars, license NOASSERTION, quality 8.78/10, trust 8.78/10.
-  Verified against the GitHub API on 2026-09-28.
+  13,519 stars, license NOASSERTION, quality 8.78/10, trust 8.78/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "sdk"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.19, "reproducibility": 9.1, "security": 6.5, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.78
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > The official TypeScript SDK for Model Context Protocol servers and clients
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 13,479 (checked 2026-09-28) |
-| Forks | 2,231 |
-| Open issues | 653 |
-| Contributors | 173 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | @modelcontextprotocol/server-legacy@2.1.0 (2026-09-23) |
+| Stars | 13,519 (checked 2026-10-05) |
+| Forks | 2,255 |
+| Open issues | 610 |
+| Contributors | 184 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v2.3.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://ts.sdk.modelcontextprotocol.io/v2](https://ts.sdk.modelcontextprotocol.io/v2) |
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 8,305 bytes |
+| README size | 8,317 bytes |
 
 ## Curated judgement
 

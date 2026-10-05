@@ -4,25 +4,25 @@ title: "crystaldba/postgres-mcp"
 domain: mcp-servers
 summary: >-
   crystaldba/postgres-mcp — STABLE, tier A,
-  3,343 stars, license MIT, quality 7.99/10, trust 7.73/10.
-  Verified against the GitHub API on 2026-09-28.
+  3,370 stars, license MIT, quality 7.98/10, trust 7.73/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["dba", "github-repository", "mcp", "mcp-servers", "postgres"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 7.0, "adoption": 10.0, "documentation": 6.5, "reproducibility": 10.0, "security": 4.5, "recency": 9.42, "evidence": 8.0}
-  quality_score: 7.99
+  components: {"authority": 8.0, "maintenance": 7.0, "adoption": 10.0, "documentation": 6.5, "reproducibility": 10.0, "security": 4.5, "recency": 9.33, "evidence": 8.0}
+  quality_score: 7.98
   trust_score: 7.73
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 3,343 (checked 2026-09-28) |
+| Stars | 3,370 (checked 2026-10-05) |
 | Forks | 382 |
-| Open issues | 92 |
+| Open issues | 91 |
 | Contributors | 10 |
-| Last push | 2026-08-17 (42 days before verification) |
+| Last push | 2026-08-17 (49 days before verification) |
 | Latest release | v0.3.0 (2025-05-16) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.5 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 9.42 |
+| recency | 9.33 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **7.99** |
+| **quality_score** (weighted) | **7.98** |
 | **trust_score** | **7.73** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

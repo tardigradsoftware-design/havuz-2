@@ -4,25 +4,25 @@ title: "feder-cr/invisible_playwright_mcp"
 domain: browser-automation
 summary: >-
   feder-cr/invisible_playwright_mcp — ACTIVE, tier A,
-  31,688 stars, license MIT, quality 7.61/10, trust 6.59/10.
-  Verified against the GitHub API on 2026-09-28.
+  31,768 stars, license MIT, quality 7.61/10, trust 6.59/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["anti-detect", "browser", "browser-automation", "github-repository", "mcp"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.62, "reproducibility": 9.0, "security": 3.5, "recency": 9.97, "evidence": 7.0}
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.62, "reproducibility": 9.0, "security": 3.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 7.61
   trust_score: 6.59
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 31,688 (checked 2026-09-28) |
-| Forks | 4,678 |
-| Open issues | 5 |
-| Contributors | 10 |
-| Last push | 2026-09-25 (2 days before verification) |
-| Latest release | v0.70.2 (2026-09-25) |
+| Stars | 31,768 (checked 2026-10-05) |
+| Forks | 4,686 |
+| Open issues | 2 |
+| Contributors | 12 |
+| Last push | 2026-10-04 (0 days before verification) |
+| Latest release | v0.70.10 (2026-10-04) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://github.com/feder-cr/invisible_playwright_mcp/wiki](https://github.com/feder-cr/invisible_playwright_mcp/wiki) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.62 |
 | reproducibility | 9.0 |
 | security | 3.5 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **7.61** |
 | **trust_score** | **6.59** |

@@ -4,17 +4,17 @@ title: "trufflesecurity/trufflehog"
 domain: developer-tools
 summary: >-
   trufflesecurity/trufflehog — ACTIVE, tier S,
-  28,159 stars, license AGPL-3.0, quality 8.73/10, trust 8.85/10.
-  Verified against the GitHub API on 2026-09-28.
+  28,286 stars, license AGPL-3.0, quality 8.73/10, trust 8.85/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "secrets", "security"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 7.3, "security": 6.0, "recency": 10.0, "evidence": 6.5}
   quality_score: 8.73
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Find, verify, and analyze leaked credentials
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `AGPL-3.0` |
-| Stars | 28,159 (checked 2026-09-28) |
-| Forks | 2,603 |
+| Stars | 28,286 (checked 2026-10-05) |
+| Forks | 2,617 |
 | Open issues | 562 |
-| Contributors | 202 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Contributors | 204 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v3.97.9 (2026-09-24) |
 | Archived | no |
 | Fork | no |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 37,890 bytes |
+| README size | 37,960 bytes |
 
 ## Curated judgement
 

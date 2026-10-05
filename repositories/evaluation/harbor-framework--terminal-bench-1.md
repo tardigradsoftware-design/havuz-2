@@ -4,25 +4,25 @@ title: "harbor-framework/terminal-bench-1"
 domain: evaluation
 summary: >-
   harbor-framework/terminal-bench-1 — STABLE, tier B,
-  2,596 stars, license Apache-2.0, quality 6.87/10, trust 5.76/10.
-  Verified against the GitHub API on 2026-09-28.
+  2,598 stars, license Apache-2.0, quality 6.86/10, trust 5.76/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "evaluation", "github-repository", "terminal"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.5, "maintenance": 7.5, "adoption": 10.0, "documentation": 5.07, "reproducibility": 8.0, "security": 3.5, "recency": 8.92, "evidence": 6.0}
-  quality_score: 6.87
+  components: {"authority": 5.5, "maintenance": 7.5, "adoption": 10.0, "documentation": 5.07, "reproducibility": 8.0, "security": 3.5, "recency": 8.82, "evidence": 6.0}
+  quality_score: 6.86
   trust_score: 5.76
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A benchmark for LLMs on complicated tasks in the terminal
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 2,596 (checked 2026-09-28) |
-| Forks | 570 |
-| Open issues | 319 |
+| Stars | 2,598 (checked 2026-10-05) |
+| Forks | 572 |
+| Open issues | 320 |
 | Contributors | 93 |
-| Last push | 2026-07-11 (79 days before verification) |
+| Last push | 2026-07-11 (86 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.07 |
 | reproducibility | 8.0 |
 | security | 3.5 |
-| recency | 8.92 |
+| recency | 8.82 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **6.87** |
+| **quality_score** (weighted) | **6.86** |
 | **trust_score** | **5.76** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

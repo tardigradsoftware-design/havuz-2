@@ -1,6 +1,6 @@
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Regenerate: python3 scripts/generate-index/build_index.py
-     Generated: 2026-09-28T10:59:45+00:00 -->
+     Generated: 2026-10-05T11:34:31+00:00 -->
 
 # Skill index
 

@@ -4,17 +4,17 @@ title: "openai/openai-python"
 domain: agent-frameworks
 summary: >-
   openai/openai-python — ACTIVE, tier S,
-  31,709 stars, license Apache-2.0, quality 9.25/10, trust 9.38/10.
-  Verified against the GitHub API on 2026-09-28.
+  31,747 stars, license Apache-2.0, quality 9.25/10, trust 9.38/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-frameworks", "github-repository", "openai", "sdk"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.5}
   quality_score: 9.25
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The official Python library for the OpenAI API
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 31,709 (checked 2026-09-28) |
-| Forks | 6,602 |
-| Open issues | 154 |
-| Contributors | 194 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v3.19.2 (2026-09-24) |
+| Stars | 31,747 (checked 2026-10-05) |
+| Forks | 7,151 |
+| Open issues | 137 |
+| Contributors | 197 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v3.24.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://pypi.org/project/openai/](https://pypi.org/project/openai/) |

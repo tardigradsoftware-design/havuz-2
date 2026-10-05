@@ -4,25 +4,25 @@ title: "cli/cli"
 domain: developer-tools
 summary: >-
   cli/cli — ACTIVE, tier A,
-  46,435 stars, license MIT, quality 7.75/10, trust 6.73/10.
-  Verified against the GitHub API on 2026-09-28.
+  46,543 stars, license MIT, quality 7.75/10, trust 6.73/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cli", "developer-tools", "github", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.52, "reproducibility": 9.5, "security": 3.5, "recency": 10.0, "evidence": 7.0}
+  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.52, "reproducibility": 9.5, "security": 3.5, "recency": 9.97, "evidence": 7.0}
   quality_score: 7.75
   trust_score: 6.73
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > GitHub’s official command line tool
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Go |
 | License | `MIT` |
-| Stars | 46,435 (checked 2026-09-28) |
-| Forks | 9,094 |
-| Open issues | 1,098 |
+| Stars | 46,543 (checked 2026-10-05) |
+| Forks | 9,124 |
+| Open issues | 1,117 |
 | Contributors | 380 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v2.101.0 (2026-09-15) |
+| Last push | 2026-10-02 (2 days before verification) |
+| Latest release | v2.102.0 (2026-09-30) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://cli.github.com](https://cli.github.com) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.52 |
 | reproducibility | 9.5 |
 | security | 3.5 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **7.75** |
 | **trust_score** | **6.73** |

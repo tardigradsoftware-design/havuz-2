@@ -4,17 +4,17 @@ title: "K-Dense-AI/scientific-agent-skills"
 domain: agent-skills
 summary: >-
   K-Dense-AI/scientific-agent-skills — ACTIVE, tier S,
-  46,929 stars, license MIT, quality 8.4/10, trust 7.7/10.
-  Verified against the GitHub API on 2026-09-28.
+  47,645 stars, license MIT, quality 8.4/10, trust 7.7/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "github-repository", "research", "science", "skills"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.4
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,9 +50,9 @@ sources:
 
 > _Upstream description, quoted as published and not verified here:_
 >
-> Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
+> Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 46,929 (checked 2026-09-28) |
-| Forks | 4,235 |
+| Stars | 47,645 (checked 2026-10-05) |
+| Forks | 4,302 |
 | Open issues | 20 |
 | Contributors | 56 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v2.69.0 (2026-09-11) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v2.72.0 (2026-10-01) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://arxiv.org/abs/2609.00065](https://arxiv.org/abs/2609.00065) |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 75,728 bytes |
+| README size | 84,156 bytes |
 
 ## Curated judgement
 

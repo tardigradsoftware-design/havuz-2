@@ -4,25 +4,25 @@ title: "neondatabase/mcp-server-neon"
 domain: mcp-servers
 summary: >-
   neondatabase/mcp-server-neon — ACTIVE, tier A,
-  649 stars, license MIT, quality 7.93/10, trust 7.81/10.
-  Verified against the GitHub API on 2026-09-28.
+  648 stars, license MIT, quality 7.93/10, trust 7.82/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "neon", "postgres"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 9.6, "documentation": 7.92, "reproducibility": 6.0, "security": 4.5, "recency": 9.97, "evidence": 4.5}
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 9.59, "documentation": 7.95, "reproducibility": 6.0, "security": 4.5, "recency": 10.0, "evidence": 4.5}
   quality_score: 7.93
-  trust_score: 7.81
+  trust_score: 7.82
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > MCP server for interacting with Neon Management API and databases
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 649 (checked 2026-09-28) |
-| Forks | 128 |
+| Stars | 648 (checked 2026-10-05) |
+| Forks | 129 |
 | Open issues | 46 |
 | Contributors | 23 |
-| Last push | 2026-09-25 (2 days before verification) |
+| Last push | 2026-10-04 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -79,14 +79,14 @@ sources:
 |---|---|
 | authority | 8.5 |
 | maintenance | 10.0 |
-| adoption | 9.6 |
-| documentation | 7.92 |
+| adoption | 9.59 |
+| documentation | 7.95 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 4.5 |
 | **quality_score** (weighted) | **7.93** |
-| **trust_score** | **7.81** |
+| **trust_score** | **7.82** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 29,029 bytes |
+| README size | 29,357 bytes |
 
 ## Curated judgement
 

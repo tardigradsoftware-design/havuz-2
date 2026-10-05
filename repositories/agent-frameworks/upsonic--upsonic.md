@@ -4,25 +4,25 @@ title: "Upsonic/Upsonic"
 domain: agent-frameworks
 summary: >-
   Upsonic/Upsonic — STABLE, tier A,
-  7,956 stars, license MIT, quality 7.24/10, trust 6.15/10.
-  Verified against the GitHub API on 2026-09-28.
+  7,955 stars, license MIT, quality 7.23/10, trust 6.15/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "github-repository", "python"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 5.99, "reproducibility": 9.5, "security": 6.0, "recency": 8.62, "evidence": 7.0}
-  quality_score: 7.24
+  components: {"authority": 6.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 5.99, "reproducibility": 9.5, "security": 6.0, "recency": 8.52, "evidence": 7.0}
+  quality_score: 7.23
   trust_score: 6.15
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Build autonomous AI agents in Python.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 7,956 (checked 2026-09-28) |
-| Forks | 746 |
-| Open issues | 34 |
+| Stars | 7,955 (checked 2026-10-05) |
+| Forks | 749 |
+| Open issues | 37 |
 | Contributors | 39 |
-| Last push | 2026-06-18 (101 days before verification) |
+| Last push | 2026-06-18 (108 days before verification) |
 | Latest release | v0.77.3 (2026-05-19) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.99 |
 | reproducibility | 9.5 |
 | security | 6.0 |
-| recency | 8.62 |
+| recency | 8.52 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.24** |
+| **quality_score** (weighted) | **7.23** |
 | **trust_score** | **6.15** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

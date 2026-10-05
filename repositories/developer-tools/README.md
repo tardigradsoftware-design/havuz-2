@@ -4,35 +4,35 @@
 # Developer tools, CI/CD & infrastructure
 
 81 repositories · 78 usable · 3 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-28.
+all facts verified against the GitHub API on 2026-10-05.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [mermaid-js/mermaid](./mermaid-js--mermaid.md) | 90,455 | S | 🟢 ACTIVE | `MIT` | 9.14 | 2026-09-28 |
-| [argoproj/argo-cd](./argoproj--argo-cd.md) | 24,260 | S | 🟢 ACTIVE | `Apache-2.0` | 9.04 | 2026-09-28 |
-| [pa11y/pa11y](./pa11y--pa11y.md) | 4,562 | S | 🟢 ACTIVE | `LGPL-3.0` | 9.01 | 2026-09-28 |
-| [trufflesecurity/trufflehog](./trufflesecurity--trufflehog.md) | 28,159 | S | 🟢 ACTIVE | `AGPL-3.0` | 8.85 | 2026-09-28 |
-| [semgrep/semgrep](./semgrep--semgrep.md) | 16,783 | S | 🟢 ACTIVE | `LGPL-2.1` | 8.85 | 2026-09-28 |
-| [eslint/eslint](./eslint--eslint.md) | 27,521 | S | 🟢 ACTIVE | `MIT` | 8.83 | 2026-09-28 |
-| [lint-staged/lint-staged](./lint-staged--lint-staged.md) | 14,738 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-28 |
-| [railwayapp/cli](./railwayapp--cli.md) | 621 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-09-28 |
-| [vitest-dev/vitest](./vitest-dev--vitest.md) | 17,167 | S | 🟢 ACTIVE | `MIT` | 8.78 | 2026-09-28 |
-| [usebruno/bruno](./usebruno--bruno.md) | 47,240 | S | 🟢 ACTIVE | `MIT` | 8.73 | 2026-09-28 |
-| [junegunn/fzf](./junegunn--fzf.md) | 83,280 | S | 🟢 ACTIVE | `MIT` | 8.68 | 2026-09-28 |
-| [astral-sh/uv](./astral-sh--uv.md) | 90,242 | S | 🟢 ACTIVE | `Apache-2.0` | 8.67 | 2026-09-28 |
-| [open-telemetry/opentelemetry-js](./open-telemetry--opentelemetry-js.md) | 3,479 | S | 🟢 ACTIVE | `Apache-2.0` | 8.64 | 2026-09-28 |
-| [gitleaks/gitleaks](./gitleaks--gitleaks.md) | 29,530 | S | 🟢 ACTIVE | `MIT` | 8.62 | 2026-09-28 |
-| [jestjs/jest](./jestjs--jest.md) | 45,464 | S | 🟢 ACTIVE | `MIT` | 8.61 | 2026-09-28 |
+| [mermaid-js/mermaid](./mermaid-js--mermaid.md) | 90,541 | S | 🟢 ACTIVE | `MIT` | 9.14 | 2026-10-05 |
+| [argoproj/argo-cd](./argoproj--argo-cd.md) | 24,327 | S | 🟢 ACTIVE | `Apache-2.0` | 9.04 | 2026-10-05 |
+| [pa11y/pa11y](./pa11y--pa11y.md) | 4,568 | S | 🟢 ACTIVE | `LGPL-3.0` | 9.01 | 2026-10-05 |
+| [trufflesecurity/trufflehog](./trufflesecurity--trufflehog.md) | 28,286 | S | 🟢 ACTIVE | `AGPL-3.0` | 8.85 | 2026-10-05 |
+| [semgrep/semgrep](./semgrep--semgrep.md) | 16,877 | S | 🟢 ACTIVE | `LGPL-2.1` | 8.85 | 2026-10-05 |
+| [eslint/eslint](./eslint--eslint.md) | 27,573 | S | 🟢 ACTIVE | `MIT` | 8.83 | 2026-10-05 |
+| [lint-staged/lint-staged](./lint-staged--lint-staged.md) | 14,741 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-10-05 |
+| [railwayapp/cli](./railwayapp--cli.md) | 622 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-10-05 |
+| [vitest-dev/vitest](./vitest-dev--vitest.md) | 17,181 | S | 🟢 ACTIVE | `MIT` | 8.78 | 2026-10-05 |
+| [usebruno/bruno](./usebruno--bruno.md) | 47,346 | S | 🟢 ACTIVE | `MIT` | 8.73 | 2026-10-05 |
+| [junegunn/fzf](./junegunn--fzf.md) | 83,384 | S | 🟢 ACTIVE | `MIT` | 8.68 | 2026-10-05 |
+| [astral-sh/uv](./astral-sh--uv.md) | 90,406 | S | 🟢 ACTIVE | `Apache-2.0` | 8.67 | 2026-10-05 |
+| [open-telemetry/opentelemetry-js](./open-telemetry--opentelemetry-js.md) | 3,486 | S | 🟢 ACTIVE | `Apache-2.0` | 8.64 | 2026-10-05 |
+| [gitleaks/gitleaks](./gitleaks--gitleaks.md) | 29,673 | S | 🟢 ACTIVE | `MIT` | 8.62 | 2026-10-05 |
+| [jestjs/jest](./jestjs--jest.md) | 45,499 | S | 🟢 ACTIVE | `MIT` | 8.61 | 2026-10-05 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [httpie/cli](./httpie--cli.md) | 38,592 | 🔴 ABANDONED | 649d |
-| [npryce/adr-tools](./npryce--adr-tools.md) | 5,711 | 🔴 ABANDONED | 885d |
-| [lost-pixel/lost-pixel](./lost-pixel--lost-pixel.md) | 1,682 | ⛔ ARCHIVED | 158d |
+| [httpie/cli](./httpie--cli.md) | 38,701 | 🔴 ABANDONED | 656d |
+| [npryce/adr-tools](./npryce--adr-tools.md) | 5,722 | 🔴 ABANDONED | 892d |
+| [lost-pixel/lost-pixel](./lost-pixel--lost-pixel.md) | 1,682 | ⛔ ARCHIVED | 165d |
 
 ## Cards
 
@@ -57,7 +57,7 @@ all facts verified against the GitHub API on 2026-09-28.
 - [dependabot/dependabot-core](./dependabot--dependabot-core.md) — tier S, ACTIVE
 - [dequelabs/axe-core](./dequelabs--axe-core.md) — tier S, ACTIVE
 - [docker/compose](./docker--compose.md) — tier S, ACTIVE
-- [donnemartin/system-design-primer](./donnemartin--system-design-primer.md) — tier A, ACTIVE
+- [donnemartin/system-design-primer](./donnemartin--system-design-primer.md) — tier A, STABLE
 - [Egonex-AI/Understand-Anything](./egonex-ai--understand-anything.md) — tier S, ACTIVE
 - [eslint/eslint](./eslint--eslint.md) — tier S, ACTIVE
 - [gitleaks/gitleaks](./gitleaks--gitleaks.md) — tier S, ACTIVE
@@ -67,7 +67,7 @@ all facts verified against the GitHub API on 2026-09-28.
 - [Graphify-Labs/graphify](./graphify-labs--graphify.md) — tier S, ACTIVE
 - [hashicorp/terraform](./hashicorp--terraform.md) — tier A, ACTIVE
 - [headroomlabs-ai/headroom](./headroomlabs-ai--headroom.md) — tier S, ACTIVE
-- [highlight/highlight](./highlight--highlight.md) — tier A, STABLE
+- [highlight/highlight](./highlight--highlight.md) — tier A, ACTIVE
 - [hoppscotch/hoppscotch](./hoppscotch--hoppscotch.md) — tier S, ACTIVE
 - [httpie/cli](./httpie--cli.md) — tier B, ABANDONED
 - [jesseduffield/lazygit](./jesseduffield--lazygit.md) — tier S, ACTIVE
@@ -92,9 +92,9 @@ all facts verified against the GitHub API on 2026-09-28.
 - [ossf/scorecard](./ossf--scorecard.md) — tier S, ACTIVE
 - [oxc-project/oxc](./oxc-project--oxc.md) — tier S, ACTIVE
 - [pa11y/pa11y](./pa11y--pa11y.md) — tier S, ACTIVE
-- [Panniantong/Agent-Reach](./panniantong--agent-reach.md) — tier A, ACTIVE
+- [Panniantong/Agent-Reach](./panniantong--agent-reach.md) — tier A, STABLE
 - [PostHog/posthog](./posthog--posthog.md) — tier A, ACTIVE
-- [pre-commit/pre-commit](./pre-commit--pre-commit.md) — tier S, STABLE
+- [pre-commit/pre-commit](./pre-commit--pre-commit.md) — tier S, ACTIVE
 - [prettier/prettier](./prettier--prettier.md) — tier S, ACTIVE
 - [prometheus/prometheus](./prometheus--prometheus.md) — tier S, ACTIVE
 - [pulumi/pulumi](./pulumi--pulumi.md) — tier S, ACTIVE
@@ -106,7 +106,7 @@ all facts verified against the GitHub API on 2026-09-28.
 - [semantic-release/semantic-release](./semantic-release--semantic-release.md) — tier S, ACTIVE
 - [semgrep/semgrep](./semgrep--semgrep.md) — tier S, ACTIVE
 - [superfly/flyctl](./superfly--flyctl.md) — tier S, ACTIVE
-- [TabbyML/tabby](./tabbyml--tabby.md) — tier A, STABLE
+- [TabbyML/tabby](./tabbyml--tabby.md) — tier B, STABLE
 - [testing-library/react-testing-library](./testing-library--react-testing-library.md) — tier S, STABLE
 - [thedotmack/claude-mem](./thedotmack--claude-mem.md) — tier S, ACTIVE
 - [trufflesecurity/trufflehog](./trufflesecurity--trufflehog.md) — tier S, ACTIVE

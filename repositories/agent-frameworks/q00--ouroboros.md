@@ -4,17 +4,17 @@ title: "Q00/ouroboros"
 domain: agent-frameworks
 summary: >-
   Q00/ouroboros — ACTIVE, tier S,
-  6,123 stars, license MIT, quality 8.45/10, trust 7.72/10.
-  Verified against the GitHub API on 2026-09-28.
+  6,180 stars, license MIT, quality 8.45/10, trust 7.72/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-frameworks", "agent-os", "github-repository", "self-improving"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
   quality_score: 8.45
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 6,123 (checked 2026-09-28) |
-| Forks | 616 |
-| Open issues | 109 |
-| Contributors | 86 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v0.54.6 (2026-09-25) |
+| Stars | 6,180 (checked 2026-10-05) |
+| Forks | 622 |
+| Open issues | 92 |
+| Contributors | 88 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v0.55.4 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://ouroboros.page/](https://ouroboros.page/) |

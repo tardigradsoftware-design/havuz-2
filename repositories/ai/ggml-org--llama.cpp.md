@@ -4,25 +4,25 @@ title: "ggml-org/llama.cpp"
 domain: ai
 summary: >-
   ggml-org/llama.cpp — ACTIVE, tier S,
-  129,758 stars, license MIT, quality 8.91/10, trust 8.82/10.
-  Verified against the GitHub API on 2026-09-28.
+  130,349 stars, license MIT, quality 8.91/10, trust 8.82/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "inference", "local"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.11, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.12, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.91
   trust_score: 8.82
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > LLM inference in C/C++
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | C++ |
 | License | `MIT` |
-| Stars | 129,758 (checked 2026-09-28) |
-| Forks | 23,846 |
-| Open issues | 2,554 |
-| Contributors | 447 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Stars | 130,349 (checked 2026-10-05) |
+| Forks | 24,096 |
+| Open issues | 2,525 |
+| Contributors | 446 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v0.5.0 (2026-09-23) |
 | Archived | no |
 | Fork | no |
@@ -80,7 +80,7 @@ sources:
 | authority | 8.5 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.11 |
+| documentation | 7.12 |
 | reproducibility | 10.0 |
 | security | 7.0 |
 | recency | 10.0 |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 7,351 bytes |
+| README size | 7,470 bytes |
 
 ## Curated judgement
 

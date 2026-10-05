@@ -4,25 +4,25 @@ title: "openai/skills"
 domain: agent-skills
 summary: >-
   openai/skills — STABLE, tier NO-LICENSE,
-  27,754 stars, license NONE, quality 6.39/10, trust 4.57/10.
-  Verified against the GitHub API on 2026-09-28.
+  27,881 stars, license NONE, quality 6.38/10, trust 4.57/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-skills", "github-repository", "openai", "skills"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 4.15, "reproducibility": 1.0, "security": 2.5, "recency": 9.74, "evidence": 2.0}
-  quality_score: 6.39
+  components: {"authority": 8.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 4.15, "reproducibility": 1.0, "security": 2.5, "recency": 9.64, "evidence": 2.0}
+  quality_score: 6.38
   trust_score: 4.57
   tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > Skills Catalog for Codex
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-09-28. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-10-05. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `NONE` |
-| Stars | 27,754 (checked 2026-09-28) |
-| Forks | 1,882 |
-| Open issues | 300 |
+| Stars | 27,881 (checked 2026-10-05) |
+| Forks | 1,897 |
+| Open issues | 299 |
 | Contributors | 35 |
-| Last push | 2026-09-08 (19 days before verification) |
+| Last push | 2026-09-08 (26 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -88,9 +88,9 @@ sources:
 | documentation | 4.15 |
 | reproducibility | 1.0 |
 | security | 2.5 |
-| recency | 9.74 |
+| recency | 9.64 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **6.39** |
+| **quality_score** (weighted) | **6.38** |
 | **trust_score** | **4.57** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -115,7 +115,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-09-28) and must be
+(on 2026-10-05) and must be
 re-checked against your own constraints._
 
 **Recommended for**

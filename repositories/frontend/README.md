@@ -4,33 +4,33 @@
 # Frontend
 
 54 repositories · 53 usable · 1 archived or abandoned ·
-all facts verified against the GitHub API on 2026-09-28.
+all facts verified against the GitHub API on 2026-10-05.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [lobehub/lobehub](./lobehub--lobehub.md) | 82,872 | A | 🟢 ACTIVE | `NOASSERTION` | 9.22 | 2026-09-28 |
-| [calcom/cal.diy](./calcom--cal.diy.md) | 48,707 | S | 🟢 ACTIVE | `MIT` | 9.2 | 2026-09-28 |
-| [payloadcms/payload](./payloadcms--payload.md) | 44,999 | S | 🟢 ACTIVE | `MIT` | 8.98 | 2026-09-28 |
-| [mui/base-ui](./mui--base-ui.md) | 11,011 | S | 🟢 ACTIVE | `MIT` | 8.97 | 2026-09-28 |
-| [nuxt/nuxt](./nuxt--nuxt.md) | 60,905 | S | 🟢 ACTIVE | `MIT` | 8.95 | 2026-09-28 |
-| [pmndrs/zustand](./pmndrs--zustand.md) | 58,763 | S | 🟢 ACTIVE | `MIT` | 8.85 | 2026-09-28 |
-| [pmndrs/drei](./pmndrs--drei.md) | 9,901 | S | 🟢 ACTIVE | `MIT` | 8.85 | 2026-09-28 |
-| [xyflow/xyflow](./xyflow--xyflow.md) | 38,523 | S | 🟢 ACTIVE | `MIT` | 8.79 | 2026-09-28 |
-| [TanStack/table](./tanstack--table.md) | 28,463 | S | 🟢 ACTIVE | `MIT` | 8.71 | 2026-09-28 |
-| [appsmithorg/appsmith](./appsmithorg--appsmith.md) | 40,960 | S | 🟢 ACTIVE | `Apache-2.0` | 8.7 | 2026-09-28 |
-| [vercel/next.js](./vercel--next.js.md) | 142,825 | S | 🟢 ACTIVE | `MIT` | 8.62 | 2026-09-28 |
-| [storybookjs/storybook](./storybookjs--storybook.md) | 91,165 | S | 🟢 ACTIVE | `MIT` | 8.6 | 2026-09-28 |
-| [open-webui/open-webui](./open-webui--open-webui.md) | 153,418 | A | 🟢 ACTIVE | `NOASSERTION` | 8.55 | 2026-09-28 |
-| [mrdoob/three.js](./mrdoob--three.js.md) | 116,013 | S | 🟢 ACTIVE | `MIT` | 8.54 | 2026-09-28 |
-| [recharts/recharts](./recharts--recharts.md) | 27,596 | S | 🟢 ACTIVE | `MIT` | 8.5 | 2026-09-28 |
+| [lobehub/lobehub](./lobehub--lobehub.md) | 82,983 | A | 🟢 ACTIVE | `NOASSERTION` | 9.22 | 2026-10-05 |
+| [calcom/cal.diy](./calcom--cal.diy.md) | 48,869 | S | 🟢 ACTIVE | `MIT` | 9.1 | 2026-10-05 |
+| [payloadcms/payload](./payloadcms--payload.md) | 45,096 | S | 🟢 ACTIVE | `MIT` | 8.98 | 2026-10-05 |
+| [mui/base-ui](./mui--base-ui.md) | 11,069 | S | 🟢 ACTIVE | `MIT` | 8.97 | 2026-10-05 |
+| [nuxt/nuxt](./nuxt--nuxt.md) | 60,919 | S | 🟢 ACTIVE | `MIT` | 8.95 | 2026-10-05 |
+| [pmndrs/zustand](./pmndrs--zustand.md) | 58,786 | S | 🟢 ACTIVE | `MIT` | 8.85 | 2026-10-05 |
+| [pmndrs/drei](./pmndrs--drei.md) | 9,915 | S | 🟢 ACTIVE | `MIT` | 8.85 | 2026-10-05 |
+| [xyflow/xyflow](./xyflow--xyflow.md) | 38,583 | S | 🟢 ACTIVE | `MIT` | 8.79 | 2026-10-05 |
+| [TanStack/table](./tanstack--table.md) | 28,474 | S | 🟢 ACTIVE | `MIT` | 8.71 | 2026-10-05 |
+| [appsmithorg/appsmith](./appsmithorg--appsmith.md) | 41,015 | S | 🟢 ACTIVE | `Apache-2.0` | 8.7 | 2026-10-05 |
+| [vercel/next.js](./vercel--next.js.md) | 143,185 | S | 🟢 ACTIVE | `MIT` | 8.62 | 2026-10-05 |
+| [storybookjs/storybook](./storybookjs--storybook.md) | 91,201 | S | 🟢 ACTIVE | `MIT` | 8.6 | 2026-10-05 |
+| [open-webui/open-webui](./open-webui--open-webui.md) | 153,980 | A | 🟢 ACTIVE | `NOASSERTION` | 8.55 | 2026-10-05 |
+| [mrdoob/three.js](./mrdoob--three.js.md) | 116,241 | S | 🟢 ACTIVE | `MIT` | 8.54 | 2026-10-05 |
+| [recharts/recharts](./recharts--recharts.md) | 27,613 | S | 🟢 ACTIVE | `MIT` | 8.5 | 2026-10-05 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [rsms/inter](./rsms--inter.md) | 19,921 | 🔴 ABANDONED | 678d |
+| [rsms/inter](./rsms--inter.md) | 19,938 | 🔴 ABANDONED | 685d |
 
 ## Cards
 
@@ -43,7 +43,7 @@ all facts verified against the GitHub API on 2026-09-28.
 - [dubinc/dub](./dubinc--dub.md) — tier A, ACTIVE
 - [fontsource/fontsource](./fontsource--fontsource.md) — tier S, ACTIVE
 - [formbricks/formbricks](./formbricks--formbricks.md) — tier A, ACTIVE
-- [google-gemini/gemini-fullstack-langgraph-quickstart](./google-gemini--gemini-fullstack-langgraph-quickstart.md) — tier B, STABLE
+- [google-gemini/gemini-fullstack-langgraph-quickstart](./google-gemini--gemini-fullstack-langgraph-quickstart.md) — tier C, STABLE
 - [greensock/GSAP](./greensock--gsap.md) — tier NO-LICENSE, MAINTENANCE
 - [lobehub/lobehub](./lobehub--lobehub.md) — tier A, ACTIVE
 - [magicuidesign/magicui](./magicuidesign--magicui.md) — tier A, ACTIVE

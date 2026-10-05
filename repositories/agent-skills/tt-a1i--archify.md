@@ -4,25 +4,25 @@ title: "tt-a1i/archify"
 domain: agent-skills
 summary: >-
   tt-a1i/archify — ACTIVE, tier S,
-  73,195 stars, license MIT, quality 8.02/10, trust 7.18/10.
-  Verified against the GitHub API on 2026-09-28.
+  77,807 stars, license MIT, quality 8.04/10, trust 7.21/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "architecture", "diagrams", "github-repository", "skills"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.72, "reproducibility": 8.0, "security": 6.0, "recency": 10.0, "evidence": 6.5}
-  quality_score: 8.02
-  trust_score: 7.18
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.87, "reproducibility": 8.0, "security": 6.0, "recency": 10.0, "evidence": 6.5}
+  quality_score: 8.04
+  trust_score: 7.21
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,9 +50,9 @@ sources:
 
 > _Upstream description, quoted as published and not verified here:_
 >
-> Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
+> Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 73,195 (checked 2026-09-28) |
-| Forks | 4,948 |
-| Open issues | 173 |
-| Contributors | 34 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v2.16.0 (2026-08-30) |
+| Stars | 77,807 (checked 2026-10-05) |
+| Forks | 5,228 |
+| Open issues | 199 |
+| Contributors | 69 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v3.0.1 (2026-09-28) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://tt-a1i.github.io/archify/](https://tt-a1i.github.io/archify/) |
@@ -80,13 +80,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 9.72 |
+| documentation | 9.87 |
 | reproducibility | 8.0 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **8.02** |
-| **trust_score** | **7.18** |
+| **quality_score** (weighted) | **8.04** |
+| **trust_score** | **7.21** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 32,585 bytes |
+| README size | 34,481 bytes |
 
 ## Curated judgement
 

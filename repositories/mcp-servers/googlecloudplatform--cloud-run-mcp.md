@@ -5,16 +5,16 @@ domain: mcp-servers
 summary: >-
   GoogleCloudPlatform/cloud-run-mcp — ACTIVE, tier A,
   631 stars, license Apache-2.0, quality 7.65/10, trust 6.49/10.
-  Verified against the GitHub API on 2026-09-28.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["gcp", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 5.0, "maintenance": 10.0, "adoption": 9.56, "documentation": 5.11, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 6.5}
   quality_score: 7.65
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > MCP server to deploy apps to Cloud Run
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `Apache-2.0` |
-| Stars | 631 (checked 2026-09-28) |
+| Stars | 631 (checked 2026-10-05) |
 | Forks | 123 |
-| Open issues | 21 |
+| Open issues | 22 |
 | Contributors | 14 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v1.10.0 (2026-03-04) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v1.11.0 (2026-09-28) |
 | Archived | no |
 | Fork | no |
 | Homepage | — |

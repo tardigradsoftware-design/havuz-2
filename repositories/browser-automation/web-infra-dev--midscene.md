@@ -4,25 +4,25 @@ title: "web-infra-dev/midscene"
 domain: browser-automation
 summary: >-
   web-infra-dev/midscene — ACTIVE, tier A,
-  15,026 stars, license MIT, quality 7.35/10, trust 6.3/10.
-  Verified against the GitHub API on 2026-09-28.
+  15,072 stars, license MIT, quality 7.35/10, trust 6.3/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "e2e-testing", "github-repository", "gui-agent"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.01, "reproducibility": 7.0, "security": 3.5, "recency": 10.0, "evidence": 5.0}
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.02, "reproducibility": 7.0, "security": 3.5, "recency": 9.95, "evidence": 5.0}
   quality_score: 7.35
   trust_score: 6.3
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > GUI Agent for E2E Testing
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 15,026 (checked 2026-09-28) |
-| Forks | 1,169 |
-| Open issues | 99 |
+| Stars | 15,072 (checked 2026-10-05) |
+| Forks | 1,172 |
+| Open issues | 100 |
 | Contributors | 84 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v1.13.3 (2026-09-23) |
+| Last push | 2026-09-30 (4 days before verification) |
+| Latest release | v1.14.0 (2026-09-29) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://midscenejs.com](https://midscenejs.com) |
@@ -80,10 +80,10 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.01 |
+| documentation | 6.02 |
 | reproducibility | 7.0 |
 | security | 3.5 |
-| recency | 10.0 |
+| recency | 9.95 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **7.35** |
 | **trust_score** | **6.3** |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 12,091 bytes |
+| README size | 12,222 bytes |
 
 ## Curated judgement
 

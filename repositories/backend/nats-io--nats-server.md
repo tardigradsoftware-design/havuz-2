@@ -4,17 +4,17 @@ title: "nats-io/nats-server"
 domain: backend
 summary: >-
   nats-io/nats-server — ACTIVE, tier S,
-  20,780 stars, license Apache-2.0, quality 8.44/10, trust 8.28/10.
-  Verified against the GitHub API on 2026-09-28.
+  20,837 stars, license Apache-2.0, quality 8.44/10, trust 8.28/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["backend", "github-repository", "messaging"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.88, "reproducibility": 9.0, "security": 4.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.44
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > High-Performance server for NATS.io, the cloud and edge native messaging system.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 20,780 (checked 2026-09-28) |
-| Forks | 1,975 |
-| Open issues | 460 |
-| Contributors | 210 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Stars | 20,837 (checked 2026-10-05) |
+| Forks | 1,990 |
+| Open issues | 470 |
+| Contributors | 215 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v2.15.0 (2026-09-17) |
 | Archived | no |
 | Fork | no |

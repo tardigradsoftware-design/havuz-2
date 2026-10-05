@@ -4,25 +4,25 @@ title: "argos-ci/argos"
 domain: developer-tools
 summary: >-
   argos-ci/argos — ACTIVE, tier S,
-  631 stars, license MIT, quality 8.43/10, trust 8.24/10.
-  Verified against the GitHub API on 2026-09-28.
+  636 stars, license MIT, quality 8.53/10, trust 8.39/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "visual-regression"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 9.45, "documentation": 6.62, "reproducibility": 8.5, "security": 7.0, "recency": 10.0, "evidence": 6.0}
-  quality_score: 8.43
-  trust_score: 8.24
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 9.46, "documentation": 6.62, "reproducibility": 8.5, "security": 7.0, "recency": 9.99, "evidence": 6.0}
+  quality_score: 8.53
+  trust_score: 8.39
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The open source visual testing platform for teams and AI agents. Review the product, not just the code.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 631 (checked 2026-09-28) |
+| Stars | 636 (checked 2026-10-05) |
 | Forks | 65 |
-| Open issues | 4 |
+| Open issues | 0 |
 | Contributors | 15 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Last push | 2026-10-04 (1 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -77,16 +77,16 @@ sources:
 
 | Component | 0–10 |
 |---|---|
-| authority | 8.5 |
+| authority | 9.0 |
 | maintenance | 10.0 |
-| adoption | 9.45 |
+| adoption | 9.46 |
 | documentation | 6.62 |
 | reproducibility | 8.5 |
 | security | 7.0 |
-| recency | 10.0 |
+| recency | 9.99 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **8.43** |
-| **trust_score** | **8.24** |
+| **quality_score** (weighted) | **8.53** |
+| **trust_score** | **8.39** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

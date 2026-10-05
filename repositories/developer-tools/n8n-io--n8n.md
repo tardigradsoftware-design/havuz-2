@@ -4,17 +4,17 @@ title: "n8n-io/n8n"
 domain: developer-tools
 summary: >-
   n8n-io/n8n — ACTIVE, tier A,
-  206,175 stars, license NOASSERTION, quality 7.59/10, trust 6.7/10.
-  Verified against the GitHub API on 2026-09-28.
+  206,693 stars, license NOASSERTION, quality 7.59/10, trust 6.7/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "developer-tools", "github-repository", "workflow-automation"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.34, "reproducibility": 6.1, "security": 5.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.59
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 206,175 (checked 2026-09-28) |
-| Forks | 60,913 |
-| Open issues | 1,119 |
+| Stars | 206,693 (checked 2026-10-05) |
+| Forks | 61,006 |
+| Open issues | 1,114 |
 | Contributors | 428 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | n8n@2.40.7 (2026-09-25) |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | n8n@2.41.7 (2026-10-05) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://n8n.io](https://n8n.io) |

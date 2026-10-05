@@ -4,25 +4,25 @@ title: "huggingface/open-r1"
 domain: reasoning-research
 summary: >-
   huggingface/open-r1 — STABLE, tier S,
-  26,478 stars, license Apache-2.0, quality 8.14/10, trust 7.81/10.
-  Verified against the GitHub API on 2026-09-28.
+  26,473 stars, license Apache-2.0, quality 8.14/10, trust 7.82/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "open-reproduction", "reasoning", "reasoning-research"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.42, "reproducibility": 8.5, "security": 4.5, "recency": 9.96, "evidence": 6.0}
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.45, "reproducibility": 8.5, "security": 4.5, "recency": 9.96, "evidence": 6.0}
   quality_score: 8.14
-  trust_score: 7.81
+  trust_score: 7.82
   tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Fully open reproduction of DeepSeek-R1
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 26,478 (checked 2026-09-28) |
+| Stars | 26,473 (checked 2026-10-05) |
 | Forks | 2,453 |
-| Open issues | 343 |
+| Open issues | 0 |
 | Contributors | 44 |
-| Last push | 2026-09-24 (3 days before verification) |
+| Last push | 2026-10-02 (3 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 8.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.42 |
+| documentation | 6.45 |
 | reproducibility | 8.5 |
 | security | 4.5 |
 | recency | 9.96 |
 | evidence | 6.0 |
 | **quality_score** (weighted) | **8.14** |
-| **trust_score** | **7.81** |
+| **trust_score** | **7.82** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 34,997 bytes |
+| README size | 35,397 bytes |
 
 ## Curated judgement
 

@@ -4,25 +4,25 @@ title: "wshobson/agents"
 domain: agent-skills
 summary: >-
   wshobson/agents — ACTIVE, tier A,
-  40,047 stars, license MIT, quality 7.14/10, trust 5.96/10.
-  Verified against the GitHub API on 2026-09-28.
+  40,206 stars, license MIT, quality 7.13/10, trust 5.95/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "github-repository", "marketplace", "multi-harness", "skills"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.38, "reproducibility": 6.5, "security": 3.5, "recency": 10.0, "evidence": 4.0}
-  quality_score: 7.14
-  trust_score: 5.96
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.31, "reproducibility": 6.5, "security": 3.5, "recency": 10.0, "evidence": 4.0}
+  quality_score: 7.13
+  trust_score: 5.95
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 40,047 (checked 2026-09-28) |
-| Forks | 4,273 |
-| Open issues | 8 |
-| Contributors | 80 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Stars | 40,206 (checked 2026-10-05) |
+| Forks | 4,287 |
+| Open issues | 4 |
+| Contributors | 83 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.38 |
+| documentation | 7.31 |
 | reproducibility | 6.5 |
 | security | 3.5 |
 | recency | 10.0 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.14** |
-| **trust_score** | **5.96** |
+| **quality_score** (weighted) | **7.13** |
+| **trust_score** | **5.95** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 10,545 bytes |
+| README size | 9,662 bytes |
 
 ## Curated judgement
 

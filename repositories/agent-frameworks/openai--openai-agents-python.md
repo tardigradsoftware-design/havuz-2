@@ -4,25 +4,25 @@ title: "openai/openai-agents-python"
 domain: agent-frameworks
 summary: >-
   openai/openai-agents-python — ACTIVE, tier S,
-  29,737 stars, license MIT, quality 9.03/10, trust 8.99/10.
-  Verified against the GitHub API on 2026-09-28.
+  29,839 stars, license MIT, quality 9.08/10, trust 9.06/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "framework", "github-repository", "openai"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.25, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
-  quality_score: 9.03
-  trust_score: 8.99
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.75, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
+  quality_score: 9.08
+  trust_score: 9.06
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A lightweight, powerful framework for multi-agent workflows
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 29,737 (checked 2026-09-28) |
-| Forks | 4,819 |
-| Open issues | 10 |
-| Contributors | 395 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v0.22.3 (2026-09-17) |
+| Stars | 29,839 (checked 2026-10-05) |
+| Forks | 4,846 |
+| Open issues | 4 |
+| Contributors | 397 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v0.23.1 (2026-10-02) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://openai.github.io/openai-agents-python/](https://openai.github.io/openai-agents-python/) |
@@ -80,13 +80,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.25 |
+| documentation | 7.75 |
 | reproducibility | 10.0 |
 | security | 7.0 |
 | recency | 10.0 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **9.03** |
-| **trust_score** | **8.99** |
+| **quality_score** (weighted) | **9.08** |
+| **trust_score** | **9.06** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -102,10 +102,10 @@ security / recency / evidence 10% each. See
 | ci | yes |
 | examples | yes |
 | security md | yes |
-| changelog | no |
+| changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 8,979 bytes |
+| README size | 9,009 bytes |
 
 ## Curated judgement
 

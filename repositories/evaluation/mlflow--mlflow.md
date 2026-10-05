@@ -4,17 +4,17 @@ title: "mlflow/mlflow"
 domain: evaluation
 summary: >-
   mlflow/mlflow — ACTIVE, tier S,
-  28,159 stars, license Apache-2.0, quality 8.63/10, trust 7.99/10.
-  Verified against the GitHub API on 2026-09-28.
+  28,261 stars, license Apache-2.0, quality 8.63/10, trust 7.99/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "experiment-tracking", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.76, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
   quality_score: 8.63
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 28,159 (checked 2026-09-28) |
-| Forks | 6,378 |
-| Open issues | 2,138 |
-| Contributors | 446 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Stars | 28,261 (checked 2026-10-05) |
+| Forks | 6,426 |
+| Open issues | 2,161 |
+| Contributors | 447 |
+| Last push | 2026-10-05 (0 days before verification) |
 | Latest release | v3.16.1 (2026-09-17) |
 | Archived | no |
 | Fork | no |

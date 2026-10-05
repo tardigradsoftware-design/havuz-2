@@ -4,25 +4,25 @@ title: "huggingface/smolagents"
 domain: agent-frameworks
 summary: >-
   huggingface/smolagents — ACTIVE, tier S,
-  29,541 stars, license Apache-2.0, quality 8.96/10, trust 8.9/10.
-  Verified against the GitHub API on 2026-09-28.
+  29,680 stars, license Apache-2.0, quality 8.96/10, trust 8.9/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "code-agents", "framework", "github-repository"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.68, "reproducibility": 10.0, "security": 7.0, "recency": 9.95, "evidence": 8.0}
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.68, "reproducibility": 10.0, "security": 7.0, "recency": 9.93, "evidence": 8.0}
   quality_score: 8.96
   trust_score: 8.9
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🤗 smolagents: a barebones library for agents that think in code.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 29,541 (checked 2026-09-28) |
-| Forks | 3,000 |
-| Open issues | 853 |
+| Stars | 29,680 (checked 2026-10-05) |
+| Forks | 3,045 |
+| Open issues | 876 |
 | Contributors | 203 |
-| Last push | 2026-09-23 (4 days before verification) |
+| Last push | 2026-09-30 (5 days before verification) |
 | Latest release | v1.26.0 (2026-05-29) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.68 |
 | reproducibility | 10.0 |
 | security | 7.0 |
-| recency | 9.95 |
+| recency | 9.93 |
 | evidence | 8.0 |
 | **quality_score** (weighted) | **8.96** |
 | **trust_score** | **8.9** |

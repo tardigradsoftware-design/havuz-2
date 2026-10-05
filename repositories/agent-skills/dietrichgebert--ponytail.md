@@ -3,26 +3,26 @@ id: dietrichgebert--ponytail
 title: "DietrichGebert/ponytail"
 domain: agent-skills
 summary: >-
-  DietrichGebert/ponytail — ACTIVE, tier A,
-  147,175 stars, license MIT, quality 7.9/10, trust 7.07/10.
-  Verified against the GitHub API on 2026-09-28.
+  DietrichGebert/ponytail — ACTIVE, tier S,
+  155,494 stars, license MIT, quality 8.03/10, trust 7.22/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "github-repository", "pragmatism", "skills"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.0, "maintenance": 9.5, "adoption": 10.0, "documentation": 7.96, "reproducibility": 10.0, "security": 3.5, "recency": 9.82, "evidence": 8.5}
-  quality_score: 7.9
-  trust_score: 7.07
-  tier: A
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.33, "reproducibility": 10.0, "security": 3.5, "recency": 10.0, "evidence": 8.5}
+  quality_score: 8.03
+  trust_score: 7.22
+  tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # DietrichGebert/ponytail
 
-🟢 ACTIVE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 147,175 (checked 2026-09-28) |
-| Forks | 7,910 |
-| Open issues | 310 |
-| Contributors | 64 |
-| Last push | 2026-09-14 (13 days before verification) |
-| Latest release | v4.10.0 (2026-09-14) |
+| Stars | 155,494 (checked 2026-10-05) |
+| Forks | 8,360 |
+| Open issues | 63 |
+| Contributors | 84 |
+| Last push | 2026-10-05 (0 days before verification) |
+| Latest release | v4.12.0 (2026-10-05) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://ponytail.dev](https://ponytail.dev) |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 5.0 |
-| maintenance | 9.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.96 |
+| documentation | 8.33 |
 | reproducibility | 10.0 |
 | security | 3.5 |
-| recency | 9.82 |
+| recency | 10.0 |
 | evidence | 8.5 |
-| **quality_score** (weighted) | **7.9** |
-| **trust_score** | **7.07** |
+| **quality_score** (weighted) | **8.03** |
+| **trust_score** | **7.22** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -103,9 +103,9 @@ security / recency / evidence 10% each. See
 | examples | yes |
 | security md | no |
 | changelog | no |
-| contributing | no |
+| contributing | yes |
 | root entries | yes |
-| README size | 23,564 bytes |
+| README size | 21,926 bytes |
 
 ## Curated judgement
 

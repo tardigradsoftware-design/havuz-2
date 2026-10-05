@@ -4,25 +4,25 @@ title: "xyflow/xyflow"
 domain: frontend
 summary: >-
   xyflow/xyflow — ACTIVE, tier S,
-  38,523 stars, license MIT, quality 8.89/10, trust 8.79/10.
-  Verified against the GitHub API on 2026-09-28.
+  38,583 stars, license MIT, quality 8.89/10, trust 8.79/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["diagrams", "frontend", "github-repository", "node-editor"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.94, "reproducibility": 10.0, "security": 7.0, "recency": 9.96, "evidence": 8.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.94, "reproducibility": 10.0, "security": 7.0, "recency": 9.93, "evidence": 8.0}
   quality_score: 8.89
   trust_score: 8.79
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > React Flow \| Svelte Flow - Powerful open source libraries for building node-based UIs with React (`https://reactflow.dev`) or Svelte (`https://svelteflow.dev`). Ready out-of-the-box and infinitely customizable.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 38,523 (checked 2026-09-28) |
-| Forks | 2,541 |
-| Open issues | 140 |
+| Stars | 38,583 (checked 2026-10-05) |
+| Forks | 2,540 |
+| Open issues | 145 |
 | Contributors | 138 |
-| Last push | 2026-09-24 (3 days before verification) |
+| Last push | 2026-09-29 (5 days before verification) |
 | Latest release | @xyflow/svelte@1.7.0 (2026-09-24) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 5.94 |
 | reproducibility | 10.0 |
 | security | 7.0 |
-| recency | 9.96 |
+| recency | 9.93 |
 | evidence | 8.0 |
 | **quality_score** (weighted) | **8.89** |
 | **trust_score** | **8.79** |

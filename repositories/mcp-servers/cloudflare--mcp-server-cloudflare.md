@@ -4,25 +4,25 @@ title: "cloudflare/mcp-server-cloudflare"
 domain: mcp-servers
 summary: >-
   cloudflare/mcp-server-cloudflare — ACTIVE, tier A,
-  4,326 stars, license Apache-2.0, quality 7.62/10, trust 7.11/10.
-  Verified against the GitHub API on 2026-09-28.
+  4,353 stars, license Apache-2.0, quality 7.62/10, trust 7.11/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cloudflare", "edge", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.24, "reproducibility": 7.0, "security": 4.5, "recency": 9.97, "evidence": 4.5}
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.24, "reproducibility": 7.0, "security": 4.5, "recency": 9.95, "evidence": 4.5}
   quality_score: 7.62
   trust_score: 7.11
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,7 +50,7 @@ sources:
 
 > _No description published._
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -59,11 +59,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 4,326 (checked 2026-09-28) |
-| Forks | 539 |
-| Open issues | 78 |
+| Stars | 4,353 (checked 2026-10-05) |
+| Forks | 545 |
+| Open issues | 86 |
 | Contributors | 43 |
-| Last push | 2026-09-25 (2 days before verification) |
+| Last push | 2026-10-01 (4 days before verification) |
 | Latest release | containers-mcp@0.2.19 (2026-08-11) |
 | Archived | no |
 | Fork | no |
@@ -81,7 +81,7 @@ sources:
 | documentation | 4.24 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 9.95 |
 | evidence | 4.5 |
 | **quality_score** (weighted) | **7.62** |
 | **trust_score** | **7.11** |

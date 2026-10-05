@@ -4,25 +4,25 @@ title: "rsms/inter"
 domain: frontend
 summary: >-
   rsms/inter — ABANDONED, tier C,
-  19,921 stars, license OFL-1.1, quality 5.45/10, trust 5.62/10.
-  Verified against the GitHub API on 2026-09-28.
+  19,938 stars, license OFL-1.1, quality 5.44/10, trust 5.62/10.
+  Verified against the GitHub API on 2026-10-05.
 status: deprecated
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["fonts", "frontend", "github-repository", "typography"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 7.5, "maintenance": 1.0, "adoption": 10.0, "documentation": 7.15, "reproducibility": 6.6, "security": 3.5, "recency": 0.71, "evidence": 5.0}
-  quality_score: 5.45
+  components: {"authority": 7.5, "maintenance": 1.0, "adoption": 10.0, "documentation": 7.15, "reproducibility": 6.6, "security": 3.5, "recency": 0.62, "evidence": 5.0}
+  quality_score: 5.44
   trust_score: 5.62
   tier: C
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The Inter font family
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `OFL-1.1` |
-| Stars | 19,921 (checked 2026-09-28) |
+| Stars | 19,938 (checked 2026-10-05) |
 | Forks | 485 |
-| Open issues | 142 |
+| Open issues | 143 |
 | Contributors | 22 |
-| Last push | 2024-11-19 (678 days before verification) |
+| Last push | 2024-11-19 (685 days before verification) |
 | Latest release | v4.1 (2024-11-16) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.15 |
 | reproducibility | 6.6 |
 | security | 3.5 |
-| recency | 0.71 |
+| recency | 0.62 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **5.45** |
+| **quality_score** (weighted) | **5.44** |
 | **trust_score** | **5.62** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 678 days (>365d). Likely abandoned; prefer an actively maintained alternative.
+No push in 685 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 

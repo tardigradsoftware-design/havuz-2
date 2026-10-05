@@ -4,25 +4,25 @@ title: "lint-staged/lint-staged"
 domain: developer-tools
 summary: >-
   lint-staged/lint-staged — ACTIVE, tier S,
-  14,738 stars, license MIT, quality 8.75/10, trust 8.8/10.
-  Verified against the GitHub API on 2026-09-28.
+  14,741 stars, license MIT, quality 8.74/10, trust 8.8/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "git-hooks", "github-repository", "linting"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 9.0, "security": 4.5, "recency": 9.97, "evidence": 7.5}
-  quality_score: 8.75
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 9.0, "security": 4.5, "recency": 9.88, "evidence": 7.5}
+  quality_score: 8.74
   trust_score: 8.8
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🚫💩 — Run tasks like formatters and linters against staged git files
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 14,738 (checked 2026-09-28) |
-| Forks | 472 |
+| Stars | 14,741 (checked 2026-10-05) |
+| Forks | 473 |
 | Open issues | 2 |
 | Contributors | 157 |
-| Last push | 2026-09-26 (2 days before verification) |
+| Last push | 2026-09-26 (9 days before verification) |
 | Latest release | v17.6.0 (2026-09-26) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.5 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 9.88 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.75** |
+| **quality_score** (weighted) | **8.74** |
 | **trust_score** | **8.8** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

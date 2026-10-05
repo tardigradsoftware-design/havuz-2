@@ -4,17 +4,17 @@ title: "charmbracelet/crush"
 domain: agent-skills
 summary: >-
   charmbracelet/crush — ACTIVE, tier A,
-  28,334 stars, license NOASSERTION, quality 7.91/10, trust 7.74/10.
-  Verified against the GitHub API on 2026-09-28.
+  28,494 stars, license NOASSERTION, quality 7.91/10, trust 7.74/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "terminal"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
   components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.95, "reproducibility": 6.1, "security": 4.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.91
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Glamourous agentic coding for all 💘
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `NOASSERTION` |
-| Stars | 28,334 (checked 2026-09-28) |
-| Forks | 2,294 |
-| Open issues | 816 |
+| Stars | 28,494 (checked 2026-10-05) |
+| Forks | 2,315 |
+| Open issues | 841 |
 | Contributors | 154 |
-| Last push | 2026-09-28 (0 days before verification) |
-| Latest release | v0.96.1 (2026-09-21) |
+| Last push | 2026-10-04 (0 days before verification) |
+| Latest release | v0.97.1 (2026-09-29) |
 | Archived | no |
 | Fork | no |
 | Homepage | — |

@@ -4,25 +4,25 @@ title: "blader/humanizer"
 domain: agent-skills
 summary: >-
   blader/humanizer — ACTIVE, tier A,
-  52,505 stars, license MIT, quality 7.16/10, trust 6.01/10.
-  Verified against the GitHub API on 2026-09-28.
+  54,069 stars, license MIT, quality 7.15/10, trust 6.01/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "ai-slop", "github-repository", "skills", "writing"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.07, "reproducibility": 7.0, "security": 3.5, "recency": 10.0, "evidence": 5.0}
-  quality_score: 7.16
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.07, "reproducibility": 7.0, "security": 3.5, "recency": 9.9, "evidence": 5.0}
+  quality_score: 7.15
   trust_score: 6.01
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Agent skill that removes signs of AI-generated writing from text
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 52,505 (checked 2026-09-28) |
-| Forks | 4,192 |
-| Open issues | 0 |
+| Stars | 54,069 (checked 2026-10-05) |
+| Forks | 4,296 |
+| Open issues | 4 |
 | Contributors | 22 |
-| Last push | 2026-09-28 (0 days before verification) |
+| Last push | 2026-09-28 (7 days before verification) |
 | Latest release | v3.1.0 (2026-09-28) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.07 |
 | reproducibility | 7.0 |
 | security | 3.5 |
-| recency | 10.0 |
+| recency | 9.9 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.16** |
+| **quality_score** (weighted) | **7.15** |
 | **trust_score** | **6.01** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

@@ -3,26 +3,26 @@ id: tabbyml--tabby
 title: "TabbyML/tabby"
 domain: developer-tools
 summary: >-
-  TabbyML/tabby — STABLE, tier A,
-  33,891 stars, license NOASSERTION, quality 7.03/10, trust 6.14/10.
-  Verified against the GitHub API on 2026-09-28.
+  TabbyML/tabby — STABLE, tier B,
+  33,893 stars, license NOASSERTION, quality 6.72/10, trust 5.74/10.
+  Verified against the GitHub API on 2026-10-05.
 status: active
-confidence: high
+confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["code-completion", "developer-tools", "github-repository", "self-hosted"]
 version: 1.0.0
-updated: 2026-09-28
-verified_at: 2026-09-28
-expires_at: 2026-11-12
+updated: 2026-10-05
+verified_at: 2026-10-05
+expires_at: 2026-11-19
 scoring:
-  components: {"authority": 6.0, "maintenance": 8.0, "adoption": 10.0, "documentation": 7.9, "reproducibility": 6.6, "security": 3.0, "recency": 8.78, "evidence": 5.0}
-  quality_score: 7.03
-  trust_score: 6.14
-  tier: A
-  maturity: production-grade
+  components: {"authority": 6.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 7.9, "reproducibility": 6.6, "security": 3.0, "recency": 8.68, "evidence": 5.0}
+  quality_score: 6.72
+  trust_score: 5.74
+  tier: B
+  maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-09-28
+  scored_at: 2026-10-05
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,31 +34,31 @@ sources:
     organization: TabbyML
     license: NOASSERTION
     license_risk: custom-license-review-before-vendoring
-    confidence: high
+    confidence: medium
     claim_type: fact
-    verified_at: 2026-09-28
+    verified_at: 2026-10-05
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-09-28)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # TabbyML/tabby
 
-🔵 STABLE · tier **A** · production-grade · confidence **high**
+🔵 STABLE · tier **B** · production-ready · confidence **medium**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Self-hosted AI coding assistant
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-09-28, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-09-28 via the GitHub API)
+## Facts (verified 2026-10-05 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `NOASSERTION` |
-| Stars | 33,891 (checked 2026-09-28) |
-| Forks | 1,789 |
-| Open issues | 343 |
+| Stars | 33,893 (checked 2026-10-05) |
+| Forks | 1,793 |
+| Open issues | 342 |
 | Contributors | 117 |
-| Last push | 2026-06-30 (89 days before verification) |
+| Last push | 2026-06-30 (96 days before verification) |
 | Latest release | v0.32.0 (2026-01-25) |
 | Archived | no |
 | Fork | no |
@@ -84,15 +84,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 8.0 |
+| maintenance | 6.0 |
 | adoption | 10.0 |
 | documentation | 7.9 |
 | reproducibility | 6.6 |
 | security | 3.0 |
-| recency | 8.78 |
+| recency | 8.68 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.03** |
-| **trust_score** | **6.14** |
+| **quality_score** (weighted) | **6.72** |
+| **trust_score** | **5.74** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
