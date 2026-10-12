@@ -4,25 +4,25 @@ title: "openfga/openfga"
 domain: backend
 summary: >-
   openfga/openfga — ACTIVE, tier S,
-  5,923 stars, license Apache-2.0, quality 8.69/10, trust 8.59/10.
-  Verified against the GitHub API on 2026-10-05.
+  5,954 stars, license Apache-2.0, quality 8.69/10, trust 8.59/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["authorization", "backend", "github-repository", "rebac"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.93, "reproducibility": 9.5, "security": 4.5, "recency": 9.97, "evidence": 7.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.93, "reproducibility": 9.5, "security": 4.5, "recency": 9.93, "evidence": 7.0}
   quality_score: 8.69
   trust_score: 8.59
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A high-performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 5,923 (checked 2026-10-05) |
-| Forks | 511 |
-| Open issues | 212 |
-| Contributors | 111 |
-| Last push | 2026-10-02 (2 days before verification) |
-| Latest release | v1.21.0 (2026-09-20) |
+| Stars | 5,954 (checked 2026-10-12) |
+| Forks | 518 |
+| Open issues | 211 |
+| Contributors | 112 |
+| Last push | 2026-10-07 (5 days before verification) |
+| Latest release | v1.22.0 (2026-10-06) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://openfga.dev](https://openfga.dev) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.93 |
 | reproducibility | 9.5 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 9.93 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **8.69** |
 | **trust_score** | **8.59** |

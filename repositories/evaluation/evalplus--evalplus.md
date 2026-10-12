@@ -4,25 +4,25 @@ title: "evalplus/evalplus"
 domain: evaluation
 summary: >-
   evalplus/evalplus — STABLE, tier B,
-  1,824 stars, license Apache-2.0, quality 6.75/10, trust 6.69/10.
-  Verified against the GitHub API on 2026-10-05.
+  1,826 stars, license Apache-2.0, quality 6.74/10, trust 6.69/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["coding", "evaluation", "github-repository", "humaneval"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 7.27, "reproducibility": 9.5, "security": 3.5, "recency": 4.97, "evidence": 7.0}
-  quality_score: 6.75
+  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 7.27, "reproducibility": 9.5, "security": 3.5, "recency": 4.88, "evidence": 7.0}
+  quality_score: 6.74
   trust_score: 6.69
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 1,824 (checked 2026-10-05) |
+| Stars | 1,826 (checked 2026-10-12) |
 | Forks | 209 |
 | Open issues | 78 |
 | Contributors | 27 |
-| Last push | 2025-10-02 (367 days before verification) |
+| Last push | 2025-10-02 (374 days before verification) |
 | Latest release | v0.3.1 (2024-10-20) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.27 |
 | reproducibility | 9.5 |
 | security | 3.5 |
-| recency | 4.97 |
+| recency | 4.88 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **6.75** |
+| **quality_score** (weighted) | **6.74** |
 | **trust_score** | **6.69** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

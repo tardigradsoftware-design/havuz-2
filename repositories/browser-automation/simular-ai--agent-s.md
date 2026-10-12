@@ -3,26 +3,26 @@ id: simular-ai--agent-s
 title: "simular-ai/Agent-S"
 domain: browser-automation
 summary: >-
-  simular-ai/Agent-S — STABLE, tier A,
-  12,539 stars, license Apache-2.0, quality 7.57/10, trust 6.61/10.
-  Verified against the GitHub API on 2026-10-05.
+  simular-ai/Agent-S — ACTIVE, tier A,
+  12,589 stars, license Apache-2.0, quality 7.81/10, trust 6.95/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-framework", "browser-automation", "computer-use", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.09, "reproducibility": 9.0, "security": 3.5, "recency": 9.6, "evidence": 7.0}
-  quality_score: 7.57
-  trust_score: 6.61
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.18, "reproducibility": 9.0, "security": 3.5, "recency": 9.96, "evidence": 7.5}
+  quality_score: 7.81
+  trust_score: 6.95
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # simular-ai/Agent-S
 
-🔵 STABLE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Agent S: an open agentic framework that uses computers like a human
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 12,539 (checked 2026-10-05) |
-| Forks | 1,466 |
+| Stars | 12,589 (checked 2026-10-12) |
+| Forks | 1,467 |
 | Open issues | 59 |
 | Contributors | 26 |
-| Last push | 2026-09-05 (29 days before verification) |
+| Last push | 2026-10-08 (3 days before verification) |
 | Latest release | v0.3.2 (2025-12-16) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 9.0 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.09 |
+| documentation | 6.18 |
 | reproducibility | 9.0 |
 | security | 3.5 |
-| recency | 9.6 |
-| evidence | 7.0 |
-| **quality_score** (weighted) | **7.57** |
-| **trust_score** | **6.61** |
+| recency | 9.96 |
+| evidence | 7.5 |
+| **quality_score** (weighted) | **7.81** |
+| **trust_score** | **6.95** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 19,029 bytes |
+| README size | 20,196 bytes |
 
 ## Curated judgement
 

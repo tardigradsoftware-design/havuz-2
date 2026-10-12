@@ -4,17 +4,17 @@ title: "nodejs/node"
 domain: backend
 summary: >-
   nodejs/node — ACTIVE, tier A,
-  122,350 stars, license NOASSERTION, quality 8.91/10, trust 9.0/10.
-  Verified against the GitHub API on 2026-10-05.
+  122,320 stars, license NOASSERTION, quality 8.91/10, trust 9.0/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["backend", "github-repository", "javascript", "runtime"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 8.6, "security": 6.5, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.91
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Node.js JavaScript runtime ✨🐢🚀✨
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `NOASSERTION` |
-| Stars | 122,350 (checked 2026-10-05) |
-| Forks | 38,840 |
-| Open issues | 1,169 |
-| Contributors | 419 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v26.10.0 (2026-09-22) |
+| Stars | 122,320 (checked 2026-10-12) |
+| Forks | 39,599 |
+| Open issues | 1,193 |
+| Contributors | 418 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v26.11.1 (2026-10-07) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://nodejs.org](https://nodejs.org) |
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 41,882 bytes |
+| README size | 42,601 bytes |
 
 ## Curated judgement
 

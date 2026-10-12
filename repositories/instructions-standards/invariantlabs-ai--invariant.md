@@ -4,25 +4,25 @@ title: "invariantlabs-ai/invariant"
 domain: instructions-standards
 summary: >-
   invariantlabs-ai/invariant — MAINTENANCE, tier B,
-  467 stars, license Apache-2.0, quality 6.09/10, trust 5.84/10.
-  Verified against the GitHub API on 2026-10-05.
+  469 stars, license Apache-2.0, quality 6.09/10, trust 5.84/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-security", "github-repository", "guardrails", "instructions-standards"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.5, "maintenance": 3.0, "adoption": 9.09, "documentation": 4.93, "reproducibility": 6.0, "security": 4.5, "recency": 6.37, "evidence": 4.0}
+  components: {"authority": 8.5, "maintenance": 3.0, "adoption": 9.1, "documentation": 4.93, "reproducibility": 6.0, "security": 4.5, "recency": 6.27, "evidence": 4.0}
   quality_score: 6.09
   trust_score: 5.84
   tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Guardrails for secure and robust agent development
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 467 (checked 2026-10-05) |
-| Forks | 50 |
-| Open issues | 15 |
+| Stars | 469 (checked 2026-10-12) |
+| Forks | 51 |
+| Open issues | 16 |
 | Contributors | 10 |
-| Last push | 2026-01-12 (265 days before verification) |
+| Last push | 2026-01-12 (272 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -79,11 +79,11 @@ sources:
 |---|---|
 | authority | 8.5 |
 | maintenance | 3.0 |
-| adoption | 9.09 |
+| adoption | 9.1 |
 | documentation | 4.93 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 6.37 |
+| recency | 6.27 |
 | evidence | 4.0 |
 | **quality_score** (weighted) | **6.09** |
 | **trust_score** | **5.84** |
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 265 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 272 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

@@ -4,17 +4,17 @@ title: "taskforcesh/bullmq"
 domain: backend
 summary: >-
   taskforcesh/bullmq — ACTIVE, tier S,
-  9,469 stars, license MIT, quality 8.7/10, trust 8.6/10.
-  Verified against the GitHub API on 2026-10-05.
+  9,498 stars, license MIT, quality 8.7/10, trust 8.6/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["backend", "github-repository", "jobs", "queue"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.02, "reproducibility": 9.5, "security": 4.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.7
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > BullMQ - Message Queue and Batch processing for NodeJS, Python, .NET, Elixir, Rust and PHP based on Redis or PostgreSQL
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 9,469 (checked 2026-10-05) |
-| Forks | 701 |
-| Open issues | 389 |
-| Contributors | 206 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | vrs1.3.4 (2026-10-04) |
+| Stars | 9,498 (checked 2026-10-12) |
+| Forks | 718 |
+| Open issues | 399 |
+| Contributors | 213 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v6.3.13 (2026-10-12) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://bullmq.io](https://bullmq.io) |

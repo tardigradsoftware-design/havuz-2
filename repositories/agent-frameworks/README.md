@@ -4,27 +4,27 @@
 # Agent frameworks & SDKs
 
 33 repositories · 33 usable · 0 archived or abandoned ·
-all facts verified against the GitHub API on 2026-10-05.
+all facts verified against the GitHub API on 2026-10-12.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [camel-ai/camel](./camel-ai--camel.md) | 17,809 | S | 🟢 ACTIVE | `Apache-2.0` | 9.45 | 2026-10-05 |
-| [BerriAI/litellm](./berriai--litellm.md) | 60,144 | A | 🟢 ACTIVE | `NOASSERTION` | 9.4 | 2026-10-05 |
-| [openai/openai-python](./openai--openai-python.md) | 31,747 | S | 🟢 ACTIVE | `Apache-2.0` | 9.38 | 2026-10-05 |
-| [openai/openai-agents-python](./openai--openai-agents-python.md) | 29,839 | S | 🟢 ACTIVE | `MIT` | 9.06 | 2026-10-05 |
-| [pydantic/pydantic-ai](./pydantic--pydantic-ai.md) | 20,413 | S | 🟢 ACTIVE | `MIT` | 9.05 | 2026-10-05 |
-| [huggingface/smolagents](./huggingface--smolagents.md) | 29,680 | S | 🟢 ACTIVE | `Apache-2.0` | 8.9 | 2026-10-05 |
-| [deepset-ai/haystack](./deepset-ai--haystack.md) | 26,655 | S | 🟢 ACTIVE | `Apache-2.0` | 8.82 | 2026-10-05 |
-| [google/adk-js](./google--adk-js.md) | 1,430 | S | 🟢 ACTIVE | `Apache-2.0` | 8.68 | 2026-10-05 |
-| [google/adk-python](./google--adk-python.md) | 21,705 | S | 🟢 ACTIVE | `Apache-2.0` | 8.57 | 2026-10-05 |
-| [stanfordnlp/dspy](./stanfordnlp--dspy.md) | 38,503 | S | 🟢 ACTIVE | `MIT` | 8.54 | 2026-10-05 |
-| [openai/openai-agents-js](./openai--openai-agents-js.md) | 3,887 | S | 🟢 ACTIVE | `MIT` | 8.45 | 2026-10-05 |
-| [googleapis/python-genai](./googleapis--python-genai.md) | 4,003 | S | 🟢 ACTIVE | `Apache-2.0` | 8.38 | 2026-10-05 |
-| [run-llama/llama_index](./run-llama--llama_index.md) | 52,409 | S | 🟢 ACTIVE | `MIT` | 8.35 | 2026-10-05 |
-| [crewAIInc/crewAI](./crewaiinc--crewai.md) | 59,354 | S | 🟢 ACTIVE | `MIT` | 8.33 | 2026-10-05 |
-| [microsoft/semantic-kernel](./microsoft--semantic-kernel.md) | 28,627 | S | 🟢 ACTIVE | `MIT` | 8.31 | 2026-10-05 |
+| [camel-ai/camel](./camel-ai--camel.md) | 17,871 | S | 🟢 ACTIVE | `Apache-2.0` | 9.45 | 2026-10-12 |
+| [BerriAI/litellm](./berriai--litellm.md) | 61,048 | A | 🟢 ACTIVE | `NOASSERTION` | 9.4 | 2026-10-12 |
+| [openai/openai-python](./openai--openai-python.md) | 31,820 | S | 🟢 ACTIVE | `Apache-2.0` | 9.38 | 2026-10-12 |
+| [openai/openai-agents-python](./openai--openai-agents-python.md) | 29,984 | S | 🟢 ACTIVE | `MIT` | 9.06 | 2026-10-12 |
+| [pydantic/pydantic-ai](./pydantic--pydantic-ai.md) | 20,571 | S | 🟢 ACTIVE | `MIT` | 9.05 | 2026-10-12 |
+| [huggingface/smolagents](./huggingface--smolagents.md) | 29,797 | S | 🟢 ACTIVE | `Apache-2.0` | 8.9 | 2026-10-12 |
+| [deepset-ai/haystack](./deepset-ai--haystack.md) | 26,725 | S | 🟢 ACTIVE | `Apache-2.0` | 8.82 | 2026-10-12 |
+| [google/adk-js](./google--adk-js.md) | 1,435 | S | 🟢 ACTIVE | `Apache-2.0` | 8.68 | 2026-10-12 |
+| [google/adk-python](./google--adk-python.md) | 21,781 | S | 🟢 ACTIVE | `Apache-2.0` | 8.57 | 2026-10-12 |
+| [stanfordnlp/dspy](./stanfordnlp--dspy.md) | 38,599 | S | 🟢 ACTIVE | `MIT` | 8.54 | 2026-10-12 |
+| [openai/openai-agents-js](./openai--openai-agents-js.md) | 3,906 | S | 🟢 ACTIVE | `MIT` | 8.45 | 2026-10-12 |
+| [googleapis/python-genai](./googleapis--python-genai.md) | 4,017 | S | 🟢 ACTIVE | `Apache-2.0` | 8.38 | 2026-10-12 |
+| [run-llama/llama_index](./run-llama--llama_index.md) | 52,471 | S | 🟢 ACTIVE | `MIT` | 8.35 | 2026-10-12 |
+| [crewAIInc/crewAI](./crewaiinc--crewai.md) | 59,598 | S | 🟢 ACTIVE | `MIT` | 8.33 | 2026-10-12 |
+| [microsoft/semantic-kernel](./microsoft--semantic-kernel.md) | 28,654 | S | 🟢 ACTIVE | `MIT` | 8.31 | 2026-10-12 |
 
 ## Do not adopt
 
@@ -51,7 +51,7 @@ all facts verified against the GitHub API on 2026-10-05.
 - [huggingface/smolagents](./huggingface--smolagents.md) — tier S, ACTIVE
 - [langchain-ai/langchain](./langchain-ai--langchain.md) — tier A, ACTIVE
 - [langchain-ai/langgraph](./langchain-ai--langgraph.md) — tier S, ACTIVE
-- [letta-ai/letta](./letta-ai--letta.md) — tier S, STABLE
+- [letta-ai/letta](./letta-ai--letta.md) — tier A, STABLE
 - [mastra-ai/mastra](./mastra-ai--mastra.md) — tier A, ACTIVE
 - [microsoft/agent-framework](./microsoft--agent-framework.md) — tier S, ACTIVE
 - [microsoft/autogen](./microsoft--autogen.md) — tier A, MAINTENANCE

@@ -4,25 +4,25 @@ title: "google/adk-recipes"
 domain: agent-frameworks
 summary: >-
   google/adk-recipes — ACTIVE, tier A,
-  10,412 stars, license Apache-2.0, quality 7.83/10, trust 7.51/10.
-  Verified against the GitHub API on 2026-10-05.
+  10,441 stars, license Apache-2.0, quality 7.82/10, trust 7.51/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "github-repository", "google", "samples"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.75, "reproducibility": 6.0, "security": 4.5, "recency": 10.0, "evidence": 4.0}
-  quality_score: 7.83
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.75, "reproducibility": 6.0, "security": 4.5, "recency": 9.97, "evidence": 4.0}
+  quality_score: 7.82
   trust_score: 7.51
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A collection of agent recipes, reference patterns, and vertical plugins built with Agent Development Kit (ADK)
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 10,412 (checked 2026-10-05) |
-| Forks | 2,891 |
-| Open issues | 27 |
+| Stars | 10,441 (checked 2026-10-12) |
+| Forks | 2,907 |
+| Open issues | 28 |
 | Contributors | 138 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Last push | 2026-10-10 (2 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.75 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.83** |
+| **quality_score** (weighted) | **7.82** |
 | **trust_score** | **7.51** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

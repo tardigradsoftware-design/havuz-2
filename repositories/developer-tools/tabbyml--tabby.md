@@ -4,25 +4,25 @@ title: "TabbyML/tabby"
 domain: developer-tools
 summary: >-
   TabbyML/tabby — STABLE, tier B,
-  33,893 stars, license NOASSERTION, quality 6.72/10, trust 5.74/10.
-  Verified against the GitHub API on 2026-10-05.
+  33,910 stars, license NOASSERTION, quality 6.71/10, trust 5.74/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["code-completion", "developer-tools", "github-repository", "self-hosted"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 7.9, "reproducibility": 6.6, "security": 3.0, "recency": 8.68, "evidence": 5.0}
-  quality_score: 6.72
+  components: {"authority": 6.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 7.9, "reproducibility": 6.6, "security": 3.0, "recency": 8.59, "evidence": 5.0}
+  quality_score: 6.71
   trust_score: 5.74
   tier: B
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Self-hosted AI coding assistant
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `NOASSERTION` |
-| Stars | 33,893 (checked 2026-10-05) |
+| Stars | 33,910 (checked 2026-10-12) |
 | Forks | 1,793 |
-| Open issues | 342 |
+| Open issues | 337 |
 | Contributors | 117 |
-| Last push | 2026-06-30 (96 days before verification) |
+| Last push | 2026-06-30 (103 days before verification) |
 | Latest release | v0.32.0 (2026-01-25) |
 | Archived | no |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 7.9 |
 | reproducibility | 6.6 |
 | security | 3.0 |
-| recency | 8.68 |
+| recency | 8.59 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **6.72** |
+| **quality_score** (weighted) | **6.71** |
 | **trust_score** | **5.74** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

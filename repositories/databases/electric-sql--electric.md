@@ -4,25 +4,25 @@ title: "electric-sql/electric"
 domain: databases
 summary: >-
   electric-sql/electric — ACTIVE, tier S,
-  10,384 stars, license Apache-2.0, quality 8.61/10, trust 8.47/10.
-  Verified against the GitHub API on 2026-10-05.
+  10,394 stars, license Apache-2.0, quality 8.6/10, trust 8.47/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["databases", "github-repository", "local-first", "postgres", "sync"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.11, "reproducibility": 8.0, "security": 7.0, "recency": 9.99, "evidence": 6.0}
-  quality_score: 8.61
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.11, "reproducibility": 8.0, "security": 7.0, "recency": 9.93, "evidence": 6.0}
+  quality_score: 8.6
   trust_score: 8.47
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The agent platform built on sync.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 10,384 (checked 2026-10-05) |
-| Forks | 392 |
-| Open issues | 269 |
+| Stars | 10,394 (checked 2026-10-12) |
+| Forks | 393 |
+| Open issues | 270 |
 | Contributors | 75 |
-| Last push | 2026-10-03 (1 days before verification) |
+| Last push | 2026-10-06 (5 days before verification) |
 | Latest release | @electric-sql/y-electric@0.1.54 (2026-09-09) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.11 |
 | reproducibility | 8.0 |
 | security | 7.0 |
-| recency | 9.99 |
+| recency | 9.93 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **8.61** |
+| **quality_score** (weighted) | **8.6** |
 | **trust_score** | **8.47** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

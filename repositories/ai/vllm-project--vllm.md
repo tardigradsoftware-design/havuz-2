@@ -4,17 +4,17 @@ title: "vllm-project/vllm"
 domain: ai
 summary: >-
   vllm-project/vllm — ACTIVE, tier S,
-  93,203 stars, license Apache-2.0, quality 8.95/10, trust 8.87/10.
-  Verified against the GitHub API on 2026-10-05.
+  93,630 stars, license Apache-2.0, quality 8.95/10, trust 8.87/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "inference", "performance", "serving"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.48, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.95
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A high-throughput and memory-efficient inference and serving engine for LLMs
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 93,203 (checked 2026-10-05) |
-| Forks | 23,010 |
-| Open issues | 8,465 |
+| Stars | 93,630 (checked 2026-10-12) |
+| Forks | 23,277 |
+| Open issues | 8,721 |
 | Contributors | 453 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v0.31.0 (2026-10-05) |
 | Archived | no |
 | Fork | no |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 5,708 bytes |
+| README size | 5,772 bytes |
 
 ## Curated judgement
 

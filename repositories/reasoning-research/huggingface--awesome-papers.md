@@ -5,16 +5,16 @@ domain: reasoning-research
 summary: >-
   huggingface/awesome-papers — ARCHIVED, tier ARCHIVED,
   2,051 stars, license NONE, quality 3.79/10, trust 0.38/10.
-  Verified against the GitHub API on 2026-10-05.
+  Verified against the GitHub API on 2026-10-12.
 status: deprecated
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["discovery", "github-repository", "papers", "reasoning-research"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.0, "maintenance": 0.5, "adoption": 10.0, "documentation": 4.19, "reproducibility": 1.0, "security": 0.0, "recency": 0.0, "evidence": 1.0}
   quality_score: 3.79
@@ -22,7 +22,7 @@ scoring:
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: low
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > Papers & presentation materials from Hugging Face's internal science day
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-10-05. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-10-12. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | yes |
 | Language | — |
 | License | `NONE` |
-| Stars | 2,051 (checked 2026-10-05) |
-| Forks | 117 |
+| Stars | 2,051 (checked 2026-10-12) |
+| Forks | 118 |
 | Open issues | 0 |
 | Contributors | 6 |
-| Last push | 2020-10-31 (2164 days before verification) |
+| Last push | 2020-10-31 (2171 days before verification) |
 | Latest release | — (no release) |
 | Archived | **YES** |
 | Fork | no |

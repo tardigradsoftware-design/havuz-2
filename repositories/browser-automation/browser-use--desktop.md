@@ -4,25 +4,25 @@ title: "browser-use/desktop"
 domain: browser-automation
 summary: >-
   browser-use/desktop — ACTIVE, tier A,
-  699 stars, license MIT, quality 7.9/10, trust 7.51/10.
-  Verified against the GitHub API on 2026-10-05.
+  700 stars, license MIT, quality 7.67/10, trust 7.21/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
-confidence: very-high
+confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser", "browser-automation", "desktop", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 9.55, "documentation": 5.73, "reproducibility": 7.5, "security": 4.5, "recency": 9.97, "evidence": 4.0}
-  quality_score: 7.9
-  trust_score: 7.51
+  components: {"authority": 9.0, "maintenance": 8.5, "adoption": 9.55, "documentation": 5.73, "reproducibility": 7.5, "security": 4.5, "recency": 9.88, "evidence": 4.0}
+  quality_score: 7.67
+  trust_score: 7.21
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: browser-use
     license: MIT
     license_risk: none
-    confidence: very-high
+    confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # browser-use/desktop
 
-🟢 ACTIVE · tier **A** · production-ready · confidence **very-high**
+🟢 ACTIVE · tier **A** · production-ready · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Browser Use Desktop App
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 699 (checked 2026-10-05) |
+| Stars | 700 (checked 2026-10-12) |
 | Forks | 63 |
 | Open issues | 38 |
 | Contributors | 6 |
-| Last push | 2026-10-03 (2 days before verification) |
+| Last push | 2026-10-03 (9 days before verification) |
 | Latest release | v0.0.31 (2026-05-09) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 10.0 |
+| maintenance | 8.5 |
 | adoption | 9.55 |
 | documentation | 5.73 |
 | reproducibility | 7.5 |
 | security | 4.5 |
-| recency | 9.97 |
+| recency | 9.88 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.9** |
-| **trust_score** | **7.51** |
+| **quality_score** (weighted) | **7.67** |
+| **trust_score** | **7.21** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

@@ -4,25 +4,25 @@ title: "anthropics/claude-quickstarts"
 domain: browser-automation
 summary: >-
   anthropics/claude-quickstarts — ACTIVE, tier A,
-  17,800 stars, license MIT, quality 7.42/10, trust 6.86/10.
-  Verified against the GitHub API on 2026-10-05.
+  17,915 stars, license MIT, quality 7.43/10, trust 6.87/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "computer-use", "examples", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.26, "reproducibility": 6.0, "security": 4.5, "recency": 9.95, "evidence": 3.5}
-  quality_score: 7.42
-  trust_score: 6.86
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.33, "reproducibility": 6.0, "security": 4.5, "recency": 9.96, "evidence": 3.5}
+  quality_score: 7.43
+  trust_score: 6.87
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 17,800 (checked 2026-10-05) |
-| Forks | 3,067 |
-| Open issues | 222 |
+| Stars | 17,915 (checked 2026-10-12) |
+| Forks | 3,084 |
+| Open issues | 225 |
 | Contributors | 33 |
-| Last push | 2026-09-30 (4 days before verification) |
+| Last push | 2026-10-08 (3 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 8.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 4.26 |
+| documentation | 4.33 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 9.95 |
+| recency | 9.96 |
 | evidence | 3.5 |
-| **quality_score** (weighted) | **7.42** |
-| **trust_score** | **6.86** |
+| **quality_score** (weighted) | **7.43** |
+| **trust_score** | **6.87** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 9,125 bytes |
+| README size | 9,985 bytes |
 
 ## Curated judgement
 

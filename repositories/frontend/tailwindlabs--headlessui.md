@@ -3,26 +3,26 @@ id: tailwindlabs--headlessui
 title: "tailwindlabs/headlessui"
 domain: frontend
 summary: >-
-  tailwindlabs/headlessui — MAINTENANCE, tier A,
-  28,766 stars, license MIT, quality 7.06/10, trust 6.79/10.
-  Verified against the GitHub API on 2026-10-05.
+  tailwindlabs/headlessui — MAINTENANCE, tier B,
+  28,773 stars, license MIT, quality 6.75/10, trust 6.39/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["accessibility", "components", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 5.5, "adoption": 10.0, "documentation": 5.26, "reproducibility": 7.0, "security": 4.5, "recency": 7.62, "evidence": 5.0}
-  quality_score: 7.06
-  trust_score: 6.79
-  tier: A
+  components: {"authority": 9.0, "maintenance": 3.5, "adoption": 10.0, "documentation": 5.26, "reproducibility": 7.0, "security": 4.5, "recency": 7.52, "evidence": 5.0}
+  quality_score: 6.75
+  trust_score: 6.39
+  tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # tailwindlabs/headlessui
 
-🟡 MAINTENANCE · tier **A** · maintenance-mode · confidence **high**
+🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 28,766 (checked 2026-10-05) |
-| Forks | 1,208 |
-| Open issues | 115 |
+| Stars | 28,773 (checked 2026-10-12) |
+| Forks | 1,209 |
+| Open issues | 110 |
 | Contributors | 74 |
-| Last push | 2026-04-13 (174 days before verification) |
+| Last push | 2026-04-13 (181 days before verification) |
 | Latest release | @headlessui/react@v2.2.10 (2026-04-07) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 5.5 |
+| maintenance | 3.5 |
 | adoption | 10.0 |
 | documentation | 5.26 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 7.62 |
+| recency | 7.52 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.06** |
-| **trust_score** | **6.79** |
+| **quality_score** (weighted) | **6.75** |
+| **trust_score** | **6.39** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 174 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 181 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

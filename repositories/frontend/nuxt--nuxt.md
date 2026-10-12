@@ -4,17 +4,17 @@ title: "nuxt/nuxt"
 domain: frontend
 summary: >-
   nuxt/nuxt — ACTIVE, tier S,
-  60,919 stars, license MIT, quality 9.0/10, trust 8.95/10.
-  Verified against the GitHub API on 2026-10-05.
+  60,931 stars, license MIT, quality 9.0/10, trust 8.95/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["frontend", "github-repository", "nuxt", "vue"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.98, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 9.0
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The full-stack Vue framework.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 60,919 (checked 2026-10-05) |
-| Forks | 5,809 |
-| Open issues | 465 |
+| Stars | 60,931 (checked 2026-10-12) |
+| Forks | 5,818 |
+| Open issues | 475 |
 | Contributors | 419 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v4.5.2 (2026-08-05) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v4.6.1 (2026-10-09) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://nuxt.com](https://nuxt.com) |

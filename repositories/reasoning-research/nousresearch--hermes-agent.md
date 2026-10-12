@@ -4,17 +4,17 @@ title: "NousResearch/hermes-agent"
 domain: reasoning-research
 summary: >-
   NousResearch/hermes-agent — ACTIVE, tier S,
-  251,302 stars, license MIT, quality 9.04/10, trust 9.03/10.
-  Verified against the GitHub API on 2026-10-05.
+  252,976 stars, license MIT, quality 9.04/10, trust 9.03/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "github-repository", "reasoning-research", "self-improving"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.38, "reproducibility": 9.5, "security": 7.0, "recency": 10.0, "evidence": 7.5}
   quality_score: 9.04
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The agent that grows with you
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 251,302 (checked 2026-10-05) |
-| Forks | 53,960 |
-| Open issues | 48,062 |
-| Contributors | 398 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v2026.9.24 (2026-09-24) |
+| Stars | 252,976 (checked 2026-10-12) |
+| Forks | 54,794 |
+| Open issues | 47,982 |
+| Contributors | 401 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v0.21.7 (2026-10-12) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com) |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

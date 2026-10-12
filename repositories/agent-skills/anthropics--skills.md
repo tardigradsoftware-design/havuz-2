@@ -4,25 +4,25 @@ title: "anthropics/skills"
 domain: agent-skills
 summary: >-
   anthropics/skills — ACTIVE, tier NO-LICENSE,
-  179,714 stars, license NONE, quality 6.95/10, trust 5.24/10.
-  Verified against the GitHub API on 2026-10-05.
+  180,647 stars, license NONE, quality 6.94/10, trust 5.24/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-skills", "anthropic", "github-repository", "skills"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 3.96, "reproducibility": 3.0, "security": 2.5, "recency": 9.99, "evidence": 4.0}
-  quality_score: 6.95
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 3.96, "reproducibility": 3.0, "security": 2.5, "recency": 9.97, "evidence": 4.0}
+  quality_score: 6.94
   trust_score: 5.24
   tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > Public repository for Agent Skills
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-10-05. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-10-12. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,11 +66,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `NONE` |
-| Stars | 179,714 (checked 2026-10-05) |
-| Forks | 21,248 |
-| Open issues | 1,386 |
+| Stars | 180,647 (checked 2026-10-12) |
+| Forks | 21,409 |
+| Open issues | 1,401 |
 | Contributors | 15 |
-| Last push | 2026-10-03 (1 days before verification) |
+| Last push | 2026-10-09 (2 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -88,9 +88,9 @@ sources:
 | documentation | 3.96 |
 | reproducibility | 3.0 |
 | security | 2.5 |
-| recency | 9.99 |
+| recency | 9.97 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **6.95** |
+| **quality_score** (weighted) | **6.94** |
 | **trust_score** | **5.24** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -115,7 +115,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

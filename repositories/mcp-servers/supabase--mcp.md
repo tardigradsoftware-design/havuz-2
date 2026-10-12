@@ -4,17 +4,17 @@ title: "supabase/mcp"
 domain: mcp-servers
 summary: >-
   supabase/mcp — ACTIVE, tier S,
-  2,932 stars, license Apache-2.0, quality 8.07/10, trust 7.83/10.
-  Verified against the GitHub API on 2026-10-05.
+  2,945 stars, license Apache-2.0, quality 8.07/10, trust 7.83/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["database", "github-repository", "mcp", "mcp-servers", "supabase"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.17, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.07
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Connect Supabase to your AI assistants
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 2,932 (checked 2026-10-05) |
-| Forks | 416 |
-| Open issues | 136 |
+| Stars | 2,945 (checked 2026-10-12) |
+| Forks | 415 |
+| Open issues | 139 |
 | Contributors | 25 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | mcp-server-supabase-v0.13.0 (2026-09-17) |
 | Archived | no |
 | Fork | no |
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

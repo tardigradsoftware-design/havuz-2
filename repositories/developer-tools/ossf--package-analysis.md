@@ -3,26 +3,26 @@ id: ossf--package-analysis
 title: "ossf/package-analysis"
 domain: developer-tools
 summary: >-
-  ossf/package-analysis — ACTIVE, tier S,
-  916 stars, license Apache-2.0, quality 8.4/10, trust 8.08/10.
-  Verified against the GitHub API on 2026-10-05.
+  ossf/package-analysis — STABLE, tier S,
+  918 stars, license Apache-2.0, quality 8.39/10, trust 8.08/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "security", "supply-chain"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 9.86, "documentation": 6.06, "reproducibility": 10.0, "security": 7.0, "recency": 9.88, "evidence": 7.5}
-  quality_score: 8.4
+  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 9.86, "documentation": 6.06, "reproducibility": 10.0, "security": 7.0, "recency": 9.78, "evidence": 7.5}
+  quality_score: 8.39
   trust_score: 8.08
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # ossf/package-analysis
 
-🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
+🔵 STABLE · tier **S** · production-ready · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Open Source Package Analysis
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 916 (checked 2026-10-05) |
+| Stars | 918 (checked 2026-10-12) |
 | Forks | 75 |
-| Open issues | 90 |
+| Open issues | 89 |
 | Contributors | 23 |
-| Last push | 2026-09-25 (9 days before verification) |
+| Last push | 2026-09-25 (16 days before verification) |
 | Latest release | rel-38 (2026-05-20) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.06 |
 | reproducibility | 10.0 |
 | security | 7.0 |
-| recency | 9.88 |
+| recency | 9.78 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.4** |
+| **quality_score** (weighted) | **8.39** |
 | **trust_score** | **8.08** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

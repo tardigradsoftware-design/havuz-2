@@ -4,34 +4,34 @@
 # AI / model tooling
 
 24 repositories · 22 usable · 2 archived or abandoned ·
-all facts verified against the GitHub API on 2026-10-05.
+all facts verified against the GitHub API on 2026-10-12.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [huggingface/transformers](./huggingface--transformers.md) | 166,963 | S | 🟢 ACTIVE | `Apache-2.0` | 9.09 | 2026-10-05 |
-| [huggingface/peft](./huggingface--peft.md) | 21,751 | S | 🟢 ACTIVE | `Apache-2.0` | 9.03 | 2026-10-05 |
-| [vllm-project/vllm](./vllm-project--vllm.md) | 93,203 | S | 🟢 ACTIVE | `Apache-2.0` | 8.87 | 2026-10-05 |
-| [huggingface/trl](./huggingface--trl.md) | 19,448 | S | 🟢 ACTIVE | `Apache-2.0` | 8.83 | 2026-10-05 |
-| [ggml-org/llama.cpp](./ggml-org--llama.cpp.md) | 130,349 | S | 🟢 ACTIVE | `MIT` | 8.82 | 2026-10-05 |
-| [huggingface/datasets](./huggingface--datasets.md) | 22,029 | S | 🔵 STABLE | `Apache-2.0` | 8.81 | 2026-10-05 |
-| [axolotl-ai-cloud/axolotl](./axolotl-ai-cloud--axolotl.md) | 12,520 | S | 🟢 ACTIVE | `Apache-2.0` | 8.79 | 2026-10-05 |
-| [unslothai/unsloth](./unslothai--unsloth.md) | 77,207 | S | 🟢 ACTIVE | `Apache-2.0` | 8.6 | 2026-10-05 |
-| [ml-explore/mlx](./ml-explore--mlx.md) | 28,655 | S | 🟢 ACTIVE | `MIT` | 8.53 | 2026-10-05 |
-| [microsoft/generative-ai-for-beginners](./microsoft--generative-ai-for-beginners.md) | 121,020 | S | 🟢 ACTIVE | `MIT` | 8.46 | 2026-10-05 |
-| [ollama/ollama](./ollama--ollama.md) | 182,217 | S | 🟢 ACTIVE | `MIT` | 8.36 | 2026-10-05 |
-| [semantica-agi/semantica](./semantica-agi--semantica.md) | 13,649 | S | 🟢 ACTIVE | `MIT` | 8.03 | 2026-10-05 |
-| [anthropics/claude-cookbooks](./anthropics--claude-cookbooks.md) | 53,204 | A | 🟢 ACTIVE | `MIT` | 7.4 | 2026-10-05 |
-| [rasbt/LLMs-from-scratch](./rasbt--llms-from-scratch.md) | 106,037 | A | 🟢 ACTIVE | `NOASSERTION` | 7.21 | 2026-10-05 |
-| [VectifyAI/PageIndex](./vectifyai--pageindex.md) | 38,664 | A | 🟢 ACTIVE | `MIT` | 6.99 | 2026-10-05 |
+| [huggingface/transformers](./huggingface--transformers.md) | 167,563 | S | 🟢 ACTIVE | `Apache-2.0` | 9.09 | 2026-10-12 |
+| [huggingface/peft](./huggingface--peft.md) | 21,780 | S | 🟢 ACTIVE | `Apache-2.0` | 9.03 | 2026-10-12 |
+| [vllm-project/vllm](./vllm-project--vllm.md) | 93,630 | S | 🟢 ACTIVE | `Apache-2.0` | 8.87 | 2026-10-12 |
+| [huggingface/trl](./huggingface--trl.md) | 19,497 | S | 🟢 ACTIVE | `Apache-2.0` | 8.83 | 2026-10-12 |
+| [ggml-org/llama.cpp](./ggml-org--llama.cpp.md) | 130,916 | S | 🟢 ACTIVE | `MIT` | 8.82 | 2026-10-12 |
+| [huggingface/datasets](./huggingface--datasets.md) | 22,051 | S | 🔵 STABLE | `Apache-2.0` | 8.81 | 2026-10-12 |
+| [axolotl-ai-cloud/axolotl](./axolotl-ai-cloud--axolotl.md) | 12,557 | S | 🟢 ACTIVE | `Apache-2.0` | 8.79 | 2026-10-12 |
+| [unslothai/unsloth](./unslothai--unsloth.md) | 77,851 | S | 🟢 ACTIVE | `Apache-2.0` | 8.6 | 2026-10-12 |
+| [ml-explore/mlx](./ml-explore--mlx.md) | 28,733 | S | 🟢 ACTIVE | `MIT` | 8.53 | 2026-10-12 |
+| [microsoft/generative-ai-for-beginners](./microsoft--generative-ai-for-beginners.md) | 121,248 | S | 🟢 ACTIVE | `MIT` | 8.46 | 2026-10-12 |
+| [ollama/ollama](./ollama--ollama.md) | 182,839 | S | 🟢 ACTIVE | `MIT` | 8.37 | 2026-10-12 |
+| [semantica-agi/semantica](./semantica-agi--semantica.md) | 13,967 | S | 🟢 ACTIVE | `MIT` | 8.03 | 2026-10-12 |
+| [anthropics/claude-cookbooks](./anthropics--claude-cookbooks.md) | 53,371 | A | 🟢 ACTIVE | `MIT` | 7.4 | 2026-10-12 |
+| [rasbt/LLMs-from-scratch](./rasbt--llms-from-scratch.md) | 106,410 | A | 🟢 ACTIVE | `NOASSERTION` | 7.01 | 2026-10-12 |
+| [VectifyAI/PageIndex](./vectifyai--pageindex.md) | 39,072 | A | 🟢 ACTIVE | `MIT` | 6.99 | 2026-10-12 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [anthropics/courses](./anthropics--courses.md) | 22,871 | ⛔ ARCHIVED | 38d |
-| [huggingface/text-generation-inference](./huggingface--text-generation-inference.md) | 10,880 | ⛔ ARCHIVED | 197d |
+| [anthropics/courses](./anthropics--courses.md) | 22,878 | ⛔ ARCHIVED | 45d |
+| [huggingface/text-generation-inference](./huggingface--text-generation-inference.md) | 10,880 | ⛔ ARCHIVED | 205d |
 
 ## Cards
 

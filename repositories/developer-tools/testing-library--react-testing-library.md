@@ -4,25 +4,25 @@ title: "testing-library/react-testing-library"
 domain: developer-tools
 summary: >-
   testing-library/react-testing-library — STABLE, tier S,
-  19,659 stars, license MIT, quality 8.37/10, trust 8.35/10.
-  Verified against the GitHub API on 2026-10-05.
+  19,663 stars, license MIT, quality 8.36/10, trust 8.35/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "react", "testing"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 8.5, "reproducibility": 9.0, "security": 4.5, "recency": 9.48, "evidence": 7.5}
-  quality_score: 8.37
+  components: {"authority": 8.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 8.5, "reproducibility": 9.0, "security": 4.5, "recency": 9.38, "evidence": 7.5}
+  quality_score: 8.36
   trust_score: 8.35
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🐐 Simple and complete React DOM testing utilities that encourage good testing practices.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 19,659 (checked 2026-10-05) |
-| Forks | 1,169 |
-| Open issues | 82 |
+| Stars | 19,663 (checked 2026-10-12) |
+| Forks | 1,171 |
+| Open issues | 84 |
 | Contributors | 168 |
-| Last push | 2026-08-27 (38 days before verification) |
+| Last push | 2026-08-27 (45 days before verification) |
 | Latest release | v16.3.3 (2026-08-27) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.5 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.48 |
+| recency | 9.38 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.37** |
+| **quality_score** (weighted) | **8.36** |
 | **trust_score** | **8.35** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

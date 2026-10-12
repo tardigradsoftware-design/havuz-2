@@ -4,25 +4,25 @@ title: "1Panel-dev/MaxKB"
 domain: ai
 summary: >-
   1Panel-dev/MaxKB — ACTIVE, tier A,
-  22,897 stars, license GPL-3.0, quality 7.45/10, trust 6.48/10.
-  Verified against the GitHub API on 2026-10-05.
+  22,954 stars, license GPL-3.0, quality 7.45/10, trust 6.48/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "enterprise-kb", "github-repository", "rag"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.54, "reproducibility": 5.95, "security": 6.0, "recency": 9.99, "evidence": 5.0}
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.54, "reproducibility": 5.95, "security": 6.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.45
   trust_score: 6.48
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `GPL-3.0` |
-| Stars | 22,897 (checked 2026-10-05) |
-| Forks | 3,166 |
-| Open issues | 26 |
-| Contributors | 90 |
-| Last push | 2026-10-04 (1 days before verification) |
+| Stars | 22,954 (checked 2026-10-12) |
+| Forks | 3,182 |
+| Open issues | 25 |
+| Contributors | 91 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v2.10.6-lts (2026-09-03) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 5.54 |
 | reproducibility | 5.95 |
 | security | 6.0 |
-| recency | 9.99 |
+| recency | 10.0 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **7.45** |
 | **trust_score** | **6.48** |

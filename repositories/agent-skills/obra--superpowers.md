@@ -4,25 +4,25 @@ title: "obra/superpowers"
 domain: agent-skills
 summary: >-
   obra/superpowers — ACTIVE, tier S,
-  295,439 stars, license MIT, quality 8.03/10, trust 7.66/10.
-  Verified against the GitHub API on 2026-10-05.
+  297,979 stars, license MIT, quality 8.12/10, trust 7.76/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-skills", "claude-code", "github-repository", "methodology", "skills"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 7.5, "maintenance": 9.5, "adoption": 10.0, "documentation": 6.2, "reproducibility": 9.0, "security": 4.5, "recency": 9.89, "evidence": 6.5}
-  quality_score: 8.03
-  trust_score: 7.66
+  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.22, "reproducibility": 9.0, "security": 4.5, "recency": 9.97, "evidence": 6.5}
+  quality_score: 8.12
+  trust_score: 7.76
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An agentic skills framework & software development methodology that works.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Shell |
 | License | `MIT` |
-| Stars | 295,439 (checked 2026-10-05) |
-| Forks | 26,393 |
-| Open issues | 308 |
+| Stars | 297,979 (checked 2026-10-12) |
+| Forks | 26,619 |
+| Open issues | 331 |
 | Contributors | 37 |
-| Last push | 2026-09-27 (8 days before verification) |
-| Latest release | v6.4.2 (2026-09-25) |
+| Last push | 2026-10-10 (2 days before verification) |
+| Latest release | v7.0.0 (2026-10-10) |
 | Archived | no |
 | Fork | no |
 | Homepage | — |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 7.5 |
-| maintenance | 9.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 6.2 |
+| documentation | 6.22 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.89 |
+| recency | 9.97 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **8.03** |
-| **trust_score** | **7.66** |
+| **quality_score** (weighted) | **8.12** |
+| **trust_score** | **7.76** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 14,389 bytes |
+| README size | 14,589 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

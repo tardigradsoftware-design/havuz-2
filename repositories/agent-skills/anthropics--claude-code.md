@@ -4,17 +4,17 @@ title: "anthropics/claude-code"
 domain: agent-skills
 summary: >-
   anthropics/claude-code — ACTIVE, tier NO-LICENSE,
-  149,456 stars, license NONE, quality 7.77/10, trust 6.34/10.
-  Verified against the GitHub API on 2026-10-05.
+  150,327 stars, license NONE, quality 7.77/10, trust 6.34/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "anthropic", "coding-agent", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.24, "reproducibility": 4.5, "security": 5.0, "recency": 10.0, "evidence": 6.0}
   quality_score: 7.77
@@ -22,7 +22,7 @@ scoring:
   tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,11 +53,11 @@ sources:
 > Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-10-05. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-10-12. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,12 +66,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NONE` |
-| Stars | 149,456 (checked 2026-10-05) |
-| Forks | 25,546 |
-| Open issues | 14,219 |
+| Stars | 150,327 (checked 2026-10-12) |
+| Forks | 26,298 |
+| Open issues | 14,657 |
 | Contributors | 57 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v2.1.289 (2026-10-03) |
+| Last push | 2026-10-11 (0 days before verification) |
+| Latest release | v2.1.296 (2026-10-09) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview) |

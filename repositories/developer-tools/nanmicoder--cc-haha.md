@@ -4,25 +4,25 @@ title: "NanmiCoder/cc-haha"
 domain: developer-tools
 summary: >-
   NanmiCoder/cc-haha — ACTIVE, tier A,
-  14,867 stars, license MIT, quality 7.71/10, trust 6.74/10.
-  Verified against the GitHub API on 2026-10-05.
+  14,974 stars, license MIT, quality 7.71/10, trust 6.74/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-workspace", "desktop", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.59, "reproducibility": 9.0, "security": 3.5, "recency": 10.0, "evidence": 7.0}
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.6, "reproducibility": 9.0, "security": 3.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 7.71
   trust_score: 6.74
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,9 +50,9 @@ sources:
 
 > _Upstream description, quoted as published and not verified here:_
 >
-> Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.
+> 本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 \| Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git worktrees, diffs, skills marketplace, multi-model, Computer Use, task-aware desktop pets; remote via WeChat, Feishu, DingTalk, Telegram, WhatsApp & H5.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,15 +61,15 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 14,867 (checked 2026-10-05) |
-| Forks | 8,593 |
-| Open issues | 187 |
+| Stars | 14,974 (checked 2026-10-12) |
+| Forks | 8,609 |
+| Open issues | 194 |
 | Contributors | 34 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v0.6.8 (2026-10-01) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v0.7.1 (2026-10-11) |
 | Archived | no |
 | Fork | no |
-| Homepage | cchaha.ai |
+| Homepage | [https://cchaha.ai](https://cchaha.ai) |
 | SECURITY.md | no → `no-policy` |
 | Repository kind | `software` |
 
@@ -80,7 +80,7 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.59 |
+| documentation | 7.6 |
 | reproducibility | 9.0 |
 | security | 3.5 |
 | recency | 10.0 |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 13,072 bytes |
+| README size | 13,165 bytes |
 
 ## Curated judgement
 

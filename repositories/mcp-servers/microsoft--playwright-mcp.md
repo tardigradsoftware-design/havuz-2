@@ -4,25 +4,25 @@ title: "microsoft/playwright-mcp"
 domain: mcp-servers
 summary: >-
   microsoft/playwright-mcp — ACTIVE, tier S,
-  37,826 stars, license Apache-2.0, quality 8.89/10, trust 8.82/10.
-  Verified against the GitHub API on 2026-10-05.
+  38,050 stars, license Apache-2.0, quality 8.9/10, trust 8.82/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["automation", "browser", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 9.5, "security": 7.0, "recency": 9.92, "evidence": 7.5}
-  quality_score: 8.89
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 9.5, "security": 7.0, "recency": 9.96, "evidence": 7.5}
+  quality_score: 8.9
   trust_score: 8.82
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Playwright MCP server
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 37,826 (checked 2026-10-05) |
-| Forks | 3,216 |
-| Open issues | 1 |
+| Stars | 38,050 (checked 2026-10-12) |
+| Forks | 3,237 |
+| Open issues | 2 |
 | Contributors | 69 |
-| Last push | 2026-09-28 (6 days before verification) |
+| Last push | 2026-10-08 (3 days before verification) |
 | Latest release | v0.0.83 (2026-09-28) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.0 |
 | reproducibility | 9.5 |
 | security | 7.0 |
-| recency | 9.92 |
+| recency | 9.96 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.89** |
+| **quality_score** (weighted) | **8.9** |
 | **trust_score** | **8.82** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

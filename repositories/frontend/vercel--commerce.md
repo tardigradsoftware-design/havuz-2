@@ -3,26 +3,26 @@ id: vercel--commerce
 title: "vercel/commerce"
 domain: frontend
 summary: >-
-  vercel/commerce — STABLE, tier A,
-  14,287 stars, license MIT, quality 7.17/10, trust 6.71/10.
-  Verified against the GitHub API on 2026-10-05.
+  vercel/commerce — ACTIVE, tier A,
+  14,296 stars, license MIT, quality 7.54/10, trust 7.11/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ecommerce", "example", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.5, "maintenance": 8.0, "adoption": 10.0, "documentation": 4.93, "reproducibility": 5.5, "security": 4.5, "recency": 9.27, "evidence": 3.5}
-  quality_score: 7.17
-  trust_score: 6.71
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.93, "reproducibility": 5.5, "security": 4.5, "recency": 9.93, "evidence": 3.5}
+  quality_score: 7.54
+  trust_score: 7.11
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # vercel/commerce
 
-🔵 STABLE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Next.js Commerce
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 14,287 (checked 2026-10-05) |
-| Forks | 5,481 |
-| Open issues | 81 |
+| Stars | 14,296 (checked 2026-10-12) |
+| Forks | 5,478 |
+| Open issues | 82 |
 | Contributors | 135 |
-| Last push | 2026-08-13 (53 days before verification) |
+| Last push | 2026-10-06 (5 days before verification) |
 | Latest release | v1 (2023-04-18) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.5 |
-| maintenance | 8.0 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 4.93 |
 | reproducibility | 5.5 |
 | security | 4.5 |
-| recency | 9.27 |
+| recency | 9.93 |
 | evidence | 3.5 |
-| **quality_score** (weighted) | **7.17** |
-| **trust_score** | **6.71** |
+| **quality_score** (weighted) | **7.54** |
+| **trust_score** | **7.11** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

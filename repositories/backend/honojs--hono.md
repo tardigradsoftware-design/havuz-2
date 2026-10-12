@@ -4,17 +4,17 @@ title: "honojs/hono"
 domain: backend
 summary: >-
   honojs/hono — ACTIVE, tier S,
-  32,410 stars, license MIT, quality 8.08/10, trust 7.85/10.
-  Verified against the GitHub API on 2026-10-05.
+  32,498 stars, license MIT, quality 8.08/10, trust 7.85/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["api", "backend", "edge", "github-repository", "typescript"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.31, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.08
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Web framework built on Web Standards
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 32,410 (checked 2026-10-05) |
-| Forks | 1,373 |
+| Stars | 32,498 (checked 2026-10-12) |
+| Forks | 1,399 |
 | Open issues | 413 |
 | Contributors | 363 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v4.13.13 (2026-10-04) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | @hono/vercel@1.0.1 (2026-10-08) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://hono.dev](https://hono.dev) |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 3,752 bytes |
+| README size | 3,668 bytes |
 
 ## Curated judgement
 

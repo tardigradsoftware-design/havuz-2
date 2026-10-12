@@ -4,34 +4,34 @@
 # Reasoning research & open models
 
 26 repositories · 24 usable · 2 archived or abandoned ·
-all facts verified against the GitHub API on 2026-10-05.
+all facts verified against the GitHub API on 2026-10-12.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [OpenRLHF/OpenRLHF](./openrlhf--openrlhf.md) | 10,067 | S | 🔵 STABLE | `Apache-2.0` | 9.1 | 2026-10-05 |
-| [NousResearch/hermes-agent](./nousresearch--hermes-agent.md) | 251,302 | S | 🟢 ACTIVE | `MIT` | 9.03 | 2026-10-05 |
-| [huggingface/open-r1](./huggingface--open-r1.md) | 26,473 | S | 🔵 STABLE | `Apache-2.0` | 7.82 | 2026-10-05 |
-| [rasbt/reasoning-from-scratch](./rasbt--reasoning-from-scratch.md) | 5,349 | S | 🟢 ACTIVE | `Apache-2.0` | 7.67 | 2026-10-05 |
-| [verl-project/verl](./verl-project--verl.md) | 23,748 | S | 🟢 ACTIVE | `Apache-2.0` | 7.55 | 2026-10-05 |
-| [meta-llama/llama-models](./meta-llama--llama-models.md) | 7,709 | B | 🔵 STABLE | `NOASSERTION` | 6.33 | 2026-10-05 |
-| [TsinghuaC3I/Awesome-RL-for-LRMs](./tsinghuac3i--awesome-rl-for-lrms.md) | 2,489 | A | 🔵 STABLE | `MIT` | 6.07 | 2026-10-05 |
-| [Xnhyacinth/Awesome-LLM-Long-Context-Modeling](./xnhyacinth--awesome-llm-long-context-modeling.md) | 2,175 | B | 🔵 STABLE | `MIT` | 5.58 | 2026-10-05 |
-| [deepseek-ai/DeepSeek-V3](./deepseek-ai--deepseek-v3.md) | 104,511 | C | 🔵 STABLE | `MIT` | 5.41 | 2026-10-05 |
-| [deepseek-ai/DeepSeek-R1](./deepseek-ai--deepseek-r1.md) | 91,926 | C | 🔵 STABLE | `MIT` | 5.41 | 2026-10-05 |
-| [madaan/self-refine](./madaan--self-refine.md) | 822 | C | 🔵 STABLE | `Apache-2.0` | 5.19 | 2026-10-05 |
-| [princeton-nlp/tree-of-thought-llm](./princeton-nlp--tree-of-thought-llm.md) | 6,076 | C | 🔵 STABLE | `MIT` | 5.11 | 2026-10-05 |
-| [NousResearch/Hermes-Function-Calling](./nousresearch--hermes-function-calling.md) | 1,477 | C | 🔵 STABLE | `MIT` | 5.09 | 2026-10-05 |
-| [SkyworkAI/Skywork-R1V](./skyworkai--skywork-r1v.md) | 3,173 | B | 🔵 STABLE | `MIT` | 4.95 | 2026-10-05 |
-| [QwenLM/Qwen3](./qwenlm--qwen3.md) | 27,658 | NO-LICENSE | 🔵 STABLE | `NONE` | 4.66 | 2026-10-05 |
+| [OpenRLHF/OpenRLHF](./openrlhf--openrlhf.md) | 10,081 | S | 🟢 ACTIVE | `Apache-2.0` | 9.2 | 2026-10-12 |
+| [NousResearch/hermes-agent](./nousresearch--hermes-agent.md) | 252,976 | S | 🟢 ACTIVE | `MIT` | 9.03 | 2026-10-12 |
+| [huggingface/open-r1](./huggingface--open-r1.md) | 26,478 | A | 🔵 STABLE | `Apache-2.0` | 7.62 | 2026-10-12 |
+| [verl-project/verl](./verl-project--verl.md) | 23,835 | S | 🟢 ACTIVE | `Apache-2.0` | 7.55 | 2026-10-12 |
+| [rasbt/reasoning-from-scratch](./rasbt--reasoning-from-scratch.md) | 5,393 | A | 🟢 ACTIVE | `Apache-2.0` | 7.37 | 2026-10-12 |
+| [meta-llama/llama-models](./meta-llama--llama-models.md) | 7,708 | B | 🔵 STABLE | `NOASSERTION` | 6.33 | 2026-10-12 |
+| [TsinghuaC3I/Awesome-RL-for-LRMs](./tsinghuac3i--awesome-rl-for-lrms.md) | 2,491 | A | 🔵 STABLE | `MIT` | 6.07 | 2026-10-12 |
+| [Xnhyacinth/Awesome-LLM-Long-Context-Modeling](./xnhyacinth--awesome-llm-long-context-modeling.md) | 2,179 | B | 🔵 STABLE | `MIT` | 5.58 | 2026-10-12 |
+| [deepseek-ai/DeepSeek-V3](./deepseek-ai--deepseek-v3.md) | 104,501 | C | 🔵 STABLE | `MIT` | 5.41 | 2026-10-12 |
+| [deepseek-ai/DeepSeek-R1](./deepseek-ai--deepseek-r1.md) | 91,901 | C | 🔵 STABLE | `MIT` | 5.41 | 2026-10-12 |
+| [madaan/self-refine](./madaan--self-refine.md) | 823 | C | 🔵 STABLE | `Apache-2.0` | 5.19 | 2026-10-12 |
+| [princeton-nlp/tree-of-thought-llm](./princeton-nlp--tree-of-thought-llm.md) | 6,078 | C | 🔵 STABLE | `MIT` | 5.11 | 2026-10-12 |
+| [NousResearch/Hermes-Function-Calling](./nousresearch--hermes-function-calling.md) | 1,484 | C | 🔵 STABLE | `MIT` | 5.09 | 2026-10-12 |
+| [SkyworkAI/Skywork-R1V](./skyworkai--skywork-r1v.md) | 3,172 | B | 🔵 STABLE | `MIT` | 4.95 | 2026-10-12 |
+| [QwenLM/Qwen3](./qwenlm--qwen3.md) | 27,663 | NO-LICENSE | 🔵 STABLE | `NONE` | 4.66 | 2026-10-12 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [huggingface/awesome-papers](./huggingface--awesome-papers.md) | 2,051 | ⛔ ARCHIVED | 2164d |
-| [OS-Agent-Survey/OS-Agent-Survey](./os-agent-survey--os-agent-survey.md) | 487 | 🔴 ABANDONED | 415d |
+| [huggingface/awesome-papers](./huggingface--awesome-papers.md) | 2,051 | ⛔ ARCHIVED | 2171d |
+| [OS-Agent-Survey/OS-Agent-Survey](./os-agent-survey--os-agent-survey.md) | 488 | 🔴 ABANDONED | 422d |
 
 ## Cards
 
@@ -40,7 +40,7 @@ all facts verified against the GitHub API on 2026-10-05.
 - [EvolvingLMMs-Lab/open-r1-multimodal](./evolvinglmms-lab--open-r1-multimodal.md) — tier EXPERIMENTAL, STABLE
 - [google-deepmind/funsearch](./google-deepmind--funsearch.md) — tier C, STABLE
 - [huggingface/awesome-papers](./huggingface--awesome-papers.md) — tier ARCHIVED, ARCHIVED
-- [huggingface/open-r1](./huggingface--open-r1.md) — tier S, STABLE
+- [huggingface/open-r1](./huggingface--open-r1.md) — tier A, STABLE
 - [joonspk-research/generative_agents](./joonspk-research--generative_agents.md) — tier C, STABLE
 - [madaan/self-refine](./madaan--self-refine.md) — tier C, STABLE
 - [masamasa59/ai-agent-papers](./masamasa59--ai-agent-papers.md) — tier NO-LICENSE, STABLE
@@ -48,13 +48,13 @@ all facts verified against the GitHub API on 2026-10-05.
 - [noahshinn/reflexion](./noahshinn--reflexion.md) — tier C, STABLE
 - [NousResearch/hermes-agent](./nousresearch--hermes-agent.md) — tier S, ACTIVE
 - [NousResearch/Hermes-Function-Calling](./nousresearch--hermes-function-calling.md) — tier C, STABLE
-- [OpenRLHF/OpenRLHF](./openrlhf--openrlhf.md) — tier S, STABLE
+- [OpenRLHF/OpenRLHF](./openrlhf--openrlhf.md) — tier S, ACTIVE
 - [OS-Agent-Survey/OS-Agent-Survey](./os-agent-survey--os-agent-survey.md) — tier NO-LICENSE, ABANDONED
 - [PRIME-RL/PRIME](./prime-rl--prime.md) — tier EXPERIMENTAL, STABLE
 - [PRIME-RL/TTRL](./prime-rl--ttrl.md) — tier C, STABLE
 - [princeton-nlp/tree-of-thought-llm](./princeton-nlp--tree-of-thought-llm.md) — tier C, STABLE
 - [QwenLM/Qwen3](./qwenlm--qwen3.md) — tier NO-LICENSE, STABLE
-- [rasbt/reasoning-from-scratch](./rasbt--reasoning-from-scratch.md) — tier S, ACTIVE
+- [rasbt/reasoning-from-scratch](./rasbt--reasoning-from-scratch.md) — tier A, ACTIVE
 - [sail-sg/understand-r1-zero](./sail-sg--understand-r1-zero.md) — tier C, STABLE
 - [SkyworkAI/Skywork-R1V](./skyworkai--skywork-r1v.md) — tier B, STABLE
 - [TsinghuaC3I/Awesome-RL-for-LRMs](./tsinghuac3i--awesome-rl-for-lrms.md) — tier A, STABLE

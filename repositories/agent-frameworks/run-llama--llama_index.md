@@ -4,17 +4,17 @@ title: "run-llama/llama_index"
 domain: agent-frameworks
 summary: >-
   run-llama/llama_index — ACTIVE, tier S,
-  52,409 stars, license MIT, quality 8.54/10, trust 8.35/10.
-  Verified against the GitHub API on 2026-10-05.
+  52,471 stars, license MIT, quality 8.54/10, trust 8.35/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-frameworks", "data", "framework", "github-repository", "rag"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.97, "reproducibility": 7.5, "security": 7.0, "recency": 9.96, "evidence": 5.0}
   quality_score: 8.54
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > LlamaIndex is the document processing platform for AI
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 52,409 (checked 2026-10-05) |
-| Forks | 8,279 |
-| Open issues | 873 |
+| Stars | 52,471 (checked 2026-10-12) |
+| Forks | 8,323 |
+| Open issues | 905 |
 | Contributors | 475 |
-| Last push | 2026-10-01 (3 days before verification) |
+| Last push | 2026-10-08 (3 days before verification) |
 | Latest release | v0.14.25 (2026-09-21) |
 | Archived | no |
 | Fork | no |

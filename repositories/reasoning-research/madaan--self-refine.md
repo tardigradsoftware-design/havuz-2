@@ -4,17 +4,17 @@ title: "madaan/self-refine"
 domain: reasoning-research
 summary: >-
   madaan/self-refine — STABLE, tier C,
-  822 stars, license Apache-2.0, quality 5.12/10, trust 5.19/10.
-  Verified against the GitHub API on 2026-10-05.
+  823 stars, license Apache-2.0, quality 5.12/10, trust 5.19/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["critique", "github-repository", "paper-code", "reasoning", "reasoning-research"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.0, "maintenance": 1.0, "adoption": 9.74, "documentation": 6.6, "reproducibility": 6.0, "security": 3.5, "recency": 0.0, "evidence": 3.0}
   quality_score: 5.12
@@ -22,7 +22,7 @@ scoring:
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > LLMs can generate feedback on their work, use it to improve the output, and repeat this process iteratively.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 822 (checked 2026-10-05) |
-| Forks | 70 |
+| Stars | 823 (checked 2026-10-12) |
+| Forks | 71 |
 | Open issues | 10 |
 | Contributors | 5 |
-| Last push | 2024-10-04 (730 days before verification) |
+| Last push | 2024-10-04 (737 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |

@@ -4,17 +4,17 @@ title: "supabase/auth"
 domain: backend
 summary: >-
   supabase/auth — ACTIVE, tier S,
-  2,574 stars, license MIT, quality 8.55/10, trust 8.52/10.
-  Verified against the GitHub API on 2026-10-05.
+  2,578 stars, license MIT, quality 8.55/10, trust 8.52/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["auth", "backend", "github-repository", "supabase"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 7.5, "security": 4.5, "recency": 9.97, "evidence": 5.5}
   quality_score: 8.55
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A JWT based API for managing users and issuing JWT tokens
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 2,574 (checked 2026-10-05) |
-| Forks | 773 |
-| Open issues | 369 |
+| Stars | 2,578 (checked 2026-10-12) |
+| Forks | 783 |
+| Open issues | 382 |
 | Contributors | 136 |
-| Last push | 2026-10-03 (2 days before verification) |
+| Last push | 2026-10-09 (2 days before verification) |
 | Latest release | v2.197.0 (2026-09-09) |
 | Archived | no |
 | Fork | no |

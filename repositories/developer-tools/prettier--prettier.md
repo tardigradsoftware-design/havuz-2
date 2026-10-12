@@ -4,25 +4,25 @@ title: "prettier/prettier"
 domain: developer-tools
 summary: >-
   prettier/prettier — ACTIVE, tier S,
-  52,351 stars, license MIT, quality 8.58/10, trust 8.49/10.
-  Verified against the GitHub API on 2026-10-05.
+  52,448 stars, license MIT, quality 8.58/10, trust 8.49/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "formatting", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.28, "reproducibility": 9.0, "security": 4.5, "recency": 10.0, "evidence": 7.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.28, "reproducibility": 9.0, "security": 4.5, "recency": 9.99, "evidence": 7.0}
   quality_score: 8.58
   trust_score: 8.49
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Prettier is an opinionated code formatter.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 52,351 (checked 2026-10-05) |
+| Stars | 52,448 (checked 2026-10-12) |
 | Forks | 5,037 |
-| Open issues | 1,471 |
+| Open issues | 1,462 |
 | Contributors | 432 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | 3.9.9 (2026-09-23) |
+| Last push | 2026-10-10 (1 days before verification) |
+| Latest release | 3.9.10 (2026-10-10) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://prettier.io](https://prettier.io) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.28 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.99 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **8.58** |
 | **trust_score** | **8.49** |

@@ -4,17 +4,17 @@ title: "prometheus/prometheus"
 domain: developer-tools
 summary: >-
   prometheus/prometheus — ACTIVE, tier S,
-  66,366 stars, license Apache-2.0, quality 8.53/10, trust 8.32/10.
-  Verified against the GitHub API on 2026-10-05.
+  66,499 stars, license Apache-2.0, quality 8.53/10, trust 8.32/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "metrics", "observability"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.81, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.53
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The Prometheus monitoring system and time series database.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 66,366 (checked 2026-10-05) |
-| Forks | 10,893 |
-| Open issues | 940 |
-| Contributors | 351 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Stars | 66,499 (checked 2026-10-12) |
+| Forks | 10,908 |
+| Open issues | 989 |
+| Contributors | 350 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v3.15.0 (2026-09-25) |
 | Archived | no |
 | Fork | no |

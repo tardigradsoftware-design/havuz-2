@@ -5,16 +5,16 @@ domain: developer-tools
 summary: >-
   superfly/flyctl — ACTIVE, tier S,
   1,717 stars, license Apache-2.0, quality 8.32/10, trust 8.03/10.
-  Verified against the GitHub API on 2026-10-05.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cli", "deployment", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.18, "reproducibility": 9.5, "security": 4.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.32
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Command line tools for fly.io services
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 1,717 (checked 2026-10-05) |
+| Stars | 1,717 (checked 2026-10-12) |
 | Forks | 317 |
-| Open issues | 243 |
+| Open issues | 241 |
 | Contributors | 226 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v0.4.111 (2026-09-30) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v0.4.115 (2026-10-08) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://fly.io](https://fly.io) |

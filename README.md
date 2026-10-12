@@ -468,7 +468,7 @@ Report a vulnerability per [`SECURITY.md`](SECURITY.md).
 ## Current state
 
 <!-- KB:STATS:BEGIN -->
-_Generated 2026-10-05 by `scripts/generate-index/update_readme_stats.py`. Do not edit by hand._
+_Generated 2026-10-12 by `scripts/generate-index/update_readme_stats.py`. Do not edit by hand._
 
 ### Corpus
 
@@ -484,27 +484,27 @@ _Generated 2026-10-05 by `scripts/generate-index/update_readme_stats.py`. Do not
 | Verified GitHub repositories | **414** | [`indexes/repositories.md`](indexes/repositories.md) |
 | MCP servers | **26** | [`indexes/mcp.md`](indexes/mcp.md) |
 | MCP registry entries (incl. 9 that are not servers) | **35** | [`indexes/mcp.md`](indexes/mcp.md) |
-| Research sources (incl. 62 verified papers) | **62** | [`indexes/research.md`](indexes/research.md) |
+| Research sources (incl. 37 verified papers) | **37** | [`indexes/research.md`](indexes/research.md) |
 | Evaluations & benchmarks | **0** | [`indexes/evaluations.md`](indexes/evaluations.md) |
 | Model cards | **0** | [`models/`](models/) |
 | Datasets | **0** | [`datasets/`](datasets/) |
 | Prompt templates | **2** | [`indexes/prompts.md`](indexes/prompts.md) |
 | Skill test cases | **1108** | `skills/*/tests/` |
 | Quarantined / experimental | **62** | [`experimental/`](experimental/) · `metadata/pending-paper-candidates.json` |
-| Retrieval index entries | **661** | [`metadata/index.json`](metadata/index.json) |
+| Retrieval index entries | **636** | [`metadata/index.json`](metadata/index.json) |
 
 ### Verification status of the repository database
 
-All **414** repositories were verified against the GitHub REST API. Aggregate adoption tracked: **16,399,704 stars** across 12 categories.
+All **414** repositories were verified against the GitHub REST API. Aggregate adoption tracked: **16,496,822 stars** across 12 categories.
 
 | Maintenance status | Count | | Tier | Count |
 |---|---|---|---|---|
-| ACTIVE | 294 | | S | 218 |
-| STABLE | 81 | | A | 120 |
-| MAINTENANCE | 19 | | B | 31 |
-| EXPERIMENTAL |  | | C | 18 |
+| ACTIVE | 295 | | S | 216 |
+| STABLE | 80 | | A | 122 |
+| MAINTENANCE | 18 | | B | 30 |
+| EXPERIMENTAL |  | | C | 19 |
 | ARCHIVED | 12 | | EXPERIMENTAL | 3 |
-| ABANDONED | 8 | | ARCHIVED | 12 |
+| ABANDONED | 9 | | ARCHIVED | 12 |
 | UNKNOWN |  | | NO-LICENSE | 12 |
 |  |  | | UNVERIFIED |  |
 |  |  | | DEPRECATED |  |
@@ -514,23 +514,23 @@ All **414** repositories were verified against the GitHub REST API. Aggregate ad
 - **29 repositories have moved.** Every one was recorded with its new slug; hard-coded URLs to the old paths silently break agents.
 - **12 are archived** — read-only, no security patches, successor required.
 - **14 have no detectable license** — flagged `license_risk: no-license-do-not-redistribute`; they are referenced, never vendored.
-- **19 are in maintenance mode** (>120 days without a push) and **8 are abandoned** (>365 days), excluding published research artifacts, which are classified `STABLE` on purpose.
+- **18 are in maintenance mode** (>120 days without a push) and **9 are abandoned** (>365 days), excluding published research artifacts, which are classified `STABLE` on purpose.
 - **61 candidate research papers are quarantined** because no primary source could confirm them from the build environment. They are excluded from the retrieval index.
 
 ### Top 10 by trust score
 
 | Repository | Stars | Tier | Status | Trust |
 |---|---|---|---|---|
-| [`Arize-ai/phoenix`](https://github.com/Arize-ai/phoenix) | 11,710 | A | ACTIVE | 9.47 |
-| [`camel-ai/camel`](https://github.com/camel-ai/camel) | 17,809 | S | ACTIVE | 9.45 |
-| [`BerriAI/litellm`](https://github.com/BerriAI/litellm) | 60,144 | A | ACTIVE | 9.4 |
-| [`openai/openai-python`](https://github.com/openai/openai-python) | 31,747 | S | ACTIVE | 9.38 |
-| [`github/gh-aw`](https://github.com/github/gh-aw) | 5,341 | S | ACTIVE | 9.27 |
-| [`lobehub/lobehub`](https://github.com/lobehub/lobehub) | 82,983 | A | ACTIVE | 9.22 |
-| [`mermaid-js/mermaid`](https://github.com/mermaid-js/mermaid) | 90,541 | S | ACTIVE | 9.14 |
-| [`confident-ai/deepeval`](https://github.com/confident-ai/deepeval) | 18,637 | S | ACTIVE | 9.11 |
-| [`calcom/cal.diy`](https://github.com/calcom/cal.diy) | 48,869 | S | ACTIVE | 9.1 |
-| [`OpenRLHF/OpenRLHF`](https://github.com/OpenRLHF/OpenRLHF) | 10,067 | S | STABLE | 9.1 |
+| [`Arize-ai/phoenix`](https://github.com/Arize-ai/phoenix) | 11,805 | A | ACTIVE | 9.47 |
+| [`camel-ai/camel`](https://github.com/camel-ai/camel) | 17,871 | S | ACTIVE | 9.45 |
+| [`BerriAI/litellm`](https://github.com/BerriAI/litellm) | 61,048 | A | ACTIVE | 9.4 |
+| [`openai/openai-python`](https://github.com/openai/openai-python) | 31,820 | S | ACTIVE | 9.38 |
+| [`github/gh-aw`](https://github.com/github/gh-aw) | 5,382 | S | ACTIVE | 9.27 |
+| [`lobehub/lobehub`](https://github.com/lobehub/lobehub) | 83,164 | A | ACTIVE | 9.22 |
+| [`OpenRLHF/OpenRLHF`](https://github.com/OpenRLHF/OpenRLHF) | 10,081 | S | ACTIVE | 9.2 |
+| [`OpenAdaptAI/OpenAdapt`](https://github.com/OpenAdaptAI/OpenAdapt) | 1,773 | S | ACTIVE | 9.16 |
+| [`mermaid-js/mermaid`](https://github.com/mermaid-js/mermaid) | 90,627 | S | ACTIVE | 9.14 |
+| [`confident-ai/deepeval`](https://github.com/confident-ai/deepeval) | 18,762 | S | ACTIVE | 9.11 |
 
 ### Categories
 

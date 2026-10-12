@@ -4,25 +4,25 @@ title: "steipete/agent-rules"
 domain: instructions-standards
 summary: >-
   steipete/agent-rules — ARCHIVED, tier ARCHIVED,
-  5,682 stars, license MIT, quality 5.42/10, trust 2.53/10.
-  Verified against the GitHub API on 2026-10-05.
+  5,679 stars, license MIT, quality 5.41/10, trust 2.53/10.
+  Verified against the GitHub API on 2026-10-12.
 status: deprecated
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "github-repository", "instructions", "instructions-standards"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 0.5, "adoption": 10.0, "documentation": 6.01, "reproducibility": 4.5, "security": 2.5, "recency": 7.89, "evidence": 1.5}
-  quality_score: 5.42
+  components: {"authority": 8.0, "maintenance": 0.5, "adoption": 10.0, "documentation": 6.01, "reproducibility": 4.5, "security": 2.5, "recency": 7.79, "evidence": 1.5}
+  quality_score: 5.41
   trust_score: 2.53
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: low
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Rules and Knowledge to work better with agents such as Claude Code or Cursor
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Shell |
 | License | `MIT` |
-| Stars | 5,682 (checked 2026-10-05) |
-| Forks | 506 |
+| Stars | 5,679 (checked 2026-10-12) |
+| Forks | 504 |
 | Open issues | 0 |
 | Contributors | 2 |
-| Last push | 2026-05-03 (154 days before verification) |
+| Last push | 2026-05-03 (161 days before verification) |
 | Latest release | — (no release) |
 | Archived | **YES** |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.01 |
 | reproducibility | 4.5 |
 | security | 2.5 |
-| recency | 7.89 |
+| recency | 7.79 |
 | evidence | 1.5 |
-| **quality_score** (weighted) | **5.42** |
+| **quality_score** (weighted) | **5.41** |
 | **trust_score** | **2.53** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

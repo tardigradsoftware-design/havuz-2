@@ -4,25 +4,25 @@ title: "assafelovic/gpt-researcher"
 domain: agent-frameworks
 summary: >-
   assafelovic/gpt-researcher — ACTIVE, tier S,
-  29,918 stars, license Apache-2.0, quality 8.14/10, trust 7.23/10.
-  Verified against the GitHub API on 2026-10-05.
+  30,037 stars, license Apache-2.0, quality 8.14/10, trust 7.24/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "deep-research", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.39, "reproducibility": 9.5, "security": 6.0, "recency": 9.96, "evidence": 7.5}
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.44, "reproducibility": 9.5, "security": 6.0, "recency": 9.99, "evidence": 7.5}
   quality_score: 8.14
-  trust_score: 7.23
+  trust_score: 7.24
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An autonomous agent that conducts deep research on any data using any LLM providers
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 29,918 (checked 2026-10-05) |
-| Forks | 4,084 |
-| Open issues | 25 |
-| Contributors | 252 |
-| Last push | 2026-10-01 (3 days before verification) |
+| Stars | 30,037 (checked 2026-10-12) |
+| Forks | 4,103 |
+| Open issues | 33 |
+| Contributors | 253 |
+| Last push | 2026-10-10 (1 days before verification) |
 | Latest release | v3.7.0 (2026-09-26) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.39 |
+| documentation | 8.44 |
 | reproducibility | 9.5 |
 | security | 6.0 |
-| recency | 9.96 |
+| recency | 9.99 |
 | evidence | 7.5 |
 | **quality_score** (weighted) | **8.14** |
-| **trust_score** | **7.23** |
+| **trust_score** | **7.24** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 22,628 bytes |
+| README size | 23,250 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

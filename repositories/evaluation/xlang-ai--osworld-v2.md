@@ -4,25 +4,25 @@ title: "xlang-ai/OSWorld-V2"
 domain: evaluation
 summary: >-
   xlang-ai/OSWorld-V2 — STABLE, tier S,
-  351 stars, license Apache-2.0, quality 8.2/10, trust 8.33/10.
-  Verified against the GitHub API on 2026-10-05.
+  362 stars, license Apache-2.0, quality 8.12/10, trust 8.23/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "computer-use", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 8.8, "documentation": 7.84, "reproducibility": 7.5, "security": 4.5, "recency": 9.95, "evidence": 6.0}
-  quality_score: 8.2
-  trust_score: 8.33
+  components: {"authority": 9.0, "maintenance": 9.5, "adoption": 8.84, "documentation": 7.84, "reproducibility": 7.5, "security": 4.5, "recency": 9.85, "evidence": 6.0}
+  quality_score: 8.12
+  trust_score: 8.23
   tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 351 (checked 2026-10-05) |
+| Stars | 362 (checked 2026-10-12) |
 | Forks | 53 |
-| Open issues | 31 |
+| Open issues | 33 |
 | Contributors | 27 |
-| Last push | 2026-10-01 (4 days before verification) |
+| Last push | 2026-10-01 (11 days before verification) |
 | Latest release | osworld-v2.1 (2026-09-16) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 10.0 |
-| adoption | 8.8 |
+| maintenance | 9.5 |
+| adoption | 8.84 |
 | documentation | 7.84 |
 | reproducibility | 7.5 |
 | security | 4.5 |
-| recency | 9.95 |
+| recency | 9.85 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **8.2** |
-| **trust_score** | **8.33** |
+| **quality_score** (weighted) | **8.12** |
+| **trust_score** | **8.23** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

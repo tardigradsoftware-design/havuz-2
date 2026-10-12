@@ -4,25 +4,25 @@ title: "google-gemini/computer-use-preview"
 domain: browser-automation
 summary: >-
   google-gemini/computer-use-preview — STABLE, tier B,
-  3,214 stars, license Apache-2.0, quality 6.56/10, trust 5.23/10.
-  Verified against the GitHub API on 2026-10-05.
+  3,217 stars, license Apache-2.0, quality 6.55/10, trust 5.23/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "computer-use", "github-repository", "google"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 7.0, "adoption": 10.0, "documentation": 4.06, "reproducibility": 8.0, "security": 3.5, "recency": 9.07, "evidence": 5.5}
-  quality_score: 6.56
+  components: {"authority": 5.0, "maintenance": 7.0, "adoption": 10.0, "documentation": 4.06, "reproducibility": 8.0, "security": 3.5, "recency": 8.97, "evidence": 5.5}
+  quality_score: 6.55
   trust_score: 5.23
   tier: B
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,7 +50,7 @@ sources:
 
 > _No description published._
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -59,11 +59,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 3,214 (checked 2026-10-05) |
+| Stars | 3,217 (checked 2026-10-12) |
 | Forks | 404 |
 | Open issues | 34 |
 | Contributors | 13 |
-| Last push | 2026-07-28 (68 days before verification) |
+| Last push | 2026-07-28 (75 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -81,9 +81,9 @@ sources:
 | documentation | 4.06 |
 | reproducibility | 8.0 |
 | security | 3.5 |
-| recency | 9.07 |
+| recency | 8.97 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **6.56** |
+| **quality_score** (weighted) | **6.55** |
 | **trust_score** | **5.23** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

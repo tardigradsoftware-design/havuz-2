@@ -3,26 +3,26 @@ id: makenotion--notion-mcp-server
 title: "makenotion/notion-mcp-server"
 domain: mcp-servers
 summary: >-
-  makenotion/notion-mcp-server — ACTIVE, tier A,
-  4,660 stars, license MIT, quality 7.65/10, trust 7.14/10.
-  Verified against the GitHub API on 2026-10-05.
+  makenotion/notion-mcp-server — STABLE, tier A,
+  4,666 stars, license MIT, quality 7.64/10, trust 7.14/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "notion"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 6.46, "reproducibility": 7.5, "security": 4.5, "recency": 9.81, "evidence": 4.5}
-  quality_score: 7.65
+  components: {"authority": 8.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 6.46, "reproducibility": 7.5, "security": 4.5, "recency": 9.71, "evidence": 4.5}
+  quality_score: 7.64
   trust_score: 7.14
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # makenotion/notion-mcp-server
 
-🟢 ACTIVE · tier **A** · production-ready · confidence **high**
+🔵 STABLE · tier **A** · production-ready · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Official Notion MCP Server
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 4,660 (checked 2026-10-05) |
-| Forks | 635 |
-| Open issues | 198 |
+| Stars | 4,666 (checked 2026-10-12) |
+| Forks | 634 |
+| Open issues | 201 |
 | Contributors | 21 |
-| Last push | 2026-09-20 (14 days before verification) |
+| Last push | 2026-09-20 (21 days before verification) |
 | Latest release | v2.1.0 (2026-01-31) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.46 |
 | reproducibility | 7.5 |
 | security | 4.5 |
-| recency | 9.81 |
+| recency | 9.71 |
 | evidence | 4.5 |
-| **quality_score** (weighted) | **7.65** |
+| **quality_score** (weighted) | **7.64** |
 | **trust_score** | **7.14** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

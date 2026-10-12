@@ -4,25 +4,25 @@ title: "SeleniumHQ/selenium"
 domain: browser-automation
 summary: >-
   SeleniumHQ/selenium — ACTIVE, tier S,
-  34,521 stars, license Apache-2.0, quality 8.25/10, trust 8.11/10.
-  Verified against the GitHub API on 2026-10-05.
+  34,539 stars, license Apache-2.0, quality 8.26/10, trust 8.11/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser", "browser-automation", "github-repository", "testing"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.04, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
-  quality_score: 8.25
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.06, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
+  quality_score: 8.26
   trust_score: 8.11
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A browser automation framework and ecosystem.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Java |
 | License | `Apache-2.0` |
-| Stars | 34,521 (checked 2026-10-05) |
-| Forks | 8,717 |
-| Open issues | 197 |
+| Stars | 34,539 (checked 2026-10-12) |
+| Forks | 8,718 |
+| Open issues | 185 |
 | Contributors | 403 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | selenium-4.50.0 (2026-09-30) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | selenium-4.51.0 (2026-10-09) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://selenium.dev](https://selenium.dev) |
@@ -80,12 +80,12 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.04 |
+| documentation | 8.06 |
 | reproducibility | 7.0 |
 | security | 4.5 |
 | recency | 10.0 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **8.25** |
+| **quality_score** (weighted) | **8.26** |
 | **trust_score** | **8.11** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 18,510 bytes |
+| README size | 18,700 bytes |
 
 ## Curated judgement
 

@@ -3,26 +3,26 @@ id: anomalyco--sst
 title: "anomalyco/sst"
 domain: developer-tools
 summary: >-
-  anomalyco/sst — STABLE, tier B,
-  26,330 stars, license MIT, quality 6.98/10, trust 5.91/10.
-  Verified against the GitHub API on 2026-10-05.
+  anomalyco/sst — ACTIVE, tier A,
+  26,351 stars, license MIT, quality 7.32/10, trust 6.21/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
-confidence: medium
+confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["aws", "developer-tools", "github-repository", "iac", "serverless"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 4.72, "reproducibility": 8.0, "security": 3.5, "recency": 8.85, "evidence": 6.0}
-  quality_score: 6.98
-  trust_score: 5.91
-  tier: B
-  maturity: production-ready
+  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.72, "reproducibility": 8.0, "security": 3.5, "recency": 9.96, "evidence": 6.0}
+  quality_score: 7.32
+  trust_score: 6.21
+  tier: A
+  maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: anomalyco
     license: MIT
     license_risk: none
-    confidence: medium
+    confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # anomalyco/sst
 
-🔵 STABLE · tier **B** · production-ready · confidence **medium**
+🟢 ACTIVE · tier **A** · production-grade · confidence **high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Build full-stack apps on your own infrastructure.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 26,330 (checked 2026-10-05) |
-| Forks | 2,131 |
-| Open issues | 342 |
-| Contributors | 290 |
-| Last push | 2026-07-12 (84 days before verification) |
-| Latest release | v4.17.1 (2026-07-12) |
+| Stars | 26,351 (checked 2026-10-12) |
+| Forks | 2,133 |
+| Open issues | 345 |
+| Contributors | 291 |
+| Last push | 2026-10-08 (3 days before verification) |
+| Latest release | v4.17.2 (2026-10-08) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://sst.dev](https://sst.dev) |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 5.5 |
-| maintenance | 8.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 4.72 |
 | reproducibility | 8.0 |
 | security | 3.5 |
-| recency | 8.85 |
+| recency | 9.96 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **6.98** |
-| **trust_score** | **5.91** |
+| **quality_score** (weighted) | **7.32** |
+| **trust_score** | **6.21** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

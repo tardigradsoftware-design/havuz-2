@@ -4,17 +4,17 @@ title: "puppeteer/puppeteer"
 domain: browser-automation
 summary: >-
   puppeteer/puppeteer — ACTIVE, tier S,
-  95,655 stars, license Apache-2.0, quality 8.98/10, trust 8.91/10.
-  Verified against the GitHub API on 2026-10-05.
+  95,682 stars, license Apache-2.0, quality 8.98/10, trust 8.91/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["automation", "browser", "browser-automation", "chrome", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.75, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.98
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > JavaScript API for Chrome and Firefox
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 95,655 (checked 2026-10-05) |
-| Forks | 9,586 |
-| Open issues | 276 |
-| Contributors | 445 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | browsers-v3.2.3 (2026-09-23) |
+| Stars | 95,682 (checked 2026-10-12) |
+| Forks | 9,589 |
+| Open issues | 272 |
+| Contributors | 444 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | browsers-v3.2.4 (2026-10-08) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://pptr.dev](https://pptr.dev) |

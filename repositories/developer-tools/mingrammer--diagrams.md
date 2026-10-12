@@ -4,25 +4,25 @@ title: "mingrammer/diagrams"
 domain: developer-tools
 summary: >-
   mingrammer/diagrams — ACTIVE, tier S,
-  42,673 stars, license MIT, quality 8.51/10, trust 8.34/10.
-  Verified against the GitHub API on 2026-10-05.
+  42,709 stars, license MIT, quality 8.51/10, trust 8.34/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["architecture", "developer-tools", "diagrams", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.61, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.0}
+  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.61, "reproducibility": 10.0, "security": 4.5, "recency": 9.96, "evidence": 8.0}
   quality_score: 8.51
   trust_score: 8.34
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > :art: Diagram as Code for prototyping cloud system architectures
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 42,673 (checked 2026-10-05) |
+| Stars | 42,709 (checked 2026-10-12) |
 | Forks | 2,732 |
-| Open issues | 395 |
+| Open issues | 396 |
 | Contributors | 178 |
-| Last push | 2026-10-04 (0 days before verification) |
+| Last push | 2026-10-08 (3 days before verification) |
 | Latest release | v0.25.1 (2025-11-22) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.61 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.96 |
 | evidence | 8.0 |
 | **quality_score** (weighted) | **8.51** |
 | **trust_score** | **8.34** |

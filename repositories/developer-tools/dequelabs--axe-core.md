@@ -4,17 +4,17 @@ title: "dequelabs/axe-core"
 domain: developer-tools
 summary: >-
   dequelabs/axe-core — ACTIVE, tier S,
-  7,596 stars, license MPL-2.0, quality 8.59/10, trust 8.46/10.
-  Verified against the GitHub API on 2026-10-05.
+  7,626 stars, license MPL-2.0, quality 8.59/10, trust 8.46/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["accessibility", "audit", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.38, "reproducibility": 8.55, "security": 7.0, "recency": 9.97, "evidence": 7.0}
   quality_score: 8.59
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Accessibility engine for automated Web UI testing
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | HTML |
 | License | `MPL-2.0` |
-| Stars | 7,596 (checked 2026-10-05) |
-| Forks | 953 |
-| Open issues | 434 |
-| Contributors | 240 |
-| Last push | 2026-10-02 (2 days before verification) |
-| Latest release | v4.13.0 (2026-08-05) |
+| Stars | 7,626 (checked 2026-10-12) |
+| Forks | 956 |
+| Open issues | 432 |
+| Contributors | 241 |
+| Last push | 2026-10-09 (2 days before verification) |
+| Latest release | v4.14.0 (2026-10-05) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.deque.com/axe/](https://www.deque.com/axe/) |

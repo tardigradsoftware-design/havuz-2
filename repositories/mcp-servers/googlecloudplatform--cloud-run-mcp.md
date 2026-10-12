@@ -4,25 +4,25 @@ title: "GoogleCloudPlatform/cloud-run-mcp"
 domain: mcp-servers
 summary: >-
   GoogleCloudPlatform/cloud-run-mcp — ACTIVE, tier A,
-  631 stars, license Apache-2.0, quality 7.65/10, trust 6.49/10.
-  Verified against the GitHub API on 2026-10-05.
+  633 stars, license Apache-2.0, quality 7.64/10, trust 6.49/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["gcp", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 9.56, "documentation": 5.11, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 6.5}
-  quality_score: 7.65
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 9.56, "documentation": 5.11, "reproducibility": 9.5, "security": 6.0, "recency": 9.96, "evidence": 6.5}
+  quality_score: 7.64
   trust_score: 6.49
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > MCP server to deploy apps to Cloud Run
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `Apache-2.0` |
-| Stars | 631 (checked 2026-10-05) |
-| Forks | 123 |
-| Open issues | 22 |
+| Stars | 633 (checked 2026-10-12) |
+| Forks | 124 |
+| Open issues | 20 |
 | Contributors | 14 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Last push | 2026-10-08 (3 days before verification) |
 | Latest release | v1.11.0 (2026-09-28) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.11 |
 | reproducibility | 9.5 |
 | security | 6.0 |
-| recency | 10.0 |
+| recency | 9.96 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **7.65** |
+| **quality_score** (weighted) | **7.64** |
 | **trust_score** | **6.49** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

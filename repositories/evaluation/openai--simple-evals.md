@@ -4,25 +4,25 @@ title: "openai/simple-evals"
 domain: evaluation
 summary: >-
   openai/simple-evals — MAINTENANCE, tier B,
-  4,650 stars, license MIT, quality 6.13/10, trust 5.46/10.
-  Verified against the GitHub API on 2026-10-05.
+  4,660 stars, license MIT, quality 6.12/10, trust 5.46/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "github-repository", "minimal"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 5.0, "adoption": 10.0, "documentation": 4.1, "reproducibility": 4.5, "security": 4.5, "recency": 7.74, "evidence": 2.0}
-  quality_score: 6.13
+  components: {"authority": 8.0, "maintenance": 5.0, "adoption": 10.0, "documentation": 4.1, "reproducibility": 4.5, "security": 4.5, "recency": 7.64, "evidence": 2.0}
+  quality_score: 6.12
   trust_score: 5.46
   tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,7 +50,7 @@ sources:
 
 > _No description published._
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -59,11 +59,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 4,650 (checked 2026-10-05) |
-| Forks | 512 |
+| Stars | 4,660 (checked 2026-10-12) |
+| Forks | 513 |
 | Open issues | 66 |
 | Contributors | 12 |
-| Last push | 2026-04-22 (165 days before verification) |
+| Last push | 2026-04-22 (172 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -81,9 +81,9 @@ sources:
 | documentation | 4.1 |
 | reproducibility | 4.5 |
 | security | 4.5 |
-| recency | 7.74 |
+| recency | 7.64 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **6.13** |
+| **quality_score** (weighted) | **6.12** |
 | **trust_score** | **5.46** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -133,7 +133,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 165 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 172 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

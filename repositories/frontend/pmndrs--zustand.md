@@ -4,25 +4,25 @@ title: "pmndrs/zustand"
 domain: frontend
 summary: >-
   pmndrs/zustand — ACTIVE, tier S,
-  58,786 stars, license MIT, quality 8.84/10, trust 8.85/10.
-  Verified against the GitHub API on 2026-10-05.
+  58,810 stars, license MIT, quality 8.84/10, trust 8.85/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["frontend", "github-repository", "state"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.99, "reproducibility": 10.0, "security": 4.5, "recency": 9.93, "evidence": 8.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.99, "reproducibility": 10.0, "security": 4.5, "recency": 9.92, "evidence": 8.0}
   quality_score: 8.84
   trust_score: 8.85
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🐻 Bear necessities for state management in React
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 58,786 (checked 2026-10-05) |
-| Forks | 2,195 |
+| Stars | 58,810 (checked 2026-10-12) |
+| Forks | 2,198 |
 | Open issues | 7 |
 | Contributors | 337 |
-| Last push | 2026-09-29 (5 days before verification) |
+| Last push | 2026-10-05 (6 days before verification) |
 | Latest release | v5.0.15 (2026-08-13) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 7.99 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 9.93 |
+| recency | 9.92 |
 | evidence | 8.0 |
 | **quality_score** (weighted) | **8.84** |
 | **trust_score** | **8.85** |

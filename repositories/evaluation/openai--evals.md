@@ -4,25 +4,25 @@ title: "openai/evals"
 domain: evaluation
 summary: >-
   openai/evals — MAINTENANCE, tier A,
-  19,552 stars, license NOASSERTION, quality 7.48/10, trust 7.21/10.
-  Verified against the GitHub API on 2026-10-05.
+  19,591 stars, license NOASSERTION, quality 7.47/10, trust 7.21/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "framework", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 5.54, "reproducibility": 8.6, "security": 6.5, "recency": 7.63, "evidence": 6.5}
-  quality_score: 7.48
+  components: {"authority": 8.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 5.54, "reproducibility": 8.6, "security": 6.5, "recency": 7.53, "evidence": 6.5}
+  quality_score: 7.47
   trust_score: 7.21
   tier: A
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 19,552 (checked 2026-10-05) |
-| Forks | 3,104 |
-| Open issues | 344 |
+| Stars | 19,591 (checked 2026-10-12) |
+| Forks | 3,112 |
+| Open issues | 347 |
 | Contributors | 435 |
-| Last push | 2026-04-14 (173 days before verification) |
+| Last push | 2026-04-14 (180 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 5.54 |
 | reproducibility | 8.6 |
 | security | 6.5 |
-| recency | 7.63 |
+| recency | 7.53 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **7.48** |
+| **quality_score** (weighted) | **7.47** |
 | **trust_score** | **7.21** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -141,7 +141,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 173 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
+No push in 180 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting. Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
 
 ## How to re-verify
 

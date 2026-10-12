@@ -4,25 +4,25 @@ title: "httpie/cli"
 domain: developer-tools
 summary: >-
   httpie/cli — ABANDONED, tier B,
-  38,701 stars, license BSD-3-Clause, quality 6.68/10, trust 7.06/10.
-  Verified against the GitHub API on 2026-10-05.
+  38,754 stars, license BSD-3-Clause, quality 6.67/10, trust 7.06/10.
+  Verified against the GitHub API on 2026-10-12.
 status: deprecated
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["api-client", "cli", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 2.0, "adoption": 10.0, "documentation": 7.41, "reproducibility": 9.35, "security": 6.0, "recency": 1.01, "evidence": 7.0}
-  quality_score: 6.68
+  components: {"authority": 9.0, "maintenance": 2.0, "adoption": 10.0, "documentation": 7.41, "reproducibility": 9.35, "security": 6.0, "recency": 0.92, "evidence": 7.0}
+  quality_score: 6.67
   trust_score: 7.06
   tier: B
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `BSD-3-Clause` |
-| Stars | 38,701 (checked 2026-10-05) |
-| Forks | 4,016 |
-| Open issues | 345 |
+| Stars | 38,754 (checked 2026-10-12) |
+| Forks | 4,017 |
+| Open issues | 348 |
 | Contributors | 147 |
-| Last push | 2024-12-17 (656 days before verification) |
+| Last push | 2024-12-17 (663 days before verification) |
 | Latest release | 3.2.4 (2024-11-01) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.41 |
 | reproducibility | 9.35 |
 | security | 6.0 |
-| recency | 1.01 |
+| recency | 0.92 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **6.68** |
+| **quality_score** (weighted) | **6.67** |
 | **trust_score** | **7.06** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 656 days (>365d). Likely abandoned; prefer an actively maintained alternative.
+No push in 663 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 

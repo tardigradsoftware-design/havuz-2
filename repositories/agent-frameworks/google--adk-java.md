@@ -4,25 +4,25 @@ title: "google/adk-java"
 domain: agent-frameworks
 summary: >-
   google/adk-java — ACTIVE, tier S,
-  1,746 stars, license Apache-2.0, quality 8.04/10, trust 7.79/10.
-  Verified against the GitHub API on 2026-10-05.
+  1,745 stars, license Apache-2.0, quality 8.24/10, trust 8.04/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "github-repository", "google", "java"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.91, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
-  quality_score: 8.04
-  trust_score: 7.79
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.91, "reproducibility": 8.0, "security": 4.5, "recency": 10.0, "evidence": 6.0}
+  quality_score: 8.24
+  trust_score: 8.04
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Java |
 | License | `Apache-2.0` |
-| Stars | 1,746 (checked 2026-10-05) |
-| Forks | 431 |
-| Open issues | 122 |
-| Contributors | 66 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Stars | 1,745 (checked 2026-10-12) |
+| Forks | 433 |
+| Open issues | 132 |
+| Contributors | 68 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v1.11.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
@@ -81,12 +81,12 @@ sources:
 | maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 5.91 |
-| reproducibility | 7.0 |
+| reproducibility | 8.0 |
 | security | 4.5 |
 | recency | 10.0 |
-| evidence | 5.0 |
-| **quality_score** (weighted) | **8.04** |
-| **trust_score** | **7.79** |
+| evidence | 6.0 |
+| **quality_score** (weighted) | **8.24** |
+| **trust_score** | **8.04** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -100,7 +100,7 @@ security / recency / evidence 10% each. See
 | docs | no |
 | tests | no |
 | ci | yes |
-| examples | no |
+| examples | yes |
 | security md | no |
 | changelog | yes |
 | contributing | yes |

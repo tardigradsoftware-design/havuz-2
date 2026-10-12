@@ -4,25 +4,25 @@ title: "Xnhyacinth/Awesome-LLM-Long-Context-Modeling"
 domain: reasoning-research
 summary: >-
   Xnhyacinth/Awesome-LLM-Long-Context-Modeling — STABLE, tier B,
-  2,175 stars, license MIT, quality 6.68/10, trust 5.58/10.
-  Verified against the GitHub API on 2026-10-05.
+  2,179 stars, license MIT, quality 6.67/10, trust 5.58/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "long-context", "papers", "reasoning-research", "survey"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 7.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 6.0, "security": 3.5, "recency": 9.33, "evidence": 4.5}
-  quality_score: 6.68
+  components: {"authority": 5.0, "maintenance": 7.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 6.0, "security": 3.5, "recency": 9.23, "evidence": 4.5}
+  quality_score: 6.67
   trust_score: 5.58
   tier: B
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 📰 Must-read papers and blogs on LLM based Long Context Modeling 🔥
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | — |
 | License | `MIT` |
-| Stars | 2,175 (checked 2026-10-05) |
+| Stars | 2,179 (checked 2026-10-12) |
 | Forks | 103 |
 | Open issues | 0 |
 | Contributors | 23 |
-| Last push | 2026-08-17 (49 days before verification) |
+| Last push | 2026-08-17 (56 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.0 |
 | reproducibility | 6.0 |
 | security | 3.5 |
-| recency | 9.33 |
+| recency | 9.23 |
 | evidence | 4.5 |
-| **quality_score** (weighted) | **6.68** |
+| **quality_score** (weighted) | **6.67** |
 | **trust_score** | **5.58** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

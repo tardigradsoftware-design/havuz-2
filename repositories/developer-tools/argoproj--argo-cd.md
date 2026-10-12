@@ -4,17 +4,17 @@ title: "argoproj/argo-cd"
 domain: developer-tools
 summary: >-
   argoproj/argo-cd — ACTIVE, tier S,
-  24,327 stars, license Apache-2.0, quality 9.06/10, trust 9.04/10.
-  Verified against the GitHub API on 2026-10-05.
+  24,377 stars, license Apache-2.0, quality 9.06/10, trust 9.04/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ci-cd", "developer-tools", "github-repository", "gitops"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.63, "reproducibility": 10.0, "security": 7.0, "recency": 10.0, "evidence": 8.0}
   quality_score: 9.06
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Declarative Continuous Deployment for Kubernetes
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 24,327 (checked 2026-10-05) |
-| Forks | 7,911 |
-| Open issues | 4,416 |
-| Contributors | 424 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v3.5.3 (2026-09-14) |
+| Stars | 24,377 (checked 2026-10-12) |
+| Forks | 7,939 |
+| Open issues | 4,407 |
+| Contributors | 423 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v3.5.5 (2026-10-12) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://argo-cd.readthedocs.io](https://argo-cd.readthedocs.io) |

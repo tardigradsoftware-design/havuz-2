@@ -4,25 +4,25 @@ title: "punkpeye/awesome-mcp-servers"
 domain: mcp-servers
 summary: >-
   punkpeye/awesome-mcp-servers — ACTIVE, tier A,
-  95,827 stars, license MIT, quality 7.71/10, trust 7.43/10.
-  Verified against the GitHub API on 2026-10-05.
+  96,185 stars, license MIT, quality 7.8/10, trust 7.53/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
-confidence: high
+confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["catalog", "discovery", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 7.5, "maintenance": 9.5, "adoption": 10.0, "documentation": 8.0, "reproducibility": 6.0, "security": 4.5, "recency": 9.89, "evidence": 4.5}
-  quality_score: 7.71
-  trust_score: 7.43
+  components: {"authority": 7.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.0, "reproducibility": 6.0, "security": 4.5, "recency": 9.97, "evidence": 4.5}
+  quality_score: 7.8
+  trust_score: 7.53
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: punkpeye
     license: MIT
     license_risk: none
-    confidence: high
+    confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # punkpeye/awesome-mcp-servers
 
-🟢 ACTIVE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > A collection of MCP servers.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | — |
 | License | `MIT` |
-| Stars | 95,827 (checked 2026-10-05) |
-| Forks | 17,110 |
-| Open issues | 2,947 |
-| Contributors | 445 |
-| Last push | 2026-09-27 (8 days before verification) |
+| Stars | 96,185 (checked 2026-10-12) |
+| Forks | 17,456 |
+| Open issues | 2,703 |
+| Contributors | 446 |
+| Last push | 2026-10-09 (2 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 7.5 |
-| maintenance | 9.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 8.0 |
 | reproducibility | 6.0 |
 | security | 4.5 |
-| recency | 9.89 |
+| recency | 9.97 |
 | evidence | 4.5 |
-| **quality_score** (weighted) | **7.71** |
-| **trust_score** | **7.43** |
+| **quality_score** (weighted) | **7.8** |
+| **trust_score** | **7.53** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 1,364,081 bytes |
+| README size | 1,433,054 bytes |
 
 ## Curated judgement
 

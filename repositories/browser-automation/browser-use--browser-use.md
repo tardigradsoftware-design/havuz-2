@@ -4,17 +4,17 @@ title: "browser-use/browser-use"
 domain: browser-automation
 summary: >-
   browser-use/browser-use — ACTIVE, tier S,
-  117,166 stars, license MIT, quality 8.63/10, trust 8.53/10.
-  Verified against the GitHub API on 2026-10-05.
+  117,712 stars, license MIT, quality 8.63/10, trust 8.53/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "automation", "browser", "browser-automation", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.88, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.0}
   quality_score: 8.63
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Agents that use the browser.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 117,166 (checked 2026-10-05) |
-| Forks | 12,931 |
-| Open issues | 539 |
+| Stars | 117,712 (checked 2026-10-12) |
+| Forks | 13,024 |
+| Open issues | 523 |
 | Contributors | 360 |
-| Last push | 2026-10-03 (2 days before verification) |
-| Latest release | 0.13.10 (2026-09-04) |
+| Last push | 2026-10-09 (2 days before verification) |
+| Latest release | 0.13.11 (2026-10-07) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://browser-use.com](https://browser-use.com) |
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | no |
 | root entries | yes |
-| README size | 16,502 bytes |
+| README size | 16,597 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

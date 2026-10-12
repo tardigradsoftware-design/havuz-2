@@ -4,25 +4,25 @@ title: "PostHog/posthog"
 domain: developer-tools
 summary: >-
   PostHog/posthog — ACTIVE, tier A,
-  40,144 stars, license NOASSERTION, quality 8.16/10, trust 8.04/10.
-  Verified against the GitHub API on 2026-10-05.
+  40,239 stars, license NOASSERTION, quality 8.17/10, trust 8.07/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["analytics", "developer-tools", "github-repository", "product"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.95, "reproducibility": 6.6, "security": 4.0, "recency": 10.0, "evidence": 5.0}
-  quality_score: 8.16
-  trust_score: 8.04
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.14, "reproducibility": 6.6, "security": 4.0, "recency": 10.0, "evidence": 5.0}
+  quality_score: 8.17
+  trust_score: 8.07
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 40,144 (checked 2026-10-05) |
-| Forks | 3,475 |
-| Open issues | 5,700 |
+| Stars | 40,239 (checked 2026-10-12) |
+| Forks | 3,503 |
+| Open issues | 5,484 |
 | Contributors | 391 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | desktop-v0.61.621 (2026-10-01) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | desktop-v0.61.671 (2026-10-09) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://posthog.com](https://posthog.com) |
@@ -86,13 +86,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.95 |
+| documentation | 8.14 |
 | reproducibility | 6.6 |
 | security | 4.0 |
 | recency | 10.0 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **8.16** |
-| **trust_score** | **8.04** |
+| **quality_score** (weighted) | **8.17** |
+| **trust_score** | **8.07** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 11,387 bytes |
+| README size | 13,735 bytes |
 
 ## Curated judgement
 

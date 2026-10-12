@@ -4,25 +4,25 @@ title: "Graphify-Labs/graphify"
 domain: developer-tools
 summary: >-
   Graphify-Labs/graphify — ACTIVE, tier S,
-  123,910 stars, license Apache-2.0, quality 8.5/10, trust 7.78/10.
-  Verified against the GitHub API on 2026-10-05.
+  125,718 stars, license Apache-2.0, quality 8.47/10, trust 7.74/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["codebase-graph", "developer-tools", "github-repository", "understanding"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 10.0, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.5}
-  quality_score: 8.5
-  trust_score: 7.78
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.74, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.5}
+  quality_score: 8.47
+  trust_score: 7.74
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 123,910 (checked 2026-10-05) |
-| Forks | 11,956 |
-| Open issues | 1,527 |
-| Contributors | 287 |
-| Last push | 2026-10-04 (0 days before verification) |
-| Latest release | v0.9.76 (2026-10-04) |
+| Stars | 125,718 (checked 2026-10-12) |
+| Forks | 12,135 |
+| Open issues | 1,546 |
+| Contributors | 314 |
+| Last push | 2026-10-11 (0 days before verification) |
+| Latest release | v0.9.86 (2026-10-11) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.graphify.com](https://www.graphify.com) |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 10.0 |
+| documentation | 9.74 |
 | reproducibility | 9.5 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.5** |
-| **trust_score** | **7.78** |
+| **quality_score** (weighted) | **8.47** |
+| **trust_score** | **7.74** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 64,876 bytes |
+| README size | 32,874 bytes |
 
 ## Curated judgement
 

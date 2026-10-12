@@ -4,17 +4,17 @@ title: "agno-agi/agno"
 domain: agent-frameworks
 summary: >-
   agno-agi/agno — ACTIVE, tier A,
-  42,557 stars, license Apache-2.0, quality 7.99/10, trust 7.71/10.
-  Verified against the GitHub API on 2026-10-05.
+  42,685 stars, license Apache-2.0, quality 7.99/10, trust 7.71/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "framework", "github-repository", "performance"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.41, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 7.99
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Build, run, and manage agent platforms.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 42,557 (checked 2026-10-05) |
-| Forks | 6,099 |
-| Open issues | 1,812 |
-| Contributors | 441 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v3.1.1 (2026-10-02) |
+| Stars | 42,685 (checked 2026-10-12) |
+| Forks | 6,121 |
+| Open issues | 1,886 |
+| Contributors | 439 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v3.1.3 (2026-10-12) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://docs.agno.com](https://docs.agno.com) |

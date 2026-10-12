@@ -4,25 +4,25 @@ title: "anthropics/courses"
 domain: ai
 summary: >-
   anthropics/courses — ARCHIVED, tier ARCHIVED,
-  22,871 stars, license NOASSERTION, quality 5.25/10, trust 2.24/10.
-  Verified against the GitHub API on 2026-10-05.
+  22,878 stars, license NOASSERTION, quality 5.24/10, trust 2.24/10.
+  Verified against the GitHub API on 2026-10-12.
 status: deprecated
 confidence: low
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "anthropic", "education", "github-repository", "prompting"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 0.5, "adoption": 10.0, "documentation": 3.62, "reproducibility": 3.6, "security": 2.0, "recency": 9.48, "evidence": 2.0}
-  quality_score: 5.25
+  components: {"authority": 8.0, "maintenance": 0.5, "adoption": 10.0, "documentation": 3.62, "reproducibility": 3.6, "security": 2.0, "recency": 9.38, "evidence": 2.0}
+  quality_score: 5.24
   trust_score: 2.24
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: low
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Anthropic's educational courses
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `NOASSERTION` |
-| Stars | 22,871 (checked 2026-10-05) |
-| Forks | 2,499 |
+| Stars | 22,878 (checked 2026-10-12) |
+| Forks | 2,503 |
 | Open issues | 94 |
 | Contributors | 16 |
-| Last push | 2026-08-28 (38 days before verification) |
+| Last push | 2026-08-28 (45 days before verification) |
 | Latest release | — (no release) |
 | Archived | **YES** |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 3.62 |
 | reproducibility | 3.6 |
 | security | 2.0 |
-| recency | 9.48 |
+| recency | 9.38 |
 | evidence | 2.0 |
-| **quality_score** (weighted) | **5.25** |
+| **quality_score** (weighted) | **5.24** |
 | **trust_score** | **2.24** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

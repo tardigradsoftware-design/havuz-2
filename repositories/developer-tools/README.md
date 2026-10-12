@@ -4,46 +4,46 @@
 # Developer tools, CI/CD & infrastructure
 
 81 repositories · 78 usable · 3 archived or abandoned ·
-all facts verified against the GitHub API on 2026-10-05.
+all facts verified against the GitHub API on 2026-10-12.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [mermaid-js/mermaid](./mermaid-js--mermaid.md) | 90,541 | S | 🟢 ACTIVE | `MIT` | 9.14 | 2026-10-05 |
-| [argoproj/argo-cd](./argoproj--argo-cd.md) | 24,327 | S | 🟢 ACTIVE | `Apache-2.0` | 9.04 | 2026-10-05 |
-| [pa11y/pa11y](./pa11y--pa11y.md) | 4,568 | S | 🟢 ACTIVE | `LGPL-3.0` | 9.01 | 2026-10-05 |
-| [trufflesecurity/trufflehog](./trufflesecurity--trufflehog.md) | 28,286 | S | 🟢 ACTIVE | `AGPL-3.0` | 8.85 | 2026-10-05 |
-| [semgrep/semgrep](./semgrep--semgrep.md) | 16,877 | S | 🟢 ACTIVE | `LGPL-2.1` | 8.85 | 2026-10-05 |
-| [eslint/eslint](./eslint--eslint.md) | 27,573 | S | 🟢 ACTIVE | `MIT` | 8.83 | 2026-10-05 |
-| [lint-staged/lint-staged](./lint-staged--lint-staged.md) | 14,741 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-10-05 |
-| [railwayapp/cli](./railwayapp--cli.md) | 622 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-10-05 |
-| [vitest-dev/vitest](./vitest-dev--vitest.md) | 17,181 | S | 🟢 ACTIVE | `MIT` | 8.78 | 2026-10-05 |
-| [usebruno/bruno](./usebruno--bruno.md) | 47,346 | S | 🟢 ACTIVE | `MIT` | 8.73 | 2026-10-05 |
-| [junegunn/fzf](./junegunn--fzf.md) | 83,384 | S | 🟢 ACTIVE | `MIT` | 8.68 | 2026-10-05 |
-| [astral-sh/uv](./astral-sh--uv.md) | 90,406 | S | 🟢 ACTIVE | `Apache-2.0` | 8.67 | 2026-10-05 |
-| [open-telemetry/opentelemetry-js](./open-telemetry--opentelemetry-js.md) | 3,486 | S | 🟢 ACTIVE | `Apache-2.0` | 8.64 | 2026-10-05 |
-| [gitleaks/gitleaks](./gitleaks--gitleaks.md) | 29,673 | S | 🟢 ACTIVE | `MIT` | 8.62 | 2026-10-05 |
-| [jestjs/jest](./jestjs--jest.md) | 45,499 | S | 🟢 ACTIVE | `MIT` | 8.61 | 2026-10-05 |
+| [mermaid-js/mermaid](./mermaid-js--mermaid.md) | 90,627 | S | 🟢 ACTIVE | `MIT` | 9.14 | 2026-10-12 |
+| [argoproj/argo-cd](./argoproj--argo-cd.md) | 24,377 | S | 🟢 ACTIVE | `Apache-2.0` | 9.04 | 2026-10-12 |
+| [pa11y/pa11y](./pa11y--pa11y.md) | 4,574 | S | 🟢 ACTIVE | `LGPL-3.0` | 9.01 | 2026-10-12 |
+| [trufflesecurity/trufflehog](./trufflesecurity--trufflehog.md) | 28,451 | S | 🟢 ACTIVE | `AGPL-3.0` | 8.85 | 2026-10-12 |
+| [semgrep/semgrep](./semgrep--semgrep.md) | 16,994 | S | 🟢 ACTIVE | `LGPL-2.1` | 8.85 | 2026-10-12 |
+| [eslint/eslint](./eslint--eslint.md) | 27,639 | S | 🟢 ACTIVE | `MIT` | 8.83 | 2026-10-12 |
+| [lint-staged/lint-staged](./lint-staged--lint-staged.md) | 14,743 | S | 🔵 STABLE | `MIT` | 8.8 | 2026-10-12 |
+| [railwayapp/cli](./railwayapp--cli.md) | 621 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-10-12 |
+| [vitest-dev/vitest](./vitest-dev--vitest.md) | 17,205 | S | 🟢 ACTIVE | `MIT` | 8.78 | 2026-10-12 |
+| [usebruno/bruno](./usebruno--bruno.md) | 47,467 | S | 🟢 ACTIVE | `MIT` | 8.73 | 2026-10-12 |
+| [junegunn/fzf](./junegunn--fzf.md) | 83,569 | S | 🟢 ACTIVE | `MIT` | 8.68 | 2026-10-12 |
+| [astral-sh/uv](./astral-sh--uv.md) | 90,640 | S | 🟢 ACTIVE | `Apache-2.0` | 8.67 | 2026-10-12 |
+| [open-telemetry/opentelemetry-js](./open-telemetry--opentelemetry-js.md) | 3,491 | S | 🟢 ACTIVE | `Apache-2.0` | 8.64 | 2026-10-12 |
+| [jestjs/jest](./jestjs--jest.md) | 45,562 | S | 🟢 ACTIVE | `MIT` | 8.61 | 2026-10-12 |
+| [pulumi/pulumi](./pulumi--pulumi.md) | 25,785 | S | 🟢 ACTIVE | `Apache-2.0` | 8.58 | 2026-10-12 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [httpie/cli](./httpie--cli.md) | 38,701 | 🔴 ABANDONED | 656d |
-| [npryce/adr-tools](./npryce--adr-tools.md) | 5,722 | 🔴 ABANDONED | 892d |
-| [lost-pixel/lost-pixel](./lost-pixel--lost-pixel.md) | 1,682 | ⛔ ARCHIVED | 165d |
+| [httpie/cli](./httpie--cli.md) | 38,754 | 🔴 ABANDONED | 663d |
+| [npryce/adr-tools](./npryce--adr-tools.md) | 5,730 | 🔴 ABANDONED | 899d |
+| [lost-pixel/lost-pixel](./lost-pixel--lost-pixel.md) | 1,682 | ⛔ ARCHIVED | 172d |
 
 ## Cards
 
 - [actions/runner](./actions--runner.md) — tier A, ACTIVE
 - [activepieces/activepieces](./activepieces--activepieces.md) — tier A, ACTIVE
 - [adr/madr](./adr--madr.md) — tier A, STABLE
-- [anomalyco/sst](./anomalyco--sst.md) — tier B, STABLE
+- [anomalyco/sst](./anomalyco--sst.md) — tier A, ACTIVE
 - [aquasecurity/trivy](./aquasecurity--trivy.md) — tier S, ACTIVE
 - [argoproj/argo-cd](./argoproj--argo-cd.md) — tier S, ACTIVE
 - [argos-ci/argos](./argos-ci--argos.md) — tier S, ACTIVE
-- [artilleryio/artillery](./artilleryio--artillery.md) — tier S, ACTIVE
+- [artilleryio/artillery](./artilleryio--artillery.md) — tier S, STABLE
 - [astral-sh/ruff](./astral-sh--ruff.md) — tier S, ACTIVE
 - [astral-sh/uv](./astral-sh--uv.md) — tier S, ACTIVE
 - [aws/aws-cdk](./aws--aws-cdk.md) — tier S, ACTIVE
@@ -75,7 +75,7 @@ all facts verified against the GitHub API on 2026-10-05.
 - [junegunn/fzf](./junegunn--fzf.md) — tier S, ACTIVE
 - [koalaman/shellcheck](./koalaman--shellcheck.md) — tier S, ACTIVE
 - [kubernetes/kubernetes](./kubernetes--kubernetes.md) — tier S, ACTIVE
-- [lint-staged/lint-staged](./lint-staged--lint-staged.md) — tier S, ACTIVE
+- [lint-staged/lint-staged](./lint-staged--lint-staged.md) — tier S, STABLE
 - [lost-pixel/lost-pixel](./lost-pixel--lost-pixel.md) — tier ARCHIVED, ARCHIVED
 - [mermaid-js/mermaid](./mermaid-js--mermaid.md) — tier S, ACTIVE
 - [microsoft/pyright](./microsoft--pyright.md) — tier A, ACTIVE
@@ -88,11 +88,11 @@ all facts verified against the GitHub API on 2026-10-05.
 - [nrwl/nx](./nrwl--nx.md) — tier S, ACTIVE
 - [open-telemetry/opentelemetry-js](./open-telemetry--opentelemetry-js.md) — tier S, ACTIVE
 - [open-telemetry/opentelemetry-python](./open-telemetry--opentelemetry-python.md) — tier S, ACTIVE
-- [ossf/package-analysis](./ossf--package-analysis.md) — tier S, ACTIVE
+- [ossf/package-analysis](./ossf--package-analysis.md) — tier S, STABLE
 - [ossf/scorecard](./ossf--scorecard.md) — tier S, ACTIVE
 - [oxc-project/oxc](./oxc-project--oxc.md) — tier S, ACTIVE
 - [pa11y/pa11y](./pa11y--pa11y.md) — tier S, ACTIVE
-- [Panniantong/Agent-Reach](./panniantong--agent-reach.md) — tier A, STABLE
+- [Panniantong/Agent-Reach](./panniantong--agent-reach.md) — tier A, ACTIVE
 - [PostHog/posthog](./posthog--posthog.md) — tier A, ACTIVE
 - [pre-commit/pre-commit](./pre-commit--pre-commit.md) — tier S, ACTIVE
 - [prettier/prettier](./prettier--prettier.md) — tier S, ACTIVE

@@ -4,25 +4,25 @@ title: "pre-commit/pre-commit"
 domain: developer-tools
 summary: >-
   pre-commit/pre-commit — ACTIVE, tier S,
-  15,607 stars, license MIT, quality 8.4/10, trust 8.23/10.
-  Verified against the GitHub API on 2026-10-05.
+  15,623 stars, license MIT, quality 8.4/10, trust 8.23/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "git-hooks", "github-repository", "quality"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.54, "reproducibility": 9.0, "security": 4.5, "recency": 9.93, "evidence": 7.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.54, "reproducibility": 9.0, "security": 4.5, "recency": 9.97, "evidence": 7.0}
   quality_score: 8.4
   trust_score: 8.23
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A framework for managing and maintaining multi-language pre-commit hooks.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 15,607 (checked 2026-10-05) |
-| Forks | 1,012 |
-| Open issues | 25 |
+| Stars | 15,623 (checked 2026-10-12) |
+| Forks | 1,014 |
+| Open issues | 27 |
 | Contributors | 134 |
-| Last push | 2026-09-29 (5 days before verification) |
+| Last push | 2026-10-09 (2 days before verification) |
 | Latest release | v4.6.2 (2026-08-10) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 5.54 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.93 |
+| recency | 9.97 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **8.4** |
 | **trust_score** | **8.23** |

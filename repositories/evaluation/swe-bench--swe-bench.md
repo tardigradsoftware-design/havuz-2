@@ -4,25 +4,25 @@ title: "SWE-bench/SWE-bench"
 domain: evaluation
 summary: >-
   SWE-bench/SWE-bench — STABLE, tier S,
-  5,971 stars, license MIT, quality 8.14/10, trust 7.94/10.
-  Verified against the GitHub API on 2026-10-05.
+  6,008 stars, license MIT, quality 8.13/10, trust 7.94/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "benchmark", "coding", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.5, "maintenance": 9.0, "adoption": 10.0, "documentation": 7.61, "reproducibility": 8.0, "security": 4.5, "recency": 9.77, "evidence": 6.0}
-  quality_score: 8.14
+  components: {"authority": 8.5, "maintenance": 9.0, "adoption": 10.0, "documentation": 7.61, "reproducibility": 8.0, "security": 4.5, "recency": 9.67, "evidence": 6.0}
+  quality_score: 8.13
   trust_score: 7.94
   tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > SWE-bench: Can Language Models Resolve Real-world Github Issues?
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 5,971 (checked 2026-10-05) |
-| Forks | 1,001 |
-| Open issues | 26 |
+| Stars | 6,008 (checked 2026-10-12) |
+| Forks | 1,009 |
+| Open issues | 31 |
 | Contributors | 68 |
-| Last push | 2026-09-18 (17 days before verification) |
+| Last push | 2026-09-18 (24 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.61 |
 | reproducibility | 8.0 |
 | security | 4.5 |
-| recency | 9.77 |
+| recency | 9.67 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **8.14** |
+| **quality_score** (weighted) | **8.13** |
 | **trust_score** | **7.94** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

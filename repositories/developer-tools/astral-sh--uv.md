@@ -4,17 +4,17 @@ title: "astral-sh/uv"
 domain: developer-tools
 summary: >-
   astral-sh/uv — ACTIVE, tier S,
-  90,406 stars, license Apache-2.0, quality 8.83/10, trust 8.67/10.
-  Verified against the GitHub API on 2026-10-05.
+  90,640 stars, license Apache-2.0, quality 8.83/10, trust 8.67/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "packaging", "python"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.82, "reproducibility": 9.5, "security": 7.0, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.83
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An extremely fast Python package and project manager, written in Rust.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 90,406 (checked 2026-10-05) |
-| Forks | 3,627 |
-| Open issues | 2,946 |
+| Stars | 90,640 (checked 2026-10-12) |
+| Forks | 3,648 |
+| Open issues | 3,012 |
 | Contributors | 468 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | 0.12.23 (2026-10-03) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | 0.13.0 (2026-10-09) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://docs.astral.sh/uv](https://docs.astral.sh/uv) |

@@ -4,25 +4,25 @@ title: "google-gemini/gemini-skills"
 domain: agent-skills
 summary: >-
   google-gemini/gemini-skills — ACTIVE, tier B,
-  4,247 stars, license Apache-2.0, quality 6.4/10, trust 5.05/10.
-  Verified against the GitHub API on 2026-10-05.
+  4,267 stars, license Apache-2.0, quality 6.63/10, trust 5.35/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "github-repository", "google", "official", "skills"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.5, "maintenance": 8.5, "adoption": 10.0, "documentation": 4.86, "reproducibility": 4.5, "security": 3.5, "recency": 9.85, "evidence": 2.5}
-  quality_score: 6.4
-  trust_score: 5.05
+  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.86, "reproducibility": 4.5, "security": 3.5, "recency": 9.93, "evidence": 2.5}
+  quality_score: 6.63
+  trust_score: 5.35
   tier: B
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Skills for the Gemini API, SDK and model/agent interactions
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 4,247 (checked 2026-10-05) |
-| Forks | 449 |
+| Stars | 4,267 (checked 2026-10-12) |
+| Forks | 451 |
 | Open issues | 12 |
 | Contributors | 15 |
-| Last push | 2026-09-23 (11 days before verification) |
+| Last push | 2026-10-06 (5 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 5.5 |
-| maintenance | 8.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 4.86 |
 | reproducibility | 4.5 |
 | security | 3.5 |
-| recency | 9.85 |
+| recency | 9.93 |
 | evidence | 2.5 |
-| **quality_score** (weighted) | **6.4** |
-| **trust_score** | **5.05** |
+| **quality_score** (weighted) | **6.63** |
+| **trust_score** | **5.35** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

@@ -4,17 +4,17 @@ title: "VectifyAI/PageIndex"
 domain: ai
 summary: >-
   VectifyAI/PageIndex — ACTIVE, tier A,
-  38,664 stars, license MIT, quality 7.91/10, trust 6.99/10.
-  Verified against the GitHub API on 2026-10-05.
+  39,072 stars, license MIT, quality 7.91/10, trust 6.99/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "rag", "reasoning-based-retrieval"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.58, "reproducibility": 10.0, "security": 3.5, "recency": 10.0, "evidence": 8.0}
   quality_score: 7.91
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 38,664 (checked 2026-10-05) |
-| Forks | 3,350 |
-| Open issues | 119 |
+| Stars | 39,072 (checked 2026-10-12) |
+| Forks | 3,389 |
+| Open issues | 128 |
 | Contributors | 16 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v0.2.21 (2026-10-01) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v0.2.22 (2026-10-08) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://pageindex.ai](https://pageindex.ai) |

@@ -4,25 +4,25 @@ title: "Egonex-AI/Understand-Anything"
 domain: developer-tools
 summary: >-
   Egonex-AI/Understand-Anything — ACTIVE, tier S,
-  85,310 stars, license MIT, quality 8.21/10, trust 7.37/10.
-  Verified against the GitHub API on 2026-10-05.
+  86,010 stars, license MIT, quality 8.27/10, trust 7.51/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
-confidence: high
+confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["codebase-understanding", "developer-tools", "github-repository", "visualization"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.13, "reproducibility": 9.0, "security": 6.0, "recency": 9.96, "evidence": 7.0}
-  quality_score: 8.21
-  trust_score: 7.37
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.22, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.5}
+  quality_score: 8.27
+  trust_score: 7.51
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: Egonex-AI
     license: MIT
     license_risk: none
-    confidence: high
+    confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # Egonex-AI/Understand-Anything
 
-🟢 ACTIVE · tier **S** · production-grade · confidence **high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 85,310 (checked 2026-10-05) |
-| Forks | 7,189 |
-| Open issues | 312 |
-| Contributors | 59 |
-| Last push | 2026-10-02 (3 days before verification) |
+| Stars | 86,010 (checked 2026-10-12) |
+| Forks | 7,248 |
+| Open issues | 317 |
+| Contributors | 60 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v2.9.0 (2026-07-10) |
 | Archived | no |
 | Fork | no |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.13 |
+| documentation | 8.22 |
 | reproducibility | 9.0 |
 | security | 6.0 |
-| recency | 9.96 |
-| evidence | 7.0 |
-| **quality_score** (weighted) | **8.21** |
-| **trust_score** | **7.37** |
+| recency | 10.0 |
+| evidence | 7.5 |
+| **quality_score** (weighted) | **8.27** |
+| **trust_score** | **7.51** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 19,572 bytes |
+| README size | 20,607 bytes |
 
 ## Curated judgement
 

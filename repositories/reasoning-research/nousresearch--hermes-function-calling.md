@@ -4,25 +4,25 @@ title: "NousResearch/Hermes-Function-Calling"
 domain: reasoning-research
 summary: >-
   NousResearch/Hermes-Function-Calling — STABLE, tier C,
-  1,477 stars, license MIT, quality 5.78/10, trust 5.09/10.
-  Verified against the GitHub API on 2026-10-05.
+  1,484 stars, license MIT, quality 5.78/10, trust 5.09/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["dataset", "github-repository", "reasoning-research", "tool-use"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.26, "reproducibility": 5.5, "security": 4.5, "recency": 6.08, "evidence": 2.0}
+  components: {"authority": 8.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.26, "reproducibility": 5.5, "security": 4.5, "recency": 5.99, "evidence": 2.0}
   quality_score: 5.78
   trust_score: 5.09
   tier: C
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -50,7 +50,7 @@ sources:
 
 > _No description published._
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -59,11 +59,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `MIT` |
-| Stars | 1,477 (checked 2026-10-05) |
-| Forks | 223 |
+| Stars | 1,484 (checked 2026-10-12) |
+| Forks | 227 |
 | Open issues | 32 |
 | Contributors | 9 |
-| Last push | 2025-12-22 (286 days before verification) |
+| Last push | 2025-12-22 (293 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -81,7 +81,7 @@ sources:
 | documentation | 4.26 |
 | reproducibility | 5.5 |
 | security | 4.5 |
-| recency | 6.08 |
+| recency | 5.99 |
 | evidence | 2.0 |
 | **quality_score** (weighted) | **5.78** |
 | **trust_score** | **5.09** |

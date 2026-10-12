@@ -4,25 +4,25 @@ title: "t3-oss/create-t3-app"
 domain: frontend
 summary: >-
   t3-oss/create-t3-app — MAINTENANCE, tier B,
-  29,155 stars, license MIT, quality 6.65/10, trust 6.45/10.
-  Verified against the GitHub API on 2026-10-05.
+  29,156 stars, license MIT, quality 6.64/10, trust 6.45/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["frontend", "github-repository", "scaffold", "typescript"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 4.0, "adoption": 10.0, "documentation": 5.0, "reproducibility": 7.0, "security": 4.5, "recency": 5.95, "evidence": 5.0}
-  quality_score: 6.65
+  components: {"authority": 9.0, "maintenance": 4.0, "adoption": 10.0, "documentation": 5.0, "reproducibility": 7.0, "security": 4.5, "recency": 5.85, "evidence": 5.0}
+  quality_score: 6.64
   trust_score: 6.45
   tier: B
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The best way to start a full-stack, typesafe Next.js app
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 29,155 (checked 2026-10-05) |
-| Forks | 1,542 |
-| Open issues | 133 |
+| Stars | 29,156 (checked 2026-10-12) |
+| Forks | 1,541 |
+| Open issues | 132 |
 | Contributors | 347 |
-| Last push | 2025-12-13 (296 days before verification) |
+| Last push | 2025-12-13 (303 days before verification) |
 | Latest release | create-t3-app@7.40.0 (2025-11-05) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.0 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 5.95 |
+| recency | 5.85 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **6.65** |
+| **quality_score** (weighted) | **6.64** |
 | **trust_score** | **6.45** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 296 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 303 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

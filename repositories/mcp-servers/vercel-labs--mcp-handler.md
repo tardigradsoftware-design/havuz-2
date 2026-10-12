@@ -3,26 +3,26 @@ id: vercel-labs--mcp-handler
 title: "vercel-labs/mcp-handler"
 domain: mcp-servers
 summary: >-
-  vercel-labs/mcp-handler — STABLE, tier NO-LICENSE,
-  682 stars, license NONE, quality 7.25/10, trust 5.26/10.
-  Verified against the GitHub API on 2026-10-05.
+  vercel-labs/mcp-handler — ACTIVE, tier NO-LICENSE,
+  683 stars, license NONE, quality 7.34/10, trust 5.36/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["adapter", "github-repository", "mcp", "mcp-servers", "vercel"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.5, "maintenance": 9.5, "adoption": 9.59, "documentation": 7.05, "reproducibility": 6.5, "security": 1.5, "recency": 9.78, "evidence": 8.0}
-  quality_score: 7.25
-  trust_score: 5.26
+  components: {"authority": 5.5, "maintenance": 10.0, "adoption": 9.59, "documentation": 7.07, "reproducibility": 6.5, "security": 1.5, "recency": 9.99, "evidence": 8.0}
+  quality_score: 7.34
+  trust_score: 5.36
   tier: NO-LICENSE
   maturity: early
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,28 +36,28 @@ sources:
     license_risk: no-license-do-not-redistribute
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # vercel-labs/mcp-handler
 
-🔵 STABLE · tier **NO-LICENSE** · early · confidence **medium**
+🟢 ACTIVE · tier **NO-LICENSE** · early · confidence **medium**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Easily spin up an MCP Server on Next.js, Nuxt, Svelte, and more
 
 > ⚠️ **LICENSE RISK — `no-license-do-not-redistribute`.** GitHub detected **no license file**
-> on 2026-10-05. Default copyright applies, so all rights are reserved: **reference and link only**.
+> on 2026-10-12. Default copyright applies, so all rights are reserved: **reference and link only**.
 > Do not vendor, copy, quote at length, or redistribute any file from this repository, however
 > useful it looks. A high star count does not create a license.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -66,12 +66,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `NONE` |
-| Stars | 682 (checked 2026-10-05) |
-| Forks | 90 |
-| Open issues | 36 |
+| Stars | 683 (checked 2026-10-12) |
+| Forks | 91 |
+| Open issues | 40 |
 | Contributors | 26 |
-| Last push | 2026-09-18 (16 days before verification) |
-| Latest release | v2.2.0 (2026-09-18) |
+| Last push | 2026-10-10 (1 days before verification) |
+| Latest release | v2.3.0 (2026-10-07) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.npmjs.com/package/mcp-handler](https://www.npmjs.com/package/mcp-handler) |
@@ -83,15 +83,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 5.5 |
-| maintenance | 9.5 |
+| maintenance | 10.0 |
 | adoption | 9.59 |
-| documentation | 7.05 |
+| documentation | 7.07 |
 | reproducibility | 6.5 |
 | security | 1.5 |
-| recency | 9.78 |
+| recency | 9.99 |
 | evidence | 8.0 |
-| **quality_score** (weighted) | **7.25** |
-| **trust_score** | **5.26** |
+| **quality_score** (weighted) | **7.34** |
+| **trust_score** | **5.36** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | no |
 | root entries | yes |
-| README size | 6,659 bytes |
+| README size | 6,799 bytes |
 
 ## Curated judgement
 

@@ -4,25 +4,25 @@ title: "arcboxlabs/arcbox"
 domain: browser-automation
 summary: >-
   arcboxlabs/arcbox — ACTIVE, tier S,
-  4,256 stars, license Apache-2.0, quality 8.29/10, trust 7.4/10.
-  Verified against the GitHub API on 2026-10-05.
+  4,225 stars, license Apache-2.0, quality 8.28/10, trust 7.4/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-sandbox", "browser-automation", "github-repository", "isolation"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.36, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.0}
-  quality_score: 8.29
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.31, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.0}
+  quality_score: 8.28
   trust_score: 7.4
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Run AI agents on real and isolated machines — own kernel, filesystem, and network — with \<100ms boot. Local first, OCI compatible, pure Rust.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `Apache-2.0` |
-| Stars | 4,256 (checked 2026-10-05) |
-| Forks | 189 |
-| Open issues | 37 |
+| Stars | 4,225 (checked 2026-10-12) |
+| Forks | 187 |
+| Open issues | 33 |
 | Contributors | 12 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v0.8.2 (2026-10-03) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v0.9.0 (2026-10-07) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://arcbox.dev](https://arcbox.dev) |
@@ -80,12 +80,12 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.36 |
+| documentation | 8.31 |
 | reproducibility | 9.5 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **8.29** |
+| **quality_score** (weighted) | **8.28** |
 | **trust_score** | **7.4** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 16,337 bytes |
+| README size | 15,664 bytes |
 
 ## Curated judgement
 

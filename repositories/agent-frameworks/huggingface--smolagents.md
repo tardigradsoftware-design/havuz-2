@@ -4,17 +4,17 @@ title: "huggingface/smolagents"
 domain: agent-frameworks
 summary: >-
   huggingface/smolagents — ACTIVE, tier S,
-  29,680 stars, license Apache-2.0, quality 8.96/10, trust 8.9/10.
-  Verified against the GitHub API on 2026-10-05.
+  29,797 stars, license Apache-2.0, quality 8.96/10, trust 8.9/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "code-agents", "framework", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.68, "reproducibility": 10.0, "security": 7.0, "recency": 9.93, "evidence": 8.0}
   quality_score: 8.96
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🤗 smolagents: a barebones library for agents that think in code.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 29,680 (checked 2026-10-05) |
-| Forks | 3,045 |
-| Open issues | 876 |
+| Stars | 29,797 (checked 2026-10-12) |
+| Forks | 3,070 |
+| Open issues | 921 |
 | Contributors | 203 |
-| Last push | 2026-09-30 (5 days before verification) |
+| Last push | 2026-10-06 (5 days before verification) |
 | Latest release | v1.26.0 (2026-05-29) |
 | Archived | no |
 | Fork | no |

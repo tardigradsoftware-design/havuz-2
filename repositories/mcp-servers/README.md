@@ -4,33 +4,33 @@
 # MCP servers & SDKs
 
 35 repositories · 34 usable · 1 archived or abandoned ·
-all facts verified against the GitHub API on 2026-10-05.
+all facts verified against the GitHub API on 2026-10-12.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [firecrawl/firecrawl-mcp-server](./firecrawl--firecrawl-mcp-server.md) | 7,552 | S | 🟢 ACTIVE | `MIT` | 8.95 | 2026-10-05 |
-| [microsoft/playwright-mcp](./microsoft--playwright-mcp.md) | 37,826 | S | 🟢 ACTIVE | `Apache-2.0` | 8.82 | 2026-10-05 |
-| [redis/mcp-redis](./redis--mcp-redis.md) | 630 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-10-05 |
-| [modelcontextprotocol/python-sdk](./modelcontextprotocol--python-sdk.md) | 24,489 | S | 🟢 ACTIVE | `MIT` | 8.78 | 2026-10-05 |
-| [modelcontextprotocol/typescript-sdk](./modelcontextprotocol--typescript-sdk.md) | 13,519 | A | 🟢 ACTIVE | `NOASSERTION` | 8.78 | 2026-10-05 |
-| [awslabs/mcp](./awslabs--mcp.md) | 9,753 | S | 🟢 ACTIVE | `Apache-2.0` | 8.7 | 2026-10-05 |
-| [modelcontextprotocol/registry](./modelcontextprotocol--registry.md) | 7,316 | A | 🟢 ACTIVE | `NOASSERTION` | 8.53 | 2026-10-05 |
-| [sooperset/mcp-atlassian](./sooperset--mcp-atlassian.md) | 5,966 | S | 🔵 STABLE | `MIT` | 8.24 | 2026-10-05 |
-| [modelcontextprotocol/inspector](./modelcontextprotocol--inspector.md) | 11,021 | A | 🟢 ACTIVE | `NOASSERTION` | 8.2 | 2026-10-05 |
-| [stripe/ai](./stripe--ai.md) | 1,856 | S | 🟢 ACTIVE | `MIT` | 8.18 | 2026-10-05 |
-| [github/github-mcp-server](./github--github-mcp-server.md) | 33,376 | S | 🟢 ACTIVE | `MIT` | 8.12 | 2026-10-05 |
-| [microsoft/mcp](./microsoft--mcp.md) | 3,730 | S | 🟢 ACTIVE | `MIT` | 8.12 | 2026-10-05 |
-| [upstash/context7](./upstash--context7.md) | 62,698 | S | 🟢 ACTIVE | `MIT` | 8.02 | 2026-10-05 |
-| [exa-labs/exa-mcp-server](./exa-labs--exa-mcp-server.md) | 5,078 | S | 🟢 ACTIVE | `MIT` | 7.92 | 2026-10-05 |
-| [supabase/mcp](./supabase--mcp.md) | 2,932 | S | 🟢 ACTIVE | `Apache-2.0` | 7.83 | 2026-10-05 |
+| [firecrawl/firecrawl-mcp-server](./firecrawl--firecrawl-mcp-server.md) | 7,584 | S | 🟢 ACTIVE | `MIT` | 8.95 | 2026-10-12 |
+| [microsoft/playwright-mcp](./microsoft--playwright-mcp.md) | 38,050 | S | 🟢 ACTIVE | `Apache-2.0` | 8.82 | 2026-10-12 |
+| [redis/mcp-redis](./redis--mcp-redis.md) | 634 | S | 🟢 ACTIVE | `MIT` | 8.8 | 2026-10-12 |
+| [modelcontextprotocol/python-sdk](./modelcontextprotocol--python-sdk.md) | 24,550 | S | 🟢 ACTIVE | `MIT` | 8.78 | 2026-10-12 |
+| [modelcontextprotocol/typescript-sdk](./modelcontextprotocol--typescript-sdk.md) | 13,557 | A | 🟢 ACTIVE | `NOASSERTION` | 8.78 | 2026-10-12 |
+| [awslabs/mcp](./awslabs--mcp.md) | 9,770 | S | 🟢 ACTIVE | `Apache-2.0` | 8.7 | 2026-10-12 |
+| [modelcontextprotocol/registry](./modelcontextprotocol--registry.md) | 7,341 | A | 🟢 ACTIVE | `NOASSERTION` | 8.53 | 2026-10-12 |
+| [sooperset/mcp-atlassian](./sooperset--mcp-atlassian.md) | 5,987 | S | 🔵 STABLE | `MIT` | 8.24 | 2026-10-12 |
+| [modelcontextprotocol/inspector](./modelcontextprotocol--inspector.md) | 11,057 | A | 🟢 ACTIVE | `NOASSERTION` | 8.21 | 2026-10-12 |
+| [stripe/ai](./stripe--ai.md) | 1,904 | S | 🟢 ACTIVE | `MIT` | 8.18 | 2026-10-12 |
+| [github/github-mcp-server](./github--github-mcp-server.md) | 33,547 | S | 🟢 ACTIVE | `MIT` | 8.12 | 2026-10-12 |
+| [microsoft/mcp](./microsoft--mcp.md) | 3,763 | S | 🟢 ACTIVE | `MIT` | 8.12 | 2026-10-12 |
+| [modelcontextprotocol/servers](./modelcontextprotocol--servers.md) | 91,166 | A | 🟢 ACTIVE | `NOASSERTION` | 8.03 | 2026-10-12 |
+| [upstash/context7](./upstash--context7.md) | 62,924 | S | 🟢 ACTIVE | `MIT` | 8.02 | 2026-10-12 |
+| [exa-labs/exa-mcp-server](./exa-labs--exa-mcp-server.md) | 5,109 | S | 🟢 ACTIVE | `MIT` | 7.92 | 2026-10-12 |
 
 ## Do not adopt
 
 | Repository | Stars | Status | Days since push |
 |---|---|---|---|
-| [browserbase/mcp-server-browserbase](./browserbase--mcp-server-browserbase.md) | 3,407 | ⛔ ARCHIVED | 76d |
+| [browserbase/mcp-server-browserbase](./browserbase--mcp-server-browserbase.md) | 3,402 | ⛔ ARCHIVED | 83d |
 
 ## Cards
 
@@ -49,7 +49,7 @@ all facts verified against the GitHub API on 2026-10-05.
 - [github/github-mcp-server](./github--github-mcp-server.md) — tier S, ACTIVE
 - [GoogleCloudPlatform/cloud-run-mcp](./googlecloudplatform--cloud-run-mcp.md) — tier A, ACTIVE
 - [korotovsky/slack-mcp-server](./korotovsky--slack-mcp-server.md) — tier A, STABLE
-- [makenotion/notion-mcp-server](./makenotion--notion-mcp-server.md) — tier A, ACTIVE
+- [makenotion/notion-mcp-server](./makenotion--notion-mcp-server.md) — tier A, STABLE
 - [microsoft/mcp](./microsoft--mcp.md) — tier S, ACTIVE
 - [microsoft/playwright-mcp](./microsoft--playwright-mcp.md) — tier S, ACTIVE
 - [mksglu/context-mode](./mksglu--context-mode.md) — tier A, ACTIVE
@@ -68,4 +68,4 @@ all facts verified against the GitHub API on 2026-10-05.
 - [supabase/mcp](./supabase--mcp.md) — tier S, ACTIVE
 - [tavily-ai/tavily-mcp](./tavily-ai--tavily-mcp.md) — tier A, ACTIVE
 - [upstash/context7](./upstash--context7.md) — tier S, ACTIVE
-- [vercel-labs/mcp-handler](./vercel-labs--mcp-handler.md) — tier NO-LICENSE, STABLE
+- [vercel-labs/mcp-handler](./vercel-labs--mcp-handler.md) — tier NO-LICENSE, ACTIVE

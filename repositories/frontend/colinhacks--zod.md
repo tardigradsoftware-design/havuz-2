@@ -3,26 +3,26 @@ id: colinhacks--zod
 title: "colinhacks/zod"
 domain: frontend
 summary: >-
-  colinhacks/zod — ACTIVE, tier A,
-  44,058 stars, license MIT, quality 8.0/10, trust 7.6/10.
-  Verified against the GitHub API on 2026-10-05.
+  colinhacks/zod — ACTIVE, tier S,
+  44,095 stars, license MIT, quality 8.0/10, trust 7.6/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["frontend", "github-repository", "typescript", "validation"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.0, "reproducibility": 7.0, "security": 7.0, "recency": 9.97, "evidence": 5.0}
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 5.0, "reproducibility": 7.0, "security": 7.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.0
   trust_score: 7.6
-  tier: A
+  tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # colinhacks/zod
 
-🟢 ACTIVE · tier **A** · production-grade · confidence **very-high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > TypeScript-first schema validation with static type inference
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 44,058 (checked 2026-10-05) |
-| Forks | 2,224 |
-| Open issues | 87 |
+| Stars | 44,095 (checked 2026-10-12) |
+| Forks | 2,243 |
+| Open issues | 91 |
 | Contributors | 461 |
-| Last push | 2026-10-02 (2 days before verification) |
-| Latest release | v4.6.5 (2026-09-13) |
+| Last push | 2026-10-11 (0 days before verification) |
+| Latest release | v4.6.6 (2026-10-11) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://zod.dev](https://zod.dev) |
@@ -83,7 +83,7 @@ sources:
 | documentation | 5.0 |
 | reproducibility | 7.0 |
 | security | 7.0 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **8.0** |
 | **trust_score** | **7.6** |

@@ -3,26 +3,26 @@ id: openrlhf--openrlhf
 title: "OpenRLHF/OpenRLHF"
 domain: reasoning-research
 summary: >-
-  OpenRLHF/OpenRLHF — STABLE, tier S,
-  10,067 stars, license Apache-2.0, quality 8.95/10, trust 9.1/10.
-  Verified against the GitHub API on 2026-10-05.
+  OpenRLHF/OpenRLHF — ACTIVE, tier S,
+  10,081 stars, license Apache-2.0, quality 9.04/10, trust 9.2/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "reasoning-research", "rl", "training"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 9.5, "adoption": 10.0, "documentation": 9.5, "reproducibility": 10.0, "security": 4.5, "recency": 9.75, "evidence": 8.5}
-  quality_score: 8.95
-  trust_score: 9.1
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 10.0, "security": 4.5, "recency": 9.92, "evidence": 8.5}
+  quality_score: 9.04
+  trust_score: 9.2
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # OpenRLHF/OpenRLHF
 
-🔵 STABLE · tier **S** · production-grade · confidence **very-high**
+🟢 ACTIVE · tier **S** · production-grade · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 10,067 (checked 2026-10-05) |
-| Forks | 1,037 |
-| Open issues | 392 |
+| Stars | 10,081 (checked 2026-10-12) |
+| Forks | 1,039 |
+| Open issues | 393 |
 | Contributors | 94 |
-| Last push | 2026-09-17 (18 days before verification) |
+| Last push | 2026-10-05 (6 days before verification) |
 | Latest release | v0.11.2 (2026-09-14) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 9.5 |
+| maintenance | 10.0 |
 | adoption | 10.0 |
 | documentation | 9.5 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 9.75 |
+| recency | 9.92 |
 | evidence | 8.5 |
-| **quality_score** (weighted) | **8.95** |
-| **trust_score** | **9.1** |
+| **quality_score** (weighted) | **9.04** |
+| **trust_score** | **9.2** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

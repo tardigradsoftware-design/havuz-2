@@ -3,26 +3,26 @@ id: tremorlabs--tremor
 title: "tremorlabs/tremor"
 domain: frontend
 summary: >-
-  tremorlabs/tremor — MAINTENANCE, tier B,
-  3,646 stars, license Apache-2.0, quality 6.08/10, trust 5.7/10.
-  Verified against the GitHub API on 2026-10-05.
-status: active
+  tremorlabs/tremor — ABANDONED, tier C,
+  3,658 stars, license Apache-2.0, quality 5.67/10, trust 5.2/10.
+  Verified against the GitHub API on 2026-10-12.
+status: deprecated
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["components", "dashboards", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 3.0, "adoption": 10.0, "documentation": 4.69, "reproducibility": 6.0, "security": 4.5, "recency": 5.08, "evidence": 3.0}
-  quality_score: 6.08
-  trust_score: 5.7
-  tier: B
-  maturity: maintenance-mode
+  components: {"authority": 9.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 4.69, "reproducibility": 6.0, "security": 3.5, "recency": 4.99, "evidence": 3.0}
+  quality_score: 5.67
+  trust_score: 5.2
+  tier: C
+  maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # tremorlabs/tremor
 
-🟡 MAINTENANCE · tier **B** · maintenance-mode · confidence **medium**
+🔴 ABANDONED · tier **C** · end-of-life · confidence **medium**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Copy & Paste React components to build modern web applications.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 3,646 (checked 2026-10-05) |
+| Stars | 3,658 (checked 2026-10-12) |
 | Forks | 192 |
 | Open issues | 27 |
 | Contributors | 4 |
-| Last push | 2025-10-10 (359 days before verification) |
+| Last push | 2025-10-10 (366 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 3.0 |
+| maintenance | 1.0 |
 | adoption | 10.0 |
 | documentation | 4.69 |
 | reproducibility | 6.0 |
-| security | 4.5 |
-| recency | 5.08 |
+| security | 3.5 |
+| recency | 4.99 |
 | evidence | 3.0 |
-| **quality_score** (weighted) | **6.08** |
-| **trust_score** | **5.7** |
+| **quality_score** (weighted) | **5.67** |
+| **trust_score** | **5.2** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 359 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 366 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 

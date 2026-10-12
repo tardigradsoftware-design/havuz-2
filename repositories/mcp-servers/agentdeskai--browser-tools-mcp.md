@@ -4,25 +4,25 @@ title: "AgentDeskAI/browser-tools-mcp"
 domain: mcp-servers
 summary: >-
   AgentDeskAI/browser-tools-mcp — STABLE, tier A,
-  7,329 stars, license MIT, quality 7.89/10, trust 7.51/10.
-  Verified against the GitHub API on 2026-10-05.
+  7,330 stars, license MIT, quality 7.88/10, trust 7.51/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser", "devtools", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 7.5, "adoption": 10.0, "documentation": 7.4, "reproducibility": 7.0, "security": 7.0, "recency": 9.27, "evidence": 4.0}
-  quality_score: 7.89
+  components: {"authority": 9.0, "maintenance": 7.5, "adoption": 10.0, "documentation": 7.4, "reproducibility": 7.0, "security": 7.0, "recency": 9.18, "evidence": 4.0}
+  quality_score: 7.88
   trust_score: 7.51
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Monitor browser logs directly from Cursor and other MCP compatible IDEs.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 7,329 (checked 2026-10-05) |
-| Forks | 538 |
+| Stars | 7,330 (checked 2026-10-12) |
+| Forks | 535 |
 | Open issues | 4 |
 | Contributors | 7 |
-| Last push | 2026-08-12 (53 days before verification) |
+| Last push | 2026-08-12 (60 days before verification) |
 | Latest release | v2.0.2 (2026-08-12) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.4 |
 | reproducibility | 7.0 |
 | security | 7.0 |
-| recency | 9.27 |
+| recency | 9.18 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.89** |
+| **quality_score** (weighted) | **7.88** |
 | **trust_score** | **7.51** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

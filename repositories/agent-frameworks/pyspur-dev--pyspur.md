@@ -4,25 +4,25 @@ title: "PySpur-Dev/pyspur"
 domain: agent-frameworks
 summary: >-
   PySpur-Dev/pyspur — STABLE, tier B,
-  5,794 stars, license Apache-2.0, quality 6.58/10, trust 5.4/10.
-  Verified against the GitHub API on 2026-10-05.
+  5,796 stars, license Apache-2.0, quality 6.57/10, trust 5.4/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "github-repository", "visual-workflow"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 5.0, "adoption": 10.0, "documentation": 6.64, "reproducibility": 7.5, "security": 3.5, "recency": 8.67, "evidence": 5.0}
-  quality_score: 6.58
+  components: {"authority": 6.0, "maintenance": 5.0, "adoption": 10.0, "documentation": 6.64, "reproducibility": 7.5, "security": 3.5, "recency": 8.58, "evidence": 5.0}
+  quality_score: 6.57
   trust_score: 5.4
   tier: B
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > A visual playground for agentic workflows: Iterate over your agents 10x faster
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 5,794 (checked 2026-10-05) |
+| Stars | 5,796 (checked 2026-10-12) |
 | Forks | 430 |
 | Open issues | 44 |
 | Contributors | 16 |
-| Last push | 2026-06-29 (97 days before verification) |
+| Last push | 2026-06-29 (104 days before verification) |
 | Latest release | v0.1.18 (2025-03-25) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.64 |
 | reproducibility | 7.5 |
 | security | 3.5 |
-| recency | 8.67 |
+| recency | 8.58 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **6.58** |
+| **quality_score** (weighted) | **6.57** |
 | **trust_score** | **5.4** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

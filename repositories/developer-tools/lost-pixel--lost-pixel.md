@@ -4,25 +4,25 @@ title: "lost-pixel/lost-pixel"
 domain: developer-tools
 summary: >-
   lost-pixel/lost-pixel — ARCHIVED, tier ARCHIVED,
-  1,682 stars, license MIT, quality 6.74/10, trust 4.43/10.
-  Verified against the GitHub API on 2026-10-05.
+  1,682 stars, license MIT, quality 6.73/10, trust 4.43/10.
+  Verified against the GitHub API on 2026-10-12.
 status: deprecated
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "github-repository", "visual-regression"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 0.5, "adoption": 10.0, "documentation": 8.39, "reproducibility": 8.5, "security": 2.5, "recency": 7.74, "evidence": 6.5}
-  quality_score: 6.74
+  components: {"authority": 9.0, "maintenance": 0.5, "adoption": 10.0, "documentation": 8.39, "reproducibility": 8.5, "security": 2.5, "recency": 7.64, "evidence": 6.5}
+  quality_score: 6.73
   trust_score: 4.43
   tier: ARCHIVED
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Open source alternative to Percy, Chromatic, Applitools.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 1,682 (checked 2026-10-05) |
+| Stars | 1,682 (checked 2026-10-12) |
 | Forks | 89 |
 | Open issues | 67 |
 | Contributors | 23 |
-| Last push | 2026-04-22 (165 days before verification) |
+| Last push | 2026-04-22 (172 days before verification) |
 | Latest release | v3.22.0 (2024-11-14) |
 | Archived | **YES** |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.39 |
 | reproducibility | 8.5 |
 | security | 2.5 |
-| recency | 7.74 |
+| recency | 7.64 |
 | evidence | 6.5 |
-| **quality_score** (weighted) | **6.74** |
+| **quality_score** (weighted) | **6.73** |
 | **trust_score** | **4.43** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

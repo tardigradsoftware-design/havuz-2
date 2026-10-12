@@ -4,25 +4,25 @@ title: "redis/redis"
 domain: databases
 summary: >-
   redis/redis — ACTIVE, tier A,
-  76,597 stars, license NOASSERTION, quality 8.81/10, trust 8.86/10.
-  Verified against the GitHub API on 2026-10-05.
+  76,745 stars, license NOASSERTION, quality 8.82/10, trust 8.86/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cache", "databases", "github-repository", "kv"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.6, "reproducibility": 8.6, "security": 6.5, "recency": 9.95, "evidence": 7.5}
-  quality_score: 8.81
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.6, "reproducibility": 8.6, "security": 6.5, "recency": 10.0, "evidence": 7.5}
+  quality_score: 8.82
   trust_score: 8.86
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | C |
 | License | `NOASSERTION` |
-| Stars | 76,597 (checked 2026-10-05) |
-| Forks | 24,836 |
-| Open issues | 3,002 |
+| Stars | 76,745 (checked 2026-10-12) |
+| Forks | 24,847 |
+| Open issues | 3,024 |
 | Contributors | 382 |
-| Last push | 2026-09-30 (4 days before verification) |
+| Last push | 2026-10-11 (0 days before verification) |
 | Latest release | 8.10.2 (2026-09-17) |
 | Archived | no |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 7.6 |
 | reproducibility | 8.6 |
 | security | 6.5 |
-| recency | 9.95 |
+| recency | 10.0 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.81** |
+| **quality_score** (weighted) | **8.82** |
 | **trust_score** | **8.86** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

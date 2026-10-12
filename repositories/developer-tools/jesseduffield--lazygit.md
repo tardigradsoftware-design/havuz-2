@@ -4,25 +4,25 @@ title: "jesseduffield/lazygit"
 domain: developer-tools
 summary: >-
   jesseduffield/lazygit — ACTIVE, tier S,
-  82,900 stars, license MIT, quality 8.5/10, trust 8.32/10.
-  Verified against the GitHub API on 2026-10-05.
+  83,121 stars, license MIT, quality 8.5/10, trust 8.32/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["developer-tools", "git", "github-repository", "tui"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 7.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.0}
+  components: {"authority": 7.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.5, "reproducibility": 10.0, "security": 4.5, "recency": 9.99, "evidence": 8.0}
   quality_score: 8.5
   trust_score: 8.32
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > simple terminal UI for git commands
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 82,900 (checked 2026-10-05) |
-| Forks | 3,062 |
-| Open issues | 1,049 |
+| Stars | 83,121 (checked 2026-10-12) |
+| Forks | 3,072 |
+| Open issues | 1,048 |
 | Contributors | 360 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v0.65.1 (2026-09-13) |
+| Last push | 2026-10-11 (1 days before verification) |
+| Latest release | v0.66.1 (2026-10-11) |
 | Archived | no |
 | Fork | no |
 | Homepage | — |
@@ -83,7 +83,7 @@ sources:
 | documentation | 8.5 |
 | reproducibility | 10.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.99 |
 | evidence | 8.0 |
 | **quality_score** (weighted) | **8.5** |
 | **trust_score** | **8.32** |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 38,583 bytes |
+| README size | 40,167 bytes |
 
 ## Curated judgement
 

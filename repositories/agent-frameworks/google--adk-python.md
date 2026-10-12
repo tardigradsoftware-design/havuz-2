@@ -4,17 +4,17 @@ title: "google/adk-python"
 domain: agent-frameworks
 summary: >-
   google/adk-python — ACTIVE, tier S,
-  21,705 stars, license Apache-2.0, quality 8.63/10, trust 8.57/10.
-  Verified against the GitHub API on 2026-10-05.
+  21,781 stars, license Apache-2.0, quality 8.63/10, trust 8.57/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "agent-frameworks", "framework", "github-repository", "google"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.78, "reproducibility": 9.0, "security": 4.5, "recency": 10.0, "evidence": 7.0}
   quality_score: 8.63
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 21,705 (checked 2026-10-05) |
-| Forks | 4,101 |
-| Open issues | 449 |
-| Contributors | 421 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Stars | 21,781 (checked 2026-10-12) |
+| Forks | 4,132 |
+| Open issues | 432 |
+| Contributors | 424 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v2.11.0 (2026-10-02) |
 | Archived | no |
 | Fork | no |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 9,411 bytes |
+| README size | 9,388 bytes |
 
 ## Curated judgement
 

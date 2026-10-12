@@ -4,25 +4,25 @@ title: "ollama/ollama"
 domain: ai
 summary: >-
   ollama/ollama — ACTIVE, tier S,
-  182,217 stars, license MIT, quality 8.56/10, trust 8.36/10.
-  Verified against the GitHub API on 2026-10-05.
+  182,839 stars, license MIT, quality 8.56/10, trust 8.37/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "github-repository", "inference", "local"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.1, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 5.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.11, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.56
-  trust_score: 8.36
+  trust_score: 8.37
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 182,217 (checked 2026-10-05) |
-| Forks | 18,103 |
-| Open issues | 4,169 |
-| Contributors | 451 |
-| Last push | 2026-10-04 (0 days before verification) |
-| Latest release | v0.35.1 (2026-09-29) |
+| Stars | 182,839 (checked 2026-10-12) |
+| Forks | 18,225 |
+| Open issues | 4,253 |
+| Contributors | 450 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v0.40.3 (2026-10-11) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://ollama.com](https://ollama.com) |
@@ -80,13 +80,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.1 |
+| documentation | 8.11 |
 | reproducibility | 7.5 |
 | security | 7.0 |
 | recency | 10.0 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **8.56** |
-| **trust_score** | **8.36** |
+| **trust_score** | **8.37** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 19,225 bytes |
+| README size | 19,273 bytes |
 
 ## Curated judgement
 

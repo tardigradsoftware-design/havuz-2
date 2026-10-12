@@ -4,25 +4,25 @@ title: "inclusionAI/AEnvironment"
 domain: evaluation
 summary: >-
   inclusionAI/AEnvironment — STABLE, tier B,
-  318 stars, license Apache-2.0, quality 6.63/10, trust 5.68/10.
-  Verified against the GitHub API on 2026-10-05.
+  319 stars, license Apache-2.0, quality 6.32/10, trust 5.28/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "benchmark", "environment", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 7.0, "adoption": 8.65, "documentation": 7.54, "reproducibility": 7.0, "security": 3.5, "recency": 8.81, "evidence": 4.0}
-  quality_score: 6.63
-  trust_score: 5.68
+  components: {"authority": 6.0, "maintenance": 5.0, "adoption": 8.65, "documentation": 7.54, "reproducibility": 7.0, "security": 3.5, "recency": 8.71, "evidence": 4.0}
+  quality_score: 6.32
+  trust_score: 5.28
   tier: B
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Standardized environment infrastructure for Agentic AI development.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 318 (checked 2026-10-05) |
+| Stars | 319 (checked 2026-10-12) |
 | Forks | 38 |
 | Open issues | 14 |
 | Contributors | 6 |
-| Last push | 2026-07-10 (87 days before verification) |
+| Last push | 2026-07-10 (94 days before verification) |
 | Latest release | v0.1.7 (2026-05-21) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 7.0 |
+| maintenance | 5.0 |
 | adoption | 8.65 |
 | documentation | 7.54 |
 | reproducibility | 7.0 |
 | security | 3.5 |
-| recency | 8.81 |
+| recency | 8.71 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **6.63** |
-| **trust_score** | **5.68** |
+| **quality_score** (weighted) | **6.32** |
+| **trust_score** | **5.28** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

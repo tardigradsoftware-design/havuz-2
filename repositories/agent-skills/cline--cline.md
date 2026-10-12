@@ -4,17 +4,17 @@ title: "cline/cline"
 domain: agent-skills
 summary: >-
   cline/cline — ACTIVE, tier S,
-  69,873 stars, license Apache-2.0, quality 8.38/10, trust 8.17/10.
-  Verified against the GitHub API on 2026-10-05.
+  70,206 stars, license Apache-2.0, quality 8.38/10, trust 8.17/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "vscode"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 8.5, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.77, "reproducibility": 7.0, "security": 7.0, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.38
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 69,873 (checked 2026-10-05) |
-| Forks | 7,604 |
-| Open issues | 1,598 |
-| Contributors | 325 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | desktop-v0.0.43 (2026-10-02) |
+| Stars | 70,206 (checked 2026-10-12) |
+| Forks | 7,641 |
+| Open issues | 1,649 |
+| Contributors | 336 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | desktop-v0.0.45 (2026-10-08) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://cline.bot](https://cline.bot) |

@@ -4,17 +4,17 @@ title: "formbricks/formbricks"
 domain: frontend
 summary: >-
   formbricks/formbricks — ACTIVE, tier A,
-  13,064 stars, license NOASSERTION, quality 8.3/10, trust 8.2/10.
-  Verified against the GitHub API on 2026-10-05.
+  13,083 stars, license NOASSERTION, quality 8.3/10, trust 8.2/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["example", "frontend", "github-repository", "saas"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.35, "reproducibility": 6.1, "security": 6.5, "recency": 10.0, "evidence": 5.0}
   quality_score: 8.3
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Open Source Qualtrics Alternative
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 13,064 (checked 2026-10-05) |
-| Forks | 2,560 |
-| Open issues | 188 |
-| Contributors | 313 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Stars | 13,083 (checked 2026-10-12) |
+| Forks | 2,570 |
+| Open issues | 182 |
+| Contributors | 312 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | 6.0.2 (2026-10-01) |
 | Archived | no |
 | Fork | no |
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 10,227 bytes |
+| README size | 10,160 bytes |
 
 ## Curated judgement
 

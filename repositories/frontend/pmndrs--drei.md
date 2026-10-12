@@ -4,25 +4,25 @@ title: "pmndrs/drei"
 domain: frontend
 summary: >-
   pmndrs/drei — ACTIVE, tier S,
-  9,915 stars, license MIT, quality 8.78/10, trust 8.85/10.
-  Verified against the GitHub API on 2026-10-05.
+  9,927 stars, license MIT, quality 8.77/10, trust 8.85/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["3d", "frontend", "github-repository", "helpers", "react"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.82, "reproducibility": 9.0, "security": 4.5, "recency": 9.95, "evidence": 7.5}
-  quality_score: 8.78
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.82, "reproducibility": 9.0, "security": 4.5, "recency": 9.92, "evidence": 7.5}
+  quality_score: 8.77
   trust_score: 8.85
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🥉 useful helpers for react-three-fiber
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 9,915 (checked 2026-10-05) |
-| Forks | 842 |
-| Open issues | 135 |
+| Stars | 9,927 (checked 2026-10-12) |
+| Forks | 847 |
+| Open issues | 127 |
 | Contributors | 236 |
-| Last push | 2026-09-30 (4 days before verification) |
+| Last push | 2026-10-05 (6 days before verification) |
 | Latest release | v10.7.9 (2026-09-25) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.82 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 9.95 |
+| recency | 9.92 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.78** |
+| **quality_score** (weighted) | **8.77** |
 | **trust_score** | **8.85** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

@@ -4,25 +4,25 @@ title: "addyosmani/agent-skills"
 domain: agent-skills
 summary: >-
   addyosmani/agent-skills — ACTIVE, tier A,
-  101,366 stars, license MIT, quality 7.46/10, trust 6.52/10.
-  Verified against the GitHub API on 2026-10-05.
+  105,307 stars, license MIT, quality 7.46/10, trust 6.52/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "engineering", "github-repository", "skills", "web"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.62, "reproducibility": 7.0, "security": 3.5, "recency": 9.99, "evidence": 5.5}
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.65, "reproducibility": 7.0, "security": 3.5, "recency": 9.97, "evidence": 5.5}
   quality_score: 7.46
   trust_score: 6.52
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Production-grade engineering skills for AI coding agents.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | JavaScript |
 | License | `MIT` |
-| Stars | 101,366 (checked 2026-10-05) |
-| Forks | 10,628 |
-| Open issues | 121 |
-| Contributors | 77 |
-| Last push | 2026-10-03 (1 days before verification) |
+| Stars | 105,307 (checked 2026-10-12) |
+| Forks | 10,992 |
+| Open issues | 131 |
+| Contributors | 79 |
+| Last push | 2026-10-10 (2 days before verification) |
 | Latest release | 0.6.12 (2026-10-03) |
 | Archived | no |
 | Fork | no |
@@ -80,10 +80,10 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.62 |
+| documentation | 8.65 |
 | reproducibility | 7.0 |
 | security | 3.5 |
-| recency | 9.99 |
+| recency | 9.97 |
 | evidence | 5.5 |
 | **quality_score** (weighted) | **7.46** |
 | **trust_score** | **6.52** |
@@ -105,12 +105,12 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 25,473 bytes |
+| README size | 25,768 bytes |
 
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

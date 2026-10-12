@@ -5,24 +5,24 @@ domain: browser-automation
 summary: >-
   lavague-ai/LaVague — ABANDONED, tier B,
   6,393 stars, license Apache-2.0, quality 6.3/10, trust 6.62/10.
-  Verified against the GitHub API on 2026-10-05.
+  Verified against the GitHub API on 2026-10-12.
 status: deprecated
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["abandoned-candidate", "agent", "browser", "browser-automation", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.81, "reproducibility": 9.0, "security": 3.5, "recency": 1.49, "evidence": 7.0}
+  components: {"authority": 9.0, "maintenance": 1.5, "adoption": 10.0, "documentation": 6.81, "reproducibility": 9.0, "security": 3.5, "recency": 1.4, "evidence": 7.0}
   quality_score: 6.3
   trust_score: 6.62
   tier: B
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Large Action Model framework to develop AI Web Agents
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 6,393 (checked 2026-10-05) |
-| Forks | 575 |
+| Stars | 6,393 (checked 2026-10-12) |
+| Forks | 574 |
 | Open issues | 106 |
 | Contributors | 26 |
-| Last push | 2025-01-21 (621 days before verification) |
+| Last push | 2025-01-21 (628 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.81 |
 | reproducibility | 9.0 |
 | security | 3.5 |
-| recency | 1.49 |
+| recency | 1.4 |
 | evidence | 7.0 |
 | **quality_score** (weighted) | **6.3** |
 | **trust_score** | **6.62** |
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 621 days (>365d). Likely abandoned; prefer an actively maintained alternative.
+No push in 628 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 

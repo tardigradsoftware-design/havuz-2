@@ -4,25 +4,25 @@ title: "Aider-AI/aider"
 domain: agent-skills
 summary: >-
   Aider-AI/aider — MAINTENANCE, tier A,
-  49,373 stars, license Apache-2.0, quality 7.87/10, trust 7.8/10.
-  Verified against the GitHub API on 2026-10-05.
+  49,489 stars, license Apache-2.0, quality 7.86/10, trust 7.8/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "git", "github-repository", "terminal"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 8.03, "reproducibility": 9.0, "security": 4.5, "recency": 8.15, "evidence": 7.0}
-  quality_score: 7.87
+  components: {"authority": 9.0, "maintenance": 6.0, "adoption": 10.0, "documentation": 8.03, "reproducibility": 9.0, "security": 4.5, "recency": 8.05, "evidence": 7.0}
+  quality_score: 7.86
   trust_score: 7.8
   tier: A
   maturity: maintenance-mode
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > aider is AI pair programming in your terminal
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 49,373 (checked 2026-10-05) |
-| Forks | 5,032 |
-| Open issues | 1,910 |
+| Stars | 49,489 (checked 2026-10-12) |
+| Forks | 5,047 |
+| Open issues | 1,912 |
 | Contributors | 172 |
-| Last push | 2026-05-22 (135 days before verification) |
+| Last push | 2026-05-22 (142 days before verification) |
 | Latest release | v0.86.0 (2025-08-09) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.03 |
 | reproducibility | 9.0 |
 | security | 4.5 |
-| recency | 8.15 |
+| recency | 8.05 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **7.87** |
+| **quality_score** (weighted) | **7.86** |
 | **trust_score** | **7.8** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 135 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
+No push in 142 days (>120d). Treat as maintenance mode: usable, but check for a recommended successor before adopting.
 
 ## How to re-verify
 

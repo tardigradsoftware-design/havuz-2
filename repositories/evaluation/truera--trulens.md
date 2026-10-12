@@ -4,17 +4,17 @@ title: "truera/trulens"
 domain: evaluation
 summary: >-
   truera/trulens — ACTIVE, tier S,
-  3,589 stars, license MIT, quality 8.82/10, trust 8.8/10.
-  Verified against the GitHub API on 2026-10-05.
+  3,598 stars, license MIT, quality 8.82/10, trust 8.8/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["evaluation", "github-repository", "observability"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.7, "reproducibility": 10.0, "security": 4.5, "recency": 10.0, "evidence": 8.0}
   quality_score: 8.82
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Evaluation and Tracking for LLM Experiments and AI Agents
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 3,589 (checked 2026-10-05) |
-| Forks | 359 |
-| Open issues | 127 |
-| Contributors | 117 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | trulens-2.14.0 (2026-09-03) |
+| Stars | 3,598 (checked 2026-10-12) |
+| Forks | 362 |
+| Open issues | 104 |
+| Contributors | 121 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | trulens-2.15.0 (2026-10-05) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.trulens.org/](https://www.trulens.org/) |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | yes |
 | root entries | yes |
-| README size | 8,410 bytes |
+| README size | 8,431 bytes |
 
 ## Curated judgement
 

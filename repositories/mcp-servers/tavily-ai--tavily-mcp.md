@@ -4,25 +4,25 @@ title: "tavily-ai/tavily-mcp"
 domain: mcp-servers
 summary: >-
   tavily-ai/tavily-mcp — ACTIVE, tier A,
-  2,417 stars, license MIT, quality 7.57/10, trust 6.98/10.
-  Verified against the GitHub API on 2026-10-05.
+  2,429 stars, license MIT, quality 7.57/10, trust 6.98/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["github-repository", "mcp", "mcp-servers", "search"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.23, "reproducibility": 7.0, "security": 4.5, "recency": 9.93, "evidence": 4.0}
+  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 4.23, "reproducibility": 7.0, "security": 4.5, "recency": 9.92, "evidence": 4.0}
   quality_score: 7.57
   trust_score: 6.98
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Production ready MCP server with real-time search, extract, map & crawl.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 2,417 (checked 2026-10-05) |
-| Forks | 300 |
-| Open issues | 59 |
+| Stars | 2,429 (checked 2026-10-12) |
+| Forks | 301 |
+| Open issues | 60 |
 | Contributors | 16 |
-| Last push | 2026-09-29 (5 days before verification) |
+| Last push | 2026-10-05 (6 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 4.23 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 9.93 |
+| recency | 9.92 |
 | evidence | 4.0 |
 | **quality_score** (weighted) | **7.57** |
 | **trust_score** | **6.98** |

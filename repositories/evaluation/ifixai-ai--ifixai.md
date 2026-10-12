@@ -4,25 +4,25 @@ title: "ifixai-ai/iFixAi"
 domain: evaluation
 summary: >-
   ifixai-ai/iFixAi — ACTIVE, tier A,
-  20,799 stars, license Apache-2.0, quality 7.93/10, trust 7.09/10.
-  Verified against the GitHub API on 2026-10-05.
+  23,949 stars, license Apache-2.0, quality 7.96/10, trust 7.13/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-audit", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.76, "reproducibility": 7.0, "security": 6.0, "recency": 10.0, "evidence": 5.5}
-  quality_score: 7.93
-  trust_score: 7.09
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.06, "reproducibility": 7.0, "security": 6.0, "recency": 10.0, "evidence": 5.5}
+  quality_score: 7.96
+  trust_score: 7.13
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 20,799 (checked 2026-10-05) |
-| Forks | 1,400 |
-| Open issues | 37 |
-| Contributors | 14 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v4.0.0 (2026-09-15) |
+| Stars | 23,949 (checked 2026-10-12) |
+| Forks | 1,444 |
+| Open issues | 33 |
+| Contributors | 15 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v4.1.0 (2026-10-08) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://www.ifixai.ai](https://www.ifixai.ai) |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.76 |
+| documentation | 9.06 |
 | reproducibility | 7.0 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **7.93** |
-| **trust_score** | **7.09** |
+| **quality_score** (weighted) | **7.96** |
+| **trust_score** | **7.13** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 27,105 bytes |
+| README size | 30,689 bytes |
 
 ## Curated judgement
 

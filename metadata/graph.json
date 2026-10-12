@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:34:29+00:00",
+  "generated_at": "2026-10-12T12:16:37+00:00",
   "generator": "scripts/generate-index/extract_registries.py",
   "description": "Knowledge graph. Traverse from a task's domain to the skills, frameworks, MCP servers, repositories and papers that support it.",
   "node_count": 1109,
@@ -903,12 +903,6 @@
       ]
     },
     {
-      "id": "cchaha.ai",
-      "kinds": [
-        "referenced"
-      ]
-    },
-    {
       "id": "changesets/changesets",
       "kinds": [
         "repository"
@@ -1374,7 +1368,7 @@
       ]
     },
     {
-      "id": "feder-cr/invisible_playwright_mcp",
+      "id": "feder-cr/invisible_dots",
       "kinds": [
         "repository"
       ]
@@ -1875,6 +1869,12 @@
       ]
     },
     {
+      "id": "https://archify.si",
+      "kinds": [
+        "referenced"
+      ]
+    },
+    {
       "id": "https://argo-cd.readthedocs.io",
       "kinds": [
         "referenced"
@@ -2121,7 +2121,7 @@
       ]
     },
     {
-      "id": "https://cathrynlavery.github.io/diagram-design/",
+      "id": "https://cchaha.ai",
       "kinds": [
         "referenced"
       ]
@@ -2343,6 +2343,12 @@
       ]
     },
     {
+      "id": "https://diagramdesign.dev",
+      "kinds": [
+        "referenced"
+      ]
+    },
+    {
       "id": "https://diagrams.mingrammer.com",
       "kinds": [
         "referenced"
@@ -2397,7 +2403,7 @@
       ]
     },
     {
-      "id": "https://docs.caveman.so/docs/quickstart",
+      "id": "https://docs.caveman.so/caveman",
       "kinds": [
         "referenced"
       ]
@@ -2739,7 +2745,7 @@
       ]
     },
     {
-      "id": "https://github.com/feder-cr/invisible_playwright_mcp/wiki",
+      "id": "https://github.com/feder-cr/invisible_dots/blob/main/docs/guide.md",
       "kinds": [
         "referenced"
       ]
@@ -4042,12 +4048,6 @@
     },
     {
       "id": "https://ts.sdk.modelcontextprotocol.io/v2",
-      "kinds": [
-        "referenced"
-      ]
-    },
-    {
-      "id": "https://tt-a1i.github.io/archify/",
       "kinds": [
         "referenced"
       ]
@@ -13398,16 +13398,16 @@
       "target": "https://huggingface.co/docs/smolagents"
     },
     {
-      "source": "microsoft/semantic-kernel",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://aka.ms/semantic-kernel"
-    },
-    {
       "source": "mastra-ai/mastra",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://mastra.ai"
+    },
+    {
+      "source": "microsoft/semantic-kernel",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://aka.ms/semantic-kernel"
     },
     {
       "source": "vercel/ai",
@@ -13641,7 +13641,7 @@
       "source": "JuliusBrussee/caveman",
       "source_kind": "repository",
       "type": "documented_by",
-      "target": "https://docs.caveman.so/docs/quickstart"
+      "target": "https://docs.caveman.so/caveman"
     },
     {
       "source": "google-gemini/gemini-cli",
@@ -13692,22 +13692,28 @@
       "target": "https://openhands.dev"
     },
     {
+      "source": "tt-a1i/archify",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://archify.si"
+    },
+    {
       "source": "shareAI-lab/learn-claude-code",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://learn.shareai.run"
     },
     {
-      "source": "tt-a1i/archify",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://tt-a1i.github.io/archify/"
-    },
-    {
       "source": "cline/cline",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://cline.bot"
+    },
+    {
+      "source": "blader/humanizer",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://skills.sh/blader/humanizer"
     },
     {
       "source": "hesreallyhim/awesome-claude-code",
@@ -13734,16 +13740,16 @@
       "target": "https://goose-docs.ai/"
     },
     {
-      "source": "blader/humanizer",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://skills.sh/blader/humanizer"
-    },
-    {
       "source": "VoltAgent/awesome-openclaw-skills",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://clawskills.sh/"
+    },
+    {
+      "source": "cathrynlavery/diagram-design",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://diagramdesign.dev"
     },
     {
       "source": "Imbad0202/academic-research-skills",
@@ -13762,12 +13768,6 @@
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://arxiv.org/abs/2609.00065"
-    },
-    {
-      "source": "cathrynlavery/diagram-design",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://cathrynlavery.github.io/diagram-design/"
     },
     {
       "source": "wshobson/agents",
@@ -14232,10 +14232,10 @@
       "target": "https://selenium.dev"
     },
     {
-      "source": "feder-cr/invisible_playwright_mcp",
+      "source": "feder-cr/invisible_dots",
       "source_kind": "repository",
       "type": "documented_by",
-      "target": "https://github.com/feder-cr/invisible_playwright_mcp/wiki"
+      "target": "https://github.com/feder-cr/invisible_dots/blob/main/docs/guide.md"
     },
     {
       "source": "trycua/cua",
@@ -14352,16 +14352,16 @@
       "target": "https://browser4.io"
     },
     {
-      "source": "alumnium-hq/alumnium",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://alumnium.ai"
-    },
-    {
       "source": "CelestoAI/celesto",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://celesto.ai/docs"
+    },
+    {
+      "source": "alumnium-hq/alumnium",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://alumnium.ai"
     },
     {
       "source": "browser-use/desktop",
@@ -14490,16 +14490,16 @@
       "target": "https://zed.dev"
     },
     {
-      "source": "mermaid-js/mermaid",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://mermaid.ai/open-source/"
-    },
-    {
       "source": "astral-sh/uv",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://docs.astral.sh/uv"
+    },
+    {
+      "source": "mermaid-js/mermaid",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://mermaid.ai/open-source/"
     },
     {
       "source": "Egonex-AI/Understand-Anything",
@@ -14622,16 +14622,16 @@
       "target": "https://httpie.io"
     },
     {
-      "source": "docker/compose",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://docs.docker.com/compose/"
-    },
-    {
       "source": "aquasecurity/trivy",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://trivy.dev"
+    },
+    {
+      "source": "docker/compose",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://docs.docker.com/compose/"
     },
     {
       "source": "typicode/husky",
@@ -14781,7 +14781,7 @@
       "source": "NanmiCoder/cc-haha",
       "source_kind": "repository",
       "type": "documented_by",
-      "target": "cchaha.ai"
+      "target": "https://cchaha.ai"
     },
     {
       "source": "lint-staged/lint-staged",
@@ -14922,16 +14922,16 @@
       "target": "https://promptfoo.dev"
     },
     {
-      "source": "comet-ml/opik",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://www.comet.com/docs/opik/"
-    },
-    {
       "source": "ifixai-ai/iFixAi",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://www.ifixai.ai"
+    },
+    {
+      "source": "comet-ml/opik",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://www.comet.com/docs/opik/"
     },
     {
       "source": "confident-ai/deepeval",
@@ -15072,16 +15072,16 @@
       "target": "https://osu-nlp-group.github.io/Mind2Web/"
     },
     {
-      "source": "LiveCodeBench/LiveCodeBench",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://livecodebench.github.io/"
-    },
-    {
       "source": "TIGER-AI-Lab/ClawBench",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://claw-bench.com"
+    },
+    {
+      "source": "LiveCodeBench/LiveCodeBench",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://livecodebench.github.io/"
     },
     {
       "source": "mlcommons/croissant",
@@ -15786,16 +15786,16 @@
       "target": "https://firecrawl.dev"
     },
     {
-      "source": "AgentDeskAI/browser-tools-mcp",
-      "source_kind": "repository",
-      "type": "documented_by",
-      "target": "https://agentdesk.ai/"
-    },
-    {
       "source": "modelcontextprotocol/registry",
       "source_kind": "repository",
       "type": "documented_by",
       "target": "https://github.com/modelcontextprotocol/registry/tree/main/docs"
+    },
+    {
+      "source": "AgentDeskAI/browser-tools-mcp",
+      "source_kind": "repository",
+      "type": "documented_by",
+      "target": "https://agentdesk.ai/"
     },
     {
       "source": "sooperset/mcp-atlassian",

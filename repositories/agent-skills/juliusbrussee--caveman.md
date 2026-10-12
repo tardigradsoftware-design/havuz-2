@@ -4,25 +4,25 @@ title: "JuliusBrussee/caveman"
 domain: agent-skills
 summary: >-
   JuliusBrussee/caveman — ACTIVE, tier S,
-  109,901 stars, license Apache-2.0, quality 8.03/10, trust 7.01/10.
-  Verified against the GitHub API on 2026-10-05.
+  111,147 stars, license Apache-2.0, quality 8.04/10, trust 7.03/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "context-compression", "github-repository", "skills", "tokens"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.75, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.0}
-  quality_score: 8.03
-  trust_score: 7.01
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.89, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.0}
+  quality_score: 8.04
+  trust_score: 7.03
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,15 +61,15 @@ sources:
 | Official upstream | no |
 | Language | Go |
 | License | `Apache-2.0` |
-| Stars | 109,901 (checked 2026-10-05) |
-| Forks | 6,359 |
-| Open issues | 119 |
-| Contributors | 66 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v3.1.0 (2026-10-04) |
+| Stars | 111,147 (checked 2026-10-12) |
+| Forks | 6,436 |
+| Open issues | 60 |
+| Contributors | 76 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v3.2.0 (2026-10-08) |
 | Archived | no |
 | Fork | no |
-| Homepage | [https://docs.caveman.so/docs/quickstart](https://docs.caveman.so/docs/quickstart) |
+| Homepage | [https://docs.caveman.so/caveman](https://docs.caveman.so/caveman) |
 | SECURITY.md | yes → `policy-published` |
 | Repository kind | `software` |
 
@@ -80,13 +80,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.75 |
+| documentation | 7.89 |
 | reproducibility | 9.5 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **8.03** |
-| **trust_score** | **7.01** |
+| **quality_score** (weighted) | **8.04** |
+| **trust_score** | **7.03** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 14,958 bytes |
+| README size | 16,705 bytes |
 
 ## Curated judgement
 

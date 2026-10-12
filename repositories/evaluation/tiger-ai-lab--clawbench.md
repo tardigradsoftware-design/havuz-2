@@ -4,25 +4,25 @@ title: "TIGER-AI-Lab/ClawBench"
 domain: evaluation
 summary: >-
   TIGER-AI-Lab/ClawBench — STABLE, tier S,
-  948 stars, license Apache-2.0, quality 8.01/10, trust 7.32/10.
-  Verified against the GitHub API on 2026-10-05.
+  1,017 stars, license Apache-2.0, quality 8.19/10, trust 7.52/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
-confidence: high
+confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "browser-agent", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 9.0, "adoption": 9.87, "documentation": 10.0, "reproducibility": 9.0, "security": 3.5, "recency": 9.79, "evidence": 7.5}
-  quality_score: 8.01
-  trust_score: 7.32
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 9.94, "documentation": 10.0, "reproducibility": 9.0, "security": 3.5, "recency": 10.0, "evidence": 7.5}
+  quality_score: 8.19
+  trust_score: 7.52
   tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: TIGER-AI-Lab
     license: Apache-2.0
     license_risk: none
-    confidence: high
+    confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # TIGER-AI-Lab/ClawBench
 
-🔵 STABLE · tier **S** · published-artifact · confidence **high**
+🔵 STABLE · tier **S** · published-artifact · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Open-source benchmark for browser AI agents on daily tasks.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 948 (checked 2026-10-05) |
+| Stars | 1,017 (checked 2026-10-12) |
 | Forks | 62 |
-| Open issues | 52 |
-| Contributors | 12 |
-| Last push | 2026-09-20 (15 days before verification) |
-| Latest release | v0.10.0 (2026-08-30) |
+| Open issues | 54 |
+| Contributors | 13 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v0.11.0 (2026-10-05) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://claw-bench.com](https://claw-bench.com) |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 6.0 |
-| maintenance | 9.0 |
-| adoption | 9.87 |
+| maintenance | 10.0 |
+| adoption | 9.94 |
 | documentation | 10.0 |
 | reproducibility | 9.0 |
 | security | 3.5 |
-| recency | 9.79 |
+| recency | 10.0 |
 | evidence | 7.5 |
-| **quality_score** (weighted) | **8.01** |
-| **trust_score** | **7.32** |
+| **quality_score** (weighted) | **8.19** |
+| **trust_score** | **7.52** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

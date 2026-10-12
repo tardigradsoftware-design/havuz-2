@@ -4,25 +4,25 @@ title: "modelcontextprotocol/inspector"
 domain: mcp-servers
 summary: >-
   modelcontextprotocol/inspector — ACTIVE, tier A,
-  11,021 stars, license NOASSERTION, quality 8.34/10, trust 8.2/10.
-  Verified against the GitHub API on 2026-10-05.
+  11,057 stars, license NOASSERTION, quality 8.35/10, trust 8.21/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["debugging", "github-repository", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.34, "reproducibility": 6.6, "security": 6.5, "recency": 10.0, "evidence": 5.0}
-  quality_score: 8.34
-  trust_score: 8.2
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.42, "reproducibility": 6.6, "security": 6.5, "recency": 10.0, "evidence": 5.0}
+  quality_score: 8.35
+  trust_score: 8.21
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Visual testing tool for MCP servers
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,12 +67,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `NOASSERTION` |
-| Stars | 11,021 (checked 2026-10-05) |
-| Forks | 1,541 |
-| Open issues | 87 |
+| Stars | 11,057 (checked 2026-10-12) |
+| Forks | 1,542 |
+| Open issues | 64 |
 | Contributors | 135 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | 2.9.0 (2026-09-30) |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | 2.10.1 (2026-10-08) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector](https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector) |
@@ -86,13 +86,13 @@ sources:
 | authority | 9.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 7.34 |
+| documentation | 7.42 |
 | reproducibility | 6.6 |
 | security | 6.5 |
 | recency | 10.0 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **8.34** |
-| **trust_score** | **8.2** |
+| **quality_score** (weighted) | **8.35** |
+| **trust_score** | **8.21** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -111,7 +111,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 10,115 bytes |
+| README size | 11,059 bytes |
 
 ## Curated judgement
 

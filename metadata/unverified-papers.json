@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T11:34:29+00:00",
-  "count": 8,
+  "generated_at": "2026-10-12T12:16:37+00:00",
+  "count": 33,
   "items": [
     {
       "query_title": "tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
@@ -50,11 +50,145 @@
       "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
     },
     {
+      "query_title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+      "topic": "evaluation",
+      "tags": [
+        "hallucination",
+        "self-verification"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Measuring short-form factuality in large language models",
+      "topic": "evaluation",
+      "tags": [
+        "factuality",
+        "benchmark"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Constitutional AI: Harmlessness from AI Feedback",
+      "topic": "security",
+      "tags": [
+        "alignment",
+        "rlaif"
+      ],
+      "relevance": "contextual",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "topic": "evaluation",
+      "tags": [
+        "llm-as-judge",
+        "benchmark"
+      ],
+      "relevance": "primary",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Holistic Evaluation of Language Models",
+      "topic": "evaluation",
+      "tags": [
+        "helm",
+        "methodology",
+        "benchmark"
+      ],
+      "relevance": "primary",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
       "query_title": "A Framework for Few-Shot Language Model Evaluation",
       "topic": "evaluation",
       "tags": [
         "lm-evaluation-harness",
         "methodology"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+      "topic": "reasoning",
+      "tags": [
+        "critique",
+        "tool-use",
+        "self-correction"
+      ],
+      "relevance": "primary",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "topic": "reasoning",
+      "tags": [
+        "debate",
+        "multi-agent"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "topic": "agents",
+      "tags": [
+        "skill-library",
+        "lifelong-learning"
+      ],
+      "relevance": "primary",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Training Verifiers to Solve Math Word Problems",
+      "topic": "reasoning",
+      "tags": [
+        "verifier",
+        "outcome-reward"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Solving math word problems with process- and outcome-based feedback",
+      "topic": "reasoning",
+      "tags": [
+        "process-reward",
+        "outcome-reward"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+      "topic": "reasoning",
+      "tags": [
+        "internal-reasoning",
+        "self-taught"
       ],
       "relevance": "supporting",
       "best_candidate": null,
@@ -74,6 +208,30 @@
       "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
     },
     {
+      "query_title": "WebGPT: Browser-assisted question-answering with human feedback",
+      "topic": "browser-automation",
+      "tags": [
+        "web-agent",
+        "browsing"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+      "topic": "browser-automation",
+      "tags": [
+        "web-agent",
+        "multimodal"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
       "query_title": "SeeAct: GPT-4V(ision) is a Generalist Web Agent, if Grounded",
       "topic": "browser-automation",
       "tags": [
@@ -86,11 +244,153 @@
       "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
     },
     {
+      "query_title": "Executable Code Actions Elicit Better LLM Agents",
+      "topic": "agents",
+      "tags": [
+        "code-actions",
+        "smolagents"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+      "topic": "reasoning",
+      "tags": [
+        "tree-search",
+        "planning"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+      "topic": "agents",
+      "tags": [
+        "planning",
+        "tool-use"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning",
+      "topic": "reasoning",
+      "tags": [
+        "program-aided"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+      "topic": "reasoning",
+      "tags": [
+        "decomposition",
+        "prompting"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning",
+      "topic": "reasoning",
+      "tags": [
+        "planning",
+        "prompting"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Attention Is All You Need",
+      "topic": "architecture",
+      "tags": [
+        "transformer",
+        "foundational"
+      ],
+      "relevance": "contextual",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+      "topic": "security",
+      "tags": [
+        "instruction-hierarchy",
+        "security"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Autoformalization with Large Language Models",
+      "topic": "reasoning",
+      "tags": [
+        "formal-verification",
+        "autoformalization"
+      ],
+      "relevance": "candidate",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+      "topic": "reasoning",
+      "tags": [
+        "r1",
+        "critical-analysis"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "TTRL: Test-Time Reinforcement Learning",
+      "topic": "reasoning",
+      "tags": [
+        "test-time-rl"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
       "query_title": "Process Reinforcement through Implicit Rewards (PRIME)",
       "topic": "reasoning",
       "tags": [
         "rl",
         "implicit-rewards"
+      ],
+      "relevance": "supporting",
+      "best_candidate": null,
+      "best_ratio": 0.0,
+      "reason": "no arXiv entry matched the queried title at >=0.82 similarity"
+    },
+    {
+      "query_title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+      "topic": "reasoning",
+      "tags": [
+        "rl",
+        "survey"
       ],
       "relevance": "supporting",
       "best_candidate": null,

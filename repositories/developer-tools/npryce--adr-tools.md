@@ -4,17 +4,17 @@ title: "npryce/adr-tools"
 domain: developer-tools
 summary: >-
   npryce/adr-tools — ABANDONED, tier C,
-  5,722 stars, license NOASSERTION, quality 4.92/10, trust 4.9/10.
-  Verified against the GitHub API on 2026-10-05.
+  5,730 stars, license NOASSERTION, quality 4.92/10, trust 4.9/10.
+  Verified against the GitHub API on 2026-10-12.
 status: deprecated
 confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["architecture", "decision-records", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 7.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 3.65, "reproducibility": 7.1, "security": 3.0, "recency": 0.0, "evidence": 5.0}
   quality_score: 4.92
@@ -22,7 +22,7 @@ scoring:
   tier: C
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Command-line tools for working with Architecture Decision Records
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Shell |
 | License | `NOASSERTION` |
-| Stars | 5,722 (checked 2026-10-05) |
+| Stars | 5,730 (checked 2026-10-12) |
 | Forks | 635 |
-| Open issues | 69 |
+| Open issues | 70 |
 | Contributors | 13 |
-| Last push | 2024-04-25 (892 days before verification) |
+| Last push | 2024-04-25 (899 days before verification) |
 | Latest release | 3.0.0 (2018-07-25) |
 | Archived | no |
 | Fork | no |
@@ -141,7 +141,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 892 days (>365d). Likely abandoned; prefer an actively maintained alternative. Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
+No push in 899 days (>365d). Likely abandoned; prefer an actively maintained alternative. Non-SPDX/custom license (NOASSERTION). Read the license text before vendoring; referencing is fine.
 
 ## How to re-verify
 

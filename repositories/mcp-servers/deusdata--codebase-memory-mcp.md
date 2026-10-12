@@ -4,17 +4,17 @@ title: "DeusData/codebase-memory-mcp"
 domain: mcp-servers
 summary: >-
   DeusData/codebase-memory-mcp — ACTIVE, tier S,
-  45,799 stars, license MIT, quality 8.2/10, trust 7.4/10.
-  Verified against the GitHub API on 2026-10-05.
+  46,410 stars, license MIT, quality 8.2/10, trust 7.4/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["codebase", "github-repository", "indexing", "mcp", "mcp-servers"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 9.5, "reproducibility": 9.0, "security": 6.0, "recency": 10.0, "evidence": 7.5}
   quality_score: 8.2
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | C |
 | License | `MIT` |
-| Stars | 45,799 (checked 2026-10-05) |
-| Forks | 3,767 |
-| Open issues | 638 |
-| Contributors | 169 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Stars | 46,410 (checked 2026-10-12) |
+| Forks | 3,813 |
+| Open issues | 639 |
+| Contributors | 171 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v0.11.0 (2026-09-15) |
 | Archived | no |
 | Fork | no |
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 80,582 bytes |
+| README size | 85,564 bytes |
 
 ## Curated judgement
 

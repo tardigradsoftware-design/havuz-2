@@ -4,25 +4,25 @@ title: "redis/mcp-redis"
 domain: mcp-servers
 summary: >-
   redis/mcp-redis — ACTIVE, tier S,
-  630 stars, license MIT, quality 8.71/10, trust 8.8/10.
-  Verified against the GitHub API on 2026-10-05.
+  634 stars, license MIT, quality 8.71/10, trust 8.8/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cache", "github-repository", "mcp", "mcp-servers", "redis"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 9.55, "documentation": 6.81, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.5}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 9.56, "documentation": 6.81, "reproducibility": 10.0, "security": 4.5, "recency": 9.97, "evidence": 8.5}
   quality_score: 8.71
   trust_score: 8.8
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 630 (checked 2026-10-05) |
-| Forks | 118 |
-| Open issues | 18 |
+| Stars | 634 (checked 2026-10-12) |
+| Forks | 120 |
+| Open issues | 19 |
 | Contributors | 25 |
-| Last push | 2026-10-02 (2 days before verification) |
+| Last push | 2026-10-09 (2 days before verification) |
 | Latest release | 0.5.1 (2026-08-05) |
 | Archived | no |
 | Fork | no |
@@ -79,7 +79,7 @@ sources:
 |---|---|
 | authority | 9.0 |
 | maintenance | 10.0 |
-| adoption | 9.55 |
+| adoption | 9.56 |
 | documentation | 6.81 |
 | reproducibility | 10.0 |
 | security | 4.5 |

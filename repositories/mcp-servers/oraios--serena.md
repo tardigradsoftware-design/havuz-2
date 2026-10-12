@@ -4,17 +4,17 @@ title: "oraios/serena"
 domain: mcp-servers
 summary: >-
   oraios/serena — ACTIVE, tier A,
-  29,998 stars, license NOASSERTION, quality 7.89/10, trust 7.09/10.
-  Verified against the GitHub API on 2026-10-05.
+  30,197 stars, license NOASSERTION, quality 7.89/10, trust 7.09/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["coding", "github-repository", "mcp", "mcp-servers", "semantic-retrieval"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.26, "reproducibility": 8.6, "security": 3.0, "recency": 10.0, "evidence": 7.0}
   quality_score: 7.89
@@ -22,7 +22,7 @@ scoring:
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `NOASSERTION` |
-| Stars | 29,998 (checked 2026-10-05) |
-| Forks | 2,043 |
-| Open issues | 186 |
-| Contributors | 227 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Stars | 30,197 (checked 2026-10-12) |
+| Forks | 2,059 |
+| Open issues | 107 |
+| Contributors | 237 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v1.7.0 (2026-08-09) |
 | Archived | no |
 | Fork | no |
@@ -116,7 +116,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

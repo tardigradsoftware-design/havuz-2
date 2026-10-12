@@ -4,25 +4,25 @@ title: "xlang-ai/OSWorld"
 domain: evaluation
 summary: >-
   xlang-ai/OSWorld — STABLE, tier A,
-  3,172 stars, license Apache-2.0, quality 7.97/10, trust 7.72/10.
-  Verified against the GitHub API on 2026-10-05.
+  3,198 stars, license Apache-2.0, quality 7.96/10, trust 7.72/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "computer-use", "evaluation", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 5.97, "reproducibility": 7.5, "security": 4.5, "recency": 9.73, "evidence": 5.5}
-  quality_score: 7.97
+  components: {"authority": 9.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 5.97, "reproducibility": 7.5, "security": 4.5, "recency": 9.63, "evidence": 5.5}
+  quality_score: 7.96
   trust_score: 7.72
   tier: A
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > \[NeurIPS 2024\] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 3,172 (checked 2026-10-05) |
-| Forks | 538 |
-| Open issues | 214 |
+| Stars | 3,198 (checked 2026-10-12) |
+| Forks | 540 |
+| Open issues | 215 |
 | Contributors | 97 |
-| Last push | 2026-09-14 (20 days before verification) |
+| Last push | 2026-09-14 (27 days before verification) |
 | Latest release | v0.1.16 (2024-06-26) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 5.97 |
 | reproducibility | 7.5 |
 | security | 4.5 |
-| recency | 9.73 |
+| recency | 9.63 |
 | evidence | 5.5 |
-| **quality_score** (weighted) | **7.97** |
+| **quality_score** (weighted) | **7.96** |
 | **trust_score** | **7.72** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

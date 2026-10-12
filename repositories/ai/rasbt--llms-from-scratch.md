@@ -4,25 +4,25 @@ title: "rasbt/LLMs-from-scratch"
 domain: ai
 summary: >-
   rasbt/LLMs-from-scratch — ACTIVE, tier A,
-  106,037 stars, license NOASSERTION, quality 7.52/10, trust 7.21/10.
-  Verified against the GitHub API on 2026-10-05.
+  106,410 stars, license NOASSERTION, quality 7.36/10, trust 7.01/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "education", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.08, "reproducibility": 5.1, "security": 4.0, "recency": 9.97, "evidence": 4.0}
-  quality_score: 7.52
-  trust_score: 7.21
+  components: {"authority": 8.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.08, "reproducibility": 5.1, "security": 4.0, "recency": 9.88, "evidence": 4.0}
+  quality_score: 7.36
+  trust_score: 7.01
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > Implement a ChatGPT-like LLM in PyTorch from scratch, step by step
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | yes |
 | Language | Jupyter Notebook |
 | License | `NOASSERTION` |
-| Stars | 106,037 (checked 2026-10-05) |
-| Forks | 16,311 |
-| Open issues | 2 |
+| Stars | 106,410 (checked 2026-10-12) |
+| Forks | 16,373 |
+| Open issues | 3 |
 | Contributors | 69 |
-| Last push | 2026-10-02 (2 days before verification) |
+| Last push | 2026-10-02 (9 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -84,15 +84,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 8.0 |
-| maintenance | 10.0 |
+| maintenance | 9.0 |
 | adoption | 10.0 |
 | documentation | 6.08 |
 | reproducibility | 5.1 |
 | security | 4.0 |
-| recency | 9.97 |
+| recency | 9.88 |
 | evidence | 4.0 |
-| **quality_score** (weighted) | **7.52** |
-| **trust_score** | **7.21** |
+| **quality_score** (weighted) | **7.36** |
+| **trust_score** | **7.01** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

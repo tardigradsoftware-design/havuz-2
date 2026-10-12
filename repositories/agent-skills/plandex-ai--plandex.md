@@ -4,25 +4,25 @@ title: "plandex-ai/plandex"
 domain: agent-skills
 summary: >-
   plandex-ai/plandex — ABANDONED, tier B,
-  15,689 stars, license MIT, quality 6.59/10, trust 6.53/10.
-  Verified against the GitHub API on 2026-10-05.
+  15,712 stars, license MIT, quality 6.58/10, trust 6.53/10.
+  Verified against the GitHub API on 2026-10-12.
 status: deprecated
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "coding-agent", "github-repository", "terminal"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 6.9, "reproducibility": 9.0, "security": 3.5, "recency": 4.99, "evidence": 7.0}
-  quality_score: 6.59
+  components: {"authority": 9.0, "maintenance": 1.0, "adoption": 10.0, "documentation": 6.9, "reproducibility": 9.0, "security": 3.5, "recency": 4.89, "evidence": 7.0}
+  quality_score: 6.58
   trust_score: 6.53
   tier: B
   maturity: end-of-life
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Open source AI coding agent. Designed for large projects and real world tasks.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Go |
 | License | `MIT` |
-| Stars | 15,689 (checked 2026-10-05) |
-| Forks | 1,177 |
+| Stars | 15,712 (checked 2026-10-12) |
+| Forks | 1,175 |
 | Open issues | 66 |
 | Contributors | 22 |
-| Last push | 2025-10-03 (366 days before verification) |
+| Last push | 2025-10-03 (373 days before verification) |
 | Latest release | cli/v2.2.1 (2025-07-16) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 6.9 |
 | reproducibility | 9.0 |
 | security | 3.5 |
-| recency | 4.99 |
+| recency | 4.89 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **6.59** |
+| **quality_score** (weighted) | **6.58** |
 | **trust_score** | **6.53** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -135,7 +135,7 @@ re-checked against your own constraints._
 
 ## Verification notes
 
-No push in 366 days (>365d). Likely abandoned; prefer an actively maintained alternative.
+No push in 373 days (>365d). Likely abandoned; prefer an actively maintained alternative.
 
 ## How to re-verify
 

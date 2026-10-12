@@ -5,24 +5,24 @@ domain: browser-automation
 summary: >-
   alumnium-hq/alumnium — ACTIVE, tier S,
   1,014 stars, license MIT, quality 8.43/10, trust 8.18/10.
-  Verified against the GitHub API on 2026-10-05.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser", "browser-automation", "github-repository", "self-healing", "testing"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.84, "reproducibility": 7.5, "security": 7.0, "recency": 10.0, "evidence": 5.0}
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.84, "reproducibility": 7.5, "security": 7.0, "recency": 9.97, "evidence": 5.0}
   quality_score: 8.43
   trust_score: 8.18
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > End-to-End Testing with AI for Agents and Engineers
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 1,014 (checked 2026-10-05) |
+| Stars | 1,014 (checked 2026-10-12) |
 | Forks | 101 |
-| Open issues | 25 |
-| Contributors | 27 |
-| Last push | 2026-10-04 (0 days before verification) |
+| Open issues | 15 |
+| Contributors | 29 |
+| Last push | 2026-10-09 (2 days before verification) |
 | Latest release | 0.23.1 (2026-10-02) |
 | Archived | no |
 | Fork | no |
@@ -83,7 +83,7 @@ sources:
 | documentation | 6.84 |
 | reproducibility | 7.5 |
 | security | 7.0 |
-| recency | 10.0 |
+| recency | 9.97 |
 | evidence | 5.0 |
 | **quality_score** (weighted) | **8.43** |
 | **trust_score** | **8.18** |

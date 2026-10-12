@@ -4,25 +4,25 @@ title: "microsoft/fara"
 domain: browser-automation
 summary: >-
   microsoft/fara — STABLE, tier S,
-  6,207 stars, license MIT, quality 8.02/10, trust 7.62/10.
-  Verified against the GitHub API on 2026-10-05.
+  6,216 stars, license MIT, quality 8.01/10, trust 7.62/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "computer-use", "github-repository", "model", "official"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 7.6, "reproducibility": 6.5, "security": 7.0, "recency": 9.84, "evidence": 3.5}
-  quality_score: 8.02
+  components: {"authority": 9.0, "maintenance": 8.5, "adoption": 10.0, "documentation": 7.6, "reproducibility": 6.5, "security": 7.0, "recency": 9.74, "evidence": 3.5}
+  quality_score: 8.01
   trust_score: 7.62
   tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Fara1.5 – A family of frontier computer use agent models
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `MIT` |
-| Stars | 6,207 (checked 2026-10-05) |
-| Forks | 604 |
+| Stars | 6,216 (checked 2026-10-12) |
+| Forks | 606 |
 | Open issues | 42 |
 | Contributors | 7 |
-| Last push | 2026-09-22 (12 days before verification) |
+| Last push | 2026-09-22 (19 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.6 |
 | reproducibility | 6.5 |
 | security | 7.0 |
-| recency | 9.84 |
+| recency | 9.74 |
 | evidence | 3.5 |
-| **quality_score** (weighted) | **8.02** |
+| **quality_score** (weighted) | **8.01** |
 | **trust_score** | **7.62** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

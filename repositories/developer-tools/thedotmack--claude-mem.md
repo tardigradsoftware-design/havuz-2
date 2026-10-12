@@ -4,25 +4,25 @@ title: "thedotmack/claude-mem"
 domain: developer-tools
 summary: >-
   thedotmack/claude-mem — ACTIVE, tier S,
-  96,353 stars, license Apache-2.0, quality 8.06/10, trust 7.06/10.
-  Verified against the GitHub API on 2026-10-05.
+  99,933 stars, license Apache-2.0, quality 8.07/10, trust 7.07/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent", "context", "developer-tools", "github-repository", "memory"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.09, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.0}
-  quality_score: 8.06
-  trust_score: 7.06
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.16, "reproducibility": 9.5, "security": 6.0, "recency": 10.0, "evidence": 7.0}
+  quality_score: 8.07
+  trust_score: 7.07
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 96,353 (checked 2026-10-05) |
-| Forks | 8,506 |
-| Open issues | 88 |
-| Contributors | 228 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | v13.31.0 (2026-10-05) |
+| Stars | 99,933 (checked 2026-10-12) |
+| Forks | 8,765 |
+| Open issues | 99 |
+| Contributors | 254 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | v13.35.0 (2026-10-09) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://claude-mem.ai](https://claude-mem.ai) |
@@ -80,13 +80,13 @@ sources:
 | authority | 5.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.09 |
+| documentation | 8.16 |
 | reproducibility | 9.5 |
 | security | 6.0 |
 | recency | 10.0 |
 | evidence | 7.0 |
-| **quality_score** (weighted) | **8.06** |
-| **trust_score** | **7.06** |
+| **quality_score** (weighted) | **8.07** |
+| **trust_score** | **7.07** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | yes |
 | contributing | no |
 | root entries | yes |
-| README size | 19,085 bytes |
+| README size | 19,974 bytes |
 
 ## Curated judgement
 

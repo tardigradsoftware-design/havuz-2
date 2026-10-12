@@ -3,26 +3,26 @@ id: neondatabase--serverless
 title: "neondatabase/serverless"
 domain: databases
 summary: >-
-  neondatabase/serverless — ACTIVE, tier S,
-  549 stars, license MIT, quality 8.14/10, trust 8.04/10.
-  Verified against the GitHub API on 2026-10-05.
+  neondatabase/serverless — ACTIVE, tier A,
+  552 stars, license MIT, quality 7.91/10, trust 7.74/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["databases", "github-repository", "postgres", "serverless"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 9.35, "documentation": 5.94, "reproducibility": 8.0, "security": 4.5, "recency": 9.96, "evidence": 6.0}
-  quality_score: 8.14
-  trust_score: 8.04
-  tier: S
+  components: {"authority": 9.0, "maintenance": 8.5, "adoption": 9.35, "documentation": 5.94, "reproducibility": 8.0, "security": 4.5, "recency": 9.86, "evidence": 6.0}
+  quality_score: 7.91
+  trust_score: 7.74
+  tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,23 +36,23 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # neondatabase/serverless
 
-🟢 ACTIVE · tier **S** · production-ready · confidence **very-high**
+🟢 ACTIVE · tier **A** · production-ready · confidence **very-high**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Connect to Neon PostgreSQL from serverless/worker/edge functions
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 549 (checked 2026-10-05) |
-| Forks | 83 |
+| Stars | 552 (checked 2026-10-12) |
+| Forks | 84 |
 | Open issues | 51 |
 | Contributors | 15 |
-| Last push | 2026-10-01 (3 days before verification) |
+| Last push | 2026-10-01 (10 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 9.0 |
-| maintenance | 10.0 |
+| maintenance | 8.5 |
 | adoption | 9.35 |
 | documentation | 5.94 |
 | reproducibility | 8.0 |
 | security | 4.5 |
-| recency | 9.96 |
+| recency | 9.86 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **8.14** |
-| **trust_score** | **8.04** |
+| **quality_score** (weighted) | **7.91** |
+| **trust_score** | **7.74** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

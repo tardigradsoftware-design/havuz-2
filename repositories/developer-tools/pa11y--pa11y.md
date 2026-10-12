@@ -4,25 +4,25 @@ title: "pa11y/pa11y"
 domain: developer-tools
 summary: >-
   pa11y/pa11y — ACTIVE, tier S,
-  4,568 stars, license LGPL-3.0, quality 8.84/10, trust 9.01/10.
-  Verified against the GitHub API on 2026-10-05.
+  4,574 stars, license LGPL-3.0, quality 8.85/10, trust 9.01/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["accessibility", "audit", "developer-tools", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.22, "reproducibility": 9.25, "security": 4.5, "recency": 9.9, "evidence": 8.5}
-  quality_score: 8.84
+  components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.22, "reproducibility": 9.25, "security": 4.5, "recency": 10.0, "evidence": 8.5}
+  quality_score: 8.85
   trust_score: 9.01
   tier: S
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Pa11y is your automated accessibility testing pal
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | JavaScript |
 | License | `LGPL-3.0` |
-| Stars | 4,568 (checked 2026-10-05) |
-| Forks | 308 |
-| Open issues | 48 |
+| Stars | 4,574 (checked 2026-10-12) |
+| Forks | 309 |
+| Open issues | 53 |
 | Contributors | 53 |
-| Last push | 2026-09-28 (7 days before verification) |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | 10.0.0 (2026-08-28) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 8.22 |
 | reproducibility | 9.25 |
 | security | 4.5 |
-| recency | 9.9 |
+| recency | 10.0 |
 | evidence | 8.5 |
-| **quality_score** (weighted) | **8.84** |
+| **quality_score** (weighted) | **8.85** |
 | **trust_score** | **9.01** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

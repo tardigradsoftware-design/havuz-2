@@ -4,25 +4,25 @@ title: "mlcommons/croissant"
 domain: evaluation
 summary: >-
   mlcommons/croissant — STABLE, tier S,
-  906 stars, license Apache-2.0, quality 8.1/10, trust 7.88/10.
-  Verified against the GitHub API on 2026-10-05.
+  911 stars, license Apache-2.0, quality 8.09/10, trust 7.88/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["dataset", "evaluation", "github-repository", "metadata", "standard"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 9.94, "documentation": 7.55, "reproducibility": 7.0, "security": 4.5, "recency": 10.0, "evidence": 5.0}
-  quality_score: 8.1
+  components: {"authority": 8.5, "maintenance": 10.0, "adoption": 9.95, "documentation": 7.55, "reproducibility": 7.0, "security": 4.5, "recency": 9.92, "evidence": 5.0}
+  quality_score: 8.09
   trust_score: 7.88
   tier: S
   maturity: published-artifact
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,20 +52,20 @@ sources:
 >
 > Croissant is a high-level format for machine learning datasets that brings together four rich layers.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
 | URL | <https://github.com/mlcommons/croissant> |
 | Owner | mlcommons (Organization) |
 | Official upstream | yes |
-| Language | Jupyter Notebook |
+| Language | HTML |
 | License | `Apache-2.0` |
-| Stars | 906 (checked 2026-10-05) |
-| Forks | 125 |
-| Open issues | 225 |
+| Stars | 911 (checked 2026-10-12) |
+| Forks | 126 |
+| Open issues | 224 |
 | Contributors | 40 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Last push | 2026-10-05 (6 days before verification) |
 | Latest release | v1.1.1 (2026-10-05) |
 | Archived | no |
 | Fork | no |
@@ -79,13 +79,13 @@ sources:
 |---|---|
 | authority | 8.5 |
 | maintenance | 10.0 |
-| adoption | 9.94 |
+| adoption | 9.95 |
 | documentation | 7.55 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 10.0 |
+| recency | 9.92 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **8.1** |
+| **quality_score** (weighted) | **8.09** |
 | **trust_score** | **7.88** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /

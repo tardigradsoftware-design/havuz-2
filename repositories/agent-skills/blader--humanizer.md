@@ -3,26 +3,26 @@ id: blader--humanizer
 title: "blader/humanizer"
 domain: agent-skills
 summary: >-
-  blader/humanizer — ACTIVE, tier A,
-  54,069 stars, license MIT, quality 7.15/10, trust 6.01/10.
-  Verified against the GitHub API on 2026-10-05.
+  blader/humanizer — ACTIVE, tier B,
+  56,008 stars, license MIT, quality 6.99/10, trust 5.81/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
-confidence: high
+confidence: medium
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["agent-skills", "ai-slop", "github-repository", "skills", "writing"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.07, "reproducibility": 7.0, "security": 3.5, "recency": 9.9, "evidence": 5.0}
-  quality_score: 7.15
-  trust_score: 6.01
-  tier: A
-  maturity: production-grade
+  components: {"authority": 5.0, "maintenance": 9.0, "adoption": 10.0, "documentation": 6.07, "reproducibility": 7.0, "security": 3.5, "recency": 9.81, "evidence": 5.0}
+  quality_score: 6.99
+  trust_score: 5.81
+  tier: B
+  maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -34,25 +34,25 @@ sources:
     organization: blader
     license: MIT
     license_risk: none
-    confidence: high
+    confidence: medium
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
 # blader/humanizer
 
-🟢 ACTIVE · tier **A** · production-grade · confidence **high**
+🟢 ACTIVE · tier **B** · production-ready · confidence **medium**
 
 > _Upstream description, quoted as published and not verified here:_
 >
 > Agent skill that removes signs of AI-generated writing from text
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | no |
 | Language | Python |
 | License | `MIT` |
-| Stars | 54,069 (checked 2026-10-05) |
-| Forks | 4,296 |
-| Open issues | 4 |
-| Contributors | 22 |
-| Last push | 2026-09-28 (7 days before verification) |
+| Stars | 56,008 (checked 2026-10-12) |
+| Forks | 4,427 |
+| Open issues | 3 |
+| Contributors | 21 |
+| Last push | 2026-09-28 (14 days before verification) |
 | Latest release | v3.1.0 (2026-09-28) |
 | Archived | no |
 | Fork | no |
@@ -78,15 +78,15 @@ sources:
 | Component | 0–10 |
 |---|---|
 | authority | 5.0 |
-| maintenance | 10.0 |
+| maintenance | 9.0 |
 | adoption | 10.0 |
 | documentation | 6.07 |
 | reproducibility | 7.0 |
 | security | 3.5 |
-| recency | 9.9 |
+| recency | 9.81 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.15** |
-| **trust_score** | **6.01** |
+| **quality_score** (weighted) | **6.99** |
+| **trust_score** | **5.81** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See

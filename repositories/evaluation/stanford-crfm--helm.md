@@ -4,25 +4,25 @@ title: "stanford-crfm/helm"
 domain: evaluation
 summary: >-
   stanford-crfm/helm — STABLE, tier A,
-  2,933 stars, license Apache-2.0, quality 7.71/10, trust 7.42/10.
-  Verified against the GitHub API on 2026-10-05.
+  2,939 stars, license Apache-2.0, quality 7.7/10, trust 7.42/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["benchmark", "evaluation", "github-repository", "methodology"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 8.5, "maintenance": 8.0, "adoption": 10.0, "documentation": 7.1, "reproducibility": 7.0, "security": 4.5, "recency": 9.53, "evidence": 5.0}
-  quality_score: 7.71
+  components: {"authority": 8.5, "maintenance": 8.0, "adoption": 10.0, "documentation": 7.1, "reproducibility": 7.0, "security": 4.5, "recency": 9.44, "evidence": 5.0}
+  quality_score: 7.7
   trust_score: 7.42
   tier: A
   maturity: production-ready
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | Python |
 | License | `Apache-2.0` |
-| Stars | 2,933 (checked 2026-10-05) |
-| Forks | 421 |
-| Open issues | 112 |
+| Stars | 2,939 (checked 2026-10-12) |
+| Forks | 422 |
+| Open issues | 113 |
 | Contributors | 130 |
-| Last push | 2026-09-01 (34 days before verification) |
+| Last push | 2026-09-01 (41 days before verification) |
 | Latest release | v0.5.16 (2026-04-30) |
 | Archived | no |
 | Fork | no |
@@ -83,9 +83,9 @@ sources:
 | documentation | 7.1 |
 | reproducibility | 7.0 |
 | security | 4.5 |
-| recency | 9.53 |
+| recency | 9.44 |
 | evidence | 5.0 |
-| **quality_score** (weighted) | **7.71** |
+| **quality_score** (weighted) | **7.7** |
 | **trust_score** | **7.42** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
@@ -110,7 +110,7 @@ security / recency / evidence 10% each. See
 ## Curated judgement
 
 _The following is **RECOMMENDATION**, not fact. It was written by a human/agent reviewer
-(on 2026-10-05) and must be
+(on 2026-10-12) and must be
 re-checked against your own constraints._
 
 **Recommended for**

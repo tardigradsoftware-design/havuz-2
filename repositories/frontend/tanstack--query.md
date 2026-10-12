@@ -4,17 +4,17 @@ title: "TanStack/query"
 domain: frontend
 summary: >-
   TanStack/query — ACTIVE, tier S,
-  50,395 stars, license MIT, quality 8.35/10, trust 8.19/10.
-  Verified against the GitHub API on 2026-10-05.
+  50,419 stars, license MIT, quality 8.35/10, trust 8.19/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["cache", "data-fetching", "frontend", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 6.96, "reproducibility": 8.0, "security": 4.5, "recency": 10.0, "evidence": 6.0}
   quality_score: 8.35
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > 🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `MIT` |
-| Stars | 50,395 (checked 2026-10-05) |
-| Forks | 4,249 |
-| Open issues | 166 |
-| Contributors | 461 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | release-2026-10-02-1005 (2026-10-02) |
+| Stars | 50,419 (checked 2026-10-12) |
+| Forks | 4,251 |
+| Open issues | 167 |
+| Contributors | 460 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | release-2026-10-11-1936 (2026-10-11) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://tanstack.com/query](https://tanstack.com/query) |

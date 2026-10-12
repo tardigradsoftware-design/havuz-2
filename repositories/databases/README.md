@@ -4,27 +4,27 @@
 # Databases & data access
 
 17 repositories · 17 usable · 0 archived or abandoned ·
-all facts verified against the GitHub API on 2026-10-05.
+all facts verified against the GitHub API on 2026-10-12.
 
 ## Highest trust
 
 | Repository | Stars | Tier | Status | License | Trust | Verified |
 |---|---|---|---|---|---|---|
-| [kysely-org/kysely](./kysely-org--kysely.md) | 14,260 | S | 🟢 ACTIVE | `MIT` | 9.05 | 2026-10-05 |
-| [prisma/orm](./prisma--orm.md) | 47,693 | S | 🟢 ACTIVE | `Apache-2.0` | 9.04 | 2026-10-05 |
-| [timescale/timescaledb](./timescale--timescaledb.md) | 23,644 | A | 🟢 ACTIVE | `NOASSERTION` | 8.9 | 2026-10-05 |
-| [redis/redis](./redis--redis.md) | 76,597 | A | 🟢 ACTIVE | `NOASSERTION` | 8.86 | 2026-10-05 |
-| [ClickHouse/ClickHouse](./clickhouse--clickhouse.md) | 50,256 | S | 🟢 ACTIVE | `Apache-2.0` | 8.77 | 2026-10-05 |
-| [duckdb/duckdb](./duckdb--duckdb.md) | 41,915 | S | 🟢 ACTIVE | `MIT` | 8.69 | 2026-10-05 |
-| [electric-sql/electric](./electric-sql--electric.md) | 10,384 | S | 🟢 ACTIVE | `Apache-2.0` | 8.47 | 2026-10-05 |
-| [pocketbase/pocketbase](./pocketbase--pocketbase.md) | 61,276 | S | 🟢 ACTIVE | `MIT` | 8.41 | 2026-10-05 |
-| [supabase/supabase](./supabase--supabase.md) | 111,104 | S | 🟢 ACTIVE | `Apache-2.0` | 8.34 | 2026-10-05 |
-| [drizzle-team/drizzle-orm](./drizzle-team--drizzle-orm.md) | 35,955 | S | 🟢 ACTIVE | `Apache-2.0` | 8.17 | 2026-10-05 |
-| [neondatabase/serverless](./neondatabase--serverless.md) | 549 | S | 🟢 ACTIVE | `MIT` | 8.04 | 2026-10-05 |
-| [pgvector/pgvector](./pgvector--pgvector.md) | 23,246 | A | 🟢 ACTIVE | `NOASSERTION` | 7.85 | 2026-10-05 |
-| [cockroachdb/cockroach](./cockroachdb--cockroach.md) | 32,550 | A | 🟢 ACTIVE | `NOASSERTION` | 7.67 | 2026-10-05 |
-| [mongodb/mongo](./mongodb--mongo.md) | 28,614 | A | 🟢 ACTIVE | `NOASSERTION` | 7.57 | 2026-10-05 |
-| [postgres/postgres](./postgres--postgres.md) | 22,284 | A | 🟢 ACTIVE | `NOASSERTION` | 7.14 | 2026-10-05 |
+| [kysely-org/kysely](./kysely-org--kysely.md) | 14,264 | S | 🟢 ACTIVE | `MIT` | 9.05 | 2026-10-12 |
+| [prisma/orm](./prisma--orm.md) | 47,696 | S | 🟢 ACTIVE | `Apache-2.0` | 9.04 | 2026-10-12 |
+| [timescale/timescaledb](./timescale--timescaledb.md) | 23,674 | A | 🟢 ACTIVE | `NOASSERTION` | 8.9 | 2026-10-12 |
+| [redis/redis](./redis--redis.md) | 76,745 | A | 🟢 ACTIVE | `NOASSERTION` | 8.86 | 2026-10-12 |
+| [ClickHouse/ClickHouse](./clickhouse--clickhouse.md) | 50,365 | S | 🟢 ACTIVE | `Apache-2.0` | 8.77 | 2026-10-12 |
+| [duckdb/duckdb](./duckdb--duckdb.md) | 42,122 | S | 🟢 ACTIVE | `MIT` | 8.69 | 2026-10-12 |
+| [electric-sql/electric](./electric-sql--electric.md) | 10,394 | S | 🟢 ACTIVE | `Apache-2.0` | 8.47 | 2026-10-12 |
+| [pocketbase/pocketbase](./pocketbase--pocketbase.md) | 61,366 | S | 🟢 ACTIVE | `MIT` | 8.41 | 2026-10-12 |
+| [supabase/supabase](./supabase--supabase.md) | 111,399 | S | 🟢 ACTIVE | `Apache-2.0` | 8.34 | 2026-10-12 |
+| [drizzle-team/drizzle-orm](./drizzle-team--drizzle-orm.md) | 36,003 | S | 🟢 ACTIVE | `Apache-2.0` | 8.17 | 2026-10-12 |
+| [pgvector/pgvector](./pgvector--pgvector.md) | 23,316 | A | 🟢 ACTIVE | `NOASSERTION` | 7.85 | 2026-10-12 |
+| [neondatabase/serverless](./neondatabase--serverless.md) | 552 | A | 🟢 ACTIVE | `MIT` | 7.74 | 2026-10-12 |
+| [mongodb/mongo](./mongodb--mongo.md) | 28,632 | A | 🟢 ACTIVE | `NOASSERTION` | 7.57 | 2026-10-12 |
+| [cockroachdb/cockroach](./cockroachdb--cockroach.md) | 32,564 | A | 🟢 ACTIVE | `NOASSERTION` | 7.47 | 2026-10-12 |
+| [postgres/postgres](./postgres--postgres.md) | 22,368 | A | 🟢 ACTIVE | `NOASSERTION` | 7.14 | 2026-10-12 |
 
 ## Do not adopt
 
@@ -41,7 +41,7 @@ all facts verified against the GitHub API on 2026-10-05.
 - [electric-sql/electric](./electric-sql--electric.md) — tier S, ACTIVE
 - [kysely-org/kysely](./kysely-org--kysely.md) — tier S, ACTIVE
 - [mongodb/mongo](./mongodb--mongo.md) — tier A, ACTIVE
-- [neondatabase/serverless](./neondatabase--serverless.md) — tier S, ACTIVE
+- [neondatabase/serverless](./neondatabase--serverless.md) — tier A, ACTIVE
 - [pgvector/pgvector](./pgvector--pgvector.md) — tier A, ACTIVE
 - [pocketbase/pocketbase](./pocketbase--pocketbase.md) — tier S, ACTIVE
 - [postgres/postgres](./postgres--postgres.md) — tier A, ACTIVE

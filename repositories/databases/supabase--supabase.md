@@ -4,17 +4,17 @@ title: "supabase/supabase"
 domain: databases
 summary: >-
   supabase/supabase — ACTIVE, tier S,
-  111,104 stars, license Apache-2.0, quality 8.49/10, trust 8.34/10.
-  Verified against the GitHub API on 2026-10-05.
+  111,399 stars, license Apache-2.0, quality 8.49/10, trust 8.34/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["auth", "baas", "databases", "github-repository", "postgres", "storage"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
   components: {"authority": 9.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.9, "reproducibility": 8.5, "security": 4.5, "recency": 10.0, "evidence": 6.0}
   quality_score: 8.49
@@ -22,7 +22,7 @@ scoring:
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,11 +61,11 @@ sources:
 | Official upstream | yes |
 | Language | TypeScript |
 | License | `Apache-2.0` |
-| Stars | 111,104 (checked 2026-10-05) |
-| Forks | 15,834 |
+| Stars | 111,399 (checked 2026-10-12) |
+| Forks | 16,573 |
 | Open issues | 1,144 |
 | Contributors | 399 |
-| Last push | 2026-10-05 (0 days before verification) |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | v1.26.08 (2026-08-07) |
 | Archived | no |
 | Fork | no |

@@ -4,25 +4,25 @@ title: "trycua/cua"
 domain: browser-automation
 summary: >-
   trycua/cua — ACTIVE, tier S,
-  28,101 stars, license MIT, quality 8.41/10, trust 7.62/10.
-  Verified against the GitHub API on 2026-10-05.
+  29,456 stars, license MIT, quality 8.47/10, trust 7.76/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: very-high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["browser-automation", "computer-use", "cross-os", "github-repository"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.11, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.0}
-  quality_score: 8.41
-  trust_score: 7.62
+  components: {"authority": 6.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 8.25, "reproducibility": 10.0, "security": 6.0, "recency": 10.0, "evidence": 8.5}
+  quality_score: 8.47
+  trust_score: 7.76
   tier: S
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: none
     confidence: very-high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -52,7 +52,7 @@ sources:
 >
 > Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -61,12 +61,12 @@ sources:
 | Official upstream | no |
 | Language | Rust |
 | License | `MIT` |
-| Stars | 28,101 (checked 2026-10-05) |
-| Forks | 1,993 |
-| Open issues | 1,039 |
-| Contributors | 140 |
-| Last push | 2026-10-05 (0 days before verification) |
-| Latest release | cua-spaces-v0.7.2 (2026-10-05) |
+| Stars | 29,456 (checked 2026-10-12) |
+| Forks | 2,097 |
+| Open issues | 1,172 |
+| Contributors | 144 |
+| Last push | 2026-10-12 (0 days before verification) |
+| Latest release | cua-sdk-v0.4.1 (2026-10-05) |
 | Archived | no |
 | Fork | no |
 | Homepage | [https://cua.ai](https://cua.ai) |
@@ -80,13 +80,13 @@ sources:
 | authority | 6.0 |
 | maintenance | 10.0 |
 | adoption | 10.0 |
-| documentation | 8.11 |
+| documentation | 8.25 |
 | reproducibility | 10.0 |
 | security | 6.0 |
 | recency | 10.0 |
-| evidence | 8.0 |
-| **quality_score** (weighted) | **8.41** |
-| **trust_score** | **7.62** |
+| evidence | 8.5 |
+| **quality_score** (weighted) | **8.47** |
+| **trust_score** | **7.76** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
 security / recency / evidence 10% each. See
@@ -105,7 +105,7 @@ security / recency / evidence 10% each. See
 | changelog | no |
 | contributing | yes |
 | root entries | yes |
-| README size | 19,334 bytes |
+| README size | 20,988 bytes |
 
 ## Curated judgement
 

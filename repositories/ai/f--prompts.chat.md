@@ -4,25 +4,25 @@ title: "f/prompts.chat"
 domain: ai
 summary: >-
   f/prompts.chat — ACTIVE, tier A,
-  172,059 stars, license NOASSERTION, quality 7.6/10, trust 6.67/10.
-  Verified against the GitHub API on 2026-10-05.
+  172,683 stars, license NOASSERTION, quality 7.61/10, trust 6.67/10.
+  Verified against the GitHub API on 2026-10-12.
 status: active
 confidence: high
 claim_type: fact
 evidence_level: verified-github-api
 tags: ["ai", "catalog", "github-repository", "prompting"]
 version: 1.0.0
-updated: 2026-10-05
-verified_at: 2026-10-05
-expires_at: 2026-11-19
+updated: 2026-10-12
+verified_at: 2026-10-12
+expires_at: 2026-11-26
 scoring:
-  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.45, "reproducibility": 7.1, "security": 5.5, "recency": 9.97, "evidence": 6.0}
-  quality_score: 7.6
+  components: {"authority": 5.0, "maintenance": 10.0, "adoption": 10.0, "documentation": 7.45, "reproducibility": 7.1, "security": 5.5, "recency": 10.0, "evidence": 6.0}
+  quality_score: 7.61
   trust_score: 6.67
   tier: A
   maturity: production-grade
   scored_by: scripts/lib/scoring.py
-  scored_at: 2026-10-05
+  scored_at: 2026-10-12
 provenance:
   content_class: reference
   generated_by: scripts/generate-index/generate_repository_cards.py
@@ -36,11 +36,11 @@ sources:
     license_risk: custom-license-review-before-vendoring
     confidence: high
     claim_type: fact
-    verified_at: 2026-10-05
+    verified_at: 2026-10-12
 ---
 
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
-     Source of truth: metadata/repositories.json (GitHub API, 2026-10-05)
+     Source of truth: metadata/repositories.json (GitHub API, 2026-10-12)
      Curated judgement: scripts/update/curation.json
      Regenerate: python3 scripts/generate-index/generate_repository_cards.py -->
 
@@ -53,12 +53,12 @@ sources:
 > f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 
 > ⚠️ **LICENSE RISK — `custom-license-review-before-vendoring`.** GitHub could not classify
-> this license (`NOASSERTION`) on 2026-10-05, so its terms are unknown to this repository. Read the
+> this license (`NOASSERTION`) on 2026-10-12, so its terms are unknown to this repository. Read the
 > upstream `LICENSE` yourself **before** vendoring, copying or redistributing anything from it —
 > a custom license may permit, restrict or require attribution in ways a standard SPDX id would
 > have made obvious.
 
-## Facts (verified 2026-10-05 via the GitHub API)
+## Facts (verified 2026-10-12 via the GitHub API)
 
 | Field | Value |
 |---|---|
@@ -67,11 +67,11 @@ sources:
 | Official upstream | no |
 | Language | HTML |
 | License | `NOASSERTION` |
-| Stars | 172,059 (checked 2026-10-05) |
-| Forks | 22,030 |
-| Open issues | 84 |
-| Contributors | 280 |
-| Last push | 2026-10-03 (2 days before verification) |
+| Stars | 172,683 (checked 2026-10-12) |
+| Forks | 22,147 |
+| Open issues | 86 |
+| Contributors | 302 |
+| Last push | 2026-10-12 (0 days before verification) |
 | Latest release | — (no release) |
 | Archived | no |
 | Fork | no |
@@ -89,9 +89,9 @@ sources:
 | documentation | 7.45 |
 | reproducibility | 7.1 |
 | security | 5.5 |
-| recency | 9.97 |
+| recency | 10.0 |
 | evidence | 6.0 |
-| **quality_score** (weighted) | **7.6** |
+| **quality_score** (weighted) | **7.61** |
 | **trust_score** | **6.67** |
 
 Weights: authority 20%, maintenance 15%, adoption 15%, documentation / reproducibility /
